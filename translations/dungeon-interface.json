@@ -1,0 +1,4698 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "interface.dungeon.000",
+      "family": "dungeon",
+      "rows": [
+        0,
+        32
+      ],
+      "offset": "0x001B3DB1",
+      "pointer_offsets": [
+        "0x001B3F60",
+        "0x001B3FE0"
+      ],
+      "japanese": "謎のほら穴",
+      "source_hex": "fcd7c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fcd7",
+          "text": "謎",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3db1",
+      "english": "Mysterious cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.001",
+      "family": "dungeon",
+      "rows": [
+        1,
+        33
+      ],
+      "offset": "0x001B3DB9",
+      "pointer_offsets": [
+        "0x001B3F64",
+        "0x001B3FE4"
+      ],
+      "japanese": "いざないの洞くつ",
+      "source_hex": "b2f8dfc5b2c9fccbb8c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8df",
+          "text": "ざ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c5b2c9",
+          "text": "ないの",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fccb",
+          "text": "洞",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8c2",
+          "text": "くつ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3db9",
+      "english": "Beckoning cavern",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.002",
+      "family": "dungeon",
+      "rows": [
+        2,
+        34
+      ],
+      "offset": "0x001B3DC4",
+      "pointer_offsets": [
+        "0x001B3F68",
+        "0x001B3FE8"
+      ],
+      "japanese": "南海の地下道",
+      "source_hex": "fcd8fa2cc9fc77f9f5fccd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fcd8fa2c",
+          "text": "南海",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc77f9f5fccd",
+          "text": "地下道",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3dc4",
+      "english": "South Sea tunnel",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.003",
+      "family": "dungeon",
+      "rows": [
+        3,
+        35
+      ],
+      "offset": "0x001B3DD0",
+      "pointer_offsets": [
+        "0x001B3F6C",
+        "0x001B3FEC"
+      ],
+      "japanese": "さんご礁の神殿　広間",
+      "source_hex": "bbddf8ddfbafc9fbd0fca8f880fae3fa4c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "bbdd",
+          "text": "さん",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8ddfbaf",
+          "text": "ご礁",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbd0fca8f880fae3fa4c",
+          "text": "神殿　広間",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3dd0",
+      "english": "Coral temple - Hall",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.004",
+      "family": "dungeon",
+      "rows": [
+        4,
+        36
+      ],
+      "offset": "0x001B3DE2",
+      "pointer_offsets": [
+        "0x001B3F70",
+        "0x001B3FF0"
+      ],
+      "japanese": "さんご礁の神殿　回廊",
+      "source_hex": "bbddf8ddfbafc9fbd0fca8f880fa26fdfa00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "bbdd",
+          "text": "さん",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8ddfbaf",
+          "text": "ご礁",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbd0fca8f880fa26fdfa",
+          "text": "神殿　回廊",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3de2",
+      "english": "Coral temple - Corridors",
+      "display": "Coral corridors",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.005",
+      "family": "dungeon",
+      "rows": [
+        5,
+        37
+      ],
+      "offset": "0x001B3DF4",
+      "pointer_offsets": [
+        "0x001B3F74",
+        "0x001B3FF4"
+      ],
+      "japanese": "海底山地　ふもと",
+      "source_hex": "fa2cfc99fb3cfc77f880ccd3c400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fa2cfc99fb3cfc77f880",
+          "text": "海底山地　",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ccd3c4",
+          "text": "ふもと",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3df4",
+      "english": "Seabed mountain - Foothills",
+      "display": "Seabed foothills",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.006",
+      "family": "dungeon",
+      "rows": [
+        6,
+        38
+      ],
+      "offset": "0x001B3E02",
+      "pointer_offsets": [
+        "0x001B3F78",
+        "0x001B3FF8"
+      ],
+      "japanese": "海竜島の遺跡",
+      "source_hex": "fa2cfddcfcb7c9f9ccfbf700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fa2cfddcfcb7",
+          "text": "海竜島",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f9ccfbf7",
+          "text": "遺跡",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e02",
+      "english": "Sea Dragon Isle ruins",
+      "display": "Sea Dragon ruins",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.007",
+      "family": "dungeon",
+      "rows": [
+        7,
+        39
+      ],
+      "offset": "0x001B3E0E",
+      "pointer_offsets": [
+        "0x001B3F7C",
+        "0x001B3FFC"
+      ],
+      "japanese": "化石のほら穴",
+      "source_hex": "f9f6fbf2c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9f6fbf2",
+          "text": "化石",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e0e",
+      "english": "Fossil cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.008",
+      "family": "dungeon",
+      "rows": [
+        8,
+        40
+      ],
+      "offset": "0x001B3E18",
+      "pointer_offsets": [
+        "0x001B3F80",
+        "0x001B4000"
+      ],
+      "japanese": "灯台の地下室",
+      "source_hex": "fcbcfc5dc9fc77f9f5fb6600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fcbcfc5d",
+          "text": "灯台",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc77f9f5fb66",
+          "text": "地下室",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e18",
+      "english": "Lighthouse basement",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.009",
+      "family": "dungeon",
+      "rows": [
+        9,
+        41
+      ],
+      "offset": "0x001B3E24",
+      "pointer_offsets": [
+        "0x001B3F84",
+        "0x001B4004"
+      ],
+      "japanese": "遺跡の大空洞　南",
+      "source_hex": "f9ccfbf7c9fc5efa9afccbf880fcd800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9ccfbf7",
+          "text": "遺跡",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc5efa9afccbf880fcd8",
+          "text": "大空洞　南",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e24",
+      "english": "Great Ruins cavern - South",
+      "display": "Ruins cavern - S",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.010",
+      "family": "dungeon",
+      "rows": [
+        10,
+        42
+      ],
+      "offset": "0x001B3E34",
+      "pointer_offsets": [
+        "0x001B3F88",
+        "0x001B4008"
+      ],
+      "japanese": "遺跡の大空洞　北",
+      "source_hex": "f9ccfbf7c9fc5efa9afccbf880fd8400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9ccfbf7",
+          "text": "遺跡",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc5efa9afccbf880fd84",
+          "text": "大空洞　北",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e34",
+      "english": "Great Ruins cavern - North",
+      "display": "Ruins cavern - N",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.011",
+      "family": "dungeon",
+      "rows": [
+        11,
+        43
+      ],
+      "offset": "0x001B3E44",
+      "pointer_offsets": [
+        "0x001B3F8C",
+        "0x001B400C"
+      ],
+      "japanese": "山脈の尾根",
+      "source_hex": "fb3cfd91c9fd33faff00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb3cfd91",
+          "text": "山脈",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd33faff",
+          "text": "尾根",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e44",
+      "english": "Mountain ridge",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.012",
+      "family": "dungeon",
+      "rows": [
+        12,
+        44
+      ],
+      "offset": "0x001B3E4E",
+      "pointer_offsets": [
+        "0x001B3F90",
+        "0x001B4010"
+      ],
+      "japanese": "魔物のほら穴",
+      "source_hex": "fd86fd55c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd86fd55",
+          "text": "魔物",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e4e",
+      "english": "Monster cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.013",
+      "family": "dungeon",
+      "rows": [
+        13,
+        45
+      ],
+      "offset": "0x001B3E58",
+      "pointer_offsets": [
+        "0x001B3F94",
+        "0x001B4014"
+      ],
+      "japanese": "神々の道",
+      "source_hex": "fbd0f88ac9fccd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbd0f88a",
+          "text": "神々",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fccd",
+          "text": "道",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e58",
+      "english": "Path of the gods",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.014",
+      "family": "dungeon",
+      "rows": [
+        14,
+        46
+      ],
+      "offset": "0x001B3E60",
+      "pointer_offsets": [
+        "0x001B3F98",
+        "0x001B4018"
+      ],
+      "japanese": "密林の墓場",
+      "source_hex": "fd90fde6c9fd6cfbbb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd90fde6",
+          "text": "密林",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd6cfbbb",
+          "text": "墓場",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e60",
+      "english": "Jungle graveyard",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.015",
+      "family": "dungeon",
+      "rows": [
+        15,
+        47
+      ],
+      "offset": "0x001B3E6A",
+      "pointer_offsets": [
+        "0x001B3F9C",
+        "0x001B401C"
+      ],
+      "japanese": "密林島のほら穴",
+      "source_hex": "fd90fde6fcb7c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd90fde6fcb7",
+          "text": "密林島",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e6a",
+      "english": "Jungle Island cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.016",
+      "family": "dungeon",
+      "rows": [
+        16,
+        48
+      ],
+      "offset": "0x001B3E76",
+      "pointer_offsets": [
+        "0x001B3FA0",
+        "0x001B4020"
+      ],
+      "japanese": "密林島の発掘場",
+      "source_hex": "fd90fde6fcb7c9fcfafa9bfbbb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd90fde6fcb7",
+          "text": "密林島",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcfafa9bfbbb",
+          "text": "発掘場",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e76",
+      "english": "Jungle Island dig site",
+      "display": "Jungle dig site",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.017",
+      "family": "dungeon",
+      "rows": [
+        17,
+        49
+      ],
+      "offset": "0x001B3E84",
+      "pointer_offsets": [
+        "0x001B3FA4",
+        "0x001B4024"
+      ],
+      "japanese": "邪悪な風穴",
+      "source_hex": "fb70f9bdc5fd4dfaaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb70f9bd",
+          "text": "邪悪",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c5",
+          "text": "な",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd4dfaaf",
+          "text": "風穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e84",
+      "english": "Evil wind cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.018",
+      "family": "dungeon",
+      "rows": [
+        18
+      ],
+      "offset": "0x001B3E8E",
+      "pointer_offsets": [
+        "0x001B3FA8"
+      ],
+      "japanese": "異世界の迷宮",
+      "source_hex": "f9c7fbddfa2dc9fd9cfa7100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9c7fbddfa2d",
+          "text": "異世界",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd9cfa71",
+          "text": "迷宮",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e8e",
+      "english": "Otherworld labyrinth",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.019",
+      "family": "dungeon",
+      "rows": [
+        19,
+        51
+      ],
+      "offset": "0x001B3E9A",
+      "pointer_offsets": [
+        "0x001B3FAC",
+        "0x001B402C"
+      ],
+      "japanese": "暗黒の間",
+      "source_hex": "f9bffaf5c9fa4c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9bffaf5",
+          "text": "暗黒",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa4c",
+          "text": "間",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3e9a",
+      "english": "Dark chamber",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.020",
+      "family": "dungeon",
+      "rows": [
+        20
+      ],
+      "offset": "0x001B3EA2",
+      "pointer_offsets": [
+        "0x001B3FB0"
+      ],
+      "japanese": "封印の洞くつ",
+      "source_hex": "fd4cf9d1c9fccbb8c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd4cf9d1",
+          "text": "封印",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fccb",
+          "text": "洞",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8c2",
+          "text": "くつ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3ea2",
+      "english": "Sealed cavern",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.021",
+      "family": "dungeon",
+      "rows": [
+        21
+      ],
+      "offset": "0x001B3EAC",
+      "pointer_offsets": [
+        "0x001B3FB4"
+      ],
+      "japanese": "不思議の宝物庫",
+      "source_hex": "fd3ffb4bfa6ac9fd71fd55facd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd3ffb4bfa6a",
+          "text": "不思議",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd71fd55facd",
+          "text": "宝物庫",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3eac",
+      "english": "Mysterious treasury",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.022",
+      "family": "dungeon",
+      "rows": [
+        22,
+        54
+      ],
+      "offset": "0x001B3EBA",
+      "pointer_offsets": [
+        "0x001B3FB8",
+        "0x001B4038"
+      ],
+      "japanese": "試練の道",
+      "source_hex": "fb57fdf4c9fccd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb57fdf4",
+          "text": "試練",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fccd",
+          "text": "道",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3eba",
+      "english": "Path of trials",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.023",
+      "family": "dungeon",
+      "rows": [
+        23,
+        55
+      ],
+      "offset": "0x001B3EC2",
+      "pointer_offsets": [
+        "0x001B3FBC",
+        "0x001B403C"
+      ],
+      "japanese": "海底山地　山頂部",
+      "source_hex": "fa2cfc99fb3cfc77f880fb3cfc8efd4b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fa2cfc99fb3cfc77f880fb3cfc8efd4b",
+          "text": "海底山地　山頂部",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3ec2",
+      "english": "Seabed mountain - Summit",
+      "display": "Seabed summit",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full English name retained. Display abbreviation fits the native 120-pixel header, including the numbered puzzle suffix."
+    },
+    {
+      "id": "interface.dungeon.024",
+      "family": "dungeon",
+      "rows": [
+        24,
+        56
+      ],
+      "offset": "0x001B3ED3",
+      "pointer_offsets": [
+        "0x001B3FC0",
+        "0x001B4040"
+      ],
+      "japanese": "孤島のほら穴",
+      "source_hex": "facbfcb7c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "facbfcb7",
+          "text": "孤島",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3ed3",
+      "english": "Distant Isle cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.025",
+      "family": "dungeon",
+      "rows": [
+        25,
+        57
+      ],
+      "offset": "0x001B3EDD",
+      "pointer_offsets": [
+        "0x001B3FC4",
+        "0x001B4044"
+      ],
+      "japanese": "仙人のほら穴",
+      "source_hex": "fbfefbd5c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbfefbd5",
+          "text": "仙人",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3edd",
+      "english": "Hermit's cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.026",
+      "family": "dungeon",
+      "rows": [
+        26,
+        58
+      ],
+      "offset": "0x001B3EE7",
+      "pointer_offsets": [
+        "0x001B3FC8",
+        "0x001B4048"
+      ],
+      "japanese": "モンスター闘技場",
+      "source_hex": "f97bf989f952f958f88bfcc6fa67fbbb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f97bf989f952f958f88bfcc6fa67fbbb",
+          "text": "モンスター闘技場",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3ee7",
+      "english": "Monster arena",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.027",
+      "family": "dungeon",
+      "rows": [
+        27,
+        59
+      ],
+      "offset": "0x001B3EF8",
+      "pointer_offsets": [
+        "0x001B3FCC",
+        "0x001B404C"
+      ],
+      "japanese": "賢者のほら穴",
+      "source_hex": "fabdfb6ec9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fabdfb6e",
+          "text": "賢者",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3ef8",
+      "english": "Sage's cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.028",
+      "family": "dungeon",
+      "rows": [
+        28,
+        60
+      ],
+      "offset": "0x001B3F02",
+      "pointer_offsets": [
+        "0x001B3FD0",
+        "0x001B4050"
+      ],
+      "japanese": "いけにえのほら穴",
+      "source_hex": "b2b9c6b4c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "b2b9c6b4c9ced7",
+          "text": "いけにえのほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f02",
+      "english": "Sacrificial cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.029",
+      "family": "dungeon",
+      "rows": [
+        29,
+        61
+      ],
+      "offset": "0x001B3F0C",
+      "pointer_offsets": [
+        "0x001B3FD4",
+        "0x001B4054"
+      ],
+      "japanese": "バレイナのほら穴",
+      "source_hex": "f969f985f93df963c9ced7faaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f969f985f93df963",
+          "text": "バレイナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9ced7",
+          "text": "のほら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f0c",
+      "english": "Baleina cave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Baleina is a provisional romanization of バレイナ; verify consistently when the island and settlements are translated."
+    },
+    {
+      "id": "interface.dungeon.030",
+      "family": "dungeon",
+      "rows": [
+        30,
+        62
+      ],
+      "offset": "0x001B3F1A",
+      "pointer_offsets": [
+        "0x001B3FD8",
+        "0x001B4058"
+      ],
+      "japanese": "魔物の巣",
+      "source_hex": "fd86fd55c9fc3900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd86fd55",
+          "text": "魔物",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc39",
+          "text": "巣",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f1a",
+      "english": "Monster nest",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.031",
+      "family": "dungeon",
+      "rows": [
+        31
+      ],
+      "offset": "0x001B3F22",
+      "pointer_offsets": [
+        "0x001B3FDC"
+      ],
+      "japanese": "まぼろしの洞くつ",
+      "source_hex": "cff925dbbcc9fccbb8c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "cf",
+          "text": "ま",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f925",
+          "text": "ぼ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dbbcc9",
+          "text": "ろしの",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fccb",
+          "text": "洞",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8c2",
+          "text": "くつ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f22",
+      "english": "Illusion cavern",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.050",
+      "family": "dungeon",
+      "rows": [
+        50
+      ],
+      "offset": "0x001B3F32",
+      "pointer_offsets": [
+        "0x001B4028"
+      ],
+      "japanese": "異世界の試練",
+      "source_hex": "f9c7fbddfa2dc9fb57fdf400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9c7fbddfa2d",
+          "text": "異世界",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb57fdf4",
+          "text": "試練",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f32",
+      "english": "Otherworld trial",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.052",
+      "family": "dungeon",
+      "rows": [
+        52
+      ],
+      "offset": "0x001B3F3E",
+      "pointer_offsets": [
+        "0x001B4030"
+      ],
+      "japanese": "封印の試練",
+      "source_hex": "fd4cf9d1c9fb57fdf400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd4cf9d1",
+          "text": "封印",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb57fdf4",
+          "text": "試練",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f3e",
+      "english": "Trial of sealing",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.053",
+      "family": "dungeon",
+      "rows": [
+        53
+      ],
+      "offset": "0x001B3F48",
+      "pointer_offsets": [
+        "0x001B4034"
+      ],
+      "japanese": "新界の試練",
+      "source_hex": "fbcbfa2dc9fb57fdf400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbcbfa2d",
+          "text": "新界",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb57fdf4",
+          "text": "試練",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f48",
+      "english": "New World trial",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.dungeon.063",
+      "family": "dungeon",
+      "rows": [
+        63
+      ],
+      "offset": "0x001B3F52",
+      "pointer_offsets": [
+        "0x001B405C"
+      ],
+      "japanese": "まぼろしの試練",
+      "source_hex": "cff925dbbcc9fb57fdf400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "cf",
+          "text": "ま",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f925",
+          "text": "ぼ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dbbcc9",
+          "text": "ろしの",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb57fdf4",
+          "text": "試練",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b3f52",
+      "english": "Trial of illusion",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.000",
+      "family": "trap",
+      "rows": [
+        0
+      ],
+      "offset": "0x001B4140",
+      "pointer_offsets": [
+        "0x001B421C"
+      ],
+      "japanese": "転び石",
+      "source_hex": "fca5f8fcfbf200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fca5f8fcfbf2",
+          "text": "転び石",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4140",
+      "english": "Trip stone",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.001",
+      "family": "trap",
+      "rows": [
+        1
+      ],
+      "offset": "0x001B4147",
+      "pointer_offsets": [
+        "0x001B4220"
+      ],
+      "japanese": "サビワナ",
+      "source_hex": "f94ef96cf987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f94ef96cf987f963",
+          "text": "サビワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4147",
+      "english": "Rust trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.002",
+      "family": "trap",
+      "rows": [
+        2
+      ],
+      "offset": "0x001B4150",
+      "pointer_offsets": [
+        "0x001B4224"
+      ],
+      "japanese": "装備はずしのワナ",
+      "source_hex": "fc3efd32caf8e3bcc9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fc3efd32",
+          "text": "装備",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca",
+          "text": "は",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e3",
+          "text": "ず",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bcc9",
+          "text": "しの",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4150",
+      "english": "Unequipping trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.003",
+      "family": "trap",
+      "rows": [
+        3
+      ],
+      "offset": "0x001B415E",
+      "pointer_offsets": [
+        "0x001B4228"
+      ],
+      "japanese": "泥のワナ",
+      "source_hex": "fc9cc9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fc9c",
+          "text": "泥",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b415e",
+      "english": "Mud trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.004",
+      "family": "trap",
+      "rows": [
+        4
+      ],
+      "offset": "0x001B4166",
+      "pointer_offsets": [
+        "0x001B422C"
+      ],
+      "japanese": "召喚のワナ",
+      "source_hex": "fba1fa42c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fba1fa42",
+          "text": "召喚",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4166",
+      "english": "Summoning trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.005",
+      "family": "trap",
+      "rows": [
+        5
+      ],
+      "offset": "0x001B4170",
+      "pointer_offsets": [
+        "0x001B4230"
+      ],
+      "japanese": "落とし穴",
+      "source_hex": "fdccc4bcfaaf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fdcc",
+          "text": "落",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c4bc",
+          "text": "とし",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faaf",
+          "text": "穴",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4170",
+      "english": "Pitfall",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.006",
+      "family": "trap",
+      "rows": [
+        6
+      ],
+      "offset": "0x001B4177",
+      "pointer_offsets": [
+        "0x001B4234"
+      ],
+      "japanese": "ワープ",
+      "source_hex": "f987f88bf97000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f987f88bf970",
+          "text": "ワープ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4177",
+      "english": "Warp",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.007",
+      "family": "trap",
+      "rows": [
+        7
+      ],
+      "offset": "0x001B417E",
+      "pointer_offsets": [
+        "0x001B4238"
+      ],
+      "japanese": "鉄球のワナ",
+      "source_hex": "fca1fa78c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fca1fa78",
+          "text": "鉄球",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b417e",
+      "english": "Iron ball trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.008",
+      "family": "trap",
+      "rows": [
+        8
+      ],
+      "offset": "0x001B4188",
+      "pointer_offsets": [
+        "0x001B423C"
+      ],
+      "japanese": "回転盤",
+      "source_hex": "fa26fca5fd2700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fa26fca5fd27",
+          "text": "回転盤",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4188",
+      "english": "Spinning tile",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.009",
+      "family": "trap",
+      "rows": [
+        9
+      ],
+      "offset": "0x001B418F",
+      "pointer_offsets": [
+        "0x001B4240"
+      ],
+      "japanese": "睡眠のワナ",
+      "source_hex": "fbdafd93c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbdafd93",
+          "text": "睡眠",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b418f",
+      "english": "Sleep trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.010",
+      "family": "trap",
+      "rows": [
+        10
+      ],
+      "offset": "0x001B4199",
+      "pointer_offsets": [
+        "0x001B4244"
+      ],
+      "japanese": "鈍足のワナ",
+      "source_hex": "fcd5fc47c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fcd5fc47",
+          "text": "鈍足",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4199",
+      "english": "Slowing trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.011",
+      "family": "trap",
+      "rows": [
+        11
+      ],
+      "offset": "0x001B41A3",
+      "pointer_offsets": [
+        "0x001B4248"
+      ],
+      "japanese": "封印のワナ",
+      "source_hex": "fd4cf9d1c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd4cf9d1",
+          "text": "封印",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41a3",
+      "english": "Sealing trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.012",
+      "family": "trap",
+      "rows": [
+        12
+      ],
+      "offset": "0x001B41AD",
+      "pointer_offsets": [
+        "0x001B424C"
+      ],
+      "japanese": "毒矢のワナ",
+      "source_hex": "fcd1fda9c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fcd1fda9",
+          "text": "毒矢",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41ad",
+      "english": "Poison arrow trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.013",
+      "family": "trap",
+      "rows": [
+        13
+      ],
+      "offset": "0x001B41B7",
+      "pointer_offsets": [
+        "0x001B4250"
+      ],
+      "japanese": "地雷",
+      "source_hex": "fc77fdcb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fc77fdcb",
+          "text": "地雷",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41b7",
+      "english": "Land mine",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.014",
+      "family": "trap",
+      "rows": [
+        14
+      ],
+      "offset": "0x001B41BC",
+      "pointer_offsets": [
+        "0x001B4254"
+      ],
+      "japanese": "大型地雷",
+      "source_hex": "fc5efaa0fc77fdcb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fc5efaa0fc77fdcb",
+          "text": "大型地雷",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41bc",
+      "english": "Large land mine",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.015",
+      "family": "trap",
+      "rows": [
+        15
+      ],
+      "offset": "0x001B41C5",
+      "pointer_offsets": [
+        "0x001B4258"
+      ],
+      "japanese": "弱化のワナ",
+      "source_hex": "fb73f9f6c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb73f9f6",
+          "text": "弱化",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41c5",
+      "english": "Weakening trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.016",
+      "family": "trap",
+      "rows": [
+        16
+      ],
+      "offset": "0x001B41CF",
+      "pointer_offsets": [
+        "0x001B425C"
+      ],
+      "japanese": "落石のワナ",
+      "source_hex": "fdccfbf2c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fdccfbf2",
+          "text": "落石",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41cf",
+      "english": "Rockfall trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.017",
+      "family": "trap",
+      "rows": [
+        17
+      ],
+      "offset": "0x001B41D9",
+      "pointer_offsets": [
+        "0x001B4260"
+      ],
+      "japanese": "木の矢のワナ",
+      "source_hex": "fda0c9fda9c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fda0",
+          "text": "木",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fda9",
+          "text": "矢",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41d9",
+      "english": "Wooden arrow trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.018",
+      "family": "trap",
+      "rows": [
+        18
+      ],
+      "offset": "0x001B41E4",
+      "pointer_offsets": [
+        "0x001B4264"
+      ],
+      "japanese": "鉄の矢のワナ",
+      "source_hex": "fca1c9fda9c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fca1",
+          "text": "鉄",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fda9",
+          "text": "矢",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41e4",
+      "english": "Iron arrow trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.019",
+      "family": "trap",
+      "rows": [
+        19
+      ],
+      "offset": "0x001B41EF",
+      "pointer_offsets": [
+        "0x001B4268"
+      ],
+      "japanese": "モンスター化のワナ",
+      "source_hex": "f97bf989f952f958f88bf9f6c9f987f96300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f97bf989f952f958f88bf9f6",
+          "text": "モンスター化",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b41ef",
+      "english": "Monster transformation trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.020",
+      "family": "trap",
+      "rows": [
+        20
+      ],
+      "offset": "0x001B4201",
+      "pointer_offsets": [
+        "0x001B426C"
+      ],
+      "japanese": "くだり階段",
+      "source_hex": "b8f8e9d8fa31fc7300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "b8",
+          "text": "く",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e9",
+          "text": "だ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d8",
+          "text": "り",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa31fc73",
+          "text": "階段",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4201",
+      "english": "Stairs down",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.021",
+      "family": "trap",
+      "rows": [
+        21
+      ],
+      "offset": "0x001B420A",
+      "pointer_offsets": [
+        "0x001B4270"
+      ],
+      "japanese": "のぼり階段",
+      "source_hex": "c9f925d8fa31fc7300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f925",
+          "text": "ぼ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d8",
+          "text": "り",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa31fc73",
+          "text": "階段",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b420a",
+      "english": "Stairs up",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.trap.022",
+      "family": "trap",
+      "rows": [
+        22
+      ],
+      "offset": "0x001B4213",
+      "pointer_offsets": [
+        "0x001B4274"
+      ],
+      "japanese": "旅の扉",
+      "source_hex": "fddec9fd2b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fdde",
+          "text": "旅",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd2b",
+          "text": "扉",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4213",
+      "english": "Teleportal",
+      "display": null,
+      "notes": "Modern series term: Dragon Quest Tact publisher page uses teleportal; exact 旅の扉 identity corroborated by secondary DQ Wiki. See interface terminology review."
+    },
+    {
+      "id": "interface.search.000",
+      "family": "search",
+      "rows": [
+        0
+      ],
+      "offset": "0x0086F680",
+      "pointer_offsets": [
+        "0x0086F4D8"
+      ],
+      "japanese": "$tは　宝箱を　開けた！",
+      "source_hex": "247482cd814095f394a082f081408a4a82af82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814095f394a082f081408a4a82af82bd8149",
+          "text": "は　宝箱を　開けた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f680",
+      "english": "$t opens the treasure chest!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.001",
+      "family": "search",
+      "rows": [
+        1
+      ],
+      "offset": "0x0086F668",
+      "pointer_offsets": [
+        "0x0086F4DC"
+      ],
+      "japanese": "$tは　宝箱を　調べた。",
+      "source_hex": "247482cd814095f394a082f0814092b282d782bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814095f394a082f0814092b282d782bd8142",
+          "text": "は　宝箱を　調べた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f668",
+      "english": "$t searches the treasure chest.",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.002",
+      "family": "search",
+      "rows": [
+        2
+      ],
+      "offset": "0x0086F644",
+      "pointer_offsets": [
+        "0x0086F4E0"
+      ],
+      "japanese": "しかし　宝箱は　からっぽだった…。",
+      "source_hex": "82b582a982b5814095f394a082cd814082a982e782c182db82be82c182bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814095f394a082cd814082a982e782c182db82be82c182bd81638142",
+          "text": "しかし　宝箱は　からっぽだった…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f644",
+      "english": "But the treasure chest is empty...",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.003",
+      "family": "search",
+      "rows": [
+        3,
+        4
+      ],
+      "offset": "0x0086F624",
+      "pointer_offsets": [
+        "0x0086F4E4",
+        "0x0086F4E8"
+      ],
+      "japanese": "$tは　タルを　のぞきこんだ！",
+      "source_hex": "247482cd8140835e838b82f0814082cc82bc82ab82b182f182be814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140835e838b82f0814082cc82bc82ab82b182f182be8149",
+          "text": "は　タルを　のぞきこんだ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f624",
+      "english": "$t peers into the barrel!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.005",
+      "family": "search",
+      "rows": [
+        5,
+        8,
+        11,
+        14
+      ],
+      "offset": "0x0086F5FC",
+      "pointer_offsets": [
+        "0x0086F4EC",
+        "0x0086F4F8",
+        "0x0086F504",
+        "0x0086F510"
+      ],
+      "japanese": "しかし　なにも　見つからなかった…。",
+      "source_hex": "82b582a982b5814082c882c982e081408ca982c282a982e782c882a982c182bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082c882c982e081408ca982c282a982e782c882a982c182bd81638142",
+          "text": "しかし　なにも　見つからなかった…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f5fc",
+      "english": "But nothing was found...",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.006",
+      "family": "search",
+      "rows": [
+        6,
+        7
+      ],
+      "offset": "0x0086F5DC",
+      "pointer_offsets": [
+        "0x0086F4F0",
+        "0x0086F4F4"
+      ],
+      "japanese": "$tは　ツボを　のぞきこんだ！",
+      "source_hex": "247482cd81408363837b82f0814082cc82bc82ab82b182f182be814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd81408363837b82f0814082cc82bc82ab82b182f182be8149",
+          "text": "は　ツボを　のぞきこんだ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f5dc",
+      "english": "$t peers into the pot!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.009",
+      "family": "search",
+      "rows": [
+        9,
+        10
+      ],
+      "offset": "0x0086F5C0",
+      "pointer_offsets": [
+        "0x0086F4FC",
+        "0x0086F500"
+      ],
+      "japanese": "$tは　タンスを　調べた！",
+      "source_hex": "247482cd8140835e8393835882f0814092b282d782bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140835e8393835882f0814092b282d782bd8149",
+          "text": "は　タンスを　調べた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f5c0",
+      "english": "$t searches the dresser!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.012",
+      "family": "search",
+      "rows": [
+        12,
+        13
+      ],
+      "offset": "0x0086F5A4",
+      "pointer_offsets": [
+        "0x0086F508",
+        "0x0086F50C"
+      ],
+      "japanese": "$tは　戸だなを　調べた！",
+      "source_hex": "247482cd81408ccb82be82c882f0814092b282d782bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd81408ccb82be82c882f0814092b282d782bd8149",
+          "text": "は　戸だなを　調べた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f5a4",
+      "english": "$t searches the cupboard!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.015",
+      "family": "search",
+      "rows": [
+        15,
+        16
+      ],
+      "offset": "0x0086F588",
+      "pointer_offsets": [
+        "0x0086F514",
+        "0x0086F518"
+      ],
+      "japanese": "$tは　本だなを　調べた。",
+      "source_hex": "247482cd8140967b82be82c882f0814092b282d782bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140967b82be82c882f0814092b282d782bd8142",
+          "text": "は　本だなを　調べた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f588",
+      "english": "$t searches the bookshelf.",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.017",
+      "family": "search",
+      "rows": [
+        17
+      ],
+      "offset": "0x0086F564",
+      "pointer_offsets": [
+        "0x0086F51C"
+      ],
+      "japanese": "とくに　変わった本は　ないようだ。",
+      "source_hex": "82c682ad82c9814095cf82ed82c182bd967b82cd814082c882a282e682a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c682ad82c9814095cf82ed82c182bd967b82cd814082c882a282e682a482be8142",
+          "text": "とくに　変わった本は　ないようだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f564",
+      "english": "None of the books seem unusual.",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.018",
+      "family": "search",
+      "rows": [
+        18,
+        19
+      ],
+      "offset": "0x0086F550",
+      "pointer_offsets": [
+        "0x0086F520",
+        "0x0086F524"
+      ],
+      "japanese": "$tは足元を調べた！",
+      "source_hex": "247482cd91ab8cb382f092b282d782bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd91ab8cb382f092b282d782bd8149",
+          "text": "は足元を調べた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f550",
+      "english": "$t searches the ground!",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.020",
+      "family": "search",
+      "rows": [
+        20
+      ],
+      "offset": "0x0086F52C",
+      "pointer_offsets": [
+        "0x0086F528"
+      ],
+      "japanese": "しかし　なにも見つからなかった…。",
+      "source_hex": "82b582a982b5814082c882c982e08ca982c282a982e782c882a982c182bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082c882c982e08ca982c282a982e782c882a982c182bd81638142",
+          "text": "しかし　なにも見つからなかった…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f52c",
+      "english": "But nothing was found...",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Preserve $t as the native protagonist-name substitution; no fan-patch prose used."
+    },
+    {
+      "id": "interface.search.021",
+      "family": "search",
+      "rows": [
+        21
+      ],
+      "offset": "0x00917884",
+      "pointer_offsets": [
+        "0x0091784C"
+      ],
+      "japanese": "$tは足元を調べた！",
+      "source_hex": "247482cd91ab8cb382f092b282d782bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd91ab8cb382f092b282d782bd8149",
+          "text": "は足元を調べた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00917884",
+      "english": "$t searches the ground!",
+      "display": null,
+      "notes": "Independent translation of the actual ground-search event copy. $t selects built-in protagonist, not the Adventure Log name."
+    },
+    {
+      "id": "interface.search.022",
+      "family": "search",
+      "rows": [
+        22
+      ],
+      "offset": "0x00917860",
+      "pointer_offsets": [
+        "0x00917854"
+      ],
+      "japanese": "しかし　なにも見つからなかった…。",
+      "source_hex": "82b582a982b5814082c882c982e08ca982c282a982e782c882a982c182bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082c882c982e08ca982c282a982e782c882a982c182bd81638142",
+          "text": "しかし　なにも見つからなかった…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00917860",
+      "english": "But nothing was found...",
+      "display": null,
+      "notes": "Independent translation of the actual ground-search event copy. $t selects built-in protagonist, not the Adventure Log name."
+    },
+    {
+      "id": "interface.hero.000",
+      "family": "hero",
+      "rows": [
+        0
+      ],
+      "offset": "0x001B453E",
+      "pointer_offsets": [],
+      "japanese": "トルネコ",
+      "source_hex": "f961f984f966f94c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f961f984f966f94c",
+          "text": "トルネコ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b453e",
+      "english": "Torneko",
+      "display": null,
+      "notes": "Use already reviewed glossary character identity. Fixed protagonist-name table, ten-byte stride; not Adventure Log name."
+    },
+    {
+      "id": "interface.hero.001",
+      "family": "hero",
+      "rows": [
+        1
+      ],
+      "offset": "0x001B4548",
+      "pointer_offsets": [],
+      "japanese": "ポポロ",
+      "source_hex": "f976f976f98600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f976f976f986",
+          "text": "ポポロ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4548",
+      "english": "Tipper",
+      "display": null,
+      "notes": "Use already reviewed glossary character identity. Fixed protagonist-name table, ten-byte stride; not Adventure Log name."
+    },
+    {
+      "id": "interface.action.000",
+      "family": "action",
+      "rows": [
+        0
+      ],
+      "offset": "0x001B4281",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>足ぶみ",
+      "source_hex": "030507fc47f8ffd000",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc47f8ff",
+          "text": "足ぶ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d0",
+          "text": "み",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4281",
+      "english": "Wait",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.001",
+      "family": "action",
+      "rows": [
+        1
+      ],
+      "offset": "0x001B428D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>移動",
+      "source_hex": "030507f9c8fcc800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f9c8fcc8",
+          "text": "移動",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b428d",
+      "english": "Move",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.002",
+      "family": "action",
+      "rows": [
+        2
+      ],
+      "offset": "0x001B4299",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>なし",
+      "source_hex": "030507c5bc00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c5bc",
+          "text": "なし",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4299",
+      "english": "None",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.003",
+      "family": "action",
+      "rows": [
+        3
+      ],
+      "offset": "0x001B42A5",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>なし",
+      "source_hex": "030507c5bc00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c5bc",
+          "text": "なし",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42a5",
+      "english": "None",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.004",
+      "family": "action",
+      "rows": [
+        4
+      ],
+      "offset": "0x001B42B1",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>なし",
+      "source_hex": "030507c5bc00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c5bc",
+          "text": "なし",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42b1",
+      "english": "None",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.005",
+      "family": "action",
+      "rows": [
+        5
+      ],
+      "offset": "0x001B42BD",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>攻撃",
+      "source_hex": "030507fae4faac00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fae4faac",
+          "text": "攻撃",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42bd",
+      "english": "Attack",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.006",
+      "family": "action",
+      "rows": [
+        6
+      ],
+      "offset": "0x001B42C9",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>特技",
+      "source_hex": "030507fcd0fa6700",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcd0fa67",
+          "text": "特技",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42c9",
+      "english": "Ability",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.007",
+      "family": "action",
+      "rows": [
+        7
+      ],
+      "offset": "0x001B42D5",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>階段",
+      "source_hex": "030507fa31fc7300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa31fc73",
+          "text": "階段",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42d5",
+      "english": "Stairs",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.008",
+      "family": "action",
+      "rows": [
+        8
+      ],
+      "offset": "0x001B42E1",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>ワナ",
+      "source_hex": "030507f987f96300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42e1",
+      "english": "Trap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.009",
+      "family": "action",
+      "rows": [
+        9
+      ],
+      "offset": "0x001B42ED",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>---",
+      "source_hex": "0305072d2d2d00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2d2d2d",
+          "text": "---",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42ed",
+      "english": "---",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.010",
+      "family": "action",
+      "rows": [
+        10
+      ],
+      "offset": "0x001B42F9",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>入れる",
+      "source_hex": "030507fcdfdad900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcdf",
+          "text": "入",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dad9",
+          "text": "れる",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b42f9",
+      "english": "Put in",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.011",
+      "family": "action",
+      "rows": [
+        11
+      ],
+      "offset": "0x001B4305",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>出す",
+      "source_hex": "030507fb90bd00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb90",
+          "text": "出",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4305",
+      "english": "Take out",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.012",
+      "family": "action",
+      "rows": [
+        12
+      ],
+      "offset": "0x001B4311",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>？？？",
+      "source_hex": "030507f886f886f88600",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f886f886f886",
+          "text": "？？？",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4311",
+      "english": "???",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.013",
+      "family": "action",
+      "rows": [
+        13
+      ],
+      "offset": "0x001B431D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>説明",
+      "source_hex": "030507fbfcfd9b00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbfcfd9b",
+          "text": "説明",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b431d",
+      "english": "Information",
+      "display": "Info",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full wording retained in english; display fits the eight-byte action payload and 44-pixel budget."
+    },
+    {
+      "id": "interface.action.014",
+      "family": "action",
+      "rows": [
+        14
+      ],
+      "offset": "0x001B4329",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>書込む",
+      "source_hex": "030507fb9bfaf9d100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb9bfaf9",
+          "text": "書込",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d1",
+          "text": "む",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4329",
+      "english": "Write",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.015",
+      "family": "action",
+      "rows": [
+        15
+      ],
+      "offset": "0x001B4335",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>名前",
+      "source_hex": "030507fd99fc2d00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd99fc2d",
+          "text": "名前",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4335",
+      "english": "Name",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.016",
+      "family": "action",
+      "rows": [
+        16
+      ],
+      "offset": "0x001B4341",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>リスト",
+      "source_hex": "030507f983f952f96100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f983f952f961",
+          "text": "リスト",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4341",
+      "english": "List",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.017",
+      "family": "action",
+      "rows": [
+        17
+      ],
+      "offset": "0x001B434D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>投げる",
+      "source_hex": "030507fcb8f8dbd900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcb8f8db",
+          "text": "投げ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d9",
+          "text": "る",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b434d",
+      "english": "Throw",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.018",
+      "family": "action",
+      "rows": [
+        18
+      ],
+      "offset": "0x001B4359",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>撃つ",
+      "source_hex": "030507faacc200",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faac",
+          "text": "撃",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c2",
+          "text": "つ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4359",
+      "english": "Shoot",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.019",
+      "family": "action",
+      "rows": [
+        19
+      ],
+      "offset": "0x001B4365",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>見る",
+      "source_hex": "030507fabcd900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fabc",
+          "text": "見",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d9",
+          "text": "る",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4365",
+      "english": "Look",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.020",
+      "family": "action",
+      "rows": [
+        20
+      ],
+      "offset": "0x001B4371",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>入れる",
+      "source_hex": "030507fcdfdad900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcdf",
+          "text": "入",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dad9",
+          "text": "れる",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4371",
+      "english": "Put in",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.021",
+      "family": "action",
+      "rows": [
+        21
+      ],
+      "offset": "0x001B437D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>出す",
+      "source_hex": "030507fb90bd00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb90",
+          "text": "出",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b437d",
+      "english": "Take out",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.022",
+      "family": "action",
+      "rows": [
+        22
+      ],
+      "offset": "0x001B4389",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>押す",
+      "source_hex": "030507f9eabd00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f9ea",
+          "text": "押",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4389",
+      "english": "Push",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.023",
+      "family": "action",
+      "rows": [
+        23
+      ],
+      "offset": "0x001B4395",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>水かけ",
+      "source_hex": "030507fbd9b6b900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbd9",
+          "text": "水",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b6b9",
+          "text": "かけ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4395",
+      "english": "Pour water",
+      "display": "Pour",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full wording retained in english; display fits the eight-byte action payload and 44-pixel budget."
+    },
+    {
+      "id": "interface.action.024",
+      "family": "action",
+      "rows": [
+        24
+      ],
+      "offset": "0x001B43A1",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>水くみ",
+      "source_hex": "030507fbd9b8d000",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbd9",
+          "text": "水",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8d0",
+          "text": "くみ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43a1",
+      "english": "Fill with water",
+      "display": "Fill",
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed. Full wording retained in english; display fits the eight-byte action payload and 44-pixel budget."
+    },
+    {
+      "id": "interface.action.025",
+      "family": "action",
+      "rows": [
+        25
+      ],
+      "offset": "0x001B43AD",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>転がす",
+      "source_hex": "030507fca5f8d5bd00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fca5f8d5",
+          "text": "転が",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43ad",
+      "english": "Roll",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.026",
+      "family": "action",
+      "rows": [
+        26
+      ],
+      "offset": "0x001B43B9",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>発射",
+      "source_hex": "030507fcfafb6a00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcfafb6a",
+          "text": "発射",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43b9",
+      "english": "Fire",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.027",
+      "family": "action",
+      "rows": [
+        27
+      ],
+      "offset": "0x001B43C5",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>装備",
+      "source_hex": "030507fc3efd3200",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc3efd32",
+          "text": "装備",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43c5",
+      "english": "Equip",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.028",
+      "family": "action",
+      "rows": [
+        28
+      ],
+      "offset": "0x001B43D1",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>はずす",
+      "source_hex": "030507caf8e3bd00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca",
+          "text": "は",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e3",
+          "text": "ず",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43d1",
+      "english": "Unequip",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.029",
+      "family": "action",
+      "rows": [
+        29
+      ],
+      "offset": "0x001B43DD",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>拾う",
+      "source_hex": "030507fb83b300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb83",
+          "text": "拾",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b3",
+          "text": "う",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43dd",
+      "english": "Pick up",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.030",
+      "family": "action",
+      "rows": [
+        30
+      ],
+      "offset": "0x001B43E9",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>置く",
+      "source_hex": "030507fc78b800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fc78",
+          "text": "置",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8",
+          "text": "く",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43e9",
+      "english": "Place",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.031",
+      "family": "action",
+      "rows": [
+        31
+      ],
+      "offset": "0x001B43F5",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>交換",
+      "source_hex": "030507fad8fa4500",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fad8fa45",
+          "text": "交換",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b43f5",
+      "english": "Swap",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.032",
+      "family": "action",
+      "rows": [
+        32
+      ],
+      "offset": "0x001B4401",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>振る",
+      "source_hex": "030507fbcad900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbca",
+          "text": "振",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d9",
+          "text": "る",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4401",
+      "english": "Wave",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.033",
+      "family": "action",
+      "rows": [
+        33
+      ],
+      "offset": "0x001B440D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>飲む",
+      "source_hex": "030507f9d5d100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f9d5",
+          "text": "飲",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d1",
+          "text": "む",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b440d",
+      "english": "Drink",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.034",
+      "family": "action",
+      "rows": [
+        34
+      ],
+      "offset": "0x001B4419",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>食べる",
+      "source_hex": "030507fbc6f922d900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbc6f922",
+          "text": "食べ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d9",
+          "text": "る",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4419",
+      "english": "Eat",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.035",
+      "family": "action",
+      "rows": [
+        35
+      ],
+      "offset": "0x001B4425",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>読む",
+      "source_hex": "030507fcd2d100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcd2",
+          "text": "読",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d1",
+          "text": "む",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4425",
+      "english": "Read",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.036",
+      "family": "action",
+      "rows": [
+        36
+      ],
+      "offset": "0x001B4431",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>つかう",
+      "source_hex": "030507c2b6b300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c2b6b3",
+          "text": "つかう",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4431",
+      "english": "Use",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.037",
+      "family": "action",
+      "rows": [
+        37
+      ],
+      "offset": "0x001B443D",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>つかう",
+      "source_hex": "030507c2b6b300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c2b6b3",
+          "text": "つかう",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b443d",
+      "english": "Use",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.038",
+      "family": "action",
+      "rows": [
+        38
+      ],
+      "offset": "0x001B4449",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>投げる",
+      "source_hex": "030507fcb8f8dbd900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcb8f8db",
+          "text": "投げ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d9",
+          "text": "る",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4449",
+      "english": "Throw",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.039",
+      "family": "action",
+      "rows": [
+        39
+      ],
+      "offset": "0x001B4455",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>つかう",
+      "source_hex": "030507c2b6b300",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c2b6b3",
+          "text": "つかう",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4455",
+      "english": "Use",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.action.040",
+      "family": "action",
+      "rows": [
+        40
+      ],
+      "offset": "0x001B4461",
+      "pointer_offsets": [],
+      "japanese": "<03 05 07>？？？",
+      "source_hex": "030507f886f886f88600",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f886f886f886",
+          "text": "？？？",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4461",
+      "english": "???",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.override.000",
+      "family": "override",
+      "rows": [
+        0
+      ],
+      "offset": "0x001B4278",
+      "pointer_offsets": [
+        "0x00020760",
+        "0x000702A8"
+      ],
+      "japanese": "？？？？",
+      "source_hex": "f886f886f886f88600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f886f886f886f886",
+          "text": "？？？？",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4278",
+      "english": "????",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.override.001",
+      "family": "override",
+      "rows": [
+        1
+      ],
+      "offset": "0x00C3DA60",
+      "pointer_offsets": [
+        "0x0006F5EC"
+      ],
+      "japanese": "<03 05 07>捨てる",
+      "source_hex": "0305078ecc82c482e900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ecc82c482e9",
+          "text": "捨てる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c3da60",
+      "english": "Discard",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.override.002",
+      "family": "override",
+      "rows": [
+        2
+      ],
+      "offset": "0x00C3EE5C",
+      "pointer_offsets": [
+        "0x00075768"
+      ],
+      "japanese": "<03 05 07>捨てる",
+      "source_hex": "0305078ecc82c482e900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ecc82c482e9",
+          "text": "捨てる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c3ee5c",
+      "english": "Discard",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    },
+    {
+      "id": "interface.override.003",
+      "family": "override",
+      "rows": [
+        3
+      ],
+      "offset": "0x00C3EE84",
+      "pointer_offsets": [
+        "0x000761B4"
+      ],
+      "japanese": "<03 05 07>捨てる",
+      "source_hex": "0305078ecc82c482e900",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030507",
+          "text": "<03 05 07>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ecc82c482e9",
+          "text": "捨てる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c3ee84",
+      "english": "Discard",
+      "display": null,
+      "notes": "Independent translation from the Japanese original. Project wording; no verified official English equivalent claimed."
+    }
+  ]
+}

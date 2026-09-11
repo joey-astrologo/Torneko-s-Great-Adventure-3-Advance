@@ -1,0 +1,2934 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "scope": "Opening voyage, birthday/dream/storm, arrival and first-bedroom dialogue, including refusal/rest choices and the shared sleeping-son line. 44 story sources plus two shared event-choice labels; first narration reused.",
+  "entries": [
+    {
+      "id": "opening.0091bbb4",
+      "master_id": "jp_0091bbb4",
+      "offset": "0x0091BBB4",
+      "source_hex": "24638fa4906c8367838b836c83528142814094de82cd814082a982c282c40a246393568bf382c982dd82bf82d182a982ea82b5814097458ed282bd82bf82c682c682e082c90a24638ed788ab82c882e991e5968289a482f0814082a482bf82bd82a882b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8fa4906c8367838b836c83528142814094de82cd814082a982c282c4",
+          "text": "商人トルネコ。　彼は　かつて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93568bf382c982dd82bf82d182a982ea82b5814097458ed282bd82bf82c682c682e082c9",
+          "text": "天空にみちびかれし　勇者たちとともに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ed788ab82c882e991e5968289a482f0814082a482bf82bd82a882b582dc82b582bd8142",
+          "text": "邪悪なる大魔王を　うちたおしました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c商人トルネコ。　彼は　かつて\n$c天空にみちびかれし　勇者たちとともに\n$c邪悪なる大魔王を　うちたおしました。",
+      "events": [
+        {
+          "command_offset": "0x0091B6A8",
+          "pointer_offset": "0x0091B6AC",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": "story.opening_01",
+      "layout": "centered",
+      "english": "{center}Torneko, a merchant, once joined\n{center}heroes guided by the heavens\n{center}to defeat an evil demon king.",
+      "display": null,
+      "notes": "Existing first narration and allocation reused without edits.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "opening.0091bb3c",
+      "master_id": "jp_0091bb3c",
+      "offset": "0x0091BB3C",
+      "source_hex": "246382bb82cc8ce381408ea995aa82cc82a8935882f082e082c182bd81408367838b836c835282cd0a246388a482b782e98dc882cc836c836c814082d082c682e891a78e7182cc837c837c838d82c682c682e082c90a246395bd986182c890b68a8882f082a882ad82c182c482a282dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82cc8ce381408ea995aa82cc82a8935882f082e082c182bd81408367838b836c835282cd",
+          "text": "その後　自分のお店をもった　トルネコは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "88a482b782e98dc882cc836c836c814082d082c682e891a78e7182cc837c837c838d82c682c682e082c9",
+          "text": "愛する妻のネネ　ひとり息子のポポロとともに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95bd986182c890b68a8882f082a882ad82c182c482a282dc82b582bd8142",
+          "text": "平和な生活をおくっていました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cその後　自分のお店をもった　トルネコは\n$c愛する妻のネネ　ひとり息子のポポロとともに\n$c平和な生活をおくっていました。",
+      "events": [
+        {
+          "command_offset": "0x0091B6C8",
+          "pointer_offset": "0x0091B6CC",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Torneko later opened a shop of his own.\nHe lived peacefully with his wife Tessie\nand their only son, Tipper.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko",
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.0091bacc",
+      "master_id": "jp_0091bacc",
+      "offset": "0x0091BACC",
+      "source_hex": "246382bb82a482b582c4814082c882f1944e82a982aa814089df82ac82bd814082a082e993fa0a246382d382c682b582bd8f6f97888e9682aa81408367838b836c835282f00a246395738e768b6382c893b482ad82c282d682c6814082dd82bf82d182ab82dc82b782aa8163816300",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82a482b582c4814082c882f1944e82a982aa814089df82ac82bd814082a082e993fa",
+          "text": "そうして　なん年かが　過ぎた　ある日",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d382c682b582bd8f6f97888e9682aa81408367838b836c835282f0",
+          "text": "ふとした出来事が　トルネコを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95738e768b6382c893b482ad82c282d682c6814082dd82bf82d182ab82dc82b782aa81638163",
+          "text": "不思議な洞くつへと　みちびきますが……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cそうして　なん年かが　過ぎた　ある日\n$cふとした出来事が　トルネコを\n$c不思議な洞くつへと　みちびきますが……",
+      "events": [
+        {
+          "command_offset": "0x0091B6E8",
+          "pointer_offset": "0x0091B6EC",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Several years passed. Then one day,\na chance encounter led Torneko\nto a mysterious cave...",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "opening.0091ba54",
+      "master_id": "jp_0091ba54",
+      "offset": "0x0091BA54",
+      "source_hex": "24638367838b836c835282cd814082c282ac82c282ac82c68cbb82ea82e993b482ad82c282f00a246396608caf82b58140968295a882c682bd82bd82a982a28140906c82d182c682c9814082dc82bd0a2463905682bd82c88d4b82b982f0814082e082bd82e782b582bd82cc82c582b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282cd814082c282ac82c282ac82c68cbb82ea82e993b482ad82c282f0",
+          "text": "トルネコは　つぎつぎと現れる洞くつを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82b58140968295a882c682bd82bd82a982a28140906c82d182c682c9814082dc82bd",
+          "text": "冒険し　魔物とたたかい　人びとに　また",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905682bd82c88d4b82b982f0814082e082bd82e782b582bd82cc82c582b582bd8142",
+          "text": "新たな幸せを　もたらしたのでした。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cトルネコは　つぎつぎと現れる洞くつを\n$c冒険し　魔物とたたかい　人びとに　また\n$c新たな幸せを　もたらしたのでした。",
+      "events": [
+        {
+          "command_offset": "0x0091B708",
+          "pointer_offset": "0x0091B70C",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Exploring one cave after another,\nTorneko fought monsters and brought\nfresh happiness to the people.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "opening.0091b9e8",
+      "master_id": "jp_0091b9e8",
+      "offset": "0x0091B9E8",
+      "source_hex": "24638163816382bb82f182c8814091e582a282bb82aa82b582cc8367838b836c835282e00a246382c282a282c9814082a88b7882dd82f082c682c182c4814089c691b082be82af82cc0a246397b78d7382c9814082c582a982af82e98c88905382f082b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8163816382bb82f182c8814091e582a282bb82aa82b582cc8367838b836c835282e0",
+          "text": "……そんな　大いそがしのトルネコも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c282a282c9814082a88b7882dd82f082c682c182c4814089c691b082be82af82cc",
+          "text": "ついに　お休みをとって　家族だけの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "97b78d7382c9814082c582a982af82e98c88905382f082b582dc82b78142",
+          "text": "旅行に　でかける決心をします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c……そんな　大いそがしのトルネコも\n$cついに　お休みをとって　家族だけの\n$c旅行に　でかける決心をします。",
+      "events": [
+        {
+          "command_offset": "0x0091B728",
+          "pointer_offset": "0x0091B72C",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "At last, the ever-busy Torneko decided\nto take a break from work\nand travel with his family.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "opening.0091b9c8",
+      "master_id": "jp_0091b9c8",
+      "offset": "0x0091B9C8",
+      "source_hex": "0a246382bb82ea82aa81408da189f182cc814092b782a292b782a297b7814200",
+      "source_tokens": [
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82aa81408da189f182cc814092b782a292b782a297b78142",
+          "text": "それが　今回の　長い長い旅。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "\n$cそれが　今回の　長い長い旅。",
+      "events": [
+        {
+          "command_offset": "0x0091B748",
+          "pointer_offset": "0x0091B74C",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "\nAnd so began a very, very long journey.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": []
+    },
+    {
+      "id": "opening.0091b970",
+      "master_id": "jp_0091b970",
+      "offset": "0x0091B970",
+      "source_hex": "246382b182b182cd814082cd82e982a9899382a281408a4382cc8fe381420a24638da193fa82cd814091a78e71837c837c838d82cc8140825082518dcb82cc0a246382bd82f182b682e582a493fa82c582b7814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182b182cd814082cd82e982a9899382a281408a4382cc8fe38142",
+          "text": "ここは　はるか遠い　海の上。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82cd814091a78e71837c837c838d82cc8140825082518dcb82cc",
+          "text": "今日は　息子ポポロの　１２才の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bd82f182b682e582a493fa82c582b78142",
+          "text": "たんじょう日です。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cここは　はるか遠い　海の上。\n$c今日は　息子ポポロの　１２才の\n$cたんじょう日です。",
+      "events": [
+        {
+          "command_offset": "0x0091B768",
+          "pointer_offset": "0x0091B76C",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Now they are far away, out at sea.\nToday is Tipper's twelfth birthday.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.0091b90c",
+      "master_id": "jp_0091b90c",
+      "offset": "0x0091B90C",
+      "source_hex": "819681758163816382b382a08140838d8345835c834e82c9814089ce82aa82c282a282bd82ed81420a0982cb82a6814082a082c882bd8142814082e082a48140837c837c838d82f00a098cc482f182c582e0814082a282a282ed82e682cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758163816382b382a08140838d8345835c834e82c9814089ce82aa82c282a282bd82ed8142",
+          "text": "＊「……さあ　ロウソクに　火がついたわ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cb82a6814082a082c882bd8142814082e082a48140837c837c838d82f0",
+          "text": "ねえ　あなた。　もう　ポポロを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cc482f182c582e0814082a282a282ed82e682cb8148",
+          "text": "呼んでも　いいわよね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「……さあ　ロウソクに　火がついたわ。\n<TAB>ねえ　あなた。　もう　ポポロを\n<TAB>呼んでも　いいわよね？",
+      "events": [
+        {
+          "command_offset": "0x0091B7D0",
+          "pointer_offset": "0x0091B7D4",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"There, the candles are lit.\nShall we call Tipper in now, dear?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.0091b8c8",
+      "master_id": "jp_0091b8c8",
+      "offset": "0x0091B8C8",
+      "source_hex": "81968175837c837c838d81608149814082a282e782c182b582e1816082a281490a098350815b834c82cc977088d382aa814082c582ab82bd82ed82e68160814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175837c837c838d81608149814082a282e782c182b582e1816082a28149",
+          "text": "＊「ポポロ～！　いらっしゃ～い！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8350815b834c82cc977088d382aa814082c582ab82bd82ed82e681608149",
+          "text": "ケーキの用意が　できたわよ～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ポポロ～！　いらっしゃ～い！\n<TAB>ケーキの用意が　できたわよ～！",
+      "events": [
+        {
+          "command_offset": "0x0091B7E8",
+          "pointer_offset": "0x0091B7EC",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Tipper! Come along!\nYour cake is ready!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f660",
+      "master_id": "jp_00c2f660",
+      "offset": "0x00C2F660",
+      "source_hex": "836c836c8175837c837c838d81608149814082c782a482b582bd82cc81480a0982cd82e282ad814082a282e782c182b582e1816082a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c8175837c837c838d81608149814082c782a482b582bd82cc8148",
+          "text": "ネネ「ポポロ～！　どうしたの？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd82e282ad814082a282e782c182b582e1816082a28149",
+          "text": "はやく　いらっしゃ～い！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「ポポロ～！　どうしたの？\n<TAB>はやく　いらっしゃ～い！",
+      "events": [
+        {
+          "command_offset": "0x00C2F12C",
+          "pointer_offset": "0x00C2F130",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Tipper! What are you doing?\nCome along, now!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f618",
+      "master_id": "jp_00c2f618",
+      "offset": "0x00C2F618",
+      "source_hex": "836c836c817582b382a08140837c837c838d8142814082b182c182bf82c9978882c40a09838d8345835c834e82cc89ce82f081408fc182b582c482bf82e582a482be82a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582b382a08140837c837c838d8142814082b182c182bf82c9978882c4",
+          "text": "ネネ「さあ　ポポロ。　こっちに来て",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d8345835c834e82cc89ce82f081408fc182b582c482bf82e582a482be82a28142",
+          "text": "ロウソクの火を　消してちょうだい。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「さあ　ポポロ。　こっちに来て\n<TAB>ロウソクの火を　消してちょうだい。",
+      "events": [
+        {
+          "command_offset": "0x00C2F14C",
+          "pointer_offset": "0x00C2F150",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Come here, Tipper.\nBlow out the candles!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f5b8",
+      "master_id": "jp_00c2f5b8",
+      "offset": "0x00C2F5B8",
+      "source_hex": "836c836c817582a082e7814082c782a482b582bd82cc8140837c837c838d81480a0982c882f182be82a981408cb38b4382aa82c882a282ed82cb81420a0982b982c182a982ad82cc814082bd82f182b682e582a493fa82c882cc82c9814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582a082e7814082c782a482b582bd82cc8140837c837c838d8148",
+          "text": "ネネ「あら　どうしたの　ポポロ？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182be82a981408cb38b4382aa82c882a282ed82cb8142",
+          "text": "なんだか　元気がないわね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b982c182a982ad82cc814082bd82f182b682e582a493fa82c882cc82c98142",
+          "text": "せっかくの　たんじょう日なのに。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「あら　どうしたの　ポポロ？\n<TAB>なんだか　元気がないわね。\n<TAB>せっかくの　たんじょう日なのに。",
+      "events": [
+        {
+          "command_offset": "0x00C2F17C",
+          "pointer_offset": "0x00C2F180",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"What is it, Tipper?\nYou seem so glum,\nand on your birthday, too.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f560",
+      "master_id": "jp_00c2f560",
+      "offset": "0x00C2F560",
+      "source_hex": "836c836c817582e082b582a982b582c48140837c837c838d82aa0a0982e482a482d78ca982bd82c182c482a282a4814082b182ed82a296b282cc82b182c60a0982dc82be81408b4382c982b582c482e982cc814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582e082b582a982b582c48140837c837c838d82aa",
+          "text": "ネネ「もしかして　ポポロが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e482a482d78ca982bd82c182c482a282a4814082b182ed82a296b282cc82b182c6",
+          "text": "ゆうべ見たっていう　こわい夢のこと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be81408b4382c982b582c482e982cc8148",
+          "text": "まだ　気にしてるの？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「もしかして　ポポロが\n<TAB>ゆうべ見たっていう　こわい夢のこと\n<TAB>まだ　気にしてるの？",
+      "events": [
+        {
+          "command_offset": "0x00C2F184",
+          "pointer_offset": "0x00C2F188",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Are you still worried\nabout that scary dream\nyou had last night?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f524",
+      "master_id": "jp_00c2f524",
+      "offset": "0x00C2F524",
+      "source_hex": "837c837c838d81758163816382a482f18142814082be82c182c40a0982b782b282ad814095cf82c896b282be82c182bd82f182be82e082f1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d81758163816382a482f18142814082be82c182c4",
+          "text": "ポポロ「……うん。　だって",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782b282ad814095cf82c896b282be82c182bd82f182be82e082f18142",
+          "text": "すごく　変な夢だったんだもん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「……うん。　だって\n<TAB>すごく　変な夢だったんだもん。",
+      "events": [
+        {
+          "command_offset": "0x00C2F194",
+          "pointer_offset": "0x00C2F198",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"...Yes.\nIt was such a strange dream.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f4e4",
+      "master_id": "jp_00c2f4e4",
+      "offset": "0x00C2F4E4",
+      "source_hex": "837c837c838d817582cb82a681408370837082e095b782ab82bd82a281480a09837b834e82cc8ca982bd814082b182ed82a296b282cc82b182c6814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d817582cb82a681408370837082e095b782ab82bd82a28148",
+          "text": "ポポロ「ねえ　パパも聞きたい？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837b834e82cc8ca982bd814082b182ed82a296b282cc82b182c68142",
+          "text": "ボクの見た　こわい夢のこと。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「ねえ　パパも聞きたい？\n<TAB>ボクの見た　こわい夢のこと。",
+      "events": [
+        {
+          "command_offset": "0x00C2F1A4",
+          "pointer_offset": "0x00C2F1A8",
+          "command_word": "0x0001012C",
+          "opcode": 44,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"Do you want to hear\nabout my scary dream too, Dad?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. Preserve the original Yes/No command parameters and branch behavior.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f440",
+      "master_id": "jp_00c2f440",
+      "offset": "0x00C2F440",
+      "source_hex": "837c837c838d817582a682c182c682cb81638163814082bb82cc96b282cc928682be82c60a09837b834e82aa814082c782b182a981408d4c82a282c682b182eb82c982a282c40a0982a282ab82c882e881408bf382aa88c382ad82c882e982f182be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d817582a682c182c682cb81638163814082bb82cc96b282cc928682be82c6",
+          "text": "ポポロ「えっとね……　その夢の中だと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837b834e82aa814082c782b182a981408d4c82a282c682b182eb82c982a282c4",
+          "text": "ボクが　どこか　広いところにいて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282ab82c882e881408bf382aa88c382ad82c882e982f182be8142",
+          "text": "いきなり　空が暗くなるんだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「えっとね……　その夢の中だと\n<TAB>ボクが　どこか　広いところにいて\n<TAB>いきなり　空が暗くなるんだ。",
+      "events": [
+        {
+          "command_offset": "0x00C2F1BC",
+          "pointer_offset": "0x00C2F1C0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"Well... I was standing\nin this big, open place. Suddenly,\nthe sky went dark.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f408",
+      "master_id": "jp_00c2f408",
+      "offset": "0x00C2F408",
+      "source_hex": "837c837c838d817582bb82ea82a982e7814082b782b282ad91e582ab82c80a09834a837e8369838a82cc89b982aa82b582c48163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d817582bb82ea82a982e7814082b782b282ad91e582ab82c8",
+          "text": "ポポロ「それから　すごく大きな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a837e8369838a82cc89b982aa82b582c481638163",
+          "text": "カミナリの音がして……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「それから　すごく大きな\n<TAB>カミナリの音がして……",
+      "events": [
+        {
+          "command_offset": "0x00C2F1C4",
+          "pointer_offset": "0x00C2F1C8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"Then there was this\nreally loud clap of thunder...\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f3ec",
+      "master_id": "jp_00c2f3ec",
+      "offset": "0x00C2F3EC",
+      "source_hex": "837c837c838d81758163816382a0814082a082ea8149814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d81758163816382a0814082a082ea81498148",
+          "text": "ポポロ「……あ　あれ！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「……あ　あれ！？",
+      "events": [
+        {
+          "command_offset": "0x00C2F23C",
+          "pointer_offset": "0x00C2F240",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"...H-huh?!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.00c2f398",
+      "master_id": "jp_00c2f398",
+      "offset": "0x00C2F398",
+      "source_hex": "836c836c817582ab82e182c1814981480a0982cb814082cb82a68140837c837c838d8142814082bb82ea82c182c40a0982e082b582a982b582c481408da182dd82bd82a282c881408ab482b681638163814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582ab82e182c181498148",
+          "text": "ネネ「きゃっ！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cb814082cb82a68140837c837c838d8142814082bb82ea82c182c4",
+          "text": "ね　ねえ　ポポロ。　それって",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082b582a982b582c481408da182dd82bd82a282c881408ab482b6816381638148",
+          "text": "もしかして　今みたいな　感じ……？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「きゃっ！？\n<TAB>ね　ねえ　ポポロ。　それって\n<TAB>もしかして　今みたいな　感じ……？",
+      "events": [
+        {
+          "command_offset": "0x00C2F2DC",
+          "pointer_offset": "0x00C2F2E0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Eek! T-Tipper...\nWas it anything like\nwhat just happened...?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f37c",
+      "master_id": "jp_00c2f37c",
+      "offset": "0x00C2F37C",
+      "source_hex": "837c837c838d817582ed82a082a082a08160816082c1814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d817582ed82a082a082a08160816082c18149",
+          "text": "ポポロ「わあああ～～っ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「わあああ～～っ！",
+      "events": [
+        {
+          "command_offset": "0x00C2F35C",
+          "pointer_offset": "0x00C2F360",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"Aaaaaaah!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.009fded8",
+      "master_id": "jp_009fded8",
+      "offset": "0x009FDED8",
+      "source_hex": "819681758163816382a882a881490a0982a88b4382aa814082c282a982ea82dc82b582bd82a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758163816382a882a88149",
+          "text": "＊「……おお！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88b4382aa814082c282a982ea82dc82b582bd82a98148",
+          "text": "お気が　つかれましたか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「……おお！\n<TAB>お気が　つかれましたか？",
+      "events": [
+        {
+          "command_offset": "0x009FDD78",
+          "pointer_offset": "0x009FDD7C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"...Ah!\nYou are awake at last!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": []
+    },
+    {
+      "id": "opening.009fde8c",
+      "master_id": "jp_009fde8c",
+      "offset": "0x009FDE8C",
+      "source_hex": "819681758e8482cd814082b182cc91ba82cc91b092b70a09834b83808389839382c6905c82b582dc82b781420a0982dc82c182bd82ad814082d082c782a2979282c582b582bd82c8814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758e8482cd814082b182cc91ba82cc91b092b7",
+          "text": "＊「私は　この村の族長",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834b83808389839382c6905c82b582dc82b78142",
+          "text": "ガムランと申します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82c182bd82ad814082d082c782a2979282c582b582bd82c88142",
+          "text": "まったく　ひどい嵐でしたな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「私は　この村の族長\n<TAB>ガムランと申します。\n<TAB>まったく　ひどい嵐でしたな。",
+      "events": [
+        {
+          "command_offset": "0x009FDD80",
+          "pointer_offset": "0x009FDD84",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"I am Gamlan,\nchief of this village.\nWhat a terrible storm that was.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": [
+        "character.gamlan",
+        "role.village_chief"
+      ]
+    },
+    {
+      "id": "opening.009fde60",
+      "master_id": "jp_009fde60",
+      "offset": "0x009FDE60",
+      "source_hex": "91b092b781758163816382a082a0814082dc82be0a0993ae82a982ca82d982a482aa82a282a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91b092b781758163816382a082a0814082dc82be",
+          "text": "族長「……ああ　まだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93ae82a982ca82d982a482aa82a282a28142",
+          "text": "動かぬほうがいい。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "族長「……ああ　まだ\n<TAB>動かぬほうがいい。",
+      "events": [
+        {
+          "command_offset": "0x009FDD90",
+          "pointer_offset": "0x009FDD94",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Chief: \"...Ah, you should\nkeep still for now.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "role.village_chief"
+      ]
+    },
+    {
+      "id": "opening.009fde10",
+      "master_id": "jp_009fde10",
+      "offset": "0x009FDE10",
+      "source_hex": "91b092b7817582c882c982b582eb814082a082cc979282cc92860a0982b182cc91ba82cc956c82c9814097ac82ea82c282a282c40a0982a882e782ea82bd82cc82c582b782a982e782c8814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91b092b7817582c882c982b582eb814082a082cc979282cc9286",
+          "text": "族長「なにしろ　あの嵐の中",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc91ba82cc956c82c9814097ac82ea82c282a282c4",
+          "text": "この村の浜に　流れついて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882e782ea82bd82cc82c582b782a982e782c88142",
+          "text": "おられたのですからな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "族長「なにしろ　あの嵐の中\n<TAB>この村の浜に　流れついて\n<TAB>おられたのですからな。",
+      "events": [
+        {
+          "command_offset": "0x009FDD98",
+          "pointer_offset": "0x009FDD9C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Chief: \"You washed up\non our village beach\nin the middle of that storm.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "role.village_chief"
+      ]
+    },
+    {
+      "id": "opening.009fddc0",
+      "master_id": "jp_009fddc0",
+      "offset": "0x009FDDC0",
+      "source_hex": "91b092b781758da182cd814082dc82be814096e996be82af914f81420a0982bb82cc82dc82dc814082e482c182ad82e80a098b7882dc82ea82e982aa814082e682eb82b582a982eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91b092b781758da182cd814082dc82be814096e996be82af914f8142",
+          "text": "族長「今は　まだ　夜明け前。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82cc82dc82dc814082e482c182ad82e8",
+          "text": "そのまま　ゆっくり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7882dc82ea82e982aa814082e682eb82b582a982eb82a48142",
+          "text": "休まれるが　よろしかろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "族長「今は　まだ　夜明け前。\n<TAB>そのまま　ゆっくり\n<TAB>休まれるが　よろしかろう。",
+      "events": [
+        {
+          "command_offset": "0x009FDDA0",
+          "pointer_offset": "0x009FDDA4",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Chief: \"It is still before dawn.\nStay where you are\nand get some rest.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "role.village_chief"
+      ]
+    },
+    {
+      "id": "opening.00a0025c",
+      "master_id": "jp_00a0025c",
+      "offset": "0x00A0025C",
+      "source_hex": "8196817582d682a681608149814082a082cc83498357835483930a098b4382aa82c282a282bd82dd82bd82a282be82ba814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d682a681608149814082a082cc8349835783548393",
+          "text": "＊「へえ～！　あのオジサン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4382aa82c282a282bd82dd82bd82a282be82ba8142",
+          "text": "気がついたみたいだぜ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「へえ～！　あのオジサン\n<TAB>気がついたみたいだぜ。",
+      "events": [
+        {
+          "command_offset": "0x00A001A8",
+          "pointer_offset": "0x00A001AC",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Hey! Looks like that\nold guy is awake!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": []
+    },
+    {
+      "id": "opening.00a00364",
+      "master_id": "jp_00a00364",
+      "offset": "0x00A00364",
+      "source_hex": "8196817582bf82e582c182c68149814082cc82bc82ad82cc82cd0a0982e282df82c882b382a282e6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bf82e582c182c68149814082cc82bc82ad82cc82cd",
+          "text": "＊「ちょっと！　のぞくのは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82c882b382a282e68149",
+          "text": "やめなさいよ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ちょっと！　のぞくのは\n<TAB>やめなさいよ！",
+      "events": [
+        {
+          "command_offset": "0x00A002B0",
+          "pointer_offset": "0x00A002B4",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Hey!\nStop peeking in there!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": []
+    },
+    {
+      "id": "opening.00a00320",
+      "master_id": "jp_00a00320",
+      "offset": "0x00A00320",
+      "source_hex": "8196817582be82a282bd82a2814082a082f182bd0a0982a882b682a282b382dc82c9814082bd82cc82dc82ea82bd8e648e9682cd0a098f4982ed82c182bd82cc814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582be82a282bd82a2814082a082f182bd",
+          "text": "＊「だいたい　あんた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882b682a282b382dc82c9814082bd82cc82dc82ea82bd8e648e9682cd",
+          "text": "おじいさまに　たのまれた仕事は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f4982ed82c182bd82cc8148",
+          "text": "終わったの？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「だいたい　あんた\n<TAB>おじいさまに　たのまれた仕事は\n<TAB>終わったの？",
+      "events": [
+        {
+          "command_offset": "0x00A002B8",
+          "pointer_offset": "0x00A002BC",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Have you even finished\nthe work Grandfather\nasked you to do?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early.",
+      "references": []
+    },
+    {
+      "id": "opening.00a00208",
+      "master_id": "jp_00a00208",
+      "offset": "0x00A00208",
+      "source_hex": "819681758163816382bf82a582c1814082a482e982b982a682c882a081408341836c834c82cd81420a0982cd82a282cd82a2814082e282e882dc82b782e681600a0982e682eb82b182f182c582cb8160814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758163816382bf82a582c1814082a482e982b982a682c882a081408341836c834c82cd8142",
+          "text": "＊「……ちぇっ　うるせえなあ　アネキは。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd82a282cd82a2814082e282e882dc82b782e68160",
+          "text": "はいはい　やりますよ～",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b182f182c582cb81608142",
+          "text": "よろこんでね～。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「……ちぇっ　うるせえなあ　アネキは。\n<TAB>はいはい　やりますよ～\n<TAB>よろこんでね～。",
+      "events": [
+        {
+          "command_offset": "0x00A001D8",
+          "pointer_offset": "0x00A001DC",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Sheesh, Sis. Always nagging!\nAll right, all right, I will!\nHappy to help!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. The original anonymous speaker marker remains anonymous as ???; no identity is revealed early. Boy addresses his elder sister; the final cheerful words are sarcastic in context.",
+      "references": []
+    },
+    {
+      "id": "opening.0091bdc4",
+      "master_id": "jp_0091bdc4",
+      "offset": "0x0091BDC4",
+      "source_hex": "246382b182a482b582c4814096bc82e0926d82e782ca91ba82cc8140956c82d682c60a246397ac82b382ea82bd81408367838b836c835282bd82bf814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182a482b582c4814096bc82e0926d82e782ca91ba82cc8140956c82d682c6",
+          "text": "こうして　名も知らぬ村の　浜へと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "97ac82b382ea82bd81408367838b836c835282bd82bf8142",
+          "text": "流された　トルネコたち。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cこうして　名も知らぬ村の　浜へと\n$c流された　トルネコたち。",
+      "events": [
+        {
+          "command_offset": "0x0091BD04",
+          "pointer_offset": "0x0091BD08",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "And so Torneko and his family\nwashed ashore near a village\nwhose name they did not know.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "opening.0091bd6c",
+      "master_id": "jp_0091bd6c",
+      "offset": "0x0091BD6C",
+      "source_hex": "24638367838b836c835282c68140836c836c8140837c837c838d82cc8252906c82cd0a246382b182f182b182f182c696b082e882c282c382af0a246382bb82b582c4814096e982aa96be82af82bd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282c68140836c836c8140837c837c838d82cc8252906c82cd",
+          "text": "トルネコと　ネネ　ポポロの３人は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182f182b182f182c696b082e882c282c382af",
+          "text": "こんこんと眠りつづけ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82b582c4814096e982aa96be82af82bd816381638142",
+          "text": "そして　夜が明けた……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cトルネコと　ネネ　ポポロの３人は\n$cこんこんと眠りつづけ\n$cそして　夜が明けた……。",
+      "events": [
+        {
+          "command_offset": "0x0091BD24",
+          "pointer_offset": "0x0091BD28",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Torneko, Tessie and Tipper\nslept on and on...\nThen dawn broke.",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "torneko",
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c1d2c",
+      "master_id": "jp_009c1d2c",
+      "offset": "0x009C1D2C",
+      "source_hex": "836c836c817582a082c18149814082a082c882bd82e00a0996da82aa81408a6f82df82bd82cc82cb81490a0982e682a982c182bd82ed81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582a082c18149814082a082c882bd82e0",
+          "text": "ネネ「あっ！　あなたも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96da82aa81408a6f82df82bd82cc82cb8149",
+          "text": "目が　覚めたのね！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682a982c182bd82ed816381638142",
+          "text": "よかったわ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「あっ！　あなたも\n<TAB>目が　覚めたのね！\n<TAB>よかったわ……。",
+      "events": [
+        {
+          "command_offset": "0x009C1C48",
+          "pointer_offset": "0x009C1C4C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Oh! You are awake too!\nThank goodness...\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c1cc8",
+      "master_id": "jp_009c1cc8",
+      "offset": "0x009C1CC8",
+      "source_hex": "836c836c817582a282c182bd82a2814082c882c982aa81408b4e82ab82bd82cc82a982b582e781480a0982c882f182be82a9814082c682c282ba82f182b782ac82c40a0982e682ad81408e7682a28f6f82b982c882a282f182be82af82c78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582a282c182bd82a2814082c882c982aa81408b4e82ab82bd82cc82a982b582e78148",
+          "text": "ネネ「いったい　なにが　起きたのかしら？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182be82a9814082c682c282ba82f182b782ac82c4",
+          "text": "なんだか　とつぜんすぎて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682ad81408e7682a28f6f82b982c882a282f182be82af82c781638163",
+          "text": "よく　思い出せないんだけど……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「いったい　なにが　起きたのかしら？\n<TAB>なんだか　とつぜんすぎて\n<TAB>よく　思い出せないんだけど……",
+      "events": [
+        {
+          "command_offset": "0x009C1C50",
+          "pointer_offset": "0x009C1C54",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"What on earth happened?\nIt was all so sudden,\nI can hardly remember...\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c1c80",
+      "master_id": "jp_009c1c80",
+      "offset": "0x009C1C80",
+      "source_hex": "836c836c817582bb82ea82e682e88140837c837c838d82aa814082dc82be0a0996da82f081408a6f82dc82b382c882a282cc82e681420a099053947a82be82ed81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582bb82ea82e682e88140837c837c838d82aa814082dc82be",
+          "text": "ネネ「それより　ポポロが　まだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96da82f081408a6f82dc82b382c882a282cc82e68142",
+          "text": "目を　覚まさないのよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9053947a82be82ed816381638142",
+          "text": "心配だわ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「それより　ポポロが　まだ\n<TAB>目を　覚まさないのよ。\n<TAB>心配だわ……。",
+      "events": [
+        {
+          "command_offset": "0x009C1C58",
+          "pointer_offset": "0x009C1C5C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"But Tipper still\nhas not woken up.\nI am so worried...\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c1de4",
+      "master_id": "jp_009c1de4",
+      "offset": "0x009C1DE4",
+      "source_hex": "836c836c817595738e768b6382cb816381428140837c837c838d82e081408e8482bd82bf82e00a0982ba82f182ba82f181408350834b82b582c482c882a282dd82bd82a282be82b5814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817595738e768b6382cb816381428140837c837c838d82e081408e8482bd82bf82e0",
+          "text": "ネネ「不思議ね…。　ポポロも　私たちも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ba82f182ba82f181408350834b82b582c482c882a282dd82bd82a282be82b58142",
+          "text": "ぜんぜん　ケガしてないみたいだし。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「不思議ね…。　ポポロも　私たちも\n<TAB>ぜんぜん　ケガしてないみたいだし。",
+      "events": [
+        {
+          "command_offset": "0x009C1D8C",
+          "pointer_offset": "0x009C1D90",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"It is strange...\nNone of us seems hurt at all.\nNot even Tipper.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c1da4",
+      "master_id": "jp_009c1da4",
+      "offset": "0x009C1DA4",
+      "source_hex": "836c836c8175837c837c838d82aa814096da82f08a6f82dc82b782dc82c50a098e8482cd814082b182b182c581408ca982c482a282e982ed82cb814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c8175837c837c838d82aa814096da82f08a6f82dc82b782dc82c5",
+          "text": "ネネ「ポポロが　目を覚ますまで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8482cd814082b182b182c581408ca982c482a282e982ed82cb8142",
+          "text": "私は　ここで　見ているわね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「ポポロが　目を覚ますまで\n<TAB>私は　ここで　見ているわね。",
+      "events": [
+        {
+          "command_offset": "0x009C1D94",
+          "pointer_offset": "0x009C1D98",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": true
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"I will stay here\nand watch over Tipper\nuntil he wakes up.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.00c2f4a8",
+      "master_id": "jp_00c2f4a8",
+      "offset": "0x00C2F4A8",
+      "source_hex": "837c837c838d817582a68160814981480a0982bb82f182c882b182c6814082a282ed82b882c90a098370837082e0814095b782a282c482e6814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d817582a6816081498148",
+          "text": "ポポロ「え～！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82f182c882b182c6814082a282ed82b882c9",
+          "text": "そんなこと　いわずに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8370837082e0814095b782a282c482e68142",
+          "text": "パパも　聞いてよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロ「え～！？\n<TAB>そんなこと　いわずに\n<TAB>パパも　聞いてよ。",
+      "events": [
+        {
+          "command_offset": "0x00C2F1AC",
+          "pointer_offset": "0x00C2F1B0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tipper: \"Aww!\nPlease, Dad! Listen to it!\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.009c1eb0",
+      "master_id": "jp_009c1eb0",
+      "offset": "0x009C1EB0",
+      "source_hex": "837c837c838d82cd814090c382a982c9814096b082c182c482a282e982e682a482be81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82cd814090c382a982c9814096b082c182c482a282e982e682a482be816381638142",
+          "text": "ポポロは　静かに　眠っているようだ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ポポロは　静かに　眠っているようだ……。",
+      "events": [
+        {
+          "command_offset": "0x009C1EA0",
+          "pointer_offset": "0x009C1EA4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C21C4",
+          "pointer_offset": "0x009C21C8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C24B4",
+          "pointer_offset": "0x009C24B8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C253C",
+          "pointer_offset": "0x009C2540",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C27A4",
+          "pointer_offset": "0x009C27A8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C2E50",
+          "pointer_offset": "0x009C2E54",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C3C20",
+          "pointer_offset": "0x009C3C24",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C4528",
+          "pointer_offset": "0x009C452C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        },
+        {
+          "command_offset": "0x009C4818",
+          "pointer_offset": "0x009C481C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "Tipper seems to be sleeping peacefully...",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. One shared observation across nine original event operands; no extra sleep mechanics inferred.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "opening.009c1fbc",
+      "master_id": "jp_009c1fbc",
+      "offset": "0x009C1FBC",
+      "source_hex": "836c836c817582b682e182a0814082e482c182ad82e881408b7882f182c582cb81420a0982a882e282b782dd82c882b382a2814082a082c882bd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582b682e182a0814082e482c182ad82e881408b7882f182c582cb8142",
+          "text": "ネネ「じゃあ　ゆっくり　休んでね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882e282b782dd82c882b382a2814082a082c882bd816381638142",
+          "text": "おやすみなさい　あなた……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「じゃあ　ゆっくり　休んでね。\n<TAB>おやすみなさい　あなた……。",
+      "events": [
+        {
+          "command_offset": "0x009C1F74",
+          "pointer_offset": "0x009C1F78",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Then get some rest.\nGood night, dear...\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c2000",
+      "master_id": "jp_009c2000",
+      "offset": "0x009C2000",
+      "source_hex": "836c836c817582bb82a48148814082b682e182a081408b7882dd82bd82ad82c882c182bd82e70a0982a282c282c582e0814090ba82f082a982af82c482cb814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582bb82a48148814082b682e182a081408b7882dd82bd82ad82c882c182bd82e7",
+          "text": "ネネ「そう？　じゃあ　休みたくなったら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c282c582e0814090ba82f082a982af82c482cb8142",
+          "text": "いつでも　声をかけてね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「そう？　じゃあ　休みたくなったら\n<TAB>いつでも　声をかけてね。",
+      "events": [
+        {
+          "command_offset": "0x009C1F5C",
+          "pointer_offset": "0x009C1F60",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"All right. Just let me know\nwhenever you feel like resting.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c2044",
+      "master_id": "jp_009c2044",
+      "offset": "0x009C2044",
+      "source_hex": "836c836c817582e082b5814082b182ea82aa814096b282c882e70a0982b382df82e982a982e082b582ea82c882a282b58142814082cb82a60a0982a082c882bd82e0814082dc82bd81408b7882f182c582dd82e9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582e082b5814082b182ea82aa814096b282c882e7",
+          "text": "ネネ「もし　これが　夢なら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382df82e982a982e082b582ea82c882a282b58142814082cb82a6",
+          "text": "さめるかもしれないし。　ねえ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c882bd82e0814082dc82bd81408b7882f182c582dd82e98148",
+          "text": "あなたも　また　休んでみる？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「もし　これが　夢なら\n<TAB>さめるかもしれないし。　ねえ\n<TAB>あなたも　また　休んでみる？",
+      "events": [
+        {
+          "command_offset": "0x009C1F54",
+          "pointer_offset": "0x009C1F58",
+          "command_word": "0x0001012C",
+          "opcode": 44,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"If this is a dream,\nperhaps we could wake up.\nWould you like some more rest too?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately. Preserve the original Yes/No command parameters and branch behavior.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c209c",
+      "master_id": "jp_009c209c",
+      "offset": "0x009C209C",
+      "source_hex": "836c836c817582c882f182be82a9814082a982e782be82e0814082b782b282ad0a0982be82e982a282dd82bd82a282be82b58163816381420a0982bf82e582c182c6814096b082c182c482dd82e682a482a982b582e7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582c882f182be82a9814082a982e782be82e0814082b782b282ad",
+          "text": "ネネ「なんだか　からだも　すごく",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82be82e982a282dd82bd82a282be82b5816381638142",
+          "text": "だるいみたいだし……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bf82e582c182c6814096b082c182c482dd82e682a482a982b582e78142",
+          "text": "ちょっと　眠ってみようかしら。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「なんだか　からだも　すごく\n<TAB>だるいみたいだし……。\n<TAB>ちょっと　眠ってみようかしら。",
+      "events": [
+        {
+          "command_offset": "0x009C1F4C",
+          "pointer_offset": "0x009C1F50",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"I feel so tired...\nPerhaps I should try\nsleeping for a little while.\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c20f8",
+      "master_id": "jp_009c20f8",
+      "offset": "0x009C20F8",
+      "source_hex": "836c836c817582cb82a6814082a082c882bd81420a0982e082b582a982b582c4814082b182ea0a0996b282be82c182c482b182c6814082c882a282ed82e682cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582cb82a6814082a082c882bd8142",
+          "text": "ネネ「ねえ　あなた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082b582a982b582c4814082b182ea",
+          "text": "もしかして　これ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96b282be82c182c482b182c6814082c882a282ed82e682cb8148",
+          "text": "夢だってこと　ないわよね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「ねえ　あなた。\n<TAB>もしかして　これ\n<TAB>夢だってこと　ないわよね？",
+      "events": [
+        {
+          "command_offset": "0x009C1F44",
+          "pointer_offset": "0x009C1F48",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Tell me, dear...\nThis could not all be\na dream, could it?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.009c213c",
+      "master_id": "jp_009c213c",
+      "offset": "0x009C213C",
+      "source_hex": "836c836c817582a082e7814082a082c882bd814082a88b4182e882c982c882c182bd82cc82cb81420a09837c837c838d82cd814082dc82be814096b082c182bd82dc82dc82e681420a0982a282c182bd82a2814082c782a482b582bd82cc82a982b582e7814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836c836c817582a082e7814082a082c882bd814082a88b4182e882c982c882c182bd82cc82cb8142",
+          "text": "ネネ「あら　あなた　お帰りになったのね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82cd814082dc82be814096b082c182bd82dc82dc82e68142",
+          "text": "ポポロは　まだ　眠ったままよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182bd82a2814082c782a482b582bd82cc82a982b582e78148",
+          "text": "いったい　どうしたのかしら？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ネネ「あら　あなた　お帰りになったのね。\n<TAB>ポポロは　まだ　眠ったままよ。\n<TAB>いったい　どうしたのかしら？",
+      "events": [
+        {
+          "command_offset": "0x009C1F34",
+          "pointer_offset": "0x009C1F38",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4",
+          "naturally_observed": false
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Tessie: \"Oh, you are back!\nTipper is still asleep.\nWhat could be wrong with him?\"",
+      "display": null,
+      "notes": "Independent translation of the Japanese event source. Manual line breaks preserve sentence rhythm; native wrapping/centering and continuation tabs are measured separately.",
+      "references": [
+        "enemy_tipper",
+        "character.tessie"
+      ]
+    },
+    {
+      "id": "opening.0086f4c8",
+      "master_id": "jp_0086f4c8",
+      "offset": "0x0086F4C8",
+      "source_hex": "82cd82a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82a2",
+          "text": "はい",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "はい",
+      "events": [],
+      "reuse": null,
+      "layout": "choice",
+      "choice_owners": [
+        {
+          "pointer_offset": "0x0086F49C",
+          "table_base": "0x0086F49C",
+          "record_stride": 12,
+          "return_value": 1
+        }
+      ],
+      "english": "Yes",
+      "display": null,
+      "notes": "Shared event Yes/No label; original record return value and default selection are preserved. Native opening exposed a separate table from earlier confirmation menus.",
+      "references": [
+        "ui.event_yes"
+      ]
+    },
+    {
+      "id": "opening.0086f4c0",
+      "master_id": "jp_0086f4c0",
+      "offset": "0x0086F4C0",
+      "source_hex": "82a282a282a600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282a282a6",
+          "text": "いいえ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "いいえ",
+      "events": [],
+      "reuse": null,
+      "layout": "choice",
+      "choice_owners": [
+        {
+          "pointer_offset": "0x0086F4A8",
+          "table_base": "0x0086F49C",
+          "record_stride": 12,
+          "return_value": 0
+        }
+      ],
+      "english": "No",
+      "display": null,
+      "notes": "Shared event Yes/No label; original record return value and default selection are preserved. Native opening exposed a separate table from earlier confirmation menus.",
+      "references": [
+        "ui.event_no"
+      ]
+    }
+  ]
+}

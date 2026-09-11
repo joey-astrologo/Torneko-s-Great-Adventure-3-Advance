@@ -1,0 +1,360 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "profiles": {
+    "title": {
+      "width": 80,
+      "start_x": 4,
+      "max_lines": 1,
+      "payload_limit": null,
+      "alignment": "left"
+    },
+    "settings": {
+      "width": 152,
+      "start_x": 4,
+      "max_lines": 1,
+      "payload_limit": 256,
+      "alignment": "left",
+      "column_gap": 4
+    },
+    "message": {
+      "width": 208,
+      "start_x": 0,
+      "max_lines": 3,
+      "payload_limit": 999,
+      "alignment": "left"
+    },
+    "story": {
+      "width": 208,
+      "start_x": 0,
+      "max_lines": 3,
+      "payload_limit": 1023,
+      "alignment": "center"
+    },
+    "info": {
+      "width": 208,
+      "start_x": 0,
+      "max_lines": 1,
+      "payload_limit": null,
+      "alignment": "left"
+    },
+    "menu": {
+      "width": 80,
+      "start_x": 4,
+      "max_lines": 1,
+      "payload_limit": null,
+      "alignment": "left",
+      "strip_default_marker": true,
+      "dynamic_width": true
+    },
+    "choice": {
+      "width": 48,
+      "start_x": 4,
+      "max_lines": 1,
+      "payload_limit": null,
+      "alignment": "left",
+      "strip_default_marker": true,
+      "dynamic_width": true
+    }
+  },
+  "entries": [
+    {
+      "id": "title.new_game",
+      "offset": "0x00C782D8",
+      "pointers": [
+        "0x00C78280"
+      ],
+      "profile": "title",
+      "context": "Start a new adventure; first fresh-save title option",
+      "evidence": "docs/FIRST_LABEL.md",
+      "reader": "direct"
+    },
+    {
+      "id": "title.continue",
+      "offset": "0x00C782CC",
+      "pointers": [
+        "0x00C78284"
+      ],
+      "profile": "title",
+      "context": "Continue an existing adventure; first saved-game title option",
+      "evidence": "docs/TEXT_SYSTEMS.md",
+      "reader": "direct"
+    },
+    {
+      "id": "title.settings",
+      "offset": "0x00C782A4",
+      "pointers": [
+        "0x00C78290"
+      ],
+      "profile": "title",
+      "context": "Open game settings from the title menu",
+      "evidence": "docs/TEXT_SYSTEMS.md",
+      "reader": "direct"
+    },
+    {
+      "id": "settings.message_speed",
+      "offset": "0x00C40100",
+      "pointers": [
+        "0x000785B4"
+      ],
+      "profile": "settings",
+      "context": "Text speed: slow, normal, fast; original column and selection controls",
+      "evidence": "docs/TEXT_SYSTEMS.md",
+      "reader": "settings"
+    },
+    {
+      "id": "save.new_log_explanation",
+      "offset": "0x00C78444",
+      "pointers": [
+        "0x000858F4"
+      ],
+      "profile": "message",
+      "context": "Explanation before naming an empty adventure-log slot",
+      "evidence": "docs/TEXT_SYSTEMS.md",
+      "reader": "message"
+    },
+    {
+      "id": "story.opening_01",
+      "offset": "0x0091BBB4",
+      "pointers": [
+        "0x0091B6AC"
+      ],
+      "profile": "story",
+      "context": "Opening narration, first three-line page; event command 0x27",
+      "evidence": "docs/TEXT_SYSTEMS.md",
+      "reader": "story"
+    },
+    {
+      "id": "title.delete_log",
+      "offset": "0x00C782BC",
+      "pointers": [
+        "0x00C78288"
+      ],
+      "profile": "title",
+      "reader": "direct",
+      "context": "Delete an existing Adventure Log; shown on the saved-game title menu",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "settings.display",
+      "offset": "0x00C401E0",
+      "pointers": [
+        "0x00078634"
+      ],
+      "profile": "settings",
+      "reader": "settings",
+      "context": "Display palette options: brighter, emphasized, normal",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "settings.reset",
+      "offset": "0x00C400AC",
+      "pointers": [
+        "0x0007856C"
+      ],
+      "profile": "settings",
+      "reader": "settings",
+      "context": "Restore the initial settings",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.slot_one",
+      "offset": "0x00C783AC",
+      "pointers": [
+        "0x0008559C"
+      ],
+      "profile": "title",
+      "reader": "direct",
+      "context": "First Adventure Log slot",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.slot_two",
+      "offset": "0x00C783BC",
+      "pointers": [
+        "0x000855A0"
+      ],
+      "profile": "title",
+      "reader": "direct",
+      "context": "Second Adventure Log slot",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.empty_log",
+      "offset": "0x00C7841C",
+      "pointers": [
+        "0x00085870"
+      ],
+      "profile": "info",
+      "reader": "direct",
+      "context": "Status beneath an empty slot",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.choose",
+      "offset": "0x00C787D8",
+      "pointers": [
+        "0x00085BB0"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Prompt above the fresh-save mode menu",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.scenario_confirm",
+      "offset": "0x00C7A990",
+      "pointers": [
+        "0x00085BD8"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Confirmation before choosing scenario/story mode",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.initializing",
+      "offset": "0x00C78508",
+      "pointers": [
+        "0x000859EC"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Progress message during adventure creation; only this observed caller is relocated",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.start_story",
+      "offset": "0x00C78300",
+      "pointers": [
+        "0x00084EC0"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Start from the beginning after creating a Story-mode Adventure Log",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.loading",
+      "offset": "0x0009B4B0",
+      "pointers": [
+        "0x00001E68"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Progress message while loading a saved Adventure Log",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "save.loaded",
+      "offset": "0x00C78A24",
+      "pointers": [
+        "0x00085DE4"
+      ],
+      "profile": "message",
+      "reader": "message",
+      "context": "Successful load notice",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "choice.yes_default",
+      "offset": "0x00C420DC",
+      "pointers": [
+        "0x00C420B0"
+      ],
+      "profile": "choice",
+      "reader": "menu",
+      "context": "Yes/No menu whose initial selection is Yes; name confirmation",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "choice.no",
+      "offset": "0x00C420D4",
+      "pointers": [
+        "0x00C420BC"
+      ],
+      "profile": "choice",
+      "reader": "menu",
+      "context": "No in the Yes-default confirmation table",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "choice.yes",
+      "offset": "0x00C42110",
+      "pointers": [
+        "0x00C420E4"
+      ],
+      "profile": "choice",
+      "reader": "menu",
+      "context": "Yes in the No-default confirmation table",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "choice.no_default",
+      "offset": "0x00C42108",
+      "pointers": [
+        "0x00C420F0"
+      ],
+      "profile": "choice",
+      "reader": "menu",
+      "context": "Yes/No menu whose initial selection is No; mode confirmation",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.story",
+      "offset": "0x00C4CDC8",
+      "pointers": [
+        "0x00C4CDD8"
+      ],
+      "profile": "menu",
+      "reader": "menu",
+      "context": "Scenario mode in the fresh-save, locked-challenge menu table",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.extra",
+      "offset": "0x00C4CDB4",
+      "pointers": [
+        "0x00C4CDE4"
+      ],
+      "profile": "menu",
+      "reader": "menu",
+      "context": "Extra mode in the fresh-save menu table",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.locked",
+      "offset": "0x00C4CE20",
+      "pointers": [
+        "0x00C4CDF0"
+      ],
+      "profile": "menu",
+      "reader": "menu",
+      "context": "Unrevealed, unavailable mode; retain the hidden label",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.help",
+      "offset": "0x00C4CD90",
+      "pointers": [
+        "0x00C4CDFC"
+      ],
+      "profile": "menu",
+      "reader": "menu",
+      "context": "Mode explanation entry in the fresh-save menu table",
+      "evidence": "docs/EARLY_MENUS.md"
+    },
+    {
+      "id": "mode.cancel",
+      "offset": "0x00C4CD88",
+      "pointers": [
+        "0x00C4CE08"
+      ],
+      "profile": "menu",
+      "reader": "menu",
+      "context": "Return from the fresh-save mode menu",
+      "evidence": "docs/EARLY_MENUS.md"
+    }
+  ]
+}

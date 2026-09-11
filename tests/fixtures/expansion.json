@@ -1,0 +1,6 @@
+{
+  "description": "Visually reviewed opening-story screen after a cold boot using the game's newly created adventure-log save.",
+  "opening_story_rgb_sha256": "87b427f3df02732524413235ce05eacc04ed0654e11153db84788b04dd951e9c",
+  "emulator": "mGBA 0.10.5; native arm64; built-in BIOS",
+  "reload_route": "600 frames; Start for 3 + 240 released; A for 3 + 120; A for 3 + 120; A for 3 + 1200."
+}

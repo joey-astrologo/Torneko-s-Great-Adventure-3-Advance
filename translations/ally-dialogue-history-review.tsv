@@ -1,0 +1,17 @@
+id	catalog	old_display	display_template	bytes_including_nul	history_payload_upper_bounds
+gameplay.001b45d0	core-gameplay.json	Unequipped $i0.	Unequipped<LF>$i0.	16	10,49
+gameplay.001b4628	core-gameplay.json	$i1 is stuck to<LF>the ground.	$i1 is stuck<LF>to the ground.	28	57,14
+gameplay.001b465f	core-gameplay.json	$i1 couldn't be<LF>put in the pot.	$i1 couldn't<LF>be put in the pot.	32	57,18
+gameplay.001b4677	core-gameplay.json	$i1 couldn't be<LF>put in the jewel box.	$i1 couldn't<LF>be put in the jewel box.	38	57,24
+gameplay.001b468f	core-gameplay.json	The warehouse is full.<LF>$i1 couldn't be<LF>stored.	The warehouse is full.<LF>$i1 couldn't<LF>be stored.	47	22,57,10
+gameplay.001b46ad	core-gameplay.json	Also put in $i1.	Also put in<LF>$i1.	17	11,49
+gameplay.001b4730	core-gameplay.json	Took $i1 out of<LF>$i0.	Took $i1 out<LF>of $i0.	21	57,52
+gameplay.001b4bb0	core-gameplay.json	Put $i0 at your<LF>feet.	Put $i0 at<LF>your feet.	22	55,10
+gameplay.001b4be0	core-gameplay.json	$i0 filled with<LF>power!	$i0 filled<LF>with power!	23	55,11
+gameplay.001b550b	core-gameplay.json	$i0 fell to the<LF>ground.	$i0 fell to<LF>the ground.	24	56,11
+gameplay.001b5532	core-gameplay.json	$i0 fell into the<LF>water.	$i0 fell into<LF>the water.	25	58,10
+gameplay.001b5544	core-gameplay.json	$i0 fell to the<LF>ground or into the water.	$i0 fell to<LF>the ground or into the water.	42	56,29
+gameplay.001b5686	core-gameplay.json	$i0 hit $t.	$i0 hit<LF>$t.	12	52,8
+gameplay.001b5712	core-gameplay.json	$i0 was lost to<LF>the wind.	$i0 was lost<LF>to the wind.	26	57,12
+help.001b6535	gameplay-help.json	What a surprise!<LF>$i0<LF>was really $i1!	What a surprise!<LF>$i0 was really<LF>$i1!	37	16,59,49
+help.001b6593	gameplay-help.json	$i0 was plated.	$i0 was<LF>plated.	16	52,7

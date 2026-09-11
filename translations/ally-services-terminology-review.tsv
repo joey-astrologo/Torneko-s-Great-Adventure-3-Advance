@@ -1,0 +1,266 @@
+id	family	japanese	full_english	display	term_ids	evidence	notes
+service.00c3da6c	row	<03 05 07>売る	{hex:030507}Sell			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3db04	label	何に？	Use on what?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3db54	row	%2d<03 09 14>: 使用できない	%2d{hex:030914}: Unavailable			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de18	menu	外す	Remove			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de20	menu	登録から外す	Unregister			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de30	menu	やめる	Cancel			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de38	menu	別れる	Part ways			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de40	menu	名前の変更	Rename			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de4c	menu	命令する	Orders			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de58	menu	ステータス	Status			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de64	menu	$j2から外す	Leave $j2			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de70	menu	$j2に加える	Join $j2			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3de7c	message	"この冒険で仲間が増えすぎて
+仲間リストに加える事ができません。
+
+最大１２０体なのであと$d0体
+整理してください。"	You recruited too many allies on this adventure to add them all to the ally list.<LF>The limit is 120. Remove $d0 more allies from the list.		service.ally_list	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3deec	message	"まだ仲間が増えすぎて
+仲間リストに加える事ができません。
+
+最大１２０体なので あと$d0体
+整理してください。"	There are still too many allies to add them all to the ally list.<LF>The limit is 120. Remove $d0 more allies from the list.		service.ally_list	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3df58	message	"いっしょに冒険にでる仲間モンスターが
+多すぎます！"	Too many monster allies have been chosen for this adventure!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3df8c	small	冒険	Adventure	Trip	service.adventure	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Four-byte $j2 context field at 02008E38; full term retained separately from display.
+service.00c3df94	small	仲間リスト	Ally list		service.ally_list	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3dfa0	message	仲間リストにはだれもいません。	There are no allies on the list.		service.ally_list	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3dfc0	message	いま$tは仲間の状態がわかりません。	$t cannot check on allies right now.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3dfe4	label	パスワード表示	Show passwords			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3dff4	message	"＊「読み出してきた　モンスターは
+$x全部　消えてしまったぞ。"	All the monsters you loaded have disappeared.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e158	message	"選んだ仲間モンスター
+$m0と別れますか？"	Part ways with the selected ally, $m0?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e180	message	"選んだ仲間モンスター達と
+別れますか？"	Part ways with the selected allies?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e1a8	message	$m0と別れました。	You parted ways with $m0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e1bc	message	仲間達と別れました。	You parted ways with the allies.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e1d4	message	$m0は あやつられている！	$m0 is being controlled!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e1f0	message	仲間達は あやつられている！	The allies are being controlled!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e20c	message	"あやつられている 仲間モンスターは
+冒険から はずれなかったが
+何体かのモンスターは 冒険からはずれた。"	The allies being controlled stayed in the party, but some of the others left the adventure.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e270	message	"＊「選んだ　登録されているモンスター
+$x$m0を　登録からけしちまうぜ。
+$xほんとに　いいんだな？"	I'll erase the selected monster, $m0, from the register. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e2d0	message	"＊「まとめて選んだ　登録されている
+$xモンスターを　登録から消しちまうぜ。
+$xほんとに　いいんだな？"	I'll erase all the selected monsters from the register. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e400	stats	攻撃力<03 08 2E>$d0<03 08 44>経験値 $d1	Attack{hex:03082e}$d0{hex:030868}XP $d1			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. XP/Next denote experience/current experience needed for next level. Second column moved to x104 within the existing 188-pixel content width; no code or window change.
+service.00c3e41c	stats	防御力<03 08 2E>$d0<03 08 44>次レベル $d1	Defence{hex:03082e}$d0{hex:030868}Next $d1			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. XP/Next denote experience/current experience needed for next level. Second column moved to x104 within the existing 188-pixel content width; no code or window change.
+service.00c3e438	row	<03 05 04>？？<03 06>	{hex:030504}??{hex:0306}			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e454	message	"あやつられている 仲間モンスターの
+ステータスは見る事が出来ません。"	You cannot view the status of allies who are being controlled.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e4d4	menu	やめる	Cancel			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e4dc	menu	倉庫説明	Instructions			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e4e8	menu	倉庫に入れる	Deposit			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e4f8	menu	*倉庫から出す	*Withdraw			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e508	message	＊「倉庫をお使いになりますか？	Would you like to use the warehouse?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e528	message	＊「ほかにご用はありますか？	Can I help you with anything else?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e548	label	持物へ	Withdraw			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Transfer action in the existing warehouse popup: 44px after x4. Withdraw=43px, Deposit=34px. Variable-length caller pointer at 02009110; original popup ownership retained.
+service.00c3e550	label	倉庫へ	Deposit			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Transfer action in the existing warehouse popup: 44px after x4. Withdraw=43px, Deposit=34px. Variable-length caller pointer at 02009110; original popup ownership retained.
+service.00c3e558	message	"＊「倉庫を準備中です……
+$xちょっとお待ちください。"	Preparing the warehouse...<LF>Please wait a moment.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e58c	message	"＊「倉庫のアイテムを確認中……
+$xちょっとお待ちください。"	Checking the warehouse items...<LF>Please wait a moment.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e5c8	message	＊「倉庫には　なにも入っていません。	There is nothing in the warehouse.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e5f0	message	"＊「いくつかのアイテムを
+$x倉庫から出しますがよろしいですか？"	Withdraw the selected items from the warehouse?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e630	message	"＊「$i0を
+$x倉庫から出しますがよろしいですか？"	Withdraw $i0 from the warehouse?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e660	message	"＊「倉庫から取り出そうとしたアイテムが
+$x持ち物の空きよりも多いので　アイテムを
+$x倉庫から　取り出すことはできません。"	You do not have room for all the selected items, so they cannot be withdrawn.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e6d8	message	"＊「おや？もうアイテムを
+$xいっぱい持っているようですね。
+$xいらないものを倉庫に入れてから出して"	You are already carrying too much. Store some unwanted items before taking more out.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e73c	message	"$tは
+いくつかのアイテムを倉庫から取り出した。"	$t withdrew several items from the warehouse.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e76c	message	"$tは$i0を
+倉庫から取り出した。"	$t withdrew $i0 from the warehouse.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e78c	message	＊「いくつかのアイテムをすてますか？	Discard the selected items?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e7b4	message	＊「$i0をすてますか？	Discard $i0?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e7cc	message	いくつかのアイテムをすてました。	You discarded several items.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e7f0	message	$i0をすてました。	You discarded $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e804	message	"＊「$tさんは　アイテムを
+$x持っていません。"	$t is not carrying any items.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e830	message	"＊「いくつかのアイテムを倉庫に
+$x入れますがよろしいですか？"	Deposit the selected items in the warehouse?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e86c	message	"＊「$i0を倉庫に
+$x入れますがよろしいですか？"	Deposit $i0 in the warehouse?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e89c	message	"＊「入れようとしたアイテムが
+$x倉庫の空きよりも多かったので
+$xアイテムを倉庫に入れませんでした。"	There was not enough room for all the selected items, so they were not deposited.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e900	message	"＊「もう倉庫がいっぱいで
+$xこれ以上　入れることはできません。
+
+＊「いらないものを　すてたり
+$x売ったりして　減らしておくことを
+$xおすすめします。"	The warehouse is full. We cannot store any more items.<LF>Try discarding or selling unwanted items to make room.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e994	message	"$tはいくつかのアイテムを
+倉庫に入れた。"	$t deposited several items in the warehouse.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e9bc	message	"$tは持ち物から
+$i0を倉庫に入れた。"	$t deposited $i0 from the inventory in the warehouse.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e9e0	message	アイテムをすてました。	You discarded an item.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3e9f8	message	"＊「もう倉庫がいっぱいで
+$xこれ以上　入れることはできません。"	The warehouse is full. We cannot store any more items.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ea38	message	"＊「選択したいくつかのアイテムをすてます。
+$x本当によろしいのですか？"	You are about to discard the selected items. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ea80	message	"＊「$i0をすてます。
+$x本当によろしいですか？"	You are about to discard $i0. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3eab0	message	"＊「倉庫には　ダンジョンから持ちかえった
+$xアイテムや　お店で買ったアイテムなどを
+$x入れておくことができます。
+＊「倉庫は　いろいろな場所にあり
+$xどこからでも　自由に出し入れすることが
+$xできます。
+＊「冒険中にちからつきても
+$x倉庫の中に入っているアイテムは
+$xなくなりません。
+＊「倉庫では　最大200個のアイテムを
+$x預かることができます。
+$x
+＊「壺にアイテムを
+$x入れたまま　預けることもできますが
+$x壺の中のアイテムも
+＊「ひとつずつ　数えられることに
+$xなっておりますので　ご了承ください。
+$x
+＊「ダンジョンの中で倉庫の壺に
+$xアイテムを入れると　直接　倉庫に
+$x送ることができます。
+＊「ただし倉庫が　いっぱいだと
+$x倉庫の壺に　アイテムを入れることが
+$xできなくなります。注意してください。
+＊「以上で倉庫の説明を終わります。"	You can store items brought back from dungeons or bought in shops here.<LF>Warehouses are found in various places. You can deposit or withdraw your items at any of them.<LF>Items in storage will not be lost if you collapse on an adventure.<LF>We can store up to 200 items.<LF>You may deposit pots with items still inside, but each item inside a pot counts towards the limit.<LF>Put an item into a Warehouse pot in a dungeon to send it straight to storage.<LF>Be careful: if the warehouse is full, you cannot put items into a Warehouse pot.<LF>That concludes our explanation.		combined_item_258	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ed8c	label	ポポロ	Tipper		enemy_tipper	https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ed94	label	トルネコ	Torneko		torneko	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ede4	row	%3d空き	%3d free			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3edf4	label	倉庫内	Storage			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3edfc	label	持ち物	Items			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ee08	label	何も入っていません	Nothing inside			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ee68	message	アイテムを持っていない。	You are not carrying any items.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3eed8	message	"選択したいくつかのアイテムをすてます。
+本当によろしいのですか？"	You are about to discard the selected items. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ef18	message	"$i0をすてます。
+本当によろしいですか？"	You are about to discard $i0. Are you sure?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ef40	message	いくつかのアイテムをすてました。	You discarded several items.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ef64	message	$i0をすてました。	You discarded $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ef78	message	"$i1は 
+$i0には入りません。"	$i1 will not fit into $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3ef94	message	"$i0は
+いっぱいになりました。"	$i0 is now full.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3efb4	message	"$i1を
+$i0に入れました。"	You put $i1 into $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3efcc	message	持ち物がいっぱいで もう壺から出せない。	Your inventory is full. You cannot take any more items out of the pot.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3eff4	message	"$i0から
+$i1を取り出した。"	You took $i1 out of $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f0b0	label	説明	Info			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f0c0	message	"これら $i0と
+$i1は 合成する
+ことはできません。"	$i0 and $i1 cannot be synthesised.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f0f0	message	"$i0
+$d0Ｇ ＯＫ？"	Sell $i0 for $d0G?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f104	message	"ふくすう。
+$d0Ｇ ＯＫ？"	Sell the selected items for $d0G?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f11c	message	$i0 売った。	Sold $i0.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f12c	message	ふくすう 売ったよ。	Sold the selected items.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f150	row	<03 05 07>売る	{hex:030507}Sell			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f188	menu	やめる	Cancel			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f190	menu	引き出す	Withdraw			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f19c	menu	*あずける	*Deposit			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f1bc	message	＊「愛と信頼の　ゴールド銀行へようこそ。	Welcome to the Gold Bank, where care and trust come first.		service.gold_bank	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f1e8	message	"＊「現在　$d0ゴールド
+$xおあずかり　しておりますが
+$xご用は　なんでしょう？"	We are holding $d0 gold for you. How may I help you?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f234	message	"＊「現在は　お客さまからの
+$xあずかり金は　ございません。
+$xご用は　なんでしょう？"	You have no gold deposited with us. How may I help you?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f288	message	"＊「えっ？　お客さまのお金は
+$x１ゴールドも　おあずかりして
+$xおりませんが……。"	But we are not holding even one gold coin for you...			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f2dc	message	"＊「現在　$d0ゴールド
+$xおあずかり　しておりますが
+$xいくら　お引き出しいたしますか？"	We are holding $d0 gold for you. How much would you like to withdraw?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f334	label	Ｇ	G			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f338	message	"＊「失礼ですが　お客さま。
+$xそんなに　たくさん
+$xおあずかりして　おりませんが……。"	I'm sorry, but you do not have that much gold deposited with us.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f390	message	"＊「失礼ですが　お客さま
+$xそんなに　たくさん
+$xお持ちになれないようです。"	I'm sorry, but you cannot carry that much gold.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f3dc	message	"＊「$d0ゴールドですね。
+$xはい　どうぞ。"	$d0 gold, then. Here you are.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f408	message	＊「おやめに　なるのですね。	Cancelling, then?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f428	message	"＊「お客さま　申しわけありませんが
+$xわたくしどもの金庫が　いっぱいで
+$xこれ以上　おあずかりできません。"	I'm sorry, but our vault is full. We cannot accept any more gold.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f494	message	"＊「失礼ですが　お客さまは　今
+$x１ゴールドも　お金を
+$xお持ちでは　ないようです。"	I'm sorry, but you do not seem to be carrying any gold.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f4e8	message	＊「いくら　おあずかりしましょう？	How much would you like to deposit?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f50c	message	"＊「失礼ですが　お客さまは　今
+$xそれほど　お金を
+$xお持ちでは　ないようです。"	I'm sorry, but you do not seem to be carrying that much gold.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f55c	message	"＊「申しわけありませんが　金庫の空きが
+$x少なくて　$d0ゴールドしか
+$xおあずかりできません。"	I'm sorry, but there is only room for another $d0 gold in our vault.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f5b8	message	"＊「$d0ゴールドですね。
+$xでは　責任をもって
+$xおあずかりいたします。"	$d0 gold, then. We will keep it safe for you.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f600	message	"＊「現在　$d0ゴールド
+$xおあずかり　しております。
+$xありがとうございました。"	We are now holding $d0 gold for you. Thank you for your custom.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f650	message	"＊「現在は　お客さまからの
+$xあずかり金は　ございません。
+$xまたの　ご利用を　お待ちしています。"	You have no gold deposited with us. We look forward to serving you again.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f6b4	row	預り金 %7dＧ 所持金 %7dＧ 	Bank %7dG Cash %7dG			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f6e4	message	"＊「あら　子どもは　こんな所で
+$x遊んでちゃ　ダメよ。"	Oh, children mustn't play in a place like this!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f71c	message	"＊「いらっしゃいませ。
+$xここは　コイン売場です。"	Welcome! This is the token counter.		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f750	message	"＊「コイン１枚　２０ゴールドですが
+$x何枚　お買いもとめですか？"	Tokens cost 20 gold each. How many would you like?		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f790	message	"＊「$tさまは　現在
+$x$d0枚の
+$xコインを　お持ちです。"	$t, you currently have $d0 tokens.		service.tokens;torneko;enemy_tipper	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf;https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f7c8	message	"＊「$tさまは　現在　コインを
+$x１枚も　お持ちではありません。"	$t, you do not have any tokens at the moment.		service.tokens;torneko;enemy_tipper	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf;https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f808	label	枚	tokens	T	service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Token quantity picker reserves one unit cell at x73 in its 88px seven-digit panel. Full tokens fails native width checks; T fits. Prompts and balance use tokens in full.
+service.00c3f80c	message	＊「あら　おやめになるのですね。	Oh, cancelling, are you?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f830	message	"＊「$d0枚ですね。
+$x$d1ゴールドになりますが
+$xよろしいですか？"	$d0 tokens, then. That will be $d1 gold. Is that all right?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f870	message	＊「では　何枚に　なさいますか？	How many would you like, then?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f894	message	"＊「あら？　申しわけありませんが
+$xお金が　たりないようですわ。"	Oh? I'm sorry, but you don't seem to have enough gold.			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f8d4	message	"＊「では　コインを　$d0枚
+$xお渡しいたします。"	Here are your $d0 tokens.		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f904	message	"＊「ありがとうございました。
+$xご幸運を　お祈りいたします。"	Thank you! Best of luck!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f940	message	＊「いかんねえ ガキは いかんねえ	No, no! No children allowed!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f964	message	"＊「景品こうかん所へ　ようこそ。
+$xお客さまの　コインを
+$xステキな景品に　こうかんします。"	Welcome to the prize counter! Trade your tokens for wonderful prizes here.		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f9c8	message	どちらの　景品を　おのぞみですか？	Which prize would you like?			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f9ec	label	交換	Exchange			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3f9f4	message	"＊「$i0ですか？
+$x残念ですが　そちらには
+$xコイン枚数が　足りないようです。"	$i0? I'm sorry, but you do not have enough tokens for that prize.		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fa40	message	"＊「$i0ですね。
+$xそちらは　コイン　$d0枚と
+$xこうかんですが　よろしいですか？"	$i0 costs $d0 tokens. Would you like to exchange them?		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fa90	message	"＊「あら？　こまりましたわ。
+$x$tさまは
+$x持ち物が　いっぱいのようです。"	Oh dear! $t, your inventory seems to be full.		torneko;enemy_tipper	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107;https://dragon-quest.org/wiki/Tipper_Taloon	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fadc	message	"＊「では　確かに
+$x$d0枚のコインと
+$xこうかん　させていただきます。"	I'll take $d0 tokens in exchange, then.		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fb20	message	"＊「ありがとうございました。
+$xまた　ぜひ　ご利用ください。"	Thank you! Please come again!			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fb6c	row	コイン $d0枚	Tokens $d0		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fb7c	row	お金 $d1Ｇ	Gold $d1G			Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c3fb88	row	お金 $d1Ｇ コイン $d0枚	Gold $d1G Tokens $d0		service.tokens	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained.
+service.00c411b0	small	戦闘	Battle	Bout	service.battle	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Four-byte $j2 context field at 02008E38; full term retained separately from display.
+service.00c41acc	small	戦闘	Battle	Bout	service.battle	Independent Torneko 3 Japanese-source translation	Independently translated from the pinned Japanese source; original service mechanics and substitutions retained. Four-byte $j2 context field at 02008E38; full term retained separately from display.

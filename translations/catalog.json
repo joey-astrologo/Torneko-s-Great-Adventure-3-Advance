@@ -1,0 +1,580 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "title.new_game",
+      "japanese": "はじめから",
+      "english": "New game",
+      "context": "Start a new adventure; first fresh-save title option",
+      "source_hex": "82cd82b682df82a982e700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82b682df82a982e7",
+          "text": "はじめから"
+        }
+      ]
+    },
+    {
+      "id": "title.continue",
+      "japanese": "つづきから",
+      "english": "Continue",
+      "context": "Continue an existing adventure; first saved-game title option",
+      "source_hex": "82c282c382ab82a982e700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c282c382ab82a982e7",
+          "text": "つづきから"
+        }
+      ]
+    },
+    {
+      "id": "title.settings",
+      "japanese": "ゲーム設定",
+      "english": "Settings",
+      "context": "Open game settings from the title menu",
+      "source_hex": "8351815b838090dd92e800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8351815b838090dd92e8",
+          "text": "ゲーム設定"
+        }
+      ]
+    },
+    {
+      "id": "settings.message_speed",
+      "japanese": "メッセージ{x:64}{choice:1}遅い{x:96}{choice:2}普通{x:128}{choice:3}速い",
+      "english": "Text speed{x:64}{choice:1}Slow{x:96}{choice:2}Norm{x:128}{choice:3}Fast",
+      "context": "Text speed: slow, normal, fast; original column and selection controls",
+      "source_hex": "83818362835a815b8357030840031401927882a2030860031402958192ca03088003140391ac82a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83818362835a815b8357",
+          "text": "メッセージ"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030840",
+          "text": "<03 08 40>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031401",
+          "text": "<03 14 01>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "927882a2",
+          "text": "遅い"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030860",
+          "text": "<03 08 60>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031402",
+          "text": "<03 14 02>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "958192ca",
+          "text": "普通"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030880",
+          "text": "<03 08 80>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031403",
+          "text": "<03 14 03>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ac82a2",
+          "text": "速い"
+        }
+      ]
+    },
+    {
+      "id": "save.new_log_explanation",
+      "japanese": "新しく冒険を始めます。\n冒険の書{slot}に　４文字以内で\n好きな名前を付けてください。",
+      "english": "Start a new adventure.\nName Adventure Log {slot} using\nup to four characters.",
+      "context": "Explanation before naming an empty adventure-log slot",
+      "source_hex": "905682b582ad96608caf82f08e6e82df82dc82b781420a96608caf82cc8f91246a3082c98140825395b68e9a88c893e082c50a8d4482ab82c896bc914f82f0957482af82c482ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "905682b582ad96608caf82f08e6e82df82dc82b78142",
+          "text": "新しく冒険を始めます。"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082c98140825395b68e9a88c893e082c5",
+          "text": "冒険の書$j0に　４文字以内で"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d4482ab82c896bc914f82f0957482af82c482ad82be82b382a28142",
+          "text": "好きな名前を付けてください。"
+        }
+      ]
+    },
+    {
+      "id": "story.opening_01",
+      "japanese": "{center}商人トルネコ。　彼は　かつて\n{center}天空にみちびかれし　勇者たちとともに\n{center}邪悪なる大魔王を　うちたおしました。",
+      "english": "{center}Torneko, a merchant, once joined\n{center}heroes guided by the heavens\n{center}to defeat an evil demon king.",
+      "context": "Opening narration, first three-line page; event command 0x27",
+      "source_hex": "24638fa4906c8367838b836c83528142814094de82cd814082a982c282c40a246393568bf382c982dd82bf82d182a982ea82b5814097458ed282bd82bf82c682c682e082c90a24638ed788ab82c882e991e5968289a482f0814082a482bf82bd82a882b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "24638fa4906c8367838b836c83528142814094de82cd814082a982c282c4",
+          "text": "$c商人トルネコ。　彼は　かつて"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "246393568bf382c982dd82bf82d182a982ea82b5814097458ed282bd82bf82c682c682e082c9",
+          "text": "$c天空にみちびかれし　勇者たちとともに"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "24638ed788ab82c882e991e5968289a482f0814082a482bf82bd82a882b582dc82b582bd8142",
+          "text": "$c邪悪なる大魔王を　うちたおしました。"
+        }
+      ]
+    },
+    {
+      "id": "title.delete_log",
+      "japanese": "冒険の書を消す",
+      "english": "Delete log",
+      "context": "Delete an existing Adventure Log; shown on the saved-game title menu",
+      "source_hex": "96608caf82cc8f9182f08fc182b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f9182f08fc182b7",
+          "text": "冒険の書を消す"
+        }
+      ]
+    },
+    {
+      "id": "settings.display",
+      "japanese": "表示{x:64}{choice:1}明るい{x:96}{choice:2}強調{x:128}{choice:3}普通",
+      "english": "Display{x:64}{choice:1}Light{x:96}{choice:2}Bold{x:128}{choice:3}Norm",
+      "context": "Display palette options: brighter, emphasized, normal",
+      "source_hex": "955c8ea603084003140196be82e982a20308600314028bad92b2030880031403958192ca00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "955c8ea6",
+          "text": "表示"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030840",
+          "text": "<03 08 40>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031401",
+          "text": "<03 14 01>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96be82e982a2",
+          "text": "明るい"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030860",
+          "text": "<03 08 60>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031402",
+          "text": "<03 14 02>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8bad92b2",
+          "text": "強調"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030880",
+          "text": "<03 08 80>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "031403",
+          "text": "<03 14 03>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "958192ca",
+          "text": "普通"
+        }
+      ]
+    },
+    {
+      "id": "settings.reset",
+      "japanese": "初期状態に戻す",
+      "english": "Reset settings",
+      "context": "Restore the initial settings",
+      "source_hex": "8f898afa8ff391d482c996df82b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8f898afa8ff391d482c996df82b7",
+          "text": "初期状態に戻す"
+        }
+      ]
+    },
+    {
+      "id": "save.slot_one",
+      "japanese": "{choice:1}冒険の書１",
+      "english": "{choice:1}Log 1",
+      "context": "First Adventure Log slot",
+      "source_hex": "03140196608caf82cc8f91825000",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "031401",
+          "text": "<03 14 01>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f918250",
+          "text": "冒険の書１"
+        }
+      ]
+    },
+    {
+      "id": "save.slot_two",
+      "japanese": "{choice:2}冒険の書２",
+      "english": "{choice:2}Log 2",
+      "context": "Second Adventure Log slot",
+      "source_hex": "03140296608caf82cc8f91825100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "031402",
+          "text": "<03 14 02>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f918251",
+          "text": "冒険の書２"
+        }
+      ]
+    },
+    {
+      "id": "save.empty_log",
+      "japanese": "この　冒険の書は記録されていません。",
+      "english": "This Adventure Log is empty.",
+      "context": "Status beneath an empty slot",
+      "source_hex": "82b182cc814096608caf82cc8f9182cd8b4c985e82b382ea82c482a282dc82b982f1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc814096608caf82cc8f9182cd8b4c985e82b382ea82c482a282dc82b982f18142",
+          "text": "この　冒険の書は記録されていません。"
+        }
+      ]
+    },
+    {
+      "id": "mode.choose",
+      "japanese": "冒険の書のモードを選択してください。\n初めてプレイする場合は　[説明]を  \nお読みください。\n",
+      "english": "Choose a mode for this Adventure Log.\nIf this is your first time playing,\nplease read [Help].",
+      "context": "Prompt above the fresh-save mode menu",
+      "source_hex": "96608caf82cc8f9182cc8382815b836882f0914991f082b582c482ad82be82b382a281420a8f8982df82c48376838c834382b782e98fea8d8782cd81405b90e096be5d82f020200a82a893c782dd82ad82be82b382a281420a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f9182cc8382815b836882f0914991f082b582c482ad82be82b382a28142",
+          "text": "冒険の書のモードを選択してください。"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f8982df82c48376838c834382b782e98fea8d8782cd81405b90e096be5d82f02020",
+          "text": "初めてプレイする場合は　[説明]を  "
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a893c782dd82ad82be82b382a28142",
+          "text": "お読みください。"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        }
+      ]
+    },
+    {
+      "id": "mode.scenario_confirm",
+      "japanese": "冒険の書{slot}を[シナリオモード]に\n設定します。",
+      "english": "Set Adventure Log {slot}\nto [Story mode]?",
+      "context": "Confirmation before choosing scenario/story mode",
+      "source_hex": "96608caf82cc8f91246a3082f05b83568369838a83498382815b83685d82c90a90dd92e882b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082f05b83568369838a83498382815b83685d82c9",
+          "text": "冒険の書$j0を[シナリオモード]に"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90dd92e882b582dc82b78142",
+          "text": "設定します。"
+        }
+      ]
+    },
+    {
+      "id": "save.initializing",
+      "japanese": "冒険の書{slot}を\n[はじめから]の状態に設定しています……",
+      "english": "Preparing Adventure Log {slot}\nfor a new adventure...",
+      "context": "Progress message during adventure creation; only this observed caller is relocated",
+      "source_hex": "96608caf82cc8f91246a3082f00a5b82cd82b682df82a982e75d82cc8ff391d482c990dd92e882b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082f0",
+          "text": "冒険の書$j0を"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b82cd82b682df82a982e75d82cc8ff391d482c990dd92e882b582c482a282dc82b781638163",
+          "text": "[はじめから]の状態に設定しています……"
+        }
+      ]
+    },
+    {
+      "id": "save.start_story",
+      "japanese": "冒険の書{slot}を使って　シナリオの最初から\n「トルネコの大冒険３アドバンス」を始めます。",
+      "english": "Begin Torneko's Great Adventure 3\nAdvance from the start of the story\nusing Adventure Log {slot}.",
+      "context": "Start from the beginning after creating a Story-mode Adventure Log",
+      "source_hex": "96608caf82cc8f91246a3082f08e6782c182c4814083568369838a834982cc8dc58f8982a982e70a81758367838b836c835282cc91e596608caf825283418368836f83938358817682f08e6e82df82dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082f08e6782c182c4814083568369838a834982cc8dc58f8982a982e7",
+          "text": "冒険の書$j0を使って　シナリオの最初から"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "<LF>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81758367838b836c835282cc91e596608caf825283418368836f83938358817682f08e6e82df82dc82b78142",
+          "text": "「トルネコの大冒険３アドバンス」を始めます。"
+        }
+      ]
+    },
+    {
+      "id": "save.loading",
+      "japanese": "冒険の書{slot}のデータを　ロードしています……",
+      "english": "Loading Adventure Log {slot}...",
+      "context": "Progress message while loading a saved Adventure Log",
+      "source_hex": "96608caf82cc8f91246a3082cc8366815b835e82f08140838d815b836882b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082cc8366815b835e82f08140838d815b836882b582c482a282dc82b781638163",
+          "text": "冒険の書$j0のデータを　ロードしています……"
+        }
+      ]
+    },
+    {
+      "id": "save.loaded",
+      "japanese": "冒険の書{slot}をロードしました。",
+      "english": "Adventure Log {slot} loaded.",
+      "context": "Successful load notice",
+      "source_hex": "96608caf82cc8f91246a3082f0838d815b836882b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91246a3082f0838d815b836882b582dc82b582bd8142",
+          "text": "冒険の書$j0をロードしました。"
+        }
+      ]
+    },
+    {
+      "id": "choice.yes_default",
+      "japanese": "{default}はい",
+      "english": "{default}Yes",
+      "context": "Yes/No menu whose initial selection is Yes; name confirmation",
+      "source_hex": "2a82cd82a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a82cd82a2",
+          "text": "*はい"
+        }
+      ]
+    },
+    {
+      "id": "choice.no",
+      "japanese": "いいえ",
+      "english": "No",
+      "context": "No in the Yes-default confirmation table",
+      "source_hex": "82a282a282a600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282a282a6",
+          "text": "いいえ"
+        }
+      ]
+    },
+    {
+      "id": "choice.yes",
+      "japanese": "はい",
+      "english": "Yes",
+      "context": "Yes in the No-default confirmation table",
+      "source_hex": "82cd82a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82a2",
+          "text": "はい"
+        }
+      ]
+    },
+    {
+      "id": "choice.no_default",
+      "japanese": "{default}いいえ",
+      "english": "{default}No",
+      "context": "Yes/No menu whose initial selection is No; mode confirmation",
+      "source_hex": "2a82a282a282a600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a82a282a282a6",
+          "text": "*いいえ"
+        }
+      ]
+    },
+    {
+      "id": "mode.story",
+      "japanese": "シナリオモード",
+      "english": "Story mode",
+      "context": "Scenario mode in the fresh-save, locked-challenge menu table",
+      "source_hex": "83568369838a83498382815b836800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード"
+        }
+      ]
+    },
+    {
+      "id": "mode.extra",
+      "japanese": "エクストラモード",
+      "english": "Extra mode",
+      "context": "Extra mode in the fresh-save menu table",
+      "source_hex": "8347834e8358836783898382815b836800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード"
+        }
+      ]
+    },
+    {
+      "id": "mode.locked",
+      "japanese": "？？？",
+      "english": "???",
+      "context": "Unrevealed, unavailable mode; retain the hidden label",
+      "source_hex": "81488148814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "814881488148",
+          "text": "？？？"
+        }
+      ]
+    },
+    {
+      "id": "mode.help",
+      "japanese": "説明",
+      "english": "Help",
+      "context": "Mode explanation entry in the fresh-save menu table",
+      "source_hex": "90e096be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90e096be",
+          "text": "説明"
+        }
+      ]
+    },
+    {
+      "id": "mode.cancel",
+      "japanese": "やめる",
+      "english": "Cancel",
+      "context": "Return from the fresh-save mode menu",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる"
+        }
+      ]
+    }
+  ]
+}

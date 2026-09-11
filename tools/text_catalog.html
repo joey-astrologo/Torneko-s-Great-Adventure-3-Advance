@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Torneko 3 · Japanese source catalog</title>
+<style>
+  :root{color-scheme:dark;font:16px/1.5 system-ui,sans-serif;background:#12181c;color:#e6ebe9}
+  body{max-width:1150px;margin:0 auto;padding:32px 24px}h1{font-size:30px;margin:0 0 8px}
+  p{color:#b4c5c1}a{color:#a8dfcd}header{margin-bottom:28px}.stats{display:flex;gap:30px;flex-wrap:wrap}
+  .stats strong{display:block;font-size:25px;color:#a8dfcd}.stats span{font-size:14px;color:#b4c5c1}
+  .filters{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 16px;align-items:end}
+  label{font-size:13px;color:#b4c5c1;display:flex;flex-direction:column;gap:5px}.search{flex:1;min-width:220px}
+  input,select,button{font:inherit;background:#202b30;color:#e6ebe9;border:1px solid #50625d;border-radius:6px;padding:9px 12px}
+  button{cursor:pointer}button:disabled{opacity:.4;cursor:default}input:focus,select:focus,button:focus{outline:2px solid #a8dfcd}
+  nav{display:flex;gap:12px;align-items:center;margin:18px 0}.count{flex:1;color:#b4c5c1}
+  article{border-top:1px solid #384943;padding:18px 0}.meta{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;color:#a8dfcd}
+  .ja{white-space:pre-wrap;font-size:18px;line-height:1.75;margin:12px 0;overflow-wrap:anywhere}
+  .en{white-space:pre-wrap;color:#b4c5c1;margin:8px 0}.badge{color:#e7cca7}summary{cursor:pointer;font-size:13px;color:#b4c5c1}
+  pre{font:13px/1.6 ui-monospace,monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#1b2428;padding:12px;border-radius:6px}
+  .empty{padding:36px 0}footer{border-top:1px solid #384943;margin-top:24px;padding-top:12px;font-size:13px;color:#b4c5c1}
+</style>
+<header>
+  <p>TORNEKO 3 ADVANCE / TRANSLATION RESEARCH</p>
+  <h1>Japanese source catalog</h1>
+  <p>Browse the original game's text, including the newly decoded names and descriptions.
+  Static candidates still need context checks before translation is inserted.</p>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="filters">
+  <label class="search">Search Japanese, English, address, ID, or table:row
+    <input id="query" type="search" placeholder="トルネコ, 薬草, monster_names:3…" autocomplete="off"></label>
+  <label>Category<select id="category"><option value="">All categories</option></select></label>
+  <label>Evidence<select id="evidence"><option value="">All entries</option><option value="table">Structured tables</option>
+    <option value="curated">27 curated entries</option><option value="unreferenced">No pointer found</option>
+    <option value="weak">Short / non-Japanese candidates</option></select></label>
+</div>
+<nav aria-label="Catalog pages"><span id="count" class="count" aria-live="polite"></span>
+  <button id="prev">Previous</button><button id="next">Next</button></nav>
+<main id="results"></main>
+<footer>This is a read-only snapshot. Edit drafts in <a href="../../translations/master.json">master.json</a>;
+  the 27 curated English entries remain in <a href="../../translations/catalog.json">catalog.json</a>.
+  <a href="master.tsv">Download TSV</a> · <a href="coverage.json">Coverage report</a> ·
+  <a href="../../docs/TEXT_EXTRACTION.md">Extraction notes</a>.
+  New drafts are preserved on extraction; they are not automatically added to a ROM build.</footer>
+<script id="catalog-data" type="application/json">__CATALOG_DATA__</script>
+<script>
+const data=JSON.parse(document.getElementById('catalog-data').textContent);
+const $=id=>document.getElementById(id), size=50;
+let page=0, matches=[];
+function node(tag,text,className){const n=document.createElement(tag);n.textContent=text;if(className)n.className=className;return n;}
+for(const [value,label] of [[data.report.entries,'source entries'],[data.report.font_index_entries,'entries with indexed glyphs'],
+  [data.report.source_byte_union_including_nuls.toLocaleString()+' B','extracted source storage']]){
+  const box=node('div','');box.append(node('strong',value.toLocaleString()),node('span',label));$('stats').append(box);
+}
+for(const c of [...new Set(data.entries.flatMap(e=>e.categories))].sort()){
+  const option=node('option',c.replaceAll('_',' '));option.value=c;$('category').append(option);
+}
+for(const e of data.entries)e.search=[e.id,e.offset,e.japanese,e.english,e.curated_english,...(e.insertion_sources||[]).map(s=>s.english),e.notes,e.curated_id,
+  ...e.table_memberships.map(t=>`${t.table}:${t.row}`)].join(' ').toLowerCase();
+function filter(){
+  page=0;const q=$('query').value.trim().toLowerCase(),c=$('category').value,v=$('evidence').value;
+  matches=data.entries.filter(e=>(!q||e.search.includes(q))&&(!c||e.categories.includes(c))&&
+    (!v||(v==='table'&&e.table_memberships.length)||(v==='curated'&&e.curated_id)||
+    (v==='unreferenced'&&!e.pointer_candidates.length)||(v==='weak'&&e.flags.includes('short_or_non_japanese_pool_candidate'))));
+  render();
+}
+function render(){
+  $('results').replaceChildren();const start=page*size,end=Math.min(start+size,matches.length);
+  $('count').textContent=matches.length?`${start+1}–${end} of ${matches.length.toLocaleString()} matches`:'No matching entries';
+  $('prev').disabled=page===0;$('next').disabled=end>=matches.length;
+  for(const e of matches.slice(start,end)){
+    const a=node('article',''),meta=node('div','','meta');
+    meta.append(node('span',e.id),node('span',`${e.bytes_including_nul} bytes`),node('span',e.categories.join(' · ').replaceAll('_',' ')));
+    if(e.curated_id)meta.append(node('span','Curated · '+e.curated_id,'badge'));
+    a.append(meta,node('div',e.japanese,'ja'));
+    if(e.curated_english!==null)a.append(node('div',e.curated_english,'en'));
+    for(const s of e.insertion_sources||[])if(s.english!==null)a.append(node('div',s.catalog+' / '+s.id+': '+s.english,'en'));
+    if(e.english!==null)a.append(node('div','Draft: '+e.english,'en'));
+    if(e.notes)a.append(node('p',e.notes));
+    const details=node('details','');details.append(node('summary','Source bytes, references and evidence'));
+    details.append(node('pre',JSON.stringify({offset:e.offset,evidence:e.evidence,flags:e.flags,
+      table_memberships:e.table_memberships,pointer_candidates:e.pointer_candidates,
+      verified_pointer_owners:e.verified_pointer_owners,interior_references:e.interior_references,source_hex:e.source_hex},null,2)));
+    a.append(details);$('results').append(a);
+  }
+}
+$('query').addEventListener('input',filter);$('category').addEventListener('change',filter);$('evidence').addEventListener('change',filter);
+$('prev').addEventListener('click',()=>{page--;render();});$('next').addEventListener('click',()=>{page++;render();});
+filter();
+</script>
+</html>

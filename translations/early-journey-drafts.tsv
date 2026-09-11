@@ -1,0 +1,195 @@
+offset	english
+872FEC	Invalid
+872FF4	From the beginning
+873000	Sea Dragon Isle ruins
+873010	Monster arena
+873024	Great Tree roots
+873030	Northern Plateau shrine
+873044	Mountain Foothills shrine
+87305C	Traveller's Altar
+873068	Ruins rest stop - North
+87307C	Ruins rest stop - South
+873090	Seabed mountain rest stop
+8730A4	Temple chamber
+8730B4	Beckoning shrine
+8730C8	Shrine of the Gods
+8730D8	Great Baleina castle town
+8730F0	Jungle Isle
+8730F8	Great Baleina Isle
+87310C	Sea Dragon Isle
+873114	Barinabo Isle
+873120	Great Baleina Castle
+873134	Conklave Village
+873144	Waiting room
+873150	Jungle hut
+87315C	Madame Gracos's bazaar
+873178	Fortune-teller's house
+873188	Costa Libera
+873198	Sea Dragon Lighthouse
+8731A4	Undersea House
+8731B0	Medal King's castle
+8731C0	Barinabo Village
+B7A55C	Continue into the dungeon\nBeckoning cavern?
+B7A71C	Continue into the dungeon\nPath of the gods?
+B7A844	Rosa: "Nobody told me about this... Oh, well. Let's head for the stairs down."
+B7A8A4	Rosa: "What's this? A sealed door even the Barinabo chief's grandson can't open?"
+B7AA14	'If you are the chosen one, free this door's memories and follow the path to truth.'
+B7AA6C	'Those lit by the light dwell in light. The mirror of the past lies in the past.'
+B7AAB4	Something like ancient writing is carved into the stone. It reads:
+B7AAEC	$t examined the writing on the stone tablet in the wall.
+B7AC18	There is a hollow in the middle of the door, as if something should fit inside...
+B7AC58	$t examined the door ahead.
+B7AD0C	The Star of the Gods slipped into the hollow in the door, as though drawn inside!
+B7AD50	The Star of the Gods that Tipper carried began to glow!
+B84F18	Return to the dungeon\nBeckoning cavern?
+B84FE0	Continue into the dungeon\nSouth Sea tunnel?
+B853CC	???: "That's all on Sealing traps. Anything else you'd like to hear?"
+B85414	???: "It may be tough, but patience is the key!"
+B85448	???: "Leaving them alone won't restore them, you see..."
+B85480	???: "To restore a sealed item, you have to keep using it."
+B854D8	???: "Quite a nuisance! You'll want to fix that as soon as you can, eh?"
+B85520	???: "A sealed item's name turns red, and its special powers stop working."
+B85574	???: "It seals items you're carrying, such as weapons and rings."
+B855C8	???: "There are all sorts of traps. One of them is called a Sealing trap."
+B85620	???: "That's all on traps. Anything else you'd like to hear?"
+B85660	???: "When you enter a new room, it may be wise to check for traps, just in case."
+B856B8	???: "Swing your weapon to reveal any trap right in front of you."
+B8570C	???: "If you're healthy, you may manage. If not, search for traps as you go."
+B8576C	???: "Some nasty traps explode when you step on them, dealing heavy damage."
+B857C8	???: "Others release sleeping gas or send you flying somewhere else. So many kinds!"
+B85820	???: "Some fire Wooden arrows at you. Others spin you round until you're dizzy."
+B85878	???: "Dungeons are full of all sorts of fearsome traps."
+B858BC	???: "That's all on items. Anything else you'd like to hear?"
+B85900	???: "Collapse in a dungeon, and monsters will steal your gold and items."
+B85960	???: "If you feel you can't go on, swallow your pride and use an Evac scroll to return."
+B859C0	???: "Dungeons are littered with items. Pick them up and try them out."
+B85A18	???: "Recovery pots restore your HP, while Heal staffs restore your companions' HP..."
+B85A70	???: "And Storage pots are essential for carrying plenty of items."
+B85AB8	???: "A Flame herb, for instance, will make short work of most ordinary monsters."
+B85B0C	???: "Early on, learn to fight by making good use of whatever items you find."
+B85B68	???: "You'll need weapons and shields, and you'll need to strengthen them. That takes time."
+B85BC8	???: "Listen. Even a hero struggles to fight without a strong weapon and shield."
+B85C20	???: "Master your items, and you'll master the dungeon. That's a saying of mine."
+B85C70	???: "That's all on monsters. Anything else you'd like to hear?"
+B85CB8	???: "Don't just attack blindly. Work out ways to fight that give you an advantage."
+B85D14	???: "Using a scroll to paralyse them is another good idea."
+B85D58	???: "For instance, throw a sleep-inducing herb at a monster to put it to sleep..."
+B85DA4	???: "Until you can beat them in one hit, use items wisely to stop them moving."
+B85E00	???: "Some are so fast that they move twice for every move you make."
+B85E54	???: "Watch out for those that put you or your companions to sleep, or confuse you."
+B85EAC	???: "There are all sorts of monsters out there..."
+B85EE8	???: "That's all on dungeons. Anything else you'd like to hear?"
+B85F30	???: "The corner of the doorway may block your blow. Be careful!"
+B85F94	???: "Oh, I nearly forgot. When attacking a monster diagonally from a doorway..."
+B85FF8	???: "While they're in water, they quickly recover any damage you deal."
+B8604C	???: "You can hit monsters in the water, but don't keep fighting them there."
+B860A0	???: "Move around and lure them onto solid ground before attacking."
+B860EC	???: "Normal attacks won't hit monsters inside walls, in particular."
+B86140	???: "Some monsters move freely through water and walls you can't pass through."
+B86190	???: "Hmm. Dungeons have all sorts of terrain, you see..."
+B861CC	???: "Off you go, then."
+B861E8	???: "Until next time. Zzz..."
+B8620C	???: "Hmmph! A stubborn one, aren't you? What do you want to hear about?"
+B8624C	???: "Mumble, mumble... I'm sleepy. Come back later if you want to talk."
+B86294	Never mind
+B8629C	Sealing traps
+B862A8	Traps
+B862B0	Items
+B862BC	Monsters
+B862C8	Dungeons
+B862D4	???: "Hmmph! A stubborn one, aren't you? Very well. What do you want to hear about?"
+B8632C	???: "I'm sleepy. Come back later if you want to talk."
+B86360	???: "Hmm...? I thought I heard a racket up above. Who might you be?"
+B867C8	???: "Early on, learn to fight by making good use of whatever items you find."
+B86828	???: "Inatts, the monster elder's assistant, I think. He should be able to help you."
+B86898	???: "I recall someone at the Medal King's castle who knew all about monster allies..."
+B868F8	???: "Winning over monsters you've fought and making them allies! Most impressive."
+B8694C	???: "You seem to have a special gift when it comes to monsters."
+B8699C	???: "Until next time. Busy, busy..."
+B869C4	???: "Hmm? Who are you? I'm busy. Come back later if you want to talk."
+B871A8	Return to the dungeon\nSouth Sea tunnel?
+B8727C	Continue into the dungeon\nCoral temple - Hall?
+B87330	A map hangs on the wall. However, this place doesn't seem to be marked on it.
+B87450	???: "O Lord! May your holy blessing be upon this traveller!"
+B8748C	???: "Welcome back, $t!"
+B875A8	???: "You slept soundly. Take care on your travels."
+B875E8	???: "Make yourself comfortable."
+B87608	???: "Come back any time you need a rest."
+B87648	???: "Welcome, traveller. Would you like to rest here?"
+B876C4	???: "That merchant from out of town took my bed!"
+B876FC	???: "Daylight at last! And here I was hoping to take a nap."
+B8777C	???: "Snooore! Snooore!"
+B8785C	???: "Thank you, traveller. We will never forget your kindness."
+B87894	???: "But the Sea Dragon's sacred flame has brought its warm light back to us."
+B878EC	???: "We are deep, deep beneath the sea. Even the sun's bright rays cannot reach us."
+B87994	???: "That's why I train every day without fail! One, two! One, two!"
+B879F4	???: "Adventuring with someone like that must be fun. I'd love to join them someday."
+B87A50	???: "You're a traveller. Have you heard of a hero somewhere who can befriend monsters?"
+B87ABC	???: "Hello! I'm the slime who lives with the old lady."
+B87B2C	???: "They say those claws aren't just powerful. They also have special magical powers."
+B87B80	???: "I'm travelling in search of a legendary weapon: the Claw andrea."
+B87BE8	???: "Welcome to Undersea House. This temple has just awoken from a long, long night."
+B87D00	???: "Thank you, travellers. You are true heroes."
+B87D7C	???: "I train day and night without fail, so I can become a hero!"
+B87DC4	???: "Hello! I'm the slime who lives with the old lady."
+B92D68	Return to the dungeon\nSouth Sea tunnel?
+B92E3C	Continue into the dungeon\nCoral temple - Hall?
+B92EF0	A map hangs on the wall. However, this place doesn't seem to be marked on it.
+B93018	???: "O Lord! May your holy blessing be upon this traveller!"
+B93054	???: "Welcome back, $t!"
+B930D8	???: "They say a swing of that sword deals devastating damage to unseen enemies."
+B93138	???: "I'm travelling in search of a legendary weapon: the Shadow breaker."
+B931A0	???: "The old lady across the way runs this shop alone. It's only open during the day."
+B93248	???: "Until that shop opens, I'll do business with the goods I have on hand."
+B932A0	???: "I've waited for years for this seabed to be filled with holy light."
+B93328	???: "Zzz... Zzz..."
+B933E8	???: "You slept soundly. Take care on your travels."
+B93428	???: "Make yourself comfortable."
+B93448	???: "Come back any time you need a rest."
+B93488	???: "Welcome, traveller. Would you like to rest here?"
+B934E4	???: "Then surely even this seabed would be filled with holy light."
+B93524	???: "But if the divine flame were lit in the Sea Dragon Lighthouse..."
+B93560	???: "We are deep, deep beneath the sea. Even the sun's bright rays cannot reach us."
+B936D0	???: "The old lady in that house only opens the shop by day. Bad luck, lad."
+B93728	???: "Well, this is a problem. For some reason, it's turned to night again..."
+B937A4	???: "Mmm... Mmm... Zzz..."
+B93878	???: "Please take care on your way back."
+B938A8	???: "You had a restless sleep. No wonder... Even here, I can feel an evil presence."
+B93954	???: "What terrible things could be happening on the surface...?"
+B939A4	???: "But to think the Sea Dragon's sacred flame has gone out again..."
+B939EC	???: "Deep as we are beneath the sea, the holy lighthouse above once lit this place."
+B93AA0	???: "Right! Then I'll be the hero! Time to train! One, two! One, two!"
+B93B00	???: "Eh? You can befriend monsters? Hmm... You don't look like a hero to me."
+B93B50	???: "You're a traveller. Have you heard of a hero somewhere who can befriend monsters?"
+B93BBC	???: "Hello! I'm the slime who lives with the old lady."
+B93C94	???: "Can you use Zoom? You'd best leave this dangerous place at once."
+B93CF0	???: "The flame at Sea Dragon Lighthouse is out. Perhaps that's why evil blocks the way."
+B93D54	???: "Take my advice. You'd be better off going back the way you came."
+B9EACC	Return to the dungeon\nCoral temple - Hall?
+B9EBA8	Continue into the dungeon\nCoral temple - Corridors?
+B9ED2C	Return to the dungeon\nCoral temple - Corridors?
+B9EE28	Continue into the dungeon\nSeabed mountain - Foothills?
+B9EED8	???: "O Lord! May your holy blessing be upon this traveller!"
+B9EF14	???: "Welcome back, $t!"
+B9EFD0	???: "N-no good! Even with all my strength, it won't budge!"
+B9F004	???: "Hnnnngh!"
+B9F17C	???: "Wahahahaha!"
+B9F194	???: "At last! Even this door has yielded to my strength!"
+B9F1D4	???: "Oh!?"
+BA871C	Return to the dungeon\nSeabed mountain - Foothills?
+BA87E4	Continue into the dungeon\nSeabed mountain - Summit?
+BA8934	???: "May divine protection be with you..."
+BA8968	???: "Ah, $t. Welcome back."
+BA89D0	???: "I am a travelling nun. Wherever I go, I help those in need."
+BA8AB0	Rosa: "...Nah, no way. Mum and Dad both died in a terrible storm over ten years ago."
+BA8B14	Rosa: "Huh? Viola? That's my mum's name."
+BA8B5C	Ines: "It couldn't be. My parents died in a terrible storm just after Rosa and I were born."
+BA8BC0	Ines: "...What? Viola? That's the same name as my mother."
+BA8C08	???: "...Lady Viola..."
+BA8C24	???: "Mmm... Mmm... No... I can't remember..."
+BA8CB8	???: "How did he get all the way here in that state? Anyway..."
+BA8D0C	???: "That poor man seems to have lost his memory."
+BA8DBC	???: "Apparently there's someone he simply must find. Anyway..."
+BA8E14	???: "A sick man was bedridden here before, but he made a full recovery and left."
+C3F010	Destination
+C3F018	Zoom to\n$m0?

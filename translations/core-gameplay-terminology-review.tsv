@@ -1,0 +1,269 @@
+id	family	japanese	full_english	display	term_ids	evidence	notes
+gameplay.001b3bf0	message	水上ではできない動作です。	You can't do that on water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b3c06	message	足元に何もありません。	There's nothing at your feet.			Independent project translation from pinned Japanese ROM	
+gameplay.001b3c16	stats	武器の強さ<03 08 44><03 05 25 63>%d<03 08 68><03 05 07>満腹度<03 08 98>%d/%d	Weapon{hex:030844}{hex:0305}%c%d{hex:030868030507}Fullness{hex:030898}%d/%d		fullness	Independent project translation from pinned Japanese ROM	
+gameplay.001b3c3c	stats	盾の強さ<03 05 25 63><03 08 44>%d<03 08 68><03 05 07>経験値<03 08 98>%d	Shield{hex:0305}%c{hex:030844}%d{hex:030868030507}XP{hex:030898}%d			Independent project translation from pinned Japanese ROM	
+gameplay.001b3c5d	stats	ちから<03 08 44>%d/%d<03 08 68><03 05 07>時間<03 08 98>%02d:%02d:%02d	Strength{hex:030844}%d/%d{hex:030868030507}Time{hex:030898}%02d:%02d:%02d			Independent project translation from pinned Japanese ROM	
+gameplay.001b3c84	stats	ちから<03 08 44>%d/%d<03 08 68><03 05 07>時間<03 08 98>%03d:%02d:%02d	Strength{hex:030844}%d/%d{hex:030868030507}Time{hex:030898}%03d:%02d:%02d			Independent project translation from pinned Japanese ROM	
+gameplay.001b3cab	command	<03 05 25 63><03 08 04>道具<03 05 07><03 08 28>マップ	{hex:0305}%c{hex:030804}Items{hex:030507030828}Map			Independent project translation from pinned Japanese ROM	
+gameplay.001b3cc9	command	<03 05 25 63><03 08 04>道具<03 05 07><03 08 28>仲間	{hex:0305}%c{hex:030804}Items{hex:030507030828}Allies			Independent project translation from pinned Japanese ROM	
+gameplay.001b3ce7	command	<03 05 25 63><03 08 04>特技<03 05 07><03 08 28>マップ	{hex:0305}%c{hex:030804}Abilities{hex:030507030828}Map	{hex:0305}%c{hex:030804}Skills{hex:030507030828}Map	core.abilities	Independent project translation from pinned Japanese ROM	Full Abilities; measured Skills display label for the 32px left command column.
+gameplay.001b3d05	command	<03 05 25 63><03 08 04>特技<03 05 07><03 08 28>仲間	{hex:0305}%c{hex:030804}Abilities{hex:030507030828}Allies	{hex:0305}%c{hex:030804}Skills{hex:030507030828}Allies	core.abilities	Independent project translation from pinned Japanese ROM	Full Abilities; measured Skills display label for the 32px left command column.
+gameplay.001b3d23	command	<03 05 25 63><03 08 04>足元<03 05 07><03 08 28>作戦	{hex:0305}%c{hex:030804}Ground{hex:030507030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b3d39	command	<03 05 25 63><03 08 04>ワナ<03 05 07><03 08 28>作戦	{hex:0305}%c{hex:030804}Trap{hex:030507030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b3d4f	command	<03 05 25 63><03 08 04>階段<03 05 07><03 08 28>作戦	{hex:0305}%c{hex:030804}Stairs{hex:030507030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b3d65	command	<03 05 25 63><03 08 04>足元<03 05 07><03 08 28>作戦	{hex:0305}%c{hex:030804}Ground{hex:030507030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b3d7b	command	<03 05 25 63><03 08 04>戻る<03 05 07><03 08 28>作戦	{hex:0305}%c{hex:030804}Back{hex:030507030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b3d90	command	<03 08 04>道具<03 08 28>ルーラ	{hex:030804}Items{hex:030828}Zoom		series_zoom	https://dragon-quest.org/wiki/Zoom	
+gameplay.001b3da1	command	<03 08 04>調べる<03 08 28>作戦	{hex:030804}Search{hex:030828}Tactics		core.tactics	https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/dragonquest7/ElectronicManual_Nintendo3DS_DragonQuest7_EN.pdf	
+gameplay.001b4060	message	変身中…。	Transformed...			Independent project translation from pinned Japanese ROM	
+gameplay.001b406b	message	おびえている…。	Frightened...			Independent project translation from pinned Japanese ROM	
+gameplay.001b4077	message	踊っている…。	Dancing...			Independent project translation from pinned Japanese ROM	
+gameplay.001b4083	message	しかし 効果がなかった。	But it had no effect.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4095	message	しかし 何も起こらなかった。	But nothing happened.			Independent project translation from pinned Japanese ROM	
+gameplay.001b40a8	message	しかし 誰に対しても効果がなかった。	But it had no effect on anyone.			Independent project translation from pinned Japanese ROM	
+gameplay.001b40c2	message	$m2には何も起こらなかった。	Nothing happened to $m2.			Independent project translation from pinned Japanese ROM	
+gameplay.001b40d6	choice	降りる<03 08 34>そのまま<03 08 64>$C1中断する	Down{hex:030834}Stay{hex:030864}$C1Suspend			Independent project translation from pinned Japanese ROM	
+gameplay.001b40f6	choice	上る<03 08 34>そのまま<03 08 64>$C1中断する	Up{hex:030834}Stay{hex:030864}$C1Suspend			Independent project translation from pinned Japanese ROM	
+gameplay.001b4116	choice	入る<03 08 34>そのまま<03 08 64>$C1中断する	Enter{hex:030834}Stay{hex:030864}$C1Suspend			Independent project translation from pinned Japanese ROM	
+gameplay.001b4136	choice	ふむ<03 08 34>そのまま	Step on{hex:030834}Stay			Independent project translation from pinned Japanese ROM	
+gameplay.001b44b7	label	何も入っていません	Nothing inside			Independent project translation from pinned Japanese ROM	
+gameplay.001b44c4	label	どれ？	Which one?			Independent project translation from pinned Japanese ROM	
+gameplay.001b44ca	message	$tは 眠っている…。	$t is asleep...			Independent project translation from pinned Japanese ROM	
+gameplay.001b44da	message	$tは 凍っている…。	$t is frozen...			Independent project translation from pinned Japanese ROM	
+gameplay.001b44ea	message	$tは 固まって動けない。	$t is petrified and can't move.			Independent project translation from pinned Japanese ROM	
+gameplay.001b44fc	message	$tは 殻に入っている！	$t is inside a shell!			Independent project translation from pinned Japanese ROM	
+gameplay.001b450d	message	$tは 踊っている…。	$t is dancing...			Independent project translation from pinned Japanese ROM	
+gameplay.001b451d	message	$tはおびえている…。	$t is frightened...			Independent project translation from pinned Japanese ROM	
+gameplay.001b452c	message	撃つものを装備していない。	No projectile is equipped.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4552	actor	何者か	Someone		core.unknown_actor	Independent project translation from pinned Japanese ROM	
+gameplay.001b4558	actor	偽トルネコ	Fake Torneko		torneko,core.fake_torneko	https://gamefaqs.gamespot.com/ps/374986-torneko-the-last-hope/faqs/11107	
+gameplay.001b4579	message	このアイテムは装備できない。	You can't equip this item.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4590	message	装備を外せない。	You can't unequip it.			Independent project translation from pinned Japanese ROM	
+gameplay.001b459d	message	$i0は<CR>呪われていたので 外せない！	$i0 is cursed! You can't remove it!			Independent project translation from pinned Japanese ROM	
+gameplay.001b45b5	message	$i0を装備した。	Equipped $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b45c2	message	$i0は呪われている！	$i0 is cursed!			Independent project translation from pinned Japanese ROM	
+gameplay.001b45d0	message	$i0の装備を外した。	Unequipped $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b45e0	message	$i1は <CR>壺の中に入らない。	$i1 won't fit inside a pot.			Independent project translation from pinned Japanese ROM	
+gameplay.001b45f4	message	$i1は <CR>宝石箱の中に入らない。	$i1 won't fit inside a jewel box.			Independent project translation from pinned Japanese ROM	
+gameplay.001b460c	message	$i1は水の中にある。	$i1 is in the water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b461b	message	$i1は 拾えない！	You can't pick up $i1!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4628	message	$i1は はりついている。	$i1 is stuck to the ground.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4637	message	$i1は<CR>呪われていたので 外せない！	$i1 is cursed! You can't remove it!			Independent project translation from pinned Japanese ROM	
+gameplay.001b464f	message	$i0には もう入らない。	$i0 is full.			Independent project translation from pinned Japanese ROM	
+gameplay.001b465f	message	$i1は $/084壺に入らなかった。	$i1 couldn't be put in the pot.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4677	message	$i1は <CR>宝石箱に入らなかった。	$i1 couldn't be put in the jewel box.			Independent project translation from pinned Japanese ROM	
+gameplay.001b468f	message	$i1は<CR>倉庫がいっぱいで入らなかった。	The warehouse is full. $i1 couldn't be stored.			Independent project translation from pinned Japanese ROM	
+gameplay.001b46ad	message	$i1を続けて入れた。	Also put in $i1.			Independent project translation from pinned Japanese ROM	
+gameplay.001b46bc	message	$i0の中に<CR>$i1を入れた。	Put $i1 into $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b46cf	message	$tは アイテムが拾えないので<CR>足もとの壺からアイテムを出せなかった！	$t can't pick up items, so can't take anything out of the pot on the ground!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4703	message	持ち物がいっぱいで もう壺から出せない。	Your inventory is full. You can't take anything else out of the pot.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4721	message	$i1を続けて出した。	Also took out $i1.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4730	message	$i0から<CR>$i1を出した。	Took $i1 out of $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4741	message	$i0は ぴったりと地面に<CR>はりついている。	$i0 is firmly stuck to the ground.			Independent project translation from pinned Japanese ROM	
+gameplay.001b475d	message	$i0は ぴったりと水底に<CR>はりついている。	$i0 is firmly stuck to the bottom of the water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4779	message	$i0がある。	There's $i0 here.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4783	message	$i0は 拾えない。	You can't pick up $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4790	message	$i0は 拾えない。	You can't pick up $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b479d	message	$i0は 拾えない。	You can't pick up $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b47aa	message	水の中のアイテムは 拾えない。	You can't pick up items in the water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b47c2	message	$i0を拾った。	Picked up $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b47ce	message	持ち物がいっぱいで<CR>$i0は拾えない。	Your inventory is full. You can't pick up $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4b44	message	$m0は 鉄化状態だ。	$m0 is made of iron.		core.iron	Independent project translation from pinned Japanese ROM	
+gameplay.001b4b56	message	$m0は 凍っている。	$m0 is frozen.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4b65	message	$m1は 地中にもぐって逃げた。	$m1 burrowed underground and fled.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4b7d	message	$i0の上に乗った。	Stepped onto $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4b8c	message	$i0は<CR>呪われていたので 外せない！	$i0 is cursed! You can't remove it!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4ba4	message	ここには置けない。	You can't put it here.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4bb0	message	$i0を足元に置いた。	Put $i0 at your feet.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4bc0	message	$tは 話しかけられない。	$t can't speak to anyone.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4bd0	message	$tは 話しかけられない。	$t can't speak to anyone.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4be0	message	$i0に<CR>ちからがみなぎった！	$i0 filled with power!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4bf4	message	正面のワナを壊した！	Broke the trap ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c05	message	正面のアイテムを壊した！	Broke the item ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c1a	message	正面のツルツル床を壊した！	Broke the slick floor ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c31	message	正面の水晶を壊した！	Broke the crystal ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c42	message	正面のトゲトゲ床を壊した！	Broke the spiked floor ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c59	message	正面のお墓を壊した！	Broke the grave ahead!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c69	message	正面に壊れたものはなかった。	Nothing ahead was broken.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c7d	message	ここは 掘れない。	You can't dig here.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4c89	message	$i0は 壊れて <CR>使い物にならなくなった。	$i0 broke and can no longer be used.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4ca5	message	$i0の封印されていた<CR>効果が 元に戻った。	$i0's sealed effects were restored.		mechanic.sealed	Independent project translation from pinned Japanese ROM	
+gameplay.001b4cc5	message	いくつかのアイテムの封印されていた<CR>効果が 元に戻った。	The sealed effects of several items were restored.		mechanic.sealed	Independent project translation from pinned Japanese ROM	
+gameplay.001b4cef	message	$i0から<CR>弱化のワナの効果が消えた。	The Weakening trap's effect on $i0 wore off.		interface.trap.015	Independent project translation from pinned Japanese ROM	
+gameplay.001b4d0c	message	いくつかのアイテムから<CR>弱化のワナの効果が消えた。	The Weakening trap's effect on several items wore off.		interface.trap.015	Independent project translation from pinned Japanese ROM	
+gameplay.001b4d33	message	$i0は<CR>ダメージを受けた！	$i0 was damaged!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4d48	message	$m0の攻撃は外れた。	$m0's attack missed.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4d58	message	この相手には攻撃は当たりにくい！	This opponent is hard to hit!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4d6f	message	$m0は 動けるようになった。	$m0 can move again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4d82	message	ダメージを与えられない。	You can't deal any damage.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4d95	message	$m1に$d0ダメージを与えた。	Dealt $d0 damage to $m1.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4dac	message	$m1は$d0ダメージ受けた。	$m1 took $d0 damage.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4dc2	message	$m1は 鉄化状態だ。	$m1 is made of iron.		core.iron	Independent project translation from pinned Japanese ROM	
+gameplay.001b4dd4	message	$m1は 凍っている。	$m1 is frozen.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4de3	message	攻撃をはね返した！	The attack was reflected!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4df1	message	会心の一撃！$m1に <CR>$d0ダメージを与えた。	A critical hit! Dealt $d0 damage to $m1.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e15	message	$m1は ちからつきた。	$m1 was defeated.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e23	message	$m0は$d0の経験値を得た。	$m0 gained $d0 XP.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e38	message	$m1は ちからつきた。<CR>$m0は$d0の経験値を得た。	$m1 was defeated. $m0 gained $d0 XP.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e5b	message	$m0は 強くなった！	$m0 grew stronger!			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e6a	message	$m0は 弱くなった…。	$m0 grew weaker...			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e7b	message	$m0は レベル$d0になった。	$m0 reached level $d0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b4e91	message	$tは レベル$d0になった。	$t reached level $d0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b51af	message	$tは ちからつきた。	$t was defeated.			Independent project translation from pinned Japanese ROM	
+gameplay.001b51bc	message	お腹が減ってきた…。	You're getting hungry...			Independent project translation from pinned Japanese ROM	
+gameplay.001b51cd	message	空腹で目が回ってきた…。	You're dizzy with hunger...			Independent project translation from pinned Japanese ROM	
+gameplay.001b51e3	message	ダメだ！ もう倒れそうだ！	You can't go on! You're about to collapse!			Independent project translation from pinned Japanese ROM	
+gameplay.001b51f8	message	はやく！ なにか食べないと！！	Quick! You need to eat something!			Independent project translation from pinned Japanese ROM	
+gameplay.001b520d	message	うえ死にしてしまう！！	You're going to starve to death!			Independent project translation from pinned Japanese ROM	
+gameplay.001b521c	message	$tは 元の姿に戻った。	$t returned to normal form.			Independent project translation from pinned Japanese ROM	
+gameplay.001b522e	message	$tは 変な呪文の効果が切れた。	The strange spell on $t wore off.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5247	message	$tは 変な呪文の効果が切れた。	The strange spell on $t wore off.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5260	message	$tは 怒りがおさまった。	$t is no longer angry.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5272	message	$tの パワーアップの効果がなくなった。	$t's power boost wore off.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5292	message	$m0は 胃下垂が治った！	$m0's leaky belly was cured!		core.leaky_belly	Independent project translation from pinned Japanese ROM	
+gameplay.001b52a7	message	$tは HP減少がとまった。	$t's HP stopped draining.			Independent project translation from pinned Japanese ROM	
+gameplay.001b52bb	message	$tは 視界が元に戻った。	$t's field of vision returned to normal.			Independent project translation from pinned Japanese ROM	
+gameplay.001b52d0	message	$tは ヤミヤミが回復した。	$t recovered from darkness.		core.darkness	Independent project translation from pinned Japanese ROM	
+gameplay.001b52e7	message	$tは 姿をあらわした。	$t became visible again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b52f6	message	$tは 草の効きが戻った。	Herbs affect $t normally again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b531a	message	$tは 空振り状態がなおった。	$t's whiffing wore off.		core.whiffing	Independent project translation from pinned Japanese ROM	
+gameplay.001b5331	message	$tは 気持ちが落ち着いた。	$t calmed down.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5346	message	$tは 魔法が使えるようになった。	$t can use magic again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b535e	message	$tは 踊りから解き放たれた。	$t is free from the dance.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5372	message	$tの 混乱が回復した。	$t is no longer confused.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5385	message	$tは 正しくものが<CR>見えるようになった。	$t can see things as they really are.			Independent project translation from pinned Japanese ROM	
+gameplay.001b53a0	message	$tは アイテムが分かるようになった。	$t can recognise items again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b53bc	message	$tは 目を覚ました。	$t woke up.			Independent project translation from pinned Japanese ROM	
+gameplay.001b53cb	message	$tは 目覚まし状態ではなくなった。	$t's wakefulness wore off.		core.wakefulness	Independent project translation from pinned Japanese ROM	
+gameplay.001b53e5	message	$tは かなしばりがとけた。	$t is no longer paralysed.			Independent project translation from pinned Japanese ROM	
+gameplay.001b53f7	message	$tは 普通のかなしばりになった。	$t's paralysis is now ordinary paralysis.			Independent project translation from pinned Japanese ROM	
+gameplay.001b540e	message	$tは 目が見えるようになった。	$t can see again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5424	message	$tは おびえが回復した。	$t is no longer frightened.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5437	message	$tは バーサーカー状態から戻った。	$t is no longer berserk.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5455	message	$tは 動けるようになった。	$t can move again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5467	message	杖の効果の明かりが消えた。	The staff's light went out.			Independent project translation from pinned Japanese ROM	
+gameplay.001b547c	message	$tは 鉄化状態から戻った。	$t is no longer made of iron.		core.iron	Independent project translation from pinned Japanese ROM	
+gameplay.001b5492	message	$i0はなくなった。	$i0 vanished.			Independent project translation from pinned Japanese ROM	
+gameplay.001b549f	message	いくつかのアイテムはなくなった。	Several items vanished.			Independent project translation from pinned Japanese ROM	
+gameplay.001b54b6	message	$i0は<CR>呪われているので 撃つことができない！	$i0 is cursed! You can't fire it!			Independent project translation from pinned Japanese ROM	
+gameplay.001b54d5	message	$i0は<CR>呪われていたので 外せない！	$i0 is cursed! You can't remove it!			Independent project translation from pinned Japanese ROM	
+gameplay.001b54ed	message	$tは$i0を投げた。	$t threw $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b54fc	message	$tは$i0を撃った。	$t fired $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b550b	message	$i0は 地面に落ちた。	$i0 fell to the ground.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5532	message	$i0は 水の中に落ちた。	$i0 fell into the water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5544	message	$i0は $/132地面や水の中に落ちた。	$i0 fell to the ground or into the water.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5560	message	なんと！ アイテムはミミックだった！<CR>しかし なぜか出現できなかった。	The item was a Mimic! But for some reason, it couldn't appear.		enemy.mimic	https://dragon-quest.org/wiki/Mimic | https://wiki.etherealgames.com/dq11/bestiary/	
+gameplay.001b5596	message	なんと！ アイテムはモンスターだった！	The item was a monster!			Independent project translation from pinned Japanese ROM	
+gameplay.001b55b7	message	なんと！$i0は<CR>ひとくいばこだった！	$i0 was a Cannibox!		enemy.cannibox	https://dragon-quest.org/wiki/Cannibox | https://wiki.etherealgames.com/dq11/bestiary/	
+gameplay.001b55d0	message	なんと！ひとくいばこが<CR>姿をあらわした！	A Cannibox revealed itself!		enemy.cannibox	https://dragon-quest.org/wiki/Cannibox | https://wiki.etherealgames.com/dq11/bestiary/	
+gameplay.001b55ea	message	$i0は モンスターの姿を<CR>現せなかった。	$i0 couldn't take on its monster form.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5609	message	しかし 発生できなかった。	But it couldn't appear.			Independent project translation from pinned Japanese ROM	
+gameplay.001b561c	message	$tは$i0を振った！	$t waved $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.001b562b	message	$i0は呪われている！	$i0 is cursed!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5639	message	杖の光が あたりを照らした！	The staff's light lit up the area!			Independent project translation from pinned Japanese ROM	
+gameplay.001b564d	message	$i0は 遠くに消えた。	$i0 vanished into the distance.			Independent project translation from pinned Japanese ROM	
+gameplay.001b566f	message	$i0は $/163$m0に当たった。	$i0 hit $m0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5686	message	$i0は $/096$tに当たった。	$i0 hit $t.			Independent project translation from pinned Japanese ROM	
+gameplay.001b569c	message	$m1には当たらなかった。	It missed $m1.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56ad	message	$i0は 燃えた。	$i0 burned up.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56b9	message	いくつかの$i0が 燃えた。	$i0: some burned up.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56cb	message	$i0は 凍りついた。	$i0 froze.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56d9	message	いくつかの$i0が 凍りついた。	$i0: some froze.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56ed	message	$i0は 砂に埋もれた。	$i0 was buried in sand.			Independent project translation from pinned Japanese ROM	
+gameplay.001b56fd	message	いくつかの$i0が 砂に消えた。	$i0: some vanished into the sand.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5712	message	$i0は 風で失われた。	$i0 was lost to the wind.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5723	message	いくつかの$i0が 風で失われた。	$i0: some were lost to the wind.			Independent project translation from pinned Japanese ROM	
+gameplay.001b573a	message	杖の光で ワナが現れた！	The staff's light revealed the traps!			Independent project translation from pinned Japanese ROM	
+gameplay.001b574f	message	$i0はダメージを受けた。	$i0 was damaged.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5763	message	$i0は 壊れてしまった！	$i0 broke!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5774	message	$m1は 眠らなかった。	$m1 didn't fall asleep.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5784	message	$m1は 眠ってしまった。	$m1 fell asleep.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5796	message	$m1は すでに眠っている！	$m1 is already asleep!			Independent project translation from pinned Japanese ROM	
+gameplay.001b57a9	message	$tは $i0を飲んだ。	$t drank $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b57b9	message	$tは$i0を飲もうとした！	$t tried to drink $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.001b57ca	message	$tは $i0を食べた。	$t ate $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b57da	message	$tは $i0を食べようとした。	$t tried to eat $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b57ee	message	$tは $i0を使った！	$t used $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.001b57fe	message	$tは $i0を使った！	$t used $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.001b580e	message	$tは $i0を読んだ。	$t read $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b581e	message	$tは $i0を<CR>読もうとした！	$t tried to read $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5831	message	$tは $i0を使ってみた。	$t tried using $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5843	message	$tは $i0を<CR>使ってみようとした。	$t attempted to use $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b585a	message	$tは 口が使えない！	$t can't use their mouth!			Independent project translation from pinned Japanese ROM	
+gameplay.001b586a	message	このアイテムは見えない。	You can't see this item.			Independent project translation from pinned Japanese ROM	
+gameplay.001b587d	message	$tは $d0ダメージ受けた。	$t took $d0 damage.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5893	message	$m0は ワープできなかった。	$m0 couldn't warp.			Independent project translation from pinned Japanese ROM	
+gameplay.001b58a9	message	$m0は ワープした。	$m0 warped.			Independent project translation from pinned Japanese ROM	
+gameplay.001b58b9	message	$m0は 動けなくなった。	$m0 can no longer move.			Independent project translation from pinned Japanese ROM	
+gameplay.001b58ca	message	$m0は<CR>強烈なかなしばりになった！	$m0 was severely paralysed!			Independent project translation from pinned Japanese ROM	
+gameplay.001b58e2	message	$m1は<CR>強烈なかなしばりのままだ。	$m1 is still severely paralysed.			Independent project translation from pinned Japanese ROM	
+gameplay.001b58fa	message	$m0は<CR>普通のかなしばりに戻った。	$m0's paralysis is now ordinary paralysis.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5913	message	$m0は 混乱が回復した。	$m0 is no longer confused.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5927	message	$m0は 目が見えるようになった。	$m0 can see again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b593e	message	$m0は 正しくものが<CR>見えるようになった。	$m0 can see things as they really are.			Independent project translation from pinned Japanese ROM	
+gameplay.001b595a	message	$m0は おびえから戻った。	$m0 is no longer frightened.			Independent project translation from pinned Japanese ROM	
+gameplay.001b596d	message	$m0は 踊りから解き放たれた。	$m0 is free from the dance.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5982	message	$m0は 怒りがおさまった。	$m0 is no longer angry.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5995	message	$m0は 動けるようになった。	$m0 can move again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b59a8	message	$m0は 我に返った。	$m0 regained awareness.			Independent project translation from pinned Japanese ROM	
+gameplay.001b59b8	message	$m0は 目覚まし状態ではなくなった。	$m0's wakefulness wore off.		core.wakefulness	Independent project translation from pinned Japanese ROM	
+gameplay.001b59d3	message	$m0は<CR>バーサーカー状態から戻った。	$m0 is no longer berserk.			Independent project translation from pinned Japanese ROM	
+gameplay.001b59f2	message	$m0は 鉄化状態から戻った。	$m0 is no longer made of iron.		core.iron	Independent project translation from pinned Japanese ROM	
+gameplay.001b5a09	message	$m0は空振り状態がなおった。	$m0's whiffing wore off.		core.whiffing	Independent project translation from pinned Japanese ROM	
+gameplay.001b5a20	message	$m0は草の効きが戻った。	Herbs affect $m0 normally again.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a34	message	$m0は $/163$i0を撃った。	$m0 fired $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a4a	message	$m0は $/163$i0を投げた。	$m0 threw $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a60	message	$m0は $/163$i0を吐いた。	$m0 spat out $i0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a75	message	$m1は 混乱しなかった。	$m1 didn't become confused.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a87	message	$m1は 混乱した。	$m1 became confused.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5a95	message	$m1は すでに混乱している！	$m1 is already confused!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5aa9	message	$m1は おびえだした！	$m1 became frightened!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5ab9	message	$m1は すでにおびえている！	$m1 is already frightened!			Independent project translation from pinned Japanese ROM	
+gameplay.001b5acc	message	$m1は HPが$d0回復した。	$m1 recovered $d0 HP.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5ae1	message	$m1は 最大HPが$d0増えた。	$m1's maximum HP rose by $d0.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5af8	message	$m1は HPが完全に回復した。	$m1's HP was fully restored.			Independent project translation from pinned Japanese ROM	
+gameplay.001b5b0f	message	$tは$i0を押した！	$t pushed $i0!			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ff04	message	"初期状態に戻します。
+よろしいですか？"	"Restore the default settings?
+Are you sure?"			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ff2c	message	"スリープモードに はいります。
+電源を切らないでください。
+L+R+SELECTで　元に戻ります。"	"Entering sleep mode.
+Do not turn off the power.
+Press L+R+SELECT to return."			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ff84	message	今回の冒険はあきらめますか？	Give up this adventure?			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ffa4	label	冒険	Adventure			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ffac	setting	試合の中断	Suspend match			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ffb8	setting	冒険の中断γ	Suspend adventure{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ffc8	setting	スリープモード	Sleep mode			Independent project translation from pinned Japanese ROM	
+gameplay.00c3ffd8	setting	ダッシュ<03 08 40><03 14 01>高速<03 08 70><03 14 02>低速	Dash{hex:030840031401}Fast{hex:030870031402}Slow			Independent project translation from pinned Japanese ROM	
+gameplay.00c3fff8	setting	サウンド設定γ	Sound settings{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c40008	setting	ダンジョン設定γ	Dungeon settings{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c4001c	setting	表示設定γ	Display settings{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c40028	setting	*デバッグ	*Debug			Independent project translation from pinned Japanese ROM	
+gameplay.00c40034	setting	操作説明γ	How to play{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c40040	setting	サウンド<03 08 40><03 14 01>ステレオ<03 08 70><03 14 02>モノラル	Sound{hex:030840031401}Stereo{hex:030870031402}Mono			Independent project translation from pinned Japanese ROM	
+gameplay.00c40068	setting	方眼表示<03 08 40><03 14 01>ＯＮ<03 08 70><03 14 02>ＯＦＦ	Grid{hex:030840031401}On{hex:030870031402}Off			Independent project translation from pinned Japanese ROM	
+gameplay.00c40088	setting	マップ表示<03 08 40><03 14 01>ＯＮ<03 08 70><03 14 02>ＯＦＦ	Map{hex:030840031401}On{hex:030870031402}Off			Independent project translation from pinned Japanese ROM	
+gameplay.00c400ac	setting	初期状態に戻す	Reset settings			Independent project translation from pinned Japanese ROM	Shared existing curated allocation; exact English is validated and retained in both control and English builds.
+gameplay.00c400bc	setting	やめる	Quit			Independent project translation from pinned Japanese ROM	
+gameplay.00c400c4	setting	あきらめる	Give up			Independent project translation from pinned Japanese ROM	
+gameplay.00c400d0	setting	ゲーム設定γ	Game settings{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c400e0	setting	自動振向<03 08 40><03 14 01>ＯＮ<03 08 70><03 14 02>ＯＦＦ	Auto-turn{hex:030840031401}On{hex:030870031402}Off			Independent project translation from pinned Japanese ROM	
+gameplay.00c40100	setting	メッセージ<03 08 40><03 14 01>遅い<03 08 60><03 14 02>普通<03 08 80><03 14 03>速い	Text speed{hex:030840031401}Slow{hex:030860031402}Norm{hex:030880031403}Fast			Independent project translation from pinned Japanese ROM	Shared existing curated allocation; exact English is validated and retained in both control and English builds.
+gameplay.00c4012c	setting	基本操作	Basic controls			Independent project translation from pinned Japanese ROM	
+gameplay.00c40138	setting	全体マップ	Full map			Independent project translation from pinned Japanese ROM	
+gameplay.00c40144	setting	速度について	About speed			Independent project translation from pinned Japanese ROM	
+gameplay.00c40154	setting	まとめ入れ	Store several items			Independent project translation from pinned Japanese ROM	
+gameplay.00c40160	setting	仲間への命令	Ally orders			Independent project translation from pinned Japanese ROM	
+gameplay.00c40170	setting	冒険のヒント	Adventure tips			Independent project translation from pinned Japanese ROM	
+gameplay.00c40180	setting	ポポロ基本操作	Tipper's controls		enemy_tipper	https://dragon-quest.org/wiki/Tipper_Taloon	
+gameplay.00c40190	setting	文字入力操作	Text entry			Independent project translation from pinned Japanese ROM	
+gameplay.00c401a0	setting	仲間リストを見る	View ally list			Independent project translation from pinned Japanese ROM	
+gameplay.00c401b4	setting	$tの状態γ	$t's status{arrow}			Independent project translation from pinned Japanese ROM	
+gameplay.00c401c0	setting	メッセージ履歴	Message history			Independent project translation from pinned Japanese ROM	
+gameplay.00c401d0	setting	$t状態変化一覧	$t's status effects			Independent project translation from pinned Japanese ROM	
+gameplay.00c401e0	setting	表示<03 08 40><03 14 01>明るい<03 08 60><03 14 02>強調<03 08 80><03 14 03>普通	Display{hex:030840031401}Light{hex:030860031402}Bold{hex:030880031403}Norm			Independent project translation from pinned Japanese ROM	Shared existing curated allocation; exact English is validated and retained in both control and English builds.
+gameplay.00c40208	setting	入力<03 08 40><03 14 01>Ａ<03 08 60><03 14 02>Ｂ<03 08 80><03 14 03>Ｃ	Input{hex:030840031401}A{hex:030860031402}B{hex:030880031403}C			Independent project translation from pinned Japanese ROM	
+gameplay.00c40228	setting	全体マップ<03 08 40><03 14 01>スケルトン<03 08 70><03 14 02>メッシュ	Full map{hex:030840031401}Skeleton{hex:030870031402}Mesh			Independent project translation from pinned Japanese ROM	

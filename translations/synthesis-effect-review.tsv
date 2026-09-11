@@ -1,0 +1,95 @@
+row	english
+0	None
+3	Attacks on monsters always hit.
+4	Makes critical hits more likely.
+5	Makes critical hits much more likely.
+6	Attacks all 3 squares ahead at once.
+7	Deals extra damage to undead monsters.
+8	Deals extra damage to doll-type monsters.
+9	Deals extra damage to demon-type monsters.
+10	Deals extra damage to floating monsters.
+11	Deals extra damage to fire-type monsters and Magmalices.
+12	Digs through walls, but the weapon may break while digging.
+13	Attacks monsters twice per turn.
+14	Attacking restores a little HP.
+15	Attacks all 8 directions at once.
+16	Defeated monsters drop items more often.
+17	The weapon breaks while digging walls.
+18	The weapon never breaks from digging.
+19	Hits leave foes at 1 HP and boost the sword; too much strength breaks it.
+20	Seals monsters' special attacks only when paired with the Sigil shield.
+21	You step back 1 square after attacking.
+22	May knock items away from monsters.
+23	Weakens with every attack.
+24	Smashes traps and items, but the weapon may break while doing so.
+25	Missed swings charge the weapon.
+26	Deals extra damage to bomb-type monsters.
+27	Attacks lower the monster's defence.
+28	Deals extra damage to aquatic monsters.
+29	Defeated monsters drop gold more often.
+30	Defeated monsters drop bread more often.
+31	Hits monsters in a line 2 squares long.
+32	Deals extra damage to invisible monsters.
+34	Reduces damage from explosions.
+35	Seals monsters' special attacks only when paired with the Sealing sword.
+36	Makes you grow hungry faster.
+37	Prevents shield deterioration.
+39	Lets you haggle in dungeon shops.
+40	Speeds HP recovery and hunger.
+41	Prevents equipped items deteriorating.
+42	Makes critical hits more likely.
+43	Makes you suffer brutal blows.
+44	Prevents cursing attacks.
+45	Thrown items pierce through obstacles and keep flying.
+46	Taking damage from monsters gives you a little experience.
+47	Makes you drop items as you walk.
+48	Reveals all monsters on the floor.
+49	Prevents all confusion effects.
+50	Identifies items as you pick them up.
+51	Raises strength.
+52	Prevents poison effects.
+53	Prevents sleep effects.
+54	Randomly warps you as you walk.
+55	Greatly slows hunger.
+56	Lets you act without waking sleeping monsters.
+57	Rumoured to add lustre and raise the selling price.
+58	Reveals traps and invisible monsters.
+59	Makes you grow hungry faster.
+60	Walking onto traps never triggers them.
+61	Blocks doll-type monsters' special attacks.
+62	Wakes sleeping monsters.
+63	The mark of the golden set.
+64	Randomly explodes as you walk.
+65	Raises maximum HP.
+66	Raises defence.
+67	Slows hunger.
+68	Reduces damage from monsters' fire breath.
+69	Negates magic attacks, but slows you.
+70	Helps you evade monster attacks, but slows you down.
+71	Stops thieving monsters stealing items.
+72	Negates skill attacks.
+73	Evades items and arrows from monsters, and arrows from traps.
+74	Reflects items and arrows from monsters, and arrows from traps.
+75	Thrown items turn at walls and keep flying instead of falling.
+76	Helps you evade monster attacks. Fire damage removes this effect.
+77	Items thrown at monsters always miss.
+78	Thrown items fly towards visible traps.
+79	Greatly boosts attacks on monsters. Any damage taken removes the effect.
+80	Throws items in random directions, regardless of which way you face.
+81	Items thrown at monsters always hit.
+82	Lets you walk through walls and on water.
+83	Blocks monsters' fullness-draining attacks.
+84	Diverts attacks to other foes. Each use costs 10 percent fullness.
+85	Negates statues' effects.
+86	Weakens whenever you are attacked.
+87	Slightly raises weapon strength.
+88	Deals extra damage to slime-type monsters.
+89	Lets you create a trap ahead.
+90	Slightly increases overall damage.
+91	Attacks may immobilize monsters.
+92	Attacks may confuse monsters.
+93	Attacks may put monsters to sleep.
+94	Attacks may frighten monsters.
+95	Attacks may turn monsters to iron.
+96	Attacks may warp monsters away.
+97	Attacks may make monsters go berserk.

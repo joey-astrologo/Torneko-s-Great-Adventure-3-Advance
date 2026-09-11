@@ -1,0 +1,16 @@
+# Local tools and generated validation artifacts
+.tools/
+.venv/
+build/
+__pycache__/
+*.py[cod]
+
+# Local game files and emulator saves
+*.gba
+*.sav
+*.ss[0-9]
+*.state
+
+# Local Ghidra analysis projects
+*.gpr
+*.rep/

@@ -1,0 +1,29 @@
+{
+  "purpose": "Relocate unchanged Japanese sources to exercise three formatting paths; no translation or font decision",
+  "entries": [
+    {
+      "id": "settings_message_speed",
+      "route": "settings",
+      "source_offset": "0x00C40100",
+      "pointer_offset": "0x000785B4",
+      "source_bytes": 41,
+      "source_sha256": "65242a66f2b66c305580ced00ffc4372737c1f93a4a8a2fa06b89257574f55c0"
+    },
+    {
+      "id": "new_log_explanation",
+      "route": "creation",
+      "source_offset": "0x00C78444",
+      "pointer_offset": "0x000858F4",
+      "source_bytes": 80,
+      "source_sha256": "3d453cf5eee0693fb3651aee3353920b4e675ef5136287930dd1cbf6842d4bfb"
+    },
+    {
+      "id": "opening_story_page_1",
+      "route": "story",
+      "source_offset": "0x0091BBB4",
+      "pointer_offset": "0x0091B6AC",
+      "source_bytes": 109,
+      "source_sha256": "55f4553329199929d80d8c93a198125f5f5633c96fb20179ee998aba678ba996"
+    }
+  ]
+}

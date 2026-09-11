@@ -1,0 +1,11 @@
+{
+  "id": "title_menu_begin_proof",
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "rom_offset": "0x00C782D8",
+  "pointer_offset": "0x00C78280",
+  "field_bytes": 12,
+  "encoding": "cp932",
+  "japanese": "はじめから",
+  "english": "Begin",
+  "status": "Technical proof label; not a final terminology decision."
+}

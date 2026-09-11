@@ -1,0 +1,10 @@
+{
+  "note": "Full canonical names remain in the review TSVs and glossary. Widths measured with original font 0; item/disguise raw-name budget is 100 pixels, reserving room for native decorations.",
+  "entries": {
+    "item.name.093": {"canonical": "Monster identification staff", "display": "Monster ID staff", "canonical_width": 136},
+    "item.name.157": {"canonical": "Cock-a-doodle-doo ring", "display": "Wake-up ring", "canonical_width": 114},
+    "context.unidentified.039": {"canonical": "Manchurian ash staff", "display": "Manch. ash staff", "canonical_width": 104},
+    "context.unidentified.108": {"canonical": "Mandarin garnet ring", "display": "Mandarin ring", "canonical_width": 101},
+    "context.unidentified.163": {"canonical": "Steller sea lion scroll", "display": "Steller scroll", "canonical_width": 105}
+  }
+}

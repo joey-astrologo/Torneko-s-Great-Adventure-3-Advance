@@ -1,0 +1,73 @@
+row	english	note
+0	Master Torneko	Internal affectionate label, not an ability.
+9	Uses magic to reduce an enemy monster's HP to half.	To half, not by half of maximum HP.
+10	Uses magic to reduce an enemy monster's HP to a quarter.	To a quarter, not by a quarter.
+14	Attacks from a distance with iron arrows.<CR>Moves quickly and can move freely over water.	Preserves speed and water traversal.
+20	Its numbing attack immobilizes<CR>the enemy monster in front.<CR>Can move freely over water.	Use immobilize for かなしばり; do not conflate with sleep.
+24	Moves quickly.<CR>Flees when it spots anyone, friend or foe.	Same clauses as existing metal-slime traits.
+26	Talk to it to gather other allies around it.<CR>Can move freely over water.	Source gives talking trigger, not an automatic aura.
+29	Can move through walls and over water.<CR>Wanders unpredictably.	Inside walls as well as water traversal.
+30	Can move through walls and over water.<CR>Wanders unpredictably.<CR>Has a high chance of evading all types of attacks.	All attack types; no invented percentage.
+31	Its curse attack has no effect...	Preserves source's ineffective allied ability.
+32	Seals enemy monsters that carry staves.	Source singles out staff-bearing species.
+56	Casts Snooze to put the enemy in front to sleep.	ラリホー = Snooze.
+57	Its hypnotic attack confuses the enemy in front.	Source explicitly says confusion for this monster-facing trait.
+61	Its draining ray reduces the HP or strength<CR>of the enemy monster in front.<CR>Can move freely over water.	No numeric reduction invented.
+67	Moves quickly.<CR>Attacks nearby creatures, friend or foe.	Includes allies.
+73	Uses Sultry Dance to make the enemy monster in front dance.<CR>Flies toward enemy monsters it spots.	Existing dance term.
+74	Its hunger attack has no effect...<CR>Flies toward enemy monsters it spots.	Preserves ineffective hunger effect.
+75	Uses Sultry Dance to make the enemy monster in front dance.	Existing dance term.
+82	Uses a Bazoom staff to send an enemy somewhere else.	バシルーラ = Bazoom (modern HD-2D); staff nomenclature to align with item catalog.
+83	Uses a Lump mage staff from a distance<CR>to send an enemy monster somewhere else<CR>and immobilize it.	Keep relocation plus immobilization; uses exact species name.
+84	Uses a Lump wizard staff from a distance<CR>to send an enemy monster somewhere else<CR>and put it to sleep.	Keep relocation plus sleep; uses exact species name.
+91	Sometimes lands a critical hit.	痛恨の一撃; enemy critical, no chance invented.
+114	Moves quickly and can move freely over water.	No multiplier invented.
+115	Flies toward enemy monsters it spots.<CR>Moves quickly and can move freely over water.	All clauses retained.
+117	Digs through walls as it moves.	Not merely walking through walls.
+119	Digs through walls as it moves.<CR>May put an enemy that attacks it to sleep.	Retaliatory chance, not on its own attacks.
+120	Uses a Shaman staff on enemy monsters.<CR>Uses an Acceleratle staff on allies.<CR>Keeps 2 squares away from friends and foes.	Staff names align with species and ピオリム; preserves distance wording without inferring AI geometry.
+121	Uses a Sorcerer staff on enemy monsters.<CR>Uses an Acceleratle or Rage staff on allies.<CR>Keeps 2 squares away from friends and foes.	Preserves both ally-targeting choices; Rage is a project term for イカリ.
+122	Keeps its distance from friends and foes.	No distance number in source.
+124	Moves slowly.<CR>Magic, arrows and thrown items become 2-damage hits.<CR>Can move freely within water.	Conversion to 2, not reduction by 2.
+126	Its attacks can ignore defence.<CR>Moves quickly and can move freely over water.	Can bypass defence; not a numeric percentage.
+127	Briefly copies an adjacent creature to attack.<CR>Sometimes lands a critical hit.<CR>Has a high chance of evading all types of attacks.	Adjacent creature can be friend or foe.
+128	Can move freely over water.<CR>Sometimes lands a critical hit.	No chance percentage invented.
+132	Sometimes waits and watches...<CR>Licks the enemy in front to immobilize it.	Preserves waiting behaviour and target direction.
+133	Licks the enemy in front to immobilize it.	Do not replace immobilization with sleep.
+135	Converts various kinds of damage into 2-damage hits.	Source leaves the precise attack categories unspecified.
+136	Converts various kinds of damage into 2-damage hits.<CR>Its bright light blinds all enemies in the room.	Room-wide blindness; no imported DQ mechanics.
+138	Breathes fire to attack from a distance.<CR>Can move freely over water.	No range number invented.
+141	Grows stronger by swallowing thrown items.<CR>Can move freely over water.	Thrown item trigger.
+143	Grows stronger by swallowing thrown items.<CR>Can move freely over water.<CR>Uses Kerplunk to revive an adjacent ally that falls.	Preserves adjacent ally trigger.
+144	Explodes at random near enemy monsters.	Random explosion, no HP threshold stated.
+146	Explodes a few turns after activation.<CR>Can move freely within water.<CR>Fully restores its HP while in water.	Do not invent exact countdown or switch trigger.
+148	Deals damage to an enemy twice per attack.<CR>Changes the trap underfoot.	Changes traps, not disarms.
+149	Deals damage to an enemy twice per attack.<CR>Changes the trap underfoot.<CR>May confuse an enemy that attacks it.	Confusion is retaliatory.
+150	Moves quickly.<CR>Randomly produces other creatures.<CR>Normal attacks and some others become 1-damage hits.	No creature pool or exhaustive damage categories invented.
+152	Jumps as it attacks.<CR>Can move freely within water.<CR>Fully restores its HP while in water.	Within water, not only over it.
+158	Throws friends and foes.<CR>Builds up strength before attacking.	Includes allies.
+160	Attacks with Harvest Moon.<CR>Can move freely over water.	ムーンサルト = Harvest Moon; modern official name, independent T3 effect.
+161	Attacks with Harvest Moon.<CR>Negates magic attacks.<CR>Moves quickly and can move freely over water.	All movement and magic clauses retained.
+162	Uses Kasap to lower all enemies' defence in the room.<CR>Uses Gust Slash on the enemy in front.<CR>Casts Oomphle to raise its own attack power.	真空斬り corresponds to VII しんくう斬り/Gust Slash; no wind damage mechanics imported.
+163	Uses Kasap to lower all enemies' defence in the room.<CR>Uses Gust Slash on the enemy in front.<CR>Negates magic attacks.	Same attack terminology as row 162; spell immunity distinct.
+164	Casts Buff to raise its own defence.<CR>Seals the enemy monster in front.<CR>Sometimes lands a critical hit.	スカラ = Buff, not Kabuff.
+167	Defends to reduce damage received.<CR>Can move freely within water.<CR>Fully restores its HP while in water.	No numeric guard reduction in source.
+170	Breathes fire and ice to attack from a distance.	Both breath elements retained.
+173	Uses Weird Dance<CR>to lower enemy monsters' attack or defence.<CR>Can move freely within water.	This species' dance lowers stats, unlike Mud mannequin's level reduction. Do not homogenize mechanics by shared skill name.
+175	Its Fuddle attack confuses the enemy in front.<CR>Can move freely within water.<CR>Fully restores its HP while in water.	Attack, not explicitly casting the Fuddle spell.
+177	Its sweeping attack knocks enemies over.<CR>Negates magic attacks.<CR>Can move freely over water.	Knocks over, not merely pushes back.
+178	Few have seen its attacks connect...	Preserves understated source without inventing an accuracy value.
+182	Rarely casts Kaboom.<CR>Few have seen its attacks connect...	イオナズン = Kaboom.
+184	Uses Heal on living creatures in all 8 adjacent squares.<CR>Few have seen its attacks connect...	All living creatures, not allies only.
+186	big boss<CR>No.197	Original internal ASCII label retained verbatim; no invented ability text.
+187	none<CR>No.187	Original internal ASCII label retained verbatim.
+188	Brainwashes enemies into acting like allies.<CR>Can move freely over water.	Source describes the enemy species' trait, not a boss-only mechanic.
+189	boss armor<CR>No.198	Original internal ASCII label retained verbatim.
+190	chair<CR>No.136	Original internal ASCII label retained verbatim.
+191	zokuson<CR>No.138	Original internal identifier retained verbatim; not a translated dialogue line.
+192	zokudaut<CR>No.139	Original internal identifier retained verbatim.
+193	manemane<CR>No.093	Original internal identifier retained verbatim.
+194	Levels up when hit by fire attacks.<CR>Spawns an enemy when caught in an explosion.<CR>Burns thrown items.	Fire level-up and explosion spawn are separate triggers.
+195	Levels up when hit by ice attacks.<CR>Creates ice pillars with its icy breath.	No pillar duration invented.
+198	popolo<CR>No.137	Original internal identifier retained verbatim despite modern character name Tipper.
+199	nisetoru<CR>No.199	Original internal identifier retained verbatim.

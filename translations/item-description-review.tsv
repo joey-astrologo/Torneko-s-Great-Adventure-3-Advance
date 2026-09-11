@@ -1,0 +1,331 @@
+row	english
+0	Reserved.
+8	Raises attack power while equipped. Attacks always hit.
+9	Raises attack power while equipped. Makes critical hits more likely.
+10	Raises attack power while equipped. Makes critical hits even more likely than a Hoodlum's axe.
+11	Raises attack power while equipped. Attacks all 3 squares ahead at once. Cannot be synthesized into other weapons.
+12	Raises attack power while equipped. Deals extra damage to undead monsters.
+13	Raises attack power while equipped. Deals extra damage to doll-type monsters.
+14	Raises attack power while equipped. Deals extra damage to demon-type monsters.
+15	Raises attack power while equipped. Deals extra damage to floating monsters.
+16	Raises attack power while equipped. Its icy blade deals extra damage to fire-type monsters and Magmalices.
+17	Raises attack power while equipped. Can dig through walls, but may break.
+18	Raises attack power while equipped. Attacks monsters twice at once.
+19	Raises attack power while equipped. Attacking a monster restores a little of your HP.
+20	Raises attack power while equipped. Hits 2 squares in a straight line at once. Cannot be synthesized into other weapons.
+21	Raises attack power while equipped. An incredibly powerful sword.
+22	Raises attack power while equipped. Defeated monsters are more likely to drop items.
+24	Raises attack power while equipped. The sword of a legendary hero, with immense attack power.
+25	Raises attack power while equipped. Digs without breaking. This effect only survives synthesis if this is the base weapon. Part of the golden set.
+26	Hits reduce a foe's HP to 1 and strengthen the sword. Misses weaken it. It breaks if too strong. Cannot be synthesized into other weapons.
+27	Raises attack power while equipped. Pair with the hidden Sigil shield to seal monsters just by attacking them!
+29	Raises attack power while equipped. You step back 1 square after attacking.
+30	Raises attack power while equipped. Attacks may knock items away from monsters holding them.
+31	Raises attack power while equipped. Deals extra damage to bomb-type monsters.
+32	Raises attack power while equipped. After enough missed swings, the next attack is a critical hit that cannot miss.
+33	Raises attack power while equipped. Deals extra damage to aquatic monsters.
+34	Raises attack power while equipped. Each hit lowers the monster's defence.
+35	Raises attack power while equipped. Defeated monsters are more likely to drop gold.
+36	Raises attack power while equipped. Attacks in all 8 directions at once. Cannot be synthesized into other weapons.
+37	Raises attack power while equipped. Can smash items and traps, but may break.
+38	Raises attack power while equipped. Defeated monsters are more likely to drop bread.
+39	Raises attack power while equipped. Starts strong, but weakens with each attack.
+40	Raises attack power while equipped. Deals extra damage to invisible monsters.
+41	Raises attack power while equipped. Only Tipper can use this weapon.
+42	Raises attack power while equipped. Deals extra damage to aquatic monsters. Only Tipper can use this weapon.
+43	Raises attack power while equipped. Claws made of gold. Only Tipper can use them.
+44	Raises attack power while equipped. Monsters defeated with these claws will not join you, perhaps due to their beastly scent. Only Tipper can use them.
+45	Raises attack power while equipped. Its dazzling radiance captures monsters' hearts. Only Tipper can use this weapon.
+49	Raises defence while equipped. Reflects a little of the damage from monster attacks.
+50	Raises defence while equipped. A shield with incredibly high defence.
+51	Raises defence while equipped. Reduces damage from explosions.
+52	Raises defence while equipped. Part of the golden set.
+53	Raises defence while equipped. Pair with the hidden Sealing sword to seal monsters just by attacking them!
+54	Raises defence while equipped. The shield of a legendary hero, with immense defence.
+55	Raises defence while equipped. Starts strong, but weakens each time you are attacked.
+56	Raises defence while equipped. So heavy that wearing it makes you hungry faster.
+62	Raises defence while equipped. Covered in beautiful decorations.
+63	This is reserved shield 2.
+64	Seals monsters' special attacks.
+65	Briefly turns a monster into Torneko's likeness to act as your decoy.
+66	Swaps your position with a monster's.
+67	Attacks monsters from a distance.
+68	Slows monsters down.
+69	Puts monsters to sleep for a while.
+70	Confuses monsters for a while.
+71	Warps monsters to another location.
+72	Changes a monster into a different monster.
+73	Makes monsters move faster.
+74	Makes monsters invisible.
+75	Carry to prevent falls; it won't work inside a pot. Its magic bolts or the staff itself knock monsters over when they hit.
+76	Makes monsters split.
+77	Defeats a monster in one hit. You still earn experience!
+78	Halves your HP and reduces the monster's HP to 1.
+79	Gives half of your HP to a monster.
+80	Changes a monster into an item.
+81	Warps a monster away and immobilizes it where it lands.
+82	Warps a monster away and puts it to sleep where it lands.
+83	Restores a monster's HP. Harms undead monsters instead.
+84	Knocks monsters and items away.
+85	Produces various effects when waved at monsters. Part of the golden set.
+86	Produces various effects.
+87	Produces various effects.
+88	Makes monsters flee.
+89	Lowers monsters' defence.
+90	Wave at a monster to make it attack friends and foes alike for a while.
+91	Turns monsters into Mimics.
+92	Drains half of a monster's HP to restore your own.
+93	Reveals a monster's true identity.
+94	Makes monsters' attacks miss completely.
+95	Used differently from other staves. Place an herb underfoot and wave the staff to fire a magic bolt carrying that herb's effect.
+96	Used differently from other staves. Place an herb underfoot and wave the staff. A magic bolt carrying the herb's effect flies towards you from afar.
+97	Digs through many walls at once. Cannot dig diagonally.
+98	Enrages monsters.
+99	Launches you to the place the bolt hits.
+100	Lights up the entire floor for a while.
+101	Immobilizes monsters.
+102	Warps a monster near the stairs and immobilizes it.
+103	Wave at a monster to make it share the pain when you take damage.
+104	Pulls monsters and items towards you.
+105	Creates pillars of fire.
+106	Cures various conditions affecting monsters.
+107	Reduces a monster's HP to a quarter.
+108	Creates pillars of ice. Freezes monsters it hits.
+109	Creates pillars of sand.
+110	Creates wind. Anything entering the wind gets blown away.
+111	A mysterious staff born from many powers combined. Deals tremendous damage.
+112	One of Rosa's treasures.
+113	Reserved staff 2.
+114	Reserved staff 3.
+115	Attacks monsters from afar, even through walls. One of Rosa's treasures. Equip and press L to fire.
+116	Attacks monsters from afar. Equip and press L to fire.
+117	Attacks monsters from afar. Equip and press L to fire.
+118	Attacks monsters from afar, even through walls. Equip and press L to fire.
+119	Attacks monsters from afar. On a hit, confuses the monster and pulls it towards you. Equip and press L to fire.
+120	Attacks monsters from afar. Remains intact after hitting a monster. Equip and press L to fire.
+121	Attacks monsters from afar and lowers their strength. Equip and press L to fire.
+122	Attacks monsters from afar. Equip and press L to fire. Part of the golden set.
+123	Attacks monsters from afar. Rarely hits, but a hit defeats a monster instantly. Equip and press L to fire.
+124	Attacks monsters from afar and knocks them back on a hit. Equip and press L to fire.
+125	Attacks monsters from afar. Critical hits are more likely. Equip and press L to fire.
+126	Attacks monsters from afar. Splits into 5 directions and flies without limit. Equip and press L to fire.
+127	Reserved arrow 1. Let's hope it stays unused.
+128	Lets you aim at and attack a monster 1 square away.
+129	Flies towards a nearby monster.
+130	Lets you aim at and attack a monster 2 squares away.
+131	A rock launched by a Rock-throw statue.
+132	Rolls along and explodes when it hits a monster or wall.
+133	Lets you walk on water.
+134	Lets you haggle when buying items from dungeon shops.
+135	Speeds up HP recovery, but also makes you hungry faster.
+136	Prevents your equipped weapon and shield from deteriorating.
+137	Makes critical hits more likely.
+138	Makes you suffer brutal critical hits.
+139	Protects against curse attacks from monsters.
+140	Thrown items fly through walls.
+141	Grants experience when monsters attack you.
+142	Makes you drop items from time to time.
+143	Shows monsters' locations on the map.
+144	Prevents confusion.
+145	Identifies items when you pick them up.
+146	Raises strength.
+147	Prevents poisoning.
+148	Prevents sleep.
+149	Occasionally warps you to another location.
+150	Stops you from getting hungry.
+151	Lets you enter and leave rooms without waking sleeping monsters.
+152	Sells for a high price.
+153	Reveals traps and invisible monsters.
+154	Makes you hungry faster.
+155	Prevents you from setting off traps.
+156	Blocks special attacks from doll-type monsters.
+157	Always wakes monsters when you enter or leave a room.
+158	Part of the golden set.
+159	Makes you explode from time to time.
+160	Raises maximum HP.
+161	Raises defence.
+162	Slows the rate at which you get hungry.
+163	An ordinary ring.
+164	Reserved ring 2.
+165	Reduces damage from fire attacks by fire-type monsters.
+166	Once an Ogre ring, now made into a shield. This is reserved slot 3.
+167	Blocks magic attacks, but slows you down while equipped.
+168	Makes attacks easier to dodge, but slows you down while equipped.
+169	Prevents monsters from stealing your items.
+170	Blocks monsters' special skill attacks.
+171	One of Rosa's treasures.
+172	One of Rosa's treasures.
+173	Lets you dodge incoming items.
+174	Lets you reflect incoming items.
+175	Reserved ring 6.
+176	Thrown items turn corners at walls instead of falling to the ground.
+177	Makes monster attacks easier to dodge. This strange paper ring turns into a Plain ring if you take fire damage.
+178	Makes your thrown items miss monsters.
+179	Thrown items fly towards nearby visible traps.
+180	Lets you deal great damage to monsters. Turns into a Plain ring when you are attacked.
+181	Throws items in random directions, regardless of which way you face.
+182	Reserved ring 7.
+183	Thrown items and stones, and fired arrows, always hit monsters.
+184	Lets you move through walls and over water. You cannot breathe inside walls and take heavy damage there.
+185	Once the anti-bending ring. Removed because another item did the same thing.
+186	Blocks attacks that reduce fullness.
+187	Deflects monster attacks into surrounding monsters. Doing so makes you very hungry.
+188	Protects you from statue effects.
+189	Entirely reserved. So many reserved slots!
+190	Read to lift curses from all carried items. Items inside pots are not affected.
+191	Read to identify one item.
+192	Read to attack all monsters in the room. In dark areas, attacks all enemy monsters in the lit area instead.
+193	Read to prevent yourself from using your mouth for a while.
+194	Read to escape the dungeon. Sticks to the floor when placed and cannot be picked up. Can still be used to escape while stuck down.
+195	Read to add traps to the floor.
+196	Read to turn the current floor into one huge room.
+197	Read to create a monster house.
+198	Write the name of a scroll you have read before to turn this into that scroll.
+199	Read to strengthen your equipped weapon.
+200	Read to strengthen your equipped shield.
+201	Read to plate one carried weapon or shield, preventing it from deteriorating.
+202	One of Rosa's treasures.
+203	Read to prevent picking up or using items underfoot for the rest of this floor.
+204	Place underfoot to block monsters' normal attacks. Reading it has no effect.
+205	Read to show the locations of items on the current floor's map.
+206	Read to turn one item into bread.
+207	Read to increase a staff or pot's remaining uses.
+208	Rosa's treasure. Faded writing reads: "...Beneath a tree southeast of a distant village...precious treasure lies buried...May the finder of this map claim it..."
+209	Who knows what will happen?
+210	Read to reveal the current floor's layout and monsters' locations.
+211	Read to stop adjacent monsters until you attack them.
+212	One of Rosa's treasures.
+213	Read to summon monsters around you.
+214	Read to show monsters' locations on the current floor's map.
+215	Read to prevent damage from spiked floors.
+216	Read to reduce the number of turns you can remain on this floor.
+217	Read to stop monsters in the room for a while. In dark areas, stops enemy monsters in the lit area instead.
+218	Read to lower the defence of monsters throughout the floor.
+219	Read to root monsters in the room to their spots. In dark areas, roots monsters in the lit area instead.
+220	Read to pull in items lying on the floor. Items already around you cannot be pulled in.
+221	Read to transform into a monster for a while.
+222	Part of the golden set.
+223	While stuck to a room's floor, may revive creatures that fall in that room. Works only while stuck down. Reading it has no effect.
+224	Once a Blank scroll. A careless writing mistake has made it unusable.
+225	Read to speed up monsters throughout the floor.
+226	Read to put monsters in the room to sleep for a while. They speed up when they wake. In dark areas, affects monsters in the lit area instead.
+227	Read to fill yourself with power and deal more damage to monsters.
+228	Read to explode and wipe out surrounding monsters. The blast also reduces your HP.
+229	Read to confuse monsters in the room so they cannot walk straight. In dark areas, confuses enemy monsters in the lit area instead.
+230	Use by throwing at a monster. A hit removes that monster from the dungeon. Reading it has no effect.
+231	Read to make adjacent monsters worry about what's behind them and attack backwards for a few turns.
+232	Read to lose your nerve, making your attacks less likely to hit.
+233	Read to remove all traps on the floor.
+234	Read on a pot to make it unbreakable. An unbreakable pot will always miss monsters when thrown.
+235	Read to destroy the walls around you.
+236	Read to restore monsters' HP throughout the floor. Harms undead monsters instead.
+237	Read to make monsters in the room explode. In dark areas, makes enemy monsters in the lit area explode instead.
+238	Read to stop explosives from working throughout the floor.
+239	Read to remove all water on the floor, turning it into solid ground.
+240	Read to activate all traps in the room for a while. In dark areas, activates traps in the lit area instead.
+241	Read to create fire pillars around you for a few turns.
+242	Read to create ice pillars around you for a few turns. Freezes any monsters there for a few turns.
+243	While stuck to the floor, explodes when you attempt an attack. Reading it has no effect.
+244	Makes items in the room move around on their own. Works only while stuck to the room's floor. Reading it has no effect.
+245	Read to create sand pillars around you for a few turns.
+246	The treasure once here seems to be gone. Try looking elsewhere.
+247	Lets you put items in and take them out. Its icon changes when it contains items. You can give this pot a name to make it easy to recognize!
+248	Identifies items placed inside.
+249	Restores your HP.
+250	There is a monster inside!
+251	Changes items placed inside.
+252	Combines items through synthesis.
+253	Sucks in items a short distance away.
+254	Explodes when broken.
+255	A hard pot that is difficult to break. Always misses monsters when thrown.
+256	It tells lies.
+257	Part of the golden set.
+258	Sends items placed inside to the warehouse.
+259	A beautiful jewel box that looks as if it holds amazing treasure!
+260	One of Rosa's treasures.
+261	Traps monsters inside. Once it holds a monster, it sticks to the floor and cannot be picked up.
+262	none
+263	Fires items placed inside like a cannon. Fired items pass through monsters and walls.
+264	Lets you collect and splash water. Splashing can seal bomb-type monsters or lower the attack power of monsters carrying sharp weapons.
+265	Curses items placed inside.
+266	Blesses items placed inside.
+267	Warps you to another Warp pot lying on the same floor. Both the entrance and exit pots must have uses remaining.
+268	An ordinary pot.
+269	Reserved for a Keepsake pot. Not sure it will be made.
+270	An herb placed inside affects everyone in the same room, including you and all monsters.
+271	The Splitting pot's slot. It was scrapped.
+272	A truly reserved slot.
+274	Drink to restore a lot of HP. Throwing it heals most monsters, but harms undead monsters.
+275	Drink to sharpen your eyesight and see hidden things for the rest of this floor.
+276	Carry to revive when your HP runs out. Does not work inside a pot.
+277	Throw at a monster to make it drink the herb and go blind.
+278	Drink to lose 1 level.
+279	Drink to attack friends and foes alike for a while.
+280	Throw at a monster to make it drink the herb and flee in fright.
+281	Drink to raise maximum HP a little.
+282	Drink to raise maximum fullness a little.
+283	Drink to lower maximum fullness a little.
+284	Drink to move faster for a while.
+285	Drink to raise strength.
+286	Drink to fully restore strength lost to poison.
+287	Throw at a monster to make it drink the herb and lose strength.
+288	Throw at a monster to make it drink the herb and become confused for a while.
+289	Throw at a monster to make it drink the herb and fall asleep for a while.
+290	Just an ordinary weed.
+291	Drink to warp to another location.
+292	Drink to breathe fire at the monster in front of you.
+293	Drink to prevent your fullness from increasing for a while.
+294	Drink to gain 1 level.
+295	Drink to stay awake and resist sleep attacks.
+296	Part of the golden set.
+297	Throw at a monster to make it drink the seed and stop moving until attacked.
+298	Throw at a monster to make it drink the herb and dance for a while.
+299	Throw at a monster to make it drink the seed and turn to iron for a while.
+300	Drink to see items on the floor as flowers for a while. You will also be unable to recognize your carried items' names.
+301	Drink to strengthen the effects of herbs and seeds for a while.
+302	One of Rosa's treasures.
+303	One of Rosa's treasures.
+306	Fills your belly a tiny bit, but makes you ill.
+307	Fills your belly completely and raises maximum fullness.
+308	Fills your belly a little. Something strange may also happen.
+309	Fills your belly a tiny bit, but makes you very ill.
+310	Fills your belly. Part of the golden set.
+311	Fills your belly a little. Something strange may also happen.
+312	Fills your belly a little. One of Rosa's treasures.
+313	A Longthrow statue.
+314	A Farsight statue.
+315	A Decoy statue.
+316	A 10-damage statue.
+317	A Bread statue.
+318	A Gold statue.
+319	A self-destruct statue.
+320	A Throw effect statue.
+321	A Fizzle statue.
+322	A Tripping statue.
+323	An identification statue.
+324	A Shapeshift statue.
+325	A Knockback statue.
+326	A Flame statue.
+327	A Rock-throw statue.
+328	An Explosion statue.
+329	A Zoom statue.
+330	This statue makes you want to dance.
+331	A sleep statue.
+332	A Gravity statue.
+333	A Big Moai statue.
+334	A Swap statue.
+335	A Trap growth statue.
+336	Gives you the spotlight condition.
+337	A Siphon statue.
+338	A Trap breaker statue.
+339	sekizo yobi 339
+340	sekizo yobi 340
+341	Money.
+342	It's a Mimic! It doesn't know you've seen through it and is still disguised as an item.
+343	Once the flame slot. Now reserved.
+344	Good things happen if you collect these!
+345	Water held in a Water jar.
+346	Carry to keep your gold when you fall in a dungeon.
+347	Opens hidden doors said to lie deep in dungeons.
+348	It seems to be that thing.
+349	A monster's grave.

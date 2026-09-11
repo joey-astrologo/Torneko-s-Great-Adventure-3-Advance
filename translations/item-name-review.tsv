@@ -1,0 +1,370 @@
+row	english
+0	None
+1	Oaken club
+2	Gold sword
+3	Copper sword
+4	Iron axe
+5	Dragonsbane
+6	Liquid metal sword
+7	Astraea's abacus
+8	Surestrike sword
+9	Hoodlum's axe
+10	Heavy hood's axe
+11	Kamaitachi blade
+12	Zombiesbane
+13	Doll crusher
+14	Demonsbane
+15	Wind spear
+16	Ice sword
+17	Pickaxe
+18	Falcon blade
+19	Miracle sword
+20	Straight sword
+21	Metal king sword
+22	Imp fork
+23	Steel broadsword
+24	Erdrick's sword
+25	Golden pickaxe
+26	Life drain
+27	Sealing sword
+28	Magic sword
+29	Extending staff
+30	Great sword
+31	Bombslayer
+32	Spark sword
+33	Ocean rod
+34	Kasap sword
+35	Gold whip
+36	Killer head
+37	Giant mallet
+38	Bread hand
+39	Fading sword
+40	Shadow breaker
+41	Seabird claws
+42	Silver claws
+43	Gold claws
+44	Elephant claws
+45	Claw andrea
+46	Bronze shield
+47	Steel shield
+48	Liquid metal shield
+49	Blade shield
+50	Metal king shield
+51	Blastproof shield
+52	Golden shield
+53	Sigil shield
+54	Erdrick's shield
+55	Disposable shield
+56	Chrome shield
+57	Crimson shield
+58	Wooden shield
+59	Round shield
+60	Shell shield
+61	White cross
+62	Jewelled shield
+63	Reserved 63
+64	Sealing staff
+65	Decoy staff
+66	Swap staff
+67	Lightning staff
+68	Deceleratle staff
+69	Snooze staff
+70	Fuddle staff
+71	Bazoom staff
+72	Shapeshift staff
+73	Acceleratle staff
+74	Fade staff
+75	Surefoot staff
+76	Splitting staff
+77	Whack staff
+78	Double-edged staff
+79	Great loss staff
+80	Itemizing staff
+81	Lump mage staff
+82	Lump wizard staff
+83	Heal staff
+84	Knockback staff
+85	Golden staff
+86	Shaman staff
+87	Sorcerer staff
+88	Fear staff
+89	Sap staff
+90	Berserker staff
+91	Mimic staff
+92	Great gain staff
+93	Monster identification staff
+94	Dazzle staff
+95	Herb throw staff
+96	Herb catch staff
+97	Tunnelling staff
+98	Rage staff
+99	Lunge staff
+100	Glow staff
+101	Binding staff
+102	Reprieve staff
+103	Shared pain staff
+104	Pulling staff
+105	Fire pillar staff
+106	Panacea staff
+107	Quarter staff
+108	Ice pillar staff
+109	Sand pillar staff
+110	Wind staff
+111	Godspark staff
+112	Carved bat
+113	Reserved 113
+114	Reserved 114
+115	Silver dart
+116	Wooden arrow
+117	Iron arrow
+118	Silver arrow
+119	Boomerang
+120	Magic arrow
+121	Poison arrow
+122	Golden arrow
+123	Demon arrow
+124	Knockback arrow
+125	Critical arrow
+126	Multiarrow
+127	Reserved 127
+128	Stone
+129	Magic stone
+130	Lava stone
+131	Rock
+132	Cannonball
+133	Passage ring
+134	Haggler's ring
+135	Recovery ring
+136	Wearproof ring
+137	Critical ring
+138	Brutal blow ring
+139	Curseproof ring
+140	Longthrow ring
+141	Happiness ring
+142	Spillage ring
+143	Farsight ring
+144	Clarity ring
+145	Peep ring
+146	Strength ring
+147	Antidote ring
+148	Sleepless ring
+149	Zoom ring
+150	Satiation ring
+151	Thief's ring
+152	Pretty ring
+153	Shadow ring
+154	Ravenous ring
+155	Trapproof ring
+156	Doll ward ring
+157	Cock-a-doodle-doo ring
+158	Golden ring
+159	Explosion ring
+160	Life ring
+161	Protection ring
+162	Slow hunger ring
+163	Plain ring
+164	Ring 164
+165	Dragon ring
+166	Reserved
+167	Magic ward ring
+168	Evasion ring
+169	Minidemon ring
+170	Skill ward ring
+171	Mother's keepsake
+172	Metal ring
+173	Dodge ring
+174	Deflection ring
+175	Ring 175
+176	Cornering ring
+177	Paper-thin ring
+178	Poor throw ring
+179	Trap-seeker ring
+180	Fighter ring
+181	Wild throw ring
+182	Ring 182
+183	Master throw ring
+184	Mean spirit ring
+186	Bellyguard ring
+187	Parrying ring
+188	Statue ward ring
+189	Reserved 189
+190	Sheen scroll
+191	Peep scroll
+192	Bang scroll
+193	Mouthseal scroll
+194	Evac scroll
+195	Trap scroll
+196	Great room scroll
+197	Monster scroll
+198	Blank scroll
+199	Oomphle scroll
+200	Buff scroll
+201	Plating scroll
+202	T'n'T board
+203	No-pickup scroll
+204	Sanctuary scroll
+205	Item sight scroll
+206	Bread scroll
+207	Prayer scroll
+208	Treasure map
+209	Hocus Pocus scroll
+210	Glow scroll
+211	Binding scroll
+212	Sketchbook
+213	Lyre of Ire scroll
+214	Foe sight scroll
+215	Safe Passage scroll
+216	Gale scroll
+217	Monster bind scroll
+218	Kasap scroll
+219	Rooting scroll
+220	Pulling scroll
+221	Transform scroll
+222	Golden scrap
+223	Zing scroll
+224	Spoiled blank scroll
+225	Monster haste scroll
+226	Deep sleep scroll
+227	Power-up scroll
+228	Reckless scroll
+229	Fuddle scroll
+230	Poof scroll
+231	Look-back scroll
+232	Chicken scroll
+233	Trap erase scroll
+234	Pot fortify scroll
+235	Medium room scroll
+236	Multiheal scroll
+237	Big blast scroll
+238	Dud scroll
+239	Drought scroll
+240	Trap trigger scroll
+241	Blaze scroll
+242	Freeze scroll
+243	Time bomb scroll
+244	Holy castle scroll
+245	Sand pillar scroll
+246	Scroll scrap
+247	Storage pot
+248	Peep pot
+249	Recovery pot
+250	Monster pot
+251	Shapeshift pot
+252	Synthesis pot
+253	Suction pot
+254	Gunpowder pot
+255	Sturdy pot
+256	Liar pot
+257	Golden pot
+258	Warehouse pot
+259	Magic jewel box
+260	Father's flask
+261	Trapping pot
+262	item262
+263	Cannon pot
+264	Water jar
+265	Cursed pot
+266	Blessing pot
+267	Warp pot
+268	Plain pot
+269	Keepsake pot
+270	Herb god pot
+271	Pot 271
+272	Pot 272
+273	Medicinal herb
+274	Healing herb
+275	Eyedrop herb
+276	Yggdrasil leaf
+277	Blinding herb
+278	Misfortune seed
+279	Berserker seed
+280	Fright herb
+281	Life herb
+282	Big belly seed
+283	Small belly seed
+284	Seed of agility
+285	Seed of strength
+286	Antidotal herb
+287	Poison herb
+288	Fuddle herb
+289	Snooze herb
+290	Weed
+291	Zoom herb
+292	Flame herb
+293	Leaky belly seed
+294	Seed of growth
+295	Wakeful herb
+296	Golden herb
+297	Binding seed
+298	Dancing herb
+299	Ironform seed
+300	Nonsense herb
+301	Mystic herb
+302	Strange leaf
+303	Leaf whistle
+304	Bread
+305	Big bread
+306	Rotten bread
+307	Giant bread
+308	Magic bread
+309	Putrid bread
+310	Golden bread
+311	Onion bread
+312	Caramel bread
+313	Longthrow statue
+314	Glow statue
+315	Decoy statue
+316	10-damage statue
+317	Bread statue
+318	Gold statue
+319	Kamikazee statue
+320	Throw effect statue
+321	Fizzle statue
+322	Tripping statue
+323	Peep statue
+324	Shapeshift statue
+325	Knockback statue
+326	Flame statue
+327	Rock-throw statue
+328	Explosion statue
+329	Zoom statue
+330	Dance statue
+331	Snooze statue
+332	Gravity statue
+333	Big Moai statue
+334	Swap statue
+335	Trap growth statue
+336	Spotlight statue
+337	Siphon statue
+338	Trap breaker statue
+339	sekizo339
+340	Statue 340
+341	Gold
+342	Mimic
+343	Flame
+344	Mini medal
+345	Water
+346	Iron safe (unused)
+347	Key
+348	That thing
+349	Grave
+350	Iron ball
+351	Ice breath
+352	Something 352
+353	Monster tracks
+354	Icy breath
+355	Something 355
+356	Something 356
+357	Something 357
+358	Something 358
+359	Something 359
+360	Something 360
+361	Something 361
+362	Something 362
+363	Something 363
+364	Something 364
+365	Something 365
+366	Something 366
+367	Something 367
+368	Something 368
+369	Something 369

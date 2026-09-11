@@ -1,0 +1,7 @@
+{
+  "description": "RGB pixels of the visually reviewed Begin label after a fresh boot: 600 frames, Start for 3 frames, then 240 released frames.",
+  "crop": [28, 15, 80, 28],
+  "label_rgb_sha256": "21eb771d1a29b415d822e4a1d9419a9e3038febaee47a1a506bfb3b4710f0a46",
+  "emulator": "mGBA 0.10.5, native arm64; build configuration in docs/TOOLING.md",
+  "bios": "mGBA built-in BIOS"
+}
