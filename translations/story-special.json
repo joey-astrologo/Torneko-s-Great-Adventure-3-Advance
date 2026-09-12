@@ -1,0 +1,1907 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "scope": "All 29 pet-name story sources plus both gate hints and its exact seven-character comparison keyword. Native input capacity, compact conversion, branch code and script-variable/save layout remain unchanged.",
+  "entries": [
+    {
+      "id": "completion.00a0dfc0",
+      "master_id": "jp_00a0dfc0",
+      "chapter": "pet_names",
+      "offset": "0x00A0DFC0",
+      "end_exclusive": "0xa0dfd2",
+      "source_hex": "247031817582ed82f182ed82f182c1814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247031",
+          "text": "$p1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582ed82f182ed82f182c18149",
+          "text": "「わんわんっ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p1「わんわんっ！",
+      "events": [
+        {
+          "command_offset": "0xa0dfb0",
+          "pointer_offset": "0x00A0DFB4",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p1: \"Woof, woof!\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a0e000",
+      "master_id": "jp_00a0e000",
+      "chapter": "pet_names",
+      "offset": "0x00A0E000",
+      "end_exclusive": "0xa0e027",
+      "source_hex": "24703182cd814082a482ea82b582bb82a482c90a83568362837c82f0814082d382c182bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247031",
+          "text": "$p1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568362837c82f0814082d382c182bd8149",
+          "text": "シッポを　ふった！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p1は　うれしそうに\nシッポを　ふった！",
+      "events": [
+        {
+          "command_offset": "0xa0df58",
+          "pointer_offset": "0x00A0DF5C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p1 wagged its tail happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a0e028",
+      "master_id": "jp_00a0e028",
+      "chapter": "pet_names",
+      "offset": "0x00A0E028",
+      "end_exclusive": "0xa0e059",
+      "source_hex": "8da193fa82a982e7814024703182aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247031",
+          "text": "$p1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p1が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa0df50",
+          "pointer_offset": "0x00A0DF54",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p1 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a0e05c",
+      "master_id": "jp_00a0e05c",
+      "chapter": "pet_names",
+      "offset": "0x00A0E05C",
+      "end_exclusive": "0xa0e08e",
+      "source_hex": "247482cd814082bb82cc8ca282c90a24703182c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc8ca282c9",
+          "text": "は　その犬に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247031",
+          "text": "$p1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　その犬に\n$p1という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa0df48",
+          "pointer_offset": "0x00A0DF4C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the dog $p1!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a745a0",
+      "master_id": "jp_00a745a0",
+      "chapter": "pet_names",
+      "offset": "0x00A745A0",
+      "end_exclusive": "0xa745c5",
+      "source_hex": "24703282cd8140247482cc0a8359837b839382c9814082b682e182ea82c482ab82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140",
+          "text": "は　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc",
+          "text": "の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8359837b839382c9814082b682e182ea82c482ab82bd8142",
+          "text": "ズボンに　じゃれてきた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　$tの\nズボンに　じゃれてきた。",
+      "events": [
+        {
+          "command_offset": "0xa74590",
+          "pointer_offset": "0x00A74594",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 playfully pawed at $t's pants.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a745c8",
+      "master_id": "jp_00a745c8",
+      "chapter": "pet_names",
+      "offset": "0x00A745C8",
+      "end_exclusive": "0xa745de",
+      "source_hex": "247032817582c982e182f1814082c982e182f1814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582c982e182f1814082c982e182f18142",
+          "text": "「にゃん　にゃん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2「にゃん　にゃん。",
+      "events": [
+        {
+          "command_offset": "0xa74588",
+          "pointer_offset": "0x00A7458C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p2: \"Meow, meow.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a7460c",
+      "master_id": "jp_00a7460c",
+      "chapter": "pet_names",
+      "offset": "0x00A7460C",
+      "end_exclusive": "0xa7463b",
+      "source_hex": "24703282cd814082a482ea82b582bb82a482c90a8341835e837d82f0814082b782e882c282af82c482ab82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8341835e837d82f0814082b782e882c282af82c482ab82bd8149",
+          "text": "アタマを　すりつけてきた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　うれしそうに\nアタマを　すりつけてきた！",
+      "events": [
+        {
+          "command_offset": "0xa744f8",
+          "pointer_offset": "0x00A744FC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 nuzzled you happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a7463c",
+      "master_id": "jp_00a7463c",
+      "chapter": "pet_names",
+      "offset": "0x00A7463C",
+      "end_exclusive": "0xa7466d",
+      "source_hex": "8da193fa82a982e7814024703282aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p2が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa744f0",
+          "pointer_offset": "0x00A744F4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a74670",
+      "master_id": "jp_00a74670",
+      "chapter": "pet_names",
+      "offset": "0x00A74670",
+      "end_exclusive": "0xa746a4",
+      "source_hex": "247482cd814082bb82cc836c835282c90a24703282c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc836c835282c9",
+          "text": "は　そのネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　そのネコに\n$p2という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa744e8",
+          "pointer_offset": "0x00A744EC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the cat $p2!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a7621c",
+      "master_id": "jp_00a7621c",
+      "chapter": "pet_names",
+      "offset": "0x00A7621C",
+      "end_exclusive": "0xa76241",
+      "source_hex": "24703282cd8140247482cc0a8359837b839382c9814082b682e182ea82c482ab82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140",
+          "text": "は　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc",
+          "text": "の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8359837b839382c9814082b682e182ea82c482ab82bd8142",
+          "text": "ズボンに　じゃれてきた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　$tの\nズボンに　じゃれてきた。",
+      "events": [
+        {
+          "command_offset": "0xa7620c",
+          "pointer_offset": "0x00A76210",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 playfully pawed at $t's pants.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a76244",
+      "master_id": "jp_00a76244",
+      "chapter": "pet_names",
+      "offset": "0x00A76244",
+      "end_exclusive": "0xa7625a",
+      "source_hex": "247032817582c982e182f1814082c982e182f1814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582c982e182f1814082c982e182f18142",
+          "text": "「にゃん　にゃん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2「にゃん　にゃん。",
+      "events": [
+        {
+          "command_offset": "0xa76204",
+          "pointer_offset": "0x00A76208",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p2: \"Meow, meow.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a76288",
+      "master_id": "jp_00a76288",
+      "chapter": "pet_names",
+      "offset": "0x00A76288",
+      "end_exclusive": "0xa762b7",
+      "source_hex": "24703282cd814082a482ea82b582bb82a482c90a8341835e837d82f0814082b782e882c282af82c482ab82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8341835e837d82f0814082b782e882c282af82c482ab82bd8149",
+          "text": "アタマを　すりつけてきた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　うれしそうに\nアタマを　すりつけてきた！",
+      "events": [
+        {
+          "command_offset": "0xa76174",
+          "pointer_offset": "0x00A76178",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 nuzzled you happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a762b8",
+      "master_id": "jp_00a762b8",
+      "chapter": "pet_names",
+      "offset": "0x00A762B8",
+      "end_exclusive": "0xa762e9",
+      "source_hex": "8da193fa82a982e7814024703282aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p2が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa7616c",
+          "pointer_offset": "0x00A76170",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a762ec",
+      "master_id": "jp_00a762ec",
+      "chapter": "pet_names",
+      "offset": "0x00A762EC",
+      "end_exclusive": "0xa76320",
+      "source_hex": "247482cd814082bb82cc836c835282c90a24703282c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc836c835282c9",
+          "text": "は　そのネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　そのネコに\n$p2という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa76164",
+          "pointer_offset": "0x00A76168",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the cat $p2!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a77e98",
+      "master_id": "jp_00a77e98",
+      "chapter": "pet_names",
+      "offset": "0x00A77E98",
+      "end_exclusive": "0xa77ebd",
+      "source_hex": "24703282cd8140247482cc0a8359837b839382c9814082b682e182ea82c482ab82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140",
+          "text": "は　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc",
+          "text": "の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8359837b839382c9814082b682e182ea82c482ab82bd8142",
+          "text": "ズボンに　じゃれてきた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　$tの\nズボンに　じゃれてきた。",
+      "events": [
+        {
+          "command_offset": "0xa77e88",
+          "pointer_offset": "0x00A77E8C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 playfully pawed at $t's pants.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a77ec0",
+      "master_id": "jp_00a77ec0",
+      "chapter": "pet_names",
+      "offset": "0x00A77EC0",
+      "end_exclusive": "0xa77ed6",
+      "source_hex": "247032817582c982e182f1814082c982e182f1814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582c982e182f1814082c982e182f18142",
+          "text": "「にゃん　にゃん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2「にゃん　にゃん。",
+      "events": [
+        {
+          "command_offset": "0xa77e80",
+          "pointer_offset": "0x00A77E84",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p2: \"Meow, meow.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a77f04",
+      "master_id": "jp_00a77f04",
+      "chapter": "pet_names",
+      "offset": "0x00A77F04",
+      "end_exclusive": "0xa77f33",
+      "source_hex": "24703282cd814082a482ea82b582bb82a482c90a8341835e837d82f0814082b782e882c282af82c482ab82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8341835e837d82f0814082b782e882c282af82c482ab82bd8149",
+          "text": "アタマを　すりつけてきた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　うれしそうに\nアタマを　すりつけてきた！",
+      "events": [
+        {
+          "command_offset": "0xa77df0",
+          "pointer_offset": "0x00A77DF4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 nuzzled you happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a77f34",
+      "master_id": "jp_00a77f34",
+      "chapter": "pet_names",
+      "offset": "0x00A77F34",
+      "end_exclusive": "0xa77f65",
+      "source_hex": "8da193fa82a982e7814024703282aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p2が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa77de8",
+          "pointer_offset": "0x00A77DEC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a77f68",
+      "master_id": "jp_00a77f68",
+      "chapter": "pet_names",
+      "offset": "0x00A77F68",
+      "end_exclusive": "0xa77f9c",
+      "source_hex": "247482cd814082bb82cc836c835282c90a24703282c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc836c835282c9",
+          "text": "は　そのネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　そのネコに\n$p2という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa77de0",
+          "pointer_offset": "0x00A77DE4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the cat $p2!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a79b14",
+      "master_id": "jp_00a79b14",
+      "chapter": "pet_names",
+      "offset": "0x00A79B14",
+      "end_exclusive": "0xa79b39",
+      "source_hex": "24703282cd8140247482cc0a8359837b839382c9814082b682e182ea82c482ab82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140",
+          "text": "は　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc",
+          "text": "の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8359837b839382c9814082b682e182ea82c482ab82bd8142",
+          "text": "ズボンに　じゃれてきた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　$tの\nズボンに　じゃれてきた。",
+      "events": [
+        {
+          "command_offset": "0xa79b04",
+          "pointer_offset": "0x00A79B08",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 playfully pawed at $t's pants.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a79b3c",
+      "master_id": "jp_00a79b3c",
+      "chapter": "pet_names",
+      "offset": "0x00A79B3C",
+      "end_exclusive": "0xa79b52",
+      "source_hex": "247032817582c982e182f1814082c982e182f1814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582c982e182f1814082c982e182f18142",
+          "text": "「にゃん　にゃん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2「にゃん　にゃん。",
+      "events": [
+        {
+          "command_offset": "0xa79afc",
+          "pointer_offset": "0x00A79B00",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p2: \"Meow, meow.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a79b80",
+      "master_id": "jp_00a79b80",
+      "chapter": "pet_names",
+      "offset": "0x00A79B80",
+      "end_exclusive": "0xa79baf",
+      "source_hex": "24703282cd814082a482ea82b582bb82a482c90a8341835e837d82f0814082b782e882c282af82c482ab82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8341835e837d82f0814082b782e882c282af82c482ab82bd8149",
+          "text": "アタマを　すりつけてきた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　うれしそうに\nアタマを　すりつけてきた！",
+      "events": [
+        {
+          "command_offset": "0xa79a6c",
+          "pointer_offset": "0x00A79A70",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 nuzzled you happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a79bb0",
+      "master_id": "jp_00a79bb0",
+      "chapter": "pet_names",
+      "offset": "0x00A79BB0",
+      "end_exclusive": "0xa79be1",
+      "source_hex": "8da193fa82a982e7814024703282aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p2が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa79a64",
+          "pointer_offset": "0x00A79A68",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a79be4",
+      "master_id": "jp_00a79be4",
+      "chapter": "pet_names",
+      "offset": "0x00A79BE4",
+      "end_exclusive": "0xa79c18",
+      "source_hex": "247482cd814082bb82cc836c835282c90a24703282c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc836c835282c9",
+          "text": "は　そのネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　そのネコに\n$p2という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa79a5c",
+          "pointer_offset": "0x00A79A60",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the cat $p2!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a7b790",
+      "master_id": "jp_00a7b790",
+      "chapter": "pet_names",
+      "offset": "0x00A7B790",
+      "end_exclusive": "0xa7b7b5",
+      "source_hex": "24703282cd8140247482cc0a8359837b839382c9814082b682e182ea82c482ab82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140",
+          "text": "は　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc",
+          "text": "の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8359837b839382c9814082b682e182ea82c482ab82bd8142",
+          "text": "ズボンに　じゃれてきた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　$tの\nズボンに　じゃれてきた。",
+      "events": [
+        {
+          "command_offset": "0xa7b780",
+          "pointer_offset": "0x00A7B784",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 playfully pawed at $t's pants.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00a7b7b8",
+      "master_id": "jp_00a7b7b8",
+      "chapter": "pet_names",
+      "offset": "0x00A7B7B8",
+      "end_exclusive": "0xa7b7ce",
+      "source_hex": "247032817582c982e182f1814082c982e182f1814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582c982e182f1814082c982e182f18142",
+          "text": "「にゃん　にゃん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2「にゃん　にゃん。",
+      "events": [
+        {
+          "command_offset": "0xa7b778",
+          "pointer_offset": "0x00A7B77C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "$p2: \"Meow, meow.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a7b7fc",
+      "master_id": "jp_00a7b7fc",
+      "chapter": "pet_names",
+      "offset": "0x00A7B7FC",
+      "end_exclusive": "0xa7b82b",
+      "source_hex": "24703282cd814082a482ea82b582bb82a482c90a8341835e837d82f0814082b782e882c282af82c482ab82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082a482ea82b582bb82a482c9",
+          "text": "は　うれしそうに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8341835e837d82f0814082b782e882c282af82c482ab82bd8149",
+          "text": "アタマを　すりつけてきた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$p2は　うれしそうに\nアタマを　すりつけてきた！",
+      "events": [
+        {
+          "command_offset": "0xa7b6e8",
+          "pointer_offset": "0x00A7B6EC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 nuzzled you happily!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": []
+    },
+    {
+      "id": "completion.00a7b82c",
+      "master_id": "jp_00a7b82c",
+      "chapter": "pet_names",
+      "offset": "0x00A7B82C",
+      "end_exclusive": "0xa7b85d",
+      "source_hex": "8da193fa82a982e7814024703282aa0a8367838b836c835288ea89c682cc814083798362836782c982c882c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da193fa82a982e78140",
+          "text": "今日から　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa",
+          "text": "が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835288ea89c682cc814083798362836782c982c882c182bd8142",
+          "text": "トルネコ一家の　ペットになった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今日から　$p2が\nトルネコ一家の　ペットになった。",
+      "events": [
+        {
+          "command_offset": "0xa7b6e0",
+          "pointer_offset": "0x00A7B6E4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$p2 has joined Torneko's family as a pet.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.00a7b860",
+      "master_id": "jp_00a7b860",
+      "chapter": "pet_names",
+      "offset": "0x00A7B860",
+      "end_exclusive": "0xa7b894",
+      "source_hex": "247482cd814082bb82cc836c835282c90a24703282c682a282a40a96bc914f82f082c282af82e982b182c682c982b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814082bb82cc836c835282c9",
+          "text": "は　そのネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "247032",
+          "text": "$p2",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682a282a4",
+          "text": "という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f082c282af82e982b182c682c982b582bd8149",
+          "text": "名前をつけることにした！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　そのネコに\n$p2という\n名前をつけることにした！",
+      "events": [
+        {
+          "command_offset": "0xa7b6d8",
+          "pointer_offset": "0x00A7B6DC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided to name the cat $p2!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA pet scene. Preserve $p1/$p2 and $t exactly. Native pet names occupy seven 16-bit compact-ID variables and convert through type-zero lookup. Layout reserves 84px for each pet substitution, including existing Japanese names. Identical cat messages in the five house variants share this independent wording.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00abaad4",
+      "master_id": "jp_00abaad4",
+      "chapter": "tree_password",
+      "offset": "0x00ABAAD4",
+      "end_exclusive": "0xabab23",
+      "source_hex": "8352838d83628373817591e582ab82c896d882cc814093fc82e88cfb82f081408a4a82ad8ef495b682cd0a098371838983508388836e8343838c0a0982be82c182bd8352838d82a981638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8352838d83628373817591e582ab82c896d882cc814093fc82e88cfb82f081408a4a82ad8ef495b682cd",
+          "text": "コロッピ「大きな木の　入り口を　開く呪文は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8371838983508388836e8343838c",
+          "text": "ヒラケヨハイレ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82be82c182bd8352838d82a9816381638142",
+          "text": "だったコロか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "コロッピ「大きな木の　入り口を　開く呪文は\n<TAB>ヒラケヨハイレ\n<TAB>だったコロか……。",
+      "events": [
+        {
+          "command_offset": "0xabaa68",
+          "pointer_offset": "0x00ABAA6C",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Koroppi: \"The spell to open the big tree's entrance was LETMEIN, koro...\"",
+      "display": null,
+      "notes": "Independent project localization of ヒラケヨハイレ as the seven uppercase letters LETMEIN. Both spoken hints and the native opcode-31 comparison keyword change together. Original case-sensitive comparison, cancellation, result codes, limit and branch metadata remain unchanged. This is not an official shared-series spell name.",
+      "references": [
+        "lore.tree_password",
+        "character.koroppi"
+      ]
+    },
+    {
+      "id": "completion.00bf7a00",
+      "master_id": "jp_00bf7a00",
+      "chapter": "tree_password",
+      "offset": "0x00BF7A00",
+      "end_exclusive": "0xbf7a13",
+      "source_hex": "81678371838983508388836e8343838c816800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81678371838983508388836e8343838c8168",
+          "text": "“ヒラケヨハイレ”",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "“ヒラケヨハイレ”",
+      "events": [
+        {
+          "command_offset": "0xbf78fc",
+          "pointer_offset": "0x00BF7900",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        },
+        {
+          "command_offset": "0xbf7924",
+          "pointer_offset": "0x00BF7928",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "'LETMEIN'",
+      "display": null,
+      "notes": "Independent project localization of ヒラケヨハイレ as the seven uppercase letters LETMEIN. Both spoken hints and the native opcode-31 comparison keyword change together. Original case-sensitive comparison, cancellation, result codes, limit and branch metadata remain unchanged. This is not an official shared-series spell name.",
+      "references": [
+        "lore.tree_password"
+      ]
+    },
+    {
+      "id": "completion.00c15394",
+      "master_id": "jp_00c15394",
+      "chapter": "tree_password",
+      "offset": "0x00C15394",
+      "end_exclusive": "0xc153a3",
+      "source_hex": "8371838983508388836e8343838c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8371838983508388836e8343838c",
+          "text": "ヒラケヨハイレ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ヒラケヨハイレ",
+      "events": [
+        {
+          "command_offset": "0xc1528c",
+          "pointer_offset": "0x00C15290",
+          "command_word": "0x00000731",
+          "opcode": 49
+        }
+      ],
+      "reuse": null,
+      "layout": "keyword",
+      "english": "LETMEIN",
+      "display": null,
+      "notes": "Independent project localization of ヒラケヨハイレ as the seven uppercase letters LETMEIN. Both spoken hints and the native opcode-31 comparison keyword change together. Original case-sensitive comparison, cancellation, result codes, limit and branch metadata remain unchanged. This is not an official shared-series spell name.",
+      "references": [
+        "lore.tree_password"
+      ]
+    }
+  ]
+}

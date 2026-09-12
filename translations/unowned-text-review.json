@@ -1,0 +1,1564 @@
+{
+  "schema": 1,
+  "source_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "scope": "Language review only: 30 independent drafts and one unresolved word across 31 ordinary inventory sources. Not part of the insertion catalogs or the 8422-source combined ROM. Verified pointer ownership remains empty; unclassified-resource accounting stays separate.",
+  "entries": [
+    {
+      "id": "unowned-review.001b3f2d",
+      "master_id": "jp_001b3f2d",
+      "offset": "0x1b3f2d",
+      "source_end_exclusive": "0x1b3f32",
+      "source_hex": "fda3fc6000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fda3fc60",
+          "text": "問題",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "問題",
+      "english": "Puzzle",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b4495",
+      "master_id": "jp_001b4495",
+      "offset": "0x1b4495",
+      "source_end_exclusive": "0x1b449d",
+      "source_hex": "bdf8ddb8faa9b200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8dd",
+          "text": "ご",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8",
+          "text": "く",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "faa9",
+          "text": "軽",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "すごく軽い",
+      "english": "Very light",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b449d",
+      "master_id": "jp_001b449d",
+      "offset": "0x1b449d",
+      "source_end_exclusive": "0x1b44a1",
+      "source_hex": "faa9b200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "faa9",
+          "text": "軽",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "軽い",
+      "english": "Light",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b44a1",
+      "master_id": "jp_001b44a1",
+      "offset": "0x1b44a1",
+      "source_end_exclusive": "0x1b44a5",
+      "source_hex": "ccc2b300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "ccc2b3",
+          "text": "ふつう",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ふつう",
+      "english": "Normal",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b44a5",
+      "master_id": "jp_001b44a5",
+      "offset": "0x1b44a5",
+      "source_end_exclusive": "0x1b44ab",
+      "source_hex": "d4d4fb8bb200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "d4d4",
+          "text": "やや",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb8b",
+          "text": "重",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やや重い",
+      "english": "Slightly heavy",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b44ab",
+      "master_id": "jp_001b44ab",
+      "offset": "0x1b44ab",
+      "source_end_exclusive": "0x1b44af",
+      "source_hex": "fb8bb200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb8b",
+          "text": "重",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "重い",
+      "english": "Heavy",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b44af",
+      "master_id": "jp_001b44af",
+      "offset": "0x1b44af",
+      "source_end_exclusive": "0x1b44b7",
+      "source_hex": "bdf8ddb8fb8bb200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8dd",
+          "text": "ご",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8",
+          "text": "く",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb8b",
+          "text": "重",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b2",
+          "text": "い",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "すごく重い",
+      "english": "Very heavy",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b4563",
+      "master_id": "jp_001b4563",
+      "offset": "0x1b4563",
+      "source_end_exclusive": "0x1b4579",
+      "source_hex": "2474ca20c2b6cfdac3b2c3fcc8b9c5b6f8ecc0f88200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca20c2b6cfdac3b2c3",
+          "text": "は つかまれていて",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcc8",
+          "text": "動",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b9c5b6",
+          "text": "けなか",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8ec",
+          "text": "っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c0",
+          "text": "た",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは つかまれていて動けなかった。",
+      "english": "$t was held in place and could not move.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b530a",
+      "master_id": "jp_001b530a",
+      "offset": "0x1b530a",
+      "source_end_exclusive": "0x1b531a",
+      "source_hex": "2474ca20fa35b6d7fb90c3b7c0f88200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca20",
+          "text": "は ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa35",
+          "text": "殻",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b6d7",
+          "text": "から",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb90",
+          "text": "出",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c3b7c0",
+          "text": "てきた",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは 殻から出てきた。",
+      "english": "$t came out of the shell.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b551c",
+      "master_id": "jp_001b551c",
+      "offset": "0x1b551c",
+      "source_end_exclusive": "0x1b5532",
+      "source_hex": "246930ca20f8a0fa4cc6fdccc1c3fb65dcdac0f88200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246930",
+          "text": "$i0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca20",
+          "text": "は ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8a0fa4c",
+          "text": "★間",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c6",
+          "text": "に",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fdcc",
+          "text": "落",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c1c3",
+          "text": "ちて",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb65",
+          "text": "失",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dcdac0",
+          "text": "われた",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$i0は ★間に落ちて失われた。",
+      "english": null,
+      "language_status": "word_unresolved",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Original font bitmap confirms an actual star, not a mislabeled kanji. Adjacent item-landing messages do not determine the missing meaning.",
+      "references": [],
+      "partial_english": "$i0 fell into [★間: unresolved] and was lost."
+    },
+    {
+      "id": "unowned-review.001b565d",
+      "master_id": "jp_001b565d",
+      "offset": "0x1b565d",
+      "source_end_exclusive": "0x1b566f",
+      "source_hex": "fbbfc9fad9ca20f9e6b8c6fbabb4c0f88200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbbf",
+          "text": "杖",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fad9",
+          "text": "光",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca20",
+          "text": "は ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f9e6",
+          "text": "遠",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b8c6",
+          "text": "くに",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbab",
+          "text": "消",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b4c0",
+          "text": "えた",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "杖の光は 遠くに消えた。",
+      "english": "The staff's light vanished into the distance.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Staff follows this project's established item-category wording.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b5f14",
+      "master_id": "jp_001b5f14",
+      "offset": "0x1b5f14",
+      "source_end_exclusive": "0x1b5f21",
+      "source_hex": "246d30cafcf6fcfabcc0f88700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "ca",
+          "text": "は",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fcf6fcfa",
+          "text": "爆発",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bcc0",
+          "text": "した",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f887",
+          "text": "！",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$m0は爆発した！",
+      "english": "$m0 exploded!",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b6b6e",
+      "master_id": "jp_001b6b6e",
+      "offset": "0x1b6b6e",
+      "source_end_exclusive": "0x1b6b84",
+      "source_hex": "fc3efd32c6d6f8ecc3246d31a6fd4cf9d1bcc0f88700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fc3efd32",
+          "text": "装備",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c6d6",
+          "text": "によ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8ec",
+          "text": "っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c3",
+          "text": "て",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d31",
+          "text": "$m1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "a6",
+          "text": "を",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fd4cf9d1",
+          "text": "封印",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bcc0",
+          "text": "した",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f887",
+          "text": "！",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "装備によって$m1を封印した！",
+      "english": "The equipment sealed $m1!",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b8a4a",
+      "master_id": "jp_001b8a4a",
+      "offset": "0x1b8a4a",
+      "source_end_exclusive": "0x1b8a64",
+      "source_hex": "faebb7fbffc9fe20c9fbb7c620c5f8e5b6fb90d7dac5b2f88200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "faeb",
+          "text": "行",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b7",
+          "text": "き",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbff",
+          "text": "先",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fe20",
+          "text": "壺",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fbb7",
+          "text": "上",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c620c5",
+          "text": "に な",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e5",
+          "text": "ぜ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b6",
+          "text": "か",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb90",
+          "text": "出",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "d7dac5b2",
+          "text": "られない",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "行き先の壺の上に なぜか出られない。",
+      "english": "For some reason, you cannot emerge at the destination pot.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.001b93ed",
+      "master_id": "jp_001b93ed",
+      "offset": "0x1b93ed",
+      "source_end_exclusive": "0x1b93ff",
+      "source_hex": "246930f8d520f987f963a6fa27bcc0f88700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246930",
+          "text": "$i0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8d5",
+          "text": "が",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f987f963",
+          "text": "ワナ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "a6",
+          "text": "を",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa27",
+          "text": "壊",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bcc0",
+          "text": "した",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f887",
+          "text": "！",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$i0が ワナを壊した！",
+      "english": "$i0 destroyed the trap!",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.00916be4",
+      "master_id": "jp_00916be4",
+      "offset": "0x916be4",
+      "source_end_exclusive": "0x916c0b",
+      "source_hex": "834383788393836783748389834f82f08e67977082b582bd8ff08c8f94bb92e883658358836700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834383788393836783748389834f82f08e67977082b582bd8ff08c8f94bb92e8836583588367",
+          "text": "イベントフラグを使用した条件判定テスト",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "イベントフラグを使用した条件判定テスト",
+      "english": "Testing conditions that use event flags.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CB02F0"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Startup pointer cache and native leaf getter 08060F08 exist, but no direct BL caller was found; display use remains unproved.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.00916c0c",
+      "master_id": "jp_00916c0c",
+      "offset": "0x916c0c",
+      "source_end_exclusive": "0x916c2c",
+      "source_hex": "8358834e838a8376836782c982e682e90a89ef986282cc836583588367928600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8358834e838a8376836782c982e682e9",
+          "text": "スクリプトによる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89ef986282cc8365835883679286",
+          "text": "会話のテスト中",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "スクリプトによる\n会話のテスト中",
+      "english": "Testing scripted dialogue.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CB02EC"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Startup pointer cache and native leaf getter 08060F08 exist, but no direct BL caller was found; display use remains unproved.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.00c782e4",
+      "master_id": "jp_00c782e4",
+      "offset": "0xc782e4",
+      "source_end_exclusive": "0xc782ff",
+      "source_hex": "96608caf82cc8f9182f092b282d782c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f9182f092b282d782c482a282dc82b781638163",
+          "text": "冒険の書を調べています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "冒険の書を調べています……",
+      "english": "Checking the Adventure Log...",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused.",
+      "references": []
+    },
+    {
+      "id": "unowned-review.00c7876c",
+      "master_id": "jp_00c7876c",
+      "offset": "0xc7876c",
+      "source_end_exclusive": "0xc787d7",
+      "source_hex": "835f839383578387839382c5937c82ea82bd8fea8d8782c982cd0a8351815b83808e6e82df82a982e7814082e282e892bc82b582c982c882c182c482b582dc82a40a5b836f838a8369837b83608383838c839383578382815b83685d82c5975682d182dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839382c5937c82ea82bd8fea8d8782c982cd",
+          "text": "ダンジョンで倒れた場合には",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8351815b83808e6e82df82a982e7814082e282e892bc82b582c982c882c182c482b582dc82a4",
+          "text": "ゲーム始めから　やり直しになってしまう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b83608383838c839383578382815b8368",
+          "text": "バリナボチャレンジモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c5975682d182dc82b782a98148",
+          "text": "で遊びますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ダンジョンで倒れた場合には\nゲーム始めから　やり直しになってしまう\n[バリナボチャレンジモード]で遊びますか？",
+      "english": "Play in [Barinabo Challenge mode]? If you fall in a dungeon, you must start the game over from the beginning.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Mode name follows the accepted frontend catalog. This draft preserves the warning rather than importing mechanics from another game.",
+      "references": [
+        "place.barinabo"
+      ]
+    },
+    {
+      "id": "unowned-review.00ce08c0",
+      "master_id": "jp_00ce08c0",
+      "offset": "0xce08c0",
+      "source_end_exclusive": "0xce08db",
+      "source_hex": "8381834383938381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381834383938381836a8385815b82c996df82e882dc82b78142",
+          "text": "メインメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "メインメニューに戻ります。",
+      "english": "Return to main menu.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CE2498"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf29c",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00ce08dc",
+      "master_id": "jp_00ce08dc",
+      "offset": "0xce08dc",
+      "source_end_exclusive": "0xce08ef",
+      "source_hex": "8272826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8272826482f082c882e782b582dc82b78142",
+          "text": "ＳＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＳＥをならします。",
+      "english": "Play sound effects.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CE2494"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2b8",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00ce08f0",
+      "master_id": "jp_00ce08f0",
+      "offset": "0xce08f0",
+      "source_end_exclusive": "0xce0903",
+      "source_hex": "826c826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "826c826482f082c882e782b582dc82b78142",
+          "text": "ＭＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＭＥをならします。",
+      "english": "Play music effects.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CE2490"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2cc",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00ce0904",
+      "master_id": "jp_00ce0904",
+      "offset": "0xce0904",
+      "source_end_exclusive": "0xce0919",
+      "source_hex": "82618266826c82f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82618266826c82f082c882e782b582dc82b78142",
+          "text": "ＢＧＭをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＢＧＭをならします。",
+      "english": "Play background music.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CE248C"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2e0",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00cedc14",
+      "master_id": "jp_00cedc14",
+      "offset": "0xcedc14",
+      "source_end_exclusive": "0xcedc2f",
+      "source_hex": "8381834383938381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381834383938381836a8385815b82c996df82e882dc82b78142",
+          "text": "メインメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "メインメニューに戻ります。",
+      "english": "Return to main menu.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CEF7AC"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf29c",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00cedc30",
+      "master_id": "jp_00cedc30",
+      "offset": "0xcedc30",
+      "source_end_exclusive": "0xcedc43",
+      "source_hex": "8272826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8272826482f082c882e782b582dc82b78142",
+          "text": "ＳＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＳＥをならします。",
+      "english": "Play sound effects.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CEF7A8"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2b8",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00cedc44",
+      "master_id": "jp_00cedc44",
+      "offset": "0xcedc44",
+      "source_end_exclusive": "0xcedc57",
+      "source_hex": "826c826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "826c826482f082c882e782b582dc82b78142",
+          "text": "ＭＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＭＥをならします。",
+      "english": "Play music effects.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CEF7A4"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2cc",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00cedc58",
+      "master_id": "jp_00cedc58",
+      "offset": "0xcedc58",
+      "source_end_exclusive": "0xcedc6d",
+      "source_hex": "82618266826c82f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82618266826c82f082c882e782b582dc82b78142",
+          "text": "ＢＧＭをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＢＧＭをならします。",
+      "english": "Play background music.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [
+        "0x00CEF7A0"
+      ],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/remaining-display.json",
+        "id": "remaining-display.00caf2e0",
+        "match": "exact original Japanese"
+      }
+    },
+    {
+      "id": "unowned-review.00ce2144",
+      "master_id": "jp_00ce2144",
+      "offset": "0xce2144",
+      "source_end_exclusive": "0xce21d6",
+      "source_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c50a247882b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f181420a0a8196817582a282e782c882a282e082cc82f0814082b782c482bd82e80a2478948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f00a247882a882b782b782df82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c5",
+          "text": "＊「もう倉庫がいっぱいで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f18142",
+          "text": "これ以上　入れることはできません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a282e782c882a282e082cc82f0814082b782c482bd82e8",
+          "text": "＊「いらないものを　すてたり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f0",
+          "text": "売ったりして　減らしておくことを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882b782b782df82b582dc82b78142",
+          "text": "おすすめします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「もう倉庫がいっぱいで\n$xこれ以上　入れることはできません。\n\n＊「いらないものを　すてたり\n$x売ったりして　減らしておくことを\n$xおすすめします。",
+      "english": "The warehouse is full. We cannot store any more items.\nTry discarding or selling unwanted items to make room.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/world-completion.json",
+        "id": "world-completion.00cb04e8",
+        "match": "original Japanese ignoring paragraph breaks"
+      }
+    },
+    {
+      "id": "unowned-review.00ce21d8",
+      "master_id": "jp_00ce21d8",
+      "offset": "0xce21d8",
+      "source_end_exclusive": "0xce21f5",
+      "source_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd8142",
+          "text": "＊「ありがとうございました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ありがとうございました。",
+      "english": "Thank you!",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/world-completion.json",
+        "id": "world-completion.00cb057c",
+        "match": "original Japanese ignoring paragraph breaks"
+      }
+    },
+    {
+      "id": "unowned-review.00cef45c",
+      "master_id": "jp_00cef45c",
+      "offset": "0xcef45c",
+      "source_end_exclusive": "0xcef4ed",
+      "source_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c50a247882b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f181420a8196817582a282e782c882a282e082cc82f0814082b782c482bd82e80a2478948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f00a247882a882b782b782df82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c5",
+          "text": "＊「もう倉庫がいっぱいで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f18142",
+          "text": "これ以上　入れることはできません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a282e782c882a282e082cc82f0814082b782c482bd82e8",
+          "text": "＊「いらないものを　すてたり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f0",
+          "text": "売ったりして　減らしておくことを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882b782b782df82b582dc82b78142",
+          "text": "おすすめします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「もう倉庫がいっぱいで\n$xこれ以上　入れることはできません。\n＊「いらないものを　すてたり\n$x売ったりして　減らしておくことを\n$xおすすめします。",
+      "english": "The warehouse is full. We cannot store any more items.\nTry discarding or selling unwanted items to make room.",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/world-completion.json",
+        "id": "world-completion.00cb04e8",
+        "match": "original Japanese ignoring paragraph breaks"
+      }
+    },
+    {
+      "id": "unowned-review.00cef4f0",
+      "master_id": "jp_00cef4f0",
+      "offset": "0xcef4f0",
+      "source_end_exclusive": "0xcef50d",
+      "source_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd8142",
+          "text": "＊「ありがとうございました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ありがとうございました。",
+      "english": "Thank you!",
+      "language_status": "draft_needs_reader_context",
+      "insertion_status": "not_inserted_reader_unconfirmed",
+      "verified_pointer_owners": [],
+      "unverified_pointer_candidates": [],
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Reuses our accepted independent wording for matching Japanese; does not reuse fan-patch English.",
+      "references": [],
+      "existing_independent_translation": {
+        "catalog": "translations/world-completion.json",
+        "id": "world-completion.00cb057c",
+        "match": "original Japanese ignoring paragraph breaks"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5180 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "dungeon-event.000a3fc4",
+      "family": "menu",
+      "offset": "0x000A3FC4",
+      "source_end_exclusive": "0xa3fc9",
+      "japanese": "作戦",
+      "source_hex": "8dec90ed00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8dec90ed",
+          "text": "作戦",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a3fc4",
+      "pointer_owners": [
+        {
+          "offset": "0x000A3FAC",
+          "evidence": "typed_menu_12_bytes",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Tactics",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "core.tactics"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a3fcc",
+      "family": "menu",
+      "offset": "0x000A3FCC",
+      "source_end_exclusive": "0xa3fd6",
+      "japanese": "*再開する",
+      "source_hex": "2a8dc48a4a82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8dc48a4a82b782e9",
+          "text": "再開する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a3fcc",
+      "pointer_owners": [
+        {
+          "offset": "0x000A3FA0",
+          "evidence": "typed_menu_12_bytes",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "*Resume",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a3fd8",
+      "family": "message",
+      "offset": "0x000A3FD8",
+      "source_end_exclusive": "0xa3ff5",
+      "japanese": "闘技場を一時停止しています。",
+      "source_hex": "93ac8b5a8fea82f088ea8e9e92e28e7e82b582c482a282dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "93ac8b5a8fea82f088ea8e9e92e28e7e82b582c482a282dc82b78142",
+          "text": "闘技場を一時停止しています。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a3fd8",
+      "pointer_owners": [
+        {
+          "offset": "0x000085A0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008552"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "The arena battle is paused.",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a400c",
+      "family": "message",
+      "offset": "0x000A400C",
+      "source_end_exclusive": "0xa4088",
+      "japanese": "まだ勝負の途中ですが　見るのをやめますか？\n途中で見るのをやめた場合\n勝負は　引き分けになります。\nそれでも　よろしいですか？",
+      "source_hex": "82dc82be8f9f958982cc9372928682c582b782aa81408ca982e982cc82f082e282df82dc82b782a981480a9372928682c58ca982e982cc82f082e282df82bd8fea8d870a8f9f958982cd814088f882ab95aa82af82c982c882e882dc82b781420a82bb82ea82c582e0814082e682eb82b582a282c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be8f9f958982cc9372928682c582b782aa81408ca982e982cc82f082e282df82dc82b782a98148",
+          "text": "まだ勝負の途中ですが　見るのをやめますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9372928682c58ca982e982cc82f082e282df82bd8fea8d87",
+          "text": "途中で見るのをやめた場合",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f958982cd814088f882ab95aa82af82c982c882e882dc82b78142",
+          "text": "勝負は　引き分けになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82c582e0814082e682eb82b582a282c582b782a98148",
+          "text": "それでも　よろしいですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a400c",
+      "pointer_owners": [
+        {
+          "offset": "0x00CAFEB4",
+          "evidence": "initialized_arena_abort_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Stop watching before the battle is over?\nLeaving now will make the battle a draw.\nAre you sure?",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4088",
+      "family": "message",
+      "offset": "0x000A4088",
+      "source_end_exclusive": "0xa4108",
+      "japanese": "まだ勝負の途中ですが　見るのをやめますか？\n途中で見るのをやめた場合\n勝負には　負けたことになります。\nそれでも　よろしいですか？",
+      "source_hex": "82dc82be8f9f958982cc9372928682c582b782aa81408ca982e982cc82f082e282df82dc82b782a981480a9372928682c58ca982e982cc82f082e282df82bd8fea8d870a8f9f958982c982cd8140958982af82bd82b182c682c982c882e882dc82b781420a82bb82ea82c582e0814082e682eb82b582a282c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be8f9f958982cc9372928682c582b782aa81408ca982e982cc82f082e282df82dc82b782a98148",
+          "text": "まだ勝負の途中ですが　見るのをやめますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9372928682c58ca982e982cc82f082e282df82bd8fea8d87",
+          "text": "途中で見るのをやめた場合",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f958982c982cd8140958982af82bd82b182c682c982c882e882dc82b78142",
+          "text": "勝負には　負けたことになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82c582e0814082e682eb82b582a282c582b782a98148",
+          "text": "それでも　よろしいですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4088",
+      "pointer_owners": [
+        {
+          "offset": "0x00CAFEB0",
+          "evidence": "initialized_arena_abort_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Stop watching before the battle is over?\nLeaving now will count as a defeat.\nAre you sure?",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4108",
+      "family": "message",
+      "offset": "0x000A4108",
+      "source_end_exclusive": "0xa420d",
+      "japanese": "……　わたしの　めいそうを\nジャマする者は　誰だ……。\n\nあの　うっとおしい　大地の神も\nわたしのことを　完全には\n封印できなかった……。\nこのうえ　虫ケラのような人間に\nなにが　できると言うのだ？\n\nおそれを知らぬ　おろかな人間よ。\nわたしの姿を　よく見るがいい……！",
+      "source_hex": "81638163814082ed82bd82b582cc814082df82a282bb82a482f00a83578383837d82b782e98ed282cd8140924e82be8163816381420a0a82a082cc814082a482c182c682a882b582a2814091e5926e82cc905f82e00a82ed82bd82b582cc82b182c682f081408aae915382c982cd0a959588f382c582ab82c882a982c182bd8163816381420a82b182cc82a482a68140928e8350838982cc82e682a482c8906c8ad482c90a82c882c982aa814082c582ab82e982c68cbe82a482cc82be81480a0a82a882bb82ea82f0926d82e782ca814082a882eb82a982c8906c8ad482e681420a82ed82bd82b582cc8e7082f0814082e682ad8ca982e982aa82a282a281638163814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81638163814082ed82bd82b582cc814082df82a282bb82a482f0",
+          "text": "……　わたしの　めいそうを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83578383837d82b782e98ed282cd8140924e82be816381638142",
+          "text": "ジャマする者は　誰だ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082cc814082a482c182c682a882b582a2814091e5926e82cc905f82e0",
+          "text": "あの　うっとおしい　大地の神も",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc82b182c682f081408aae915382c982cd",
+          "text": "わたしのことを　完全には",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382c582ab82c882a982c182bd816381638142",
+          "text": "封印できなかった……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc82a482a68140928e8350838982cc82e682a482c8906c8ad482c9",
+          "text": "このうえ　虫ケラのような人間に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982aa814082c582ab82e982c68cbe82a482cc82be8148",
+          "text": "なにが　できると言うのだ？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882bb82ea82f0926d82e782ca814082a882eb82a982c8906c8ad482e68142",
+          "text": "おそれを知らぬ　おろかな人間よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc8e7082f0814082e682ad8ca982e982aa82a282a2816381638149",
+          "text": "わたしの姿を　よく見るがいい……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4108",
+      "pointer_owners": [
+        {
+          "offset": "0x0000869C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008684"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "...Who dares disturb my meditation...?\nEven that meddlesome Earth God could not seal me away completely...\nWhat can an insignificant human hope to do?\nFoolish mortal, ignorant of fear... Behold my true form!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "lore.earth_god"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4210",
+      "family": "message",
+      "offset": "0x000A4210",
+      "source_end_exclusive": "0xa42f6",
+      "japanese": "われこそは　この地の　真の救世主\nヘルジャスティス。\n\nそなたが　のぞむならば\nわが闇の世界へ　送ってやろう。\n\nそして　この大地もすべて\nわたしのものになるのだ。\n\n人間どもの絶望とは　なんとも\n心地よいものだな。\nさあ　来るがよい……。",
+      "source_hex": "82ed82ea82b182bb82cd814082b182cc926e82cc8140905e82cc8b7e90a28ee50a8377838b83578383835883658342835881420a0a82bb82c882bd82aa814082cc82bc82de82c882e782ce0a82ed82aa88c582cc90a28a4582d68140919782c182c482e282eb82a481420a0a82bb82b582c4814082b182cc91e5926e82e082b782d782c40a82ed82bd82b582cc82e082cc82c982c882e982cc82be81420a0a906c8ad482c782e082cc90e2965d82c682cd814082c882f182c682e00a9053926e82e682a282e082cc82be82c881420a82b382a08140978882e982aa82e682a281638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ed82ea82b182bb82cd814082b182cc926e82cc8140905e82cc8b7e90a28ee5",
+          "text": "われこそは　この地の　真の救世主",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8377838b8357838383588365834283588142",
+          "text": "ヘルジャスティス。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82aa814082cc82bc82de82c882e782ce",
+          "text": "そなたが　のぞむならば",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82aa88c582cc90a28a4582d68140919782c182c482e282eb82a48142",
+          "text": "わが闇の世界へ　送ってやろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82b582c4814082b182cc91e5926e82e082b782d782c4",
+          "text": "そして　この大地もすべて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc82e082cc82c982c882e982cc82be8142",
+          "text": "わたしのものになるのだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "906c8ad482c782e082cc90e2965d82c682cd814082c882f182c682e0",
+          "text": "人間どもの絶望とは　なんとも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9053926e82e682a282e082cc82be82c88142",
+          "text": "心地よいものだな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382a08140978882e982aa82e682a2816381638142",
+          "text": "さあ　来るがよい……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4210",
+      "pointer_owners": [
+        {
+          "offset": "0x000086A0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008686"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "I am Hell Justice, the true saviour of this land.\nIf you wish, I shall send you to my world of darkness.\nThen all this land shall be mine.\nAh, the despair of mortals... How delightful it is. Come, then...",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_hell_justice"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a42f8",
+      "family": "message",
+      "offset": "0x000A42F8",
+      "source_end_exclusive": "0xa43c1",
+      "japanese": "……　わたしの　めいそうを\nさまたげる者が　ふたたび\nやって来たのか……。\nわれこそは　この地の　真の救世主\nヘルジャスティス。\n\nそなたが　いかに　小さな存在であるか\nここで　わたしが　教えてやろう……。\n",
+      "source_hex": "81638163814082ed82bd82b582cc814082df82a282bb82a482f00a82b382dc82bd82b082e98ed282aa814082d382bd82bd82d10a82e282c182c4978882bd82cc82a98163816381420a82ed82ea82b182bb82cd814082b182cc926e82cc8140905e82cc8b7e90a28ee50a8377838b83578383835883658342835881420a0a82bb82c882bd82aa814082a282a982c981408fac82b382c891b68ddd82c582a082e982a90a82b182b182c5814082ed82bd82b582aa81408bb382a682c482e282eb82a48163816381420a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81638163814082ed82bd82b582cc814082df82a282bb82a482f0",
+          "text": "……　わたしの　めいそうを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382dc82bd82b082e98ed282aa814082d382bd82bd82d1",
+          "text": "さまたげる者が　ふたたび",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e282c182c4978882bd82cc82a9816381638142",
+          "text": "やって来たのか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82ea82b182bb82cd814082b182cc926e82cc8140905e82cc8b7e90a28ee5",
+          "text": "われこそは　この地の　真の救世主",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8377838b8357838383588365834283588142",
+          "text": "ヘルジャスティス。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82aa814082a282a982c981408fac82b382c891b68ddd82c582a082e982a9",
+          "text": "そなたが　いかに　小さな存在であるか",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182b182c5814082ed82bd82b582aa81408bb382a682c482e282eb82a4816381638142",
+          "text": "ここで　わたしが　教えてやろう……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a42f8",
+      "pointer_owners": [
+        {
+          "offset": "0x00008680",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008678"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "...Has someone come to disturb my meditation once more...?\nI am Hell Justice, the true saviour of this land.\nNow I shall teach you how insignificant you really are...",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_hell_justice"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a43c4",
+      "family": "message",
+      "offset": "0x000A43C4",
+      "source_end_exclusive": "0xa443d",
+      "japanese": "……　おろかな　人間よ\nなぜ　身のほどを　知らぬのか……。\n\nふたたび　わたしの前に　その\nみにくい姿を　あらわすとは……。",
+      "source_hex": "81638163814082a882eb82a982c88140906c8ad482e60a82c882ba8140906782cc82d982c782f08140926d82e782ca82cc82a98163816381420a0a82d382bd82bd82d1814082ed82bd82b582cc914f82c9814082bb82cc0a82dd82c982ad82a28e7082f0814082a082e782ed82b782c682cd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81638163814082a882eb82a982c88140906c8ad482e6",
+          "text": "……　おろかな　人間よ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882ba8140906782cc82d982c782f08140926d82e782ca82cc82a9816381638142",
+          "text": "なぜ　身のほどを　知らぬのか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d382bd82bd82d1814082ed82bd82b582cc914f82c9814082bb82cc",
+          "text": "ふたたび　わたしの前に　その",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dd82c982ad82a28e7082f0814082a082e782ed82b782c682cd816381638142",
+          "text": "みにくい姿を　あらわすとは……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a43c4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008664",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008658"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "...Foolish mortal. Why do you not know your place...?\nTo show your wretched face before me once again...",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4440",
+      "family": "message",
+      "offset": "0x000A4440",
+      "source_end_exclusive": "0xa44f9",
+      "japanese": "われこそは　真の正義を　語る者\nヘルジャスティス。\n\nそなたは……　ほほう　そうか。\nわたしの　ヨロイをうばった者の\n血を引く　息子だな。\nよろしい。　そなたも\n父と共に　飾ってやろう……。\n",
+      "source_hex": "82ed82ea82b182bb82cd8140905e82cc90b38b6082f081408cea82e98ed20a8377838b83578383835883658342835881420a0a82bb82c882bd82cd81638163814082d982d982a4814082bb82a482a981420a82ed82bd82b582cc81408388838d834382f082a482ce82c182bd8ed282cc0a8c8c82f088f882ad814091a78e7182be82c881420a82e682eb82b582a28142814082bb82c882bd82e00a958382c68ba482c981408ffc82c182c482e282eb82a48163816381420a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ed82ea82b182bb82cd8140905e82cc90b38b6082f081408cea82e98ed2",
+          "text": "われこそは　真の正義を　語る者",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8377838b8357838383588365834283588142",
+          "text": "ヘルジャスティス。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cd81638163814082d982d982a4814082bb82a482a98142",
+          "text": "そなたは……　ほほう　そうか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc81408388838d834382f082a482ce82c182bd8ed282cc",
+          "text": "わたしの　ヨロイをうばった者の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8c8c82f088f882ad814091a78e7182be82c88142",
+          "text": "血を引く　息子だな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a28142814082bb82c882bd82e0",
+          "text": "よろしい。　そなたも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "958382c68ba482c981408ffc82c182c482e282eb82a4816381638142",
+          "text": "父と共に　飾ってやろう……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4440",
+      "pointer_owners": [
+        {
+          "offset": "0x00008668",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x800865a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "I am Hell Justice, the voice of true justice.\nYou are... Ah, I see. The son of the man who stole my armour.\nVery well. I shall put you on display beside your father...",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_hell_justice"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a44fc",
+      "family": "message",
+      "offset": "0x000A44FC",
+      "source_end_exclusive": "0xa45f2",
+      "japanese": "……　おろかな　人間よ\nなぜ　身のほどを　知らぬのか……。\n\nふたたび　わたしの前に　その\nみにくい姿を　あらわすとは……。\n\nわれこそは　真の正義を　語る者\nヘルジャスティス。\n\nそなたも　ここで　わたしの\nコレクションとなることを\nよろこぶがいい……。",
+      "source_hex": "81638163814082a882eb82a982c88140906c8ad482e60a82c882ba8140906782cc82d982c782f08140926d82e782ca82cc82a98163816381420a0a82d382bd82bd82d1814082ed82bd82b582cc914f82c9814082bb82cc0a82dd82c982ad82a28e7082f0814082a082e782ed82b782c682cd8163816381420a0a82ed82ea82b182bb82cd8140905e82cc90b38b6082f081408cea82e98ed20a8377838b83578383835883658342835881420a0a82bb82c882bd82e0814082b182b182c5814082ed82bd82b582cc0a8352838c834e83568387839382c682c882e982b182c682f00a82e682eb82b182d482aa82a282a281638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81638163814082a882eb82a982c88140906c8ad482e6",
+          "text": "……　おろかな　人間よ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882ba8140906782cc82d982c782f08140926d82e782ca82cc82a9816381638142",
+          "text": "なぜ　身のほどを　知らぬのか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d382bd82bd82d1814082ed82bd82b582cc914f82c9814082bb82cc",
+          "text": "ふたたび　わたしの前に　その",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dd82c982ad82a28e7082f0814082a082e782ed82b782c682cd816381638142",
+          "text": "みにくい姿を　あらわすとは……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82ea82b182bb82cd8140905e82cc90b38b6082f081408cea82e98ed2",
+          "text": "われこそは　真の正義を　語る者",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8377838b8357838383588365834283588142",
+          "text": "ヘルジャスティス。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82e0814082b182b182c5814082ed82bd82b582cc",
+          "text": "そなたも　ここで　わたしの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8352838c834e83568387839382c682c882e982b182c682f0",
+          "text": "コレクションとなることを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b182d482aa82a282a2816381638142",
+          "text": "よろこぶがいい……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a44fc",
+      "pointer_owners": [
+        {
+          "offset": "0x00008654",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008632"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "...Foolish mortal. Why do you not know your place...?\nTo show your wretched face before me once again...\nI am Hell Justice, the voice of true justice.\nRejoice, for you too shall become part of my collection...",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_hell_justice"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a45f4",
+      "family": "message",
+      "offset": "0x000A45F4",
+      "source_end_exclusive": "0xa4620",
+      "japanese": "$tは　封印のバリアをとく\nボタンを　押した！",
+      "source_hex": "247482cd8140959588f382cc836f838a834182f082c682ad0a837b835e839382f08140899f82b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140959588f382cc836f838a834182f082c682ad",
+          "text": "は　封印のバリアをとく",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837b835e839382f08140899f82b582bd8149",
+          "text": "ボタンを　押した！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a45f4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B40",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008aba"
+          ]
+        },
+        {
+          "offset": "0x00008C6C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008be2"
+          ]
+        },
+        {
+          "offset": "0x00008D8C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008d0e"
+          ]
+        },
+        {
+          "offset": "0x00008EB0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008e26"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "$t pressed the button to release the sealing barrier!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4620",
+      "family": "message",
+      "offset": "0x000A4620",
+      "source_end_exclusive": "0xa4683",
+      "japanese": "＊「ひょひょ～い！\n$xとけたぞ！　バリアが　とけた！\n\n＊「母ちゃん！　帰れるぞ！\n$x村に　帰れるぞ！",
+      "source_hex": "8196817582d082e582d082e5816082a281490a247882c682af82bd82bc81498140836f838a834182aa814082c682af82bd81490a0a8196817595ea82bf82e182f1814981408b4182ea82e982bc81490a247891ba82c981408b4182ea82e982bc814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d082e582d082e5816082a28149",
+          "text": "＊「ひょひょ～い！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682af82bd82bc81498140836f838a834182aa814082c682af82bd8149",
+          "text": "とけたぞ！　バリアが　とけた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817595ea82bf82e182f1814981408b4182ea82e982bc8149",
+          "text": "＊「母ちゃん！　帰れるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82c981408b4182ea82e982bc8149",
+          "text": "村に　帰れるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4620",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B48",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008aec"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Whoopee! It is gone! The barrier is gone!\"\n\"Mum! We can go home! Back to the village!\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4684",
+      "family": "message",
+      "offset": "0x000A4684",
+      "source_end_exclusive": "0xa46b8",
+      "japanese": "＊「まあまあ　こんなことが\n$x本当に　あるとはねえ。",
+      "source_hex": "8196817582dc82a082dc82a0814082b182f182c882b182c682aa0a2478967b939682c9814082a082e982c682cd82cb82a6814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82a082dc82a0814082b182f182c882b182c682aa",
+          "text": "＊「まあまあ　こんなことが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "967b939682c9814082a082e982c682cd82cb82a68142",
+          "text": "本当に　あるとはねえ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4684",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B4C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b04"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"My, my! To think this would really happen!\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a46b8",
+      "family": "message",
+      "offset": "0x000A46B8",
+      "source_end_exclusive": "0xa46f4",
+      "japanese": "＊「どなたか　存じませんが\n$x本当に　ありがとうございます。",
+      "source_hex": "8196817582c782c882bd82a9814091b682b682dc82b982f182aa0a2478967b939682c9814082a082e882aa82c682a482b282b482a282dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c782c882bd82a9814091b682b682dc82b982f182aa",
+          "text": "＊「どなたか　存じませんが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "967b939682c9814082a082e882aa82c682a482b282b482a282dc82b78142",
+          "text": "本当に　ありがとうございます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a46b8",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B50",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b24"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"I do not know who you are, but thank you so very much.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a46f4",
+      "family": "message",
+      "offset": "0x000A46F4",
+      "source_end_exclusive": "0xa475f",
+      "japanese": "＊「これで　私たちは　村へ　帰れますが\n$xあなたも　いったん　私たちと一緒に\n$x村へ　もどって　休みますか？",
+      "source_hex": "8196817582b182ea82c581408e8482bd82bf82cd814091ba82d681408b4182ea82dc82b782aa0a247882a082c882bd82e0814082a282c182bd82f181408e8482bd82bf82c688ea8f8f82c90a247891ba82d6814082e082c782c182c481408b7882dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182ea82c581408e8482bd82bf82cd814091ba82d681408b4182ea82dc82b782aa",
+          "text": "＊「これで　私たちは　村へ　帰れますが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c882bd82e0814082a282c182bd82f181408e8482bd82bf82c688ea8f8f82c9",
+          "text": "あなたも　いったん　私たちと一緒に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82d6814082e082c782c182c481408b7882dd82dc82b782a98148",
+          "text": "村へ　もどって　休みますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a46f4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B54",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b2c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Now we can return to the village. Would you like to come back with us and rest for a while?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4760",
+      "family": "message",
+      "offset": "0x000A4760",
+      "source_end_exclusive": "0xa47c3",
+      "japanese": "＊「では　村へ　お連れいたします。\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "8196817582c582cd814091ba82d6814082a8984182ea82a282bd82b582dc82b781420a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814091ba82d6814082a8984182ea82a282bd82b582dc82b78142",
+          "text": "＊「では　村へ　お連れいたします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4760",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B8C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b70"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then we shall take you to the village.\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a47c4",
+      "family": "message",
+      "offset": "0x000A47C4",
+      "source_end_exclusive": "0xa481f",
+      "japanese": "＊「そうですか　では　私たちだけ　お先に\n$x村へ　帰らせていただきます。\n$xよろしいですね？",
+      "source_hex": "8196817582bb82a482c582b782a9814082c582cd81408e8482bd82bf82be82af814082a890e682c90a247891ba82d681408b4182e782b982c482a282bd82be82ab82dc82b781420a247882e682eb82b582a282c582b782cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82a482c582b782a9814082c582cd81408e8482bd82bf82be82af814082a890e682c9",
+          "text": "＊「そうですか　では　私たちだけ　お先に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82d681408b4182e782b982c482a282bd82be82ab82dc82b78142",
+          "text": "村へ　帰らせていただきます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282c582b782cb8148",
+          "text": "よろしいですね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a47c4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B84",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b58"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"I see. Then we shall return to the village ahead of you. Is that all right?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4820",
+      "family": "message",
+      "offset": "0x000A4820",
+      "source_end_exclusive": "0xa4899",
+      "japanese": "＊「本当に　ありがとうございました。\n$xでは　お先に……。\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "81968175967b939682c9814082a082e882aa82c682a482b282b482a282dc82b582bd81420a247882c582cd814082a890e682c98163816381420a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175967b939682c9814082a082e882aa82c682a482b282b482a282dc82b582bd8142",
+          "text": "＊「本当に　ありがとうございました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c582cd814082a890e682c9816381638142",
+          "text": "では　お先に……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4820",
+      "pointer_owners": [
+        {
+          "offset": "0x00008BB0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b90"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Thank you so much. We shall be on our way...\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a489c",
+      "family": "message",
+      "offset": "0x000A489C",
+      "source_end_exclusive": "0xa48e4",
+      "japanese": "＊「では　やはり　私たちと　いっしょに\n$x村へ　もどって　休まれますか？",
+      "source_hex": "8196817582c582cd814082e282cd82e881408e8482bd82bf82c6814082a282c182b582e582c90a247891ba82d6814082e082c782c182c481408b7882dc82ea82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082e282cd82e881408e8482bd82bf82c6814082a282c182b582e582c9",
+          "text": "＊「では　やはり　私たちと　いっしょに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82d6814082e082c782c182c481408b7882dc82ea82dc82b782a98148",
+          "text": "村へ　もどって　休まれますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a489c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008B88",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008b64"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then would you rather return to the village with us and rest?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a48e4",
+      "family": "message",
+      "offset": "0x000A48E4",
+      "source_end_exclusive": "0xa494b",
+      "japanese": "＊「おおう！　こりゃ\n$xおったまげた！\n\n＊「おい！　ジョーのアニキ！\n$xどうやら　村に　帰れるようだぜ。",
+      "source_hex": "8196817582a882a882a48149814082b182e882e10a247882a882c182bd82dc82b082bd81490a0a8196817582a882a28149814083578387815b82cc8341836a834c81490a247882c782a482e282e7814091ba82c981408b4182ea82e982e682a482be82ba814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a882a48149814082b182e882e1",
+          "text": "＊「おおう！　こりゃ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882c182bd82dc82b082bd8149",
+          "text": "おったまげた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a28149814083578387815b82cc8341836a834c8149",
+          "text": "＊「おい！　ジョーのアニキ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782a482e282e7814091ba82c981408b4182ea82e982e682a482be82ba8142",
+          "text": "どうやら　村に　帰れるようだぜ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a48e4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008C74",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c1a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Whoa! Now that is a surprise!\"\n\"Hey, Joe, boss! Looks like we can head back to the village!\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a494c",
+      "family": "message",
+      "offset": "0x000A494C",
+      "source_end_exclusive": "0xa4984",
+      "japanese": "ジョー「うむ……。\n$xどうやら　そのようだな　タロスよ。",
+      "source_hex": "83578387815b817582a482de8163816381420a247882c782a482e282e7814082bb82cc82e682a482be82c88140835e838d835882e6814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582a482de816381638142",
+          "text": "ジョー「うむ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782a482e282e7814082bb82cc82e682a482be82c88140835e838d835882e68142",
+          "text": "どうやら　そのようだな　タロスよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a494c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008C78",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c32"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Hmm... So it seems, Talos.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe",
+        "character.conklave_talos"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4984",
+      "family": "message",
+      "offset": "0x000A4984",
+      "source_end_exclusive": "0xa49c0",
+      "japanese": "ジョー「どこの　先生か　存じませんが\n$xありがとうござんす。",
+      "source_hex": "83578387815b817582c782b182cc814090e690b682a9814091b682b682dc82b982f182aa0a247882a082e882aa82c682a482b282b482f182b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582c782b182cc814090e690b682a9814091b682b682dc82b982f182aa",
+          "text": "ジョー「どこの　先生か　存じませんが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082e882aa82c682a482b282b482f182b78142",
+          "text": "ありがとうござんす。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4984",
+      "pointer_owners": [
+        {
+          "offset": "0x00008C7C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c52"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"I do not know who you are, friend, but you have my thanks.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a49c0",
+      "family": "message",
+      "offset": "0x000A49C0",
+      "source_end_exclusive": "0xa4a2f",
+      "japanese": "ジョー「この奥にも　閉じ込められた仲間は\n$xおりやすが　とりあえず\n$xあっしらと　いっしょに　もどられますかい？",
+      "source_hex": "83578387815b817582b182cc899c82c982e0814095c282b68d9e82df82e782ea82bd92878ad482cd0a247882a882e882e282b782aa814082c682e882a082a682b80a247882a082c182b582e782c6814082a282c182b582e582c9814082e082c782e782ea82dc82b782a982a2814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582b182cc899c82c982e0814095c282b68d9e82df82e782ea82bd92878ad482cd",
+          "text": "ジョー「この奥にも　閉じ込められた仲間は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882e882e282b782aa814082c682e882a082a682b8",
+          "text": "おりやすが　とりあえず",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c182b582e782c6814082a282c182b582e582c9814082e082c782e782ea82dc82b782a982a28148",
+          "text": "あっしらと　いっしょに　もどられますかい？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a49c0",
+      "pointer_owners": [
+        {
+          "offset": "0x00008C80",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c5a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Some of our folk are still trapped deeper in. Would you like to head back with us for now?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4a30",
+      "family": "message",
+      "offset": "0x000A4A30",
+      "source_end_exclusive": "0xa4a93",
+      "japanese": "ジョー「では　村へ　お連れしやす。\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "83578387815b817582c582cd814091ba82d6814082a8984182ea82b582e282b781420a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582c582cd814091ba82d6814082a8984182ea82b582e282b78142",
+          "text": "ジョー「では　村へ　お連れしやす。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4a30",
+      "pointer_owners": [
+        {
+          "offset": "0x00008CB8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c9c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Then let us take you back to the village.\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "character.conklave_joe",
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4a94",
+      "family": "message",
+      "offset": "0x000A4A94",
+      "source_end_exclusive": "0xa4aef",
+      "japanese": "ジョー「そうですかい？　では\n$xあっしらだけ　帰らせてもらいますが\n$x本当に　いいんですね？",
+      "source_hex": "83578387815b817582bb82a482c582b782a982a28148814082c582cd0a247882a082c182b582e782be82af81408b4182e782b982c482e082e782a282dc82b782aa0a2478967b939682c9814082a282a282f182c582b782cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582bb82a482c582b782a982a28148814082c582cd",
+          "text": "ジョー「そうですかい？　では",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c182b582e782be82af81408b4182e782b982c482e082e782a282dc82b782aa",
+          "text": "あっしらだけ　帰らせてもらいますが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "967b939682c9814082a282a282f182c582b782cb8148",
+          "text": "本当に　いいんですね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4a94",
+      "pointer_owners": [
+        {
+          "offset": "0x00008CB0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c84"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Is that so? Then we will head back on our own. Are you sure that is all right?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4af0",
+      "family": "message",
+      "offset": "0x000A4AF0",
+      "source_end_exclusive": "0xa4b4f",
+      "japanese": "ジョー「では　これにて　失礼！\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "83578387815b817582c582cd814082b182ea82c982c481408eb897e781490a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582c582cd814082b182ea82c982c481408eb897e78149",
+          "text": "ジョー「では　これにて　失礼！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4af0",
+      "pointer_owners": [
+        {
+          "offset": "0x00008CDC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008cbc"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Then we will be on our way!\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "character.conklave_joe",
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4b50",
+      "family": "message",
+      "offset": "0x000A4B50",
+      "source_end_exclusive": "0xa4b92",
+      "japanese": "ジョー「では　やはり　あっしらと\n$x村へ　もどって　休みますかい？",
+      "source_hex": "83578387815b817582c582cd814082e282cd82e8814082a082c182b582e782c60a247891ba82d6814082e082c782c182c481408b7882dd82dc82b782a982a2814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578387815b817582c582cd814082e282cd82e8814082a082c182b582e782c6",
+          "text": "ジョー「では　やはり　あっしらと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82d6814082e082c782c182c481408b7882dd82dc82b782a982a28148",
+          "text": "村へ　もどって　休みますかい？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4b50",
+      "pointer_owners": [
+        {
+          "offset": "0x00008CB4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008c90"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Joe: \"Then would you rather head back to the village with us and rest?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "character.conklave_joe"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4b94",
+      "family": "message",
+      "offset": "0x000A4B94",
+      "source_end_exclusive": "0xa4c1c",
+      "japanese": "＊「ありゃ～！\n$xこれ　ビックリね～！\n\n＊「もう一生　このままかと　思ってたよ。\n$xさっそく　村に　もどって\n$x店の様子を　みなきゃなあ。",
+      "source_hex": "8196817582a082e882e1816081490a247882b182ea814083728362834e838a82cb816081490a0a8196817582e082a488ea90b6814082b182cc82dc82dc82a982c681408e7682c182c482bd82e681420a247882b382c182bb82ad814091ba82c9814082e082c782c182c40a2478935882cc976c8e7182f0814082dd82c882ab82e182c882a0814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082e882e181608149",
+          "text": "＊「ありゃ～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea814083728362834e838a82cb81608149",
+          "text": "これ　ビックリね～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e082a488ea90b6814082b182cc82dc82dc82a982c681408e7682c182c482bd82e68142",
+          "text": "＊「もう一生　このままかと　思ってたよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382c182bb82ad814091ba82c9814082e082c782c182c4",
+          "text": "さっそく　村に　もどって",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "935882cc976c8e7182f0814082dd82c882ab82e182c882a08142",
+          "text": "店の様子を　みなきゃなあ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4b94",
+      "pointer_owners": [
+        {
+          "offset": "0x00008D94",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008d50"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Well, now! What a surprise!\"\n\"I thought we would be stuck here forever. I had better get back to the village and check on my shop!\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4c1c",
+      "family": "message",
+      "offset": "0x000A4C1C",
+      "source_end_exclusive": "0xa4c69",
+      "japanese": "＊「いや　ありがとう！\n$xわしらと　いっしょに\n$xあんたも　村へ　もどるかね？",
+      "source_hex": "8196817582a282e2814082a082e882aa82c682a481490a247882ed82b582e782c6814082a282c182b582e582c90a247882a082f182bd82e0814091ba82d6814082e082c782e982a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a282e2814082a082e882aa82c682a48149",
+          "text": "＊「いや　ありがとう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82b582e782c6814082a282c182b582e582c9",
+          "text": "わしらと　いっしょに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082f182bd82e0814091ba82d6814082e082c782e982a982cb8148",
+          "text": "あんたも　村へ　もどるかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4c1c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008D98",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008d78"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Thank you! Are you coming back to the village with us?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4c6c",
+      "family": "message",
+      "offset": "0x000A4C6C",
+      "source_end_exclusive": "0xa4cd1",
+      "japanese": "＊「では　さっそく　帰るとするよ～！\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "8196817582c582cd814082b382c182bb82ad81408b4182e982c682b782e982e6816081490a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082b382c182bb82ad81408b4182e982c682b782e982e681608149",
+          "text": "＊「では　さっそく　帰るとするよ～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4c6c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008DD0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008db4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then let us head straight home!\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4cd4",
+      "family": "message",
+      "offset": "0x000A4CD4",
+      "source_end_exclusive": "0xa4d1f",
+      "japanese": "＊「そうかい？　では\n$xわしらだけ　帰らせてもらうが\n$xそれで　いいんだね？",
+      "source_hex": "8196817582bb82a482a982a28148814082c582cd0a247882ed82b582e782be82af81408b4182e782b982c482e082e782a482aa0a247882bb82ea82c5814082a282a282f182be82cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82a482a982a28148814082c582cd",
+          "text": "＊「そうかい？　では",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82b582e782be82af81408b4182e782b982c482e082e782a482aa",
+          "text": "わしらだけ　帰らせてもらうが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82c5814082a282a282f182be82cb8148",
+          "text": "それで　いいんだね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4cd4",
+      "pointer_owners": [
+        {
+          "offset": "0x00008DC8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008d9c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"I see. We will head back on our own, then. Is that all right?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4d20",
+      "family": "message",
+      "offset": "0x000A4D20",
+      "source_end_exclusive": "0xa4d75",
+      "japanese": "＊「では　お先に～！\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "8196817582c582cd814082a890e682c9816081490a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082a890e682c981608149",
+          "text": "＊「では　お先に～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4d20",
+      "pointer_owners": [
+        {
+          "offset": "0x00008DF4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008dd4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"See you back there!\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4d78",
+      "family": "message",
+      "offset": "0x000A4D78",
+      "source_end_exclusive": "0xa4db0",
+      "japanese": "＊「じゃあ　やっぱり　わしらと帰って\n$x休んでくるかい？",
+      "source_hex": "8196817582b682e182a0814082e282c182cf82e8814082ed82b582e782c68b4182c182c40a24788b7882f182c582ad82e982a982a2814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b682e182a0814082e282c182cf82e8814082ed82b582e782c68b4182c182c4",
+          "text": "＊「じゃあ　やっぱり　わしらと帰って",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7882f182c582ad82e982a982a28148",
+          "text": "休んでくるかい？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4d78",
+      "pointer_owners": [
+        {
+          "offset": "0x00008DCC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008da8"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then would you rather come back with us and rest?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4db0",
+      "family": "message",
+      "offset": "0x000A4DB0",
+      "source_end_exclusive": "0xa4e03",
+      "japanese": "＊「わっ！　ふ　封印のバリアが！\n$x奥さん！　われわれの　バリアが\n$xとけましたよ！",
+      "source_hex": "8196817582ed82c18149814082d38140959588f382cc836f838a834182aa81490a2478899c82b382f18149814082ed82ea82ed82ea82cc8140836f838a834182aa0a247882c682af82dc82b582bd82e6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582ed82c18149814082d38140959588f382cc836f838a834182aa8149",
+          "text": "＊「わっ！　ふ　封印のバリアが！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "899c82b382f18149814082ed82ea82ed82ea82cc8140836f838a834182aa",
+          "text": "奥さん！　われわれの　バリアが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682af82dc82b582bd82e68149",
+          "text": "とけましたよ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4db0",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EB8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008e58"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Ah! The s-sealing barrier! My dear! Our barrier is gone!\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4e04",
+      "family": "message",
+      "offset": "0x000A4E04",
+      "source_end_exclusive": "0xa4e48",
+      "japanese": "＊「そんなに　さわぐんじゃないよ。\n$x魔物に　気づかれるじゃないか。",
+      "source_hex": "8196817582bb82f182c882c9814082b382ed82ae82f182b682e182c882a282e681420a2478968295a882c981408b4382c382a982ea82e982b682e182c882a282a9814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82f182c882c9814082b382ed82ae82f182b682e182c882a282e68142",
+          "text": "＊「そんなに　さわぐんじゃないよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "968295a882c981408b4382c382a982ea82e982b682e182c882a282a98142",
+          "text": "魔物に　気づかれるじゃないか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4e04",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EBC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008e76"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Keep your voice down! You will draw the monsters here.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4e48",
+      "family": "message",
+      "offset": "0x000A4E48",
+      "source_end_exclusive": "0xa4ea9",
+      "japanese": "＊「あの長老のことだ。　いつかは\n$x助けを　よこしてくれると　思ったよ。\n$x本当に　ありがとうね。",
+      "source_hex": "8196817582a082cc92b7985682cc82b182c682be8142814082a282c282a982cd0a24788f9582af82f0814082e682b182b582c482ad82ea82e982c681408e7682c182bd82e681420a2478967b939682c9814082a082e882aa82c682a482cb814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082cc92b7985682cc82b182c682be8142814082a282c282a982cd",
+          "text": "＊「あの長老のことだ。　いつかは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9582af82f0814082e682b182b582c482ad82ea82e982c681408e7682c182bd82e68142",
+          "text": "助けを　よこしてくれると　思ったよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "967b939682c9814082a082e882aa82c682a482cb8142",
+          "text": "本当に　ありがとうね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4e48",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EC0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008e96"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Knowing the elder, I thought he would send help sooner or later. Thank you ever so much.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4eac",
+      "family": "message",
+      "offset": "0x000A4EAC",
+      "source_end_exclusive": "0xa4f1d",
+      "japanese": "＊「ここまで　来てくれたってことは\n$xほかの連中も　全員　助かったんだね。\n$xさあ　いっしょに　村へもどるだろう？",
+      "source_hex": "8196817582b182b182dc82c58140978882c482ad82ea82bd82c182c482b182c682cd0a247882d982a982cc9841928682e08140915388f581408f9582a982c182bd82f182be82cb81420a247882b382a0814082a282c182b582e582c9814091ba82d682e082c782e982be82eb82a4814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182b182dc82c58140978882c482ad82ea82bd82c182c482b182c682cd",
+          "text": "＊「ここまで　来てくれたってことは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d982a982cc9841928682e08140915388f581408f9582a982c182bd82f182be82cb8142",
+          "text": "ほかの連中も　全員　助かったんだね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382a0814082a282c182b582e582c9814091ba82d682e082c782e982be82eb82a48148",
+          "text": "さあ　いっしょに　村へもどるだろう？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4eac",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EC4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008e9e"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"If you have come this far, you must have rescued all the others. Now, you are coming back to the village with us, yes?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4f20",
+      "family": "message",
+      "offset": "0x000A4F20",
+      "source_end_exclusive": "0xa4f89",
+      "japanese": "＊「じゃあ　しっかり　つかまっておくれ。\n\n\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "8196817582b682e182a0814082b582c182a982e8814082c282a982dc82c182c482a882ad82ea81420a0a0a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b682e182a0814082b582c182a982e8814082c282a982dc82c182c482a882ad82ea8142",
+          "text": "＊「じゃあ　しっかり　つかまっておくれ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4f20",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EFC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008ee0"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then hold on tight.\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a4f8c",
+      "family": "message",
+      "offset": "0x000A4F8C",
+      "source_end_exclusive": "0xa4fdc",
+      "japanese": "＊「これ以上　進んでも　封印された者は\n$xもういないけど　それでも　行くのかい？",
+      "source_hex": "8196817582b182ea88c88fe38140906982f182c582e08140959588f382b382ea82bd8ed282cd0a247882e082a482a282c882a282af82c7814082bb82ea82c582e081408d7382ad82cc82a982a2814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182ea88c88fe38140906982f182c582e08140959588f382b382ea82bd8ed282cd",
+          "text": "＊「これ以上　進んでも　封印された者は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282c882a282af82c7814082bb82ea82c582e081408d7382ad82cc82a982a28148",
+          "text": "もういないけど　それでも　行くのかい？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4f8c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EF4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008ec8"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"There is no one left trapped beyond here. Are you going on anyway?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a4fdc",
+      "family": "message",
+      "offset": "0x000A4FDC",
+      "source_end_exclusive": "0xa507b",
+      "japanese": "＊「そうかい。　あんたにも　何か\n$x考えがあってのことだろう。\n$xでは　お先に　帰らせてもらうよ。\n封印されていた　プチット族の民は\nなにやら　呪文を　となえた！",
+      "source_hex": "8196817582bb82a482a982a28142814082a082f182bd82c982e0814089bd82a90a24788d6c82a682aa82a082c182c482cc82b182c682be82eb82a481420a247882c582cd814082a890e682c981408b4182e782b982c482e082e782a482e681420a959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd0a82c882c982e282e781408ef495b682f0814082c682c882a682bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82a482a982a28142814082a082f182bd82c982e0814089bd82a9",
+          "text": "＊「そうかい。　あんたにも　何か",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d6c82a682aa82a082c182c482cc82b182c682be82eb82a48142",
+          "text": "考えがあってのことだろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c582cd814082a890e682c981408b4182e782b982c482e082e782a482e68142",
+          "text": "では　お先に　帰らせてもらうよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "959588f382b382ea82c482a282bd8140837683608362836791b082cc96af82cd",
+          "text": "封印されていた　プチット族の民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982e282e781408ef495b682f0814082c682c882a682bd8149",
+          "text": "なにやら　呪文を　となえた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a4fdc",
+      "pointer_owners": [
+        {
+          "offset": "0x00008F20",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008f00"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"I see. You must have your reasons. We will head back ahead of you, then.\"\nThe freed Conklave folk chanted a spell!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.",
+      "references": [
+        "place.journey.00873134"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a507c",
+      "family": "message",
+      "offset": "0x000A507C",
+      "source_end_exclusive": "0xa50bd",
+      "japanese": "＊「じゃあ　やっぱり\n$x私たちと　いっしょに　村へ\n$x帰るんだね？",
+      "source_hex": "8196817582b682e182a0814082e282c182cf82e80a24788e8482bd82bf82c6814082a282c182b582e582c9814091ba82d60a24788b4182e982f182be82cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b682e182a0814082e282c182cf82e8",
+          "text": "＊「じゃあ　やっぱり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8482bd82bf82c6814082a282c182b582e582c9814091ba82d6",
+          "text": "私たちと　いっしょに　村へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4182e982f182be82cb8148",
+          "text": "帰るんだね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a507c",
+      "pointer_owners": [
+        {
+          "offset": "0x00008EF8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8008ed4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "\"Then you are coming back to the village with us after all?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a50c0",
+      "family": "message",
+      "offset": "0x000A50C0",
+      "source_end_exclusive": "0xa5111",
+      "japanese": "ロサ「なあ　$tさん。\n$xもうすぐ　このダンジョンも\n$x終わりが近い気がするぜ……。",
+      "source_hex": "838d8354817582c882a08140247482b382f181420a247882e082a482b782ae814082b182cc835f839383578387839382e00a24788f4982ed82e882aa8bdf82a28b4382aa82b782e982ba81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838d8354817582c882a08140",
+          "text": "ロサ「なあ　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f18142",
+          "text": "さん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482b782ae814082b182cc835f839383578387839382e0",
+          "text": "もうすぐ　このダンジョンも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f4982ed82e882aa8bdf82a28b4382aa82b782e982ba816381638142",
+          "text": "終わりが近い気がするぜ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a50c0",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5388",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5398",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53B8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53C8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53D0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Rosa: \"Hey, $t. I reckon we are getting close to the end of this dungeon...\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_rosa"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5114",
+      "family": "message",
+      "offset": "0x000A5114",
+      "source_end_exclusive": "0xa518d",
+      "japanese": "イネス「あら？　今までとは違う\n$x空気の流れを感じますわ。\n\nイネス「もうすぐ　このダンジョンから\n$x出られるのかしら……。",
+      "source_hex": "8343836c8358817582a082e7814881408da182dc82c582c682cd88e182a40a24788bf38b4382cc97ac82ea82f08ab482b682dc82b782ed81420a0a8343836c8358817582e082a482b782ae814082b182cc835f839383578387839382a982e70a24788f6f82e782ea82e982cc82a982b582e781638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c8358817582a082e7814881408da182dc82c582c682cd88e182a4",
+          "text": "イネス「あら？　今までとは違う",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8bf38b4382cc97ac82ea82f08ab482b682dc82b782ed8142",
+          "text": "空気の流れを感じますわ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8343836c8358817582e082a482b782ae814082b182cc835f839383578387839382a982e7",
+          "text": "イネス「もうすぐ　このダンジョンから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f6f82e782ea82e982cc82a982b582e7816381638142",
+          "text": "出られるのかしら……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5114",
+      "pointer_owners": [
+        {
+          "offset": "0x000A53D8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53E8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5408",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5418",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5420",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ines: \"Oh? The air feels different here.\"\nInes: \"I wonder if we are nearly out of this dungeon...\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5190",
+      "family": "message",
+      "offset": "0x000A5190",
+      "source_end_exclusive": "0xa5273",
+      "japanese": "ロサ「おいおい　$tさん。\n$xちょっと　イヤな予感がするぜ。\n\nロサ「どうやら　今までのヤツより\n$x手ごたえのあるモンスターが\n$xいるようだな。\nロサ「そろそろ　ダンジョンの出口も\n$x近いみたいだから　親玉の\n$xお出ましってわけか……？",
+      "source_hex": "838d8354817582a882a282a882a28140247482b382f181420a247882bf82e582c182c681408343838482c8975c8ab482aa82b782e982ba81420a0a838d8354817582c782a482e282e781408da182dc82c582cc8384836382e682e80a24788ee882b282bd82a682cc82a082e9838283938358835e815b82aa0a247882a282e982e682a482be82c881420a838d8354817582bb82eb82bb82eb8140835f839383578387839382cc8f6f8cfb82e00a24788bdf82a282dd82bd82a282be82a982e7814090658bca82cc0a247882a88f6f82dc82b582c182c482ed82af82a981638163814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838d8354817582a882a282a882a28140",
+          "text": "ロサ「おいおい　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f18142",
+          "text": "さん。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bf82e582c182c681408343838482c8975c8ab482aa82b782e982ba8142",
+          "text": "ちょっと　イヤな予感がするぜ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d8354817582c782a482e282e781408da182dc82c582cc8384836382e682e8",
+          "text": "ロサ「どうやら　今までのヤツより",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ee882b282bd82a682cc82a082e9838283938358835e815b82aa",
+          "text": "手ごたえのあるモンスターが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282e982e682a482be82c88142",
+          "text": "いるようだな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d8354817582bb82eb82bb82eb8140835f839383578387839382cc8f6f8cfb82e0",
+          "text": "ロサ「そろそろ　ダンジョンの出口も",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8bdf82a282dd82bd82a282be82a982e7814090658bca82cc",
+          "text": "近いみたいだから　親玉の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88f6f82dc82b582c182c482ed82af82a9816381638148",
+          "text": "お出ましってわけか……？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5190",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5390",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53A0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53A8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53B0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53C0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Rosa: \"Hey, $t. I have a bad feeling about this.\"\nRosa: \"Looks like there is a monster here tougher than the rest.\"\nRosa: \"We must be near the exit by now. Is it time for the boss to show up...?\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_rosa"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5274",
+      "family": "message",
+      "offset": "0x000A5274",
+      "source_end_exclusive": "0xa536b",
+      "japanese": "イネス「なんだか　イヤな\n$x感じがするわ……。\n$x$tさん　気をつけて。\nイネス「今度の　モンスターは\n$x今までいたのより　邪悪な\n$xオーラが　強い気がするの。\nイネス「そろそろ　このダンジョンの\n$x出口も　近いように思うんですけど\n$xゆだんできませんわ。",
+      "source_hex": "8343836c8358817582c882f182be82a981408343838482c80a24788ab482b682aa82b782e982ed8163816381420a2478247482b382f181408b4382f082c282af82c481420a8343836c835881758da1937882cc8140838283938358835e815b82cd0a24788da182dc82c582a282bd82cc82e682e881408ed788ab82c80a24788349815b838982aa81408bad82a28b4382aa82b782e982cc81420a8343836c8358817582bb82eb82bb82eb814082b182cc835f839383578387839382cc0a24788f6f8cfb82e081408bdf82a282e682a482c98e7682a482f182c582b782af82c70a247882e482be82f182c582ab82dc82b982f182ed814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c8358817582c882f182be82a981408343838482c8",
+          "text": "イネス「なんだか　イヤな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ab482b682aa82b782e982ed816381638142",
+          "text": "感じがするわ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f181408b4382f082c282af82c48142",
+          "text": "さん　気をつけて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835881758da1937882cc8140838283938358835e815b82cd",
+          "text": "イネス「今度の　モンスターは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8da182dc82c582a282bd82cc82e682e881408ed788ab82c8",
+          "text": "今までいたのより　邪悪な",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8349815b838982aa81408bad82a28b4382aa82b782e982cc8142",
+          "text": "オーラが　強い気がするの。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8343836c8358817582bb82eb82bb82eb814082b182cc835f839383578387839382cc",
+          "text": "イネス「そろそろ　このダンジョンの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f6f8cfb82e081408bdf82a282e682a482c98e7682a482f182c582b782af82c7",
+          "text": "出口も　近いように思うんですけど",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e482be82f182c582ab82dc82b982f182ed8142",
+          "text": "ゆだんできませんわ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5274",
+      "pointer_owners": [
+        {
+          "offset": "0x000A53E0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53F0",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A53F8",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5400",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        },
+        {
+          "offset": "0x000A5410",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ines: \"Something feels wrong... Be careful, $t.\"\nInes: \"I sense a more sinister aura from this monster than the ones we have faced so far.\"\nInes: \"I think we are nearly out of this dungeon, but we must stay alert.\"",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a546c",
+      "family": "message",
+      "offset": "0x000A546C",
+      "source_end_exclusive": "0xa54f4",
+      "japanese": "たからものを使ってしまったら\n冒険中ずっと 怒ったままになってしまうぞ！\n\nうっかりつかってしまうとたいへんなめに\nあうので注意が必要だぞ！",
+      "source_hex": "82bd82a982e782e082cc82f08e6782c182c482b582dc82c182bd82e70a96608caf928682b882c182c620937b82c182bd82dc82dc82c982c882c182c482b582dc82a482bc81490a0a82a482c182a982e882c282a982c182c482b582dc82a482c682bd82a282d682f182c882df82c90a82a082a482cc82c5928d88d382aa954b977682be82bc814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bd82a982e782e082cc82f08e6782c182c482b582dc82c182bd82e7",
+          "text": "たからものを使ってしまったら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf928682b882c182c6",
+          "text": "冒険中ずっと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "937b82c182bd82dc82dc82c982c882c182c482b582dc82a482bc8149",
+          "text": "怒ったままになってしまうぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a482c182a982e882c282a982c182c482b582dc82a482c682bd82a282d682f182c882df82c9",
+          "text": "うっかりつかってしまうとたいへんなめに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082a482cc82c5928d88d382aa954b977682be82bc8149",
+          "text": "あうので注意が必要だぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a546c",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5460",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "If you use one of his treasures, he will stay angry for the rest of the adventure!\nBe careful. Using one by mistake will get you into serious trouble!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5500",
+      "family": "message",
+      "offset": "0x000A5500",
+      "source_end_exclusive": "0xa5561",
+      "japanese": "たからものを落としてしまった場合は\n拾いあつめれば 怒りはおさまるぞ！\n\nいそいでひろってあげよう！",
+      "source_hex": "82bd82a982e782e082cc82f0978e82c682b582c482b582dc82c182bd8fea8d8782cd0a8f4582a282a082c282df82ea82ce20937b82e882cd82a882b382dc82e982bc81490a0a82a282bb82a282c582d082eb82c182c482a082b082e682a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bd82a982e782e082cc82f0978e82c682b582c482b582dc82c182bd8fea8d8782cd",
+          "text": "たからものを落としてしまった場合は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f4582a282a082c282df82ea82ce",
+          "text": "拾いあつめれば",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "937b82e882cd82a882b382dc82e982bc8149",
+          "text": "怒りはおさまるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282bb82a282c582d082eb82c182c482a082b082e682a48149",
+          "text": "いそいでひろってあげよう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5500",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5458",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "If you drop his treasures, pick them all up and he will calm down!\nHurry and gather them up!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5570",
+      "family": "message",
+      "offset": "0x000A5570",
+      "source_end_exclusive": "0xa55df",
+      "japanese": "ロサには\nたからものを１０個持たされてしまうぞ！\n\nロサのたからものを\n手ばなすとカンカンに怒っておそってくるぞ！",
+      "source_hex": "838d835482c982cd0a82bd82a982e782e082cc82f08250824f8cc28e9d82bd82b382ea82c482b582dc82a482bc81490a0a838d835482cc82bd82a982e782e082cc82f00a8ee882ce82c882b782c6834a8393834a839382c9937b82c182c482a882bb82c182c482ad82e982bc814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838d835482c982cd",
+          "text": "ロサには",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bd82a982e782e082cc82f08250824f8cc28e9d82bd82b382ea82c482b582dc82a482bc8149",
+          "text": "たからものを１０個持たされてしまうぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d835482cc82bd82a982e782e082cc82f0",
+          "text": "ロサのたからものを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ee882ce82c882b782c6834a8393834a839382c9937b82c182c482a882bb82c182c482ad82e982bc8149",
+          "text": "手ばなすとカンカンに怒っておそってくるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5570",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5450",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Rosa will make you carry ten of his treasures!\nLet go of any of them and he will fly into a rage and attack you!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_rosa"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a55ec",
+      "family": "message",
+      "offset": "0x000A55EC",
+      "source_end_exclusive": "0xa5681",
+      "japanese": "話しかけるとロサのようすがわかるぞ。\nHPが減っていそうな時は回復してあげよう。\n\nＳＴＡＲＴボタンでロサの方向を向いてから\nＡボタンで話しかけてみよう！",
+      "source_hex": "986282b582a982af82e982c6838d835482cc82e682a482b782aa82ed82a982e982bc81420a485082aa8cb882c182c482a282bb82a482c88e9e82cd89f1959c82b582c482a082b082e682a481420a0a82728273826082718273837b835e839382c5838d835482cc95fb8cfc82f08cfc82a282c482a982e70a8260837b835e839382c5986282b582a982af82c482dd82e682a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "986282b582a982af82e982c6838d835482cc82e682a482b782aa82ed82a982e982bc8142",
+          "text": "話しかけるとロサのようすがわかるぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4850",
+          "text": "HP",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa8cb882c182c482a282bb82a482c88e9e82cd89f1959c82b582c482a082b082e682a48142",
+          "text": "が減っていそうな時は回復してあげよう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82728273826082718273837b835e839382c5838d835482cc95fb8cfc82f08cfc82a282c482a982e7",
+          "text": "ＳＴＡＲＴボタンでロサの方向を向いてから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8260837b835e839382c5986282b582a982af82c482dd82e682a48149",
+          "text": "Ａボタンで話しかけてみよう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a55ec",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5448",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Talk to Rosa to see how he is doing. If his HP seems low, help him recover.\nFace Rosa with START, then press A to talk to him!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "hp",
+        "enemy_rosa"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5690",
+      "family": "message",
+      "offset": "0x000A5690",
+      "source_end_exclusive": "0xa5711",
+      "japanese": "イネスは部屋中のモンスターを\n攻撃できる　イオを唱えることができるぞ。\n\nモンスターに囲まれてしまったときは\n迷わず唱えてもらおう！",
+      "source_hex": "8343836c835882cd959489ae928682cc838283938358835e815b82f00a8d558c8282c582ab82e981408343834982f08fa582a682e982b182c682aa82c582ab82e982bc81420a0a838283938358835e815b82c988cd82dc82ea82c482b582dc82c182bd82c682ab82cd0a96c082ed82b88fa582a682c482e082e782a882a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835882cd959489ae928682cc838283938358835e815b82f0",
+          "text": "イネスは部屋中のモンスターを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d558c8282c582ab82e981408343834982f08fa582a682e982b182c682aa82c582ab82e982bc8142",
+          "text": "攻撃できる　イオを唱えることができるぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82c988cd82dc82ea82c482b582dc82c182bd82c682ab82cd",
+          "text": "モンスターに囲まれてしまったときは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96c082ed82b88fa582a682c482e082e782a882a48149",
+          "text": "迷わず唱えてもらおう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5690",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5440",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ines can cast Bang to attack the monsters throughout the room.\nIf monsters surround you, do not hesitate to ask her to cast it!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_ines",
+        "series_bang"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5724",
+      "family": "message",
+      "offset": "0x000A5724",
+      "source_end_exclusive": "0xa5795",
+      "japanese": "イネスは毒を回復できる\nキアリーを唱えることができるぞ！\n\n毒をうけてちからが減ってしまった時は\n回復してもらおう！",
+      "source_hex": "8343836c835882cd93c582f089f1959c82c582ab82e90a834c8341838a815b82f08fa582a682e982b182c682aa82c582ab82e982bc81490a0a93c582f082a482af82c482bf82a982e782aa8cb882c182c482b582dc82c182bd8e9e82cd0a89f1959c82b582c482e082e782a882a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835882cd93c582f089f1959c82c582ab82e9",
+          "text": "イネスは毒を回復できる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834c8341838a815b82f08fa582a682e982b182c682aa82c582ab82e982bc8149",
+          "text": "キアリーを唱えることができるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93c582f082a482af82c482bf82a982e782aa8cb882c182c482b582dc82c182bd8e9e82cd",
+          "text": "毒をうけてちからが減ってしまった時は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f1959c82b582c482e082e782a882a48149",
+          "text": "回復してもらおう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5724",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5438",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ines can cast Squelch to cure poison!\nIf poison has lowered your strength, ask her to heal you!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_ines",
+        "spell.squelch"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a57a8",
+      "family": "message",
+      "offset": "0x000A57A8",
+      "source_end_exclusive": "0xa5859",
+      "japanese": "イネスは ホイミを唱えることができるぞ！\nHPがピンチな時は回復してもらおう！\n\nこの魔法で　イネス自身も回復することが\nできるぞ！\n\nイネスがピンチのときも話しかけて\n唱えてもらおう！",
+      "source_hex": "8343836c835882cd20837a8343837e82f08fa582a682e982b182c682aa82c582ab82e982bc81490a485082aa83738393836082c88e9e82cd89f1959c82b582c482e082e782a882a481490a0a82b182cc9682964082c581408343836c83588ea9906782e089f1959c82b782e982b182c682aa0a82c582ab82e982bc81490a0a8343836c835882aa83738393836082cc82c682ab82e0986282b582a982af82c40a8fa582a682c482e082e782a882a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835882cd",
+          "text": "イネスは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837a8343837e82f08fa582a682e982b182c682aa82c582ab82e982bc8149",
+          "text": "ホイミを唱えることができるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4850",
+          "text": "HP",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa83738393836082c88e9e82cd89f1959c82b582c482e082e782a882a48149",
+          "text": "がピンチな時は回復してもらおう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc9682964082c581408343836c83588ea9906782e089f1959c82b782e982b182c682aa",
+          "text": "この魔法で　イネス自身も回復することが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c582ab82e982bc8149",
+          "text": "できるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835882aa83738393836082cc82c682ab82e0986282b582a982af82c4",
+          "text": "イネスがピンチのときも話しかけて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8fa582a682c482e082e782a882a48149",
+          "text": "唱えてもらおう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a57a8",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5430",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ines can cast Heal! Ask her for help when your HP is low!\nThis spell can heal Ines herself, too!\nIf she is in trouble, talk to her and ask her to cast it!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "hp",
+        "spell.heal",
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a586c",
+      "family": "message",
+      "offset": "0x000A586C",
+      "source_end_exclusive": "0xa58ff",
+      "japanese": "話しかけるとイネスのようすがわかったり\n魔法を唱えてもらうことができるぞ。\n\nＳＴＡＲＴボタンでイネスの方向を向いてから\nＡボタンで話しかけてみよう！",
+      "source_hex": "986282b582a982af82e982c68343836c835882cc82e682a482b782aa82ed82a982c182bd82e80a9682964082f08fa582a682c482e082e782a482b182c682aa82c582ab82e982bc81420a0a82728273826082718273837b835e839382c58343836c835882cc95fb8cfc82f08cfc82a282c482a982e70a8260837b835e839382c5986282b582a982af82c482dd82e682a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "986282b582a982af82e982c68343836c835882cc82e682a482b782aa82ed82a982c182bd82e8",
+          "text": "話しかけるとイネスのようすがわかったり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9682964082f08fa582a682c482e082e782a482b182c682aa82c582ab82e982bc8142",
+          "text": "魔法を唱えてもらうことができるぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82728273826082718273837b835e839382c58343836c835882cc95fb8cfc82f08cfc82a282c482a982e7",
+          "text": "ＳＴＡＲＴボタンでイネスの方向を向いてから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8260837b835e839382c5986282b582a982af82c482dd82e682a48149",
+          "text": "Ａボタンで話しかけてみよう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a586c",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5428",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Talk to Ines to see how she is doing or ask her to cast a spell.\nFace Ines with START, then press A to talk to her!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5aa0",
+      "family": "message",
+      "offset": "0x000A5AA0",
+      "source_end_exclusive": "0xa5ae0",
+      "japanese": "HPが減ったら　ＢとＡボタンを\nいっしょに押して　HPを回復しよう！",
+      "source_hex": "485082aa8cb882c182bd82e78140826182c68260837b835e839382f00a82a282c182b582e582c9899f82b582c48140485082f089f1959c82b582e682a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "4850",
+          "text": "HP",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82aa8cb882c182bd82e78140826182c68260837b835e839382f0",
+          "text": "が減ったら　ＢとＡボタンを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182b582e582c9899f82b582c48140",
+          "text": "いっしょに押して　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4850",
+          "text": "HP",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f089f1959c82b582e682a48149",
+          "text": "を回復しよう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5aa0",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5380",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "When your HP is low, hold B and A together to recover!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "hp"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5af0",
+      "family": "message",
+      "offset": "0x000A5AF0",
+      "source_end_exclusive": "0xa5b28",
+      "japanese": "Ｒボタンを押しながら十字ボタンで\nナナメだけに動けるぞ！",
+      "source_hex": "8271837b835e839382f0899f82b582c882aa82e78f5c8e9a837b835e839382c50a83698369838182be82af82c993ae82af82e982bc814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8271837b835e839382f0899f82b582c882aa82e78f5c8e9a837b835e839382c5",
+          "text": "Ｒボタンを押しながら十字ボタンで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83698369838182be82af82c993ae82af82e982bc8149",
+          "text": "ナナメだけに動けるぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5af0",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5378",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0x00CE1600",
+          "reason": "Unreviewed high data array, not established independent reader"
+        }
+      ],
+      "english": "Hold R while using the +Control Pad to move only diagonally!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5b38",
+      "family": "message",
+      "offset": "0x000A5B38",
+      "source_end_exclusive": "0xa5bd4",
+      "japanese": "階段をめざして進んでいこう！\n\n\nモンスターにであったら\nそちらを向いてＡボタンで攻撃だ！\n\nＢボタンを押しながら十字ボタンで\nすばやく動けることも覚えておこう！",
+      "source_hex": "8a4b926982f082df82b482b582c4906982f182c582a282b182a481490a0a0a838283938358835e815b82c982c582a082c182bd82e70a82bb82bf82e782f08cfc82a282c48260837b835e839382c58d558c8282be81490a0a8261837b835e839382f0899f82b582c882aa82e78f5c8e9a837b835e839382c50a82b782ce82e282ad93ae82af82e982b182c682e08a6f82a682c482a882b182a4814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8a4b926982f082df82b482b582c4906982f182c582a282b182a48149",
+          "text": "階段をめざして進んでいこう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82c982c582a082c182bd82e7",
+          "text": "モンスターにであったら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82bf82e782f08cfc82a282c48260837b835e839382c58d558c8282be8149",
+          "text": "そちらを向いてＡボタンで攻撃だ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8261837b835e839382f0899f82b582c882aa82e78f5c8e9a837b835e839382c5",
+          "text": "Ｂボタンを押しながら十字ボタンで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782ce82e282ad93ae82af82e982b182c682e08a6f82a682c482a882b182a48149",
+          "text": "すばやく動けることも覚えておこう！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5b38",
+      "pointer_owners": [
+        {
+          "offset": "0x000A5370",
+          "evidence": "tutorial_key_value_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Make your way towards the stairs!\nWhen you meet a monster, face it and press A to attack!\nRemember, holding B while using the +Control Pad lets you move quickly!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5be4",
+      "family": "message",
+      "offset": "0x000A5BE4",
+      "source_end_exclusive": "0xa5d6d",
+      "japanese": "ぐっ　ぐぬう……\nわたしの　ヨロイが……！\n\nお　おのれ！\n無能な　人間ごときが\n思い上がりおって……！\nわたしは　この世の正義を　語る者。\nあのヨロイは　お前のような反逆者への\n怒りを　静めるためのものだった……。\nうむ……　感じるぞ。\n久しく　おさえていた　心地よい怒り。\nわたしの身体に　チカラがみなぎる……！\nもはや　そなたに　生きる道はない……\nそのまま　石となり　永遠の闇を\nさまようがいい！！",
+      "source_hex": "82ae82c1814082ae82ca82a4816381630a82ed82bd82b582cc81408388838d834382aa8163816381490a0a82a8814082a882cc82ea81490a96b3945c82c88140906c8ad482b282c682ab82aa0a8e7682a28fe382aa82e882a882c182c48163816381490a82ed82bd82b582cd814082b182cc90a282cc90b38b6082f081408cea82e98ed281420a82a082cc8388838d834382cd814082a8914f82cc82e682a482c894bd8b748ed282d682cc0a937b82e882f0814090c382df82e982bd82df82cc82e082cc82be82c182bd8163816381420a82a482de8163816381408ab482b682e982bc81420a8b7682b582ad814082a882b382a682c482a282bd81409053926e82e682a2937b82e881420a82ed82bd82b582cc906791cc82c981408360834a838982aa82dd82c882ac82e98163816381490a82e082cd82e2814082bb82c882bd82c9814090b682ab82e993b982cd82c882a2816381630a82bb82cc82dc82dc814090ce82c682c882e881408969899382cc88c582f00a82b382dc82e682a482aa82a282a28149814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ae82c1814082ae82ca82a481638163",
+          "text": "ぐっ　ぐぬう……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc81408388838d834382aa816381638149",
+          "text": "わたしの　ヨロイが……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8814082a882cc82ea8149",
+          "text": "お　おのれ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96b3945c82c88140906c8ad482b282c682ab82aa",
+          "text": "無能な　人間ごときが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e7682a28fe382aa82e882a882c182c4816381638149",
+          "text": "思い上がりおって……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cd814082b182cc90a282cc90b38b6082f081408cea82e98ed28142",
+          "text": "わたしは　この世の正義を　語る者。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082cc8388838d834382cd814082a8914f82cc82e682a482c894bd8b748ed282d682cc",
+          "text": "あのヨロイは　お前のような反逆者への",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "937b82e882f0814090c382df82e982bd82df82cc82e082cc82be82c182bd816381638142",
+          "text": "怒りを　静めるためのものだった……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a482de8163816381408ab482b682e982bc8142",
+          "text": "うむ……　感じるぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7682b582ad814082a882b382a682c482a282bd81409053926e82e682a2937b82e88142",
+          "text": "久しく　おさえていた　心地よい怒り。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582cc906791cc82c981408360834a838982aa82dd82c882ac82e9816381638149",
+          "text": "わたしの身体に　チカラがみなぎる……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082cd82e2814082bb82c882bd82c9814090b682ab82e993b982cd82c882a281638163",
+          "text": "もはや　そなたに　生きる道はない……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82cc82dc82dc814090ce82c682c882e881408969899382cc88c582f0",
+          "text": "そのまま　石となり　永遠の闇を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382dc82e682a482aa82a282a281498149",
+          "text": "さまようがいい！！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5be4",
+      "pointer_owners": [
+        {
+          "offset": "0x00009720",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8009616"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0x00CE15BC",
+          "reason": "Unreviewed high data array, not established independent reader"
+        }
+      ],
+      "english": "Ggh... Grrr... My armour...!\nCurse you! An incompetent mortal dares to defy me...!\nI am the voice of justice in this world. That armour held back my wrath against rebels like you...\nAh... I feel it. The sweet rage I have held in check for so long. Power surges through my body...!\nYou have no hope of survival now... Turn to stone and wander eternal darkness!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5d70",
+      "family": "message",
+      "offset": "0x000A5D70",
+      "source_end_exclusive": "0xa5dc1",
+      "japanese": "フフフ……　なかなか　よい\nコレクションが　できたわ。\nぐわっはっはっはっは……！",
+      "source_hex": "83748374837481638163814082c882a982c882a9814082e682a20a8352838c834e83568387839382aa814082c582ab82bd82ed81420a82ae82ed82c182cd82c182cd82c182cd82c182cd81638163814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83748374837481638163814082c882a982c882a9814082e682a2",
+          "text": "フフフ……　なかなか　よい",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8352838c834e83568387839382aa814082c582ab82bd82ed8142",
+          "text": "コレクションが　できたわ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ae82ed82c182cd82c182cd82c182cd82c182cd816381638149",
+          "text": "ぐわっはっはっはっは……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5d70",
+      "pointer_owners": [
+        {
+          "offset": "0x0000973C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80096de"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0x00CE154C",
+          "reason": "Unreviewed high data array, not established independent reader"
+        }
+      ],
+      "english": "Heh heh... A fine addition to my collection. Gwah ha ha ha ha...!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5dc4",
+      "family": "message",
+      "offset": "0x000A5DC4",
+      "source_end_exclusive": "0xa5ec1",
+      "japanese": "ぐっ　ぐおおおおお～！\nばかな……　わたしが　ほろびるなど……\n\nぐぬう……　しかし　おろかな人間よ\nわたしが　ほろびても　そなたの父にかけた\n呪文は　とけぬぞ……\nわたしに　さからったことを\n死ぬまで　後悔するがいい……\nぐわっはっはっは……　ぐわあ～っ！！",
+      "source_hex": "82ae82c1814082ae82a882a882a882a882a8816081490a82ce82a982c881638163814082ed82bd82b582aa814082d982eb82d182e982c882c7816381630a0a82ae82ca82a481638163814082b582a982b5814082a882eb82a982c8906c8ad482e60a82ed82bd82b582aa814082d982eb82d182c482e0814082bb82c882bd82cc958382c982a982af82bd0a8ef495b682cd814082c682af82ca82bc816381630a82ed82bd82b582c9814082b382a982e782c182bd82b182c682f00a8e8082ca82dc82c581408ce389f782b782e982aa82a282a2816381630a82ae82ed82c182cd82c182cd82c182cd81638163814082ae82ed82a0816082c18149814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ae82c1814082ae82a882a882a882a882a881608149",
+          "text": "ぐっ　ぐおおおおお～！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ce82a982c881638163814082ed82bd82b582aa814082d982eb82d182e982c882c781638163",
+          "text": "ばかな……　わたしが　ほろびるなど……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ae82ca82a481638163814082b582a982b5814082a882eb82a982c8906c8ad482e6",
+          "text": "ぐぬう……　しかし　おろかな人間よ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582aa814082d982eb82d182c482e0814082bb82c882bd82cc958382c982a982af82bd",
+          "text": "わたしが　ほろびても　そなたの父にかけた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef495b682cd814082c682af82ca82bc81638163",
+          "text": "呪文は　とけぬぞ……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582c9814082b382a982e782c182bd82b182c682f0",
+          "text": "わたしに　さからったことを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8082ca82dc82c581408ce389f782b782e982aa82a282a281638163",
+          "text": "死ぬまで　後悔するがいい……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ae82ed82c182cd82c182cd82c182cd81638163814082ae82ed82a0816082c181498149",
+          "text": "ぐわっはっはっは……　ぐわあ～っ！！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5dc4",
+      "pointer_owners": [
+        {
+          "offset": "0x0000995C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80098a2"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Ggh... Gwoooargh! Impossible... I cannot perish...\nBut know this, foolish mortal... Even if I perish, the spell I cast on your father will never break...\nYou will regret defying me for the rest of your life...\nGwah ha ha ha... Gwaaagh!!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": []
+    },
+    {
+      "id": "dungeon-event.000a5ec4",
+      "family": "message",
+      "offset": "0x000A5EC4",
+      "source_end_exclusive": "0xa5eee",
+      "japanese": "ポポロは　ヘルジャスティスを\nやっつけた！",
+      "source_hex": "837c837c838d82cd81408377838b83578383835883658342835882f00a82e282c182c282af82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82cd81408377838b83578383835883658342835882f0",
+          "text": "ポポロは　ヘルジャスティスを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e282c182c282af82bd8149",
+          "text": "やっつけた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5ec4",
+      "pointer_owners": [
+        {
+          "offset": "0x00009960",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80098f6"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Tipper defeated Hell Justice!",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_hell_justice",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5ef0",
+      "family": "message",
+      "offset": "0x000A5EF0",
+      "source_end_exclusive": "0xa5f1e",
+      "japanese": "ポポロ…　ポポロ……\n私の声が　聞こえますか？",
+      "source_hex": "837c837c838d81638140837c837c838d816381630a8e8482cc90ba82aa814095b782b182a682dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d81638140837c837c838d81638163",
+          "text": "ポポロ…　ポポロ……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8482cc90ba82aa814095b782b182a682dc82b782a98148",
+          "text": "私の声が　聞こえますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5ef0",
+      "pointer_owners": [
+        {
+          "offset": "0x00009A2C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80099b2"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Tipper... Tipper... Can you hear my voice?",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "dungeon-event.000a5f20",
+      "family": "message",
+      "offset": "0x000A5F20",
+      "source_end_exclusive": "0xa607c",
+      "japanese": "……本当によく　がんばりましたね。\nあなたと　トルネコの　チカラで\nこの地の　人びとは　すくわれました。\n私は　大地の神。\nかつて　バリナボの地へ\n民を　みちびいた者です。\nあなた方の努力で　邪悪な意志は\nほろび　この世界を見守るという\nバリナボの民の　役目も終わりました。\nこれは　私からのお礼です。\n神のチカラを　受けつぐ\n大地の民を　つかわしましょう。",
+      "source_hex": "81638163967b939682c982e682ad814082aa82f182ce82e882dc82b582bd82cb81420a82a082c882bd82c681408367838b836c835282cc81408360834a838982c50a82b182cc926e82cc8140906c82d182c682cd814082b782ad82ed82ea82dc82b582bd81420a8e8482cd814091e5926e82cc905f81420a82a982c282c48140836f838a8369837b82cc926e82d60a96af82f0814082dd82bf82d182a282bd8ed282c582b781420a82a082c882bd95fb82cc937797cd82c581408ed788ab82c888d38e7582cd0a82d982eb82d1814082b182cc90a28a4582f08ca98ee782e982c682a282a40a836f838a8369837b82cc96af82cc814096f096da82e08f4982ed82e882dc82b582bd81420a82b182ea82cd81408e8482a982e782cc82a897e782c582b781420a905f82cc8360834a838982f081408ef382af82c282ae0a91e5926e82cc96af82f0814082c282a982ed82b582dc82b582e582a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81638163967b939682c982e682ad814082aa82f182ce82e882dc82b582bd82cb8142",
+          "text": "……本当によく　がんばりましたね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c882bd82c681408367838b836c835282cc81408360834a838982c5",
+          "text": "あなたと　トルネコの　チカラで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc926e82cc8140906c82d182c682cd814082b782ad82ed82ea82dc82b582bd8142",
+          "text": "この地の　人びとは　すくわれました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8482cd814091e5926e82cc905f8142",
+          "text": "私は　大地の神。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a982c282c48140836f838a8369837b82cc926e82d6",
+          "text": "かつて　バリナボの地へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96af82f0814082dd82bf82d182a282bd8ed282c582b78142",
+          "text": "民を　みちびいた者です。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c882bd95fb82cc937797cd82c581408ed788ab82c888d38e7582cd",
+          "text": "あなた方の努力で　邪悪な意志は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d982eb82d1814082b182cc90a28a4582f08ca98ee782e982c682a282a4",
+          "text": "ほろび　この世界を見守るという",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b82cc96af82cc814096f096da82e08f4982ed82e882dc82b582bd8142",
+          "text": "バリナボの民の　役目も終わりました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea82cd81408e8482a982e782cc82a897e782c582b78142",
+          "text": "これは　私からのお礼です。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f82cc8360834a838982f081408ef382af82c282ae",
+          "text": "神のチカラを　受けつぐ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91e5926e82cc96af82f0814082c282a982ed82b582dc82b582e582a48142",
+          "text": "大地の民を　つかわしましょう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a5f20",
+      "pointer_owners": [
+        {
+          "offset": "0x00009A30",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80099ca"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "...You have done very well. Together, you and Torneko have saved the people of this land.\nI am the Earth God, who once led the people to the land of Barinabo.\nThrough your efforts, the evil will has been destroyed. The people of Barinabo have fulfilled their duty to watch over this world.\nAccept this token of my gratitude. I shall send you the people of the earth, heirs to divine power.",
+      "display": null,
+      "notes": "Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. People of the earth retains the existing glossary term and renders the collective people/folk expression without naming them early. The Japanese Ines reference identifies the arriving pair as Ines and Rosa: https://wikiwiki.jp/dqdic3rd/%E3%80%90%E3%82%A4%E3%83%8D%E3%82%B9%E3%80%91 (secondary story-context corroboration only).",
+      "references": [
+        "torneko",
+        "place.barinabo",
+        "lore.earth_god",
+        "lore.people_of_the_earth"
+      ]
+    }
+  ]
+}

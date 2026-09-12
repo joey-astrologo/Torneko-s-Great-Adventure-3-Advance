@@ -1,0 +1,1102 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "world-completion.0086f0ac",
+      "family": "zoom",
+      "offset": "0x86f0ac",
+      "source_end_exclusive": "0x86f0ef",
+      "japanese": "-お城の　祝典によばれているので\n勝手に出かけない方が　よさそうだ。",
+      "source_hex": "2d82a88fe982cc81408f6a935482c982e682ce82ea82c482a282e982cc82c50a8f9f8ee882c98f6f82a982af82c882a295fb82aa814082e682b382bb82a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88fe982cc81408f6a935482c982e682ce82ea82c482a282e982cc82c5",
+          "text": "お城の　祝典によばれているので",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f8ee882c98f6f82a982af82c882a295fb82aa814082e682b382bb82a482be8142",
+          "text": "勝手に出かけない方が　よさそうだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f0ac",
+      "pointer_owners": [
+        {
+          "offset": "0xcb02b0",
+          "expected_address": "0x886f0ac",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You've been invited to the castle celebration. Better not wander off.",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086f0f0",
+      "family": "zoom",
+      "offset": "0x86f0f0",
+      "source_end_exclusive": "0x86f148",
+      "japanese": "-占いババが　寝込んでいるので\n家の外に出てから　静かに\nルーラしたほうがよさそうだ……。",
+      "source_hex": "2d90e882a2836f836f82aa814090518d9e82f182c582a282e982cc82c50a89c682cc8a4f82c98f6f82c482a982e7814090c382a982c90a838b815b838982b582bd82d982a482aa82e682b382bb82a482be81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82aa814090518d9e82f182c582a282e982cc82c5",
+          "text": "占いババが　寝込んでいるので",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89c682cc8a4f82c98f6f82c482a982e7814090c382a982c9",
+          "text": "家の外に出てから　静かに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838b815b838982b582bd82d982a482aa82e682b382bb82a482be816381638142",
+          "text": "ルーラしたほうがよさそうだ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f0f0",
+      "pointer_owners": [
+        {
+          "offset": "0xcb02ac",
+          "expected_address": "0x886f0f0",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-The Fortune-teller is ill in bed. You should go outside and use Zoom quietly...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "series_zoom",
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "world-completion.0086f148",
+      "family": "zoom",
+      "offset": "0x86f148",
+      "source_end_exclusive": "0x86f177",
+      "japanese": "-占いババと　話すまでは\n帰るわけにはいかない！",
+      "source_hex": "2d90e882a2836f836f82c68140986282b782dc82c582cd0a8b4182e982ed82af82c982cd82a282a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82c68140986282b782dc82c582cd",
+          "text": "占いババと　話すまでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4182e982ed82af82c982cd82a282a982c882a28149",
+          "text": "帰るわけにはいかない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f148",
+      "pointer_owners": [
+        {
+          "offset": "0xcb02a8",
+          "expected_address": "0x886f148",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You can't go home until you've spoken to the Fortune-teller!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "world-completion.0086f178",
+      "family": "zoom",
+      "offset": "0x86f178",
+      "source_end_exclusive": "0x86f1ad",
+      "japanese": "-しかし　まずは　トルネコに\n会ったほうがよさそうだ。",
+      "source_hex": "2d82b582a982b5814082dc82b882cd81408367838b836c835282c90a89ef82c182bd82d982a482aa82e682b382bb82a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082dc82b882cd81408367838b836c835282c9",
+          "text": "しかし　まずは　トルネコに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89ef82c182bd82d982a482aa82e682b382bb82a482be8142",
+          "text": "会ったほうがよさそうだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f178",
+      "pointer_owners": [
+        {
+          "offset": "0xcb02a4",
+          "expected_address": "0x886f178",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-First, you should go and see Torneko.",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "world-completion.0086f1b0",
+      "family": "zoom",
+      "offset": "0x86f1b0",
+      "source_end_exclusive": "0x86f20a",
+      "japanese": "-村の皆が　せっかく　ひらいてくれた\n宴をぬけだして　出かけるわけには\nいかないだろう……。",
+      "source_hex": "2d91ba82cc8a4682aa814082b982c182a982ad814082d082e782a282c482ad82ea82bd0a898382f082ca82af82be82b582c481408f6f82a982af82e982ed82af82c982cd0a82a282a982c882a282be82eb82a481638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82cc8a4682aa814082b982c182a982ad814082d082e782a282c482ad82ea82bd",
+          "text": "村の皆が　せっかく　ひらいてくれた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "898382f082ca82af82be82b582c481408f6f82a982af82e982ed82af82c982cd",
+          "text": "宴をぬけだして　出かけるわけには",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282a982c882a282be82eb82a4816381638142",
+          "text": "いかないだろう……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f1b0",
+      "pointer_owners": [
+        {
+          "offset": "0xcb02a0",
+          "expected_address": "0x886f1b0",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-The villagers went to all this trouble to hold a feast for you. You can't just slip away...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086f20c",
+      "family": "zoom",
+      "offset": "0x86f20c",
+      "source_end_exclusive": "0x86f270",
+      "japanese": "*占いババ「ちょいと　トシよりに\n  無理をさせないどくれよ。　ルーラは\n  神経痛に　ひびくんだからさ。",
+      "source_hex": "2a90e882a2836f836f817582bf82e582a282c681408367835682e682e882c90a202096b3979d82f082b382b982c882a282c782ad82ea82e681428140838b815b838982cd0a2020905f8c6f92c982c9814082d082d182ad82f182be82a982e782b3814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f817582bf82e582a282c681408367835682e682e882c9",
+          "text": "占いババ「ちょいと　トシよりに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2020",
+          "text": "  ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96b3979d82f082b382b982c882a282c782ad82ea82e681428140838b815b838982cd",
+          "text": "無理をさせないどくれよ。　ルーラは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2020",
+          "text": "  ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f8c6f92c982c9814082d082d182ad82f182be82a982e782b38142",
+          "text": "神経痛に　ひびくんだからさ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f20c",
+      "pointer_owners": [
+        {
+          "offset": "0xcb029c",
+          "expected_address": "0x886f20c",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "*Fortune-teller: Don't make an old woman overdo it! Zooming aggravates my aching joints.",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "series_zoom",
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "world-completion.0086f270",
+      "family": "zoom",
+      "offset": "0x86f270",
+      "source_end_exclusive": "0x86f2a3",
+      "japanese": "-しかし　占いババを\n残していくわけには　いかない！",
+      "source_hex": "2d82b582a982b5814090e882a2836f836f82f00a8e6382b582c482a282ad82ed82af82c982cd814082a282a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814090e882a2836f836f82f0",
+          "text": "しかし　占いババを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e6382b582c482a282ad82ed82af82c982cd814082a282a982c882a28149",
+          "text": "残していくわけには　いかない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f270",
+      "pointer_owners": [
+        {
+          "offset": "0xcb0298",
+          "expected_address": "0x886f270",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You can't leave the Fortune-teller behind!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "world-completion.0086f2a4",
+      "family": "zoom",
+      "offset": "0x86f2a4",
+      "source_end_exclusive": "0x86f2dd",
+      "japanese": "-占いババに　薬を作ってもらうまでは\n帰るわけにいかない！",
+      "source_hex": "2d90e882a2836f836f82c9814096f282f08dec82c182c482e082e782a482dc82c582cd0a8b4182e982ed82af82c982a282a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82c9814096f282f08dec82c182c482e082e782a482dc82c582cd",
+          "text": "占いババに　薬を作ってもらうまでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4182e982ed82af82c982a282a982c882a28149",
+          "text": "帰るわけにいかない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f2a4",
+      "pointer_owners": [
+        {
+          "offset": "0xcb0294",
+          "expected_address": "0x886f2a4",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You can't go home until the Fortune-teller has made the medicine!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "world-completion.0086f2e0",
+      "family": "zoom",
+      "offset": "0x86f2e0",
+      "source_end_exclusive": "0x86f338",
+      "japanese": "-今は　他の場所に行くより\nいっこくも早く　海竜の聖火を\n灯台に届けたほうが　よさそうだ。",
+      "source_hex": "2d8da182cd814091bc82cc8fea8f8a82c98d7382ad82e682e80a82a282c182b182ad82e0918182ad81408a4397b382cc90b989ce82f00a939491e482c993cd82af82bd82d982a482aa814082e682b382bb82a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8da182cd814091bc82cc8fea8f8a82c98d7382ad82e682e8",
+          "text": "今は　他の場所に行くより",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182b182ad82e0918182ad81408a4397b382cc90b989ce82f0",
+          "text": "いっこくも早く　海竜の聖火を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "939491e482c993cd82af82bd82d982a482aa814082e682b382bb82a482be8142",
+          "text": "灯台に届けたほうが　よさそうだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f2e0",
+      "pointer_owners": [
+        {
+          "offset": "0xcb0290",
+          "expected_address": "0x886f2e0",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You should take the sacred flame to the lighthouse at once, before going anywhere else.",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services. The established sacred flame term retains the Sea Dragon identity; no new holy-flame variant.",
+      "references": [
+        "lore.sea_dragon_flame"
+      ]
+    },
+    {
+      "id": "world-completion.0086f338",
+      "family": "zoom",
+      "offset": "0x86f338",
+      "source_end_exclusive": "0x86f371",
+      "japanese": "-族長に返事するまでは　勝手に\n出かけるわけには行かない！",
+      "source_hex": "2d91b092b782c995d48e9682b782e982dc82c582cd81408f9f8ee882c90a8f6f82a982af82e982ed82af82c982cd8d7382a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91b092b782c995d48e9682b782e982dc82c582cd81408f9f8ee882c9",
+          "text": "族長に返事するまでは　勝手に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f6f82a982af82e982ed82af82c982cd8d7382a982c882a28149",
+          "text": "出かけるわけには行かない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f338",
+      "pointer_owners": [
+        {
+          "offset": "0xcb028c",
+          "expected_address": "0x886f338",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You can't leave before giving the Chief your answer!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "role.village_chief"
+      ]
+    },
+    {
+      "id": "world-completion.0086f374",
+      "family": "zoom",
+      "offset": "0x86f374",
+      "source_end_exclusive": "0x86f3ba",
+      "japanese": "-しかし　ここがどこかも\n分からないので　どこへも\n行けそうにない……。",
+      "source_hex": "2d82b582a982b5814082b182b182aa82c782b182a982e00a95aa82a982e782c882a282cc82c5814082c782b182d682e00a8d7382af82bb82a482c982c882a281638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082b182b182aa82c782b182a982e0",
+          "text": "しかし　ここがどこかも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95aa82a982e782c882a282cc82c5814082c782b182d682e0",
+          "text": "分からないので　どこへも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d7382af82bb82a482c982c882a2816381638142",
+          "text": "行けそうにない……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f374",
+      "pointer_owners": [
+        {
+          "offset": "0x604e8",
+          "expected_address": "0x886f374",
+          "evidence": "thumb_literal"
+        },
+        {
+          "offset": "0xcb0288",
+          "expected_address": "0x886f374",
+          "evidence": "initialized_zoom_pointer"
+        }
+      ],
+      "english": "-You don't even know where you are. It doesn't look like you can go anywhere...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086f3bc",
+      "family": "zoom",
+      "offset": "0x86f3bc",
+      "source_end_exclusive": "0x86f3d0",
+      "japanese": "-ルーラできますが？",
+      "source_hex": "2d838b815b838982c582ab82dc82b782aa814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838b815b838982c582ab82dc82b782aa8148",
+          "text": "ルーラできますが？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f3bc",
+      "pointer_owners": [
+        {
+          "offset": "0x604cc",
+          "expected_address": "0x886f3bc",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "-Use Zoom?",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "series_zoom"
+      ]
+    },
+    {
+      "id": "world-completion.0086f3d0",
+      "family": "zoom",
+      "offset": "0x86f3d0",
+      "source_end_exclusive": "0x86f42a",
+      "japanese": "-まだ　自分では　新しい場所へ\n冒険していないので　ルーラできる\n行き先も　ないようだ……。",
+      "source_hex": "2d82dc82be81408ea995aa82c582cd8140905682b582a28fea8f8a82d60a96608caf82b582c482a282c882a282cc82c58140838b815b838982c582ab82e90a8d7382ab90e682e0814082c882a282e682a482be81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2d",
+          "text": "-",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be81408ea995aa82c582cd8140905682b582a28fea8f8a82d6",
+          "text": "まだ　自分では　新しい場所へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82b582c482a282c882a282cc82c58140838b815b838982c582ab82e9",
+          "text": "冒険していないので　ルーラできる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d7382ab90e682e0814082c882a282e682a482be816381638142",
+          "text": "行き先も　ないようだ……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086f3d0",
+      "pointer_owners": [
+        {
+          "offset": "0x604e0",
+          "expected_address": "0x886f3d0",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "-You haven't explored anywhere new on your own yet. There's nowhere you can Zoom to...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": [
+        "series_zoom"
+      ]
+    },
+    {
+      "id": "world-completion.0086faa4",
+      "family": "observation",
+      "offset": "0x86faa4",
+      "source_end_exclusive": "0x86fabd",
+      "japanese": "なんと　%sを　見つけた！",
+      "source_hex": "82c882f182c68140257382f081408ca982c282af82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f081408ca982c282af82bd8149",
+          "text": "を　見つけた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086faa4",
+      "pointer_owners": [
+        {
+          "offset": "0x62e74",
+          "expected_address": "0x886faa4",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "You found %s!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086fac0",
+      "family": "observation",
+      "offset": "0x86fac0",
+      "source_end_exclusive": "0x86faea",
+      "japanese": "しかし　$tは\nお金が　いっぱいだった……。",
+      "source_hex": "82b582a982b58140247482cd0a82a88be082aa814082a282c182cf82a282be82c182bd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b58140",
+          "text": "しかし　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd",
+          "text": "は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88be082aa814082a282c182cf82a282be82c182bd816381638142",
+          "text": "お金が　いっぱいだった……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086fac0",
+      "pointer_owners": [
+        {
+          "offset": "0x62e78",
+          "expected_address": "0x886fac0",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "But $t can't carry any more gold...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086faec",
+      "family": "observation",
+      "offset": "0x86faec",
+      "source_end_exclusive": "0x86fb1a",
+      "japanese": "しかし　$tは\n持ちものが　いっぱいだった……。",
+      "source_hex": "82b582a982b58140247482cd0a8e9d82bf82e082cc82aa814082a282c182cf82a282be82c182bd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b58140",
+          "text": "しかし　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd",
+          "text": "は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9d82bf82e082cc82aa814082a282c182cf82a282be82c182bd816381638142",
+          "text": "持ちものが　いっぱいだった……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086faec",
+      "pointer_owners": [
+        {
+          "offset": "0x62e7c",
+          "expected_address": "0x886faec",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "But $t's inventory is full...",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.0086fb1c",
+      "family": "observation",
+      "offset": "0x86fb1c",
+      "source_end_exclusive": "0x86fb34",
+      "japanese": "$tは\n%sを　手に入れた！",
+      "source_hex": "247482cd0a257382f081408ee882c993fc82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd",
+          "text": "は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f081408ee882c993fc82ea82bd8149",
+          "text": "を　手に入れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0086fb1c",
+      "pointer_owners": [
+        {
+          "offset": "0x62e80",
+          "expected_address": "0x886fb1c",
+          "evidence": "thumb_literal"
+        },
+        {
+          "offset": "0x62f34",
+          "expected_address": "0x886fb1c",
+          "evidence": "thumb_literal"
+        }
+      ],
+      "english": "$t obtained %s!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.00cb04e8",
+      "family": "warehouse",
+      "offset": "0xcb04e8",
+      "source_end_exclusive": "0xcb057a",
+      "japanese": "＊「もう倉庫がいっぱいで\n$xこれ以上　入れることはできません。\n\n＊「いらないものを　すてたり\n$x売ったりして　減らしておくことを\n$xおすすめします。",
+      "source_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c50a247882b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f181420a0a8196817582a282e782c882a282e082cc82f0814082b782c482bd82e80a2478948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f00a247882a882b782b782df82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e082a491718cc982aa82a282c182cf82a282c5",
+          "text": "＊「もう倉庫がいっぱいで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea88c88fe3814093fc82ea82e982b182c682cd82c582ab82dc82b982f18142",
+          "text": "これ以上　入れることはできません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a282e782c882a282e082cc82f0814082b782c482bd82e8",
+          "text": "＊「いらないものを　すてたり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "948482c182bd82e882b582c481408cb882e782b582c482a882ad82b182c682f0",
+          "text": "売ったりして　減らしておくことを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882b782b782df82b582dc82b78142",
+          "text": "おすすめします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00cb04e8",
+      "pointer_owners": [
+        {
+          "offset": "0x7394c",
+          "expected_address": "0x2000660",
+          "evidence": "inline_startup_string_literal"
+        }
+      ],
+      "english": "The warehouse is full. We cannot store any more items.\nTry discarding or selling unwanted items to make room.",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    },
+    {
+      "id": "world-completion.00cb057c",
+      "family": "warehouse",
+      "offset": "0xcb057c",
+      "source_end_exclusive": "0xcb0599",
+      "japanese": "＊「ありがとうございました。",
+      "source_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082e882aa82c682a482b282b482a282dc82b582bd8142",
+          "text": "＊「ありがとうございました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00cb057c",
+      "pointer_owners": [
+        {
+          "offset": "0x73994",
+          "expected_address": "0x20006f4",
+          "evidence": "inline_startup_string_literal"
+        }
+      ],
+      "english": "Thank you!",
+      "display": null,
+      "notes": "Independent original-source translation; prefixes and runtime text pointers preserve their separate consumer contracts. Warehouse wording reuses the previously reviewed matching source in ally-services.",
+      "references": []
+    }
+  ]
+}

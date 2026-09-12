@@ -1,0 +1,400 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "keyboard.00c454a4",
+      "family": "header",
+      "offset": "0xc454a4",
+      "source_end_exclusive": "0xc454d2",
+      "japanese": "<03 09 04>カタカナ<03 09 34>すすむ<03 09 5C>りれき<03 09 88>もどる<03 09 B0>おわり",
+      "source_hex": "030904834a835e834a836903093482b782b782de03095c82e882ea82ab03098882e082c782e90309b082a8dcd800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030904",
+          "text": "<03 09 04>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a835e834a8369",
+          "text": "カタカナ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030934",
+          "text": "<03 09 34>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782b782de",
+          "text": "すすむ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03095c",
+          "text": "<03 09 5C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e882ea82ab",
+          "text": "りれき",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030988",
+          "text": "<03 09 88>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082c782e9",
+          "text": "もどる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0309b0",
+          "text": "<03 09 B0>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8",
+          "text": "お",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dcd8",
+          "text": "わり",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c454a4",
+      "original_pointer_word": "0xcb0620",
+      "header_index": 0,
+      "english": "{hex:030904}Page{hex:030934}Next{hex:03095c}History{hex:030988}Back{hex:0309b0}Done",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    },
+    {
+      "id": "keyboard.00c45474",
+      "family": "header",
+      "offset": "0xc45474",
+      "source_end_exclusive": "0xc454a2",
+      "japanese": "<03 09 04>ひらがな<03 09 34>すすむ<03 09 5C>りれき<03 09 88>もどる<03 09 B0>おわり",
+      "source_hex": "03090482d082e782aa82c803093482b782b782de03095c82e882ea82ab03098882e082c782e90309b082a8dcd800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030904",
+          "text": "<03 09 04>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d082e782aa82c8",
+          "text": "ひらがな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030934",
+          "text": "<03 09 34>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782b782de",
+          "text": "すすむ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03095c",
+          "text": "<03 09 5C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e882ea82ab",
+          "text": "りれき",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030988",
+          "text": "<03 09 88>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082c782e9",
+          "text": "もどる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0309b0",
+          "text": "<03 09 B0>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8",
+          "text": "お",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dcd8",
+          "text": "わり",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c45474",
+      "original_pointer_word": "0xcb0624",
+      "header_index": 1,
+      "english": "{hex:030904}Page{hex:030934}Next{hex:03095c}History{hex:030988}Back{hex:0309b0}Done",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    },
+    {
+      "id": "keyboard.00c4544c",
+      "family": "header",
+      "offset": "0xc4544c",
+      "source_end_exclusive": "0xc45474",
+      "japanese": "<03 09 04>カタカナ<03 09 34>すすむ<03 09 5C><03 09 88>もどる<03 09 B0>おわり",
+      "source_hex": "030904834a835e834a836903093482b782b782de03095c03098882e082c782e90309b082a8dcd800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030904",
+          "text": "<03 09 04>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a835e834a8369",
+          "text": "カタカナ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030934",
+          "text": "<03 09 34>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782b782de",
+          "text": "すすむ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03095c",
+          "text": "<03 09 5C>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030988",
+          "text": "<03 09 88>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082c782e9",
+          "text": "もどる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0309b0",
+          "text": "<03 09 B0>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8",
+          "text": "お",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dcd8",
+          "text": "わり",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4544c",
+      "original_pointer_word": "0xcb0628",
+      "header_index": 2,
+      "english": "{hex:030904}Page{hex:030934}Next{hex:030988}Back{hex:0309b0}Done",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    },
+    {
+      "id": "keyboard.00c45424",
+      "family": "header",
+      "offset": "0xc45424",
+      "source_end_exclusive": "0xc4544c",
+      "japanese": "<03 09 04>ひらがな<03 09 34>すすむ<03 09 5C><03 09 88>もどる<03 09 B0>おわり",
+      "source_hex": "03090482d082e782aa82c803093482b782b782de03095c03098882e082c782e90309b082a8dcd800",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030904",
+          "text": "<03 09 04>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d082e782aa82c8",
+          "text": "ひらがな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030934",
+          "text": "<03 09 34>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782b782de",
+          "text": "すすむ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03095c",
+          "text": "<03 09 5C>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030988",
+          "text": "<03 09 88>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082c782e9",
+          "text": "もどる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0309b0",
+          "text": "<03 09 B0>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8",
+          "text": "お",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "dcd8",
+          "text": "わり",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c45424",
+      "original_pointer_word": "0xcb062c",
+      "header_index": 3,
+      "english": "{hex:030904}Page{hex:030934}Next{hex:030988}Back{hex:0309b0}Done",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    },
+    {
+      "id": "keyboard.00c46740",
+      "family": "hint",
+      "offset": "0xc46740",
+      "source_end_exclusive": "0xc46748",
+      "japanese": "①:入力",
+      "source_hex": "87403a93fc97cd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8740",
+          "text": "①",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93fc97cd",
+          "text": "入力",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c46740",
+      "original_pointer_word": "0x7beec",
+      "header_index": null,
+      "english": "A: Enter  L: Page  R: Done",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    },
+    {
+      "id": "keyboard.00c46758",
+      "family": "popup",
+      "offset": "0xc46758",
+      "source_end_exclusive": "0xc46762",
+      "japanese": "選択<CR>消す",
+      "source_hex": "914991f00d8fc182b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "914991f0",
+          "text": "選択",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0d",
+          "text": "<CR>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8fc182b7",
+          "text": "消す",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c46758",
+      "original_pointer_word": "0x7cf18",
+      "header_index": null,
+      "english": "Select\nErase",
+      "notes": "Independent original UI translation. Page describes both Latin case switching and preserved kana password pages; History appears only when the original caller allows it. Existing compact mappings and name/save limits are unchanged.",
+      "references": []
+    }
+  ]
+}

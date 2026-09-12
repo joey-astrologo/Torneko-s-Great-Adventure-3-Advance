@@ -16,7 +16,12 @@ public class InspectThumbRange extends GhidraScript {
         for(int i=1;i<args.length;i+=2) {
             long start=Long.decode(args[i]),end=Long.decode(args[i+1]);
             Address entry=toAddr(start);
-            currentProgram.getProgramContext().setValue(currentProgram.getRegister("TMode"),entry,entry,BigInteger.ONE);
+            if (getInstructionAt(entry)==null) {
+                currentProgram.getProgramContext().setValue(currentProgram.getRegister("TMode"),entry,entry,BigInteger.ONE);
+            } else if (!BigInteger.ONE.equals(currentProgram.getProgramContext().getValue(
+                    currentProgram.getRegister("TMode"),entry,false))) {
+                throw new IllegalStateException("Existing instruction is not Thumb at "+entry);
+            }
             disassemble(entry);
             result.append(String.format("RANGE %08x %08x (end exclusive)%n",start,end));
             for(long at=start;at<end;) {

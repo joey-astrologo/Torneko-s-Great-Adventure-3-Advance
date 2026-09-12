@@ -1,0 +1,109 @@
+offset	english
+0086EF3C	Saving high scores...\nDo not turn off the power.
+0086EF7C	Saving failed.\nTry again?
+0086EFB4	Saving Adventure Log $j0...\nDo not turn off the power.
+0086EFF8	Saving failed.\nTry again?
+00C4029C	Cancel
+00C402A4	Lift curse
+00C402B0	Hear guidance
+00C402C0	Pray
+00C402D0	Ines
+00C402D8	Rosa
+00C40330	Cancel
+00C40338	Instructions
+00C40340	Place a bet
+00C4034C	Entrants
+00C40394	Monster lodge
+00C403A8	Registered monsters
+00C403C4	Arena monsters
+00C4041C	Arena instructions
+00C4042C	Battle
+00C40438	View next opponents
+00C40470	No
+00C40478	*Yes
+00C40494	Congratulations! The monster you backed survived!\nYou've won $d0 tokens. You're on a roll!\nNow, you can stake all $d0 tokens you won on the next match. How about it? Want to keep going?
+00C40598	Congratulations! Your allied monsters survived!\nYour prize this time is $i0! Here you go!
+00C4062C	Congratulations! Your allied monsters survived!\nYour prize was going to be $i0, but your bag was full, wasn't it? What a shame!
+00C406E8	Here, monsters battle each other. You choose one and bet your tokens on it.\nLook at the entrants and the odds, then choose the monster you think will survive!\nIf that monster survives the match, your tokens will multiply according to its odds!\nThe odds change with every match. A monster that paid out 1.2 times your bet before might pay out 3 times as much now!\nYou can bet between 10 and 100 tokens.\nHowever big you win, we can only pay out up to 99,999 tokens at once. Keep that in mind!\nThat's all there is to it!
+00C40968	Here, your allied monsters battle a team of our hand-picked monsters!\nTo take part, just bring along some monster allies.\nTheir combined levels must be no more than eight times the number of monsters on our team. If they're over that limit, we can't let them enter.\nOur monsters always move first.\nThe battle continues until every monster on one side is defeated.\nAfter 30 turns, time is up and our team wins!\nIf your monsters win, we'll hand over a big prize. That's about it!
+00C40C44	Welcome to the Monster Arena, the home of fierce competition! Care for a thrilling match?
+00C40CA0	Hey, you haven't got enough tokens! Buy some at the token counter, then come back!
+00C40D00	So, what'll it be? Go on, place a big bet!
+00C40D38	All right, come back again!
+00C40D5C	You'd like to hear the Monster Arena instructions?
+00C40D8C	Congratulations! Here are your $d0 tokens!
+00C40DBC	I see. What a shame! Would you like to place a fresh bet on the next match, then?
+00C40E18	That's the spirit! Choose the monster you want to bet on.
+00C40E64	You can't cancel once you've staked your winnings on another match!
+00C40E98	Too bad about that! How about it? Want to try again?
+00C40ED4	Welcome to the Monster Arena, the home of fierce competition! What would you like to do?
+00C40F28	So, what'll it be? Let's see your monster allies fight!\nThe combined levels of the allies you enter can be no more than $d0!
+00C40FA4	You haven't got a single monster ally! Go and recruit some first.
+00C41000	The combined levels of your chosen monsters are too high!\nThe limit is eight times the number of monsters on our team.
+00C4108C	Let's get the battle started, then. Are you ready?
+00C410C8	Your bag is full! You won't get a prize even if you win. Is that all right?
+00C41130	All right! Make sure you cheer your monster allies on!
+00C41178	Total levels: %d
+00C41188	Too many monsters are taking part in the battle!
+00C411B8	How about another match?
+00C411E4	Your allies
+00C411F4	Looks like [$m0] won. That was quite a match!
+00C41230	$t received $i0!
+00C41244	What, you don't want it? You can't come back and claim it later, you know!
+00C4129C	Registered monsters
+00C412AC	Looks like a draw. Still, that was quite a match!
+00C412F0	How many tokens will you bet on that one?
+00C41314	T
+00C41318	Sorry, the minimum bet here is 10 tokens. Make it at least 10!
+00C41374	Sorry, the maximum bet here is 100 tokens. Make it 100 or less!
+00C413D4	%s Lv%d
+00C413DC	That's $d0 tokens on $m0. If it wins, you'll get $d1 tokens. Is this the monster you want to bet on?
+00C4143C	Now all that's left is to watch! Let the battle begin!
+00C41484	%2d:%s Lv%d {hex:0309a0}%d%c%dx
+00C414A4	Tokens: $d0
+00C414F4	Cancel
+00C414FC	About battles
+00C4150C	Enter password
+00C4151C	Registered battles
+00C4156C	Erase all
+00C41578	View opponents
+00C41584	Battle
+00C415BC	Cancel battle
+00C415C8	Registered monsters
+00C415D8	Tipper's allies
+00C415E8	Here, you can register monsters raised in another Adventure Log and battle them!\nIf a friend plays this game and has monster allies, ask them to enter an ally's password here. We'll register it for you!\nOnce it's registered, you can battle your friend's monster whenever you like!\nYou can check a monster's password with the command at our Monster lodge.\nDefeat all the opposing monsters first to win. There aren't any prizes, so just enjoy the battle!\nBefore you fight, you can choose which side moves first. That's about it!
+00C41884	So, what'll it be? Let's see your monster allies fight!
+00C418C0	You haven't got a single monster ally! Go and recruit some first.
+00C4191C	Hmm? There aren't any monsters registered yet!
+00C4194C	There are $d0 monsters registered.
+00C41968	You haven't chosen any monsters to take part! Pick the entrants from your registered monsters first.
+00C419E8	You'll battle the registered monsters. Are you ready?
+00C41A2C	Choose which side will move first.
+00C41A5C	All right! Make sure you cheer your monster allies on!
+00C41AA4	Too many monsters are taking part in the battle!
+00C41AD4	There aren't any monsters registered at the moment!
+00C41B0C	This will erase every registered monster. Once they're gone, you can't undo it. Are you sure?
+00C41B78	All right, I've erased every registered monster.
+00C41BB4	Sorry, there's no room for any more monsters! Remove some before you register another.
+00C41C14	Would you like to enter a password and register a monster?
+00C41C4C	Hey, something's wrong with this password!\nCheck it carefully and enter the correct password.
+00C41CD4	I've registered the monster!
+00C41CF8	You need 10 empty spaces in your bag to carry Rosa's treasures, or you can't set off on an adventure!\nReduce $t's belongings to 10 items or fewer before you go!
+00C41D94	You can only bring up to 10 items into this dungeon. Reduce your items before you return.
+00C41E64	Enter under these conditions?
+00C41E90	{hex:030506}*Autosave on entry
+00C41EB0	{hex:030505}*Start at Lv1 (restored afterward)
+00C41EDC	{hex:030502}*Lose carried items on entry
+00C41F08	{hex:030502}*Lose carried gold on entry
+00C41F34	{hex:030505}*Allies return to the Monster lodge
+00C41F5C	{hex:030502}*Lose all items and gold on defeat
+00C41F8C	{hex:030502}*Lose all items on clearing
+00C41FB4	{hex:030502}*Defeat restores your entry stats
+00C41FE0	Ines
+00C41FE8	Rosa
+00C41FF0	{hex:030505}*Cannot bring %s along
+00C42008	Yes
+00C42010	No
+00C42018	Saving high scores...\nDo not turn off the power.
+00C42058	Saving Adventure Log $j0...\nDo not turn off the power.
+00C42094	Saving failed.

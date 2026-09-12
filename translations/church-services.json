@@ -1,0 +1,4844 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "church.00c78ca8",
+      "family": "message",
+      "offset": "0xc78ca8",
+      "source_end_exclusive": "0xc78d0e",
+      "japanese": "＊「$m0よ。\n$xそなたは　もう\n$xじゅうぶんに強い。\n＊「その強さは　ひとびとに\n$x語りつがれるであろう。",
+      "source_hex": "81968175246d3082e681420a247882bb82c882bd82cd814082e082a40a247882b682e382a482d482f182c98bad82a281420a8196817582bb82cc8bad82b382cd814082d082c682d182c682c90a24788cea82e882c282aa82ea82e982c582a082eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cd814082e082a4",
+          "text": "そなたは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c98bad82a28142",
+          "text": "じゅうぶんに強い。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82cc8bad82b382cd814082d082c682d182c682c9",
+          "text": "＊「その強さは　ひとびとに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cea82e882c282aa82ea82e982c582a082eb82a48142",
+          "text": "語りつがれるであろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78ca8",
+      "pointer_owners": [
+        {
+          "offset": "0xc78ca0",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 19
+        }
+      ],
+      "english": "$m0, you have already grown strong enough.\nYour strength will be spoken of for generations.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78d10",
+      "family": "message",
+      "offset": "0xc78d10",
+      "source_end_exclusive": "0xc78d4b",
+      "japanese": "＊「$m0よ。\n$xあと$d0の経験で\n$x次のレベルに　なるだろう。",
+      "source_hex": "81968175246d3082e681420a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814082c882e982be82eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814082c882e982be82eb82a48142",
+          "text": "次のレベルに　なるだろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78d10",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c9c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 18
+        }
+      ],
+      "english": "$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78d4c",
+      "family": "message",
+      "offset": "0xc78d4c",
+      "source_end_exclusive": "0xc78daf",
+      "japanese": "＊「おお　天と地を　おさめし　神よ！\n$xこの者の　持ち物より\n$xいまわしき呪いを　解きはなちたまえ！",
+      "source_hex": "8196817582a882a88140935682c6926e82f0814082a882b382df82b58140905f82e681490a247882b182cc8ed282cc81408e9d82bf95a882e682e80a247882a282dc82ed82b582ab8ef482a282f0814089f082ab82cd82c882bf82bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140935682c6926e82f0814082a882b382df82b58140905f82e68149",
+          "text": "＊「おお　天と地を　おさめし　神よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8ed282cc81408e9d82bf95a882e682e8",
+          "text": "この者の　持ち物より",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282dc82ed82b582ab8ef482a282f0814089f082ab82cd82c882bf82bd82dc82a68149",
+          "text": "いまわしき呪いを　解きはなちたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78d4c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c98",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 17
+        }
+      ],
+      "english": "O God who rules the heavens and the earth!\nRelease this soul's belongings from their dreadful curse!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78db0",
+      "family": "message",
+      "offset": "0xc78db0",
+      "source_end_exclusive": "0xc78e2d",
+      "japanese": "＊「残念だが　寄付をするには\n$xお金が　たりないようじゃな。\n\n＊「おお　天と地を　おさめし　神よ\n$xこの者を　おゆるしたまえ！",
+      "source_hex": "819681758e63944f82be82aa81408af1957482f082b782e982c982cd0a247882a88be082aa814082bd82e882c882a282e682a482b682e182c881420a0a8196817582a882a88140935682c6926e82f0814082a882b382df82b58140905f82e60a247882b182cc8ed282f0814082a882e482e982b582bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758e63944f82be82aa81408af1957482f082b782e982c982cd",
+          "text": "＊「残念だが　寄付をするには",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88be082aa814082bd82e882c882a282e682a482b682e182c88142",
+          "text": "お金が　たりないようじゃな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140935682c6926e82f0814082a882b382df82b58140905f82e6",
+          "text": "＊「おお　天と地を　おさめし　神よ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8ed282f0814082a882e482e982b582bd82dc82a68149",
+          "text": "この者を　おゆるしたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78db0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c94",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 16
+        }
+      ],
+      "english": "Sadly, you have not enough gold for a donation.\n\nO God who rules the heavens and the earth, forgive this soul!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78e30",
+      "family": "message",
+      "offset": "0xc78e30",
+      "source_end_exclusive": "0xc78e51",
+      "japanese": "＊「ほかに　のぞみは　あるかな？",
+      "source_hex": "8196817582d982a982c9814082cc82bc82dd82cd814082a082e982a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d982a982c9814082cc82bc82dd82cd814082a082e982a982c88148",
+          "text": "＊「ほかに　のぞみは　あるかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78e30",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c90",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 15
+        }
+      ],
+      "english": "Is there anything else you desire?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78e54",
+      "family": "message",
+      "offset": "0xc78e54",
+      "source_end_exclusive": "0xc78e9d",
+      "japanese": "＊「神への寄付は\n$xそなたの　気もちしだい。\n$x誰も　とがめはせんだろう。",
+      "source_hex": "81968175905f82d682cc8af1957482cd0a247882bb82c882bd82cc81408b4382e082bf82b582be82a281420a2478924e82e0814082c682aa82df82cd82b982f182be82eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175905f82d682cc8af1957482cd",
+          "text": "＊「神への寄付は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cc81408b4382e082bf82b582be82a28142",
+          "text": "そなたの　気もちしだい。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "924e82e0814082c682aa82df82cd82b982f182be82eb82a48142",
+          "text": "誰も　とがめはせんだろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78e54",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c8c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 14
+        }
+      ],
+      "english": "A donation to God must come from the heart. No one will blame you.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78ea0",
+      "family": "message",
+      "offset": "0xc78ea0",
+      "source_end_exclusive": "0xc78ee2",
+      "japanese": "＊「ならば　大地の神に\n$x$d0ゴールドの　寄付を。\n$xよろしいかな？",
+      "source_hex": "8196817582c882e782ce814091e5926e82cc905f82c90a24782464308353815b838b836882cc81408af1957482f081420a247882e682eb82b582a282a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882e782ce814091e5926e82cc905f82c9",
+          "text": "＊「ならば　大地の神に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8353815b838b836882cc81408af1957482f08142",
+          "text": "ゴールドの　寄付を。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282a982c88148",
+          "text": "よろしいかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78ea0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c88",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 13
+        }
+      ],
+      "english": "Then offer $d0 gold to the Earth God. Shall we proceed?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "lore.earth_god"
+      ]
+    },
+    {
+      "id": "church.00c78ee4",
+      "family": "message",
+      "offset": "0xc78ee4",
+      "source_end_exclusive": "0xc78f29",
+      "japanese": "＊「しかし　$tどのは\n$x呪われたアイテムなぞ\n$x持っておらんようだぞ。",
+      "source_hex": "8196817582b582a982b58140247482c782cc82cd0a24788ef482ed82ea82bd834183438365838082c882bc0a24788e9d82c182c482a882e782f182e682a482be82bc814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b582a982b58140",
+          "text": "＊「しかし　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782cc82cd",
+          "text": "どのは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef482ed82ea82bd834183438365838082c882bc",
+          "text": "呪われたアイテムなぞ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9d82c182c482a882e782f182e682a482be82bc8142",
+          "text": "持っておらんようだぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78ee4",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c84",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 12
+        }
+      ],
+      "english": "But $t, you do not seem to have any cursed items.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78f2c",
+      "family": "message",
+      "offset": "0xc78f2c",
+      "source_end_exclusive": "0xc78f75",
+      "japanese": "＊「おお　天と地よ！\n$xそなたの子に　ひとときの\n$x休息を　あたえたまえ！",
+      "source_hex": "8196817582a882a88140935682c6926e82e681490a247882bb82c882bd82cc8e7182c9814082d082c682c682ab82cc0a24788b7891a782f0814082a082bd82a682bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140935682c6926e82e68149",
+          "text": "＊「おお　天と地よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cc8e7182c9814082d082c682c682ab82cc",
+          "text": "そなたの子に　ひとときの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7891a782f0814082a082bd82a682bd82dc82a68149",
+          "text": "休息を　あたえたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78f2c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c7c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 10
+        }
+      ],
+      "english": "O heavens and earth! Grant your child a moment of rest!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c78f78",
+      "family": "message",
+      "offset": "0xc78f78",
+      "source_end_exclusive": "0xc79007",
+      "japanese": "＊「では　天と地の声に　耳をすまそう。\n\n\n＊「$m0よ。\n$xそなたは　もう\n$xじゅうぶんに強い。\n＊「その強さは　ひとびとに\n$x語りつがれるであろう。",
+      "source_hex": "8196817582c582cd8140935682c6926e82cc90ba82c981408ea882f082b782dc82bb82a481420a0a0a81968175246d3082e681420a247882bb82c882bd82cd814082e082a40a247882b682e382a482d482f182c98bad82a281420a8196817582bb82cc8bad82b382cd814082d082c682d182c682c90a24788cea82e882c282aa82ea82e982c582a082eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140935682c6926e82cc90ba82c981408ea882f082b782dc82bb82a48142",
+          "text": "＊「では　天と地の声に　耳をすまそう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cd814082e082a4",
+          "text": "そなたは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c98bad82a28142",
+          "text": "じゅうぶんに強い。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82cc8bad82b382cd814082d082c682d182c682c9",
+          "text": "＊「その強さは　ひとびとに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cea82e882c282aa82ea82e982c582a082eb82a48142",
+          "text": "語りつがれるであろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78f78",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c78",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 9
+        }
+      ],
+      "english": "Let us listen to the voices of heaven and earth.\n\n$m0, you have already grown strong enough.\nYour strength will be spoken of for generations.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79008",
+      "family": "message",
+      "offset": "0xc79008",
+      "source_end_exclusive": "0xc7906c",
+      "japanese": "＊「では　天と地の声に　耳をすまそう。\n\n\n＊「$m0よ。\n$xあと$d0の経験で\n$x次のレベルに　なるだろう。",
+      "source_hex": "8196817582c582cd8140935682c6926e82cc90ba82c981408ea882f082b782dc82bb82a481420a0a0a81968175246d3082e681420a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814082c882e982be82eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140935682c6926e82cc90ba82c981408ea882f082b782dc82bb82a48142",
+          "text": "＊「では　天と地の声に　耳をすまそう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814082c882e982be82eb82a48142",
+          "text": "次のレベルに　なるだろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79008",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c74",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 8
+        }
+      ],
+      "english": "Let us listen to the voices of heaven and earth.\n\n$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7906c",
+      "family": "message",
+      "offset": "0xc7906c",
+      "source_end_exclusive": "0xc790a8",
+      "japanese": "＊「では　お気をつけて。\n$xそなたに　幸運の　あらんことを。",
+      "source_hex": "8196817582c582cd814082a88b4382f082c282af82c481420a247882bb82c882bd82c981408d4b895e82cc814082a082e782f182b182c682f0814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082a88b4382f082c282af82c48142",
+          "text": "＊「では　お気をつけて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82c981408d4b895e82cc814082a082e782f182b182c682f08142",
+          "text": "そなたに　幸運の　あらんことを。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7906c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c70",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 7
+        }
+      ],
+      "english": "Take care, then. May good fortune be with you.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c790a8",
+      "family": "message",
+      "offset": "0xc790a8",
+      "source_end_exclusive": "0xc79128",
+      "japanese": "＊「なんと　記録しないで\n$x休むと　いうのか……。\n\n＊「それでは　そなたの冒険が\n$x前の記録まで　もどってしまうが\n$xよいのだな？",
+      "source_hex": "8196817582c882f182c681408b4c985e82b582c882a282c50a24788b7882de82c6814082a282a482cc82a98163816381420a0a8196817582bb82ea82c582cd814082bb82c882bd82cc96608caf82aa0a2478914f82cc8b4c985e82dc82c5814082e082c782c182c482b582dc82a482aa0a247882e682a282cc82be82c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182c681408b4c985e82b582c882a282c5",
+          "text": "＊「なんと　記録しないで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7882de82c6814082a282a482cc82a9816381638142",
+          "text": "休むと　いうのか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82ea82c582cd814082bb82c882bd82cc96608caf82aa",
+          "text": "＊「それでは　そなたの冒険が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "914f82cc8b4c985e82dc82c5814082e082c782c182c482b582dc82a482aa",
+          "text": "前の記録まで　もどってしまうが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682a282cc82be82c88148",
+          "text": "よいのだな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c790a8",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c6c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 6
+        }
+      ],
+      "english": "What? You wish to rest without saving...?\n\nYour adventure will return to the point where you last saved. Are you sure?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79128",
+      "family": "message",
+      "offset": "0xc79128",
+      "source_end_exclusive": "0xc79197",
+      "japanese": "＊「記録しないというのか。\n$xふむ。　それも　また\n$xひとつの道じゃろう。\n＊「まだ　冒険を\n$x続けるつもりかな？",
+      "source_hex": "819681758b4c985e82b582c882a282c682a282a482cc82a981420a247882d382de8142814082bb82ea82e0814082dc82bd0a247882d082c682c282cc93b982b682e182eb82a481420a8196817582dc82be814096608caf82f00a247891b182af82e982c282e082e882a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758b4c985e82b582c882a282c682a282a482cc82a98142",
+          "text": "＊「記録しないというのか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d382de8142814082bb82ea82e0814082dc82bd",
+          "text": "ふむ。　それも　また",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d082c682c282cc93b982b682e182eb82a48142",
+          "text": "ひとつの道じゃろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82be814096608caf82f0",
+          "text": "＊「まだ　冒険を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91b182af82e982c282e082e882a982c88148",
+          "text": "続けるつもりかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79128",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c68",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 5
+        }
+      ],
+      "english": "You do not wish to save? Hmm. That, too, is a path you may take.\nWill you continue your adventure?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79198",
+      "family": "message",
+      "offset": "0xc79198",
+      "source_end_exclusive": "0xc791da",
+      "japanese": "＊「たしかに　記録しましたぞ。\n$xまだ　冒険を　続けるつもりかね？",
+      "source_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd82bc81420a247882dc82be814096608caf82f0814091b182af82e982c282e082e882a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd82bc8142",
+          "text": "＊「たしかに　記録しましたぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be814096608caf82f0814091b182af82e982c282e082e882a982cb8148",
+          "text": "まだ　冒険を　続けるつもりかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79198",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c64",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 4
+        }
+      ],
+      "english": "Your adventure has been saved. Will you continue?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c791dc",
+      "family": "message",
+      "offset": "0xc791dc",
+      "source_end_exclusive": "0xc79239",
+      "japanese": "＊「むむ？　なんとしたことか！？\n$x記録に　失敗したようだ。\n$xもういちど　ためしてみるかね？",
+      "source_hex": "8196817582de82de8148814082c882f182c682b582bd82b182c682a9814981480a24788b4c985e82c981408eb8947382b582bd82e682a482be81420a247882e082a482a282bf82c7814082bd82df82b582c482dd82e982a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582de82de8148814082c882f182c682b582bd82b182c682a981498148",
+          "text": "＊「むむ？　なんとしたことか！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82c981408eb8947382b582bd82e682a482be8142",
+          "text": "記録に　失敗したようだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282bf82c7814082bd82df82b582c482dd82e982a982cb8148",
+          "text": "もういちど　ためしてみるかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c791dc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c60",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 3
+        }
+      ],
+      "english": "Hmm? What has happened?! It seems the save failed. Will you try again?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7923c",
+      "family": "message",
+      "offset": "0xc7923c",
+      "source_end_exclusive": "0xc792ad",
+      "japanese": "＊「では　天と地のもとで\n$xこれまでの　おこないを\n$x告白なさい。\n＊「そして　冒険の書に\n$x記録しても　よいかね？",
+      "source_hex": "8196817582c582cd8140935682c6926e82cc82e082c682c50a247882b182ea82dc82c582cc814082a882b182c882a282f00a24788d90949282c882b382a281420a8196817582bb82b582c4814096608caf82cc8f9182c90a24788b4c985e82b582c482e0814082e682a282a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140935682c6926e82cc82e082c682c5",
+          "text": "＊「では　天と地のもとで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea82dc82c582cc814082a882b182c882a282f0",
+          "text": "これまでの　おこないを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d90949282c882b382a28142",
+          "text": "告白なさい。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82b582c4814096608caf82cc8f9182c9",
+          "text": "＊「そして　冒険の書に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82b582c482e0814082e682a282a982cb8148",
+          "text": "記録しても　よいかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7923c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c5c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 2
+        }
+      ],
+      "english": "Then confess your deeds beneath the heavens and before the earth.\nMay I record them in your Adventure Log?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "church.00c792b0",
+      "family": "message",
+      "offset": "0xc792b0",
+      "source_end_exclusive": "0xc792ee",
+      "japanese": "＊「われら　大地の神の子よ。\n$xわたしに　何を　もとめるかね？",
+      "source_hex": "8196817582ed82ea82e7814091e5926e82cc905f82cc8e7182e681420a247882ed82bd82b582c9814089bd82f0814082e082c682df82e982a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582ed82ea82e7814091e5926e82cc905f82cc8e7182e68142",
+          "text": "＊「われら　大地の神の子よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82bd82b582c9814089bd82f0814082e082c682df82e982a982cb8148",
+          "text": "わたしに　何を　もとめるかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c792b0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c54",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 0
+        }
+      ],
+      "english": "Fellow child of the Earth God, what do you ask of me?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "lore.earth_god"
+      ]
+    },
+    {
+      "id": "church.00c792f0",
+      "family": "message",
+      "offset": "0xc792f0",
+      "source_end_exclusive": "0xc79328",
+      "japanese": "＊「たしかに　記録しました。\n$xまだ冒険を　続けますか？",
+      "source_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd81420a247882dc82be96608caf82f0814091b182af82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd8142",
+          "text": "＊「たしかに　記録しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be96608caf82f0814091b182af82dc82b782a98148",
+          "text": "まだ冒険を　続けますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c792f0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c10",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 3,
+          "slot": 4
+        }
+      ],
+      "english": "Your adventure has been saved. Will you continue?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79328",
+      "family": "message",
+      "offset": "0xc79328",
+      "source_end_exclusive": "0xc79370",
+      "japanese": "＊「なんと　記録に　失敗したようです。\n$xもういちど　記録してみますか？",
+      "source_hex": "8196817582c882f182c681408b4c985e82c981408eb8947382b582bd82e682a482c582b781420a247882e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182c681408b4c985e82c981408eb8947382b582bd82e682a482c582b78142",
+          "text": "＊「なんと　記録に　失敗したようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a98148",
+          "text": "もういちど　記録してみますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79328",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c0c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 3,
+          "slot": 3
+        }
+      ],
+      "english": "Alas, it seems the save failed. Would you like to try again?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79370",
+      "family": "message",
+      "offset": "0xc79370",
+      "source_end_exclusive": "0xc793df",
+      "japanese": "どこからともなく　声が聞こえる……。\n\n\n＊「旅人よ。　あなたの　これまでの\n$x行いを　冒険の書に　記録しますか？",
+      "source_hex": "82c782b182a982e782c682e082c882ad814090ba82aa95b782b182a682e98163816381420a0a0a8196817597b7906c82e68142814082a082c882bd82cc814082b182ea82dc82c582cc0a24788d7382a282f0814096608caf82cc8f9182c981408b4c985e82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c782b182a982e782c682e082c882ad814090ba82aa95b782b182a682e9816381638142",
+          "text": "どこからともなく　声が聞こえる……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817597b7906c82e68142814082a082c882bd82cc814082b182ea82dc82c582cc",
+          "text": "＊「旅人よ。　あなたの　これまでの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d7382a282f0814096608caf82cc8f9182c981408b4c985e82b582dc82b782a98148",
+          "text": "行いを　冒険の書に　記録しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79370",
+      "pointer_owners": [
+        {
+          "offset": "0xc78c08",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 3,
+          "slot": 2
+        }
+      ],
+      "english": "A voice comes from nowhere...\n\nTraveller, shall I record your deeds in your Adventure Log?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "church.00c79488",
+      "family": "message",
+      "offset": "0xc79488",
+      "source_end_exclusive": "0xc794ba",
+      "japanese": "たしかに　記録しました。\nまだ　冒険を続けますか？",
+      "source_hex": "82bd82b582a982c981408b4c985e82b582dc82b582bd81420a82dc82be814096608caf82f091b182af82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bd82b582a982c981408b4c985e82b582dc82b582bd8142",
+          "text": "たしかに　記録しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be814096608caf82f091b182af82dc82b782a98148",
+          "text": "まだ　冒険を続けますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79488",
+      "pointer_owners": [
+        {
+          "offset": "0xc78bbc",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 2,
+          "slot": 4
+        }
+      ],
+      "english": "Your adventure has been saved. Continue adventuring?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c794bc",
+      "family": "message",
+      "offset": "0xc794bc",
+      "source_end_exclusive": "0xc794fc",
+      "japanese": "なんと　記録に失敗したようです。\nもういちど　記録してみますか？",
+      "source_hex": "82c882f182c681408b4c985e82c98eb8947382b582bd82e682a482c582b781420a82e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c681408b4c985e82c98eb8947382b582bd82e682a482c582b78142",
+          "text": "なんと　記録に失敗したようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a98148",
+          "text": "もういちど　記録してみますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c794bc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78bb8",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 2,
+          "slot": 3
+        }
+      ],
+      "english": "The save seems to have failed. Try saving again?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c794fc",
+      "family": "message",
+      "offset": "0xc794fc",
+      "source_end_exclusive": "0xc7953f",
+      "japanese": "そこには　冒険の書が\nひろげて置いてある。\nこっそり　記録しますか？",
+      "source_hex": "82bb82b182c982cd814096608caf82cc8f9182aa0a82d082eb82b082c4927582a282c482a082e981420a82b182c182bb82e881408b4c985e82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bb82b182c982cd814096608caf82cc8f9182aa",
+          "text": "そこには　冒険の書が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d082eb82b082c4927582a282c482a082e98142",
+          "text": "ひろげて置いてある。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182c182bb82e881408b4c985e82b582dc82b782a98148",
+          "text": "こっそり　記録しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c794fc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78bb4",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 2,
+          "slot": 2
+        }
+      ],
+      "english": "An Adventure Log lies open here.\nSave your progress on the sly?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "church.00c7955c",
+      "family": "message",
+      "offset": "0xc7955c",
+      "source_end_exclusive": "0xc795c6",
+      "japanese": "＊「$m0さんは　もう\n$xじゅうぶんに　強いです！\n\n＊「その強さは　神もビックリ！\n$x……と　申しております。",
+      "source_hex": "81968175246d3082b382f182cd814082e082a40a247882b682e382a482d482f182c981408bad82a282c582b781490a0a8196817582bb82cc8bad82b382cd8140905f82e083728362834e838a81490a24788163816382c68140905c82b582c482a882e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f182cd814082e082a4",
+          "text": "さんは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c981408bad82a282c582b78149",
+          "text": "じゅうぶんに　強いです！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82cc8bad82b382cd8140905f82e083728362834e838a8149",
+          "text": "＊「その強さは　神もビックリ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8163816382c68140905c82b582c482a882e882dc82b78142",
+          "text": "……と　申しております。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7955c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78ba4",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 19
+        }
+      ],
+      "english": "$m0, you have already grown strong enough!\n\nEven God is amazed by your strength!\n...Or so he tells me.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c795c8",
+      "family": "message",
+      "offset": "0xc795c8",
+      "source_end_exclusive": "0xc7960b",
+      "japanese": "＊「$m0さんは\n$xあと$d0の経験で\n$x次のレベルに　成長するでしょう。",
+      "source_hex": "81968175246d3082b382f182cd0a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814090ac92b782b782e982c582b582e582a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f182cd",
+          "text": "さんは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814090ac92b782b782e982c582b582e582a48142",
+          "text": "次のレベルに　成長するでしょう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c795c8",
+      "pointer_owners": [
+        {
+          "offset": "0xc78ba0",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 18
+        }
+      ],
+      "english": "$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7960c",
+      "family": "message",
+      "offset": "0xc7960c",
+      "source_end_exclusive": "0xc79655",
+      "japanese": "＊「おお　神よ！\n$xなんじの子の　呪われた品を\n$x聖なる光で　清めたまえ！",
+      "source_hex": "8196817582a882a88140905f82e681490a247882c882f182b682cc8e7182cc81408ef482ed82ea82bd956982f00a247890b982c882e98cf582c5814090b482df82bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140905f82e68149",
+          "text": "＊「おお　神よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182b682cc8e7182cc81408ef482ed82ea82bd956982f0",
+          "text": "なんじの子の　呪われた品を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90b982c882e98cf582c5814090b482df82bd82dc82a68149",
+          "text": "聖なる光で　清めたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7960c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b9c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 17
+        }
+      ],
+      "english": "O God! Purify your child's cursed possessions with holy light!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79658",
+      "family": "message",
+      "offset": "0xc79658",
+      "source_end_exclusive": "0xc7970e",
+      "japanese": "＊「なんと　ご寄付をいただくには\n$xお金が　たりないようです。\n$x神よ　申しわけありません！\n＊「このような　まずしい　お方に\n$x無理な　ご寄付をたのんだ\n$x私が　まちがっておりました！",
+      "source_hex": "8196817582c882f182c6814082b28af1957482f082a282bd82be82ad82c982cd0a247882a88be082aa814082bd82e882c882a282e682a482c582b781420a2478905f82e68140905c82b582ed82af82a082e882dc82b982f181490a8196817582b182cc82e682a482c8814082dc82b882b582a2814082a895fb82c90a247896b3979d82c8814082b28af1957482f082bd82cc82f182be0a24788e8482aa814082dc82bf82aa82c182c482a882e882dc82b582bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182c6814082b28af1957482f082a282bd82be82ad82c982cd",
+          "text": "＊「なんと　ご寄付をいただくには",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88be082aa814082bd82e882c882a282e682a482c582b78142",
+          "text": "お金が　たりないようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f82e68140905c82b582ed82af82a082e882dc82b982f18149",
+          "text": "神よ　申しわけありません！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182cc82e682a482c8814082dc82b882b582a2814082a895fb82c9",
+          "text": "＊「このような　まずしい　お方に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96b3979d82c8814082b28af1957482f082bd82cc82f182be",
+          "text": "無理な　ご寄付をたのんだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e8482aa814082dc82bf82aa82c182c482a882e882dc82b582bd8149",
+          "text": "私が　まちがっておりました！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79658",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b98",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 16
+        }
+      ],
+      "english": "Oh dear, you do not have enough gold to make a donation. God, forgive me!\nI was wrong to ask such a poor soul for a donation beyond their means!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79710",
+      "family": "message",
+      "offset": "0xc79710",
+      "source_end_exclusive": "0xc79733",
+      "japanese": "＊「ほかに　ご用は　ありませんか？",
+      "source_hex": "8196817582d982a982c9814082b2977082cd814082a082e882dc82b982f182a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d982a982c9814082b2977082cd814082a082e882dc82b982f182a98148",
+          "text": "＊「ほかに　ご用は　ありませんか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79710",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b94",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 15
+        }
+      ],
+      "english": "May I help you with anything else?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79734",
+      "family": "message",
+      "offset": "0xc79734",
+      "source_end_exclusive": "0xc79797",
+      "japanese": "＊「ご寄付を　いただけないのですか？\n$x申しわけありませんが　それでは\n$xおチカラには　なれません。",
+      "source_hex": "8196817582b28af1957482f0814082a282bd82be82af82c882a282cc82c582b782a981480a2478905c82b582ed82af82a082e882dc82b982f182aa814082bb82ea82c582cd0a247882a88360834a838982c982cd814082c882ea82dc82b982f1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b28af1957482f0814082a282bd82be82af82c882a282cc82c582b782a98148",
+          "text": "＊「ご寄付を　いただけないのですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905c82b582ed82af82a082e882dc82b982f182aa814082bb82ea82c582cd",
+          "text": "申しわけありませんが　それでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88360834a838982c982cd814082c882ea82dc82b982f18142",
+          "text": "おチカラには　なれません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79734",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b90",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 14
+        }
+      ],
+      "english": "You will not make a donation? I am sorry, but then I cannot help you.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79798",
+      "family": "message",
+      "offset": "0xc79798",
+      "source_end_exclusive": "0xc797da",
+      "japanese": "＊「では　神の前に\n$x$d0ゴールドの　ご寄付を。\n$xよろしいですね？",
+      "source_hex": "8196817582c582cd8140905f82cc914f82c90a24782464308353815b838b836882cc814082b28af1957482f081420a247882e682eb82b582a282c582b782cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140905f82cc914f82c9",
+          "text": "＊「では　神の前に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8353815b838b836882cc814082b28af1957482f08142",
+          "text": "ゴールドの　ご寄付を。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282c582b782cb8148",
+          "text": "よろしいですね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79798",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b8c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 13
+        }
+      ],
+      "english": "Then please offer $d0 gold before God. Shall we proceed?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c797dc",
+      "family": "message",
+      "offset": "0xc797dc",
+      "source_end_exclusive": "0xc79823",
+      "japanese": "＊「あら？　$tさんは\n$x呪われた品を　お持ちでは\n$xないようですが……。",
+      "source_hex": "8196817582a082e781488140247482b382f182cd0a24788ef482ed82ea82bd956982f0814082a88e9d82bf82c582cd0a247882c882a282e682a482c582b782aa81638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082e781488140",
+          "text": "＊「あら？　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f182cd",
+          "text": "さんは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef482ed82ea82bd956982f0814082a88e9d82bf82c582cd",
+          "text": "呪われた品を　お持ちでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882a282e682a482c582b782aa816381638142",
+          "text": "ないようですが……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c797dc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b88",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 12
+        }
+      ],
+      "english": "Oh? $t, you do not seem to have any cursed possessions...",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79824",
+      "family": "message",
+      "offset": "0xc79824",
+      "source_end_exclusive": "0xc79871",
+      "japanese": "＊「おお　神よ！\n$xなんじの子に　ひとときの\n$xやすらぎを　おあたえください！",
+      "source_hex": "8196817582a882a88140905f82e681490a247882c882f182b682cc8e7182c9814082d082c682c682ab82cc0a247882e282b782e782ac82f0814082a882a082bd82a682ad82be82b382a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140905f82e68149",
+          "text": "＊「おお　神よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182b682cc8e7182c9814082d082c682c682ab82cc",
+          "text": "なんじの子に　ひとときの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e282b782e782ac82f0814082a882a082bd82a682ad82be82b382a28149",
+          "text": "やすらぎを　おあたえください！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79824",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b80",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 10
+        }
+      ],
+      "english": "O God! Please grant your child a moment of peace!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79874",
+      "family": "message",
+      "offset": "0xc79874",
+      "source_end_exclusive": "0xc79917",
+      "japanese": "＊「天と地の　ささやきが\n$x神の声となって　聞こえます。\n\n＊「$m0さんは　もう\n$xじゅうぶんに　強いです！\n\n＊「その強さは　神もビックリ！\n$x……と　申しております。",
+      "source_hex": "81968175935682c6926e82cc814082b382b382e282ab82aa0a2478905f82cc90ba82c682c882c182c4814095b782b182a682dc82b781420a0a81968175246d3082b382f182cd814082e082a40a247882b682e382a482d482f182c981408bad82a282c582b781490a0a8196817582bb82cc8bad82b382cd8140905f82e083728362834e838a81490a24788163816382c68140905c82b582c482a882e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175935682c6926e82cc814082b382b382e282ab82aa",
+          "text": "＊「天と地の　ささやきが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f82cc90ba82c682c882c182c4814095b782b182a682dc82b78142",
+          "text": "神の声となって　聞こえます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f182cd814082e082a4",
+          "text": "さんは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c981408bad82a282c582b78149",
+          "text": "じゅうぶんに　強いです！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82cc8bad82b382cd8140905f82e083728362834e838a8149",
+          "text": "＊「その強さは　神もビックリ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8163816382c68140905c82b582c482a882e882dc82b78142",
+          "text": "……と　申しております。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79874",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b7c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 9
+        }
+      ],
+      "english": "In the whispers of heaven and earth, I hear the voice of God.\n\n$m0, you have already grown strong enough!\n\nEven God is amazed by your strength!\n...Or so he tells me.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79918",
+      "family": "message",
+      "offset": "0xc79918",
+      "source_end_exclusive": "0xc79994",
+      "japanese": "＊「天と地の　ささやきが\n$x神の声となって　聞こえます。\n\n＊「$m0さんは\n$xあと$d0の経験で\n$x次のレベルに　成長するでしょう。",
+      "source_hex": "81968175935682c6926e82cc814082b382b382e282ab82aa0a2478905f82cc90ba82c682c882c182c4814095b782b182a682dc82b781420a0a81968175246d3082b382f182cd0a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814090ac92b782b782e982c582b582e582a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175935682c6926e82cc814082b382b382e282ab82aa",
+          "text": "＊「天と地の　ささやきが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f82cc90ba82c682c882c182c4814095b782b182a682dc82b78142",
+          "text": "神の声となって　聞こえます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b382f182cd",
+          "text": "さんは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814090ac92b782b782e982c582b582e582a48142",
+          "text": "次のレベルに　成長するでしょう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79918",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b78",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 8
+        }
+      ],
+      "english": "In the whispers of heaven and earth, I hear the voice of God.\n\n$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79994",
+      "family": "message",
+      "offset": "0xc79994",
+      "source_end_exclusive": "0xc799d4",
+      "japanese": "＊「それでは　お気をつけて。\n$x旅のごぶじを　お祈りしています。",
+      "source_hex": "8196817582bb82ea82c582cd814082a88b4382f082c282af82c481420a247897b782cc82b282d482b682f0814082a88b4682e882b582c482a282dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82ea82c582cd814082a88b4382f082c282af82c48142",
+          "text": "＊「それでは　お気をつけて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "97b782cc82b282d482b682f0814082a88b4682e882b582c482a282dc82b78142",
+          "text": "旅のごぶじを　お祈りしています。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79994",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b74",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 7
+        }
+      ],
+      "english": "Take care, then. I pray for your safe travels.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c799d4",
+      "family": "message",
+      "offset": "0xc799d4",
+      "source_end_exclusive": "0xc79a70",
+      "japanese": "＊「ああ　なんと　記録しないで\n$xお休みに　なられるというのですか。\n\n＊「あなたの冒険が　前の記録まで\n$xもどってしまいますが　それでも\n$xよろしいのですね？",
+      "source_hex": "8196817582a082a0814082c882f182c681408b4c985e82b582c882a282c50a247882a88b7882dd82c9814082c882e782ea82e982c682a282a482cc82c582b782a981420a0a8196817582a082c882bd82cc96608caf82aa8140914f82cc8b4c985e82dc82c50a247882e082c782c182c482b582dc82a282dc82b782aa814082bb82ea82c582e00a247882e682eb82b582a282cc82c582b782cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082a0814082c882f182c681408b4c985e82b582c882a282c5",
+          "text": "＊「ああ　なんと　記録しないで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a88b7882dd82c9814082c882e782ea82e982c682a282a482cc82c582b782a98142",
+          "text": "お休みに　なられるというのですか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082c882bd82cc96608caf82aa8140914f82cc8b4c985e82dc82c5",
+          "text": "＊「あなたの冒険が　前の記録まで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082c782c182c482b582dc82a282dc82b782aa814082bb82ea82c582e0",
+          "text": "もどってしまいますが　それでも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282cc82c582b782cb8148",
+          "text": "よろしいのですね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c799d4",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b70",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 6
+        }
+      ],
+      "english": "Oh dear! You wish to rest without saving?\n\nYour adventure will return to the point where you last saved. Are you quite sure?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79a70",
+      "family": "message",
+      "offset": "0xc79a70",
+      "source_end_exclusive": "0xc79add",
+      "japanese": "＊「記録しないと　おっしゃるのですね。\n$xわかりました……。\n\n＊「まだ　冒険を\n$xお続けに　なられるのですか？",
+      "source_hex": "819681758b4c985e82b582c882a282c6814082a882c182b582e182e982cc82c582b782cb81420a247882ed82a982e882dc82b582bd8163816381420a0a8196817582dc82be814096608caf82f00a247882a891b182af82c9814082c882e782ea82e982cc82c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758b4c985e82b582c882a282c6814082a882c182b582e182e982cc82c582b782cb8142",
+          "text": "＊「記録しないと　おっしゃるのですね。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82a982e882dc82b582bd816381638142",
+          "text": "わかりました……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82be814096608caf82f0",
+          "text": "＊「まだ　冒険を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a891b182af82c9814082c882e782ea82e982cc82c582b782a98148",
+          "text": "お続けに　なられるのですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79a70",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b6c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 5
+        }
+      ],
+      "english": "You do not wish to save? I understand...\n\nWill you continue your adventure?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79ae0",
+      "family": "message",
+      "offset": "0xc79ae0",
+      "source_end_exclusive": "0xc79b2f",
+      "japanese": "＊「たしかに　記録いたしました。\n$xこのまま　冒険を　お続けに\n$xなるのですか？",
+      "source_hex": "8196817582bd82b582a982c981408b4c985e82a282bd82b582dc82b582bd81420a247882b182cc82dc82dc814096608caf82f0814082a891b182af82c90a247882c882e982cc82c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82b582a982c981408b4c985e82a282bd82b582dc82b582bd8142",
+          "text": "＊「たしかに　記録いたしました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc82dc82dc814096608caf82f0814082a891b182af82c9",
+          "text": "このまま　冒険を　お続けに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882e982cc82c582b782a98148",
+          "text": "なるのですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79ae0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b68",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 4
+        }
+      ],
+      "english": "Your adventure has been saved. Would you like to continue?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79b30",
+      "family": "message",
+      "offset": "0xc79b30",
+      "source_end_exclusive": "0xc79b9b",
+      "japanese": "＊「ああ　なんということでしょう！？\n$x記録に　失敗してしまったようです。\n$xもういちど　記録してみますか？",
+      "source_hex": "8196817582a082a0814082c882f182c682a282a482b182c682c582b582e582a4814981480a24788b4c985e82c981408eb8947382b582c482b582dc82c182bd82e682a482c582b781420a247882e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a082a0814082c882f182c682a282a482b182c682c582b582e582a481498148",
+          "text": "＊「ああ　なんということでしょう！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82c981408eb8947382b582c482b582dc82c182bd82e682a482c582b78142",
+          "text": "記録に　失敗してしまったようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282bf82c781408b4c985e82b582c482dd82dc82b782a98148",
+          "text": "もういちど　記録してみますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79b30",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b64",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 3
+        }
+      ],
+      "english": "Oh, how could this happen?! It seems the save failed. Would you like to try again?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79b9c",
+      "family": "message",
+      "offset": "0xc79b9c",
+      "source_end_exclusive": "0xc79c13",
+      "japanese": "＊「では　神の前に\n$xこれまでの　おこないを\n$x告白してください。\n＊「そして　冒険の書に\n$x記録しても　よろしいですか？",
+      "source_hex": "8196817582c582cd8140905f82cc914f82c90a247882b182ea82dc82c582cc814082a882b182c882a282f00a24788d90949282b582c482ad82be82b382a281420a8196817582bb82b582c4814096608caf82cc8f9182c90a24788b4c985e82b582c482e0814082e682eb82b582a282c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140905f82cc914f82c9",
+          "text": "＊「では　神の前に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea82dc82c582cc814082a882b182c882a282f0",
+          "text": "これまでの　おこないを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d90949282b582c482ad82be82b382a28142",
+          "text": "告白してください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82b582c4814096608caf82cc8f9182c9",
+          "text": "＊「そして　冒険の書に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82b582c482e0814082e682eb82b582a282c582b782a98148",
+          "text": "記録しても　よろしいですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79b9c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b60",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 2
+        }
+      ],
+      "english": "Please confess your deeds before God.\nMay I then record them in your Adventure Log?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "church.00c79c14",
+      "family": "message",
+      "offset": "0xc79c14",
+      "source_end_exclusive": "0xc79c52",
+      "japanese": "＊「まよえる　神の子よ。\n$xこの教会に　なにを　もとめますか？",
+      "source_hex": "8196817582dc82e682a682e98140905f82cc8e7182e681420a247882b182cc8bb389ef82c9814082c882c982f0814082e082c682df82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82e682a682e98140905f82cc8e7182e68142",
+          "text": "＊「まよえる　神の子よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8bb389ef82c9814082c882c982f0814082e082c682df82dc82b782a98148",
+          "text": "この教会に　なにを　もとめますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79c14",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b58",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 0
+        }
+      ],
+      "english": "Wandering child of God, what do you seek from this church?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79c54",
+      "family": "message",
+      "offset": "0xc79c54",
+      "source_end_exclusive": "0xc79c86",
+      "japanese": "$+Ａボタンを押すと\n$+スタートメニューに戻ります。",
+      "source_hex": "242b8260837b835e839382f0899f82b782c60a242b8358835e815b83678381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8260837b835e839382f0899f82b782c6",
+          "text": "Ａボタンを押すと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8358835e815b83678381836a8385815b82c996df82e882dc82b78142",
+          "text": "スタートメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79c54",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b54",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 20
+        },
+        {
+          "offset": "0xc78ba8",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 20
+        },
+        {
+          "offset": "0xc78bfc",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 2,
+          "slot": 20
+        },
+        {
+          "offset": "0xc78c50",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 3,
+          "slot": 20
+        },
+        {
+          "offset": "0xc78ca4",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 20
+        }
+      ],
+      "english": "$+Press the A Button\n$+to return to the start menu.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79c88",
+      "family": "message",
+      "offset": "0xc79c88",
+      "source_end_exclusive": "0xc79cba",
+      "japanese": "＊「$m0よ。\n$xそなたは　もう\n$xじゅうぶんに強い。",
+      "source_hex": "81968175246d3082e681420a247882bb82c882bd82cd814082e082a40a247882b682e382a482d482f182c98bad82a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cd814082e082a4",
+          "text": "そなたは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c98bad82a28142",
+          "text": "じゅうぶんに強い。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79c88",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b50",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 19
+        }
+      ],
+      "english": "$m0, you have already grown strong enough.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79cbc",
+      "family": "message",
+      "offset": "0xc79cbc",
+      "source_end_exclusive": "0xc79cf9",
+      "japanese": "＊「$m0よ。\n$xあと$d0の経験で\n$x次のレベルに　なるじゃろう。",
+      "source_hex": "81968175246d3082e681420a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814082c882e982b682e182eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814082c882e982b682e182eb82a48142",
+          "text": "次のレベルに　なるじゃろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79cbc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b4c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 18
+        }
+      ],
+      "english": "$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79cfc",
+      "family": "message",
+      "offset": "0xc79cfc",
+      "source_end_exclusive": "0xc79d49",
+      "japanese": "＊「おお　神よ！\n$xこの者の　呪われた品を\n$x聖なる光にて　ときはなちたまえ！",
+      "source_hex": "8196817582a882a88140905f82e681490a247882b182cc8ed282cc81408ef482ed82ea82bd956982f00a247890b982c882e98cf582c982c4814082c682ab82cd82c882bf82bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140905f82e68149",
+          "text": "＊「おお　神よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8ed282cc81408ef482ed82ea82bd956982f0",
+          "text": "この者の　呪われた品を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90b982c882e98cf582c982c4814082c682ab82cd82c882bf82bd82dc82a68149",
+          "text": "聖なる光にて　ときはなちたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79cfc",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b48",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 17
+        }
+      ],
+      "english": "O God! Free this soul's cursed belongings with your holy light!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79d4c",
+      "family": "message",
+      "offset": "0xc79d4c",
+      "source_end_exclusive": "0xc79df0",
+      "japanese": "＊「なんと　寄付をするには　お金が\n$xたりないようですな。\n$xおお神よ　ゆるしたまえ！\n＊「この　お方には無理な　ご寄付を\n$xたのんだ　私が\n$xまちがっていたようです。",
+      "source_hex": "8196817582c882f182c681408af1957482f082b782e982c982cd814082a88be082aa0a247882bd82e882c882a282e682a482c582b782c881420a247882a882a8905f82e6814082e482e982b582bd82dc82a681490a8196817582b182cc814082a895fb82c982cd96b3979d82c8814082b28af1957482f00a247882bd82cc82f182be81408e8482aa0a247882dc82bf82aa82c182c482a282bd82e682a482c582b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182c681408af1957482f082b782e982c982cd814082a88be082aa",
+          "text": "＊「なんと　寄付をするには　お金が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bd82e882c882a282e682a482c582b782c88142",
+          "text": "たりないようですな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882a8905f82e6814082e482e982b582bd82dc82a68149",
+          "text": "おお神よ　ゆるしたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182cc814082a895fb82c982cd96b3979d82c8814082b28af1957482f0",
+          "text": "＊「この　お方には無理な　ご寄付を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bd82cc82f182be81408e8482aa",
+          "text": "たのんだ　私が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82bf82aa82c182c482a282bd82e682a482c582b78142",
+          "text": "まちがっていたようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79d4c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b44",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 16
+        }
+      ],
+      "english": "It seems you have not enough gold for a donation. O God, forgive me!\nI was wrong to ask this soul for a donation beyond their means.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79df0",
+      "family": "message",
+      "offset": "0xc79df0",
+      "source_end_exclusive": "0xc79e13",
+      "japanese": "＊「ほかに　ご用は　ありますかな？",
+      "source_hex": "8196817582d982a982c9814082b2977082cd814082a082e882dc82b782a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d982a982c9814082b2977082cd814082a082e882dc82b782a982c88148",
+          "text": "＊「ほかに　ご用は　ありますかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79df0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b40",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 15
+        }
+      ],
+      "english": "Is there anything else I can do for you?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79e14",
+      "family": "message",
+      "offset": "0xc79e14",
+      "source_end_exclusive": "0xc79e63",
+      "japanese": "＊「教会への寄付は\n$xそなたの　気もちしだいじゃ。\n$xそれも　また　よかろうて。",
+      "source_hex": "819681758bb389ef82d682cc8af1957482cd0a247882bb82c882bd82cc81408b4382e082bf82b582be82a282b682e181420a247882bb82ea82e0814082dc82bd814082e682a982eb82a482c4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758bb389ef82d682cc8af1957482cd",
+          "text": "＊「教会への寄付は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cc81408b4382e082bf82b582be82a282b682e18142",
+          "text": "そなたの　気もちしだいじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82e0814082dc82bd814082e682a982eb82a482c48142",
+          "text": "それも　また　よかろうて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79e14",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b3c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 14
+        }
+      ],
+      "english": "A donation to the church is yours to give freely. Your choice is quite all right.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79e64",
+      "family": "message",
+      "offset": "0xc79e64",
+      "source_end_exclusive": "0xc79eae",
+      "japanese": "＊「さすれば　わが教会に\n$x$d0ゴールドの　ご寄付を。\n$xよろしいですかな？",
+      "source_hex": "8196817582b382b782ea82ce814082ed82aa8bb389ef82c90a24782464308353815b838b836882cc814082b28af1957482f081420a247882e682eb82b582a282c582b782a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b382b782ea82ce814082ed82aa8bb389ef82c9",
+          "text": "＊「さすれば　わが教会に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8353815b838b836882cc814082b28af1957482f08142",
+          "text": "ゴールドの　ご寄付を。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282c582b782a982c88148",
+          "text": "よろしいですかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79e64",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b38",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 13
+        }
+      ],
+      "english": "Then offer $d0 gold to our church. Shall we proceed?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79eb0",
+      "family": "message",
+      "offset": "0xc79eb0",
+      "source_end_exclusive": "0xc79ef5",
+      "japanese": "＊「しかし　$tどのは\n$x呪われた品なぞ　お持ちでは\n$xないようじゃぞ。",
+      "source_hex": "8196817582b582a982b58140247482c782cc82cd0a24788ef482ed82ea82bd956982c882bc814082a88e9d82bf82c582cd0a247882c882a282e682a482b682e182bc814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b582a982b58140",
+          "text": "＊「しかし　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782cc82cd",
+          "text": "どのは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef482ed82ea82bd956982c882bc814082a88e9d82bf82c582cd",
+          "text": "呪われた品なぞ　お持ちでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882a282e682a482b682e182bc8142",
+          "text": "ないようじゃぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79eb0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b34",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 12
+        }
+      ],
+      "english": "But $t, you do not seem to have any cursed belongings.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79ef8",
+      "family": "message",
+      "offset": "0xc79ef8",
+      "source_end_exclusive": "0xc79f35",
+      "japanese": "$+おつかれさまでした。\n$+このまま　電源を　お切りください。\n",
+      "source_hex": "242b82a882c282a982ea82b382dc82c582b582bd81420a242b82b182cc82dc82dc814093648cb982f0814082a890d882e882ad82be82b382a281420a00",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882c282a982ea82b382dc82c582b582bd8142",
+          "text": "おつかれさまでした。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc82dc82dc814093648cb982f0814082a890d882e882ad82be82b382a28142",
+          "text": "このまま　電源を　お切りください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79ef8",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b30",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 11
+        },
+        {
+          "offset": "0xc78b84",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 1,
+          "slot": 11
+        },
+        {
+          "offset": "0xc78bd8",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 2,
+          "slot": 11
+        },
+        {
+          "offset": "0xc78c2c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 3,
+          "slot": 11
+        },
+        {
+          "offset": "0xc78c80",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 4,
+          "slot": 11
+        }
+      ],
+      "english": "$+Thank you for playing.\n$+You may now turn off the power.\n",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79f38",
+      "family": "message",
+      "offset": "0xc79f38",
+      "source_end_exclusive": "0xc79f79",
+      "japanese": "＊「おお　神よ！\n$xこの者に　ひとときの\n$x休息を　あたえたまえ！",
+      "source_hex": "8196817582a882a88140905f82e681490a247882b182cc8ed282c9814082d082c682c682ab82cc0a24788b7891a782f0814082a082bd82a682bd82dc82a6814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a882a88140905f82e68149",
+          "text": "＊「おお　神よ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8ed282c9814082d082c682c682ab82cc",
+          "text": "この者に　ひとときの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7891a782f0814082a082bd82a682bd82dc82a68149",
+          "text": "休息を　あたえたまえ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79f38",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b2c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 10
+        }
+      ],
+      "english": "O God! Grant this soul a moment of rest!",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c79f7c",
+      "family": "message",
+      "offset": "0xc79f7c",
+      "source_end_exclusive": "0xc79ffd",
+      "japanese": "＊「神の声が聞こえます。\n\n\n＊「$m0よ。\n$xそなたは　もう\n$xじゅうぶんに強い。\n＊「その強さは　ひとびとに\n$x語りつがれるであろう。",
+      "source_hex": "81968175905f82cc90ba82aa95b782b182a682dc82b781420a0a0a81968175246d3082e681420a247882bb82c882bd82cd814082e082a40a247882b682e382a482d482f182c98bad82a281420a8196817582bb82cc8bad82b382cd814082d082c682d182c682c90a24788cea82e882c282aa82ea82e982c582a082eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175905f82cc90ba82aa95b782b182a682dc82b78142",
+          "text": "＊「神の声が聞こえます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82c882bd82cd814082e082a4",
+          "text": "そなたは　もう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e382a482d482f182c98bad82a28142",
+          "text": "じゅうぶんに強い。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82cc8bad82b382cd814082d082c682d182c682c9",
+          "text": "＊「その強さは　ひとびとに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cea82e882c282aa82ea82e982c582a082eb82a48142",
+          "text": "語りつがれるであろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c79f7c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b28",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 9
+        }
+      ],
+      "english": "I hear the voice of God.\n\n$m0, you have already grown strong enough.\nYour strength will be spoken of for generations.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a000",
+      "family": "message",
+      "offset": "0xc7a000",
+      "source_end_exclusive": "0xc7a058",
+      "japanese": "＊「神の声が聞こえます。\n\n\n＊「$m0よ。\n$xあと$d0の経験で\n$x次のレベルに　なるじゃろう。",
+      "source_hex": "81968175905f82cc90ba82aa95b782b182a682dc82b781420a0a0a81968175246d3082e681420a247882a082c624643082cc8c6f8cb182c50a24788e9f82cc838c8378838b82c9814082c882e982b682e182eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175905f82cc90ba82aa95b782b182a682dc82b78142",
+          "text": "＊「神の声が聞こえます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175",
+          "text": "＊「",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e68142",
+          "text": "よ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082c6",
+          "text": "あと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8c6f8cb182c5",
+          "text": "の経験で",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9f82cc838c8378838b82c9814082c882e982b682e182eb82a48142",
+          "text": "次のレベルに　なるじゃろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a000",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b24",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 8
+        }
+      ],
+      "english": "I hear the voice of God.\n\n$m0, you need $d0 more experience points to reach the next level.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a058",
+      "family": "message",
+      "offset": "0xc7a058",
+      "source_end_exclusive": "0xc7a090",
+      "japanese": "＊「では　お気をつけて。\n$x神のご加護の　あらんことを。",
+      "source_hex": "8196817582c582cd814082a88b4382f082c282af82c481420a2478905f82cc82b289c18cec82cc814082a082e782f182b182c682f0814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082a88b4382f082c282af82c48142",
+          "text": "＊「では　お気をつけて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "905f82cc82b289c18cec82cc814082a082e782f182b182c682f08142",
+          "text": "神のご加護の　あらんことを。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a058",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b20",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 7
+        }
+      ],
+      "english": "Take care, then. May God watch over you.",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a090",
+      "family": "message",
+      "offset": "0xc7a090",
+      "source_end_exclusive": "0xc7a10e",
+      "japanese": "＊「なんと　記録しないで\n$x休むと　申されるか……。\n\n＊「では　そなたの冒険が\n$x前の記録まで　もどっても\n$xよろしいのじゃな？",
+      "source_hex": "8196817582c882f182c681408b4c985e82b582c882a282c50a24788b7882de82c68140905c82b382ea82e982a98163816381420a0a8196817582c582cd814082bb82c882bd82cc96608caf82aa0a2478914f82cc8b4c985e82dc82c5814082e082c782c182c482e00a247882e682eb82b582a282cc82b682e182c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182c681408b4c985e82b582c882a282c5",
+          "text": "＊「なんと　記録しないで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b7882de82c68140905c82b382ea82e982a9816381638142",
+          "text": "休むと　申されるか……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd814082bb82c882bd82cc96608caf82aa",
+          "text": "＊「では　そなたの冒険が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "914f82cc8b4c985e82dc82c5814082e082c782c182c482e0",
+          "text": "前の記録まで　もどっても",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282cc82b682e182c88148",
+          "text": "よろしいのじゃな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a090",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b1c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 6
+        }
+      ],
+      "english": "What? You wish to rest without saving...?\n\nYour adventure will return to the point where you last saved. Is that truly what you want?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a110",
+      "family": "message",
+      "offset": "0xc7a110",
+      "source_end_exclusive": "0xc7a179",
+      "japanese": "＊「記録しないと申されるか。\n$xそれも　また　よろしかろう。\n\n＊「まだ　冒険を\n$x続けられる　おつもりか？",
+      "source_hex": "819681758b4c985e82b582c882a282c6905c82b382ea82e982a981420a247882bb82ea82e0814082dc82bd814082e682eb82b582a982eb82a481420a0a8196817582dc82be814096608caf82f00a247891b182af82e782ea82e9814082a882c282e082e882a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758b4c985e82b582c882a282c6905c82b382ea82e982a98142",
+          "text": "＊「記録しないと申されるか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82ea82e0814082dc82bd814082e682eb82b582a982eb82a48142",
+          "text": "それも　また　よろしかろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82be814096608caf82f0",
+          "text": "＊「まだ　冒険を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91b182af82e782ea82e9814082a882c282e082e882a98148",
+          "text": "続けられる　おつもりか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a110",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b18",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 5
+        }
+      ],
+      "english": "You do not wish to save? That is quite all right.\n\nDo you intend to continue your adventure?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a17c",
+      "family": "message",
+      "offset": "0xc7a17c",
+      "source_end_exclusive": "0xc7a1c5",
+      "japanese": "＊「たしかに　記録しましたぞ。\n$xまだ　冒険を　続けられる\n$xおつもりか？",
+      "source_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd82bc81420a247882dc82be814096608caf82f0814091b182af82e782ea82e90a247882a882c282e082e882a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82b582a982c981408b4c985e82b582dc82b582bd82bc8142",
+          "text": "＊「たしかに　記録しましたぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82be814096608caf82f0814091b182af82e782ea82e9",
+          "text": "まだ　冒険を　続けられる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882c282e082e882a98148",
+          "text": "おつもりか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a17c",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b14",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 4
+        }
+      ],
+      "english": "Your adventure has been saved. Do you intend to continue?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a1c8",
+      "family": "message",
+      "offset": "0xc7a1c8",
+      "source_end_exclusive": "0xc7a225",
+      "japanese": "＊「むむ？　どうしたことか！？\n$x記録に　失敗したようじゃ。\n$xもういちど　記録してみるかね？",
+      "source_hex": "8196817582de82de8148814082c782a482b582bd82b182c682a9814981480a24788b4c985e82c981408eb8947382b582bd82e682a482b682e181420a247882e082a482a282bf82c781408b4c985e82b582c482dd82e982a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582de82de8148814082c782a482b582bd82b182c682a981498148",
+          "text": "＊「むむ？　どうしたことか！？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82c981408eb8947382b582bd82e682a482b682e18142",
+          "text": "記録に　失敗したようじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a482a282bf82c781408b4c985e82b582c482dd82e982a982cb8148",
+          "text": "もういちど　記録してみるかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a1c8",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b10",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 3
+        }
+      ],
+      "english": "Hmm? What has gone wrong?! It seems the save failed. Will you try saving again?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    },
+    {
+      "id": "church.00c7a228",
+      "family": "message",
+      "offset": "0xc7a228",
+      "source_end_exclusive": "0xc7a297",
+      "japanese": "＊「では　神の前に\n$xこれまでの　おこないを\n$x告白なさい。\n＊「そして　冒険の書に\n$x記録しても　よろしいかな？",
+      "source_hex": "8196817582c582cd8140905f82cc914f82c90a247882b182ea82dc82c582cc814082a882b182c882a282f00a24788d90949282c882b382a281420a8196817582bb82b582c4814096608caf82cc8f9182c90a24788b4c985e82b582c482e0814082e682eb82b582a282a982c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c582cd8140905f82cc914f82c9",
+          "text": "＊「では　神の前に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea82dc82c582cc814082a882b182c882a282f0",
+          "text": "これまでの　おこないを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d90949282c882b382a28142",
+          "text": "告白なさい。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bb82b582c4814096608caf82cc8f9182c9",
+          "text": "＊「そして　冒険の書に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82b582c482e0814082e682eb82b582a282a982c88148",
+          "text": "記録しても　よろしいかな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a228",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b0c",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 2
+        }
+      ],
+      "english": "Then confess your deeds before God.\nMay I record them in your Adventure Log?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "church.00c7a2a0",
+      "family": "message",
+      "offset": "0xc7a2a0",
+      "source_end_exclusive": "0xc7a2e2",
+      "japanese": "＊「たのもしき　神のしもべよ。\n$xわが教会に　どんな　ご用じゃな？",
+      "source_hex": "8196817582bd82cc82e082b582ab8140905f82cc82b582e082d782e681420a247882ed82aa8bb389ef82c9814082c782f182c8814082b2977082b682e182c8814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82cc82e082b582ab8140905f82cc82b582e082d782e68142",
+          "text": "＊「たのもしき　神のしもべよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2478",
+          "text": "$x",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ed82aa8bb389ef82c9814082c782f182c8814082b2977082b682e182c88148",
+          "text": "わが教会に　どんな　ご用じゃな？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a2a0",
+      "pointer_owners": [
+        {
+          "offset": "0xc78b04",
+          "evidence": "native_church_type_times_84_plus_service_slot",
+          "church_type": 0,
+          "slot": 0
+        }
+      ],
+      "english": "Faithful servant of God, what can our church do for you?",
+      "display": null,
+      "notes": "Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.",
+      "references": []
+    }
+  ]
+}

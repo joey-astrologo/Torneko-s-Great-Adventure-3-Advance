@@ -101,8 +101,8 @@ def validate_catalog(original,catalog):
     return entries
 
 
-def build_rom(original,language='english',catalog=None):
-    check(language in ('english','japanese'),'Bad journey language');b=RomBuild(original)
+def build_rom(original,language='english',catalog=None,*,build=None):
+    check(language in ('english','japanese'),'Bad journey language');b=RomBuild(original) if build is None else build
     _,prior=previous.build_rom(original,build=b)
     entries=validate_catalog(original,load_json(CATALOG) if catalog is None else catalog);relocated={}
     for e in entries.values():

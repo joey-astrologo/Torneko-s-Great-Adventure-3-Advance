@@ -1,0 +1,3144 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "max_input_characters": 7,
+  "entries": [
+    {
+      "id": "inscription.00.0",
+      "family": "scroll_alias",
+      "row": 0,
+      "variant": 0,
+      "item_id": 192,
+      "offset": "0xe0398",
+      "source_end_exclusive": "0xe039d",
+      "japanese": "いお",
+      "source_hex": "82a282a800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282a8",
+          "text": "いお",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0398",
+      "original_pointer_word": "0xdfcc0",
+      "full_item_name": "Bang scroll",
+      "english": "Bang",
+      "notes": "Seven-slot inscription/display abbreviation of Bang scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_bang"
+      ]
+    },
+    {
+      "id": "inscription.00.1",
+      "family": "scroll_alias",
+      "row": 0,
+      "variant": 1,
+      "item_id": 192,
+      "offset": "0xe0390",
+      "source_end_exclusive": "0xe0395",
+      "japanese": "イオ",
+      "source_hex": "8343834900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83438349",
+          "text": "イオ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0390",
+      "original_pointer_word": "0xdfcc4",
+      "full_item_name": "Bang scroll",
+      "english": "Bang",
+      "notes": "Seven-slot inscription/display abbreviation of Bang scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_bang"
+      ]
+    },
+    {
+      "id": "inscription.01.0",
+      "family": "scroll_alias",
+      "row": 1,
+      "variant": 0,
+      "item_id": 207,
+      "offset": "0xe0388",
+      "source_end_exclusive": "0xe038f",
+      "japanese": "いのり",
+      "source_hex": "82a282cc82e800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282cc82e8",
+          "text": "いのり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0388",
+      "original_pointer_word": "0xdfccc",
+      "full_item_name": "Prayer scroll",
+      "english": "Prayer",
+      "notes": "Seven-slot inscription/display abbreviation of Prayer scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_207"
+      ]
+    },
+    {
+      "id": "inscription.01.1",
+      "family": "scroll_alias",
+      "row": 1,
+      "variant": 1,
+      "item_id": 207,
+      "offset": "0xe0380",
+      "source_end_exclusive": "0xe0387",
+      "japanese": "イノリ",
+      "source_hex": "8343836d838a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836d838a",
+          "text": "イノリ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0380",
+      "original_pointer_word": "0xdfcd0",
+      "full_item_name": "Prayer scroll",
+      "english": "Prayer",
+      "notes": "Seven-slot inscription/display abbreviation of Prayer scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_207"
+      ]
+    },
+    {
+      "id": "inscription.02.0",
+      "family": "scroll_alias",
+      "row": 2,
+      "variant": 0,
+      "item_id": 191,
+      "offset": "0xe0374",
+      "source_end_exclusive": "0xe037d",
+      "japanese": "いんぱす",
+      "source_hex": "82a282f182cf82b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282f182cf82b7",
+          "text": "いんぱす",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0374",
+      "original_pointer_word": "0xdfcd8",
+      "full_item_name": "Peep scroll",
+      "english": "Peep",
+      "notes": "Seven-slot inscription/display abbreviation of Peep scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_peep"
+      ]
+    },
+    {
+      "id": "inscription.02.1",
+      "family": "scroll_alias",
+      "row": 2,
+      "variant": 1,
+      "item_id": 191,
+      "offset": "0xe0368",
+      "source_end_exclusive": "0xe0371",
+      "japanese": "インパス",
+      "source_hex": "834383938370835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343839383708358",
+          "text": "インパス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0368",
+      "original_pointer_word": "0xdfcdc",
+      "full_item_name": "Peep scroll",
+      "english": "Peep",
+      "notes": "Seven-slot inscription/display abbreviation of Peep scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_peep"
+      ]
+    },
+    {
+      "id": "inscription.03.0",
+      "family": "scroll_alias",
+      "row": 3,
+      "variant": 0,
+      "item_id": 231,
+      "offset": "0xe035c",
+      "source_end_exclusive": "0xe0367",
+      "japanese": "うしろむき",
+      "source_hex": "82a482b582eb82de82ab00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a482b582eb82de82ab",
+          "text": "うしろむき",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e035c",
+      "original_pointer_word": "0xdfce4",
+      "full_item_name": "Look-back scroll",
+      "english": "LookBck",
+      "notes": "Seven-slot inscription/display abbreviation of Look-back scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_231"
+      ]
+    },
+    {
+      "id": "inscription.03.1",
+      "family": "scroll_alias",
+      "row": 3,
+      "variant": 1,
+      "item_id": 231,
+      "offset": "0xe0350",
+      "source_end_exclusive": "0xe035b",
+      "japanese": "ウシロムキ",
+      "source_hex": "83458356838d8380834c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83458356838d8380834c",
+          "text": "ウシロムキ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0350",
+      "original_pointer_word": "0xdfce8",
+      "full_item_name": "Look-back scroll",
+      "english": "LookBck",
+      "notes": "Seven-slot inscription/display abbreviation of Look-back scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_231"
+      ]
+    },
+    {
+      "id": "inscription.04.0",
+      "family": "scroll_alias",
+      "row": 4,
+      "variant": 0,
+      "item_id": 241,
+      "offset": "0xe0344",
+      "source_end_exclusive": "0xe034f",
+      "japanese": "えんじょう",
+      "source_hex": "82a682f182b682e582a400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a682f182b682e582a4",
+          "text": "えんじょう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0344",
+      "original_pointer_word": "0xdfcf0",
+      "full_item_name": "Blaze scroll",
+      "english": "Blaze",
+      "notes": "Seven-slot inscription/display abbreviation of Blaze scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_241"
+      ]
+    },
+    {
+      "id": "inscription.04.1",
+      "family": "scroll_alias",
+      "row": 4,
+      "variant": 1,
+      "item_id": 241,
+      "offset": "0xe0338",
+      "source_end_exclusive": "0xe0343",
+      "japanese": "エンジョウ",
+      "source_hex": "8347839383578387834500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83478393835783878345",
+          "text": "エンジョウ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0338",
+      "original_pointer_word": "0xdfcf4",
+      "full_item_name": "Blaze scroll",
+      "english": "Blaze",
+      "notes": "Seven-slot inscription/display abbreviation of Blaze scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_241"
+      ]
+    },
+    {
+      "id": "inscription.05.0",
+      "family": "scroll_alias",
+      "row": 5,
+      "variant": 0,
+      "item_id": 216,
+      "offset": "0xe032c",
+      "source_end_exclusive": "0xe0335",
+      "japanese": "おおかぜ",
+      "source_hex": "82a882a882a982ba00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a882a882a982ba",
+          "text": "おおかぜ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e032c",
+      "original_pointer_word": "0xdfcfc",
+      "full_item_name": "Gale scroll",
+      "english": "Gale",
+      "notes": "Seven-slot inscription/display abbreviation of Gale scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_216"
+      ]
+    },
+    {
+      "id": "inscription.05.1",
+      "family": "scroll_alias",
+      "row": 5,
+      "variant": 1,
+      "item_id": 216,
+      "offset": "0xe0320",
+      "source_end_exclusive": "0xe0329",
+      "japanese": "オオカゼ",
+      "source_hex": "83498349834a835b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83498349834a835b",
+          "text": "オオカゼ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0320",
+      "original_pointer_word": "0xdfd00",
+      "full_item_name": "Gale scroll",
+      "english": "Gale",
+      "notes": "Seven-slot inscription/display abbreviation of Gale scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_216"
+      ]
+    },
+    {
+      "id": "inscription.06.0",
+      "family": "scroll_alias",
+      "row": 6,
+      "variant": 0,
+      "item_id": 196,
+      "offset": "0xe0314",
+      "source_end_exclusive": "0xe031d",
+      "japanese": "おおべや",
+      "source_hex": "82a882a882d782e200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a882a882d782e2",
+          "text": "おおべや",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0314",
+      "original_pointer_word": "0xdfd08",
+      "full_item_name": "Great room scroll",
+      "english": "GrtRoom",
+      "notes": "Seven-slot inscription/display abbreviation of Great room scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_196"
+      ]
+    },
+    {
+      "id": "inscription.06.1",
+      "family": "scroll_alias",
+      "row": 6,
+      "variant": 1,
+      "item_id": 196,
+      "offset": "0xe0308",
+      "source_end_exclusive": "0xe0311",
+      "japanese": "オオベヤ",
+      "source_hex": "834983498378838400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8349834983788384",
+          "text": "オオベヤ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0308",
+      "original_pointer_word": "0xdfd0c",
+      "full_item_name": "Great room scroll",
+      "english": "GrtRoom",
+      "notes": "Seven-slot inscription/display abbreviation of Great room scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_196"
+      ]
+    },
+    {
+      "id": "inscription.07.0",
+      "family": "scroll_alias",
+      "row": 7,
+      "variant": 0,
+      "item_id": 211,
+      "offset": "0xe02fc",
+      "source_end_exclusive": "0xe0307",
+      "japanese": "かなしばり",
+      "source_hex": "82a982c882b582ce82e800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a982c882b582ce82e8",
+          "text": "かなしばり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02fc",
+      "original_pointer_word": "0xdfd14",
+      "full_item_name": "Binding scroll",
+      "english": "Binding",
+      "notes": "Seven-slot inscription/display abbreviation of Binding scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_211"
+      ]
+    },
+    {
+      "id": "inscription.07.1",
+      "family": "scroll_alias",
+      "row": 7,
+      "variant": 1,
+      "item_id": 211,
+      "offset": "0xe02f0",
+      "source_end_exclusive": "0xe02fb",
+      "japanese": "カナシバリ",
+      "source_hex": "834a83698356836f838a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834a83698356836f838a",
+          "text": "カナシバリ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02f0",
+      "original_pointer_word": "0xdfd18",
+      "full_item_name": "Binding scroll",
+      "english": "Binding",
+      "notes": "Seven-slot inscription/display abbreviation of Binding scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_211"
+      ]
+    },
+    {
+      "id": "inscription.08.0",
+      "family": "scroll_alias",
+      "row": 8,
+      "variant": 0,
+      "item_id": 213,
+      "offset": "0xe02e0",
+      "source_end_exclusive": "0xe02ef",
+      "japanese": "ぎんのたてごと",
+      "source_hex": "82ac82f182cc82bd82c482b282c600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ac82f182cc82bd82c482b282c6",
+          "text": "ぎんのたてごと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02e0",
+      "original_pointer_word": "0xdfd20",
+      "full_item_name": "Lyre of Ire scroll",
+      "english": "IreLyre",
+      "notes": "Seven-slot inscription/display abbreviation of Lyre of Ire scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_213"
+      ]
+    },
+    {
+      "id": "inscription.08.1",
+      "family": "scroll_alias",
+      "row": 8,
+      "variant": 1,
+      "item_id": 213,
+      "offset": "0xe02d0",
+      "source_end_exclusive": "0xe02df",
+      "japanese": "ギンノタテゴト",
+      "source_hex": "834d8393836d835e83658353836700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834d8393836d835e836583538367",
+          "text": "ギンノタテゴト",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02d0",
+      "original_pointer_word": "0xdfd24",
+      "full_item_name": "Lyre of Ire scroll",
+      "english": "IreLyre",
+      "notes": "Seven-slot inscription/display abbreviation of Lyre of Ire scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_213"
+      ]
+    },
+    {
+      "id": "inscription.09.0",
+      "family": "scroll_alias",
+      "row": 9,
+      "variant": 0,
+      "item_id": 193,
+      "offset": "0xe02c4",
+      "source_end_exclusive": "0xe02cd",
+      "japanese": "くちなし",
+      "source_hex": "82ad82bf82c882b500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ad82bf82c882b5",
+          "text": "くちなし",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02c4",
+      "original_pointer_word": "0xdfd2c",
+      "full_item_name": "Mouthseal scroll",
+      "english": "MthSeal",
+      "notes": "Seven-slot inscription/display abbreviation of Mouthseal scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_193"
+      ]
+    },
+    {
+      "id": "inscription.09.1",
+      "family": "scroll_alias",
+      "row": 9,
+      "variant": 1,
+      "item_id": 193,
+      "offset": "0xe02b8",
+      "source_end_exclusive": "0xe02c1",
+      "japanese": "クチナシ",
+      "source_hex": "834e83608369835600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834e836083698356",
+          "text": "クチナシ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02b8",
+      "original_pointer_word": "0xdfd30",
+      "full_item_name": "Mouthseal scroll",
+      "english": "MthSeal",
+      "notes": "Seven-slot inscription/display abbreviation of Mouthseal scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_193"
+      ]
+    },
+    {
+      "id": "inscription.10.0",
+      "family": "scroll_alias",
+      "row": 10,
+      "variant": 0,
+      "item_id": 223,
+      "offset": "0xe02ac",
+      "source_end_exclusive": "0xe02b5",
+      "japanese": "ざおらる",
+      "source_hex": "82b482a882e782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b482a882e782e9",
+          "text": "ざおらる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02ac",
+      "original_pointer_word": "0xdfd38",
+      "full_item_name": "Zing scroll",
+      "english": "Zing",
+      "notes": "Seven-slot inscription/display abbreviation of Zing scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_zing"
+      ]
+    },
+    {
+      "id": "inscription.10.1",
+      "family": "scroll_alias",
+      "row": 10,
+      "variant": 1,
+      "item_id": 223,
+      "offset": "0xe02a0",
+      "source_end_exclusive": "0xe02a9",
+      "japanese": "ザオラル",
+      "source_hex": "835583498389838b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835583498389838b",
+          "text": "ザオラル",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e02a0",
+      "original_pointer_word": "0xdfd3c",
+      "full_item_name": "Zing scroll",
+      "english": "Zing",
+      "notes": "Seven-slot inscription/display abbreviation of Zing scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_zing"
+      ]
+    },
+    {
+      "id": "inscription.11.0",
+      "family": "scroll_alias",
+      "row": 11,
+      "variant": 0,
+      "item_id": 243,
+      "offset": "0xe0290",
+      "source_end_exclusive": "0xe029f",
+      "japanese": "じげんばくだん",
+      "source_hex": "82b682b082f182ce82ad82be82f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b682b082f182ce82ad82be82f1",
+          "text": "じげんばくだん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0290",
+      "original_pointer_word": "0xdfd44",
+      "full_item_name": "Time bomb scroll",
+      "english": "TimeBmb",
+      "notes": "Seven-slot inscription/display abbreviation of Time bomb scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_243"
+      ]
+    },
+    {
+      "id": "inscription.11.1",
+      "family": "scroll_alias",
+      "row": 11,
+      "variant": 1,
+      "item_id": 243,
+      "offset": "0xe0280",
+      "source_end_exclusive": "0xe028f",
+      "japanese": "ジゲンバクダン",
+      "source_hex": "835783518393836f834e835f839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835783518393836f834e835f8393",
+          "text": "ジゲンバクダン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0280",
+      "original_pointer_word": "0xdfd48",
+      "full_item_name": "Time bomb scroll",
+      "english": "TimeBmb",
+      "notes": "Seven-slot inscription/display abbreviation of Time bomb scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_243"
+      ]
+    },
+    {
+      "id": "inscription.12.0",
+      "family": "scroll_alias",
+      "row": 12,
+      "variant": 0,
+      "item_id": 214,
+      "offset": "0xe0274",
+      "source_end_exclusive": "0xe027f",
+      "japanese": "じごくみみ",
+      "source_hex": "82b682b282ad82dd82dd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b682b282ad82dd82dd",
+          "text": "じごくみみ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0274",
+      "original_pointer_word": "0xdfd50",
+      "full_item_name": "Foe sight scroll",
+      "english": "FoeSght",
+      "notes": "Seven-slot inscription/display abbreviation of Foe sight scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_214"
+      ]
+    },
+    {
+      "id": "inscription.12.1",
+      "family": "scroll_alias",
+      "row": 12,
+      "variant": 1,
+      "item_id": 214,
+      "offset": "0xe0268",
+      "source_end_exclusive": "0xe0273",
+      "japanese": "ジゴクミミ",
+      "source_hex": "83578353834e837e837e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83578353834e837e837e",
+          "text": "ジゴクミミ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0268",
+      "original_pointer_word": "0xdfd54",
+      "full_item_name": "Foe sight scroll",
+      "english": "FoeSght",
+      "notes": "Seven-slot inscription/display abbreviation of Foe sight scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_214"
+      ]
+    },
+    {
+      "id": "inscription.13.0",
+      "family": "scroll_alias",
+      "row": 13,
+      "variant": 0,
+      "item_id": 190,
+      "offset": "0xe025c",
+      "source_end_exclusive": "0xe0265",
+      "japanese": "しゃなく",
+      "source_hex": "82b582e182c882ad00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582e182c882ad",
+          "text": "しゃなく",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e025c",
+      "original_pointer_word": "0xdfd5c",
+      "full_item_name": "Sheen scroll",
+      "english": "Sheen",
+      "notes": "Seven-slot inscription/display abbreviation of Sheen scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_sheen"
+      ]
+    },
+    {
+      "id": "inscription.13.1",
+      "family": "scroll_alias",
+      "row": 13,
+      "variant": 1,
+      "item_id": 190,
+      "offset": "0xe0250",
+      "source_end_exclusive": "0xe0259",
+      "japanese": "シャナク",
+      "source_hex": "835683838369834e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835683838369834e",
+          "text": "シャナク",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0250",
+      "original_pointer_word": "0xdfd60",
+      "full_item_name": "Sheen scroll",
+      "english": "Sheen",
+      "notes": "Seven-slot inscription/display abbreviation of Sheen scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_sheen"
+      ]
+    },
+    {
+      "id": "inscription.14.0",
+      "family": "scroll_alias",
+      "row": 14,
+      "variant": 0,
+      "item_id": 200,
+      "offset": "0xe0248",
+      "source_end_exclusive": "0xe024f",
+      "japanese": "すから",
+      "source_hex": "82b782a982e700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b782a982e7",
+          "text": "すから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0248",
+      "original_pointer_word": "0xdfd68",
+      "full_item_name": "Buff scroll",
+      "english": "Buff",
+      "notes": "Seven-slot inscription/display abbreviation of Buff scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_buff"
+      ]
+    },
+    {
+      "id": "inscription.14.1",
+      "family": "scroll_alias",
+      "row": 14,
+      "variant": 1,
+      "item_id": 200,
+      "offset": "0xe0240",
+      "source_end_exclusive": "0xe0247",
+      "japanese": "スカラ",
+      "source_hex": "8358834a838900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8358834a8389",
+          "text": "スカラ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0240",
+      "original_pointer_word": "0xdfd6c",
+      "full_item_name": "Buff scroll",
+      "english": "Buff",
+      "notes": "Seven-slot inscription/display abbreviation of Buff scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_buff"
+      ]
+    },
+    {
+      "id": "inscription.15.0",
+      "family": "scroll_alias",
+      "row": 15,
+      "variant": 0,
+      "item_id": 228,
+      "offset": "0xe0238",
+      "source_end_exclusive": "0xe023f",
+      "japanese": "すてみ",
+      "source_hex": "82b782c482dd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b782c482dd",
+          "text": "すてみ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0238",
+      "original_pointer_word": "0xdfd74",
+      "full_item_name": "Reckless scroll",
+      "english": "Recklss",
+      "notes": "Seven-slot inscription/display abbreviation of Reckless scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_228"
+      ]
+    },
+    {
+      "id": "inscription.15.1",
+      "family": "scroll_alias",
+      "row": 15,
+      "variant": 1,
+      "item_id": 228,
+      "offset": "0xe0230",
+      "source_end_exclusive": "0xe0237",
+      "japanese": "ステミ",
+      "source_hex": "83588365837e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83588365837e",
+          "text": "ステミ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0230",
+      "original_pointer_word": "0xdfd78",
+      "full_item_name": "Reckless scroll",
+      "english": "Recklss",
+      "notes": "Seven-slot inscription/display abbreviation of Reckless scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_228"
+      ]
+    },
+    {
+      "id": "inscription.16.0",
+      "family": "scroll_alias",
+      "row": 16,
+      "variant": 0,
+      "item_id": 245,
+      "offset": "0xe0224",
+      "source_end_exclusive": "0xe022f",
+      "japanese": "すなばしら",
+      "source_hex": "82b782c882ce82b582e700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b782c882ce82b582e7",
+          "text": "すなばしら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0224",
+      "original_pointer_word": "0xdfd80",
+      "full_item_name": "Sand pillar scroll",
+      "english": "SandPlr",
+      "notes": "Seven-slot inscription/display abbreviation of Sand pillar scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_245"
+      ]
+    },
+    {
+      "id": "inscription.16.1",
+      "family": "scroll_alias",
+      "row": 16,
+      "variant": 1,
+      "item_id": 245,
+      "offset": "0xe0218",
+      "source_end_exclusive": "0xe0223",
+      "japanese": "スナバシラ",
+      "source_hex": "83588369836f8356838900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83588369836f83568389",
+          "text": "スナバシラ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0218",
+      "original_pointer_word": "0xdfd84",
+      "full_item_name": "Sand pillar scroll",
+      "english": "SandPlr",
+      "notes": "Seven-slot inscription/display abbreviation of Sand pillar scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_245"
+      ]
+    },
+    {
+      "id": "inscription.17.0",
+      "family": "scroll_alias",
+      "row": 17,
+      "variant": 0,
+      "item_id": 204,
+      "offset": "0xe020c",
+      "source_end_exclusive": "0xe0215",
+      "japanese": "せいいき",
+      "source_hex": "82b982a282a282ab00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b982a282a282ab",
+          "text": "せいいき",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e020c",
+      "original_pointer_word": "0xdfd8c",
+      "full_item_name": "Sanctuary scroll",
+      "english": "Sanctry",
+      "notes": "Seven-slot inscription/display abbreviation of Sanctuary scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_204"
+      ]
+    },
+    {
+      "id": "inscription.17.1",
+      "family": "scroll_alias",
+      "row": 17,
+      "variant": 1,
+      "item_id": 204,
+      "offset": "0xe0200",
+      "source_end_exclusive": "0xe0209",
+      "japanese": "セイイキ",
+      "source_hex": "835a83438343834c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835a83438343834c",
+          "text": "セイイキ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0200",
+      "original_pointer_word": "0xdfd90",
+      "full_item_name": "Sanctuary scroll",
+      "english": "Sanctry",
+      "notes": "Seven-slot inscription/display abbreviation of Sanctuary scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_204"
+      ]
+    },
+    {
+      "id": "inscription.18.0",
+      "family": "scroll_alias",
+      "row": 18,
+      "variant": 0,
+      "item_id": 244,
+      "offset": "0xe01f4",
+      "source_end_exclusive": "0xe01fd",
+      "japanese": "せいしろ",
+      "source_hex": "82b982a282b582eb00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b982a282b582eb",
+          "text": "せいしろ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01f4",
+      "original_pointer_word": "0xdfd98",
+      "full_item_name": "Holy castle scroll",
+      "english": "HolyCst",
+      "notes": "Seven-slot inscription/display abbreviation of Holy castle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_244"
+      ]
+    },
+    {
+      "id": "inscription.18.1",
+      "family": "scroll_alias",
+      "row": 18,
+      "variant": 1,
+      "item_id": 244,
+      "offset": "0xe01e8",
+      "source_end_exclusive": "0xe01f1",
+      "japanese": "セイシロ",
+      "source_hex": "835a83438356838d00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835a83438356838d",
+          "text": "セイシロ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01e8",
+      "original_pointer_word": "0xdfd9c",
+      "full_item_name": "Holy castle scroll",
+      "english": "HolyCst",
+      "notes": "Seven-slot inscription/display abbreviation of Holy castle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_244"
+      ]
+    },
+    {
+      "id": "inscription.19.0",
+      "family": "scroll_alias",
+      "row": 19,
+      "variant": 0,
+      "item_id": 205,
+      "offset": "0xe01dc",
+      "source_end_exclusive": "0xe01e7",
+      "japanese": "せんりがん",
+      "source_hex": "82b982f182e882aa82f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b982f182e882aa82f1",
+          "text": "せんりがん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01dc",
+      "original_pointer_word": "0xdfda4",
+      "full_item_name": "Item sight scroll",
+      "english": "ItemSgt",
+      "notes": "Seven-slot inscription/display abbreviation of Item sight scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_205"
+      ]
+    },
+    {
+      "id": "inscription.19.1",
+      "family": "scroll_alias",
+      "row": 19,
+      "variant": 1,
+      "item_id": 205,
+      "offset": "0xe01d0",
+      "source_end_exclusive": "0xe01db",
+      "japanese": "センリガン",
+      "source_hex": "835a8393838a834b839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835a8393838a834b8393",
+          "text": "センリガン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01d0",
+      "original_pointer_word": "0xdfda8",
+      "full_item_name": "Item sight scroll",
+      "english": "ItemSgt",
+      "notes": "Seven-slot inscription/display abbreviation of Item sight scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_205"
+      ]
+    },
+    {
+      "id": "inscription.20.0",
+      "family": "scroll_alias",
+      "row": 20,
+      "variant": 0,
+      "item_id": 237,
+      "offset": "0xe01c0",
+      "source_end_exclusive": "0xe01cd",
+      "japanese": "だいばくはつ",
+      "source_hex": "82be82a282ce82ad82cd82c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82be82a282ce82ad82cd82c2",
+          "text": "だいばくはつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01c0",
+      "original_pointer_word": "0xdfdb0",
+      "full_item_name": "Big blast scroll",
+      "english": "BigBlst",
+      "notes": "Seven-slot inscription/display abbreviation of Big blast scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_237"
+      ]
+    },
+    {
+      "id": "inscription.20.1",
+      "family": "scroll_alias",
+      "row": 20,
+      "variant": 1,
+      "item_id": 237,
+      "offset": "0xe01b0",
+      "source_end_exclusive": "0xe01bd",
+      "japanese": "ダイバクハツ",
+      "source_hex": "835f8343836f834e836e836300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835f8343836f834e836e8363",
+          "text": "ダイバクハツ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01b0",
+      "original_pointer_word": "0xdfdb4",
+      "full_item_name": "Big blast scroll",
+      "english": "BigBlst",
+      "notes": "Seven-slot inscription/display abbreviation of Big blast scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_237"
+      ]
+    },
+    {
+      "id": "inscription.21.0",
+      "family": "scroll_alias",
+      "row": 21,
+      "variant": 0,
+      "item_id": 232,
+      "offset": "0xe01a8",
+      "source_end_exclusive": "0xe01af",
+      "japanese": "ちきん",
+      "source_hex": "82bf82ab82f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bf82ab82f1",
+          "text": "ちきん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01a8",
+      "original_pointer_word": "0xdfdbc",
+      "full_item_name": "Chicken scroll",
+      "english": "Chicken",
+      "notes": "Seven-slot inscription/display abbreviation of Chicken scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_232"
+      ]
+    },
+    {
+      "id": "inscription.21.1",
+      "family": "scroll_alias",
+      "row": 21,
+      "variant": 1,
+      "item_id": 232,
+      "offset": "0xe01a0",
+      "source_end_exclusive": "0xe01a7",
+      "japanese": "チキン",
+      "source_hex": "8360834c839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8360834c8393",
+          "text": "チキン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e01a0",
+      "original_pointer_word": "0xdfdc0",
+      "full_item_name": "Chicken scroll",
+      "english": "Chicken",
+      "notes": "Seven-slot inscription/display abbreviation of Chicken scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_232"
+      ]
+    },
+    {
+      "id": "inscription.22.0",
+      "family": "scroll_alias",
+      "row": 22,
+      "variant": 0,
+      "item_id": 235,
+      "offset": "0xe0194",
+      "source_end_exclusive": "0xe019f",
+      "japanese": "ちゅうべや",
+      "source_hex": "82bf82e382a482d782e200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82bf82e382a482d782e2",
+          "text": "ちゅうべや",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0194",
+      "original_pointer_word": "0xdfdc8",
+      "full_item_name": "Medium room scroll",
+      "english": "MedRoom",
+      "notes": "Seven-slot inscription/display abbreviation of Medium room scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_235"
+      ]
+    },
+    {
+      "id": "inscription.22.1",
+      "family": "scroll_alias",
+      "row": 22,
+      "variant": 1,
+      "item_id": 235,
+      "offset": "0xe0188",
+      "source_end_exclusive": "0xe0193",
+      "japanese": "チュウベヤ",
+      "source_hex": "8360838583458378838400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83608385834583788384",
+          "text": "チュウベヤ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0188",
+      "original_pointer_word": "0xdfdcc",
+      "full_item_name": "Medium room scroll",
+      "english": "MedRoom",
+      "notes": "Seven-slot inscription/display abbreviation of Medium room scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_235"
+      ]
+    },
+    {
+      "id": "inscription.23.0",
+      "family": "scroll_alias",
+      "row": 23,
+      "variant": 0,
+      "item_id": 234,
+      "offset": "0xe0178",
+      "source_end_exclusive": "0xe0185",
+      "japanese": "つぼきょうか",
+      "source_hex": "82c282da82ab82e582a482a900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c282da82ab82e582a482a9",
+          "text": "つぼきょうか",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0178",
+      "original_pointer_word": "0xdfdd4",
+      "full_item_name": "Pot fortify scroll",
+      "english": "PotFort",
+      "notes": "Seven-slot inscription/display abbreviation of Pot fortify scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_234"
+      ]
+    },
+    {
+      "id": "inscription.23.1",
+      "family": "scroll_alias",
+      "row": 23,
+      "variant": 1,
+      "item_id": 234,
+      "offset": "0xe0168",
+      "source_end_exclusive": "0xe0175",
+      "japanese": "ツボキョウカ",
+      "source_hex": "8363837b834c83878345834a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8363837b834c83878345834a",
+          "text": "ツボキョウカ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0168",
+      "original_pointer_word": "0xdfdd8",
+      "full_item_name": "Pot fortify scroll",
+      "english": "PotFort",
+      "notes": "Seven-slot inscription/display abbreviation of Pot fortify scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_234"
+      ]
+    },
+    {
+      "id": "inscription.24.0",
+      "family": "scroll_alias",
+      "row": 24,
+      "variant": 0,
+      "item_id": 215,
+      "offset": "0xe015c",
+      "source_end_exclusive": "0xe0165",
+      "japanese": "とらまな",
+      "source_hex": "82c682e782dc82c800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c682e782dc82c8",
+          "text": "とらまな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e015c",
+      "original_pointer_word": "0xdfde0",
+      "full_item_name": "Safe Passage scroll",
+      "english": "SafePas",
+      "notes": "Seven-slot inscription/display abbreviation of Safe Passage scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_safe_passage"
+      ]
+    },
+    {
+      "id": "inscription.24.1",
+      "family": "scroll_alias",
+      "row": 24,
+      "variant": 1,
+      "item_id": 215,
+      "offset": "0xe0150",
+      "source_end_exclusive": "0xe0159",
+      "japanese": "トラマナ",
+      "source_hex": "83678389837d836900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83678389837d8369",
+          "text": "トラマナ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0150",
+      "original_pointer_word": "0xdfde4",
+      "full_item_name": "Safe Passage scroll",
+      "english": "SafePas",
+      "notes": "Seven-slot inscription/display abbreviation of Safe Passage scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_safe_passage"
+      ]
+    },
+    {
+      "id": "inscription.25.0",
+      "family": "scroll_alias",
+      "row": 25,
+      "variant": 0,
+      "item_id": 230,
+      "offset": "0xe0144",
+      "source_end_exclusive": "0xe014d",
+      "japanese": "にふらむ",
+      "source_hex": "82c982d382e782de00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c982d382e782de",
+          "text": "にふらむ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0144",
+      "original_pointer_word": "0xdfdec",
+      "full_item_name": "Poof scroll",
+      "english": "Poof",
+      "notes": "Seven-slot inscription/display abbreviation of Poof scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_poof"
+      ]
+    },
+    {
+      "id": "inscription.25.1",
+      "family": "scroll_alias",
+      "row": 25,
+      "variant": 1,
+      "item_id": 230,
+      "offset": "0xe0138",
+      "source_end_exclusive": "0xe0141",
+      "japanese": "ニフラム",
+      "source_hex": "836a83748389838000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836a837483898380",
+          "text": "ニフラム",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0138",
+      "original_pointer_word": "0xdfdf0",
+      "full_item_name": "Poof scroll",
+      "english": "Poof",
+      "notes": "Seven-slot inscription/display abbreviation of Poof scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_poof"
+      ]
+    },
+    {
+      "id": "inscription.26.0",
+      "family": "scroll_alias",
+      "row": 26,
+      "variant": 0,
+      "item_id": 199,
+      "offset": "0xe012c",
+      "source_end_exclusive": "0xe0137",
+      "japanese": "ばいきると",
+      "source_hex": "82ce82a282ab82e982c600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ce82a282ab82e982c6",
+          "text": "ばいきると",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e012c",
+      "original_pointer_word": "0xdfdf8",
+      "full_item_name": "Oomphle scroll",
+      "english": "Oomphle",
+      "notes": "Seven-slot inscription/display abbreviation of Oomphle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_oomphle"
+      ]
+    },
+    {
+      "id": "inscription.26.1",
+      "family": "scroll_alias",
+      "row": 26,
+      "variant": 1,
+      "item_id": 199,
+      "offset": "0xe0120",
+      "source_end_exclusive": "0xe012b",
+      "japanese": "バイキルト",
+      "source_hex": "836f8343834c838b836700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f8343834c838b8367",
+          "text": "バイキルト",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0120",
+      "original_pointer_word": "0xdfdfc",
+      "full_item_name": "Oomphle scroll",
+      "english": "Oomphle",
+      "notes": "Seven-slot inscription/display abbreviation of Oomphle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_oomphle"
+      ]
+    },
+    {
+      "id": "inscription.27.0",
+      "family": "scroll_alias",
+      "row": 27,
+      "variant": 0,
+      "item_id": 226,
+      "offset": "0xe0114",
+      "source_end_exclusive": "0xe011d",
+      "japanese": "ばくすい",
+      "source_hex": "82ce82ad82b782a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ce82ad82b782a2",
+          "text": "ばくすい",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0114",
+      "original_pointer_word": "0xdfe04",
+      "full_item_name": "Deep sleep scroll",
+      "english": "DeepSlp",
+      "notes": "Seven-slot inscription/display abbreviation of Deep sleep scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_226"
+      ]
+    },
+    {
+      "id": "inscription.27.1",
+      "family": "scroll_alias",
+      "row": 27,
+      "variant": 1,
+      "item_id": 226,
+      "offset": "0xe0108",
+      "source_end_exclusive": "0xe0111",
+      "japanese": "バクスイ",
+      "source_hex": "836f834e8358834300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f834e83588343",
+          "text": "バクスイ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0108",
+      "original_pointer_word": "0xdfe08",
+      "full_item_name": "Deep sleep scroll",
+      "english": "DeepSlp",
+      "notes": "Seven-slot inscription/display abbreviation of Deep sleep scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_226"
+      ]
+    },
+    {
+      "id": "inscription.28.0",
+      "family": "scroll_alias",
+      "row": 28,
+      "variant": 0,
+      "item_id": 219,
+      "offset": "0xe00fc",
+      "source_end_exclusive": "0xe0105",
+      "japanese": "はりつけ",
+      "source_hex": "82cd82e882c282af00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82e882c282af",
+          "text": "はりつけ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00fc",
+      "original_pointer_word": "0xdfe10",
+      "full_item_name": "Rooting scroll",
+      "english": "Rooting",
+      "notes": "Seven-slot inscription/display abbreviation of Rooting scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_219"
+      ]
+    },
+    {
+      "id": "inscription.28.1",
+      "family": "scroll_alias",
+      "row": 28,
+      "variant": 1,
+      "item_id": 219,
+      "offset": "0xe00f0",
+      "source_end_exclusive": "0xe00f9",
+      "japanese": "ハリツケ",
+      "source_hex": "836e838a8363835000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836e838a83638350",
+          "text": "ハリツケ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00f0",
+      "original_pointer_word": "0xdfe14",
+      "full_item_name": "Rooting scroll",
+      "english": "Rooting",
+      "notes": "Seven-slot inscription/display abbreviation of Rooting scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_219"
+      ]
+    },
+    {
+      "id": "inscription.29.0",
+      "family": "scroll_alias",
+      "row": 29,
+      "variant": 0,
+      "item_id": 227,
+      "offset": "0xe00e0",
+      "source_end_exclusive": "0xe00ed",
+      "japanese": "ぱわーあっぷ",
+      "source_hex": "82cf82ed815b82a082c182d500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cf82ed815b82a082c182d5",
+          "text": "ぱわーあっぷ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00e0",
+      "original_pointer_word": "0xdfe1c",
+      "full_item_name": "Power-up scroll",
+      "english": "PowerUp",
+      "notes": "Seven-slot inscription/display abbreviation of Power-up scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_227"
+      ]
+    },
+    {
+      "id": "inscription.29.1",
+      "family": "scroll_alias",
+      "row": 29,
+      "variant": 1,
+      "item_id": 227,
+      "offset": "0xe00d0",
+      "source_end_exclusive": "0xe00dd",
+      "japanese": "パワーアップ",
+      "source_hex": "8370838f815b83418362837600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8370838f815b834183628376",
+          "text": "パワーアップ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00d0",
+      "original_pointer_word": "0xdfe20",
+      "full_item_name": "Power-up scroll",
+      "english": "PowerUp",
+      "notes": "Seven-slot inscription/display abbreviation of Power-up scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_227"
+      ]
+    },
+    {
+      "id": "inscription.30.0",
+      "family": "scroll_alias",
+      "row": 30,
+      "variant": 0,
+      "item_id": 206,
+      "offset": "0xe00c8",
+      "source_end_exclusive": "0xe00cd",
+      "japanese": "ぱん",
+      "source_hex": "82cf82f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cf82f1",
+          "text": "ぱん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00c8",
+      "original_pointer_word": "0xdfe28",
+      "full_item_name": "Bread scroll",
+      "english": "Bread",
+      "notes": "Seven-slot inscription/display abbreviation of Bread scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "bread"
+      ]
+    },
+    {
+      "id": "inscription.30.1",
+      "family": "scroll_alias",
+      "row": 30,
+      "variant": 1,
+      "item_id": 206,
+      "offset": "0xe00c0",
+      "source_end_exclusive": "0xe00c5",
+      "japanese": "パン",
+      "source_hex": "8370839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83708393",
+          "text": "パン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00c0",
+      "original_pointer_word": "0xdfe2c",
+      "full_item_name": "Bread scroll",
+      "english": "Bread",
+      "notes": "Seven-slot inscription/display abbreviation of Bread scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "bread"
+      ]
+    },
+    {
+      "id": "inscription.31.0",
+      "family": "scroll_alias",
+      "row": 31,
+      "variant": 0,
+      "item_id": 220,
+      "offset": "0xe00b4",
+      "source_end_exclusive": "0xe00bd",
+      "japanese": "ひきよせ",
+      "source_hex": "82d082ab82e682b900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d082ab82e682b9",
+          "text": "ひきよせ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00b4",
+      "original_pointer_word": "0xdfe34",
+      "full_item_name": "Pulling scroll",
+      "english": "Pulling",
+      "notes": "Seven-slot inscription/display abbreviation of Pulling scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_220"
+      ]
+    },
+    {
+      "id": "inscription.31.1",
+      "family": "scroll_alias",
+      "row": 31,
+      "variant": 1,
+      "item_id": 220,
+      "offset": "0xe00a8",
+      "source_end_exclusive": "0xe00b1",
+      "japanese": "ヒキヨセ",
+      "source_hex": "8371834c8388835a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8371834c8388835a",
+          "text": "ヒキヨセ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e00a8",
+      "original_pointer_word": "0xdfe38",
+      "full_item_name": "Pulling scroll",
+      "english": "Pulling",
+      "notes": "Seven-slot inscription/display abbreviation of Pulling scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_220"
+      ]
+    },
+    {
+      "id": "inscription.32.0",
+      "family": "scroll_alias",
+      "row": 32,
+      "variant": 0,
+      "item_id": 242,
+      "offset": "0xe009c",
+      "source_end_exclusive": "0xe00a7",
+      "japanese": "ひょうけつ",
+      "source_hex": "82d082e582a482af82c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d082e582a482af82c2",
+          "text": "ひょうけつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e009c",
+      "original_pointer_word": "0xdfe40",
+      "full_item_name": "Freeze scroll",
+      "english": "Freeze",
+      "notes": "Seven-slot inscription/display abbreviation of Freeze scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_242"
+      ]
+    },
+    {
+      "id": "inscription.32.1",
+      "family": "scroll_alias",
+      "row": 32,
+      "variant": 1,
+      "item_id": 242,
+      "offset": "0xe0090",
+      "source_end_exclusive": "0xe009b",
+      "japanese": "ヒョウケツ",
+      "source_hex": "8371838783458350836300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83718387834583508363",
+          "text": "ヒョウケツ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0090",
+      "original_pointer_word": "0xdfe44",
+      "full_item_name": "Freeze scroll",
+      "english": "Freeze",
+      "notes": "Seven-slot inscription/display abbreviation of Freeze scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_242"
+      ]
+    },
+    {
+      "id": "inscription.33.0",
+      "family": "scroll_alias",
+      "row": 33,
+      "variant": 0,
+      "item_id": 203,
+      "offset": "0xe0084",
+      "source_end_exclusive": "0xe008d",
+      "japanese": "ひろえず",
+      "source_hex": "82d082eb82a682b800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d082eb82a682b8",
+          "text": "ひろえず",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0084",
+      "original_pointer_word": "0xdfe4c",
+      "full_item_name": "No-pickup scroll",
+      "english": "NoPick",
+      "notes": "Seven-slot inscription/display abbreviation of No-pickup scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_203"
+      ]
+    },
+    {
+      "id": "inscription.33.1",
+      "family": "scroll_alias",
+      "row": 33,
+      "variant": 1,
+      "item_id": 203,
+      "offset": "0xe0078",
+      "source_end_exclusive": "0xe0081",
+      "japanese": "ヒロエズ",
+      "source_hex": "8371838d8347835900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8371838d83478359",
+          "text": "ヒロエズ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0078",
+      "original_pointer_word": "0xdfe50",
+      "full_item_name": "No-pickup scroll",
+      "english": "NoPick",
+      "notes": "Seven-slot inscription/display abbreviation of No-pickup scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_203"
+      ]
+    },
+    {
+      "id": "inscription.34.0",
+      "family": "scroll_alias",
+      "row": 34,
+      "variant": 0,
+      "item_id": 238,
+      "offset": "0xe0070",
+      "source_end_exclusive": "0xe0077",
+      "japanese": "ふはつ",
+      "source_hex": "82d382cd82c200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d382cd82c2",
+          "text": "ふはつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0070",
+      "original_pointer_word": "0xdfe58",
+      "full_item_name": "Dud scroll",
+      "english": "Dud",
+      "notes": "Seven-slot inscription/display abbreviation of Dud scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_238"
+      ]
+    },
+    {
+      "id": "inscription.34.1",
+      "family": "scroll_alias",
+      "row": 34,
+      "variant": 1,
+      "item_id": 238,
+      "offset": "0xe0068",
+      "source_end_exclusive": "0xe006f",
+      "japanese": "フハツ",
+      "source_hex": "8374836e836300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8374836e8363",
+          "text": "フハツ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0068",
+      "original_pointer_word": "0xdfe5c",
+      "full_item_name": "Dud scroll",
+      "english": "Dud",
+      "notes": "Seven-slot inscription/display abbreviation of Dud scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_238"
+      ]
+    },
+    {
+      "id": "inscription.35.0",
+      "family": "scroll_alias",
+      "row": 35,
+      "variant": 0,
+      "item_id": 236,
+      "offset": "0xe005c",
+      "source_end_exclusive": "0xe0067",
+      "japanese": "べほまらー",
+      "source_hex": "82d782d982dc82e7815b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d782d982dc82e7815b",
+          "text": "べほまらー",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e005c",
+      "original_pointer_word": "0xdfe64",
+      "full_item_name": "Multiheal scroll",
+      "english": "MultiHl",
+      "notes": "Seven-slot inscription/display abbreviation of Multiheal scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "spell.multiheal"
+      ]
+    },
+    {
+      "id": "inscription.35.1",
+      "family": "scroll_alias",
+      "row": 35,
+      "variant": 1,
+      "item_id": 236,
+      "offset": "0xe0050",
+      "source_end_exclusive": "0xe005b",
+      "japanese": "ベホマラー",
+      "source_hex": "8378837a837d8389815b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8378837a837d8389815b",
+          "text": "ベホマラー",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0050",
+      "original_pointer_word": "0xdfe68",
+      "full_item_name": "Multiheal scroll",
+      "english": "MultiHl",
+      "notes": "Seven-slot inscription/display abbreviation of Multiheal scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "spell.multiheal"
+      ]
+    },
+    {
+      "id": "inscription.36.0",
+      "family": "scroll_alias",
+      "row": 36,
+      "variant": 0,
+      "item_id": 221,
+      "offset": "0xe0044",
+      "source_end_exclusive": "0xe004d",
+      "japanese": "へんしん",
+      "source_hex": "82d682f182b582f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d682f182b582f1",
+          "text": "へんしん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0044",
+      "original_pointer_word": "0xdfe70",
+      "full_item_name": "Transform scroll",
+      "english": "Transfm",
+      "notes": "Seven-slot inscription/display abbreviation of Transform scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_221"
+      ]
+    },
+    {
+      "id": "inscription.36.1",
+      "family": "scroll_alias",
+      "row": 36,
+      "variant": 1,
+      "item_id": 221,
+      "offset": "0xe0038",
+      "source_end_exclusive": "0xe0041",
+      "japanese": "ヘンシン",
+      "source_hex": "837783938356839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8377839383568393",
+          "text": "ヘンシン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0038",
+      "original_pointer_word": "0xdfe74",
+      "full_item_name": "Transform scroll",
+      "english": "Transfm",
+      "notes": "Seven-slot inscription/display abbreviation of Transform scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_221"
+      ]
+    },
+    {
+      "id": "inscription.37.0",
+      "family": "scroll_alias",
+      "row": 37,
+      "variant": 0,
+      "item_id": 225,
+      "offset": "0xe0028",
+      "source_end_exclusive": "0xe0035",
+      "japanese": "まものいそぎ",
+      "source_hex": "82dc82e082cc82a282bb82ac00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82e082cc82a282bb82ac",
+          "text": "まものいそぎ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0028",
+      "original_pointer_word": "0xdfe7c",
+      "full_item_name": "Monster haste scroll",
+      "english": "MonHast",
+      "notes": "Seven-slot inscription/display abbreviation of Monster haste scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_225"
+      ]
+    },
+    {
+      "id": "inscription.37.1",
+      "family": "scroll_alias",
+      "row": 37,
+      "variant": 1,
+      "item_id": 225,
+      "offset": "0xe0018",
+      "source_end_exclusive": "0xe0025",
+      "japanese": "マモノイソギ",
+      "source_hex": "837d8382836d8343835c834d00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837d8382836d8343835c834d",
+          "text": "マモノイソギ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0018",
+      "original_pointer_word": "0xdfe80",
+      "full_item_name": "Monster haste scroll",
+      "english": "MonHast",
+      "notes": "Seven-slot inscription/display abbreviation of Monster haste scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_225"
+      ]
+    },
+    {
+      "id": "inscription.38.0",
+      "family": "scroll_alias",
+      "row": 38,
+      "variant": 0,
+      "item_id": 217,
+      "offset": "0xe0008",
+      "source_end_exclusive": "0xe0015",
+      "japanese": "まものしばり",
+      "source_hex": "82dc82e082cc82b582ce82e800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82e082cc82b582ce82e8",
+          "text": "まものしばり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000e0008",
+      "original_pointer_word": "0xdfe88",
+      "full_item_name": "Monster bind scroll",
+      "english": "MonBind",
+      "notes": "Seven-slot inscription/display abbreviation of Monster bind scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_217"
+      ]
+    },
+    {
+      "id": "inscription.38.1",
+      "family": "scroll_alias",
+      "row": 38,
+      "variant": 1,
+      "item_id": 217,
+      "offset": "0xdfff8",
+      "source_end_exclusive": "0xe0005",
+      "japanese": "マモノシバリ",
+      "source_hex": "837d8382836d8356836f838a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837d8382836d8356836f838a",
+          "text": "マモノシバリ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dfff8",
+      "original_pointer_word": "0xdfe8c",
+      "full_item_name": "Monster bind scroll",
+      "english": "MonBind",
+      "notes": "Seven-slot inscription/display abbreviation of Monster bind scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_217"
+      ]
+    },
+    {
+      "id": "inscription.39.0",
+      "family": "scroll_alias",
+      "row": 39,
+      "variant": 0,
+      "item_id": 239,
+      "offset": "0xdffec",
+      "source_end_exclusive": "0xdfff5",
+      "japanese": "みずがれ",
+      "source_hex": "82dd82b882aa82ea00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dd82b882aa82ea",
+          "text": "みずがれ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffec",
+      "original_pointer_word": "0xdfe94",
+      "full_item_name": "Drought scroll",
+      "english": "Drought",
+      "notes": "Seven-slot inscription/display abbreviation of Drought scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_239"
+      ]
+    },
+    {
+      "id": "inscription.39.1",
+      "family": "scroll_alias",
+      "row": 39,
+      "variant": 1,
+      "item_id": 239,
+      "offset": "0xdffe0",
+      "source_end_exclusive": "0xdffe9",
+      "japanese": "ミズガレ",
+      "source_hex": "837e8359834b838c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837e8359834b838c",
+          "text": "ミズガレ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffe0",
+      "original_pointer_word": "0xdfe98",
+      "full_item_name": "Drought scroll",
+      "english": "Drought",
+      "notes": "Seven-slot inscription/display abbreviation of Drought scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_239"
+      ]
+    },
+    {
+      "id": "inscription.40.0",
+      "family": "scroll_alias",
+      "row": 40,
+      "variant": 0,
+      "item_id": 229,
+      "offset": "0xdffd4",
+      "source_end_exclusive": "0xdffdd",
+      "japanese": "めだぱに",
+      "source_hex": "82df82be82cf82c900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82df82be82cf82c9",
+          "text": "めだぱに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffd4",
+      "original_pointer_word": "0xdfea0",
+      "full_item_name": "Fuddle scroll",
+      "english": "Fuddle",
+      "notes": "Seven-slot inscription/display abbreviation of Fuddle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_fuddle"
+      ]
+    },
+    {
+      "id": "inscription.40.1",
+      "family": "scroll_alias",
+      "row": 40,
+      "variant": 1,
+      "item_id": 229,
+      "offset": "0xdffc8",
+      "source_end_exclusive": "0xdffd1",
+      "japanese": "メダパニ",
+      "source_hex": "8381835f8370836a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381835f8370836a",
+          "text": "メダパニ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffc8",
+      "original_pointer_word": "0xdfea4",
+      "full_item_name": "Fuddle scroll",
+      "english": "Fuddle",
+      "notes": "Seven-slot inscription/display abbreviation of Fuddle scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_fuddle"
+      ]
+    },
+    {
+      "id": "inscription.41.0",
+      "family": "scroll_alias",
+      "row": 41,
+      "variant": 0,
+      "item_id": 201,
+      "offset": "0xdffc0",
+      "source_end_exclusive": "0xdffc7",
+      "japanese": "めっき",
+      "source_hex": "82df82c182ab00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82df82c182ab",
+          "text": "めっき",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffc0",
+      "original_pointer_word": "0xdfeac",
+      "full_item_name": "Plating scroll",
+      "english": "Plating",
+      "notes": "Seven-slot inscription/display abbreviation of Plating scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "plating_scroll"
+      ]
+    },
+    {
+      "id": "inscription.41.1",
+      "family": "scroll_alias",
+      "row": 41,
+      "variant": 1,
+      "item_id": 201,
+      "offset": "0xdffb8",
+      "source_end_exclusive": "0xdffbf",
+      "japanese": "メッキ",
+      "source_hex": "83818362834c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83818362834c",
+          "text": "メッキ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffb8",
+      "original_pointer_word": "0xdfeb0",
+      "full_item_name": "Plating scroll",
+      "english": "Plating",
+      "notes": "Seven-slot inscription/display abbreviation of Plating scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "plating_scroll"
+      ]
+    },
+    {
+      "id": "inscription.42.0",
+      "family": "scroll_alias",
+      "row": 42,
+      "variant": 0,
+      "item_id": 197,
+      "offset": "0xdffac",
+      "source_end_exclusive": "0xdffb7",
+      "japanese": "もんすたー",
+      "source_hex": "82e082f182b782bd815b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e082f182b782bd815b",
+          "text": "もんすたー",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffac",
+      "original_pointer_word": "0xdfeb8",
+      "full_item_name": "Monster scroll",
+      "english": "Monster",
+      "notes": "Seven-slot inscription/display abbreviation of Monster scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_197"
+      ]
+    },
+    {
+      "id": "inscription.42.1",
+      "family": "scroll_alias",
+      "row": 42,
+      "variant": 1,
+      "item_id": 197,
+      "offset": "0xdffa0",
+      "source_end_exclusive": "0xdffab",
+      "japanese": "モンスター",
+      "source_hex": "838283938358835e815b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b",
+          "text": "モンスター",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dffa0",
+      "original_pointer_word": "0xdfebc",
+      "full_item_name": "Monster scroll",
+      "english": "Monster",
+      "notes": "Seven-slot inscription/display abbreviation of Monster scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_197"
+      ]
+    },
+    {
+      "id": "inscription.43.0",
+      "family": "scroll_alias",
+      "row": 43,
+      "variant": 0,
+      "item_id": 194,
+      "offset": "0xdff94",
+      "source_end_exclusive": "0xdff9d",
+      "japanese": "りれみと",
+      "source_hex": "82e882ea82dd82c600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e882ea82dd82c6",
+          "text": "りれみと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff94",
+      "original_pointer_word": "0xdfec4",
+      "full_item_name": "Evac scroll",
+      "english": "Evac",
+      "notes": "Seven-slot inscription/display abbreviation of Evac scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_evac"
+      ]
+    },
+    {
+      "id": "inscription.43.1",
+      "family": "scroll_alias",
+      "row": 43,
+      "variant": 1,
+      "item_id": 194,
+      "offset": "0xdff88",
+      "source_end_exclusive": "0xdff91",
+      "japanese": "リレミト",
+      "source_hex": "838a838c837e836700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838a838c837e8367",
+          "text": "リレミト",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff88",
+      "original_pointer_word": "0xdfec8",
+      "full_item_name": "Evac scroll",
+      "english": "Evac",
+      "notes": "Seven-slot inscription/display abbreviation of Evac scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_evac"
+      ]
+    },
+    {
+      "id": "inscription.44.0",
+      "family": "scroll_alias",
+      "row": 44,
+      "variant": 0,
+      "item_id": 218,
+      "offset": "0xdff7c",
+      "source_end_exclusive": "0xdff85",
+      "japanese": "るかなん",
+      "source_hex": "82e982a982c882f100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e982a982c882f1",
+          "text": "るかなん",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff7c",
+      "original_pointer_word": "0xdfed0",
+      "full_item_name": "Kasap scroll",
+      "english": "Kasap",
+      "notes": "Seven-slot inscription/display abbreviation of Kasap scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_kasap"
+      ]
+    },
+    {
+      "id": "inscription.44.1",
+      "family": "scroll_alias",
+      "row": 44,
+      "variant": 1,
+      "item_id": 218,
+      "offset": "0xdff70",
+      "source_end_exclusive": "0xdff79",
+      "japanese": "ルカナン",
+      "source_hex": "838b834a8369839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838b834a83698393",
+          "text": "ルカナン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff70",
+      "original_pointer_word": "0xdfed4",
+      "full_item_name": "Kasap scroll",
+      "english": "Kasap",
+      "notes": "Seven-slot inscription/display abbreviation of Kasap scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_kasap"
+      ]
+    },
+    {
+      "id": "inscription.45.0",
+      "family": "scroll_alias",
+      "row": 45,
+      "variant": 0,
+      "item_id": 210,
+      "offset": "0xdff64",
+      "source_end_exclusive": "0xdff6d",
+      "japanese": "れみーら",
+      "source_hex": "82ea82dd815b82e700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ea82dd815b82e7",
+          "text": "れみーら",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff64",
+      "original_pointer_word": "0xdfedc",
+      "full_item_name": "Glow scroll",
+      "english": "Glow",
+      "notes": "Seven-slot inscription/display abbreviation of Glow scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_glow"
+      ]
+    },
+    {
+      "id": "inscription.45.1",
+      "family": "scroll_alias",
+      "row": 45,
+      "variant": 1,
+      "item_id": 210,
+      "offset": "0xdff58",
+      "source_end_exclusive": "0xdff61",
+      "japanese": "レミーラ",
+      "source_hex": "838c837e815b838900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838c837e815b8389",
+          "text": "レミーラ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff58",
+      "original_pointer_word": "0xdfee0",
+      "full_item_name": "Glow scroll",
+      "english": "Glow",
+      "notes": "Seven-slot inscription/display abbreviation of Glow scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "series_glow"
+      ]
+    },
+    {
+      "id": "inscription.46.0",
+      "family": "scroll_alias",
+      "row": 46,
+      "variant": 0,
+      "item_id": 195,
+      "offset": "0xdff50",
+      "source_end_exclusive": "0xdff55",
+      "japanese": "わな",
+      "source_hex": "82ed82c800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ed82c8",
+          "text": "わな",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff50",
+      "original_pointer_word": "0xdfee8",
+      "full_item_name": "Trap scroll",
+      "english": "Trap",
+      "notes": "Seven-slot inscription/display abbreviation of Trap scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_195"
+      ]
+    },
+    {
+      "id": "inscription.46.1",
+      "family": "scroll_alias",
+      "row": 46,
+      "variant": 1,
+      "item_id": 195,
+      "offset": "0xdff48",
+      "source_end_exclusive": "0xdff4d",
+      "japanese": "ワナ",
+      "source_hex": "838f836900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838f8369",
+          "text": "ワナ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff48",
+      "original_pointer_word": "0xdfeec",
+      "full_item_name": "Trap scroll",
+      "english": "Trap",
+      "notes": "Seven-slot inscription/display abbreviation of Trap scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_195"
+      ]
+    },
+    {
+      "id": "inscription.47.0",
+      "family": "scroll_alias",
+      "row": 47,
+      "variant": 0,
+      "item_id": 233,
+      "offset": "0xdff3c",
+      "source_end_exclusive": "0xdff45",
+      "japanese": "わなけし",
+      "source_hex": "82ed82c882af82b500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ed82c882af82b5",
+          "text": "わなけし",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff3c",
+      "original_pointer_word": "0xdfef4",
+      "full_item_name": "Trap erase scroll",
+      "english": "TrapClr",
+      "notes": "Seven-slot inscription/display abbreviation of Trap erase scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_233"
+      ]
+    },
+    {
+      "id": "inscription.47.1",
+      "family": "scroll_alias",
+      "row": 47,
+      "variant": 1,
+      "item_id": 233,
+      "offset": "0xdff30",
+      "source_end_exclusive": "0xdff39",
+      "japanese": "ワナケシ",
+      "source_hex": "838f83698350835600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838f836983508356",
+          "text": "ワナケシ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff30",
+      "original_pointer_word": "0xdfef8",
+      "full_item_name": "Trap erase scroll",
+      "english": "TrapClr",
+      "notes": "Seven-slot inscription/display abbreviation of Trap erase scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_233"
+      ]
+    },
+    {
+      "id": "inscription.48.0",
+      "family": "scroll_alias",
+      "row": 48,
+      "variant": 0,
+      "item_id": 240,
+      "offset": "0xdff24",
+      "source_end_exclusive": "0xdff2f",
+      "japanese": "わなさどう",
+      "source_hex": "82ed82c882b382c782a400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ed82c882b382c782a4",
+          "text": "わなさどう",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff24",
+      "original_pointer_word": "0xdff00",
+      "full_item_name": "Trap trigger scroll",
+      "english": "TrapAct",
+      "notes": "Seven-slot inscription/display abbreviation of Trap trigger scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_240"
+      ]
+    },
+    {
+      "id": "inscription.48.1",
+      "family": "scroll_alias",
+      "row": 48,
+      "variant": 1,
+      "item_id": 240,
+      "offset": "0xdff18",
+      "source_end_exclusive": "0xdff23",
+      "japanese": "ワナサドウ",
+      "source_hex": "838f836983548368834500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838f8369835483688345",
+          "text": "ワナサドウ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000dff18",
+      "original_pointer_word": "0xdff04",
+      "full_item_name": "Trap trigger scroll",
+      "english": "TrapAct",
+      "notes": "Seven-slot inscription/display abbreviation of Trap trigger scroll. Full item/glossary name is unchanged. Both original kana aliases remain valid through the legacy matcher; English matching ignores letter case. The learned-list displays this spelling.",
+      "references": [
+        "combined_item_240"
+      ]
+    }
+  ]
+}

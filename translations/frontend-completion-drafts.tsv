@@ -1,0 +1,203 @@
+id	japanese	english	display	references	notes
+frontend.00c4cd30	*いいえ	*No			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4cd38	はい	Yes			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4cd98	バリナボチャレンジモード	Barinabo Challenge mode			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4ce90	%d回目	Adventure %d	Trip %d		Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Full summary wording is retained beside its compact display; original argument order/types and native field bounds are preserved.
+frontend.00c4cea4	"このカートリッジのバックアップデータを
+完全に消去してしまいます。
+よろしいですか？"	"This will completely erase all backup data on this cartridge.
+Are you sure?"			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4cef8	バックアップデータ消去中……	Erasing backup data...			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4cf18	消去がおわりました	Erasure complete.			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c4cf2c	"冒険の書$j0を更新しています……
+電源を切らないでください。"	"Updating Adventure Log $j0...
+Do not turn off the power."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78298	*デバッグ	*Debug			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c782b0	冒険の記録	Adventure records			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78358	"冒険の書$j0を使って
+「トルネコの大冒険３アドバンス」
+[エクストラモード]を始めます。"	Begin Torneko's Great Adventure 3 Advance in [Extra mode] using Adventure Log $j0.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c783cc	HP %d/%d レベル%d %s	HP %d/%d Level %d %s	HP %d/%d Lv%d %s		Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Full summary wording is retained beside its compact display; original argument order/types and native field bounds are preserved.
+frontend.00c783e4	中断が正しく行われていないデータ	Not suspended correctly			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78408	[エクストラモード]	[Extra mode]			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78494	"名前を付けないと　冒険の書を
+作成することができません。
+なにか　名前を付けてください。"	You must enter a name to create an Adventure Log. Please choose a name.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78540	"冒険の書$j0を
+[エクストラモード]に設定しています……"	Setting Adventure Log $j0 to [Extra mode]...		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78578	"冒険の書$j0の　設定に失敗しました。
+もう一度　はじめから　やり直してください。"	Could not set up Adventure Log $j0. Please start over and try again.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c785c8	冒険の書$j0を初期化しますか？	Initialize Adventure Log $j0?		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c785e8	冒険の書$j0を初期化しています……	Initializing Adventure Log $j0...		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7860c	冒険の書$j0を初期化しました。	Adventure Log $j0 initialized.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7862c	"冒険の書$j0の初期化に
+失敗しました。"	Could not initialize Adventure Log $j0.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78654	"ダンジョンへ　入った後に
+正しく中断せずに　電源を切ると
+冒険を失敗したことになります。"	Once you enter a dungeon, turning off the power without suspending properly will end your adventure in failure.			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c786ac	"冒険の書$j0を記録しています……
+電源を切らないでください。"	"Saving Adventure Log $j0...
+Do not turn off the power."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c786e8	"ハイスコアデータを記録しています……
+電源を切らないでください。"	"Saving high scores...
+Do not turn off the power."			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78728	"[ダンジョン突入]の記録に　失敗しました。
+もう一度　記録しますか？"	Could not save the dungeon-entry record. Try saving again?			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78834	"冒険の書$j0のロードに　失敗しました。
+カートリッジが　壊れているようです。
+冒険の書$j0を初期化します。"	"Could not load Adventure Log $j0. The cartridge appears to be damaged.
+Adventure Log $j0 will be initialized."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7889c	"残念ながら　あなたの冒険の書$j0は
+壊れてしまったようです。
+
+壊れてしまった冒険の書$j0を
+初期化します。
+
+"	"Unfortunately, Adventure Log $j0 appears to be corrupted.
+
+The corrupted Adventure Log $j0 will be initialized."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78908	"この冒険の書$j0を　ロードした後に
+正しく中断せずに　電源を切ると
+冒険を失敗したことになります。
+ロードしても　よろしいですか？
+
+"	"After loading Adventure Log $j0, turning off the power without suspending properly will end your adventure in failure.
+Load this Adventure Log anyway?"		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7898c	"この冒険の書は　正しく中断されていません。
+冒険に失敗したものとして
+アイテムを全て失い　地上に戻ります。"	"This adventure was not suspended properly. It will be treated as a failed adventure.
+You will lose all your items and return to the surface."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c789f8	[エクストラモード]のメニューに戻ります。	Returning to the [Extra mode] menu.			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78a44	冒険の書$j0の中断データをロードしました。	Suspended data for Adventure Log $j0 loaded.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78a70	"$+おつかれさまでした。
+$+冒険の書$j0を正しく記録しました。
+$+このまま　電源を　お切りください。"	"$+Thank you for playing.
+$+Adventure Log $j0 saved successfully.
+$+You may now turn off the power."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c78ad0	"$+Ａボタンを押すと
+$+スタートメニューに戻ります。"	"$+Press the A Button
+$+to return to the start menu."			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7a2e4	"[エクストラモード]は　シナリオの
+進行などとは関係なく　ダンジョンを
+遊ぶことのできる　モードです。
+ダンジョンに入るときに　トルネコとポポロの
+どちらで冒険するか　ロサやイネスと一緒に
+冒険するかなどを　選ぶことができます。
+ロサやイネスと一緒に　冒険した場合
+ロサやイネスが　倒れても
+冒険に失敗したことになります。
+[エクストラモード]での冒険は
+[冒険の履歴]や[ハイスコア]などの
+記録は　いっさい残りません。
+アイテムを持ち帰って　次の
+冒険に　使うこともできません。
+
+「まぼろしの試練」では　
+特別なルールがあり　モンスターを
+倒しても　レベルはあがらず
+ポポロが　モンスターを
+仲間にすることも　できませんので
+注意してください。"	"[Extra mode] lets you explore dungeons independently of story progress.
+When entering a dungeon, you can choose to play as Torneko or Tipper, take Rosa or Ines with you, and more.
+If you take Rosa or Ines along, your adventure also ends in failure if your companion falls.
+Adventures in [Extra mode] leave no records in Adventure history or High scores.
+You cannot bring items back to use on your next adventure.
+
+The Trial of illusion has special rules: defeating monsters will not raise your level, and Tipper cannot recruit monsters. Bear this in mind."		enemy_rosa,enemy_ines,enemy_tipper,interface.dungeon.063	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Dungeon rules are translated from this game's Japanese, without importing mechanics from another game.
+frontend.00c7a554	"ゲームを始めるためには　冒険の書の
+モードを設定してください。
+
+モードを設定すると　その冒険の書では
+選択したモードでのみ　遊べるようになります。
+
+初めてプレイする場合には
+[シナリオモード]を選択することを
+強く　おすすめします。
+[シナリオモード]
+トルネコの冒険をプレイする
+このゲームの　基本的なモードです。
+[エクストラモード]
+ダンジョンのみをプレイするモードです。
+４種類のダンジョンを　遊ぶことができます。
+[？？？]
+[シナリオモード]をクリアすることで
+選択することができるようになります。"	"Choose a mode for your Adventure Log before starting the game.
+
+Once you set a mode, that Adventure Log can only be used to play the chosen mode.
+
+If this is your first time playing, we strongly recommend [Story mode].
+[Story mode]
+The main game mode, in which you follow Torneko's adventure.
+[Extra mode]
+A mode devoted to dungeon exploration. You can explore four different dungeons.
+[???]
+Available after you complete [Story mode]."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7a73c	"ゲームを始めるためには　冒険の書の
+モードを設定してください。
+
+モードを設定すると　その冒険の書では
+選択したモードでのみ　遊べるようになります。
+
+初めてプレイする場合には
+[シナリオモード]を選択することを
+強く　おすすめします。
+[シナリオモード]
+トルネコの冒険をプレイする
+このゲームの　基本的なモードです。
+[エクストラモード]
+ダンジョンのみをプレイするモードです。
+４種類のダンジョンを　遊ぶことができます。
+[バリナボチャレンジモード]
+基本的な部分は[シナリオモード]と同じですが
+トルネコが倒れてしまうと
+バリナボの村で目覚めたところから
+やり直さなくてはいけないという
+とても　きびしいモードです。"	"Choose a mode for your Adventure Log before starting the game.
+
+Once you set a mode, that Adventure Log can only be used to play the chosen mode.
+
+If this is your first time playing, we strongly recommend [Story mode].
+[Story mode]
+The main game mode, in which you follow Torneko's adventure.
+[Extra mode]
+A mode devoted to dungeon exploration. You can explore four different dungeons.
+[Barinabo Challenge mode]
+Similar to [Story mode], but if Torneko falls, you must start over from when he wakes up in Barinabo Village. This is a very demanding mode."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7a9c0	"冒険の書$j0を[エクストラモード]に
+設定します。"	Set Adventure Log $j0 to [Extra mode].		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7a9f0	"冒険の書$j0を[バリナボチャレンジモード]に
+設定します。"	Set Adventure Log $j0 to [Barinabo Challenge mode].		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7aa28	"冒険の書$d0のロードに　失敗しました。
+カートリッジが　壊れているようです。
+冒険の書$d0を初期化します。"	"Could not load Adventure Log $d0. The cartridge appears to be damaged.
+Adventure Log $d0 will be initialized."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7aa90	"残念ながら　あなたの冒険の書$d0は
+壊れてしまったようです。
+
+壊れてしまった冒険の書$d0を
+初期化します。
+
+"	"Unfortunately, Adventure Log $d0 appears to be corrupted.
+
+The corrupted Adventure Log $d0 will be initialized."		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7aafc	"冒険の記録のロードに　失敗しました。
+カートリッジが　壊れているようです。
+冒険の記録を初期化します。"	"Could not load your adventure records. The cartridge appears to be damaged.
+Your adventure records will be initialized."			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7ab64	"残念ながら　あなたの冒険の記録は
+壊れてしまったようです。
+
+壊れてしまった冒険の記録を
+初期化します。
+
+"	"Unfortunately, your adventure records appear to be corrupted.
+
+The corrupted records will be initialized."			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7abcc	冒険の書$d0を初期化しました。	Adventure Log $d0 initialized.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7abec	"冒険の書$d0の初期化に
+失敗しました。"	Could not initialize Adventure Log $d0.		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7ac14	冒険の書$d0を初期化しています……	Initializing Adventure Log $d0...		adventure_log	Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7ac38	冒険の記録を初期化しました。	Adventure records initialized.			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7ac58	"冒険の記録の初期化に
+失敗しました。"	Could not initialize adventure records.			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.
+frontend.00c7ac7c	冒険の記録を初期化しています……	Initializing adventure records...			Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.

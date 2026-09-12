@@ -69,6 +69,34 @@ class BuildLedgerTests(unittest.TestCase):
         self.build.reserve_memory("name", 0x0203BB38, 0x0203BB40, "names")
         self.assertEqual(len(self.build.finish()[1]["memory_reservations"]), 2)
 
+    def test_explicit_supersession_keeps_source_and_previous_owner(self):
+        first = self.build.patch("old", 100, self.original[100:104], b"abcd", "names")
+        second = self.build.supersede_patch("new", "old", "names", b"abcd", b"efgh",
+                                           "keyboard", "Correct the shared header")
+        rom, ledger = self.build.finish()
+        self.assertEqual(rom[100:104], b"efgh")
+        self.assertEqual(second["supersedes"], first)
+        self.assertEqual(second["before"], self.original[100:104].hex())
+        self.assertEqual(ledger["patches"], [second])
+        with self.assertRaisesRegex(ValueError, "collision"):
+            self.build.patch("implicit", 100, self.original[100:104], b"ijkl", "other")
+
+    def test_supersession_rejects_wrong_owner_stale_bytes_and_partial_ranges(self):
+        self.build.patch("old", 100, self.original[100:104], b"abcd", "names")
+        before = bytes(self.build.data)
+        for previous_id, owner, expected, replacement in (
+                ("missing", "names", b"abcd", b"efgh"),
+                ("old", "other", b"abcd", b"efgh"),
+                ("old", "names", b"xxxx", b"efgh"),
+                ("old", "names", b"ab", b"ef")):
+            with self.subTest(previous_id=previous_id, owner=owner, expected=expected):
+                with self.assertRaises(ValueError):
+                    self.build.supersede_patch("new", previous_id, owner, expected,
+                                               replacement, "keyboard", "Reason")
+                self.assertEqual(bytes(self.build.data), before)
+                self.assertEqual(self.build.patches[0]["id"], "old")
+        self.build.finish()
+
     def test_combined_name_build_matches_the_pre_refactor_verified_image(self):
         rom, report = build_name_rom(self.original)
         self.assertEqual(digest(rom), "1708353fe119e7088ceb459f03ff7b2039852ae6611b1951d1d57cb60ef0b928")

@@ -1,8 +1,18 @@
 # Torneko 3 Advance documentation
 
-Current build: [early dungeon journey and place names](EARLY_JOURNEY.md), adding 194 entries across the rest stops, complete dungeon advice, place table and Zoom picker. All new sources have native checks, including six-topic menus and bounded destination copies. The build preserves earlier translations and both Adventure Logs, with an opening/first-chief-meeting regression. Start there for the playable ROM, terminology, storage and acceptance report.
+Current build: [continuous completion](COMPLETION.md), through the ordinary story,
+pet/password scenes, shared narration, arena services, adventure history/results, church services, remaining frontend text, composed item labels, direct dungeon events and remaining
+battle feedback, world merchants, the shared keyboard, scroll inscriptions, remaining world messages, system labels, encounter menus, arena outcome text and indexed arena graphics, sound-test help and the live-floor summary. It contains
+8,422 English-authored source entries from the 9,318-entry inventory (90.38%). Each
+new component has passed its documented controlled native checks, including
+all 2,875 ordinary story cases and eight menus. The latest ROM and exact
+coverage are linked there; translation and discovery work continue.
 
-Latest research: [story/event provenance](STORY_PROVENANCE.md), extended by the opening translation and ten further naturally reached village sources. A separate resource report records 134 original English credits and one punctuation-only line omitted by the language filter. This extends the [extraction coverage audit](TEXT_COVERAGE.md) and its 14 short UI resources. The inventory remains 9,318 entries with 4,828 translated/inserted (51.81%) after 194 new journey/place/UI translations; complete-game discovery is still unproven.
+The [extraction coverage audit](TEXT_COVERAGE.md) still tracks resources outside
+the initial language filter, including original English credits and short UI
+formats. Processing the current inventory does not prove full-game discovery.
+Natural later-story, battle and ranking coverage remains separately recorded
+in the playtest backlog.
 
 - [Memory map and insertion ownership](MEMORY_MAP.md): central range index, protected source data, current allocations, RAM/save reservations and collision-prevention rule.
 - [Tooling decisions](TOOLING.md): selected tools, responsibilities, and the emulator acceptance criteria.
@@ -11,6 +21,8 @@ Latest research: [story/event provenance](STORY_PROVENANCE.md), extended by the 
 - [Enemy-name research](ENEMY_NAMES.md): historical naming batches; all 200 table rows are now in the combined build.
 - [Enemy-trait research](ENEMY_TRAITS.md): historical effect reviews; all 200 rows now have measured native displays.
 - [Deferred gameplay checks](PLAYTEST_BACKLOG.md): coverage to revisit while translation work continues.
+- [Natural first-cave regression](NATURAL_CAVE.md): normal village/rest, equipment, combat and stairs route to floor two on the current combined ROM.
+- [Gameplay wording corrections](TEXT_POLISH.md): latest combined ROM, Recovery pot tutorial/menu consistency and normal pot-use verification.
 - [Installation on macOS](INSTALL.md): local prerequisites and installation/build instructions.
 - [First working label](FIRST_LABEL.md): reproduce the Begin proof patch, inspect the rendering trace, and run its tests.
 - [ROM storage and expansion](STORAGE.md): storage budget, 32 MiB relocation proof, and real save/load checks.
@@ -75,3 +87,51 @@ naming policy, plus [80 enemy-trait drafts](ENEMY_TRAITS.md) translated from
 Torneko 3's Japanese. They are searchable in the review page; their ROM insertion
 and runtime checks remain pending. Translation work can continue while the user
 defers personal playtesting.
+
+- [Adventure results and high scores](ADVENTURE_RESULTS.md): cause composition, measured display forms, native ranking records and FLASH persistence.
+- [Church and save-service dialogue](CHURCH_SERVICES.md): five service voices, complete pages and native table selection.
+- [Remaining frontend text](FRONTEND_COMPLETION.md): complete mode help, save warnings and native Adventure Log summaries.
+
+- [Composed item labels](ITEM_DISPLAY.md): quantities, categories, custom names, tracks/graves and prices.
+
+- [Direct dungeon dialogue and tutorials](DUNGEON_EVENTS.md): boss/rescue scenes, companion help and arena pause prompts.
+
+- [Remaining battle feedback and services](BATTLE_COMPLETION.md): 298 sources, guarded history, original item symbols and paged companion/shop prompts.
+
+- [World merchant dialogue](MERCHANTS.md): shops, Medal King, player shops, forging and synthesis; native world pages and separate printf buffer checks.
+
+- [Shared keyboard completion](KEYBOARD_COMPLETION.md): conditional History, English labels and original kana grid font, verified with native layouts and joypad input.
+
+- [Blank-scroll inscriptions](INSCRIPTIONS.md): 49 English input spellings, original kana compatibility and learned-only native matching.
+- [Retained resources](RETAINED_RESOURCES.md): reader-confirmed program data and language-neutral formatting, tracked separately from authored English.
+
+- [Remaining world messages](WORLD_COMPLETION.md): Zoom restrictions, item observations and inline initialized warehouse messages.
+
+- [Remaining system labels](SYSTEM_LABELS.md): Adventure Log titles, mode/party menus, object and equipment labels, growth types and bounded ally contexts.
+
+- [Encounter menus and themed houses](ENCOUNTER_UI.md): category names, native house announcements and companion spell availability.
+
+- [Arena outcome text](ARENA_RESULTS_TEXT.md): winner rows, odds, no-winner and additional-winner labels; separate graphic-heading lead.
+
+- [Indexed arena graphics](ARENA_GRAPHICS.md): six phrases outside the ordinary text inventory, using the original Latin font and native tile renderer.
+
+- [Scene program-data audit](SCENE_RESOURCE_AUDIT.md): native ownership of event command prefixes mistakenly found as short strings.
+
+- [Retained program resources](RETAINED_RESOURCES.md): 816 inventory entries
+  with positive reader evidence, leaving 80 open candidates.
+- [Scene command audit](SCENE_RESOURCE_AUDIT.md) and [background graphics audit](SCENE_GRAPHICS_AUDIT.md):
+  native classification of apparent strings inside command and graphics data.
+
+- [Auxiliary and neutral resource audit](AUXILIARY_RESOURCES.md): typed numeric
+  fields, input assets, original English diagnostics and unchanged formats.
+
+- [Remaining sound-test help and floor summary](REMAINING_DISPLAY.md): four
+  native help selectors and complete dungeon-name/floor-byte boundary checks.
+
+- [Drafts awaiting reader context](UNOWNED_TEXT_REVIEW.md): 30 independent
+  drafts outside the build catalogs, plus one unresolved original-star phrase.
+
+The [cold-boot graphics audit](BOOT_GRAPHICS.md) now covers the first 600
+frames with native copies and nine Japanese/English pixel pairs. It confirms
+a Japanese illustrated title logo outside the ordinary text inventory. The user chose to preserve the original Japanese title artwork; it is an
+intentional retained graphic, not an unfinished English title insertion.

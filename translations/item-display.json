@@ -1,0 +1,840 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "item-display.00c4c820",
+      "family": "category",
+      "offset": "0x00C4C820",
+      "source_end_exclusive": "0xc4c824",
+      "japanese": "他:",
+      "source_hex": "91bc3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91bc",
+          "text": "他",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c820",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06B8",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Other: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c824",
+      "family": "category",
+      "offset": "0x00C4C824",
+      "source_end_exclusive": "0xc4c828",
+      "japanese": "像:",
+      "source_hex": "919c3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "919c",
+          "text": "像",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c824",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06B4",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Statue: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c828",
+      "family": "category",
+      "offset": "0x00C4C828",
+      "source_end_exclusive": "0xc4c82c",
+      "japanese": "パ:",
+      "source_hex": "83703a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8370",
+          "text": "パ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c828",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06B0",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Bread: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c82c",
+      "family": "category",
+      "offset": "0x00C4C82C",
+      "source_end_exclusive": "0xc4c830",
+      "japanese": "草:",
+      "source_hex": "91903a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9190",
+          "text": "草",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c82c",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06AC",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Herb: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c830",
+      "family": "category",
+      "offset": "0x00C4C830",
+      "source_end_exclusive": "0xc4c834",
+      "japanese": "壺:",
+      "source_hex": "9ae23a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9ae2",
+          "text": "壺",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c830",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06A8",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Pot: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c834",
+      "family": "category",
+      "offset": "0x00C4C834",
+      "source_end_exclusive": "0xc4c838",
+      "japanese": "巻:",
+      "source_hex": "8aaa3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8aaa",
+          "text": "巻",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c834",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06A4",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Scroll: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c838",
+      "family": "category",
+      "offset": "0x00C4C838",
+      "source_end_exclusive": "0xc4c83c",
+      "japanese": "輪:",
+      "source_hex": "97d63a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "97d6",
+          "text": "輪",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c838",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB06A0",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Ring: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c83c",
+      "family": "category",
+      "offset": "0x00C4C83C",
+      "source_end_exclusive": "0xc4c840",
+      "japanese": "玉:",
+      "source_hex": "8bca3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8bca",
+          "text": "玉",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c83c",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB069C",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Ball: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c840",
+      "family": "category",
+      "offset": "0x00C4C840",
+      "source_end_exclusive": "0xc4c844",
+      "japanese": "石:",
+      "source_hex": "90ce3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90ce",
+          "text": "石",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c840",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB0698",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Stone: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c844",
+      "family": "category",
+      "offset": "0x00C4C844",
+      "source_end_exclusive": "0xc4c848",
+      "japanese": "矢:",
+      "source_hex": "96ee3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96ee",
+          "text": "矢",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c844",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB0694",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Arrow: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c848",
+      "family": "category",
+      "offset": "0x00C4C848",
+      "source_end_exclusive": "0xc4c84c",
+      "japanese": "杖:",
+      "source_hex": "8ff13a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8ff1",
+          "text": "杖",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c848",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB0690",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Staff: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c84c",
+      "family": "category",
+      "offset": "0x00C4C84C",
+      "source_end_exclusive": "0xc4c850",
+      "japanese": "盾:",
+      "source_hex": "8f823a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8f82",
+          "text": "盾",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c84c",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB068C",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Shield: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c850",
+      "family": "category",
+      "offset": "0x00C4C850",
+      "source_end_exclusive": "0xc4c854",
+      "japanese": "爪:",
+      "source_hex": "92dc3a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "92dc",
+          "text": "爪",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c850",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB0688",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Claws: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c854",
+      "family": "category",
+      "offset": "0x00C4C854",
+      "source_end_exclusive": "0xc4c858",
+      "japanese": "剣:",
+      "source_hex": "8c953a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8c95",
+          "text": "剣",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "3a",
+          "text": ":",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c854",
+      "pointer_owners": [
+        {
+          "offset": "0x00CB0684",
+          "evidence": "initialized_category_table",
+          "loads": []
+        }
+      ],
+      "english": "Sword: ",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c858",
+      "family": "special",
+      "offset": "0x00C4C858",
+      "source_end_exclusive": "0xc4c861",
+      "japanese": "？？？？",
+      "source_hex": "814881488148814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8148814881488148",
+          "text": "？？？？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c858",
+      "pointer_owners": [
+        {
+          "offset": "0x00080B08",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080ad8"
+          ]
+        }
+      ],
+      "english": "????",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c87c",
+      "family": "quantity",
+      "offset": "0x00C4C87C",
+      "source_end_exclusive": "0xc4c884",
+      "japanese": "%d個の%s",
+      "source_hex": "25648cc2c9257300",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cc2",
+          "text": "個",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c87c",
+      "pointer_owners": [
+        {
+          "offset": "0x00080CFC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080cf8"
+          ]
+        },
+        {
+          "offset": "0x00080D38",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080d34"
+          ]
+        }
+      ],
+      "english": "%d x %s",
+      "display": "%dx %s",
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c884",
+      "family": "quantity",
+      "offset": "0x00C4C884",
+      "source_end_exclusive": "0xc4c88c",
+      "japanese": "%d本の%s",
+      "source_hex": "2564967bc9257300",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "967b",
+          "text": "本",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c884",
+      "pointer_owners": [
+        {
+          "offset": "0x00080D18",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080d10"
+          ]
+        }
+      ],
+      "english": "%d x %s",
+      "display": "%dx %s",
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c88c",
+      "family": "quantity",
+      "offset": "0x00C4C88C",
+      "source_end_exclusive": "0xc4c894",
+      "japanese": "%d発の%s",
+      "source_hex": "256494adc9257300",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "94ad",
+          "text": "発",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c88c",
+      "pointer_owners": [
+        {
+          "offset": "0x00080D5C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080d54"
+          ]
+        }
+      ],
+      "english": "%d x %s",
+      "display": "%dx %s",
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": []
+    },
+    {
+      "id": "item-display.00c4c8a4",
+      "family": "special",
+      "offset": "0x00C4C8A4",
+      "source_end_exclusive": "0xc4c8b3",
+      "japanese": "モンスターの跡",
+      "source_hex": "838283938358835e815b82cc90d500",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82cc90d5",
+          "text": "モンスターの跡",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c8a4",
+      "pointer_owners": [
+        {
+          "offset": "0x00080E78",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080e5e"
+          ]
+        }
+      ],
+      "english": "Monster tracks",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": [
+        "combined_item_353"
+      ]
+    },
+    {
+      "id": "item-display.00c4c8b4",
+      "family": "special",
+      "offset": "0x00C4C8B4",
+      "source_end_exclusive": "0xc4c8ba",
+      "japanese": "%sの墓",
+      "source_hex": "2573c995e600",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c9",
+          "text": "の",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95e6",
+          "text": "墓",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4c8b4",
+      "pointer_owners": [
+        {
+          "offset": "0x00080F14",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8080ef4"
+          ]
+        }
+      ],
+      "english": "Grave of %s",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese item formatter. Category labels describe the original item class, not a new named item. Counts use a quantity marker so full singular glossary item names stay unchanged. Native quantity/charge/price/custom-name layout is checked separately.",
+      "references": [
+        "combined_item_349"
+      ]
+    }
+  ]
+}

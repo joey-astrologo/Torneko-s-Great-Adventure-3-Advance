@@ -1,0 +1,3962 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "history.00c4e4bc",
+      "offset": "0x00C4E4BC",
+      "source_end_exclusive": "0xc4e4d5",
+      "master_id": "jp_00c4e4bc",
+      "japanese": "$tの冒険の回数<03><03 08 9B>$v07回",
+      "source_hex": "247482cc96608caf82cc89f190940303089b2476303789f100",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96608caf82cc89f19094",
+          "text": "の冒険の回数",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03089b",
+          "text": "<03 08 9B>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f1",
+          "text": "回",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d25c",
+          "key": "log_0_0",
+          "key_offset": "0xc4e4d8"
+        }
+      ],
+      "english": "$t's adventure count{hex:03}{hex:03089b}$v07",
+      "display": "$t's adventures{hex:03}{hex:03089b}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e49c",
+      "offset": "0x00C4E49C",
+      "source_end_exclusive": "0xc4e4b3",
+      "master_id": "jp_00c4e49c",
+      "japanese": "$tの最大レベル<03><03 08 A6>$v07",
+      "source_hex": "247482cc8dc591e5838c8378838b030308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8dc591e5838c8378838b",
+          "text": "の最大レベル",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d264",
+          "key": "log_0_1",
+          "key_offset": "0xc4e4b4"
+        }
+      ],
+      "english": "$t's highest level{hex:03}{hex:0308a6}$v07",
+      "display": "$t's max level{hex:03}{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e47c",
+      "offset": "0x00C4E47C",
+      "source_end_exclusive": "0xc4e491",
+      "master_id": "jp_00c4e47c",
+      "japanese": "$tの最大ＨＰ<03><03 08 A6>$v07",
+      "source_hex": "247482cc8dc591e58267826f030308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8dc591e58267826f",
+          "text": "の最大ＨＰ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d26c",
+          "key": "log_0_2",
+          "key_offset": "0xc4e494"
+        }
+      ],
+      "english": "$t's highest HP{hex:03}{hex:0308a6}$v07",
+      "display": "$t's max HP{hex:03}{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e45c",
+      "offset": "0x00C4E45C",
+      "source_end_exclusive": "0xc4e473",
+      "master_id": "jp_00c4e45c",
+      "japanese": "$tの最大経験値<03><03 08 A6>$v07",
+      "source_hex": "247482cc8dc591e58c6f8cb1926c030308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8dc591e58c6f8cb1926c",
+          "text": "の最大経験値",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d274",
+          "key": "log_0_3",
+          "key_offset": "0xc4e474"
+        }
+      ],
+      "english": "$t's highest experience{hex:03}{hex:0308a6}$v07",
+      "display": "$t's max experience{hex:03}{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e43c",
+      "offset": "0x00C4E43C",
+      "source_end_exclusive": "0xc4e453",
+      "master_id": "jp_00c4e43c",
+      "japanese": "$tの最大ちから<03><03 08 A6>$v07",
+      "source_hex": "247482cc8dc591e582bf82a982e7030308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8dc591e582bf82a982e7",
+          "text": "の最大ちから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d27c",
+          "key": "log_0_4",
+          "key_offset": "0xc4e454"
+        }
+      ],
+      "english": "$t's highest strength{hex:03}{hex:0308a6}$v07",
+      "display": "$t's max strength{hex:03}{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e40c",
+      "offset": "0x00C4E40C",
+      "source_end_exclusive": "0xc4e433",
+      "master_id": "jp_00c4e40c",
+      "japanese": "フロアで倒した最大モンスター数<03><03 08 A6>$v07",
+      "source_hex": "8374838d834182c5937c82b582bd8dc591e5838283938358835e815b9094030308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8374838d834182c5937c82b582bd8dc591e5838283938358835e815b9094",
+          "text": "フロアで倒した最大モンスター数",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "opaque_control",
+          "raw_hex": "03",
+          "text": "<03>",
+          "grammar": "formatter_literal_prefix"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d284",
+          "key": "log_0_5",
+          "key_offset": "0xc4e434"
+        }
+      ],
+      "english": "Most monsters defeated on one floor{hex:03}{hex:0308a6}$v07",
+      "display": "Most kills on one floor{hex:03}{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e3dc",
+      "offset": "0x00C4E3DC",
+      "source_end_exclusive": "0xc4e402",
+      "master_id": "jp_00c4e3dc",
+      "japanese": "バリナボチャレンジクリアレベル<03 08 A6>$v07",
+      "source_hex": "836f838a8369837b83608383838c83938357834e838a8341838c8378838b0308a62476303700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b83608383838c83938357834e838a8341838c8378838b",
+          "text": "バリナボチャレンジクリアレベル",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a6",
+          "text": "<03 08 A6>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "24763037",
+          "text": "$v07",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d28c",
+          "key": "log_0_6",
+          "key_offset": "0xc4e404"
+        }
+      ],
+      "english": "Barinabo Challenge clear level{hex:0308a6}$v07",
+      "display": "Barinabo clear level{hex:0308a6}$v07",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "place.barinabo"
+      ]
+    },
+    {
+      "id": "history.00c4e39c",
+      "offset": "0x00C4E39C",
+      "source_end_exclusive": "0xc4e3b5",
+      "master_id": "jp_00c4e39c",
+      "japanese": "海竜の灯台に聖火を灯した",
+      "source_hex": "8a4397b382cc939491e482c990b989ce82f0939482b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8a4397b382cc939491e482c990b989ce82f0939482b582bd",
+          "text": "海竜の灯台に聖火を灯した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2ac",
+          "key": "log_2_0",
+          "key_offset": "0xc4e3b8"
+        }
+      ],
+      "english": "Lit the sacred flame at Sea Dragon Lighthouse",
+      "display": "Lit Sea Dragon Lighthouse's flame",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "place.journey.00873198"
+      ]
+    },
+    {
+      "id": "history.00c4e374",
+      "offset": "0x00C4E374",
+      "source_end_exclusive": "0xc4e393",
+      "master_id": "jp_00c4e374",
+      "japanese": "グレートバレイナ島まで到着した",
+      "source_hex": "834f838c815b8367836f838c83438369938782dc82c5939e928582b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834f838c815b8367836f838c83438369938782dc82c5939e928582b582bd",
+          "text": "グレートバレイナ島まで到着した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2b4",
+          "key": "log_2_1",
+          "key_offset": "0xc4e394"
+        }
+      ],
+      "english": "Reached Great Baleina Isle",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "place.journey.008730f8"
+      ]
+    },
+    {
+      "id": "history.00c4e358",
+      "offset": "0x00C4E358",
+      "source_end_exclusive": "0xc4e369",
+      "master_id": "jp_00c4e358",
+      "japanese": "ポポロが目覚めた",
+      "source_hex": "837c837c838d82aa96da8a6f82df82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82aa96da8a6f82df82bd",
+          "text": "ポポロが目覚めた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2bc",
+          "key": "log_2_2",
+          "key_offset": "0xc4e36c"
+        }
+      ],
+      "english": "Tipper woke up",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "history.00c4e324",
+      "offset": "0x00C4E324",
+      "source_end_exclusive": "0xc4e34d",
+      "master_id": "jp_00c4e324",
+      "japanese": "ポポロでグレートバレイナ島にたどり着いた",
+      "source_hex": "837c837c838d82c5834f838c815b8367836f838c83438369938782c982bd82c782e8928582a282bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82c5834f838c815b8367836f838c83438369938782c982bd82c782e8928582a282bd",
+          "text": "ポポロでグレートバレイナ島にたどり着いた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2c4",
+          "key": "log_2_3",
+          "key_offset": "0xc4e350"
+        }
+      ],
+      "english": "Reached Great Baleina Isle as Tipper",
+      "display": "Tipper reached Great Baleina Isle",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_tipper",
+        "place.journey.008730f8"
+      ]
+    },
+    {
+      "id": "history.00c4e2f8",
+      "offset": "0x00C4E2F8",
+      "source_end_exclusive": "0xc4e31b",
+      "master_id": "jp_00c4e2f8",
+      "japanese": "コスタリベラにトルネコの家ができた",
+      "source_hex": "83528358835e838a8378838982c98367838b836c835282cc89c682aa82c582ab82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83528358835e838a8378838982c98367838b836c835282cc89c682aa82c582ab82bd",
+          "text": "コスタリベラにトルネコの家ができた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2cc",
+          "key": "log_2_4",
+          "key_offset": "0xc4e31c"
+        }
+      ],
+      "english": "Torneko's house was built in Costa Libera",
+      "display": "Built Torneko's Costa Libera house",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "torneko",
+        "place.journey.00873188"
+      ]
+    },
+    {
+      "id": "history.00c4e2d8",
+      "offset": "0x00C4E2D8",
+      "source_end_exclusive": "0xc4e2ed",
+      "master_id": "jp_00c4e2d8",
+      "japanese": "トルネコが石にされた",
+      "source_hex": "8367838b836c835282aa90ce82c982b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282aa90ce82c982b382ea82bd",
+          "text": "トルネコが石にされた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2d4",
+          "key": "log_2_5",
+          "key_offset": "0xc4e2f0"
+        }
+      ],
+      "english": "Torneko was turned to stone",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "history.00c4e2b8",
+      "offset": "0x00C4E2B8",
+      "source_end_exclusive": "0xc4e2cf",
+      "master_id": "jp_00c4e2b8",
+      "japanese": "プチット族を全員助けた",
+      "source_hex": "837683608362836791b082f0915388f58f9582af82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837683608362836791b082f0915388f58f9582af82bd",
+          "text": "プチット族を全員助けた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2dc",
+          "key": "log_2_6",
+          "key_offset": "0xc4e2d0"
+        }
+      ],
+      "english": "Rescued every member of the Conklave",
+      "display": "Rescued the entire Conklave",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e28c",
+      "offset": "0x00C4E28C",
+      "source_end_exclusive": "0xc4e2ad",
+      "master_id": "jp_00c4e28c",
+      "japanese": "賢者のほら穴の問題を全問正解した",
+      "source_hex": "8cab8ed282cc82d982e78c8a82cc96e291e882f0915396e290b389f082b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8cab8ed282cc82d982e78c8a82cc96e291e882f0915396e290b389f082b582bd",
+          "text": "賢者のほら穴の問題を全問正解した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2e4",
+          "key": "log_2_7",
+          "key_offset": "0xc4e2b0"
+        }
+      ],
+      "english": "Solved every puzzle in Sage's cave",
+      "display": "Solved all Sage's cave puzzles",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.027"
+      ]
+    },
+    {
+      "id": "history.00c4e260",
+      "offset": "0x00C4E260",
+      "source_end_exclusive": "0xc4e281",
+      "master_id": "jp_00c4e260",
+      "japanese": "仙人のほら穴の問題を全問正解した",
+      "source_hex": "90e5906c82cc82d982e78c8a82cc96e291e882f0915396e290b389f082b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90e5906c82cc82d982e78c8a82cc96e291e882f0915396e290b389f082b582bd",
+          "text": "仙人のほら穴の問題を全問正解した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2ec",
+          "key": "log_2_8",
+          "key_offset": "0xc4e284"
+        }
+      ],
+      "english": "Solved every puzzle in Hermit's cave",
+      "display": "Solved all Hermit's cave puzzles",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.025"
+      ]
+    },
+    {
+      "id": "history.00c4e234",
+      "offset": "0x00C4E234",
+      "source_end_exclusive": "0xc4e251",
+      "master_id": "jp_00c4e234",
+      "japanese": "封印の洞くつ<03 08 8C>$d0Ｆまで到達",
+      "source_hex": "959588f382cc93b482ad82c203088c246430826582dc82c5939e924200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "959588f382cc93b482ad82c2",
+          "text": "封印の洞くつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "826582dc82c5939e9242",
+          "text": "Ｆまで到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2f4",
+          "key": "log_3_0a",
+          "key_offset": "0xc4e254"
+        }
+      ],
+      "english": "Sealed cavern{hex:03088c}Reached $d0F",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "mechanic.sealed",
+        "interface.dungeon.020"
+      ]
+    },
+    {
+      "id": "history.00c4e20c",
+      "offset": "0x00C4E20C",
+      "source_end_exclusive": "0xc4e225",
+      "master_id": "jp_00c4e20c",
+      "japanese": "<03 08 40>$d0ターン/$i0でクリア",
+      "source_hex": "030840246430835e815b83932f24693082c5834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "030840",
+          "text": "<03 08 40>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835e815b8393",
+          "text": "ターン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2f",
+          "text": "/",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246930",
+          "text": "$i0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c5834e838a8341",
+          "text": "でクリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d2fc",
+          "key": "log_3_0b",
+          "key_offset": "0xc4e228"
+        },
+        {
+          "offset": "0xc4d30c",
+          "key": "log_3_1b",
+          "key_offset": "0xc4e1d4"
+        },
+        {
+          "offset": "0xc4d31c",
+          "key": "log_3_2b",
+          "key_offset": "0xc4e198"
+        },
+        {
+          "offset": "0xc4d32c",
+          "key": "log_3_3b",
+          "key_offset": "0xc4e160"
+        },
+        {
+          "offset": "0xc4d594",
+          "key": "log_3_4b",
+          "key_offset": "0xc4d61c"
+        }
+      ],
+      "english": "{hex:030840}Cleared in $d0 turns / $i0",
+      "display": "{hex:030840}$d0 turns/$i0",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout. Reader 08086F30..08086F4E formats the recorded hours/minutes/seconds into $i0; it is elapsed time, not a character or item name. Corrected before native acceptance.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e1e0",
+      "offset": "0x00C4E1E0",
+      "source_end_exclusive": "0xc4e1ff",
+      "master_id": "jp_00c4e1e0",
+      "japanese": "不思議の宝物庫<03 08 8C>$d0Ｆまで到達",
+      "source_hex": "95738e768b6382cc95f395a88cc903088c246430826582dc82c5939e924200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "95738e768b6382cc95f395a88cc9",
+          "text": "不思議の宝物庫",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "826582dc82c5939e9242",
+          "text": "Ｆまで到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d304",
+          "key": "log_3_1a",
+          "key_offset": "0xc4e200"
+        }
+      ],
+      "english": "Mysterious treasury{hex:03088c}Reached $d0F",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.021"
+      ]
+    },
+    {
+      "id": "history.00c4e1a4",
+      "offset": "0x00C4E1A4",
+      "source_end_exclusive": "0xc4e1c5",
+      "master_id": "jp_00c4e1a4",
+      "japanese": "まぼろしの洞くつ<03 08 8C>$d0Ｆまで到達",
+      "source_hex": "82dc82da82eb82b582cc93b482ad82c203088c246430826582dc82c5939e924200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82da82eb82b582cc93b482ad82c2",
+          "text": "まぼろしの洞くつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "826582dc82c5939e9242",
+          "text": "Ｆまで到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d314",
+          "key": "log_3_2a",
+          "key_offset": "0xc4e1c8"
+        }
+      ],
+      "english": "Illusion cavern{hex:03088c}Reached $d0F",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.031"
+      ]
+    },
+    {
+      "id": "history.00c4e16c",
+      "offset": "0x00C4E16C",
+      "source_end_exclusive": "0xc4e189",
+      "master_id": "jp_00c4e16c",
+      "japanese": "異世界の迷宮<03 08 8C>$d0Ｆまで到達",
+      "source_hex": "88d990a28a4582cc96c08b7b03088c246430826582dc82c5939e924200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "88d990a28a4582cc96c08b7b",
+          "text": "異世界の迷宮",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "826582dc82c5939e9242",
+          "text": "Ｆまで到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d324",
+          "key": "log_3_3a",
+          "key_offset": "0xc4e18c"
+        }
+      ],
+      "english": "Otherworld labyrinth{hex:03088c}Reached $d0F",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.018"
+      ]
+    },
+    {
+      "id": "history.00c4e13c",
+      "offset": "0x00C4E13C",
+      "source_end_exclusive": "0xc4e155",
+      "master_id": "jp_00c4e13c",
+      "japanese": "風柱でなすすべなく倒れた",
+      "source_hex": "9597928c82c582c882b782b782d782c882ad937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9597928c82c582c882b782b782d782c882ad937c82ea82bd",
+          "text": "風柱でなすすべなく倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d334",
+          "key": "log_4_0",
+          "key_offset": "0xc4e158"
+        }
+      ],
+      "english": "Defeated helplessly by a column of wind",
+      "display": "Defeated by a column of wind",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e118",
+      "offset": "0x00C4E118",
+      "source_end_exclusive": "0xc4e131",
+      "master_id": "jp_00c4e118",
+      "japanese": "モンスターの巻物を読んだ",
+      "source_hex": "838283938358835e815b82cc8aaa95a882f093c782f182be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82cc8aaa95a882f093c782f182be",
+          "text": "モンスターの巻物を読んだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d33c",
+          "key": "log_4_1",
+          "key_offset": "0xc4e134"
+        }
+      ],
+      "english": "Read a Monster scroll",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_197"
+      ]
+    },
+    {
+      "id": "history.00c4e0f4",
+      "offset": "0x00C4E0F4",
+      "source_end_exclusive": "0xc4e10d",
+      "master_id": "jp_00c4e0f4",
+      "japanese": "パルプンテの巻物を読んだ",
+      "source_hex": "8370838b83768393836582cc8aaa95a882f093c782f182be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8370838b83768393836582cc8aaa95a882f093c782f182be",
+          "text": "パルプンテの巻物を読んだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d344",
+          "key": "log_4_2",
+          "key_offset": "0xc4e110"
+        }
+      ],
+      "english": "Read a Hocus Pocus scroll",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "series_hocus_pocus",
+        "combined_item_209"
+      ]
+    },
+    {
+      "id": "history.00c4e0cc",
+      "offset": "0x00C4E0CC",
+      "source_end_exclusive": "0xc4e0e9",
+      "master_id": "jp_00c4e0cc",
+      "japanese": "シャドーブレイクを手に入れた",
+      "source_hex": "835683838368815b8375838c8343834e82f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835683838368815b8375838c8343834e82f08ee882c993fc82ea82bd",
+          "text": "シャドーブレイクを手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d34c",
+          "key": "log_4_3",
+          "key_offset": "0xc4e0ec"
+        }
+      ],
+      "english": "Obtained a Shadow breaker",
+      "display": "Got a Shadow breaker",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy.shadow",
+        "combined_item_040"
+      ]
+    },
+    {
+      "id": "history.00c4e0a8",
+      "offset": "0x00C4E0A8",
+      "source_end_exclusive": "0xc4e0c1",
+      "master_id": "jp_00c4e0a8",
+      "japanese": "マルチアローを手に入れた",
+      "source_hex": "837d838b83608341838d815b82f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837d838b83608341838d815b82f08ee882c993fc82ea82bd",
+          "text": "マルチアローを手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d354",
+          "key": "log_4_4",
+          "key_offset": "0xc4e0c4"
+        }
+      ],
+      "english": "Obtained a Multiarrow",
+      "display": "Got a Multiarrow",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_126"
+      ]
+    },
+    {
+      "id": "history.00c4e080",
+      "offset": "0x00C4E080",
+      "source_end_exclusive": "0xc4e09f",
+      "master_id": "jp_00c4e080",
+      "japanese": "黄金シリーズをすべて手に入れた",
+      "source_hex": "89a98be08356838a815b835982f082b782d782c48ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89a98be08356838a815b835982f082b782d782c48ee882c993fc82ea82bd",
+          "text": "黄金シリーズをすべて手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d35c",
+          "key": "log_4_5",
+          "key_offset": "0xc4e0a0"
+        }
+      ],
+      "english": "Obtained every item in the golden series",
+      "display": "Got every golden-series item",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4e050",
+      "offset": "0x00C4E050",
+      "source_end_exclusive": "0xc4e076",
+      "master_id": "jp_00c4e050",
+      "japanese": "メダル王に$d0枚ちいさなメダルを渡した",
+      "source_hex": "8381835f838b89a482c9246430968782bf82a282b382c88381835f838b82f0936e82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381835f838b89a482c9",
+          "text": "メダル王に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "968782bf82a282b382c88381835f838b82f0936e82b582bd",
+          "text": "枚ちいさなメダルを渡した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d364",
+          "key": "log_4_6",
+          "key_offset": "0xc4e078"
+        }
+      ],
+      "english": "Gave $d0 Mini medals to the Medal King",
+      "display": "Medal King: $d0 Mini medals given",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_344",
+        "role.medal_king"
+      ]
+    },
+    {
+      "id": "history.00c4e028",
+      "offset": "0x00C4E028",
+      "source_end_exclusive": "0xc4e047",
+      "master_id": "jp_00c4e028",
+      "japanese": "ゴッドスパークの杖を手に入れた",
+      "source_hex": "83538362836883588370815b834e82cc8ff182f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83538362836883588370815b834e82cc8ff182f08ee882c993fc82ea82bd",
+          "text": "ゴッドスパークの杖を手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d36c",
+          "key": "log_4_7",
+          "key_offset": "0xc4e048"
+        }
+      ],
+      "english": "Obtained a Godspark staff",
+      "display": "Got a Godspark staff",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_111"
+      ]
+    },
+    {
+      "id": "history.00c4e008",
+      "offset": "0x00C4E008",
+      "source_end_exclusive": "0xc4e01f",
+      "master_id": "jp_00c4e008",
+      "japanese": "白紙だった巻物を読んだ",
+      "source_hex": "94928e8682be82c182bd8aaa95a882f093c782f182be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "94928e8682be82c182bd8aaa95a882f093c782f182be",
+          "text": "白紙だった巻物を読んだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d374",
+          "key": "log_5_0",
+          "key_offset": "0xc4e020"
+        }
+      ],
+      "english": "Read a scroll that had been blank",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_224"
+      ]
+    },
+    {
+      "id": "history.00c4dfe0",
+      "offset": "0x00C4DFE0",
+      "source_end_exclusive": "0xc4e000",
+      "master_id": "jp_00c4dfe0",
+      "japanese": "コインを一度に最高$d0枚獲得した",
+      "source_hex": "83528343839382f088ea937882c98dc58d8224643096878a6c93be82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83528343839382f088ea937882c98dc58d82",
+          "text": "コインを一度に最高",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96878a6c93be82b582bd",
+          "text": "枚獲得した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d37c",
+          "key": "log_5_1",
+          "key_offset": "0xc4e000"
+        }
+      ],
+      "english": "Most tokens won at once: $d0",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "service.tokens"
+      ]
+    },
+    {
+      "id": "history.00c4dfc0",
+      "offset": "0x00C4DFC0",
+      "source_end_exclusive": "0xc4dfd5",
+      "master_id": "jp_00c4dfc0",
+      "japanese": "宝飾の盾を手に入れた",
+      "source_hex": "95f38ffc82cc8f8282f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "95f38ffc82cc8f8282f08ee882c993fc82ea82bd",
+          "text": "宝飾の盾を手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d384",
+          "key": "log_5_2",
+          "key_offset": "0xc4dfd8"
+        }
+      ],
+      "english": "Obtained a Jewelled shield",
+      "display": "Got a Jewelled shield",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_062"
+      ]
+    },
+    {
+      "id": "history.00c4df98",
+      "offset": "0x00C4DF98",
+      "source_end_exclusive": "0xc4dfb7",
+      "master_id": "jp_00c4df98",
+      "japanese": "闘技場の景品をすべて手に入れた",
+      "source_hex": "93ac8b5a8fea82cc8c69956982f082b782d782c48ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "93ac8b5a8fea82cc8c69956982f082b782d782c48ee882c993fc82ea82bd",
+          "text": "闘技場の景品をすべて手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d38c",
+          "key": "log_5_3",
+          "key_offset": "0xc4dfb8"
+        }
+      ],
+      "english": "Obtained every arena prize",
+      "display": "Won every arena prize",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4df78",
+      "offset": "0x00C4DF78",
+      "source_end_exclusive": "0xc4df8e",
+      "master_id": "jp_00c4df78",
+      "japanese": "モンスター闘技場$d0勝",
+      "source_hex": "838283938358835e815b93ac8b5a8fea2464308f9f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b93ac8b5a8fea",
+          "text": "モンスター闘技場",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f",
+          "text": "勝",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d394",
+          "key": "log_5_4",
+          "key_offset": "0xc4df90"
+        }
+      ],
+      "english": "Arena bets won: $d0",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.026",
+        "place.journey.00873010"
+      ]
+    },
+    {
+      "id": "history.00c4df58",
+      "offset": "0x00C4DF58",
+      "source_end_exclusive": "0xc4df6e",
+      "master_id": "jp_00c4df58",
+      "japanese": "モンスター闘技場$d0敗",
+      "source_hex": "838283938358835e815b93ac8b5a8fea246430947300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b93ac8b5a8fea",
+          "text": "モンスター闘技場",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9473",
+          "text": "敗",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d39c",
+          "key": "log_5_5",
+          "key_offset": "0xc4df70"
+        }
+      ],
+      "english": "Arena bets lost: $d0",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.026",
+        "place.journey.00873010"
+      ]
+    },
+    {
+      "id": "history.00c4df34",
+      "offset": "0x00C4DF34",
+      "source_end_exclusive": "0xc4df50",
+      "master_id": "jp_00c4df34",
+      "japanese": "ポポロモンスター闘技場$d0勝",
+      "source_hex": "837c837c838d838283938358835e815b93ac8b5a8fea2464308f9f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d838283938358835e815b93ac8b5a8fea",
+          "text": "ポポロモンスター闘技場",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f",
+          "text": "勝",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3a4",
+          "key": "log_5_6",
+          "key_offset": "0xc4df50"
+        }
+      ],
+      "english": "Tipper's arena victories: $d0",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_tipper",
+        "interface.dungeon.026",
+        "place.journey.00873010"
+      ]
+    },
+    {
+      "id": "history.00c4df10",
+      "offset": "0x00C4DF10",
+      "source_end_exclusive": "0xc4df2c",
+      "master_id": "jp_00c4df10",
+      "japanese": "ポポロモンスター闘技場$d0敗",
+      "source_hex": "837c837c838d838283938358835e815b93ac8b5a8fea246430947300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d838283938358835e815b93ac8b5a8fea",
+          "text": "ポポロモンスター闘技場",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "9473",
+          "text": "敗",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3ac",
+          "key": "log_5_7",
+          "key_offset": "0xc4df2c"
+        }
+      ],
+      "english": "Tipper's arena defeats: $d0",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_tipper",
+        "interface.dungeon.026",
+        "place.journey.00873010"
+      ]
+    },
+    {
+      "id": "history.00c4deec",
+      "offset": "0x00C4DEEC",
+      "source_end_exclusive": "0xc4df05",
+      "master_id": "jp_00c4deec",
+      "japanese": "ロトの剣・盾を手に入れた",
+      "source_hex": "838d836782cc8c9581458f8282f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838d836782cc8c9581458f8282f08ee882c993fc82ea82bd",
+          "text": "ロトの剣・盾を手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3b4",
+          "key": "log_5_8",
+          "key_offset": "0xc4df08"
+        }
+      ],
+      "english": "Obtained Erdrick's sword and shield",
+      "display": "Got Erdrick's sword and shield",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_024"
+      ]
+    },
+    {
+      "id": "history.00c4dec0",
+      "offset": "0x00C4DEC0",
+      "source_end_exclusive": "0xc4dee1",
+      "master_id": "jp_00c4dec0",
+      "japanese": "メタルキングの剣・盾を手に入れた",
+      "source_hex": "8381835e838b834c8393834f82cc8c9581458f8282f08ee882c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381835e838b834c8393834f82cc8c9581458f8282f08ee882c993fc82ea82bd",
+          "text": "メタルキングの剣・盾を手に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3bc",
+          "key": "log_5_9",
+          "key_offset": "0xc4dee4"
+        }
+      ],
+      "english": "Obtained the Metal king sword and shield",
+      "display": "Got the Metal king sword and shield",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy.metal_king_slime",
+        "combined_item_021"
+      ]
+    },
+    {
+      "id": "history.00c4de9c",
+      "offset": "0x00C4DE9C",
+      "source_end_exclusive": "0xc4deb6",
+      "master_id": "jp_00c4de9c",
+      "japanese": "$d0体のモンスターを倒した",
+      "source_hex": "24643091cc82cc838283938358835e815b82f0937c82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91cc82cc838283938358835e815b82f0937c82b582bd",
+          "text": "体のモンスターを倒した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3c4",
+          "key": "log_6_0",
+          "key_offset": "0xc4deb8"
+        }
+      ],
+      "english": "Defeated $d0 monsters",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4de78",
+      "offset": "0x00C4DE78",
+      "source_end_exclusive": "0xc4de93",
+      "master_id": "jp_00c4de78",
+      "japanese": "銀行をゴールドで一杯にした",
+      "source_hex": "8be28d7382f08353815b838b836882c588ea947482c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8be28d7382f08353815b838b836882c588ea947482c982b582bd",
+          "text": "銀行をゴールドで一杯にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3cc",
+          "key": "log_6_1",
+          "key_offset": "0xc4de94"
+        }
+      ],
+      "english": "Filled the bank with gold",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_341"
+      ]
+    },
+    {
+      "id": "history.00c4de54",
+      "offset": "0x00C4DE54",
+      "source_end_exclusive": "0xc4de6d",
+      "master_id": "jp_00c4de54",
+      "japanese": "ひとくいばこを買わされた",
+      "source_hex": "82d082c682ad82a282ce82b182f0948382ed82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d082c682ad82a282ce82b182f0948382ed82b382ea82bd",
+          "text": "ひとくいばこを買わされた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3d4",
+          "key": "log_6_2",
+          "key_offset": "0xc4de70"
+        }
+      ],
+      "english": "Bought a Cannibox in disguise",
+      "display": "Bought a disguised Cannibox",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy.cannibox"
+      ]
+    },
+    {
+      "id": "history.00c4de3c",
+      "offset": "0x00C4DE3C",
+      "source_end_exclusive": "0xc4de4c",
+      "master_id": "jp_00c4de3c",
+      "japanese": "泥棒を$d0回した",
+      "source_hex": "9344965f82f024643089f182b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9344965f82f0",
+          "text": "泥棒を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f182b582bd",
+          "text": "回した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3dc",
+          "key": "log_6_3",
+          "key_offset": "0xc4de4c"
+        }
+      ],
+      "english": "Stole from shops $d0 times",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4de20",
+      "offset": "0x00C4DE20",
+      "source_end_exclusive": "0xc4de34",
+      "master_id": "jp_00c4de20",
+      "japanese": "泥棒を$d0回成功した",
+      "source_hex": "9344965f82f024643089f190ac8cf782b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9344965f82f0",
+          "text": "泥棒を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f190ac8cf782b582bd",
+          "text": "回成功した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3e4",
+          "key": "log_6_4",
+          "key_offset": "0xc4de34"
+        }
+      ],
+      "english": "Escaped after stealing $d0 times",
+      "display": "Escaped with stolen goods: $d0 times",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4ddfc",
+      "offset": "0x00C4DDFC",
+      "source_end_exclusive": "0xc4de16",
+      "master_id": "jp_00c4ddfc",
+      "japanese": "$d0回ダンジョンを突破した",
+      "source_hex": "24643089f1835f839383578387839382f093cb946a82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f1835f839383578387839382f093cb946a82b582bd",
+          "text": "回ダンジョンを突破した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3ec",
+          "key": "log_6_5",
+          "key_offset": "0xc4de18"
+        }
+      ],
+      "english": "Cleared dungeons $d0 times",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "character.castle_john"
+      ]
+    },
+    {
+      "id": "history.00c4ddd0",
+      "offset": "0x00C4DDD0",
+      "source_end_exclusive": "0xc4ddf2",
+      "master_id": "jp_00c4ddd0",
+      "japanese": "$d0回ダンジョンに挑戦して失敗した",
+      "source_hex": "24643089f1835f839383578387839382c992a790ed82b582c48eb8947382b582bd00",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f1835f839383578387839382c992a790ed82b582c48eb8947382b582bd",
+          "text": "回ダンジョンに挑戦して失敗した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3f4",
+          "key": "log_6_6",
+          "key_offset": "0xc4ddf4"
+        }
+      ],
+      "english": "Failed $d0 dungeon attempts",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "character.castle_john"
+      ]
+    },
+    {
+      "id": "history.00c4dda4",
+      "offset": "0x00C4DDA4",
+      "source_end_exclusive": "0xc4ddc7",
+      "master_id": "jp_00c4dda4",
+      "japanese": "いままでの到達総フロア数 $d0フロア",
+      "source_hex": "82a282dc82dc82c582cc939e9242918d8374838d83419094202464308374838d834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282dc82dc82c582cc939e9242918d8374838d83419094",
+          "text": "いままでの到達総フロア数",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8374838d8341",
+          "text": "フロア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d3fc",
+          "key": "log_6_7",
+          "key_offset": "0xc4ddc8"
+        }
+      ],
+      "english": "Total dungeon floors reached: $d0",
+      "display": "Total floors reached: $d0",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dd88",
+      "offset": "0x00C4DD88",
+      "source_end_exclusive": "0xc4dd99",
+      "master_id": "jp_00c4dd88",
+      "japanese": "落とし穴で倒れた",
+      "source_hex": "978e82c682b58c8a82c5937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "978e82c682b58c8a82c5937c82ea82bd",
+          "text": "落とし穴で倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d404",
+          "key": "log_7_0",
+          "key_offset": "0xc4dd9c"
+        }
+      ],
+      "english": "Defeated by a Pitfall",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.trap.005"
+      ]
+    },
+    {
+      "id": "history.00c4dd6c",
+      "offset": "0x00C4DD6C",
+      "source_end_exclusive": "0xc4dd7d",
+      "master_id": "jp_00c4dd6c",
+      "japanese": "矢のワナで倒れた",
+      "source_hex": "96ee82cc838f836982c5937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96ee82cc838f836982c5937c82ea82bd",
+          "text": "矢のワナで倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d40c",
+          "key": "log_7_1",
+          "key_offset": "0xc4dd80"
+        }
+      ],
+      "english": "Defeated by an Arrow trap",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dd4c",
+      "offset": "0x00C4DD4C",
+      "source_end_exclusive": "0xc4dd61",
+      "master_id": "jp_00c4dd4c",
+      "japanese": "岩が落ちてきて倒れた",
+      "source_hex": "8ae282aa978e82bf82c482ab82c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8ae282aa978e82bf82c482ab82c4937c82ea82bd",
+          "text": "岩が落ちてきて倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d414",
+          "key": "log_7_2",
+          "key_offset": "0xc4dd64"
+        }
+      ],
+      "english": "Defeated by a falling boulder",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dd2c",
+      "offset": "0x00C4DD2C",
+      "source_end_exclusive": "0xc4dd41",
+      "master_id": "jp_00c4dd2c",
+      "japanese": "鉄球にあたって倒れた",
+      "source_hex": "93538b8582c982a082bd82c182c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "93538b8582c982a082bd82c182c4937c82ea82bd",
+          "text": "鉄球にあたって倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d41c",
+          "key": "log_7_3",
+          "key_offset": "0xc4dd44"
+        }
+      ],
+      "english": "Defeated by an iron ball",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dd08",
+      "offset": "0x00C4DD08",
+      "source_end_exclusive": "0xc4dd23",
+      "master_id": "jp_00c4dd08",
+      "japanese": "眠っているあいだに倒された",
+      "source_hex": "96b082c182c482a282e982a082a282be82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96b082c182c482a282e982a082a282be82c9937c82b382ea82bd",
+          "text": "眠っているあいだに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d424",
+          "key": "log_7_4",
+          "key_offset": "0xc4dd24"
+        }
+      ],
+      "english": "Defeated while asleep",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dce4",
+      "offset": "0x00C4DCE4",
+      "source_end_exclusive": "0xc4dcff",
+      "master_id": "jp_00c4dce4",
+      "japanese": "踊っているあいだに倒された",
+      "source_hex": "977882c182c482a282e982a082a282be82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "977882c182c482a282e982a082a282be82c9937c82b382ea82bd",
+          "text": "踊っているあいだに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d42c",
+          "key": "log_7_5",
+          "key_offset": "0xc4dd00"
+        }
+      ],
+      "english": "Defeated while dancing",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dcbc",
+      "offset": "0x00C4DCBC",
+      "source_end_exclusive": "0xc4dcd9",
+      "master_id": "jp_00c4dcbc",
+      "japanese": "混乱しているあいだに倒された",
+      "source_hex": "8dac979082b582c482a282e982a082a282be82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8dac979082b582c482a282e982a082a282be82c9937c82b382ea82bd",
+          "text": "混乱しているあいだに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d434",
+          "key": "log_7_6",
+          "key_offset": "0xc4dcdc"
+        }
+      ],
+      "english": "Defeated while confused",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dc90",
+      "offset": "0x00C4DC90",
+      "source_end_exclusive": "0xc4dcb3",
+      "master_id": "jp_00c4dc90",
+      "japanese": "バーサーカー状態のあいだに倒された",
+      "source_hex": "836f815b8354815b834a815b8ff391d482cc82a082a282be82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f815b8354815b834a815b8ff391d482cc82a082a282be82c9937c82b382ea82bd",
+          "text": "バーサーカー状態のあいだに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d43c",
+          "key": "log_7_7",
+          "key_offset": "0xc4dcb4"
+        }
+      ],
+      "english": "Defeated while berserk",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy.berserker"
+      ]
+    },
+    {
+      "id": "history.00c4dc74",
+      "offset": "0x00C4DC74",
+      "source_end_exclusive": "0xc4dc85",
+      "master_id": "jp_00c4dc74",
+      "japanese": "変身中に倒された",
+      "source_hex": "95cf9067928682c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "95cf9067928682c9937c82b382ea82bd",
+          "text": "変身中に倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d444",
+          "key": "log_7_8",
+          "key_offset": "0xc4dc88"
+        }
+      ],
+      "english": "Defeated while transformed",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dc48",
+      "offset": "0x00C4DC48",
+      "source_end_exclusive": "0xc4dc69",
+      "master_id": "jp_00c4dc48",
+      "japanese": "変身中に仲間モンスターに倒された",
+      "source_hex": "95cf9067928682c992878ad4838283938358835e815b82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "95cf9067928682c992878ad4838283938358835e815b82c9937c82b382ea82bd",
+          "text": "変身中に仲間モンスターに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d44c",
+          "key": "log_7_9",
+          "key_offset": "0xc4dc6c"
+        }
+      ],
+      "english": "Defeated by an ally while transformed",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dc18",
+      "offset": "0x00C4DC18",
+      "source_end_exclusive": "0xc4dc3d",
+      "master_id": "jp_00c4dc18",
+      "japanese": "とじこめの壺にとじこめられてしまった",
+      "source_hex": "82c682b682b182df82cc9ae282c982c682b682b182df82e782ea82c482b582dc82c182bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c682b682b182df82cc9ae282c982c682b682b182df82e782ea82c482b582dc82c182bd",
+          "text": "とじこめの壺にとじこめられてしまった",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d454",
+          "key": "log_8_0",
+          "key_offset": "0xc4dc40"
+        }
+      ],
+      "english": "Trapped inside a Trapping pot",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_261"
+      ]
+    },
+    {
+      "id": "history.00c4dbf0",
+      "offset": "0x00C4DBF0",
+      "source_end_exclusive": "0xc4dc0d",
+      "master_id": "jp_00c4dbf0",
+      "japanese": "モンスターハウスに投げられた",
+      "source_hex": "838283938358835e815b836e8345835882c9938a82b082e782ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b836e8345835882c9938a82b082e782ea82bd",
+          "text": "モンスターハウスに投げられた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d45c",
+          "key": "log_8_1",
+          "key_offset": "0xc4dc10"
+        }
+      ],
+      "english": "Thrown into a Monster House",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dbc0",
+      "offset": "0x00C4DBC0",
+      "source_end_exclusive": "0xc4dbe7",
+      "master_id": "jp_00c4dbc0",
+      "japanese": "潜るモンスターにニフラムの巻物を当てた",
+      "source_hex": "90f682e9838283938358835e815b82c9836a83748389838082cc8aaa95a882f0939682c482bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90f682e9838283938358835e815b82c9836a83748389838082cc8aaa95a882f0939682c482bd",
+          "text": "潜るモンスターにニフラムの巻物を当てた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d464",
+          "key": "log_8_2",
+          "key_offset": "0xc4dbe8"
+        }
+      ],
+      "english": "Hit a burrowing monster with a Poof scroll",
+      "display": "Poof scroll hit a burrowing monster",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "series_poof",
+        "combined_item_230"
+      ]
+    },
+    {
+      "id": "history.00c4db9c",
+      "offset": "0x00C4DB9C",
+      "source_end_exclusive": "0xc4dbb7",
+      "master_id": "jp_00c4db9c",
+      "japanese": "つるはしを合成してしまった",
+      "source_hex": "82c282e982cd82b582f08d8790ac82b582c482b582dc82c182bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c282e982cd82b582f08d8790ac82b582c482b582dc82c182bd",
+          "text": "つるはしを合成してしまった",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d46c",
+          "key": "log_8_3",
+          "key_offset": "0xc4dbb8"
+        }
+      ],
+      "english": "Used a Pickaxe in synthesis",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_017"
+      ]
+    },
+    {
+      "id": "history.00c4db80",
+      "offset": "0x00C4DB80",
+      "source_end_exclusive": "0xc4db93",
+      "master_id": "jp_00c4db80",
+      "japanese": "合成の壺を遠投した",
+      "source_hex": "8d8790ac82cc9ae282f08993938a82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82cc9ae282f08993938a82b582bd",
+          "text": "合成の壺を遠投した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d474",
+          "key": "log_8_4",
+          "key_offset": "0xc4db94"
+        }
+      ],
+      "english": "Threw a Synthesis pot with a long throw",
+      "display": "Long throw: Synthesis pot",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_252"
+      ]
+    },
+    {
+      "id": "history.00c4db64",
+      "offset": "0x00C4DB64",
+      "source_end_exclusive": "0xc4db77",
+      "master_id": "jp_00c4db64",
+      "japanese": "お腹が減って倒れた",
+      "source_hex": "82a895a082aa8cb882c182c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a895a082aa8cb882c182c4937c82ea82bd",
+          "text": "お腹が減って倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d47c",
+          "key": "log_8_5",
+          "key_offset": "0xc4db78"
+        }
+      ],
+      "english": "Defeated by hunger",
+      "display": "Starved to death",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "fullness"
+      ]
+    },
+    {
+      "id": "history.00c4db38",
+      "offset": "0x00C4DB38",
+      "source_end_exclusive": "0xc4db5b",
+      "master_id": "jp_00c4db38",
+      "japanese": "風に吹かれてダンジョンから戻された",
+      "source_hex": "959782c9908182a982ea82c4835f839383578387839382a982e796df82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "959782c9908182a982ea82c4835f839383578387839382a982e796df82b382ea82bd",
+          "text": "風に吹かれてダンジョンから戻された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d484",
+          "key": "log_8_6",
+          "key_offset": "0xc4db5c"
+        }
+      ],
+      "english": "Blown out of a dungeon by the wind",
+      "display": "Blown out of a dungeon by wind",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "character.castle_john"
+      ]
+    },
+    {
+      "id": "history.00c4db1c",
+      "offset": "0x00C4DB1C",
+      "source_end_exclusive": "0xc4db2d",
+      "master_id": "jp_00c4db1c",
+      "japanese": "マダンテを受けた",
+      "source_hex": "837d835f8393836582f08ef382af82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837d835f8393836582f08ef382af82bd",
+          "text": "マダンテを受けた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d48c",
+          "key": "log_8_7",
+          "key_offset": "0xc4db30"
+        }
+      ],
+      "english": "Hit by Magic Burst",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "spell.magic_burst"
+      ]
+    },
+    {
+      "id": "history.00c4daf8",
+      "offset": "0x00C4DAF8",
+      "source_end_exclusive": "0xc4db11",
+      "master_id": "jp_00c4daf8",
+      "japanese": "爆風にまきこまれて倒れた",
+      "source_hex": "949a959782c982dc82ab82b182dc82ea82c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "949a959782c982dc82ab82b182dc82ea82c4937c82ea82bd",
+          "text": "爆風にまきこまれて倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d494",
+          "key": "log_8_8",
+          "key_offset": "0xc4db14"
+        }
+      ],
+      "english": "Defeated by an explosion",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4dacc",
+      "offset": "0x00C4DACC",
+      "source_end_exclusive": "0xc4daed",
+      "master_id": "jp_00c4dacc",
+      "japanese": "強くなったバーサーカーに倒された",
+      "source_hex": "8bad82ad82c882c182bd836f815b8354815b834a815b82c9937c82b382ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8bad82ad82c882c182bd836f815b8354815b834a815b82c9937c82b382ea82bd",
+          "text": "強くなったバーサーカーに倒された",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d49c",
+          "key": "log_8_9",
+          "key_offset": "0xc4daf0"
+        }
+      ],
+      "english": "Defeated by a powered-up Berserker",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy.berserker"
+      ]
+    },
+    {
+      "id": "history.00c4da98",
+      "offset": "0x00C4DA98",
+      "source_end_exclusive": "0xc4dac1",
+      "master_id": "jp_00c4da98",
+      "japanese": "世界樹の葉が呪われていて復活できなかった",
+      "source_hex": "90a28a458ef782cc977482aa8ef482ed82ea82c482a282c4959c8a8882c582ab82c882a982c182bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90a28a458ef782cc977482aa8ef482ed82ea82c482a282c4959c8a8882c582ab82c882a982c182bd",
+          "text": "世界樹の葉が呪われていて復活できなかった",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4a4",
+          "key": "log_9_0",
+          "key_offset": "0xc4dac4"
+        }
+      ],
+      "english": "A cursed Yggdrasil leaf failed to revive you",
+      "display": "Cursed Yggdrasil leaf failed to revive",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_276"
+      ]
+    },
+    {
+      "id": "history.00c4da68",
+      "offset": "0x00C4DA68",
+      "source_end_exclusive": "0xc4da8d",
+      "master_id": "jp_00c4da68",
+      "japanese": "ビッグモアイの石像につぶされて倒れた",
+      "source_hex": "83728362834f83828341834382cc90ce919c82c982c282d482b382ea82c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83728362834f83828341834382cc90ce919c82c982c282d482b382ea82c4937c82ea82bd",
+          "text": "ビッグモアイの石像につぶされて倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4ac",
+          "key": "log_9_1",
+          "key_offset": "0xc4da90"
+        }
+      ],
+      "english": "Crushed to death by a Big Moai statue",
+      "display": "Crushed by a Big Moai statue",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_333"
+      ]
+    },
+    {
+      "id": "history.00c4da40",
+      "offset": "0x00C4DA40",
+      "source_end_exclusive": "0xc4da5d",
+      "master_id": "jp_00c4da40",
+      "japanese": "火炎の石像に燃やされて倒れた",
+      "source_hex": "89ce898a82cc90ce919c82c9945282e282b382ea82c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89ce898a82cc90ce919c82c9945282e282b382ea82c4937c82ea82bd",
+          "text": "火炎の石像に燃やされて倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4b4",
+          "key": "log_9_2",
+          "key_offset": "0xc4da60"
+        }
+      ],
+      "english": "Burned to death by a Flame statue",
+      "display": "Defeated by a Flame statue's fire",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_326"
+      ]
+    },
+    {
+      "id": "history.00c4da1c",
+      "offset": "0x00C4DA1C",
+      "source_end_exclusive": "0xc4da35",
+      "master_id": "jp_00c4da1c",
+      "japanese": "アイテムに変化して倒れた",
+      "source_hex": "834183438365838082c995cf89bb82b582c4937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834183438365838082c995cf89bb82b582c4937c82ea82bd",
+          "text": "アイテムに変化して倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4bc",
+          "key": "log_9_3",
+          "key_offset": "0xc4da38"
+        }
+      ],
+      "english": "Defeated by being turned into an item",
+      "display": "Defeated by turning into an item",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4da00",
+      "offset": "0x00C4DA00",
+      "source_end_exclusive": "0xc4da12",
+      "master_id": "jp_00c4da00",
+      "japanese": "最速$d0秒で倒れた",
+      "source_hex": "8dc591ac246430956282c5937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8dc591ac",
+          "text": "最速",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "956282c5937c82ea82bd",
+          "text": "秒で倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4c4",
+          "key": "log_9_4",
+          "key_offset": "0xc4da14"
+        }
+      ],
+      "english": "Fastest defeat: $d0 seconds",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d9d8",
+      "offset": "0x00C4D9D8",
+      "source_end_exclusive": "0xc4d9f1",
+      "master_id": "jp_00c4d9d8",
+      "japanese": "ヘルジャスティスを倒した",
+      "source_hex": "8377838b83578383835883658342835882f0937c82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8377838b83578383835883658342835882f0937c82b582bd",
+          "text": "ヘルジャスティスを倒した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4cc",
+          "key": "log_10_0",
+          "key_offset": "0xc4d9f4"
+        }
+      ],
+      "english": "Defeated Hell Justice",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_hell_justice"
+      ]
+    },
+    {
+      "id": "history.00c4d9b4",
+      "offset": "0x00C4D9B4",
+      "source_end_exclusive": "0xc4d9cb",
+      "master_id": "jp_00c4d9b4",
+      "japanese": "ジャスティス兄を倒した",
+      "source_hex": "8357838383588365834283588c5a82f0937c82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8357838383588365834283588c5a82f0937c82b582bd",
+          "text": "ジャスティス兄を倒した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4d4",
+          "key": "log_10_1",
+          "key_offset": "0xc4d9cc"
+        }
+      ],
+      "english": "Defeated Justice's elder brother",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_justice_s_elder_brother"
+      ]
+    },
+    {
+      "id": "history.00c4d98c",
+      "offset": "0x00C4D98C",
+      "source_end_exclusive": "0xc4d9a7",
+      "master_id": "jp_00c4d98c",
+      "japanese": "ジャスティス兄を仲間にした",
+      "source_hex": "8357838383588365834283588c5a82f092878ad482c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8357838383588365834283588c5a82f092878ad482c982b582bd",
+          "text": "ジャスティス兄を仲間にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4dc",
+          "key": "log_10_2",
+          "key_offset": "0xc4d9a8"
+        }
+      ],
+      "english": "Recruited Justice's elder brother",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_justice_s_elder_brother"
+      ]
+    },
+    {
+      "id": "history.00c4d960",
+      "offset": "0x00C4D960",
+      "source_end_exclusive": "0xc4d97e",
+      "master_id": "jp_00c4d960",
+      "japanese": "$d0種のモンスターを仲間にした",
+      "source_hex": "2464308eed82cc838283938358835e815b82f092878ad482c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8eed82cc838283938358835e815b82f092878ad482c982b582bd",
+          "text": "種のモンスターを仲間にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4e4",
+          "key": "log_10_3",
+          "key_offset": "0xc4d980"
+        }
+      ],
+      "english": "Recruited $d0 monster species",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d940",
+      "offset": "0x00C4D940",
+      "source_end_exclusive": "0xc4d953",
+      "master_id": "jp_00c4d940",
+      "japanese": "ガーゴイルを倒した",
+      "source_hex": "834b815b83538343838b82f0937c82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834b815b83538343838b82f0937c82b582bd",
+          "text": "ガーゴイルを倒した",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4ec",
+          "key": "log_10_4",
+          "key_offset": "0xc4d954"
+        }
+      ],
+      "english": "Defeated a Gargoyle",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_gargoyle"
+      ]
+    },
+    {
+      "id": "history.00c4d91c",
+      "offset": "0x00C4D91C",
+      "source_end_exclusive": "0xc4d933",
+      "master_id": "jp_00c4d91c",
+      "japanese": "ガーゴイルを仲間にした",
+      "source_hex": "834b815b83538343838b82f092878ad482c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834b815b83538343838b82f092878ad482c982b582bd",
+          "text": "ガーゴイルを仲間にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4f4",
+          "key": "log_10_5",
+          "key_offset": "0xc4d934"
+        }
+      ],
+      "english": "Recruited a Gargoyle",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "enemy_gargoyle"
+      ]
+    },
+    {
+      "id": "history.00c4d8f4",
+      "offset": "0x00C4D8F4",
+      "source_end_exclusive": "0xc4d90f",
+      "master_id": "jp_00c4d8f4",
+      "japanese": "仲間モンスターをLv99にした",
+      "source_hex": "92878ad4838283938358835e815b82f04c76393982c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "92878ad4838283938358835e815b82f0",
+          "text": "仲間モンスターを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4c763939",
+          "text": "Lv99",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c982b582bd",
+          "text": "にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d4fc",
+          "key": "log_10_6",
+          "key_offset": "0xc4d910"
+        }
+      ],
+      "english": "Raised an allied monster to Lv99",
+      "display": "Raised a monster ally to Lv99",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d8cc",
+      "offset": "0x00C4D8CC",
+      "source_end_exclusive": "0xc4d8e8",
+      "master_id": "jp_00c4d8cc",
+      "japanese": "強い武器を手に入れた（+99）",
+      "source_hex": "8bad82a295908aed82f08ee882c993fc82ea82bd81692b3939816a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8bad82a295908aed82f08ee882c993fc82ea82bd8169",
+          "text": "強い武器を手に入れた（",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2b3939",
+          "text": "+99",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "816a",
+          "text": "）",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d504",
+          "key": "log_10_7",
+          "key_offset": "0xc4d8e8"
+        }
+      ],
+      "english": "Obtained a weapon strengthened to +99",
+      "display": "Got a +99 weapon",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d8a4",
+      "offset": "0x00C4D8A4",
+      "source_end_exclusive": "0xc4d8be",
+      "master_id": "jp_00c4d8a4",
+      "japanese": "強い盾を手に入れた（+99）",
+      "source_hex": "8bad82a28f8282f08ee882c993fc82ea82bd81692b3939816a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8bad82a28f8282f08ee882c993fc82ea82bd8169",
+          "text": "強い盾を手に入れた（",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2b3939",
+          "text": "+99",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "816a",
+          "text": "）",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d50c",
+          "key": "log_10_8",
+          "key_offset": "0xc4d8c0"
+        }
+      ],
+      "english": "Obtained a shield strengthened to +99",
+      "display": "Got a +99 shield",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d884",
+      "offset": "0x00C4D884",
+      "source_end_exclusive": "0xc4d89a",
+      "master_id": "jp_00c4d884",
+      "japanese": "最速$d0ターンで倒れた",
+      "source_hex": "8dc591ac246430835e815b839382c5937c82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8dc591ac",
+          "text": "最速",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835e815b839382c5937c82ea82bd",
+          "text": "ターンで倒れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d514",
+          "key": "log_9_5",
+          "key_offset": "0xc4d89c"
+        }
+      ],
+      "english": "Fastest defeat: $d0 turns",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d858",
+      "offset": "0x00C4D858",
+      "source_end_exclusive": "0xc4d877",
+      "master_id": "jp_00c4d858",
+      "japanese": "すべてのモンスターを仲間にした",
+      "source_hex": "82b782d782c482cc838283938358835e815b82f092878ad482c982b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b782d782c482cc838283938358835e815b82f092878ad482c982b582bd",
+          "text": "すべてのモンスターを仲間にした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d51c",
+          "key": "log_10_3a",
+          "key_offset": "0xc4d878"
+        }
+      ],
+      "english": "Recruited every monster species",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d834",
+      "offset": "0x00C4D834",
+      "source_end_exclusive": "0xc4d84c",
+      "master_id": "jp_00c4d834",
+      "japanese": "封印の洞くつ<03 08 8C>未クリア",
+      "source_hex": "959588f382cc93b482ad82c203088c96a2834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "959588f382cc93b482ad82c2",
+          "text": "封印の洞くつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a2834e838a8341",
+          "text": "未クリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d524",
+          "key": "log_3_0c",
+          "key_offset": "0xc4d84c"
+        }
+      ],
+      "english": "Sealed cavern{hex:03088c}Not cleared",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "mechanic.sealed",
+        "interface.dungeon.020"
+      ]
+    },
+    {
+      "id": "history.00c4d80c",
+      "offset": "0x00C4D80C",
+      "source_end_exclusive": "0xc4d826",
+      "master_id": "jp_00c4d80c",
+      "japanese": "不思議の宝物庫<03 08 8C>未クリア",
+      "source_hex": "95738e768b6382cc95f395a88cc903088c96a2834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "95738e768b6382cc95f395a88cc9",
+          "text": "不思議の宝物庫",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a2834e838a8341",
+          "text": "未クリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d52c",
+          "key": "log_3_1c",
+          "key_offset": "0xc4d828"
+        }
+      ],
+      "english": "Mysterious treasury{hex:03088c}Not cleared",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.021"
+      ]
+    },
+    {
+      "id": "history.00c4d7e4",
+      "offset": "0x00C4D7E4",
+      "source_end_exclusive": "0xc4d800",
+      "master_id": "jp_00c4d7e4",
+      "japanese": "まぼろしの洞くつ<03 08 8C>未クリア",
+      "source_hex": "82dc82da82eb82b582cc93b482ad82c203088c96a2834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82dc82da82eb82b582cc93b482ad82c2",
+          "text": "まぼろしの洞くつ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a2834e838a8341",
+          "text": "未クリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d534",
+          "key": "log_3_2c",
+          "key_offset": "0xc4d800"
+        }
+      ],
+      "english": "Illusion cavern{hex:03088c}Not cleared",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.031"
+      ]
+    },
+    {
+      "id": "history.00c4d7c0",
+      "offset": "0x00C4D7C0",
+      "source_end_exclusive": "0xc4d7d8",
+      "master_id": "jp_00c4d7c0",
+      "japanese": "異世界の迷宮<03 08 8C>未クリア",
+      "source_hex": "88d990a28a4582cc96c08b7b03088c96a2834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "88d990a28a4582cc96c08b7b",
+          "text": "異世界の迷宮",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a2834e838a8341",
+          "text": "未クリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d53c",
+          "key": "log_3_3c",
+          "key_offset": "0xc4d7d8"
+        }
+      ],
+      "english": "Otherworld labyrinth{hex:03088c}Not cleared",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.018"
+      ]
+    },
+    {
+      "id": "history.00c4d7a0",
+      "offset": "0x00C4D7A0",
+      "source_end_exclusive": "0xc4d7b7",
+      "master_id": "jp_00c4d7a0",
+      "japanese": "すべての異種合成をした",
+      "source_hex": "82b782d782c482cc88d98eed8d8790ac82f082b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b782d782c482cc88d98eed8d8790ac82f082b582bd",
+          "text": "すべての異種合成をした",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d544",
+          "key": "log_4_8",
+          "key_offset": "0xc4d7b8"
+        }
+      ],
+      "english": "Performed every mixed-item synthesis",
+      "display": "Tried every mixed-item synthesis",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d77c",
+      "offset": "0x00C4D77C",
+      "source_end_exclusive": "0xc4d797",
+      "master_id": "jp_00c4d77c",
+      "japanese": "魔法の宝石箱を倉庫に入れた",
+      "source_hex": "9682964082cc95f390ce94a082f091718cc982c993fc82ea82bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9682964082cc95f390ce94a082f091718cc982c993fc82ea82bd",
+          "text": "魔法の宝石箱を倉庫に入れた",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d54c",
+          "key": "log_4_9",
+          "key_offset": "0xc4d798"
+        }
+      ],
+      "english": "Stored a Magic jewel box in the warehouse",
+      "display": "Stored a Magic jewel box",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "combined_item_259"
+      ]
+    },
+    {
+      "id": "history.00c4d74c",
+      "offset": "0x00C4D74C",
+      "source_end_exclusive": "0xc4d76e",
+      "master_id": "jp_00c4d74c",
+      "japanese": "トルネコで闘技場$d0回連続予想的中",
+      "source_hex": "8367838b836c835282c593ac8b5a8fea24643089f1984191b1975c917a9349928600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282c593ac8b5a8fea",
+          "text": "トルネコで闘技場",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f1984191b1975c917a93499286",
+          "text": "回連続予想的中",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d554",
+          "key": "log_5_10",
+          "key_offset": "0xc4d770"
+        }
+      ],
+      "english": "Torneko won $d0 consecutive arena bets",
+      "display": "Torneko's winning bet streak: $d0",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "history.00c4d728",
+      "offset": "0x00C4D728",
+      "source_end_exclusive": "0xc4d73f",
+      "master_id": "jp_00c4d728",
+      "japanese": "ニフラムの巻物を読んだ",
+      "source_hex": "836a83748389838082cc8aaa95a882f093c782f182be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836a83748389838082cc8aaa95a882f093c782f182be",
+          "text": "ニフラムの巻物を読んだ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d55c",
+          "key": "log_4_10",
+          "key_offset": "0xc4d740"
+        }
+      ],
+      "english": "Read a Poof scroll",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "series_poof",
+        "combined_item_230"
+      ]
+    },
+    {
+      "id": "history.00c4d6f8",
+      "offset": "0x00C4D6F8",
+      "source_end_exclusive": "0xc4d71e",
+      "master_id": "jp_00c4d6f8",
+      "japanese": "いままでの総プレイ時間数 $d0時間$d1分",
+      "source_hex": "82a282dc82dc82c582cc918d8376838c83438e9e8ad49094202464308e9e8ad424643195aa00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282dc82dc82c582cc918d8376838c83438e9e8ad49094",
+          "text": "いままでの総プレイ時間数",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e9e8ad4",
+          "text": "時間",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246431",
+          "text": "$d1",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95aa",
+          "text": "分",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d564",
+          "key": "log_6_8",
+          "key_offset": "0xc4d720"
+        }
+      ],
+      "english": "Total play time: $d0 hours $d1 minutes",
+      "display": "Play time: $d0h $d1m",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d6c4",
+      "offset": "0x00C4D6C4",
+      "source_end_exclusive": "0xc4d6ee",
+      "master_id": "jp_00c4d6c4",
+      "japanese": "満腹度が0で食べたパンがひとくいばこだった",
+      "source_hex": "969e95a0937882aa3082c5904882d782bd8370839382aa82d082c682ad82a282ce82b182be82c182bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "969e95a0937882aa",
+          "text": "満腹度が",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "30",
+          "text": "0",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c5904882d782bd8370839382aa82d082c682ad82a282ce82b182be82c182bd",
+          "text": "で食べたパンがひとくいばこだった",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d56c",
+          "key": "log_9_6",
+          "key_offset": "0xc4d6f0"
+        }
+      ],
+      "english": "Ate bread that was a Cannibox at 0 fullness",
+      "display": "Ate a Cannibox at 0 fullness",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "fullness",
+        "enemy.cannibox"
+      ]
+    },
+    {
+      "id": "history.00c4d694",
+      "offset": "0x00C4D694",
+      "source_end_exclusive": "0xc4d6ba",
+      "master_id": "jp_00c4d694",
+      "japanese": "１回の攻撃で与えた最大ダメージ量：$d0",
+      "source_hex": "825089f182cc8d558c8282c5975e82a682bd8dc591e5835f8381815b835797ca814624643000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "825089f182cc8d558c8282c5975e82a682bd8dc591e5835f8381815b835797ca8146",
+          "text": "１回の攻撃で与えた最大ダメージ量：",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d574",
+          "key": "log_9_7",
+          "key_offset": "0xc4d6bc"
+        }
+      ],
+      "english": "Most damage in one attack: $d0",
+      "display": "Max damage in one hit: $d0",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d668",
+      "offset": "0x00C4D668",
+      "source_end_exclusive": "0xc4d688",
+      "master_id": "jp_00c4d668",
+      "japanese": "回数の多い杖を手に入れた（+99）",
+      "source_hex": "89f1909482cc91bd82a28ff182f08ee882c993fc82ea82bd81692b3939816a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89f1909482cc91bd82a28ff182f08ee882c993fc82ea82bd8169",
+          "text": "回数の多い杖を手に入れた（",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2b3939",
+          "text": "+99",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "816a",
+          "text": "）",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d57c",
+          "key": "log_10_9",
+          "key_offset": "0xc4d688"
+        }
+      ],
+      "english": "Obtained a staff with 99 charges",
+      "display": "Got a staff with 99 charges",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    },
+    {
+      "id": "history.00c4d650",
+      "offset": "0x00C4D650",
+      "source_end_exclusive": "0xc4d65f",
+      "master_id": "jp_00c4d650",
+      "japanese": "バリナボモード",
+      "source_hex": "836f838a8369837b8382815b836800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b8382815b8368",
+          "text": "バリナボモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d584",
+          "key": "log_2_9",
+          "key_offset": "0xc4d660"
+        }
+      ],
+      "english": "Barinabo mode",
+      "display": "Barinabo: ",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "place.barinabo"
+      ]
+    },
+    {
+      "id": "history.00c4d628",
+      "offset": "0x00C4D628",
+      "source_end_exclusive": "0xc4d641",
+      "master_id": "jp_00c4d628",
+      "japanese": "魔物の巣<03 08 8C>$d0Ｆまで到達",
+      "source_hex": "968295a882cc918303088c246430826582dc82c5939e924200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "968295a882cc9183",
+          "text": "魔物の巣",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "826582dc82c5939e9242",
+          "text": "Ｆまで到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d58c",
+          "key": "log_3_4a",
+          "key_offset": "0xc4d644"
+        }
+      ],
+      "english": "Monster nest{hex:03088c}Reached $d0F",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.030"
+      ]
+    },
+    {
+      "id": "history.00c4d5fc",
+      "offset": "0x00C4D5FC",
+      "source_end_exclusive": "0xc4d610",
+      "master_id": "jp_00c4d5fc",
+      "japanese": "魔物の巣<03 08 8C>未クリア",
+      "source_hex": "968295a882cc918303088c96a2834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "968295a882cc9183",
+          "text": "魔物の巣",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03088c",
+          "text": "<03 08 8C>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a2834e838a8341",
+          "text": "未クリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d59c",
+          "key": "log_3_4c",
+          "key_offset": "0xc4d610"
+        }
+      ],
+      "english": "Monster nest{hex:03088c}Not cleared",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "interface.dungeon.030"
+      ]
+    },
+    {
+      "id": "history.00c4d5d8",
+      "offset": "0x00C4D5D8",
+      "source_end_exclusive": "0xc4d5ed",
+      "master_id": "jp_00c4d5d8",
+      "japanese": "のダンジョンをクリア",
+      "source_hex": "82cc835f839383578387839382f0834e838a834100",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cc835f839383578387839382f0834e838a8341",
+          "text": "のダンジョンをクリア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d5a4",
+          "key": "log_2_9a",
+          "key_offset": "0xc4d5f0"
+        }
+      ],
+      "english": " dungeon cleared",
+      "display": " cleared",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": [
+        "character.castle_john"
+      ]
+    },
+    {
+      "id": "history.00c4d5c0",
+      "offset": "0x00C4D5C0",
+      "source_end_exclusive": "0xc4d5ca",
+      "master_id": "jp_00c4d5c0",
+      "japanese": "$d0Ｆ到達",
+      "source_hex": "2464308265939e924200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8265939e9242",
+          "text": "Ｆ到達",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0xc4d5ac",
+          "key": "log_2_9b",
+          "key_offset": "0xc4d5cc"
+        }
+      ],
+      "english": "Reached floor $d0",
+      "display": " $d0F",
+      "notes": "Independent translation from the pinned Japanese history entry. Full English retained; display wording is shortened only for the original single-row layout.",
+      "references": []
+    }
+  ]
+}

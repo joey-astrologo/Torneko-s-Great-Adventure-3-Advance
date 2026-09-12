@@ -92,6 +92,34 @@ class RomBuild:
         self.patches.append(record)
         return record
 
+    def supersede_patch(self, ident, previous_id, previous_owner, expected,
+                        replacement, owner, reason):
+        """Replace one exact owned patch, retaining its complete audit history.
+
+        This is deliberately separate from patch(): partial overlaps, changed
+        source bytes, stale targets and implicit ownership remain errors.
+        """
+        matches = [(i, p) for i, p in enumerate(self.patches)
+                   if p["id"] == previous_id and p["owner"] == previous_owner]
+        check(len(matches) == 1, "Supersession requires one exact previous owner/ID")
+        check(ident not in {p["id"] for p in self.patches}, "Duplicate patch ID")
+        check(owner and reason, "Supersession requires owner and reason")
+        index, old = matches[0]
+        expected, replacement = bytes(expected), bytes(replacement)
+        start = old["offset"]
+        before = bytes.fromhex(old["before"])
+        check(expected and len(expected) == len(replacement) == len(before),
+              "Supersession must replace the whole patch at its original size")
+        end = start + len(before)
+        check(bytes.fromhex(old["after"]) == expected and self.data[start:end] == expected
+              and self.original[start:end] == before, "Supersession precondition failed")
+        record = {"id": ident, "offset": start, "before": old["before"],
+                  "after": replacement.hex(), "owner": owner, "reason": reason,
+                  "supersedes": deepcopy(old)}
+        self.data[start:end] = replacement
+        self.patches[index] = record
+        return record
+
     def finish(self):
         """Verify the entire image, including unused appended bytes and padding."""
         expected = bytearray(self.original)

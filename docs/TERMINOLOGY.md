@@ -1,8 +1,42 @@
 # Translation terminology
 
-Latest review: [early journey and place names](EARLY_JOURNEY.md), covering
+Current working review: [continuous completion](COMPLETION.md), with **2,258
+translated story sources** in the
+[cumulative review](../translations/story-completion-terminology-review.tsv).
+The glossary has **1,360 terms**, including 28 new project role, character and
+lore choices plus the shared Puff-Puff term and the project password LETMEIN. Existing official species, item, spell and tactics identities
+retain their evidence. The complete 2,258-source story checkpoint has passed 2,875 controlled
+native cases and eight menus; remaining resources and the discovery audit
+remain in progress. `current_review` records that acceptance; earlier reviews remain in
+`batches`. Marin / マリン and Marina / マリーナ retain distinct source spellings,
+and Queen Sylvia is scoped to this game's queen. The unnamed Demon King is
+not assigned an unstated personal identity from another game.
+
+The 32-source pet/password component has passed native checks and both save
+slots; a further 78 shared-event sources have passed 139 native story cases,
+one choice menu and 140 Japanese pixel comparisons. Their evidence and status
+are tracked in [continuous completion](COMPLETION.md). The 108-source arena
+component now also passes its native checks, reusing existing monster, tokens,
+character and Adventure Log terms. The 100-source adventure-history table
+also passes its native checks, retaining full glossary names and separate
+measured display wording. The 185-resource results component also passes,
+reusing existing identities and documenting eight result-only item display
+forms in [ADVENTURE_RESULTS.md](ADVENTURE_RESULTS.md). The full glossary names
+remain unchanged. The 62-source church component also passes, reusing
+Adventure Log and the project Earth God term while retaining distinct priest,
+book and voice dialogue; see [CHURCH_SERVICES.md](CHURCH_SERVICES.md). The
+48-source frontend component likewise passes, reusing reviewed modes, places
+and characters while translating its help rules independently; see
+[FRONTEND_COMPLETION.md](FRONTEND_COMPLETION.md). The 20-source composed-item
+component also passes, retaining full item names and reusing the provisional
+Grave / Monster tracks terms; see [ITEM_DISPLAY.md](ITEM_DISPLAY.md). The
+63-source [dungeon-event component](DUNGEON_EVENTS.md) also passes. Squelch
+uses secondary XI naming evidence; people of the earth, Conklave and existing
+character/spell terms remain consistent.
+
+Previous accepted review: [early journey and place names](EARLY_JOURNEY.md), covering
 **194 entries** in the [journey review](../translations/early-journey-terminology-review.tsv).
-The glossary now has **1,327 terms**. Existing species, item, spell and dungeon
+That review brought the glossary to **1,327 terms**. Existing species, item, spell and dungeon
 identities are reused. The 33 additions retain explicit project status;
 Conklave and Gracos stems use documented secondary modern naming evidence,
 while the publisher corroborates Japanese location identities only. Inatts,
@@ -10,8 +44,8 @@ Star of the Gods and new place/lore labels are project choices. The Medal King
 remains a generic role, without importing another game's king's personal name.
 Full Destination is retained; its measured 32px UI form is Go to. All thirty
 full place labels fit their native list and 30-byte substitution slot. Earlier
-names, confidence, sources and notes are preserved; `current_review` pins this
-combined build. See the milestone for source links and native coverage.
+names, confidence, sources and notes are preserved in its accepted snapshot.
+See the milestone for source links and native coverage.
 
 Previous review: [first village and northern shrine](FIRST_VILLAGE.md), covering
 **281 new messages** in the
@@ -304,3 +338,48 @@ Natural dungeon identification, synthesis, shop contexts and item-state save
 persistence remain in the [gameplay backlog](PLAYTEST_BACKLOG.md). The first
 enemy-name batch proceeds on that basis, with insertion/runtime validation
 tracked separately. Ranking/result-name save storage remains deferred as agreed.
+
+The remaining battle component adds Kabuff (スクルト) and Kathwack (ザラキーマ)
+from secondary XI identity references, with original-game effects translated
+independently. Its 298 sources have passed the native checks recorded in
+[BATTLE_COMPLETION.md](BATTLE_COMPLETION.md); glossary occurrences are linked.
+
+The 132-source [world merchant component](MERCHANTS.md) passes native checks
+using existing Mini medal, Medal King, Samson, Douglas, King and synthesis
+identities. Casual and polite shopkeepers remain distinct; the anonymous
+speaker retains `???`. No new official naming claim or imported effect is made.
+
+The six-resource [shared keyboard completion](KEYBOARD_COMPLETION.md) uses
+Page / Next / History / Back / Done and Select / Erase. Page covers both
+Latin case switching and unchanged kana pages; no series identity changed.
+The previously authored input hint remains in its earlier catalog as history.
+
+The [blank-scroll inscription catalog](INSCRIPTIONS.md) links 98 original
+kana aliases to 49 existing item identities. Seven-character input spellings
+are explicit field abbreviations, not replacements for full glossary names
+or claims of official abbreviations. The learned list shows those spellings;
+full inventory names remain unchanged. Both original kana variants still match.
+
+The 19-source [world completion](WORLD_COMPLETION.md) reuses Zoom, Torneko,
+Fortune-teller, Chief and the established sacred flame wording. Duplicate
+warehouse prose reuses the earlier ally-services translation. No new official
+term or effect claim is introduced.
+
+The 42-source [system-label component](SYSTEM_LABELS.md) reuses exact trial
+names, Torneko/Tipper/Rosa/Ines, Big bread and Mark. Growth categories are
+independent project labels. Three four-byte Adventure contexts use the
+already accepted display Trip; full catalog wording and initial drafts remain.
+
+The [encounter UI](ENCOUNTER_UI.md) uses project names for themed houses.
+Pip & Conk follows the eight exact accepted monster identities; Swordmaster
+is the sword category, not a Shiren species. Kaclang, Heal, Bang and Squelch
+reuse the modern glossary. Japanese secondary category references and their
+limits are recorded in the component review; no house name is claimed official.
+
+The [indexed arena graphics](ARENA_GRAPHICS.md) reuse the accepted Tipper
+identity. Manual graphic transcription distinguishes the winning-monster
+heading from the combatant roster; all six phrases retain their own sources.
+
+The remaining sound-test help uses generic audio terminology (background
+music, music effects, sound effects). The floor suffix reuses the accepted
+dungeon names and Latin F; no series glossary identities change.

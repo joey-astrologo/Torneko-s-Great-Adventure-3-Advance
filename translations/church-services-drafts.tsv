@@ -1,0 +1,274 @@
+id	japanese	english	display	references	notes
+church.00c78ca8	"＊「$m0よ。
+$xそなたは　もう
+$xじゅうぶんに強い。
+＊「その強さは　ひとびとに
+$x語りつがれるであろう。"	"$m0, you have already grown strong enough.
+Your strength will be spoken of for generations."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78d10	"＊「$m0よ。
+$xあと$d0の経験で
+$x次のレベルに　なるだろう。"	$m0, you need $d0 more experience points to reach the next level.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78d4c	"＊「おお　天と地を　おさめし　神よ！
+$xこの者の　持ち物より
+$xいまわしき呪いを　解きはなちたまえ！"	"O God who rules the heavens and the earth!
+Release this soul's belongings from their dreadful curse!"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78db0	"＊「残念だが　寄付をするには
+$xお金が　たりないようじゃな。
+
+＊「おお　天と地を　おさめし　神よ
+$xこの者を　おゆるしたまえ！"	"Sadly, you have not enough gold for a donation.
+
+O God who rules the heavens and the earth, forgive this soul!"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78e30	＊「ほかに　のぞみは　あるかな？	Is there anything else you desire?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78e54	"＊「神への寄付は
+$xそなたの　気もちしだい。
+$x誰も　とがめはせんだろう。"	A donation to God must come from the heart. No one will blame you.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78ea0	"＊「ならば　大地の神に
+$x$d0ゴールドの　寄付を。
+$xよろしいかな？"	Then offer $d0 gold to the Earth God. Shall we proceed?		lore.earth_god	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78ee4	"＊「しかし　$tどのは
+$x呪われたアイテムなぞ
+$x持っておらんようだぞ。"	But $t, you do not seem to have any cursed items.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78f2c	"＊「おお　天と地よ！
+$xそなたの子に　ひとときの
+$x休息を　あたえたまえ！"	O heavens and earth! Grant your child a moment of rest!			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c78f78	"＊「では　天と地の声に　耳をすまそう。
+
+
+＊「$m0よ。
+$xそなたは　もう
+$xじゅうぶんに強い。
+＊「その強さは　ひとびとに
+$x語りつがれるであろう。"	"Let us listen to the voices of heaven and earth.
+
+$m0, you have already grown strong enough.
+Your strength will be spoken of for generations."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79008	"＊「では　天と地の声に　耳をすまそう。
+
+
+＊「$m0よ。
+$xあと$d0の経験で
+$x次のレベルに　なるだろう。"	"Let us listen to the voices of heaven and earth.
+
+$m0, you need $d0 more experience points to reach the next level."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7906c	"＊「では　お気をつけて。
+$xそなたに　幸運の　あらんことを。"	Take care, then. May good fortune be with you.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c790a8	"＊「なんと　記録しないで
+$x休むと　いうのか……。
+
+＊「それでは　そなたの冒険が
+$x前の記録まで　もどってしまうが
+$xよいのだな？"	"What? You wish to rest without saving...?
+
+Your adventure will return to the point where you last saved. Are you sure?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79128	"＊「記録しないというのか。
+$xふむ。　それも　また
+$xひとつの道じゃろう。
+＊「まだ　冒険を
+$x続けるつもりかな？"	"You do not wish to save? Hmm. That, too, is a path you may take.
+Will you continue your adventure?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79198	"＊「たしかに　記録しましたぞ。
+$xまだ　冒険を　続けるつもりかね？"	Your adventure has been saved. Will you continue?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c791dc	"＊「むむ？　なんとしたことか！？
+$x記録に　失敗したようだ。
+$xもういちど　ためしてみるかね？"	Hmm? What has happened?! It seems the save failed. Will you try again?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7923c	"＊「では　天と地のもとで
+$xこれまでの　おこないを
+$x告白なさい。
+＊「そして　冒険の書に
+$x記録しても　よいかね？"	"Then confess your deeds beneath the heavens and before the earth.
+May I record them in your Adventure Log?"		adventure_log	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c792b0	"＊「われら　大地の神の子よ。
+$xわたしに　何を　もとめるかね？"	Fellow child of the Earth God, what do you ask of me?		lore.earth_god	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c792f0	"＊「たしかに　記録しました。
+$xまだ冒険を　続けますか？"	Your adventure has been saved. Will you continue?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79328	"＊「なんと　記録に　失敗したようです。
+$xもういちど　記録してみますか？"	Alas, it seems the save failed. Would you like to try again?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79370	"どこからともなく　声が聞こえる……。
+
+
+＊「旅人よ。　あなたの　これまでの
+$x行いを　冒険の書に　記録しますか？"	"A voice comes from nowhere...
+
+Traveller, shall I record your deeds in your Adventure Log?"		adventure_log	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79488	"たしかに　記録しました。
+まだ　冒険を続けますか？"	Your adventure has been saved. Continue adventuring?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c794bc	"なんと　記録に失敗したようです。
+もういちど　記録してみますか？"	The save seems to have failed. Try saving again?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c794fc	"そこには　冒険の書が
+ひろげて置いてある。
+こっそり　記録しますか？"	"An Adventure Log lies open here.
+Save your progress on the sly?"		adventure_log	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7955c	"＊「$m0さんは　もう
+$xじゅうぶんに　強いです！
+
+＊「その強さは　神もビックリ！
+$x……と　申しております。"	"$m0, you have already grown strong enough!
+
+Even God is amazed by your strength!
+...Or so he tells me."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c795c8	"＊「$m0さんは
+$xあと$d0の経験で
+$x次のレベルに　成長するでしょう。"	$m0, you need $d0 more experience points to reach the next level.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7960c	"＊「おお　神よ！
+$xなんじの子の　呪われた品を
+$x聖なる光で　清めたまえ！"	O God! Purify your child's cursed possessions with holy light!			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79658	"＊「なんと　ご寄付をいただくには
+$xお金が　たりないようです。
+$x神よ　申しわけありません！
+＊「このような　まずしい　お方に
+$x無理な　ご寄付をたのんだ
+$x私が　まちがっておりました！"	"Oh dear, you do not have enough gold to make a donation. God, forgive me!
+I was wrong to ask such a poor soul for a donation beyond their means!"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79710	＊「ほかに　ご用は　ありませんか？	May I help you with anything else?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79734	"＊「ご寄付を　いただけないのですか？
+$x申しわけありませんが　それでは
+$xおチカラには　なれません。"	You will not make a donation? I am sorry, but then I cannot help you.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79798	"＊「では　神の前に
+$x$d0ゴールドの　ご寄付を。
+$xよろしいですね？"	Then please offer $d0 gold before God. Shall we proceed?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c797dc	"＊「あら？　$tさんは
+$x呪われた品を　お持ちでは
+$xないようですが……。"	Oh? $t, you do not seem to have any cursed possessions...			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79824	"＊「おお　神よ！
+$xなんじの子に　ひとときの
+$xやすらぎを　おあたえください！"	O God! Please grant your child a moment of peace!			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79874	"＊「天と地の　ささやきが
+$x神の声となって　聞こえます。
+
+＊「$m0さんは　もう
+$xじゅうぶんに　強いです！
+
+＊「その強さは　神もビックリ！
+$x……と　申しております。"	"In the whispers of heaven and earth, I hear the voice of God.
+
+$m0, you have already grown strong enough!
+
+Even God is amazed by your strength!
+...Or so he tells me."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79918	"＊「天と地の　ささやきが
+$x神の声となって　聞こえます。
+
+＊「$m0さんは
+$xあと$d0の経験で
+$x次のレベルに　成長するでしょう。"	"In the whispers of heaven and earth, I hear the voice of God.
+
+$m0, you need $d0 more experience points to reach the next level."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79994	"＊「それでは　お気をつけて。
+$x旅のごぶじを　お祈りしています。"	Take care, then. I pray for your safe travels.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c799d4	"＊「ああ　なんと　記録しないで
+$xお休みに　なられるというのですか。
+
+＊「あなたの冒険が　前の記録まで
+$xもどってしまいますが　それでも
+$xよろしいのですね？"	"Oh dear! You wish to rest without saving?
+
+Your adventure will return to the point where you last saved. Are you quite sure?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79a70	"＊「記録しないと　おっしゃるのですね。
+$xわかりました……。
+
+＊「まだ　冒険を
+$xお続けに　なられるのですか？"	"You do not wish to save? I understand...
+
+Will you continue your adventure?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79ae0	"＊「たしかに　記録いたしました。
+$xこのまま　冒険を　お続けに
+$xなるのですか？"	Your adventure has been saved. Would you like to continue?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79b30	"＊「ああ　なんということでしょう！？
+$x記録に　失敗してしまったようです。
+$xもういちど　記録してみますか？"	Oh, how could this happen?! It seems the save failed. Would you like to try again?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79b9c	"＊「では　神の前に
+$xこれまでの　おこないを
+$x告白してください。
+＊「そして　冒険の書に
+$x記録しても　よろしいですか？"	"Please confess your deeds before God.
+May I then record them in your Adventure Log?"		adventure_log	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79c14	"＊「まよえる　神の子よ。
+$xこの教会に　なにを　もとめますか？"	Wandering child of God, what do you seek from this church?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79c54	"$+Ａボタンを押すと
+$+スタートメニューに戻ります。"	"$+Press the A Button
+$+to return to the start menu."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79c88	"＊「$m0よ。
+$xそなたは　もう
+$xじゅうぶんに強い。"	$m0, you have already grown strong enough.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79cbc	"＊「$m0よ。
+$xあと$d0の経験で
+$x次のレベルに　なるじゃろう。"	$m0, you need $d0 more experience points to reach the next level.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79cfc	"＊「おお　神よ！
+$xこの者の　呪われた品を
+$x聖なる光にて　ときはなちたまえ！"	O God! Free this soul's cursed belongings with your holy light!			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79d4c	"＊「なんと　寄付をするには　お金が
+$xたりないようですな。
+$xおお神よ　ゆるしたまえ！
+＊「この　お方には無理な　ご寄付を
+$xたのんだ　私が
+$xまちがっていたようです。"	"It seems you have not enough gold for a donation. O God, forgive me!
+I was wrong to ask this soul for a donation beyond their means."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79df0	＊「ほかに　ご用は　ありますかな？	Is there anything else I can do for you?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79e14	"＊「教会への寄付は
+$xそなたの　気もちしだいじゃ。
+$xそれも　また　よかろうて。"	A donation to the church is yours to give freely. Your choice is quite all right.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79e64	"＊「さすれば　わが教会に
+$x$d0ゴールドの　ご寄付を。
+$xよろしいですかな？"	Then offer $d0 gold to our church. Shall we proceed?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79eb0	"＊「しかし　$tどのは
+$x呪われた品なぞ　お持ちでは
+$xないようじゃぞ。"	But $t, you do not seem to have any cursed belongings.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79ef8	"$+おつかれさまでした。
+$+このまま　電源を　お切りください。
+"	"$+Thank you for playing.
+$+You may now turn off the power.
+"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79f38	"＊「おお　神よ！
+$xこの者に　ひとときの
+$x休息を　あたえたまえ！"	O God! Grant this soul a moment of rest!			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c79f7c	"＊「神の声が聞こえます。
+
+
+＊「$m0よ。
+$xそなたは　もう
+$xじゅうぶんに強い。
+＊「その強さは　ひとびとに
+$x語りつがれるであろう。"	"I hear the voice of God.
+
+$m0, you have already grown strong enough.
+Your strength will be spoken of for generations."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a000	"＊「神の声が聞こえます。
+
+
+＊「$m0よ。
+$xあと$d0の経験で
+$x次のレベルに　なるじゃろう。"	"I hear the voice of God.
+
+$m0, you need $d0 more experience points to reach the next level."			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a058	"＊「では　お気をつけて。
+$x神のご加護の　あらんことを。"	Take care, then. May God watch over you.			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a090	"＊「なんと　記録しないで
+$x休むと　申されるか……。
+
+＊「では　そなたの冒険が
+$x前の記録まで　もどっても
+$xよろしいのじゃな？"	"What? You wish to rest without saving...?
+
+Your adventure will return to the point where you last saved. Is that truly what you want?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a110	"＊「記録しないと申されるか。
+$xそれも　また　よろしかろう。
+
+＊「まだ　冒険を
+$x続けられる　おつもりか？"	"You do not wish to save? That is quite all right.
+
+Do you intend to continue your adventure?"			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a17c	"＊「たしかに　記録しましたぞ。
+$xまだ　冒険を　続けられる
+$xおつもりか？"	Your adventure has been saved. Do you intend to continue?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a1c8	"＊「むむ？　どうしたことか！？
+$x記録に　失敗したようじゃ。
+$xもういちど　記録してみるかね？"	Hmm? What has gone wrong?! It seems the save failed. Will you try saving again?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a228	"＊「では　神の前に
+$xこれまでの　おこないを
+$x告白なさい。
+＊「そして　冒険の書に
+$x記録しても　よろしいかな？"	"Then confess your deeds before God.
+May I record them in your Adventure Log?"		adventure_log	Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.
+church.00c7a2a0	"＊「たのもしき　神のしもべよ。
+$xわが教会に　どんな　ご用じゃな？"	Faithful servant of God, what can our church do for you?			Independently translated from the pinned Japanese church-service table. Priest/book/voice variants remain distinct. Generic God is not assigned another game's deity identity. English wrapping removes Japanese indentation; substitutions and center commands are preserved.

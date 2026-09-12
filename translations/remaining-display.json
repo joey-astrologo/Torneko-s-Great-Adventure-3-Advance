@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "remaining-display.0009b4fc",
+      "family": "floor_summary",
+      "offset": "0x9b4fc",
+      "source_end_exclusive": "0x9b503",
+      "source_hex": "25732564826500",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8265",
+          "text": "Ｆ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "%s%dＦ",
+      "master_id": "jp_0009b4fc",
+      "pointer_owners": [
+        {
+          "offset": "0x29f0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x080029ca"
+          ]
+        }
+      ],
+      "english": "%s %dF",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve native selector, font and window; no changes to audio IDs, save layout or floor values. Native display verification pending.",
+      "references": []
+    },
+    {
+      "id": "remaining-display.00caf2e0",
+      "family": "sound_help",
+      "offset": "0xcaf2e0",
+      "source_end_exclusive": "0xcaf2f5",
+      "source_hex": "82618266826c82f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82618266826c82f082c882e782b582dc82b78142",
+          "text": "ＢＧＭをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＢＧＭをならします。",
+      "master_id": "jp_00caf2e0",
+      "pointer_owners": [
+        {
+          "offset": "0xcb07ec",
+          "evidence": "startup_sound_help_pointer",
+          "loads": [
+            "0x08090cce"
+          ]
+        }
+      ],
+      "english": "Play background music.",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve native selector, font and window; no changes to audio IDs, save layout or floor values. Native display verification pending.",
+      "references": []
+    },
+    {
+      "id": "remaining-display.00caf2cc",
+      "family": "sound_help",
+      "offset": "0xcaf2cc",
+      "source_end_exclusive": "0xcaf2df",
+      "source_hex": "826c826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "826c826482f082c882e782b582dc82b78142",
+          "text": "ＭＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＭＥをならします。",
+      "master_id": "jp_00caf2cc",
+      "pointer_owners": [
+        {
+          "offset": "0xcb07f0",
+          "evidence": "startup_sound_help_pointer",
+          "loads": [
+            "0x08090cce"
+          ]
+        }
+      ],
+      "english": "Play music effects.",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve native selector, font and window; no changes to audio IDs, save layout or floor values. Native display verification pending.",
+      "references": []
+    },
+    {
+      "id": "remaining-display.00caf2b8",
+      "family": "sound_help",
+      "offset": "0xcaf2b8",
+      "source_end_exclusive": "0xcaf2cb",
+      "source_hex": "8272826482f082c882e782b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8272826482f082c882e782b582dc82b78142",
+          "text": "ＳＥをならします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ＳＥをならします。",
+      "master_id": "jp_00caf2b8",
+      "pointer_owners": [
+        {
+          "offset": "0xcb07f4",
+          "evidence": "startup_sound_help_pointer",
+          "loads": [
+            "0x08090cce"
+          ]
+        }
+      ],
+      "english": "Play sound effects.",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve native selector, font and window; no changes to audio IDs, save layout or floor values. Native display verification pending.",
+      "references": []
+    },
+    {
+      "id": "remaining-display.00caf29c",
+      "family": "sound_help",
+      "offset": "0xcaf29c",
+      "source_end_exclusive": "0xcaf2b7",
+      "source_hex": "8381834383938381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8381834383938381836a8385815b82c996df82e882dc82b78142",
+          "text": "メインメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "メインメニューに戻ります。",
+      "master_id": "jp_00caf29c",
+      "pointer_owners": [
+        {
+          "offset": "0xcb07f8",
+          "evidence": "startup_sound_help_pointer",
+          "loads": [
+            "0x08090cce"
+          ]
+        }
+      ],
+      "english": "Return to main menu.",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve native selector, font and window; no changes to audio IDs, save layout or floor values. Native display verification pending.",
+      "references": []
+    }
+  ]
+}

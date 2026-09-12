@@ -1,0 +1,1448 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "encounter.000ae8e4",
+      "family": "house",
+      "offset": "0xae8e4",
+      "source_end_exclusive": "0xae8ef",
+      "source_hex": "947b91ac836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "947b91ac836e83458358",
+          "text": "倍速ハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "倍速ハウス",
+      "master_id": "jp_000ae8e4",
+      "pointer_owners": [
+        {
+          "offset": "0xae8b8",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 19
+        },
+        {
+          "offset": "0xc6188",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 19
+        }
+      ],
+      "english": "Speed house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae8f0",
+      "family": "house",
+      "offset": "0xae8f0",
+      "source_end_exclusive": "0xae8ff",
+      "source_hex": "8b4382dc82ae82ea836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8b4382dc82ae82ea836e83458358",
+          "text": "気まぐれハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "気まぐれハウス",
+      "master_id": "jp_000ae8f0",
+      "pointer_owners": [
+        {
+          "offset": "0xae88c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 18
+        },
+        {
+          "offset": "0xc615c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 18
+        }
+      ],
+      "english": "Fickle house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae900",
+      "family": "house",
+      "offset": "0xae900",
+      "source_end_exclusive": "0xae90f",
+      "source_hex": "8350839383538345836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8350839383538345836e83458358",
+          "text": "ケンゴウハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ケンゴウハウス",
+      "master_id": "jp_000ae900",
+      "pointer_owners": [
+        {
+          "offset": "0xae860",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 17
+        },
+        {
+          "offset": "0xc6130",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 17
+        }
+      ],
+      "english": "Swordmaster house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English). ケンゴウ refers to sword-category monsters; do not identify it as a Shiren enemy species.",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae910",
+      "family": "house",
+      "offset": "0xae910",
+      "source_end_exclusive": "0xae91d",
+      "source_hex": "89938aaa82ab836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89938aaa82ab836e83458358",
+          "text": "遠巻きハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "遠巻きハウス",
+      "master_id": "jp_000ae910",
+      "pointer_owners": [
+        {
+          "offset": "0xae834",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 16
+        },
+        {
+          "offset": "0xc6104",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 16
+        }
+      ],
+      "english": "Standoff house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae920",
+      "family": "house",
+      "offset": "0xae920",
+      "source_end_exclusive": "0xae92f",
+      "source_hex": "8366815b83828393836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8366815b83828393836e83458358",
+          "text": "デーモンハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "デーモンハウス",
+      "master_id": "jp_000ae920",
+      "pointer_owners": [
+        {
+          "offset": "0xae808",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 15
+        },
+        {
+          "offset": "0xc60d8",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 15
+        }
+      ],
+      "english": "Demon house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae930",
+      "family": "house",
+      "offset": "0xae930",
+      "source_end_exclusive": "0xae945",
+      "source_hex": "834183938360837d83578362834e836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834183938360837d83578362834e836e83458358",
+          "text": "アンチマジックハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "アンチマジックハウス",
+      "master_id": "jp_000ae930",
+      "pointer_owners": [
+        {
+          "offset": "0xae7dc",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 14
+        },
+        {
+          "offset": "0xc60ac",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 14
+        }
+      ],
+      "english": "Antimagic house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae948",
+      "family": "house",
+      "offset": "0xae948",
+      "source_end_exclusive": "0xae957",
+      "source_hex": "8358838983438380836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8358838983438380836e83458358",
+          "text": "スライムハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "スライムハウス",
+      "master_id": "jp_000ae948",
+      "pointer_owners": [
+        {
+          "offset": "0xae7b0",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 13
+        },
+        {
+          "offset": "0xc6080",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 13
+        }
+      ],
+      "english": "Slime house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae958",
+      "family": "house",
+      "offset": "0xae958",
+      "source_end_exclusive": "0xae967",
+      "source_hex": "8352838d83768360836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8352838d83768360836e83458358",
+          "text": "コロプチハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "コロプチハウス",
+      "master_id": "jp_000ae958",
+      "pointer_owners": [
+        {
+          "offset": "0xae784",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 12
+        },
+        {
+          "offset": "0xc6054",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 12
+        }
+      ],
+      "english": "Pip & Conk house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English). Pip/Conk grouping follows the eight exact Japanese enemy identities in the accepted modern glossary; https://peamon.net/toruneko3a/monster/theme-mh.html independently lists that grouping.",
+      "references": [
+        "enemy_pip_fighter",
+        "enemy_battle_pip",
+        "enemy_wiz_pip",
+        "enemy_epipany",
+        "enemy_conkuistador",
+        "enemy_conkerer",
+        "enemy_conkjurer",
+        "enemy_conkuisitor"
+      ]
+    },
+    {
+      "id": "encounter.000ae968",
+      "family": "house",
+      "offset": "0xae968",
+      "source_end_exclusive": "0xae977",
+      "source_hex": "82ca82b782c182c6836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82ca82b782c182c6836e83458358",
+          "text": "ぬすっとハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ぬすっとハウス",
+      "master_id": "jp_000ae968",
+      "pointer_owners": [
+        {
+          "offset": "0xae758",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 11
+        },
+        {
+          "offset": "0xc6028",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 11
+        }
+      ],
+      "english": "Thief house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae978",
+      "family": "house",
+      "offset": "0xae978",
+      "source_end_exclusive": "0xae987",
+      "source_hex": "8368838983538393836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8368838983538393836e83458358",
+          "text": "ドラゴンハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ドラゴンハウス",
+      "master_id": "jp_000ae978",
+      "pointer_owners": [
+        {
+          "offset": "0xae72c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 10
+        },
+        {
+          "offset": "0xc5ffc",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 10
+        }
+      ],
+      "english": "Dragon house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae988",
+      "family": "house",
+      "offset": "0xae988",
+      "source_end_exclusive": "0xae993",
+      "source_hex": "949a9265836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "949a9265836e83458358",
+          "text": "爆弾ハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "爆弾ハウス",
+      "master_id": "jp_000ae988",
+      "pointer_owners": [
+        {
+          "offset": "0xae700",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 9
+        },
+        {
+          "offset": "0xc5fd0",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 9
+        }
+      ],
+      "english": "Bomb house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae994",
+      "family": "house",
+      "offset": "0xae994",
+      "source_end_exclusive": "0xae9a3",
+      "source_hex": "82a982c182c682d1836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a982c182c682d1836e83458358",
+          "text": "かっとびハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "かっとびハウス",
+      "master_id": "jp_000ae994",
+      "pointer_owners": [
+        {
+          "offset": "0xae6d4",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 8
+        },
+        {
+          "offset": "0xc5fa4",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 8
+        }
+      ],
+      "english": "Warp house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9a4",
+      "family": "house",
+      "offset": "0xae9a4",
+      "source_end_exclusive": "0xae9af",
+      "source_hex": "919d9042836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "919d9042836e83458358",
+          "text": "増殖ハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "増殖ハウス",
+      "master_id": "jp_000ae9a4",
+      "pointer_owners": [
+        {
+          "offset": "0xae6a8",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 7
+        },
+        {
+          "offset": "0xc5f78",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 7
+        }
+      ],
+      "english": "Multiplying house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9b0",
+      "family": "house",
+      "offset": "0xae9b0",
+      "source_end_exclusive": "0xae9bb",
+      "source_hex": "90859286836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90859286836e83458358",
+          "text": "水中ハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "水中ハウス",
+      "master_id": "jp_000ae9b0",
+      "pointer_owners": [
+        {
+          "offset": "0xae67c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 6
+        },
+        {
+          "offset": "0xc5f4c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 6
+        }
+      ],
+      "english": "Aquatic house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9bc",
+      "family": "house",
+      "offset": "0xae9bc",
+      "source_end_exclusive": "0xae9cb",
+      "source_hex": "837d83578362834e836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837d83578362834e836e83458358",
+          "text": "マジックハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "マジックハウス",
+      "master_id": "jp_000ae9bc",
+      "pointer_owners": [
+        {
+          "offset": "0xae650",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 5
+        },
+        {
+          "offset": "0xc5f20",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 5
+        }
+      ],
+      "english": "Magic house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9cc",
+      "family": "house",
+      "offset": "0xae9cc",
+      "source_end_exclusive": "0xae9dd",
+      "source_hex": "82d982a482e8938a82b0836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82d982a482e8938a82b0836e83458358",
+          "text": "ほうり投げハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ほうり投げハウス",
+      "master_id": "jp_000ae9cc",
+      "pointer_owners": [
+        {
+          "offset": "0xae624",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 4
+        },
+        {
+          "offset": "0xc5ef4",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 4
+        }
+      ],
+      "english": "Throwing house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9e0",
+      "family": "house",
+      "offset": "0xae9e0",
+      "source_end_exclusive": "0xae9ef",
+      "source_hex": "8368838c83438393836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8368838c83438393836e83458358",
+          "text": "ドレインハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ドレインハウス",
+      "master_id": "jp_000ae9e0",
+      "pointer_owners": [
+        {
+          "offset": "0xae5f8",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 3
+        },
+        {
+          "offset": "0xc5ec8",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 3
+        }
+      ],
+      "english": "Drain house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000ae9f0",
+      "family": "house",
+      "offset": "0xae9f0",
+      "source_end_exclusive": "0xae9fd",
+      "source_hex": "8370838f815b836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8370838f815b836e83458358",
+          "text": "パワーハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "パワーハウス",
+      "master_id": "jp_000ae9f0",
+      "pointer_owners": [
+        {
+          "offset": "0xae5cc",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 2
+        },
+        {
+          "offset": "0xc5e9c",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 2
+        }
+      ],
+      "english": "Power house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000aea00",
+      "family": "house",
+      "offset": "0xaea00",
+      "source_end_exclusive": "0xaea0d",
+      "source_hex": "835d83938372836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835d83938372836e83458358",
+          "text": "ゾンビハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "ゾンビハウス",
+      "master_id": "jp_000aea00",
+      "pointer_owners": [
+        {
+          "offset": "0xae5a0",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 1
+        },
+        {
+          "offset": "0xc5e70",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 1
+        }
+      ],
+      "english": "Zombie house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000aea10",
+      "family": "house",
+      "offset": "0xaea10",
+      "source_end_exclusive": "0xaea25",
+      "source_hex": "838283938358835e815b836e834583588148814000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b836e8345835881488140",
+          "text": "モンスターハウス？　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "モンスターハウス？　",
+      "master_id": "jp_000aea10",
+      "pointer_owners": [
+        {
+          "offset": "0xae574",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 0,
+          "row": 0
+        },
+        {
+          "offset": "0xc5e44",
+          "evidence": "typed_44_byte_house_record",
+          "hero": 1,
+          "row": 0
+        }
+      ],
+      "english": "Monster house?",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9078",
+      "family": "house",
+      "offset": "0xd9078",
+      "source_end_exclusive": "0xd9089",
+      "source_hex": "838283938358835e815b836e8345835800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b836e83458358",
+          "text": "モンスターハウス",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "モンスターハウス",
+      "master_id": "jp_000d9078",
+      "pointer_owners": [
+        {
+          "offset": "0x34b00",
+          "evidence": "thumb_literal_fallback",
+          "loads": [
+            "0x08034A96"
+          ],
+          "row": -1
+        }
+      ],
+      "english": "Monster house",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged. House categories are project names, not official localization claims. Category cross-check: https://wikiwiki.jp/dqdic3rd/【テーマ別モンスターハウス】 (fan-maintained Japanese reference, not official English).",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9370",
+      "family": "menu",
+      "offset": "0xd9370",
+      "source_end_exclusive": "0xd9377",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やめる",
+      "master_id": "jp_000d9370",
+      "pointer_owners": [
+        {
+          "offset": "0xd9358",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9340",
+          "row": 2
+        }
+      ],
+      "english": "Cancel",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9378",
+      "family": "menu",
+      "offset": "0xd9378",
+      "source_end_exclusive": "0xd9383",
+      "source_hex": "834183588367838d839300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834183588367838d8393",
+          "text": "アストロン",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "アストロン",
+      "master_id": "jp_000d9378",
+      "pointer_owners": [
+        {
+          "offset": "0xd934c",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9340",
+          "row": 1
+        }
+      ],
+      "english": "Kaclang",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": [
+        "spell.kaclang"
+      ]
+    },
+    {
+      "id": "encounter.000d9384",
+      "family": "menu",
+      "offset": "0xd9384",
+      "source_end_exclusive": "0xd938c",
+      "source_hex": "2a82cd82c882b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd82c882b7",
+          "text": "はなす",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "*はなす",
+      "master_id": "jp_000d9384",
+      "pointer_owners": [
+        {
+          "offset": "0xd9340",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9340",
+          "row": 0
+        }
+      ],
+      "english": "*Talk",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d93f8",
+      "family": "menu",
+      "offset": "0xd93f8",
+      "source_end_exclusive": "0xd93ff",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やめる",
+      "master_id": "jp_000d93f8",
+      "pointer_owners": [
+        {
+          "offset": "0xd93e0",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd93c8",
+          "row": 2
+        }
+      ],
+      "english": "Cancel",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9400",
+      "family": "menu",
+      "offset": "0xd9400",
+      "source_end_exclusive": "0xd940b",
+      "source_hex": "92878ad482f08cc482d400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "92878ad482f08cc482d4",
+          "text": "仲間を呼ぶ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "仲間を呼ぶ",
+      "master_id": "jp_000d9400",
+      "pointer_owners": [
+        {
+          "offset": "0xd93d4",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd93c8",
+          "row": 1
+        }
+      ],
+      "english": "Call allies",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d940c",
+      "family": "menu",
+      "offset": "0xd940c",
+      "source_end_exclusive": "0xd9414",
+      "source_hex": "2a82cd82c882b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd82c882b7",
+          "text": "はなす",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "*はなす",
+      "master_id": "jp_000d940c",
+      "pointer_owners": [
+        {
+          "offset": "0xd93c8",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd93c8",
+          "row": 0
+        }
+      ],
+      "english": "*Talk",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d95b0",
+      "family": "menu",
+      "offset": "0xd95b0",
+      "source_end_exclusive": "0xd95b7",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やめる",
+      "master_id": "jp_000d95b0",
+      "pointer_owners": [
+        {
+          "offset": "0xd9598",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9580",
+          "row": 2
+        }
+      ],
+      "english": "Cancel",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d95b8",
+      "family": "menu",
+      "offset": "0xd95b8",
+      "source_end_exclusive": "0xd95c7",
+      "source_hex": "82c782b182a982d6838f815b837600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c782b182a982d6838f815b8376",
+          "text": "どこかへワープ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "どこかへワープ",
+      "master_id": "jp_000d95b8",
+      "pointer_owners": [
+        {
+          "offset": "0xd958c",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9580",
+          "row": 1
+        }
+      ],
+      "english": "Warp somewhere",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d95c8",
+      "family": "menu",
+      "offset": "0xd95c8",
+      "source_end_exclusive": "0xd95d0",
+      "source_hex": "2a82cd82c882b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd82c882b7",
+          "text": "はなす",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "*はなす",
+      "master_id": "jp_000d95c8",
+      "pointer_owners": [
+        {
+          "offset": "0xd9580",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9580",
+          "row": 0
+        }
+      ],
+      "english": "*Talk",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9668",
+      "family": "menu",
+      "offset": "0xd9668",
+      "source_end_exclusive": "0xd966f",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やめる",
+      "master_id": "jp_000d9668",
+      "pointer_owners": [
+        {
+          "offset": "0xd9650",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9638",
+          "row": 2
+        },
+        {
+          "offset": "0xd96a4",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9680",
+          "row": 3
+        }
+      ],
+      "english": "Cancel",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9670",
+      "family": "menu",
+      "offset": "0xd9670",
+      "source_end_exclusive": "0xd9677",
+      "source_hex": "82cd82c882b700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82c882b7",
+          "text": "はなす",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "はなす",
+      "master_id": "jp_000d9670",
+      "pointer_owners": [
+        {
+          "offset": "0xd9644",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9638",
+          "row": 1
+        }
+      ],
+      "english": "Talk",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d9678",
+      "family": "menu",
+      "offset": "0xd9678",
+      "source_end_exclusive": "0xd967e",
+      "source_hex": "2a8ef495b600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef495b6",
+          "text": "呪文",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "*呪文",
+      "master_id": "jp_000d9678",
+      "pointer_owners": [
+        {
+          "offset": "0xd9638",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9638",
+          "row": 0
+        }
+      ],
+      "english": "*Spells",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    },
+    {
+      "id": "encounter.000d96bc",
+      "family": "menu",
+      "offset": "0xd96bc",
+      "source_end_exclusive": "0xd96c5",
+      "source_hex": "834c8341838a815b00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "834c8341838a815b",
+          "text": "キアリー",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "キアリー",
+      "master_id": "jp_000d96bc",
+      "pointer_owners": [
+        {
+          "offset": "0xd9698",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9680",
+          "row": 2
+        }
+      ],
+      "english": "Squelch",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": [
+        "spell.squelch"
+      ]
+    },
+    {
+      "id": "encounter.000d96c8",
+      "family": "menu",
+      "offset": "0xd96c8",
+      "source_end_exclusive": "0xd96cd",
+      "source_hex": "8343834900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83438349",
+          "text": "イオ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "イオ",
+      "master_id": "jp_000d96c8",
+      "pointer_owners": [
+        {
+          "offset": "0xd968c",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9680",
+          "row": 1
+        }
+      ],
+      "english": "Bang",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": [
+        "series_bang"
+      ]
+    },
+    {
+      "id": "encounter.000d96d0",
+      "family": "menu",
+      "offset": "0xd96d0",
+      "source_end_exclusive": "0xd96d8",
+      "source_hex": "2a837a8343837e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837a8343837e",
+          "text": "ホイミ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "*ホイミ",
+      "master_id": "jp_000d96d0",
+      "pointer_owners": [
+        {
+          "offset": "0xd9680",
+          "evidence": "typed_12_byte_menu_record",
+          "table": "0xd9680",
+          "row": 0
+        }
+      ],
+      "english": "*Heal",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": [
+        "spell.heal"
+      ]
+    },
+    {
+      "id": "encounter.001b50c5",
+      "family": "announcement",
+      "offset": "0x1b50c5",
+      "source_end_exclusive": "0x1b50cd",
+      "source_hex": "246d30f8e9f88700",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246d30",
+          "text": "$m0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e9f887",
+          "text": "だ！",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$m0だ！",
+      "master_id": "jp_001b50c5",
+      "pointer_owners": [
+        {
+          "offset": "0x337c0",
+          "evidence": "explicit_tutorial_pointer_supersession",
+          "loads": [
+            "0x08033784"
+          ],
+          "row": -1
+        }
+      ],
+      "english": "It's a $m0!",
+      "display": null,
+      "notes": "Independent Japanese-source translation. Original selector/menu order, flags, return codes and byte capacities are unchanged.",
+      "references": []
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 # Text extraction coverage audit
 
-Audited 2026-09-11. The expanded scan and opening-game reader checks improve
+Audited 2026-09-11. Translation has advanced since this checkpoint; see
+[continuous completion](COMPLETION.md) for current counts and accepted builds. The expanded scan and opening-game reader checks improve
 coverage evidence, but **do not establish that every game string has been found**.
 Fourteen omitted UI resources now have checked static consumers. They include
 formatting templates, unknown-name placeholders and a numeric glyph strip;
 they are recorded separately from translation sentences.
 
-The current inventory and English build remain unchanged: **9,318 master entries,
+At this audit checkpoint, the inventory and English build were **9,318 master entries,
 4,110 distinct translated/inserted entries, 5,208 remaining**. Catalog overlaps
-are counted once. This is **44.11% by entries**, or **36.19% by extracted source
+were counted once. This was **44.11% by entries**, or **36.19% by extracted source
 bytes** (149,717 of 413,712 bytes). These are inventory metrics, not a percentage
 of all player-visible text or a prediction of remaining work.
 
@@ -162,3 +163,15 @@ stale inputs. The new listing was exported read-only with
 `0807B294`, `0807B604`, `0808467C` and `080853E0`; its hash is recorded with the
 resource manifest. The older actor-name listing is preserved as a separate
 evidence artifact.
+
+The continuous completion pass subsequently found and translated six
+[indexed arena graphic phrases](ARENA_GRAPHICS.md), which the ordinary text
+decoder cannot read. Native index/blit and Japanese pixel controls confirm
+that family. They are tracked separately from the 9,318-entry text inventory.
+Other graphic/computed discovery remains open.
+
+The later [boot graphics audit](BOOT_GRAPHICS.md) covers frames 0–600 of a
+natural cold boot in both original and current English ROMs. Shared text
+readers receive no calls; four native graphic selections/copies and nine
+pixel pairs pass. The Japanese title logo is a confirmed graphic translation
+gap. Alternate boot/save-error paths and other graphics remain separate.

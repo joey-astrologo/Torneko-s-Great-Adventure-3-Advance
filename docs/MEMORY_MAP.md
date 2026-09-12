@@ -1,10 +1,14 @@
 # Memory map and insertion ownership
 
-Latest combined build: [early journey and place names](EARLY_JOURNEY.md), occupied append
-`[01000000,01034789)`; 214,921 bytes, 4,806 allocations and 5,437 checked
-original patch ranges. Exact owners are in
-[its ledger](../build/early-journey/english-build.json). Historical milestone
-ranges below describe their own ROM hashes, not fixed future insertion slots.
+Latest combined component build: [continuous completion](COMPLETION.md), occupied
+append `[01000000,01069FE5)`; 434,149 bytes,
+8,426 allocations and 10,105 checked original patch records.
+Exact owners and explicit shared ownership are in
+[its ledger](../build/completion/text-polish/english-build.json).
+The combined text components have passed their documented native checks.
+The opening and first-cave routes also pass normal-button regression checks.
+Full-game translation and discovery
+remain in progress. Historical ranges describe their own ROM hashes.
 
 ## Extraction coverage audit (2026-09-11)
 
@@ -1126,8 +1130,8 @@ native FLASH saves and cold loads. The original 65,536-byte save layout remains.
 ## Early journey and place records (2026-09-11)
 
 Before insertion, [source-owners.json](../build/early-journey/source-owners.json)
-pins **192 Japanese sources**, their exclusive ends, **290 event operands** and
-**30 place-record pointers** against original SHA
+pins **194 Japanese sources**, their exclusive ends, **290 event operands**,
+**30 place-record pointers** and **two Zoom UI literals** against original SHA
 `35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02`.
 The source-selection envelopes `[00B7A55C,00B7AD80)`,
 `[00B84F18,00B87E00)`, `[00B92D68,00B93E00)`,
@@ -1160,8 +1164,8 @@ call-stack scratch; this eight-byte extension is fixture-only and restored
 after each case. Selected-name copy fixtures execute `[080767BC,080767D2)`.
 The destination heading source `[00C3F010,00C3F017)` has checked literal owner
 `000767E8`; confirmation source `[00C3F018,00C3F02F)` has owner `0007682C`.
-The latter uses the existing `$m0` substitution above. These two sources extend
-this pass to **194 entries / 322 checked pointer words**. Their exact terminator
+The latter uses the existing `$m0` substitution above. These two sources are
+included in the **194 entries / 322 checked pointer words**. Their exact terminator
 ends are pinned by the refreshed source-owner report (no trailing alignment
 bytes are part of a source). Confirmation fixtures may use the existing bounded
 message engine and guarded formatter scratch with native copy output, restoring
@@ -1182,3 +1186,1927 @@ zero runs become free space. [Acceptance](../build/early-journey/acceptance.json
 pins 274 native story cases, 64 place/confirmation/advice cases, all 338
 Japanese pixel pairs, the natural opening/first-chief regression and both
 Adventure Logs' native seven-character Torneko save/cold-load checks.
+
+## Continuous story completion (2026-09-11, in progress)
+
+The user authorized continuous completion of the remaining translation. This
+does not turn the [remaining review queue](../build/completion/remaining.json)
+into insertion ownership. Its ordinary-story leads still require Japanese
+review, source reconstruction, exact operand records and native checks.
+
+The cumulative [story ownership report](../build/completion/story/source-owners.json)
+records the precise ranges and command/operand words of independently reviewed
+entries in `translations/story-completion.json`. Initial lighthouse review:
+147 sources / 182 operands, with source starts in `[00BB35EC,00BB5A50)` and
+`[00BBDF6C,00BC0570)`. Only the report's exact words may be patched; these
+envelopes include unrelated gaps and are not free space. Later sections extend
+the report before being used by the builder, with prior entries preserved.
+
+The existing native event dispatch, font 0, story buffer and fixture reservations
+remain in use. Opcodes 23–28 and 2A–2D have source-register/wrapper evidence in
+the [dispatch listing](../build/story-provenance/dispatch-text.txt) and native
+provenance probes. This stage excludes positioned sources, choice-prefix
+records and additional formatter grammars until separately reviewed. Centered
+narration uses the existing `$c` mechanism and original three-line page.
+
+The next cumulative review contains **438 sources / 542 operand words**. Source
+envelopes (exclusive ends, with gaps still occupied) are lighthouse
+`[00BB35EC,00BC056B)`, companion scenes `[009407E8,009461DC)`, castle states
+`[00952720,00958177)`, four interview labels `[00955C84,00955CA5)`, and 44
+individually listed exact repeats/transition prompts across
+`[009430A4,00C0B537)`. The ownership report remains the authority for each
+actual source and operand; none of these envelopes is a writable pool.
+
+Choice-prefix review now includes the Samson interview prompt at event command
+`00955938`, operand `0095593C`, followed by four 8-byte opcode-98 records
+`[00955940,00955960)`. Their pointer words are `00955944`, `0095594C`,
+`00955954`, `0095595C`, in Background / Skills / Hobbies / Finish order.
+Opcodes 96/97 use the already documented dispatch `[08066306,08066396)`.
+The parser bounds reviewed lists to six choices and records their exact count,
+prompt and ordinal. Existing native count `[02000430,02000434)` and table
+`[02008B80,02008BD4)` suffice; the four-choice terminator occupies
+`[02008BB0,02008BBC)`. No RAM or save expansion is introduced. Native menu
+fixtures restore the documented world state, dispatch the actual ROM prefix,
+check the ordered records and terminator, then call the existing menu drawer.
+Positioned text and additional formatter grammars remain separate.
+
+The subsequent cumulative draft report contains **827 sources / 1,003 operands**.
+Additional source envelopes are royal scenes `[009642B8,0096A7ED)`, chambers
+`[00974CD0,00975AF5)`, kitchens `[0097F13C,009800D1)`, gates
+`[0098C324,0098D651)`, monster lodge `[009A4DB4,009A5907)`, Medal King
+dialogue `[009A5958,009A5BFF)`, and Tipper village states
+`[009A6FBC,009A8B1B)`. Exact per-source terminator ends and all operand words
+are recorded in the cumulative ownership report before building the `royal`
+checkpoint. The prior 438-source castle checkpoint has passed 553 story and
+one four-choice native menu cases, with all 554 Japanese screenshot pairs
+identical. Its English append uses 243,355 bytes and leaves 16,533,861 free;
+the entire prior early-journey append `[01000000,01034789)` is byte-identical.
+
+The next `coast` checkpoint freezes **1,418 sources / 1,726 operands** from the
+same cumulative ownership report. Additional source envelopes are Tipper
+village `[009A6FBC,009B4AB1)`, awakening `[009C4AA8,009C56FF)`, departure
+`[009D7324,009D8F01)`, Barinabo's later state `[009E9EE4,009EC561)`, village
+celebration `[009F96FC,009FF523)`, Costa Libera `[00A0AC38,00A0ED0D)`, its
+service-room dialogue `[00A1BA88,00A331F5)`, arena visitors
+`[00A475C4,00A4D163)`, and home dialogue `[00A74270,00A752AB)`.
+The 194 exact-repeat sources remain individually owned across
+`[009430A4,00C0B537)`; [reuse reports](../build/completion/reuse/) record the
+150 new exact Japanese matches to already authored prose. Unknown owners and
+choice prefixes are excluded from that automatic reuse. No envelope or gap
+is free space. [Five language revisions](../build/completion/language-revisions-01.json)
+record intentional corrections within the new cumulative drafts; frozen
+checkpoints and the original 4,828-source baseline are preserved.
+
+The 827-source `royal` checkpoint passed 1,020 native story cases and one
+four-choice menu, with all 1,021 Japanese screenshot pairs matching. Its normal
+opening/escort/chief route covers 46 messages with zero unattributed reads.
+Both Adventure Logs preserve the seven-character Torneko name through native
+FLASH save and cold load. These regressions use the existing documented
+fixture reservations and unedited disposable save files; they establish no new
+RAM/save ownership or natural reachability of the additional story scenes.
+
+The shared allocator rebuilds from the pinned original through the accepted
+early-journey components, then appends reviewed story data after `01034789`.
+It rejects duplicate owners, unexpected overlaps and source-byte mismatches.
+Original command parameters and source bytes remain occupied and unchanged.
+English and Japanese control images have separate complete ledgers. Any
+checkpoint is a preserved intermediate build, not complete-game acceptance.
+
+The `story-pages` checkpoint freezes **2,258 sources / 2,810 exact operand
+words** from the cumulative ownership report, including the remaining ordinary
+story prose through the ending, rest stops, postgame Conklave Village, castle
+town and lighthouse-house statue advice. The report pins every exclusive source
+end and four-byte pointer owner before insertion. Its chapter envelopes contain
+unrelated scripts/data and remain occupied. Sixteen short ASCII prefixes of
+aligned binary event data are [excluded from ordinary prose insertion](../build/completion/story/short-source-review.json);
+the two password-hint sources remain separate until the input path is reviewed.
+Neither category creates free space or counts as translated Japanese.
+
+Additional native choice prefixes use the existing count/table RAM and drawer:
+
+| Prompt command (ROM offset) | Count | Exclusive opcode-98 record range |
+| --- | ---: | --- |
+| `00AFCCE0` | 4 | `[00AFCCE8,00AFCD08)` |
+| `00AFCE18` | 3 | `[00AFCE20,00AFCE38)` |
+| `00AFD874` | 4 | `[00AFD87C,00AFD89C)` |
+| `00AFD9AC` | 3 | `[00AFD9B4,00AFD9CC)` |
+| `00AFDC2C` | 6 | `[00AFDC34,00AFDC64)` |
+| `00AFDE44` | 5 | `[00AFDE4C,00AFDE74)` |
+| `00BCAACC` | 6 | `[00BCAAD4,00BCAB04)` |
+
+The first six lists are Conklave dungeon selection/information menus; the last
+is statue advice. Each eight-byte record's pointer is at +4. Original command
+flags and choice ordinals remain unchanged. Three-, five- and six-choice native
+terminators occupy `[02008BA4,02008BB0)`, `[02008BBC,02008BC8)` and
+`[02008BC8,02008BD4)` respectively, within the existing fixture reservation.
+No permanent RAM/save change is introduced. All eight cumulative menus,
+including Samson's four choices, receive ordered-record and native drawing
+checks against their frozen Japanese controls.
+
+## Pet names and the tree password: reader audit (2026-09-11, in progress)
+
+[Native input dispatch](../build/completion/story/input-dispatch.txt) establishes
+opcode `30` for a name loaded from script variables and opcode `31` for an
+empty password. Both clear the existing compact buffer `[02008BF0,02008BF8)`
+and call `08061584` with the limit from command bits 8–15. The dog command
+`[00A0DF28,00A0DF30)` is `00570730`; the first cat command
+`[00A744C8,00A744D0)` is `005F0730`. Both request seven characters. The gate
+command `[00C1528C,00C15294)` is `00000731` with operand `08C15394`.
+The Japanese comparison source `[00C15394,00C153A3)` is seven CP932 characters
+plus NUL, ヒラケヨハイレ. This audit does not yet authorize replacement; hints,
+keyboard input, conversion and comparison must be verified together.
+
+The [pet reader](../build/completion/story/pet-readers.txt) `08000888` reads
+compact IDs from the original 16-bit script-variable array at `020010C0`,
+looks each up through `0807D20C`, and already supports both one- and two-byte
+output glyphs. `$p1` / `$p2` load variable indices 0057 / 005F from ROM
+`[00C46D6C,00C46D70)`, then request seven slots. Thus dog IDs occupy
+`[0200116E,0200117C)` and cat IDs `[0200117E,0200118C)`. Adjacent variables
+0056, 005E and 0066 remain separate; no terminator may be written beyond the
+seven 16-bit slots. The output needs at most 14 glyph bytes plus NUL. This
+uses original occupied RAM and does not establish a physical FLASH offset.
+Controlled fixtures may fill these existing slots, guard adjacent variables,
+and restore the complete state after each case. No capacity expansion or
+permanent new RAM reservation is approved or required by this finding.
+
+The [input wrapper](../build/completion/story/input-callers.txt) `08061584`
+uses the existing story root from `[03000010,03000014)`: state +0, input mode
++8D4, stage +488, limit +48C, compact-buffer pointer +490, result +498. These
+are fields in an occupied runtime structure, not standalone free RAM. Input
+fixtures may invoke the native wrapper/dispatcher with the existing disposable
+controller and call stack, then run the original UI callbacks with joypad input.
+
+The [completion callbacks](../build/completion/story/input-return.txt) establish
+that password input is type-zero compact text, converted at `08064BDC` through
+`0807D228` into a 16-byte stack buffer `[sp+4,sp+14)` (hex offsets). A native
+byte comparison against the opcode-31 operand keeps result 1 on an exact match
+and changes it to 2 on mismatch; cancellation passes its distinct result.
+The comparison ends at `08064C0A`, then original `08066C1C` chooses the branch.
+Controlled callback fixtures use `sp=03007C00`, so the buffer is
+`[03007C04,03007C14)` and result `[03007C7C,03007C80)`, within the already
+reserved disposable call-stack area. No game stack size is changed.
+
+The [pet commit callback](../build/completion/story/input-callbacks.txt)
+`[08064B70,08064BA2)` writes only on result 1, through
+[writer `08000818`](../build/completion/story/pet-writer.txt). It copies up to
+seven compact bytes into seven halfwords, zero-filling unused slots without
+writing an eighth halfword. Its fixture result occupies
+`[03007C78,03007C7C)`. The original keyboard body at `[0806248C,080624BC)`
+calls `0807BAD4` with type zero and the existing story callback `0805FF61`;
+`[08062822,0806282C)` stores the native return at story-root +498. Input
+fixtures exercise this path with normal frames after actual event dispatch.
+
+Before the `story-special` insertion, its [exact ownership report](../build/completion/special/source-owners.json)
+pins **32 source strings / 33 operand words**: the 29 `$p1`/`$p2` story
+sources, both spoken tree-password hints, and its opcode-31 comparison string.
+The independently authored keyword is `LETMEIN`, seven uppercase letters. Both
+hints use exactly that spelling. The build patches only the listed pointer
+words; the original comparison, input limit, compact map, branch metadata and
+pet storage remain unchanged. All new payloads go through the same allocator
+after the frozen 2,258-source story build. Previous source strings stay occupied.
+
+The [native input audit](../build/completion/input-audit/keyboard-probe.json)
+used actual command dispatch, the original keyboard and real joypad entry of
+LETMEIN / Biscuit / Mittens. The original Japanese keyword correctly rejected
+LETMEIN; both pet commit/getter cases retained all seven letters and preserved
+adjacent variables and the guarded 15-byte output bound. This is controlled
+input/reader evidence, not natural adoption/gate reachability or save proof.
+
+All six naming contexts and the gate command are pinned in
+[input-owners.json](../build/completion/special/input-owners.json). The four
+additional cat commands use the same seven-slot variable range and native
+callbacks; they grant no additional patch ownership. Keyboard fixtures now
+run dispatch through `0806566E`, including its original `08069948(0,8)` call
+before yielding to normal frames, so input state matches the full command.
+
+[Variable-block copies](../build/completion/story/pet-variable-copies.txt)
+`08000B58` / `08000B70` serialize/restore the full 1,024-byte script-variable
+array `[020010C0,020014C0)`. Save caller `08002012` and load caller `0800238C`
+use record-relative `[1B88,1F88)` (literals `00002298` / `000026DC`). Dog
+names therefore occupy record `[1C36,1C44)` and cat names `[1C46,1C54)`.
+These are offsets within a decoded Adventure Log record, **not physical SRM
+addresses**. Existing adjacent flags/variables retain their ownership. Native
+save fixtures may seed only these two seven-halfword name fields immediately
+before `08002012`, compare the full serialized variable block after `08002016`,
+and check native restore after `08002390`. Native FLASH/checksum handling and
+the 65,536-byte physical save size remain unmodified.
+
+## Shared story events (2026-09-11)
+
+The [shared-story ownership report](../build/completion/shared-story/source-owners.json)
+pins **78 sources / 105 pointer operands** in the 0091 script region before
+insertion. These are shared object-search messages, monster-elder/synthesis
+services, transition narration, bonus-cave events and two original fallback
+diagnostics. Their exact NUL ends and native command headers are recorded;
+unrelated debug globals and weak binary decodes remain separate. These sources
+were outside the initial ordinary-story queue's 0094 lower bound, illustrating
+why processing that queue alone cannot establish complete text extraction.
+
+Synthesis prompt command `00918BB4` is followed by three opcode-98 records
+`[00918BBC,00918BD4)`. Their pointer words are `00918BC0`, `00918BC8`,
+`00918BD0`: Synthesize / About synthesis / Cancel. Original branch parameters
+and ordinals remain intact. Existing three-choice RAM, font 0 and the same
+native menu drawer apply. No additional RAM or save allocation is made.
+Payloads append through the shared allocator after the pet/password component;
+all previous source and appended bytes are preserved. The cumulative ownership
+ledger must validate the combined build before it is written.
+
+### Arena, entry conditions and save notices (continuous completion)
+
+Before insertion, the [arena source-ownership report](../build/completion/arena/source-owners.json)
+pins 108 original sources and 128 checked pointer words to the Japanese SHA256.
+It records exact exclusive ends; the broad `[00C4029C,00C420AD)` selection
+is not a free-space claim. Four shared save notices near `0086EF3C` are also
+included with their exact source spans. `C411B0` and `C41ACC` retain the earlier
+ally-service owners. Colour-only printf wrappers and `dv_save_*` resource keys
+are not new translation sources. All payloads use the cumulative shared
+allocator after shared-story. Original source bytes remain protected.
+
+The typed arena/church menus use 12-byte `[pointer,0,return_value]` records,
+followed by a 12-byte zero terminator. Exact occupied ranges are
+`[00C40260,00C4029C)`, `[00C402F4,00C40330)`,
+`[00C40358,00C40394)`, `[00C403E0,00C4041C)`,
+`[00C4044C,00C40470)`, `[00C414B8,00C414F4)`,
+`[00C41530,00C4156C)` and `[00C4158C,00C415BC)`.
+Counts are 4/4/4/4/2/4/4/3. Return values (including the nonsequential
+registered-battle menu and Yes=1/No=0) and terminators stay unchanged.
+Native menu reader `0807B294` is exercised through drawing at `0807B3B6`.
+
+[Original readers](../build/completion/arena/research/readers.txt) establish:
+
+- Arena records `[020091D0,02009220)` contain ten eight-byte entries, species
+  halfword at +0 and level at +4. Odds `[02009228,02009250)` are ten signed
+  32-bit tenths. Count `[02009254,02009258)` is separate. Fixture seeding is
+  disposable and restored per case; gaps/neighbours are not reservations.
+- List reader `[08079868,0807992E)` uses window template 3 and ten original
+  y positions `[00C402E0,00C402F4)`, x=4. Its 0x90-byte stack frame holds
+  formatted row `[sp+10,sp+50)` (64 bytes) and name `[sp+50,sp+90)`.
+  Source `C41484`, newly owned literal `79934`, is
+  `%2d:%sLv%d <03 09 7C>%d%c%d倍`. The final three arguments are integer
+  quotient/remainder of odds divided by ten and a literal period. Its English
+  payload moves the odds column to `A0` (160px) and uses `x` for the multiplier;
+  printf argument order, original source and code remain intact. Native layout
+  checks must establish all species names fit without crossing this column.
+- Popup reader `[0807993C,08079C0C)` has a 0x424-byte local frame, row buffer
+  `[sp+10,sp+210)` and name/trait work area beginning `sp+210`. Its header
+  uses window template 12, x=4/y=2; later trait draw is a separate source.
+- Source `C413D4` is a shared `%sLv%d` form. It feeds both arena headers and
+  the 30-byte `$m0` slot through `080797EA`. Enumerate all translated species
+  with level 99 against that smaller destination, not the roster's capacity.
+- Entry-condition reader `[0807A68C,0807AA78)` copies a 64-byte window
+  template `[00C41E24,00C41E64)`. Selected flags determine its height and
+  row spacing. It renders the heading and all selected single-line coloured
+  warnings, then Yes/No in window 1. The companion substitution uses a
+  300-byte stack buffer `[sp+44,sp+170)` inside its 0x194-byte local frame.
+  Fixture draws stop at `0807A8F4` before input polling; they do not execute
+  dungeon entry or prove its inventory/level/save consequences.
+- Numeric betting input calls `0807B604` at `08079738` with three digits,
+  default/minimum 10, maximum min(balance,100), and source `C41314` as its
+  single-cell unit. English uses `T`, consistent with existing token inputs.
+- Balance header `08079F88` formats `C414A4` into a bounded 100-byte area;
+  original `$d0` is temporarily populated and then restored. Saving notices
+  at `7ACEC`/`7ACF4` are passed to original save wrappers, not story opcodes.
+
+Fixtures reuse the previously documented formatter scratch/guards and callback
+at `0203F100`. Native arena/entry frames and extra call arguments use only the
+existing disposable stack envelope `[03007800,03007E40)`; this extends the
+prior fixture argument envelope by 52 bytes for the entry function's eleven
+arguments. It is not game RAM or save expansion. All ranges above remain
+occupied. Reader evidence is structural; runtime acceptance is recorded
+separately in the arena component report.
+
+The arena odds generator at `[08078EC8,08078F5A)` initializes a missing
+entry to 10 tenths, otherwise applies a random 9/10/11 factor and clamps to
+`[11,9999]` tenths (literal `[00078F48,00078F4C)` = 9999). Thus the real
+maximum display is `999.9x`; the static 9999.9x fixture is an additional digit
+of stress. The generator also clears an eleventh eight-byte sentinel record
+`[02009220,02009228)` before the odds array; readers above draw ten rows.
+See [generation disassembly](../build/completion/arena/research/arena-generation.txt).
+The balance destination is `[0200A3C4,0200A428)`, already used by token
+and bank headers. The name/level destination is `[0200A34C,0200A36A)`;
+its following actor slot is independently owned and checked for corruption.
+
+Ownership reconciliation before the successful arena build: literals
+`[000799A8,000799AC)` and `[00079B84,00079B88)` already belong to the
+enemy component's two-line popup headers (documented above). The allocator
+rejected the first overlapping build attempt. These two owners are now recorded
+as excluded in the arena catalog; their prior allocations, pointer patches,
+separator y31 and trait y39 remain unchanged. The arena list's separate
+`79934` pointer and name/level pointers `7984C`/`798D0` are new owners.
+The successful cumulative ledger must contain each of these patches once.
+
+Arena save-notice fixtures also set the existing one-byte Adventure Log selector
+`[02004F80,02004F81)` to 0/1, restoring state per case. Formatter `$j0` reads
+it through literal `0007DAF4` and selects fullwidth `１`/`２` from original
+`[00C46D64,00C46D6B)`. This preserves the earlier two-slot glyph convention;
+it is not a save-field expansion. Existing callback words `[02008E28,02008E30)`
+select the game window constructors used by `0806C7F8`/`0806C814`; fixtures
+observe these values and use their native constructor code.
+
+Native [baseline list probe](../build/completion/arena/research/list-probe/probe.json)
+confirms window 3 is only **160x128px**, not 208px: long English names overlap
+the original odds column. Its immutable 64-byte template is
+`[00CA2934,00CA2974)`, x=2/y=3 tiles, width=20/height=16. The arena component
+copies that template through the append allocator and changes only copied
+width from 20 to 26 tiles (208px, screen x16..224). It does not alter stock
+window 3 for other callers.
+
+The English-only hook owns `[00079868,00079870)` (original halfwords
+`B5F0 B0A4 2003 2101`). An allocated Thumb trampoline replays the original
+push/sub prologue, sets r1=r2=1, and calls native descriptor constructor
+`0806C814` with the allocated copied descriptor. It then resumes at
+`08079876`, immediately before the original font setup. The hook is an
+absolute Thumb load/BX because appended ROM is beyond Thumb BL reach. It
+preserves the caller's saved registers/return address and original stack size;
+it adds no permanent RAM. The shared allocator records exact code/descriptor
+ranges and hashes. Japanese-control builds retain the original instructions
+and geometry. Full native list tests must cover all ten row positions and
+both protagonist paths, buffer bounds and the original popup regression.
+
+Arena isolated printf/copy fixtures use name scratch `[0203F080,0203F0C0)`
+(64 bytes) with eight-byte guards on each side; this is disposable, outside the
+story controller and before the callback at `0203F100`. Actor-slot guards may
+temporarily occupy the last eight bytes of the prior item slot and the first
+eight bytes of the next actor slot only in restored isolated-copy cases; no
+live combined substitutions run while those sentinels are present.
+
+The [arena generator table audit](../build/completion/arena/research/generator-bounds.json)
+records all 101 pointer entries in each occupied table
+`[000F2584,000F2718)` and `[000F3D54,000F3EE8)`, plus every selected
+four-byte species/level record through its zero-species terminator. Original
+generator `[08078D48,08078F90)` selects these tables; observed table levels
+are 1..9 and 1 respectively. Thus the level-99 display/copy cases exceed all
+arena-generated levels. The tables and their referenced records are read-only
+evidence, not insertion or free-space authority.
+
+### Adventure-history records (continuous completion)
+
+Before insertion, [history source owners](../build/completion/history/source-owners.json)
+record **100 distinct nonempty Japanese sources / 104 value pointer words**.
+The complete typed table `[00C4D250,00C4D5B8)` contains 108 eight-byte
+`[ASCII key pointer,value pointer]` records and an eight-byte zero terminator.
+The `log_error` record and three blank values are intentionally preserved;
+`[00C4E4E0,00C4E4E9)` is its four fullwidth question marks plus NUL, a
+punctuation-only resource outside the initial inventory. It is neither hidden
+Japanese prose nor approved free space. The report records every key, value,
+source exclusive end and terminator; the broad source envelope is not owned.
+
+Native lookup `[08087788,080877C0)` scans the original eight-byte table via
+literal `[00087790,00087794)`. It returns the value on exact key match.
+Formatter/display selection `[08086C30,080871E2)` constructs `log_*` keys,
+reads actual history counters, and uses the original shared formatter in mode 1
+with 512-byte output capacity. Preserve all keys and counter semantics.
+Display `[08086B18,08086C30)` uses window template 20, ten rows at x4,
+y=3+13*row, and native scrolling/wait helpers. Controlled all-key fixtures
+establish lookup/format/draw coverage separately from earning each achievement.
+
+`log_2_9` (Barinabo mode) concatenates a mode prefix, the dungeon label and
+`log_2_9b` (floor reached) through the unchanged `%s%s%s` at `00C4E510`.
+The `log_2_9a` dungeon-cleared suffix is a separately retained table entry.
+`log_3_*b` is shared by five dungeon records and uses `$i0` for the recorded
+elapsed time, formatted by `08086F30–08086F52` through original
+`%4d:%02d:%02d` at `00C4E530`. Numeric `$v07`
+fields and their preceding opaque `03`/column controls must survive encoding.
+Fixtures reuse existing number/item/hero slots and guarded formatter scratch;
+no history counter, RAM allocation or save-record size is enlarged.
+
+History context fixtures observe the existing root pointer `[02000004,02000008)`
+(value `02004DE8` in the saved fixture). Five dungeon progress records have
+20-byte stride at root+`34`, floor at +`36`, turn count +`38`, and elapsed
+seconds/minutes/hours halfwords at +`42`/+`44`/+`46`, each plus 20*index.
+The Barinabo floor is the halfword `[root+9E,root+A0)`; its dungeon byte is
+`[02010619,0201061A)`. These are existing runtime counters. Controlled tests
+seed only these fields after restoring state, and never claim to earn an
+achievement or write a physical save offset. The first history draft
+misidentified the `$i0` field; its correction to elapsed time is recorded in
+[the draft revision](../build/completion/history/draft-context-revision.json)
+before native acceptance.
+
+### High-score/result reader investigation (continuous completion)
+
+Read-only evidence in [result readers](../build/completion/results/research/readers.txt)
+and [record readers](../build/completion/results/research/record-readers.txt)
+establishes a **48-byte high-score record**: reader `0800177C` addresses
+`02002FE8 + category*960 + row*48`. The eight displayed categories have twenty
+records each, occupying `[02002FE8,02004DE8)`; the history root begins at the
+exclusive end in the observed fixture. This is separate from the 92-byte
+Adventure Log summary records read by `080853E0`.
+
+High-score fields read so far include cause halfword +0, involved actor +2,
+flags +4, an auxiliary halfword at +6 (role still under review), three-byte score +A, three-byte gold +D, three-byte EXP
++10, three-byte adventure count +13, floor byte +19, strength +1B/+1C and
+level +1D. `0800155C` reads the dungeon ID from bits 0..5 of byte +1A.
+`08001584` selects Torneko/Tipper from bit 6 of that byte;
+`080015B0` reads its bit 7 (special record styling). The high-score list and
+detail functions use the existing `$t` protagonist substitution, not the
+Adventure Log compact-name converter. This is reader evidence; full record
+creation and save persistence are still under investigation.
+
+Disposable high-score probes may seed one complete 48-byte record at the
+start of an existing category, with state restored each time, then execute
+`0800177C(category,row,guarded_destination,200,mode)` in modes 0/1/2.
+The destination uses documented formatter scratch and sentinels. No persistent
+record size or physical save-file offset is changed. Literal words, result-key
+and relation-prefix tables remain occupied and require their own ownership
+report before insertion.
+
+The [controlled result probe](../build/completion/results/research/probe/record-probe.json)
+executes both protagonist bits in all three native prefix modes. It confirms
+that `$t` is Torneko/Tipper rather than the editable Adventure Log name.
+The seeded actor ID 1 is Drooling ghoul (not Slime); dungeon selection follows
+byte +1A's low six bits, independently of the auxiliary +6 field. The
+original result formatter also abbreviates list output with ellipses; this
+is separate from full result-detail text and must be preserved in its tests.
+
+The [third reader](../build/completion/results/research/ending-reader.txt) is
+`0805BEFC`, the dungeon-ending screen. It shares result causes and actor-relation
+formats with the list and detail readers. Exact proposed text ownership is in
+[result source owners](../build/completion/results/source-owners.json): 185
+resources / 284 pointer words, including three scoped empty relation copies and
+one short relation format outside the master inventory. All source ranges remain
+occupied. The following tables are typed, not inferred free space:
+
+| ROM file range | Owner / reader evidence |
+| --- | --- |
+| `[000DB17C,000DB308)` | 99 cause-indexed actor-relation pointers. Six unique formats. Literals `00001A2C`, `0005C4C4`, `000868A0`. Each reader formats into the existing 30-byte `$m1` slot `[0200A36A,0200A388)`. English moves the particle/relationship wording into the result tail; the six formats copy `%s`. |
+| `[000DB33C,000DB35C)` | Eight compact category pointers, used in the dungeon-ending score/rank row. Full category wording is retained separately from measured display labels. |
+| `[000DB3B8,000DB6E8)` | 101 eight-byte key/value records plus eight zero bytes at `000DB6E0`. 97 unique Japanese cause tails. Literals `00001B68`, `0005C674`, `00086A0C`. ASCII lookup keys stay unchanged. |
+| `[00C4CF68,00C4CF94)` | Eleven high-score/category labels, including history, campaign and the empty-score notice. |
+| `[0018F16C,0018F734)` | Existing 370-pointer item-name table, also copied to `$i2` for result messages. The high-score record's halfword **+6 is an item ID**, consumed at `08001AFE` and `080869B0`; it is not the dungeon ID. This component preserves prior item-table ownership. |
+| `[0009B34C,0009B34D)`, `[000DC7A0,000DC7A1)`, `[00C4D1B8,00C4D1B9)` | Empty unknown-actor relation source copies, owned only through words `00001AA0`, `0005C53C`, `00086914`. English needs `something` in these three relation slots; other empty strings stay unchanged. |
+| `[00CA2D74,00CA2DB4)` | Original 64-byte window-20 descriptor: x/y 2/2, width/height 26/17 tiles. Private result-detail descriptor copies it and changes x/width to 1/27, giving 216px. The original descriptor and other window-20 users remain unchanged. Native edge/border/layout checks are pending. |
+| `[0008651A,00086524)`, `[0005C0AC,0005C0B6)` | Proposed English-only result-detail constructor hooks, replacing the three argument moves and call to `0806C7F8`. Each allocated shim calls the existing custom-descriptor constructor `0806C814` with r1=0/r2=1 and resumes immediately after the original call. The high-score **list** constructor at `080860EE` remains original. |
+
+All new result text, the private descriptor and code shims use the cumulative
+allocator. No RAM reservation or save-field expansion is proposed. Fixtures may
+copy a private descriptor into already documented disposable formatter scratch
+for a native construction probe, restoring the state before each case. Detail
+format helpers `08086AEC` and `0805C7DC` retain their original 200-byte buffers.
+Result control `$+`, the original CR/two-row contracts and optional remark logic
+must be verified through their real readers before this component is accepted.
+
+The first 232px proposal was **rejected before acceptance**. Its complete images
+and ledgers are preserved in [rejected-width232](../build/completion/results/research/rejected-width232/rejection.json).
+Native constructor `0808B6FC` calculates tile storage from base `02035DDC`
+(literal `0008B7EC`), starting window 0 at tile 2, address `02035E1C`.
+The 29*17*32-byte clear reaches `[02035E1C,02039BBC)`, overwriting the font
+pointer table at `[020398EC,020398F8)`. A 27*17*32-byte window occupies
+`[02035E1C,0203977C)`, below that state; both 26- and 27-tile controls preserve
+the font pointers. See [constructor/storage disassembly](../build/completion/results/research/window-storage.txt).
+The larger geometry is not approved for any existing buffer.
+
+The revised 216px result panel uses a private **370-pointer item display table**,
+derived from the already translated item pointers. It changes only the three
+result-consumer table literals `[00001B60,00001B64)`, `[0005C668,0005C66C)`,
+`[00086A04,00086A08)`. Eight names over 91px receive documented abbreviated
+display forms in these result contexts; full glossary and inventory names are
+preserved. Cause 33 joins the actor and item with a compact colon. Enumerating
+the maximum actor, original special marker and item width must fit 216px.
+All table/name allocations use the shared ROM allocator. No RAM expansion is
+made. Native window-0 state is the existing 64-byte record
+`[02034CD8,02034D18)`; +14/+18 hold bitmap pointers, +24 is the byte count.
+
+The [record writer](../build/completion/results/research/record-writer.txt)
+`080011F0` inserts/shifts whole 48-byte high-score rows. It selects four dungeon
+categories (default, IDs 20/18/31) plus four for the second protagonist. Its
+game-state root is `u32[0200000C]`; fields read include actor pointer +19EE4,
+cause/actor/flags/item/transform halfwords +20E64/+20E66/+20E68/+20E6A/+20E6C,
+floor halfword +20E70 and score inputs +14E4 (u32), +150C (s16), +14DC (u32).
+Controlled record-creation fixtures may seed these existing fields after state
+restore, then exercise all eight categories and verify full-row shifting. They
+may use documented formatter scratch for returned score/category words. This
+does not create persistent RAM reservations or claim natural dungeon outcomes.
+
+The shared score/history profile is **8,108 bytes** at
+`[02002FD4,02004F80)`: 20-byte header, 160*48-byte scores and 408 history bytes.
+Header +0 is the checksum; +4/+8/+C are native identity/version words. The
+checksum helpers `080015BC` / `080015E0` cover words +10 through +1FA8.
+Reader `08001610` checks the identity and checksum after reading this block
+through `08087CBC`, starting at FLASH sector 14. Writer `080016DC` updates its
+header and calls `08087D20`. The sector wrappers establish 4,096-byte sectors:
+the profile payload occupies physical save bytes `[0000E000,0000FFAC)` inside
+the final two sectors `[0000E000,00010000)`. Sector-write padding is separate
+from semantic profile fields; it remains under native verification. The
+earlier Adventure Log regions must remain byte-identical during profile-only
+tests. See [FLASH reader](../build/completion/results/research/score-flash.txt)
+and [writer](../build/completion/results/research/score-flash-writer.txt).
+
+Profile fixtures use an existing native two-Adventure-Log save as their input,
+the documented original profile RAM and disposable status words at `0203F200`.
+They call the native checksum/header/write path after its message-window call,
+then load the resulting save in a fresh core. Original 65,536-byte size and both
+seven-character Adventure Log names remain explicit regression checks.
+
+The saved village fixture has `u32[0200000C] == 0`, so it is **not** a live
+dungeon-state fixture. Isolated record/ending-reader probes may temporarily
+point it at `02010A90` inside the original heap, seeding only the documented
+root-relative fields above. The actor pointer uses existing disposable actor
+scratch `[0203F000,0203F150)`, with species +8, HP +54/+58 and EXP +9C. No whole
+heap clear is permitted. Do not resume gameplay or invoke heap allocation in
+this synthetic context. Restore the original saved state before FLASH work or
+frame rendering, transferring only the native-created profile bytes required
+by that test. This is controlled record construction, not natural dungeon
+entry or a new permanent RAM layout.
+
+The ending-display fixture may execute `[0805C0AC,0805C62A)` with the original
+`0x188`-byte frame's established locals and the synthetic root described above.
+This includes the original result constructor, record creation and all header,
+statistic, category, equipment and cause formatting. It stops before gameplay
+consequences. The original heap bytes and root/selector fields are restored
+before advancing display frames; the native result tilemap is revealed through
+`0808BB14`, as in the original score-detail flow.
+
+The category selector `08085FB0` constructs its own 64-byte stack descriptor
+with x/y 3/2 and width 18 tiles (144px). A proposed checked English patch at
+`[00085FCC,00085FCE)` changes `mov r0,#18` (`12 20`) to `mov r0,#26` (`1A 20`),
+making this one menu 208px. Its dynamic height/count table remains unchanged.
+The selector enumerates occupied score categories, then history, or the missing
+profile notice. Campaign is a preserved typed-array label with no selection
+path established in this routine. Native category tests must distinguish those
+paths from direct label coverage. The wider stack descriptor remains below the
+original tile-buffer limit for the selector's maximum nine rows.
+
+Ending fixtures temporarily set the existing dungeon ID byte
+`[02004FF0,02004FF1)` and protagonist-mode byte `[02004FF4,02004FF5)`, read at
+`0805C0C2`/`0805C0CC`. They restore these fields before display frames.
+Category selection uses the existing byte-index array starting at `020105F8`;
+this reader writes at most nine bytes. Its height table starts at ROM
+`00C3D8C6`; count 9 selects 14 tile rows, so the wider menu uses 11,648 bitmap
+bytes within the original buffer.
+
+Native profile save verification confirms the full two-sector write behavior:
+`08087DBC` always writes/verifies 4,096 bytes. The second call receives the
+original source pointer, so the full backing read is
+`[02002FD4,02004FD4)`. The trailing 84 bytes beyond the semantic profile are
+copied into `[0000FFAC,00010000)`; the profile reader/checksum ignores them.
+They are **not new score/name fields or available insertion space**. Tests
+compare the full native 8,192-byte sector image as well as the 8,108-byte
+semantic profile and preserve all earlier Adventure Log sectors.
+
+The results component is accepted by [the complete native/ledger report](../build/completion/results/component-checkpoint.json):
+1,794 English screens, 1,128 Japanese pixel pairs, 16 native record writes,
+original FLASH persistence and both Adventure Log cold loads. Final combined
+English SHA256 is `6db4a44bb2f06ff976cae82bedb18224c35b6bc8c302d2257169240a6cb2bbff`;
+389,072 bytes of the appended region are used. Earlier allocations/patches
+and original protected sources are verified unchanged.
+
+### Church and save-service dialogue (continuous completion)
+
+Before insertion, [church source owners](../build/completion/church/source-owners.json)
+records 62 Japanese prose sources through 70 positional table words. The table
+`[00C78B04,00C78CA8)` contains five types, each 84 bytes / 21 pointers. The
+remaining 35 words reference internal identifier placeholders; their bytes and
+IDs are preserved. Sources occupy the envelope `[00C78CA8,00C7A2E4)`, including
+those identifiers and padding; only exact source spans in the report are text
+owners, and none of this occupied envelope becomes free space.
+
+[Native readers](../build/completion/church/research/readers.txt)
+`080787F4`, `080788C8`, `08078A60`, and `08078BC4` calculate
+`00C78B04 + type*84 + slot*4` and pass selected prose to the existing paged
+service engine (`0807ADA4`, via wrappers where applicable). Types 0, 1 and 4
+have priest dialogue; types 2 and 3 skip the greeting/menu path and enter the
+save flow. Slot 1 is an internal menu identifier, not a displayed choice label.
+The existing four-choice menu at `00C40260` is already owned by arena services.
+The selected type uses existing RAM `[020091C0,020091C4)`; it is not a new
+reservation. Level checks fill the existing 30-byte `$m0` slot and numeric
+`$d0` slot, with separate Rosa/Ines follow-up paths.
+
+New prose will be allocated through the combined allocator after adventure
+results. No new code, table shape, RAM, save fields or menu return values are
+required. Fixtures restore the saved village state and use the existing guarded
+formatter buffer, paged-engine scratch/callback and native stack documented for
+ally services. Controlled source selection and complete pages do not establish
+natural church reachability or the consequences of accepting a save prompt.
+
+Church [component acceptance](../build/completion/church/component-checkpoint.json)
+now passes: 124 English cases / 162 complete pages and 86 Japanese pixel pairs,
+with all 105 table words and 14 native source selections per variant. The exact
+combined English SHA256 is `0ecfdac89e15a543194587cf10e18fc3ebde2f0d30cec23b92f66fe72cee124c`.
+Original sources, previous patches and earlier appended data remain unchanged.
+
+### Remaining frontend mode/save text (continuous completion)
+
+Before insertion, [frontend owners](../build/completion/frontend/source-owners.json)
+records 48 sources through 48 reviewed words. The exact source spans and Thumb
+literal loads are authoritative; their wider envelopes `[00C78298,00C78B04)`
+and `[00C7A2E4,00C7ACB0)` include prior owners, unreferenced text and padding.
+No part of these envelopes is free space. Extra exact sources in `00C4CDxx` /
+`00C4CExx` / `00C4CFxx` are enumerated in the same report.
+
+Typed menu owners are the two text words in `[00C4CD0C,00C4CD30)` (two
+12-byte yes/no records plus zero record), the Barinabo label at `00C4CD58`
+within the existing five-choice mode table `[00C4CD40,00C4CD88)`, and words
+`00C7828C` / `00C78294` in the six-pointer title table
+`[00C78280,00C78298)`. Mode table attribute `02002FE4` and all return values,
+default markers, other labels and terminating records remain intact. Earlier
+name confirmation word `00085950` and compact default word `00085904` remain
+owned by name entry; those already translated sources require inventory
+reconciliation, not another insertion.
+
+The high data-array candidates `00CE2304`, `00CE2320`, `00CE233C` and
+`00CE2364` are still unreviewed. They occur among descending four-byte interior
+addresses, not an established independent service reader. They are excluded
+from insertion; no unreferenced source is promoted by that pattern alone.
+
+[Frontend readers](../build/completion/frontend/research/readers.txt) identify
+`080853E0` as the Adventure Log selector. Its summary records have a 92-byte
+stride: compact name at +0, flags +8, signed 16-bit current/max HP +0C/+0E,
+signed 16-bit adventure count +10, level byte +14, suspension byte +15 and
+mode byte +16. The name/context header also reads a string starting +17.
+The transient stack after its prologue contains the joined 200-byte row
+`[sp+4C,sp+114)`, decoded name `[sp+114,sp+128)` (20 bytes), trip suffix
+`[sp+128,sp+13C)` (20 bytes), record-base pointer at +148 and previous selected
+row at +14C; the allocated frame is 150 hex bytes. The translated `%d` trip
+suffix and HP/level printf preserve argument order/types. Native layout must be
+checked in the actual summary window before acceptance.
+
+Planned controlled summary fixtures may reuse `[0203F000,0203F0B8)` for two
+92-byte records, with the existing native-call stack at `03007A00`; this is a
+separate lifetime from earlier fake actors and not a game RAM reservation.
+Paged messages use the previously documented service/formatter fixtures.
+All new prose is appended through the shared allocator after church services.
+
+The frontend summary fixture's guards extend its scratch range to
+`[0203EFF8,0203F0C0)` around the two `[0203F000,0203F0B8)` records. Entry SP
+`03007C00` becomes `03007A90` after the native selector's pushes and 150-hex-byte
+frame. The native default window group gives summary window 2 a 208x40 area
+at screen `(16,112)`; its HP line begins at local `(16,12)`. Both signed-field
+extremes and actual 1,023-HP / level-99 fixtures fit without a window patch.
+The selector uses existing status words `[020105E0,020105E8)`; fixtures set them
+to valid and restore the state for each case. Typed-mode fixtures use the
+existing unlock flag `[02002FE4,02002FE8)`, with original reader selection and
+return values. No permanent RAM or save change is made.
+
+The full mode-help wrapper `080853BC` calls the same paged service engine
+`0807ADA4`; [window/wrapper disassembly](../build/completion/frontend/research/windows.txt)
+confirms complete native page verification applies to these long help strings.
+
+Frontend [component acceptance](../build/completion/frontend/component-checkpoint.json)
+passes 157 English screens, 86 Japanese pixel pairs, both seven-character
+Adventure Log cold loads, and complete reconstruction from allocation/patch
+ledgers. Combined English SHA256:
+`2d2bd38acc79fa6d7f2752ad1b89415967ec07dcd5941bc632a06b3e65fd805c`.
+Appended usage is 397,958 bytes; no window, code, RAM or save change was needed.
+
+[Code-owned text reconciliation](../translations/code-owned-text.json) links six
+existing checked pointer replacements to inventory entries, without granting a
+second owner or changing any bytes. Exact words `0006CD18`, `000732C8`,
+`0007BED0`, `0007BED4`, `0007BEEC`, `00085950` and their allocation IDs/payloads
+are verified against the accepted frontend image. This is accounting for earlier
+authored work; source ranges retain their original owners and protections.
+
+### Remaining composed item names (continuous completion, research)
+
+[Item display readers](../build/completion/item-display/research/readers.txt)
+identify `08080A5C` as the existing bounded 100-byte item-name formatter
+(already exercised by the original item/context milestones). Its 14 category
+labels use initialized ROM pointers `[00CB0684,00CB06BC)` copied to
+`[020007FC,02000834)` by the existing startup copy. The labels' exact sources
+start at `00C4C820` through `00C4C854` in reverse table order; these are occupied
+source bytes. The category prefix is used for named unidentified items, not
+an inferred new item identity. The other pending text resources are hidden-name
+`00C4C858`, quantity formats `00C4C87C`, `00C4C884`, `00C4C88C`, monster-tracks
+`00C4C8A4`, and grave format `00C4C8B4`. Pointer words and full source spans must
+be enumerated before their insertion.
+
+Existing numeric/enhancement/charge/price formats in this block have Latin
+printf tokens and binary controls; successful decoding alone does not require
+replacing them. `00C4C800` / `00C4C810` place price text at absolute window-local
+x=130 using `03 09 82`; both have multiple readers. Their language and original
+control bytes remain unchanged pending the complete composition/layout check.
+
+Planned item-format fixtures reuse original 24-byte item records
+`[0203F000,0203F018)`, option halfword `[0203F100,0203F102)`, and the existing
+100-byte guarded output `[0203F200,0203F264)` with eight-byte guards on each
+side. These scratch lifetimes are separate from previous fake actors and
+frontend summary records. `08080A5C` uses a 280-hex-byte local frame plus
+32 pushed bytes; fifth argument is at native post-prologue `sp+2A0`. Native
+formatter arguments/flags and the existing stack/copy limits stay unchanged.
+Cold startup must verify the category table's initialized RAM copy; a restored
+older village state contains the old pointers, so any controlled fixture
+refresh of that table must be explicit and distinct from cold-start evidence.
+
+The [item-display source report](../build/completion/item-display/source-owners.json)
+now enumerates all 20 sources and 21 pointer words before insertion. Category
+labels retain their original category indices; quantity formats retain the
+native `%d,%s` argument order, and the grave format retains its one actor-name
+`%s` argument. Existing item names, unknown-name dictionaries and price/style
+controls keep their existing owners. New text is appended through the shared
+allocator after the accepted frontend component. No code or RAM patch is
+planned for this initial translation candidate.
+
+The preliminary 370-item [native composition survey](../build/completion/item-display/research/composition-probe/probe.json)
+passes on English candidate
+`1e9540ec1448916fa6c23e07307f24bc9f8e5191f8a983714860cf2d9d52294e`.
+It verifies cold category-table initialization, existing 100-byte output guards,
+full native glyph/ink bounds and no advance crossing the x=130 price column.
+These selected field fixtures do not yet establish complete component coverage.
+
+The formal controlled fixtures also use original hidden-name halfword
+`[02006188,0200618A)`. The formatter tests it together with byte +13 hex in
+the original 28-byte item-property rows at `000E07F4`; its exact gameplay status
+meaning is not established. Item 349's +10-hex halfword selects the existing
+200-entry actor-name table at `00192568` for its grave format. Item 348 tests
+the original context word `[02000000,02000004)` via `0800033C` and, when it is
+one, reads the root pointer `[0200000C,02000010)` plus 4C hex. The matching and
+different-actor fixtures temporarily point that root at `02010A90` and populate
+only `[02010ADC,02010ADE)`; they snapshot and restore both global words and
+that occupied heap field before UI/frame processing. This is not free heap or
+a new game reservation.
+
+Unknown-name fixtures use the previously owned dictionary fields at
+`0200C71C` and `0200C722+2*item`, and existing eight-byte custom-name slots at
+`0200CA06+slot*8`, where the signed slot index comes from `00C4C4FC+2*item`.
+The seven-W custom-name cases are direct width fixtures in those slots; they
+do not establish the input limit of the item-name editor. Each case restores
+the original state before installing its isolated item/context fixture.
+
+[Item-display component acceptance](../build/completion/item-display/component-checkpoint.json)
+passes 1,197 native combinations, 20 resource previews and 1,217 Japanese pixel
+pairs. Both complete images reconstruct from the shared ledgers; every prior
+patch and appended byte is preserved. English SHA256
+`1e9540ec1448916fa6c23e07307f24bc9f8e5191f8a983714860cf2d9d52294e`,
+with 398,144 appended bytes used. No window, code, RAM or save patch was needed.
+
+### Direct dungeon events (continuous completion, research)
+
+[Dungeon-event source ownership](../build/completion/dungeon-events/source-owners.json)
+enumerates 63 sources / 82 pointer words in the occupied source envelope
+`[000A3FC4,000A607C)`. Exact source ends in the report take precedence over this
+selection envelope. The arena pause menu is `[000A3FA0,000A3FC4)`, two 12-byte
+records and a zero terminator. Its nonpointer fields/default marker retain
+their native meaning. Two abort prompts occupy initialized pointer words
+`[00CAFEB0,00CAFEB8)`, copied by the original startup image to
+`[02000028,02000030)`. Reader `080084D0` selects these by protagonist; the
+following internal identifier at `00CAFEB8` is not a third translated prompt.
+
+The companion/tutorial dictionary `[000A536C,000A546C)` has 31 eight-byte
+key/value records and a zero terminator. Reader `080092E4` builds an identifier
+in its original 64-byte local buffer and calls `0807DC98(key, table)` at
+`08009472`, followed by `0807ACFC` for the returned text. Keys and their
+formatters remain internal resources. [Reader evidence](../build/completion/dungeon-events/research/tutorial-reader.txt)
+establishes value-only insertion; four shared warnings have multiple keys.
+
+The [direct event readers](../build/completion/dungeon-events/research/readers.txt)
+and [wrappers](../build/completion/dungeon-events/research/wrappers.txt) establish
+boss dialogue through `0807ACFC`, rescued-villager dialogue through `08009160`
+and choices through `08009170`. Those wrappers all enter the existing paged
+engine `0807ADA4`; choice/default parameters and scene logic are unchanged.
+High data-array references remain excluded until independently understood.
+New prose will append after item-display through the shared allocator.
+
+Planned controlled checks reuse existing service fixtures: substitution slots,
+guarded output at `0203F200`, callback scratch `[0203F100,0203F102)` and native
+stack at `03007E00`. Tutorial lookup fixtures may put a key of at most 63
+characters plus NUL in `[0203F000,0203F040)`, separate from earlier fake item
+records. Cold startup will verify the two abort pointers; restored state cases
+must explicitly refresh that cache. No permanent RAM or save change is planned.
+
+The isolated boss-text selector slice `[08008616,08008690)` reads protagonist
+byte `[02004FF4,02004FF5)` and first/repeat encounter bits 0/1 in
+`[02005EE0,02005EE1)`. Four controlled combinations establish both possible
+text pointers without entering the actor/animation setup. Arena-abort selection
+slice `[08008534,0800853E)` reads `[02009264,02009265)` and indexes the existing
+two-word cache; these fixtures set indices 0/1 and r7 to `02000028`. State is
+restored between cases. These are original fields, not new reservations or
+proof of natural scene reachability.
+
+[Dungeon-event acceptance](../build/completion/dungeon-events/component-checkpoint.json)
+passes 126 English source cases / 185 screens and 116 Japanese pixel pairs,
+with all 31 tutorial key lookups, four boss/two abort selector cases and the
+native arena pause menu. All prior writes are preserved and both complete
+images reconstruct from ledgers. English SHA256
+`8c082e005b119c5385c80f2a814adbb505e4eae5e866fe76e7ecff791d019160`,
+with 404,842 appended bytes used. No code, RAM or save patch was needed.
+
+### Remaining battle, shop and companion-action messages (research)
+
+[Battle source ownership](../build/completion/battle/source-owners.json)
+enumerates 298 sources / 382 pointers, including the separate Rosa message at
+`001B4FF0` and selected sources in `[001B7DC6,001B9DF1)`. The 12 growth-type/
+character labels `[001B98D6,001B997C)` belong to a separate reader and are
+excluded. Two unreferenced prose leads (`001B8A4A`, `001B93ED`) remain in the
+discovery queue. Exact source ends and pointer fields in the report are the
+insertion authority; no whole envelope or former source storage is free.
+
+The [native readers](../build/completion/battle/research/readers.txt) and
+[dialogue readers](../build/completion/battle/research/dialogue-readers.txt)
+distinguish 247 scrolling feedback sources from 51 paged shop, companion and
+recruitment prompts. Rosa's quoted complaint at `001B4FF0` enters `0805D3D4`,
+so quotation marks alone do not establish a paged dialogue reader. Recruitment
+confirmation uses the paged engine, while successful joining/departure messages
+enter the queue. Native queue/history and page limits retain their earlier
+documented fields and capacities.
+
+Additional occupied pointer tables are `[000DB0FC,000DB108)` (three blocked
+healing messages), `[0009B660,0009B66C)` (three blocked revival messages),
+`[000DB15C,000DB16C)` (four wind stages), and `[000D95E0,000D9600)` (eight
+shop charge/haggling choices, including duplicate sources). The first pair is
+consumed by `08025174`; the wind table is selected at `0805A8BC–0805A8C2`.
+Shop function `08044150` copies all eight pointers into its existing local
+stack array, then indexes initial and haggled prompts. [Table-reader evidence](../build/completion/battle/research/table-readers.txt)
+keeps those values separate from gameplay operations and counters.
+
+Initialized pointers `[00CAFE98,00CAFEA4)` map to `[02000010,0200001C)`;
+`[00CB0098,00CB00A4)` map to `[02000210,0200021C)`. These are slices of the
+existing startup image, not new RAM. Cold startup and explicit cache refresh
+after older state loads must be checked independently. Existing 36-byte ability
+records continue beyond the earlier selected envelope: records at `000A7C44`
+and `000A7C68` contain the new message words `000A7C4C` and `000A7C70`.
+Only their text words are owned; callbacks and the following record stay intact.
+
+Two Yggdrasil-leaf messages begin with original indexed glyph `F9 AC`, whose
+font-0 descriptor has code `874A`, bitmap `[00C82760,00C827A8)`, nine-pixel
+advance and eight-pixel ink extent. Unicode extraction displays it as `⑪`;
+the [bitmap inspection](../build/completion/battle/research/glyph-f9ac.png)
+shows that viewing label is not prose to translate. Keep its original indexed
+bytes before the new English and include its two bytes/nine pixels in history
+and layout bounds. No glyph asset is changed.
+
+Planned battle fixtures reuse the documented guarded history at
+`[0203E000,0203E500)`, original queue/formatter slots and existing scratch/stack.
+New text will append after the accepted dungeon-event component through the
+shared allocator. All original table shapes, callback words and prior owners
+remain unchanged.
+
+Battle table-selection fixtures may use the existing native-call stack at
+`03007C00`. Wind selection reads its original local offset +198 hex at
+`[03007D98,03007D9C)`; the isolated slice `0805A8BC–0805A8C4` receives offsets
+0/4/8/12. Shop selection copies `[000D95E0,000D9600)` into transient
+`[03007C00,03007C20)` at `08044196–080441A6`, then exercises both original
+indexing slices `080441C0–080441C6` and `080441DE–080441E6`. These scratch
+lifetimes are separate from earlier selector cases and are not RAM reservations.
+Blocked recovery/revival fixtures execute only the original pointer loads at
+`08025256`, `08025270` and `08025278`, with r6 set to each existing table.
+
+Battle component acceptance: 298 sources / 382 pointer words pass 843 English
+cases, 302 Japanese pixel pairs, both cold tables and 18 selector cases.
+The [checkpoint](../build/completion/battle/component-checkpoint.json) verifies
+full image reconstruction and all previous patches/appended bytes. Combined
+append use is 415,386 bytes through exclusive offset `0106569A`.
+English SHA256 `5591e461e494946a56464327842cf8ef4a691a716a2ae14932ed451c945d2f04`.
+No original source pool is released for reuse.
+
+## World merchants (2026-09-11, in progress)
+
+Owner `merchants`; original source and research are pinned under
+`build/completion/merchants/`. These findings precede insertion and disposable
+runtime fixtures. All ends are exclusive; surrounding bytes stay occupied.
+
+The merchant table `[0086FB34,00870760)` contains 19 records of A4 hex bytes.
+Reader `0806309C` selects index × A4 from literal `08063160`. Each record has
+an identifier at +0, twenty text pointers in `[+4,+54)`, and ten eight-byte
+stock rows in `[+54,+A4)`. Record IDs are 3B through 4C with a second 4C row;
+they are not nineteen unique consecutive IDs. The final record starts at
+`008706BC` and is used directly by Medal King reader `08063884`. Only the
+reviewed text words may change; identifiers, stock and table dimensions stay.
+
+Player-shop records `[0087185C,008718DC)` are two 40-hex-byte records. The
+first word is 50,000 / 5,000 gold, followed by 0100 / 0140 (purpose not yet
+established), then fourteen text pointers in `[+8,+40)`. Native `08063B2C`
+loads the table at `08063B4A` and adds 40 hex only when flag 0F equals 2.
+The inventory's apparent `Pて` string at `0087185C` is the integer 50,000,
+not prose. Its literal `00063B94` must not be redirected as a text pointer.
+
+Menu `[0087231C,0087234C)` contains three twelve-byte Buy/Sell/Cancel records
+and the zero terminator. Sources in `[00870760,00872ABC)` are a discovery
+envelope, not contiguous patch ownership. Exact source spans, literal loads,
+and typed text words will be recorded in `source-owners.json` before a build.
+
+[Native readers](../build/completion/merchants/research/readers.txt) cover
+ordinary shops, blacksmith `08063404`, synthesis `08063624`, Medal King and
+player shops. They format printf templates with `08096744` before calling
+world wrappers `080622D4` (mode 0142) or `08062294` (mode 0042 for receipts /
+observations). These wrappers call `08061680` with the existing UI-root+50
+story structure and its documented 1,024-byte text buffer. They do not call
+the dungeon `0807ADA4` message engine. [Wrapper evidence](../build/completion/merchants/research/world-wrappers.txt)
+records the source and mode setup and the waiting function `08062250`.
+
+Ordinary shop local frame is 2E0 hex bytes below the saved registers; a
+256-byte formatted string starts at sp+84, followed by a 100-byte item-name
+buffer at sp+184. Blacksmith likewise has a 256-byte printf buffer and a
+100-byte item name. Synthesis uses two 100-byte names and separate 256-byte
+printf buffers; the two-name confirmation must stay within 256 including NUL.
+Medal King and player-shop printf destinations are also 256-byte local arrays.
+These are existing transient buffers, not permanent RAM reservations.
+
+Disposable merchant checks may reuse the earlier fixture destination
+`0203F200` with 1,024-byte capacity/8-byte guards, a separate 256-byte printf
+buffer `[0203F800,0203F900)` with 8-byte guards, and two synthetic item-name
+strings `[0203F000,0203F064)` / `[0203F080,0203F0E4)`. Each case restores the
+world snapshot and uses the existing native-call stack. The original story
+structure, actual table selectors and menu draw paths will be exercised;
+fixture input advancement is distinct from natural shop transactions.
+
+The world renderer is `08061760`. Its state +8 uses 6 for the three-line
+continuation wait and 9 for the end-of-source wait; the read cursor is +40C.
+Disposable page fixtures may execute this function directly, with an explicit
+successful input return at `08061D3C` only when continuing state 6. Native
+scroll/line setup still runs. For screenshot presentation, a temporary Thumb
+self-loop at `[0203F100,0203F102)` holds the main thread while mGBA presents
+two frames with IRQs enabled; the full previous CPU context is restored. This
+avoids the unrelated saved event script replacing a multi-page test message.
+The story cursor/payload must remain unchanged through presentation. These
+are controlled rendering fixtures, not a claim of natural NPC interaction.
+
+The [merchant owner report](../build/completion/merchants/source-owners.json)
+now lists 132 exact sources and 453 pointer words. Source reconstruction and
+all typed/literal owners pass; `[0087185C,00871860)` is explicitly excluded
+as cash. The English catalog retains printf argument order, reserves 99 bytes
+per item name / 11 per signed integer and bounds all printf results to 256
+bytes including NUL. Subsequent world formatting remains within 1,024 bytes.
+
+The initial IRQ-only presentation experiment did not submit window graphics
+and is not used for acceptance. The tested page fixture instead snapshots the
+complete core at each native pause, temporarily uses continuation-wait state 6
+for two ordinary presentation frames, and restores that exact snapshot before
+continuing. The source payload and cursor must remain unchanged even before
+restoration. No injected spin code or held event-interpreter breakpoint is
+needed. Renderer calls, line counters, continuation scrolling and glyphs remain
+native; only the explicit continuation input return is controlled.
+
+Merchant component acceptance: all 132 sources / 453 pointer words pass 282
+English cases, 279 screens, 147 Japanese pixel pairs, 23 original record
+selections and the three-row menu. The [checkpoint](../build/completion/merchants/component-checkpoint.json)
+reconstructs both complete images and verifies all previous patches/appended
+bytes. Combined append use is 423,557 bytes. English SHA256
+`9d735a15224915e4436cc8e21b1ff426f598f72ab226c638e68cb2421d6e4904`.
+No source pool, record metadata, font, code, RAM or save layout is changed.
+
+## Remaining keyboard and inscription research (2026-09-11)
+
+[Corrected readers](../build/completion/remaining-ui/research/keyboard-readers.txt)
+establish keyboard entry `0807BB74`. Its r1 is codec type; r2 points to input;
+r3 is the requested limit (clamped to 30). The sign of sixth argument selects
+header pair: nonnegative allows History, negative hides it. Header index uses
+this sign and page; grid index uses codec type and page. Therefore a shared
+`abc/ABC` header is incorrect for the preserved type-one kana password grid.
+The previous name patch also omitted the allowed History label. A common
+`Page` button / `L: Page` hint and the correct conditional History label can
+cover both codecs while leaving every compact mapping and grid unchanged.
+
+Original headers `[00C45424,00C454E4)` are four positioned resources; table
+`[00CB0620,00CB0630)` initializes RAM `[02000798,020007A8)`. The accepted
+name component instead owns the literal `[0007BEE4,0007BEE8)` and points to
+its appended header table. Literal `[0007BEEC,0007BEF0)` owns the shared hint
+from source `00C46740`. Correcting those two literal patches requires explicit
+whole-patch supersession with the original owner/ID and exact current bytes;
+it must not weaken ordinary overlap checks or rewrite earlier appended assets.
+The old patch record must remain in the final ledger's supersession history.
+
+History row format `00C46748` is read through literal `0007CDD0` by actual
+function `0807CD14`, with a 16-byte decoded-name buffer and 32-byte printf
+buffer. The two-row Select/Erase popup source `00C46758` is read through
+literal `0007CF18` by function `0807CDD8`. These literal addresses are not
+function entries. Their adjacent windows, history records and selection results
+retain the original layout; controlled fixtures must check both Latin and
+legacy Japanese names.
+
+The blank-scroll name dictionary `[000DFCC0,000DFF18)` contains 49 twelve-byte
+records and a zero terminator: hiragana pointer, katakana pointer, item ID.
+Item list `08070540` uses each ID and the original learned-item predicate
+`0800111C`; `0807F130` performs two-byte comparisons against the two aliases
+when a blank scroll (item 198) is read. A Latin keyboard alone does not make
+that matcher support English. This is a confirmed remaining compatibility task;
+no dictionary, matching code or name/save capacity is changed yet.
+
+The [keyboard completion owner report](../build/completion/keyboard/source-owners.json)
+lists all six reviewed resources and exact original spans. New insertion owns
+only popup literal `[0007CF18,0007CF1C)`, and supersedes the two name-component
+literals above as whole four-byte patches. `RomBuild.supersede_patch` requires
+the previous owner/ID, exact current bytes, original bytes and unchanged size;
+its nested `supersedes` record preserves the old owner and replacement. All
+normal overlap checks remain strict. Nine ledger tests pass, including the
+historic name-build hash, atomic rejection of stale/partial/wrong-owner
+supersession, and ordinary overlap rejection after a supersession.
+
+The component's Japanese control keeps the previously accepted English
+headers/hint and relocates the unchanged Japanese popup. Its pixel comparison
+therefore covers preservation of the earlier keyboard and popup relocation;
+corrected header wording is established by English native checks, not by
+claiming those corrected headers match Japanese pixels.
+
+Blank-scroll caller `0807009C` passes a seven-position limit at `08070120`,
+commits eight bytes into item record `[+4,+C)`, terminates +B, then calls the
+matcher at `08070146`. Long English inscriptions cannot be assumed to fit
+this field. Original learned-scroll selection is a separate path; the alias
+and matcher work remains pending and will retain the full item glossary names.
+
+Keyboard-only disposable fixtures reuse a zero-terminated 32-byte input at
+`[0203F300,0203F320)` and a temporary Thumb `BX LR` frame callback at
+`[0203F100,0203F102)`. Native keyboard entry receives that callback as its
+fifth argument; it is not a persistent code/RAM allocation. The original
+32-byte editor buffer `[02009DF8,02009E18)`, page word `02009DE8`, cursor word
+`02009DF0` and selection word `02009DF4` retain their documented meanings.
+
+The preserved type-one hiragana grid has 13 overlapping ink pixels between
+adjacent rows when drawn with font 0. The first controlled fixture confirms
+75 glyphs on ten-pixel row spacing. The original font-1 grid draws ten bitmap
+rows; restoring font 1 only for that grid avoids altering the chosen English
+font or password alphabet. Type-zero grids continue using font 0, and headers /
+hints must stay font 0 for intact English descenders.
+
+Keyboard completion will own two new eight-byte instruction patches:
+`[0007BE08,0007BE10)` and `[0007BE30,0007BE38)`, both previously unowned.
+The first selects font from existing codec-type stack word `[sp+90,sp+94)`
+(hex) immediately before the grid; the second restores font 0 immediately
+after it. Appended Thumb trampolines replay the replaced instructions and
+resume at `0807BE10` / `0807BE38`. Their transient eight-byte pushes adjust
+the type load to sp+98 and stay within the existing call stack. All other
+register values needed by the continuation and the original stack arguments
+must be preserved. Code and pointers allocate through the same shared ledger.
+These hooks apply only to the English candidate; the control retains the
+previous keyboard. Native grid ink tests and original-font comparison remain
+required before acceptance.
+
+Keyboard history fixtures may populate the first eight existing eight-byte
+records `[02009E80,02009EC0)` and set the native count word
+`[0200A1A8,0200A1AC)` to eight. The array/count locations come from literals
+`0007CDCC` / `0007CDC8`; this fixture does not assert total array capacity.
+The native history reader receives rows 0..7 and codec 0 or 1. Its actual
+16-byte decode / 32-byte printf stack buffers are retained. Isolated capacity
+checks may reuse `[0203F400,0203F410)` and `[0203F500,0203F520)` with eight-byte
+guards on each side. All these writes are disposable emulator fixtures.
+
+Keyboard completion accepted: six resources, two exact pointer supersessions,
+one popup pointer, and two eight-byte font hooks. All eight native layouts,
+16 history rows, 16 guarded decode/printf pairs, four original kana grid
+comparisons, four real joypad regressions and 11 control pixel pairs pass.
+[Checkpoint](../build/completion/keyboard/component-checkpoint.json) reconstructs
+complete ROMs and checks the preserved supersession history and earlier assets.
+Combined appended use: 423,848 bytes. English SHA256
+`8a6eb7fed361493b10383d792bd7a64e4fe4964a410f21c6551cc5aa8d3c178d`.
+
+The history window constructed by `0807D02C(1,0)` has nominal 128×112 pixels
+at (48,24), while its native row renderer uses buffer y coordinates
+16+14×row. The eighth row passes the descriptor's nominal height; original,
+control and candidate preserve all eight rendered rows and the same pixels.
+This is recorded as native buffer/viewport behavior, not evidence of a new
+allocation or grounds for enlarging the window. Guarded decode/printf checks
+and horizontal ink checks apply to all rows. Keyboard hints / popup use actual
+ink bounds, since their last blank bitmap row can extend beyond the window.
+
+### Blank-scroll English inscription compatibility
+
+The corrected reader investigation establishes that `08070798` displays the
+first alias from each record in `[000DFCC0,000DFF18)`, rather than a full item
+name. It reads the table through literal `[000707E0,000707E4)`, formatting
+into its existing 32-byte stack buffer. Its `%2d` / positioned `%s` format
+at `00C3DB6C` is already language-neutral. The learned-list constructor
+`08070540` retains the original dictionary and `0800111C` learned predicate;
+selection commits the selected ID at `0807066C..08070682` through the original
+flags/accounting path. Thus a parallel table can display seven-letter English
+inscriptions while full item names elsewhere retain the glossary wording.
+
+The 49 records reference 98 kana resources within `[000DFF18,000E03A0)`.
+Their exact spans will be frozen in the inscription source-owner report.
+All original dictionary records and kana bytes remain protected. New English
+aliases use at most seven Latin alphanumeric characters, with unique
+case-insensitive spellings. Their parallel twelve-byte records, strings and
+matcher code allocate through the shared ledger. Only literal `000707E0`
+redirects the learned-list display to the parallel table.
+
+A new eight-byte hook owns `[0007F170,0007F178)` after the original matcher
+has performed its eligibility/accounting checks and decoded the compact name
+into its 64-byte stack buffer. An appended routine first checks English aliases
+case-insensitively and confirms the original learned predicate. A match resumes
+the existing success path at `0807F216` with r7 pointing to its parallel record.
+Otherwise it replays the replaced dictionary-load/test and resumes `0807F178`
+or the original empty-table failure at `0807F240`. The original Japanese matcher
+and both original dictionary literals `0007F22C` / `0007F260` remain intact.
+The routine uses a transient 28-byte register-save frame, no new persistent RAM.
+
+Learned flags read by `0800111C` occupy `[02002549,02002551)` for item IDs
+190..246, derived from literals `00001154` (`020014C0`) plus `00001158`
+(`1089`). Disposable inscription fixtures may vary these eight bytes and reuse
+the existing 24-byte item record at `[0200A480,0200A498)`, compact input
+`[0203F300,0203F320)`, and guarded 64-byte decoded-name scratch at
+`[0203F400,0203F440)`. A synthetic learned-list ID array may use
+`[0203F600,0203F662)` (49 halfwords) with external guards. These are fixture
+writes, not save-layout changes or new reservations.
+
+Inscription fixtures may also reuse `[0203F000,0203F064)` as a terminated
+Japanese source string for the native compact encoder `0807D29C`. This allows
+both kana variants and mixed kana spellings to pass through the original
+encoder rather than inventing compact IDs. English test input uses the already
+verified Latin compact mapping. Native learned-list constructor evidence is
+`08070540..080705C2`; UI selection remains separate from formatting checks.
+
+The original learned-list constructor's 370-halfword temporary ID array is
+`[sp+4,sp+2E8)` after its 32-byte register-save and 768-byte local frame.
+At the isolated fixture SP `03007E00`, that is `[03007AE4,03007DC8)`.
+Checking the array after `080705A6` proves learned filtering without changing
+its size. Real joypad inscription fixtures may redirect the existing inventory
+callback at `0806DCDC` into complete original caller `0807009C`, passing the
+original callback and existing item record; `0807014A` observes the native
+matcher result before the original post-edit UI handling. No synthetic stack
+buffer is substituted for the original seven-position editor in that route.
+
+Inscription component accepted: 98 original kana sources / 49 item identities,
+549 English matcher cases, 255 legacy regressions, 294 English/Japanese result
+comparisons, 51 native learned-list selections and 49 displayed rows. Seven
+control screenshots match; four real joypad cases run the complete original
+item-name caller and commit the existing eight-byte field. The
+[checkpoint](../build/completion/inscriptions/component-checkpoint.json)
+reconstructs full images, preserves original dictionary/kana bytes and all
+previous patches/allocations. Combined append use: 425,356 bytes.
+English SHA256 `577f519029f96c714ba1f1a53c68bdee0007d15e9bd67ca65f88217e455848f1`.
+No permanent RAM or save expansion was required. Exact source spans are in the
+[source owner report](../build/completion/inscriptions/source-owners.json).
+
+### Retained name-filter data
+
+The former candidate name-filter table is now reader-confirmed. Function
+`0807D1A0` reads literal `[0007D1BC,0007D1C0)` pointing to 165 words at
+`[00C45DE4,00C46078)`, followed by the zero word `[00C46078,00C4607C)`.
+It normalizes the entered compact name through `0807D3C8`, converts each
+original Japanese filter term through `0807D29C`, and compares compact bytes
+with `080967CC`. This data is matching policy, not displayed dialogue.
+The 165 source strings span `[00C4607C,00C4672F)`; exact spans/pointers are
+recorded in `build/completion/retained-resources.json`. Preserve the original
+strings and filter logic. Do not invent translations to mark these internal
+resources as authored English. This classification does not claim a new
+English-language filtering policy or modify an existing build.
+
+### Remaining Zoom and world-item messages
+
+Zoom's no-destination path `08076624` calls selector `080604A8`, removes the
+first byte from its result, then passes the body to `0807AD68`. Prefix `*`
+sets speech flag 1; prefix `-` sets flag 0. Those bytes are protocol markers,
+not displayed punctuation. Selector literals `[000604CC,000604D0)`,
+`[000604E0,000604E4)` and `[000604E8,000604EC)` reference three messages.
+Its indexed cache pointer at `000604FC` targets `[02000400,0200042C)`,
+initialized by eleven ROM words `[00CB0288,00CB02B4)`. The 13 distinct sources
+span `[0086F0AC,0086F42A)`; the source-owner report will record exact ends.
+The first cache entry duplicates the third literal target. Positive restriction
+selectors 1..10 use subsequent cache entries; selector fixtures must preserve
+the prefix/speech contract and prove the initialized cache, not only ROM words.
+
+The four item/gold observations `[0086FAA4,0086FB34)` use literals `00062E74`,
+`00062E78`, `00062E7C`, `00062E80`, and `00062F34`. Native `08062DD0` formats
+found-item text into a 256-byte buffer, with a separate 100-byte item name,
+then displays via world observation wrapper `08062294`. `08062CC0` handles
+full money/full inventory/success messages, and `08062EA4` also consumes the
+success message. These are text-owner discoveries, not authorization to change
+item granting, stock, money caps or transaction flags.
+
+Two warehouse messages are inline initialized strings, not pointer seeds:
+source starts `00CB04E8` / `00CB057C` map to RAM `02000660` / `020006F4`.
+Existing function `080738CC` loads those RAM addresses from four-byte literals
+`0007394C` / `00073994` and calls `0807AD68` with speech flag 1. Redirecting
+those two literals to appended text is sufficient; the original initialized
+string storage stays occupied and unchanged. Do not expand an inline string
+into the following startup fields. Exact strings and patches will be frozen
+in the world-completion owner report before building.
+
+The two remaining debug strings `00916BE4` / `00916C0C` are indexed through
+cache words `[02000464,0200046C)`, initialized from `[00CB02EC,00CB02F4)`.
+Leaf selector `08060F08` loads the cache base from `00060F14` and returns a
+signed-halfword-indexed pointer. Its displayed consumer is still unreviewed;
+those two debug resources are excluded from the current world insertion.
+
+World completion accepted: 19 sources / 21 pointers, 40 English cases /
+40 screens, 20 control pixel pairs, 13 native Zoom selectors/marker handoffs
+and two inline warehouse readers. Actual paged wrapper `0807AD68` supplies
+its `[0,1,speech]` extra arguments to the native page engine; word wrapping,
+continuations and flags are checked. World observations retain their separate
+256-byte printf / 1,024-byte formatter capacities. Original startup strings,
+previous patches and appended bytes remain intact; the
+[checkpoint](../build/completion/world-completion/component-checkpoint.json)
+reconstructs both complete images. Combined appended use is 426,467
+bytes. English SHA256
+`d15009ca598199febd4b0468638c161ad63574281abccb43f887ddd08ce25a7f`.
+
+### Remaining system-menu and status readers
+
+The corrected [system-reader listing](../build/completion/remaining-ui/research/system-readers.txt)
+uses actual entries `080027B0`, `0800398C`, `08003A40`, `08003CBC`,
+`08005050`, `080050B0`, `0801B454`, `0801EA9C`, `0801FBCC`,
+`08034A70`, `0803EF0C`, `0805C998`, `08060458`, `080604A8` and `08062DD0`.
+Raw PUSH-like halfwords in pointer literals do not establish function entries.
+
+`080027B0` populates an Adventure Log summary. Source `0009B4DC` is copied
+with an explicit 23-byte length into summary +27 (hex) in the dungeon-menu
+case. Any replacement for that particular fixed copy must include 23 allocated
+bytes, including safe termination/padding. Source `0009B4F4` is a `%s` entry
+summary, formatted into the existing 64-byte summary field `[+27,+67)`;
+`0009B4FC` is the separate language-neutral dungeon/floor format. No summary
+field or save record may be enlarged merely by relocating its string.
+
+`0800398C` draws all six extra-mode menu rows from `[0009B504,0009B51C)`
+through literal `00003A3C`, preserving the row selector array. Its nominal
+window is 18 tiles (144 pixels) wide. `08003A40` draws four adventure-party
+choices from literals `00003C40`, `00003C44`, `00003C48`, `00003C4C`; its
+window specification starts at `0009B5B8`, and its height comes from the
+existing row-count table `00C3D8C6`. Return codes come from five words at
+`[0009B5A4,0009B5B8)` (0,1,2,3,-1), including Cancel. Labels do not authorize
+changing those return values or either window table.
+
+Retry selector `080050B0` returns source `0009B6C4` or `0009B6AC` through
+literals `000050C0` / `000050CC`. Caller `08003CBC` passes the result to the
+original confirmation reader `0807B1CC`. Its companion-selection UI references
+source `0009B66C` and heading `0009B6A0` through `00004A38` / `00004A3C`.
+Related dungeon-menu sources `000A6900`, `000A690C`, `000A6940`, `000A6948`
+have distinct reviewed literals `0001F204`, `0001FF64`, `0001FF68`, `000200DC`;
+high `CE` data references remain unreviewed and excluded.
+
+Special monster-house name records have parallel bases `000AE574` and
+`000C5E44`, each 20 records of 44 bytes. The base-pointer pair
+`[000D9070,000D9078)` is indexed by the existing protagonist selector.
+`08034A70` copies the selected name into a 30-byte destination and explicitly
+terminates destination +29; the fallback name at `000D9078` is copied through
+literal `00034B00` with the same bound. Only the first word of each 44-byte
+record is a name pointer; other record fields remain occupied. Full names
+must fit 29 encoded bytes unless that native buffer is deliberately redesigned.
+
+The status-label table `[001B994C,001B997C)` contains 12 pointers: Torneko,
+Tipper, Rosa, Ines and eight growth-type labels. Source `ポポ口` at `001B98DF`
+is the original indexed-glyph rendering for the Tipper row, not a distinct
+character identity. Reader `08072FBC` selects its label through literal
+`00073348` at `080732F8..08073306`, formats through `0807D8CC`, then draws
+at x=100,y=0 in window 0 at `08073312..0807331C`. The selector is read from
+its original local stack word +458 (hex); isolated tests must provide a valid
+original-sized stack context, not assume entry SP is the local SP.
+
+Retained-key review also uses the already accepted typed dictionaries:
+108 adventure-history pairs plus terminator at `[00C4D250,00C4D5B8)`, read
+by `08087788`, and 31 tutorial pairs plus terminator at
+`[000A536C,000A546C)`, read by `0807DC98`. Each eight-byte record has a key
+pointer followed by a displayed-value pointer. Only values were translated;
+keys and their source strings must remain unchanged. Prior component native
+lookup checks establish those roles. The retained-resource report records
+exact key spans and verifies their bytes/pointer words in the latest ROM.
+Of these 139 distinct keys, 138 are master-inventory entries and one is outside
+that inventory. Do not count any of them as newly authored English.
+
+Object-label reader `0801B454` uses four pointers `[000A66F0,000A6700)`
+for record type 4, through literal `0001B494`. Its fallback unknown-object
+literal is `0001B4A8`. Both paths copy 30 bytes and terminate +29; the
+original type/handle/index record remains unchanged.
+
+Equipment detail source `001B446D` (`上限+%d`) is loaded via `0006DE40` and
+drawn at x=144,y=3, leaving 64 pixels in the existing 208-pixel window.
+The native argument is signed halfword +4 in 28-byte item records based at
+`000E07F4` (literal `0006DE44`). All 75 rows with types 0..2 have values
+0..99. That actual input bound controls this field's English width. It does
+not justify reducing general printf capacity checks for unrelated readers.
+
+Sources `001B4484` / `001B448D` belong to `0806E1C0`: two 64-byte temporary
+printf buffers are concatenated into a caller-owned 1,024-byte destination.
+The first counts visible equipment marks, subtracting mark bytes with bit 80;
+the second formats the result of `0807EC14`. Existing glossary `Mark` is the
+identity for 印; avoid introducing an unrelated Seal label. No mark-array or
+item-record capacity is changed. Source `001B447E` is a special visibility
+message for item 209 (Hocus Pocus scroll) and reaches `0806E2CC`; it is not
+proof of a generic unidentified-stat label. Synthesis heading `00C3DA2C`,
+read through `0006DD5C`, retains controls `03 12` and `03 05 04`.
+
+System-label verification uses an isolated local stack at `03007800` for
+the growth reader slice `080732F8..08073320`: output
+`[0300780C,03007A0C)` (512 bytes), formatter context
+`[03007A0C,03007C0C)` (512 bytes), selector word
+`[03007C58,03007C5C)`. These are transient test fixtures, restored between
+cases, not new game reservations. The equipment-cap slice uses the same
+local SP with its 64-byte output at `[03007868,030078A8)`.
+Adventure Log display reader `080853E0` reads the title at +17 (hex) in
+each original 92-byte record, via `08085560..0808556C`, composing
+`%s[%s] %s` with the player name. The title occupies `[+17,+57)` (64
+bytes); the larger profile's source title remains at `[+27,+67)`.
+The existing 184-byte two-record fixture at `0203F000` supplies these
+fields without changing save structure. Whole composed lines need width
+checks, not just isolated dungeon names.
+
+The companion chooser copies config +20 through `08070B96..08070BA6`
+into `[02008E38,02008E3D)` with a five-byte copy and forced terminator
+at +4. Its adventure heading therefore has only four encoded bytes.
+The candidate full word "Adventure" does not fit this native field. Its three
+remaining occurrences use the established ally-service display "Trip", keeping
+the full catalog wording and original draft. No buffer is enlarged.
+Reader evidence: [additional system readers](../build/completion/remaining-ui/research/system-confirm-readers.txt).
+
+Native preset 12 actually produces a 192-by-112-pixel window in these detail
+fixtures. The equipment cap at x144 has 48 pixels, and growth text at x100
+has 92 pixels; earlier provisional 208/64/108 measurements were too generous.
+The builder now checks these observed smaller limits. Equipment statistics
+use the same original window at x0,y100. All original 24-byte item records
+in the fixture remain intact, including enhancement/mark fields.
+The only discovered call to party chooser `08003A40` is `080038FE`, with
+r0=6, so its actual window height is selected by row-count-table entry 6.
+The four labels are still drawn as four rows. The earlier count-4 exploratory
+fixture was not evidence of the real caller's geometry.
+Dungeon-menu copies at `0801FF4A..0801FF54` place the error/context pointers
+at local SP+28/+2C in a configuration beginning at SP+C; these remain
+configuration +1C/+20. Suspend confirmation at `080200AC..080200B2`
+uses wrapper `0807B208`, while retry uses `0807B1CC`.
+
+The complete type-4 object-name selector table is `[000A66EC,000A6700)`:
+index 0 points to the original empty string `000A671C`, and indices 1..4
+select Fire pillar, Ice, Sand pillar and Wind pillar. The four nonempty
+pointer words `[000A66F0,000A6700)` are owned by this component. The literal
+`0001B494` points to the full five-entry base, not the first translated word.
+The native test covers all five indices plus the unknown-object fallback;
+the earlier index-0..3-only probe missed Wind pillar and is superseded.
+
+System labels accepted: 42 protected sources / 42 pointer words, 549 English
+native cases and 549 Japanese pixel pairs. Both complete images are reconstructed
+from original ROM plus the cumulative allocation/patch ledger; all prior patches,
+appended bytes and protected original sources remain intact. Combined appended
+use is 427,239 bytes. English SHA256 `e57a95e98f74f5cbf4ea745b4f192096d38a05331ede5daf780b40b27d7ccdf1`.
+Exact allocation/source spans: [build report](../build/completion/system-labels/english-build.json).
+Acceptance: [checkpoint](../build/completion/system-labels/component-checkpoint.json).
+
+### Themed houses and remaining companion commands
+
+Planned encounter-UI component, based on the accepted system-label ROM.
+The two 20-record house tables `[000AE574,000AE8E4)` and
+`[000C5E44,000C61B4)` retain their 44-byte stride and all 40 bytes after
+each first-word name pointer. Their 20 shared source strings occupy exact
+parsed spans within `[000AE8E4,000AEA25)`; the fallback starts at `000D9078`.
+Only the 40 first-word pointers and fallback literal `00034B00` are owned.
+Initializer `08034A48` passes the existing dungeon structure's 30-byte
+name field `[+1977A,+19798)`, followed by theme ID `[+19798,+1979A)` and
+rank `[+1979A,+1979C)`, to `08034A70`. The structure base is read through
+`0200000C`; offsets are hex and are not save-file addresses. No field expands.
+Selector `08034B80..08034B9E` uses protagonist word `02004F8C` to select
+one of the two bases at `000D9070`. All themes and both protagonists need
+native bounded-copy coverage. The second caller `0803C1E4` passes a null
+text destination; it does not establish another displayed-name buffer.
+
+Companion menu tables are `[000D9340,000D9370)`, `[000D93C8,000D93F8)`,
+`[000D9580,000D95B0)`, `[000D9638,000D9668)` (three 12-byte rows plus
+zero terminator each), and `[000D9680,000D96BC)` (four rows plus terminator).
+Only each row's first pointer word is text; availability pointers and return
+codes remain unchanged. Sixteen words address 15 distinct strings because
+Cancel at `000D9668` is shared. Sources occupy parsed spans in
+`[000D9370,000D96D8)`, excluding intervening structures.
+Original menu consumers: `0803EF0C` / literal `0003EF58`, `0803F7BC` /
+`0003F818`, `08043BC4` / `00043C64`, and `08045088` / `00045250` and
+`0004525C`. The spell menu's three availability bytes are the existing
+`[02006B58,02006B5B)`; caller `080451FC..0804520C` derives them from the
+entity's spell flags. Fixtures may cover all eight enabled combinations but
+must retain the original availability-pointer and return-code words.
+
+New text will use the cumulative append allocator. Original name pools,
+zero terminators, record payloads and any excluded references stay occupied.
+
+House-entry reader `080336F4` copies the dungeon name field through
+`0803376E..0803377E` into the existing 30-byte `$m0` slot
+`[0200A34C,0200A36A)`. It queues source `001B50C5` through literal
+`000337C0` for mode 1; mode 2 uses the separate appearance narration
+`001B50CD` via `000337C4`. Both narration sources already belong to the
+tutorial-gameplay component and must not receive a second patch owner.
+Encounter fixtures exercise the real 30-byte field-to-slot copy before
+the already documented queue/history fixture changes its temporary base.
+The source field's neighboring bytes and the other actor slots are preserved.
+
+The early-world emulator snapshot has no active dungeon-structure base.
+For the isolated house-field reader only, disposable controller scratch
+`[0203F042,0203F060)` supplies the 30-byte source, with adjacent sentinels.
+The pointer word at `0200000C` temporarily receives `0203F042-1977A`
+(`020258C8`, aligned), so the native offset arithmetic reaches that field.
+This models only that single accessed field, not an allocated full structure.
+The pointer is restored immediately after `0803376E..08033780`; subsequent
+formatting/queue calls never run against the synthetic base.
+
+House narration correction: existing source `[001B50C5,001B50CC)` / pointer
+`[000337C0,000337C4)` currently has tutorial owner
+`tutorial.001b50c5.000337c0`, whose accepted replacement is `09012BFC`.
+The encounter component explicitly supersedes that exact four-byte patch
+in English, preserving its complete prior ledger record, to add the missing
+indefinite article: "It's a $m0!". The 36 newly translated sources remain
+distinct from this one previously authored correction. The original Japanese
+bytes and previous allocated English stay occupied. The Japanese control
+retains the accepted tutorial English narration, so its comparison isolates
+the 36 newly relocated resources instead of reverting an older component.
+
+Retained-result review confirms the 101 key/value pairs plus terminator in
+`[000DB3B8,000DB6E8)`. Original result keys remain separate from translated
+cause values. The accepted result component already exercises all 101 keys
+for both protagonist contexts through the native result/list readers
+(including `0800177C`); the retained audit now verifies key bytes and pointer
+words in the accepted system-label ROM. These add 101 retained inventory
+entries, not authored English or reusable ROM space.
+
+Encounter UI accepted: 36 new sources plus one corrected announcement,
+58 pointer words, 54 native cases and 54 Japanese pixel pairs. All previous
+appended bytes and original sources remain intact; the only changed prior
+patch is the explicitly superseded tutorial narration at `000337C0`.
+Both complete images reconstruct from their ledgers. Combined appended use
+is 427,696 bytes. English SHA256 `263c9ac4b2321967a30cafc7fdb59c078629969aa373e51109ce840b4d5dc878`.
+Exact sources/allocations: [build report](../build/completion/encounter-ui/english-build.json).
+Acceptance: [checkpoint](../build/completion/encounter-ui/component-checkpoint.json).
+
+### Remaining arena outcome text
+
+Three remaining sources are `[000DC870,000DC883)` (No winner),
+`[000DC884,000DC89D)` (positioned winner/odds row) and
+`[000DC8A0,000DC8A9)` (additional winners). Reader `0805C998` uses literals
+`0005CB7C`, `0005CC8C` and `0005CB94`, respectively. These three four-byte
+literal words are new owners; source bytes and the older arena/result owners
+remain occupied. Original window preset 20 is constructed at `0805CB1E..28`.
+The row formatter at `0805CC16..42` uses a 200-byte local buffer at SP+14
+(hex), followed by draw x12 and rows spaced 13 pixels apart. It retains a
+dynamic colour byte, No.%d, name position control `03 08 2C` and odds position
+`03 08 A4`. No-winner text draws at x48,y56; the additional-winners label
+draws at x160 after the eighth displayed winner. Name input is the original
+30-byte actor slot `0200A34C`; odds come from `02009228`, already documented
+with the generator's 9999-tenths upper bound. Only 倍 becomes `x` in the row.
+
+Isolated arena-row fixtures may use local SP `03007B00` and its 200-byte
+buffer `[03007B14,03007BDC)`, inside the existing disposable stack envelope.
+Extra printf arguments occupy SP+0/+4/+8. Guards beside the buffer are for
+the bounded instruction slice, not a changed live stack-frame layout.
+
+Arena outcome text accepted: three sources and three literal pointer words,
+205 native cases and 205 Japanese pixel pairs. Earlier patches, allocations
+and original protected sources are unchanged; both ROMs reconstruct from
+their ledgers. Combined appended use: 427,751 bytes.
+English SHA256 `f71bc1e8151508385d92fd287ea8e16ed5206571b79892cc001a738a55720fdf`.
+[Build report](../build/completion/arena-final/english-build.json),
+[checkpoint](../build/completion/arena-final/component-checkpoint.json).
+
+The heading at ROM `000DC838` is **not an ordinary text source**: native
+`0805D070` reads one-byte indexes terminated by zero, then blits each selected
+16×16 tile with 16-pixel advance. Literal `0005CB78` refers to this heading;
+the graphic atlas base is loaded through `0005D0B0`. No insertion ownership
+is granted yet. See [native reader](../build/completion/remaining-ui/research/arena-heading-reader.txt).
+
+Further arena graphics reader evidence: ROM `[003C8CA0,003C9A20)` contains
+the 27 addressed 16×16, 4-bpp cells (128 bytes each), based at literal
+`[0005D0B0,0005D0B4)`. Index zero terminates a heading; nonzero index N
+selects cell N−1. Six index sequences occupy `[000DC838,000DC843)`,
+`[000DC843,000DC84B)`, `[000DC84B,000DC852)`, `[000DC852,000DC85B)`,
+`[000DC85B,000DC864)` and `[000DC864,000DC86E)`; trailing bytes through
+`000DC870` remain unowned. Source pointer words are respectively `0005CB78`,
+`0005CF0C`, `0005CF4C`/`0005CF8C`, `0005CF90`, `0005CF50`, and `0005CF28`.
+The only direct Thumb calls to `0805D070` are at `0005CB3E`, `0005CED8`,
+`0005CF1E`, `0005CF36`, `0005CF40`, `0005CF5E`, and `0005CF68`.
+This establishes occupied graphics resources, not free space. Exploratory
+native renders use the already documented arena window/session fixtures;
+no RAM or ROM patch is needed to inspect each source.
+
+Arena graphics insertion plan (reader ownership confirmed): replace the seven
+source pointer words above and the atlas-base word `0005D0B0` with appended
+index sequences/atlas. Keep every sequence's original cell count and every
+native caller position. English phrases are rasterized from pinned original
+font 0 into the same 16-pixel-high strips and packed as four 8×8 GBA tiles per
+cell. All new bytes use the combined allocator; original atlas/descriptors
+stay protected. Japanese controls relocate byte-identical original assets.
+No executable code, RAM reservation, save field or palette pointer changes.
+
+The actual arena palette is ROM `[003C9CA0,003C9CE0)`, sixteen 32-bit RGB
+values loaded by `0805CAFC..0805CB1C` (literal `0005CB74`) and
+`0805CE96..0805CEB6` (literal `0005CF08`) into palette bank 14. The unused
+gap after the addressed atlas cells is not insertion space. Graphics proof
+must include this native palette setup, not a palette inherited from a world
+save. Existing window 0 descriptor `[02034CD8,02034D18)` supplies buffer+14,
+tile width+4 and height+6; blitter `0808C2D8` copies 8×8 tiles and sets bank 14
+in the tilemap at `02034DDC`. These are original occupied engine structures.
+
+Manual source transcription from the indexed graphics: `今回の勝利モンスター`
+(winning monsters), `今回の対戦結果` (battle results), `ポポロの仲間`
+(Tipper's allies), `<<<勝利>>>`, `<<<敗北>>>`, `<<<引分け>>>`.
+The shared IDs 6/7 in both the first heading and victory establish that the
+first heading refers to **winners**, not the combatant roster. These six
+resources are outside the 9,318-entry ordinary-string inventory.
+
+Graphics proof executes original palette/window initialization
+`0805CAFC..0805CB38`, then the winner heading slice `0805CB38..0805CB52`;
+team-result initialization/draw is `0805CEB8..0805CEEC` followed by
+`0805CEEC..0805CF78`, stopping before the input wait. Team result selector
+is the original transient local `SP+1C` with SP=`03007B00`; values 0/1/2
+select draw/defeat/victory. The native result-status byte selected through
+literals `0005CF2C`, `0005CF54`, `0005CF94` is preserved as a game write and
+must equal 2/0/1, respectively. Fixtures restore the complete state each case.
+Full allocated window tile-buffer comparisons check changes only inside the
+requested 16×16 cells. No guard bytes are written into neighbouring data.
+Actual arena preset 20 has a **208×136** visible/allocated bitmap (26×17
+tiles), using original static RAM `[02035E1C,0203955C)`, 14,144 bytes. This
+buffer is above the game heap, not allocated within it; descriptor+24 is
+`3740` bytes and both +14/+18 point at `02035E1C`. The first exploratory
+graphics proof rejected an incorrect heap-range assumption before drawing.
+Existing font state beginning at `020398EC` remains outside this bitmap.
+The native result-status byte is `[02000790,02000791)`.
+
+Arena graphics accepted: six indexed phrases outside the ordinary inventory,
+eight pointer words, five native displays and five Japanese control pixel
+pairs. All original assets/palette and earlier patches/allocations remain
+intact. Both complete images reconstruct from their ledgers; combined appended
+use is 433,958 bytes. English SHA256 `a3f1088e83d01bf2692806e67fe80c5a842fd3eedb6d9d2f1beb86f97ee2e79d`.
+[Build report](../build/completion/arena-graphics/english-build.json),
+[checkpoint](../build/completion/arena-graphics/component-checkpoint.json).
+
+### Remaining-resource classification: scene metadata investigation
+
+Original scene pointer cache `[0200046C,02000604)` is initialized from ROM
+`[00CB02F4,00CB048C)` (102 pointers); the next word `00CB048C` is zero.
+Accessor `0806C5F0` indexes this table with a signed scene ID and uses the
+36-byte fallback descriptor `[00916BC0,00916BE4)` for negative IDs. Each
+scene descriptor is nine words; `08067022..0806702E` copies exactly 36 bytes.
+Descriptor +14/+18/+1C/+20 refer respectively to actor groups, object groups,
+trigger groups and map data. These are occupied resources, not text/free space.
+
+Actor reader `080690FC` and object reader `0806B598` select an eight-byte
+count/pointer group using an unsigned-byte group index, then walk 24-byte
+records. Their record constructors read +8/+C/+10/+14 as four script roots
+and register them with `08064454` in the controller's slots +10/+14/+18/+1C.
+Controller activation is `0806452C`; command fetch `08064E42` reads two words,
+advances the active cursor by eight bytes, then dispatches on the low byte.
+Script root bytes often decode spuriously as `H`, `K`, `p`, etc.
+
+The group count varies by scene; a preliminary uniform-27-group scan was
+rejected after malformed records. A bounded structural scan now stops at the
+first invalid count/pointer or script-pointer record and before other named
+descriptor resources. It supplies candidates for native reader verification,
+**not** a complete scene grammar, natural reachability claim or insertion
+ownership. Reports retain exact scene/group/record ancestry. Reader listings:
+[scene readers](../build/completion/remaining-ui/research/scene-readers.txt),
+[record constructors](../build/completion/remaining-ui/research/scene-record-readers.txt),
+[controller registration](../build/completion/remaining-ui/research/event-controller-readers.txt),
+[command fetch](../build/completion/remaining-ui/research/event-dispatch-full.txt).
+
+Native classification fixtures may reuse the already mapped 128-byte event
+controller `[0203F000,0203F080)`, restoring the original world state between
+cases. They must check the original scene cache, record-root selection,
+registered slot and fetched command bytes, stopping at the dispatch boundary
+before executing candidate event actions. No original program bytes change.
+
+Controller activation needs a larger fixture than fetch-only tests:
+`08064488` saves/clears a second 68-byte state at controller+64 (hex), through
+controller+A8. The scene classification fixture therefore uses disposable
+`[0203F000,0203F0A8)` plus eight-byte guards, still below the existing separate
+script fixture at `0203F100`. The earlier 128-byte controller is sufficient
+only for narrower fetch fixtures; it is not the full controller size.
+Native activation writes the selected slot at +20, state 2 at +22 and script
+pointers at +24/+28; fetch writes current-record pointer +34 and opcode +38.
+The first audit attempt stopped on uninitialized cold-cache evidence before
+activation. Subsequent proof must boot before checking that cache.
+
+Scene command classification accepted for 205 master entries. Exact source
+prefix spans, enclosing eight-byte commands and scene/group/record-pointer
+ancestry are authoritative in
+[native verification](../build/completion/scene-resource-audit/native-verification.json).
+Each follows native group selection, record stride, script registration,
+activation, fetch and dispatch with intact 168-byte controller guards.
+No ROM bytes change, and no surrounding script space is released.
+
+The retained-resource report also classifies original kana grid spans
+`[00C454E8,00C4568E)`, `[00C45690,00C45822)`, `[00C45824,00C459B1)`,
+`[00C459B4,00C45B41)` and compact-map spans `[00C467EC,00C4696B)`,
+`[00C4696C,00C46AEB)`. Original bytes remain intact; type-zero's appended
+map retains the original 191 entries. Existing native keyboard evidence
+establishes their input-alphabet purpose. These spans include the ordinary
+decoder's terminators; they are not released as insertion space.
+
+Seventeen ASCII placeholders in the already mapped five-by-21 church table
+are retained positional values; 35 pointer words select them. They are not
+asserted to be lookup keys. Exact strings/words remain in
+[retained resources](../build/completion/retained-resources.json).
+Original opening command `[0091B688,0091B690)` accounts for one further
+misdecoded prefix; the original natural trace fetched its exact bytes.
+The previously mapped player-shop field `[0087185C,00871860)` is integer
+50,000 rather than Japanese text. Accounting at that checkpoint was 635 master
+entries plus one outside; 266 ordinary inventory entries remained open.
+
+### Scene background graphics and tile-index resources
+
+Scene descriptor+0 points at a 24-byte graphics header. Native `08066FE4`
+reads header u16+0 as format `0202` or `0303`, u16+2 as the count of 8×8
+tiles including synthetic blank tile zero, u16+6 as metatile count including
+blank zero, pointer+C as stored 4-bpp tile bytes, and pointer+10 as metatile
+u16 tile-index definitions. Stored tile span is `(count−1)*32` bytes;
+metatile span is `(count−1)*4*2` or `(count−1)*9*2` bytes. The native loops
+explicitly begin at tile/metatile index 1 and construct the blank entry.
+
+Native tile copy `08067198..080671A6` copies sixteen halfwords per tile.
+Metatile copy `0806725C..0806726E` copies four/nine halfwords, after native
+format selection `080671CC..08067230`. Exact scene/header/asset ranges for
+the 71 matching extraction candidates are indexed in
+[graphics candidates](../build/completion/remaining-ui/research/scene-graphics-candidates.json).
+These are occupied graphics assets. All 71 native-copy classifications pass;
+no graphics bytes are patched or released.
+
+The copy proof reuses mapped scratch `0203F200` with 36-byte descriptor,
+32-byte tile or up-to-18-byte metatile buffers and eight-byte guards. Existing
+stack fixture `03007800` holds a temporary original graphics-header pointer
+for the native format selector. Original format state is changed only by its
+native selector in disposable emulator fixtures; all adjacent fields must
+remain unchanged. The complete save state is restored between candidates.
+The format/tiles-per-metatile pair occupies `[02008CB8,02008CBC)`;
+`00067180` and `00067324` both point at that original state. The format
+selector also reads the existing destination pointer at `0300001C`, but the
+bounded selector stops before any writes through that pointer.
+The copy fixtures enter at `08067196` / `0806724E` so the native code
+initializes its loop counter once. The first exploratory test put register
+overrides at the loop head, which reset the counter repeatedly and was
+rejected by the step limit; it supplied no classification evidence.
+
+Accepted [native graphics proof](../build/completion/scene-graphics-audit/native-verification.json)
+covers all 71 candidates. Eight additional candidates lie wholly within the
+previously verified eight-byte event commands; exact containment is in the
+retained-resource report. Current accounting is 714 retained master entries
+plus one outside, with 187 ordinary inventory entries still open.
+
+### Remaining auxiliary resources: native audit scope
+
+The global event-program table has eight-byte records rooted at ROM `00929EE8`.
+Native `08066EF4` indexes signed ID×8 and reads pointer field +4 through literal
+`00066F18`, then activates an event controller with `08064488`. Selected words
+`00929F44`, `0092A17C`, `0092A1EC`, `0092A2DC` point to command records
+`[00917898,009178A0)`, `[009187C4,009187CC)`, `[00918BA4,00918BAC)`,
+`[0091CE6C,0091CE74)`. This proves selected records only, not the table's full
+extent. The audit redirects the native controller argument to the already
+mapped guarded 168-byte temporary fixture before activation. No live global
+controller or ROM program is changed.
+
+Actor records `[009A8B1C,009A8B34)` and `[009EC564,009EC57C)` are selected by
+scene 15/22 actor group zero, words `009A8FCC` / `009ECB04`. The first byte is
+an actor type/ID used as a numeric selector by constructor `08069350`, read
+at `08069368`. The audit stops at `0806936A`, before actor allocation/actions.
+
+Numeric record `[0086F698,0086F6A8)` has 16-byte stride; `08062D94` reads its
+first two signed halfwords and passes them to event-flag query `08000660`.
+The four-byte records `[00872ABC,00872AC4)` have the same pair of numeric
+fields, selected by `08063D5C` (query) / `08063D8C` (query/set). The audit stops
+before the flag call and does not change flag state.
+
+The suffix pointer table ROM `[00CB0640,00CB0668)` is initialized at RAM
+`[020007B8,020007E0)`. Native `0807D28C` selects the ten original full-width
+digit strings `[00C46C14,00C46C3B)` through that table. These are existing
+nickname suffix assets; the earlier recruitment proof establishes their use.
+
+Kana conversion `0807D2F8` searches the zero-terminated half-width lookup at
+`00C46BDC`, then reads the matching two-byte full-width glyph from `00C46B6C`
+(literals `0007D344`, `0007D348`, `0007D390`). The apparent larger string
+starting `00C46AEC` includes a preceding resource and is not covered by this
+reader alone. Conversion fixtures use existing scratch `0203F200` for output
+and `0203F300` for input with eight-byte guards; no text asset changes.
+
+Compact default-name records `[00C4CE97,00C4CEA3)` have two six-byte rows,
+selected by protagonist byte `[02004F80,02004F81)` in `080858B4`. Native
+`080858C4..080858D8` selects/copies the row into local stack+8 before calling
+the compact-name editor; the apparent `Ey...` text is compact character IDs.
+The audit temporarily uses the already mapped stack at `03007800`, guards a
+six-byte copy at +8, and restores the complete emulator state between rows.
+
+The compact-default audit must run its selector/copy on the Japanese ROM:
+the accepted seven-letter name component intentionally redirects `00085904`
+and clears the slot-dependent index at `000858CC` so both new Logs default
+to Torneko. The original two compact rows remain protected source assets, not
+the active English default. An initial audit expecting them through the changed
+English pointer was rejected; this was a fixture assumption, not a ROM failure.
+
+### Neutral formatting and original English diagnostics
+
+[Reviewed source manifest](../build/completion/neutral-resource-audit/source-review.json)
+indexes 64 exact original source spans, literal words, load instructions and
+consumer listings. It includes six result-key printf templates, three heart
+prefix templates, neutral menu/item/name formats, and original English debug
+text. These sources/words remain occupied and unchanged; this review does not
+allocate space or authorize text replacement. Native one-instruction probes
+may confirm each literal resolution with CPU context restored and no RAM writes.
+Static consumer review remains distinct from a full execution/display test.
+
+Source bytes `83 C5` in templates `0009B408`, `000DC790`, `00C4D1A8` have CP932
+viewing label eta, but the original font-zero descriptor at
+`[00C94B9C,00C94BA8)` points to a heart bitmap `[00C822E0,00C82328)`.
+Preserve that graphic marker. Conversely indexed `F8 A0` in candidate
+`001B551C` really depicts a star: descriptor `[00C9414C,00C94158)`, bitmap
+`[00C7E500,00C7E548)`. The phrase's unusual `★間` needs context review; it
+must not be silently corrected to a guessed Japanese kanji.
+
+The [auxiliary and neutral audit](AUXILIARY_RESOURCES.md) classifies another
+22 typed numeric/input resources and 64 unchanged formats/original English
+diagnostics. Current inventory: **8,417 authored + 800 retained + 101 open =
+9,318**. No ROM allocation or source bytes change in this classification pass.
+
+### Remaining sound-test help and dungeon-floor summary
+
+The sound-test function `08090960` has four Japanese help pointers in startup
+ROM `[00CB07EC,00CB07FC)`, copied to RAM `[02000964,02000974)`. In order they
+select BGM, ME, SE and Return help sources at `00CAF2E0`, `00CAF2CC`, `00CAF2B8`,
+`00CAF29C`. Exact string ends are recorded by `translations/remaining-display.json`
+before insertion. Only those four pointer words may change; surrounding debug
+labels, state and native menu remain intact. Similar high `CE...` arrays have
+not been established as owners and are excluded.
+
+Native selector `08090CC8..08090CD2` uses row `r7` and writes the selected text
+cursor at help state+10. Original help state `[02039F90,02039FA4)` consists of
+phase, selected row, X, Y and source cursor. Initialize via `08090CB4..08090CD2`;
+per-character loop `08090CD8..08090D20` decodes at `08090CE2` and draws at
+`08090D10`, updating cursor/X itself. A zero glyph ends the help. Temporary
+stack `03007800` supplies its local glyph word at +2C. This is an existing
+state machine exercised in restored emulator fixtures, not new RAM storage.
+
+The live-dungeon log summary format `[0009B4FC,0009B503)` is selected through
+literal `[000029F0,000029F4)` by `080027B0`. Native slice `080029C6..080029E2`
+reads dungeon ID byte `[02004FF0,02004FF1)` through `0805F33C`, and floor byte
+`[02004FF1,02004FF2)`, then formats into its existing 64-byte field at record+27
+(hex). The English format is `%s %dF`; its full byte domain is floor 0..255.
+No profile/record size changes. Proofs reuse guarded `0203F200` (64 bytes),
+then the existing two-by-92-byte display fixture at `0203F000` and actual
+`080853E0` Adventure Log renderer, with seven-letter names and both log slots.
+
+The controlled native sound-test setup confirms that help preset 2 is a
+208×40 panel at screen origin (16,112), using font 0 with zero extra spacing.
+The character loop itself handles cursor advance and termination. Original
+ASCII title/options use a separate tile-map renderer `0808CA0C` and remain
+unchanged. The fixture retains the early-world background, so these checks do
+not claim natural entry into the diagnostic menu or audio playback coverage.
+
+Remaining display accepted: five source strings / five pointer words,
+132 native English cases and 132 Japanese control pixel pairs. The cold sound
+cache, glyph positions, live-floor formatter, log records and buffer guards
+pass; previous source bytes, patches and appended assets remain unchanged.
+Combined appended use is 434,053 bytes. English SHA256
+`f0c51f1b3a4229964d23a2f0416bb854dafe1196799ce4ccea2302b211e7fb97`. [Build ledger](../build/completion/remaining-display/english-build.json)
+and [checkpoint](../build/completion/remaining-display/component-checkpoint.json).
+
+### High-ROM duplicate-image leads (unresolved)
+
+The main startup copies IWRAM from ROM `[00CB0F44,00CB1B64)` to
+`[03000000,03000C20)` through `08087980..08087992`, with source literal
+`00087A14`. Apparent code at ROM `00CF0000` matches a 32-byte run at
+`00CB1078` and `00CE2D18`. Candidate duplicate-image bases `00CE2BE4` and
+`00CEFECC` are comparison leads only: the first differs in 67 bytes over the
+C20-byte comparison, mostly relocated RAM/ROM literals; the second differs
+more widely and its true start/extent are not established by that local match.
+Neither high candidate base has a direct 32-bit ROM-address occurrence.
+
+The earlier diagnostic text also has counterparts at `00CE0770..00CE0948`
+and `00CEDA7C..00CEDC9C`, with different help-table words at `00CE248C` /
+`00CEF7A0`. This resembles additional linked data images but does not prove
+that they are unused. They remain protected, unclassified leads. No insertion,
+free-space reuse, blanket duplicate translation or runtime reachability claim
+is authorized by this comparison. Main code also accesses audio data above
+`00D00000`; high address alone is not an unused-data criterion.
+
+[Unowned language review](../translations/unowned-text-review.json) now indexes
+31 exact Japanese source spans with preserved raw tokens: 30 English drafts
+and one unresolved phrase. All have empty verified-pointer ownership. This
+catalog is separate from builds and grants no source-byte patch or allocation;
+its matching high-ROM duplicates remain protected regardless of apparent use.
+
+### Final typed fields and original ASCII startup values
+
+ROM `[00C3D8F0,00C3D910)` contains eight numeric values
+`500,4000,2500,650,1500,8500,700,200`. Native `0806F34E..0806F35E`
+selects an index from `0808DDC0(8)`, reads the selected word and supplies it
+as an extra argument to item formatter `08080A5C`. Thus candidate `00C3D90C`
+is the final integer 200. The bounded audit may select each valid index and
+stop before the stack store; it does not change item state or translate numbers.
+
+The previously mapped ally command table starts with integer command ID 100 at
+`[00C3DB78,00C3DB7C)`. Native `08071294..080712B4` reads table selector
+`[02000624,02000628)` and copies seven eight-byte command/label pairs to the
+existing `[020090C0,020090F8)` buffer. The audit restores state, selects table
+zero, compares all 56 bytes against the current ROM and checks adjacent bytes.
+Relocated label-pointer fields retain their prior owners; the numeric ID does
+not become a translation source or additional patch.
+
+ROM `[00C454D4,00C454E8)` holds five signed X offsets `-2,46,86,130,170`.
+Native `0807C07C..0807C086` selects a word and adds the window's X position.
+Candidate `00C454E4` is the final coordinate 170, not a kana character.
+Only read-only native indexing is needed for this classification.
+
+Original ASCII startup label pointers `[00CB07A0,00CB07C8)` are copied to
+`[02000918,02000940)`; identifier pointer `[00CAFEB8,00CAFEBC)` is copied to
+`[02000030,02000034)`. Eleven corresponding source strings are explicitly
+ASCII, including `arena_abort_ask2` and diagnostic category labels. Cold
+startup establishes their initialized-pointer ownership. Their later readers
+are unconfirmed: retain the original English/identifier content without
+claiming visible diagnostic-menu or dictionary-lookup coverage.
+
+A further [native field audit](../build/completion/remaining-field-audit/native-verification.json)
+confirms three numeric fields and eleven original ASCII startup values. The
+later consumers of those ASCII values remain unconfirmed. Current inventory:
+**8,422 authored build-catalog sources + 814 retained + 82 open = 9,318**.
+The separate 30 uninserted drafts remain part of the open technical queue.
+
+
+### Cold-boot and title graphics (new coverage)
+
+Original-ROM reader `0808508C` selects 16-byte records through literal
+`0808519C → 08C77BBC`. The contiguous candidate record span is
+`[00C77BBC,00C77C6C)`, eleven entries. Fields are tile/map pointer, 240-word
+original RGB palette pointer, 32-byte tile count and two-map mode byte.
+[Exact resource ranges](../build/completion/boot-graphics/research/resource-ranges.json)
+pin all source bytes. These occupied resources are not available for reuse.
+
+Natural cold boot selects records 1, 0, 9 and 2 at frames 8, 163, 317 and 471
+respectively: Square Enix, Chunsoft, copyright and the Japanese title. Both
+original and current English ROMs execute the same reads and exact copies;
+[Japanese proof](../build/completion/boot-graphics/research/japanese/provenance.json),
+[English proof](../build/completion/boot-graphics/research/english/provenance.json).
+These probes supply no input, forced function entry or RAM writes.
+
+Title record `[00C77BDC,00C77BEC)` owns maps `[00C5151C,00C5251C)`,
+627 tiles `[00C5251C,00C5737C)` and palette `[00C5737C,00C5773C)`.
+Two 32×32 halfword maps are copied by `08085138–08085160` into existing
+heap allocations addressed by `020105D4` and `020105D8` (observed
+`[02034290,02034A90)` and `[02033A90,02034290)` during boot). Native
+`080851EE–08085212` copies the tiles into `[06008000,0600CE60)` VRAM.
+The reader saves two prompt rows from map 0, offset `480`, in existing
+`[0201054C,020105CC)`; `080877C8` alternately restores or clears those
+rows to blink the original English start prompt. Those ranges are existing
+engine state, not new permanent allocations.
+
+The title logo contains Japanese lettering baked into tiles, outside the
+9,318-entry ordinary text inventory. Mapping it does not establish that other
+graphics have no text. No title insertion has been performed at this stage.
+
+
+Further typed-resource reader discoveries: world-label records
+`[00872E84,00872FEC)` are 30 twelve-byte records. Native `08066CC8`
+reads each label pointer, while `08066CE0` copies its two signed coordinates.
+Candidate `00872FE8` is the last Y coordinate (33), not punctuation.
+The labels retain ownership in their existing translation component.
+
+Scene 5 trigger group 27 is `[00946BE4,00946BEC)` (one record).
+Native `0806C390` selects the 12-byte trigger `[00946B00,00946B0C)`,
+whose +8 word selects the descriptor at `009461DC`. Constructor
+`0806C520–0806C524` dereferences its +4 word (`009461E0 → 08946070`)
+and stores the event-program pointer in the existing 28-byte runtime
+trigger's +18 field. Its cached runtime-array pointer is `03000038`;
+`0806C55C` reads the program pointer and the actor caller `0806A42E–0806A44C`
+passes it to `08069A70`. This establishes a different indirection from the
+actor/object script-root tables; the descriptor prefix is not itself being
+classified as opcode 07. Candidate `00946070` starts command bytes
+`5a00010003000000`. Bounded native verification remains required before
+retained-resource promotion.
+
+The next controlled field checks reuse previously documented scratch
+`0203F200` for an eight-byte coordinate pair or a guarded 28-byte trigger,
+with eight-byte guards. A temporary fixture redirect of existing
+`[03000038,0300003C)` may point only at that one trigger for index-zero
+getter checks, with surrounding bytes verified and the fixture reset
+between cases. This is not a new runtime or save reservation.
+
+The two further typed-resource checks now pass in the remaining-field audit:
+all thirty world-coordinate pairs and the complete trigger selection,
+constructor/getter, supplied-controller activation and command fetch chain.
+The original source bytes and surrounding fixture guards are intact.
+The user has explicitly chosen to preserve the Japanese title artwork. It is
+intentional retained art; no title allocation, patch or redraw is authorized
+as necessary work under the current translation plan.
+
+Short-label rescan: `[00ADCE8C,00ADCE8F)` and `[00ADDEA0,00ADDEA3)`
+match the font-zero bytes for “Yes”, but both lie inside the already mapped
+scene-60 metatile array `[00ADA080,00ADE07C)` (header `00AE045C`).
+This is static containment in an existing indexed asset, not a newly found
+prose reader. No additional graphics work or insertion is performed.
+[Rescan parameters and leads](../build/completion/remaining-ui/research/short-label-rescan.json).
+
+The natural cave replay observes existing queue renderer call `0805D55C`
+and scroll completion `0805D63C`, without redirecting execution. The former
+passes an existing 80-byte queue row to `0808CB84`; the latter follows the
+native six/twelve-callback scrolling loops. These observations distinguish
+the documented temporary y38 staging row from a static text overflow in the
+208×40 viewport. There is no new ROM, RAM or save reservation.
+
+Continuation candidate `[00B9F024,00B9F02C)` contains
+`a700000000000000`, immediately after the reader-confirmed opcode-45
+command `[00B9F01C,00B9F024)`. Scene 81/object group 10/row 0/field +14
+selects that first command through pointer word `00B9F660`.
+Its native handler `08065772..08065782` calls a virtual function at
+`0806577A`, then branches unconditionally from `0806577E` to fetch
+`08064E3C`. The callback's behavior has not been executed by this review.
+The following A7 handler `08066492` selects return value zero and reaches
+the common epilogue at `08066498`.
+
+A bounded continuation check may reuse scratch controller
+`[0203F000,0203F0A8)` and previously used transient stack area with
+`SP=03007800`. It must explicitly start after the unexecuted callback,
+stop before the epilogue, preserve guards and distinguish typed-command
+evidence from natural event/callback coverage. The
+[instruction listing](../build/completion/remaining-ui/research/command-45-continuation.txt)
+records both handlers. No source bytes or pointers are available for reuse.
+
+The continuation check now passes in the 17-resource remaining-field audit.
+It preserves all controller bytes apart from the expected cursor/current
+command/opcode fields. `00B9F024` is retained as command A7; the virtual
+callback and natural temple event remain untested.
+
+### Recovery-pot tutorial wording correction
+
+Normal floor-two play found that source `[001B492F,001B498D)` names its
+action “Press” in the earlier English draft, while the live action menu uses
+“Push”. The tutorial's owned pointer is `[001B4B08,001B4B0C)`, selected by
+the existing nine-row tutorial reader. Its current patch is
+`tutorial.001b492f.001b4b08`, owner `tutorial-gameplay`, with original pointer
+`081B492F` and earlier English pointer `09012934`. The earlier appended
+payload `[01012934,01012992)` remains occupied.
+
+Owner `text-polish` may explicitly supersede that one pointer through
+`RomBuild.supersede_patch` and append the corrected text through the shared
+allocator. It must preserve the original source, old English allocation,
+all other pointer/code patches, `$w` pause, 80-byte queue rows and 59-byte
+history limit. The baseline comparison keeps the earlier English ROM
+unchanged. No RAM/save changes are needed.
+
+The accepted correction appends `[01069F88,01069FE5)` (93 bytes), after
+three allocator-owned alignment bytes. The superseding pointer targets
+`09069F88`; the ledger preserves the full prior patch ownership. The baseline
+comparison uses the earlier English ROM unchanged. Native pot pickup,
+tutorial scrolling, action selection and HP recovery pass on both ROMs.
+See [TEXT_POLISH.md](TEXT_POLISH.md) and its complete image reconstruction.

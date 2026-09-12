@@ -1,0 +1,354 @@
+id	japanese	english	display	references	notes
+dungeon-event.000a3fc4	作戦	Tactics		core.tactics	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a3fcc	*再開する	*Resume			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a3fd8	闘技場を一時停止しています。	The arena battle is paused.			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a400c	"まだ勝負の途中ですが　見るのをやめますか？
+途中で見るのをやめた場合
+勝負は　引き分けになります。
+それでも　よろしいですか？"	"Stop watching before the battle is over?
+Leaving now will make the battle a draw.
+Are you sure?"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4088	"まだ勝負の途中ですが　見るのをやめますか？
+途中で見るのをやめた場合
+勝負には　負けたことになります。
+それでも　よろしいですか？"	"Stop watching before the battle is over?
+Leaving now will count as a defeat.
+Are you sure?"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4108	"……　わたしの　めいそうを
+ジャマする者は　誰だ……。
+
+あの　うっとおしい　大地の神も
+わたしのことを　完全には
+封印できなかった……。
+このうえ　虫ケラのような人間に
+なにが　できると言うのだ？
+
+おそれを知らぬ　おろかな人間よ。
+わたしの姿を　よく見るがいい……！"	"...Who dares disturb my meditation...?
+Even that meddlesome Earth God could not seal me away completely...
+What can an insignificant human hope to do?
+Foolish mortal, ignorant of fear... Behold my true form!"		lore.earth_god	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4210	"われこそは　この地の　真の救世主
+ヘルジャスティス。
+
+そなたが　のぞむならば
+わが闇の世界へ　送ってやろう。
+
+そして　この大地もすべて
+わたしのものになるのだ。
+
+人間どもの絶望とは　なんとも
+心地よいものだな。
+さあ　来るがよい……。"	"I am Hell Justice, the true saviour of this land.
+If you wish, I shall send you to my world of darkness.
+Then all this land shall be mine.
+Ah, the despair of mortals... How delightful it is. Come, then..."		enemy_hell_justice	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a42f8	"……　わたしの　めいそうを
+さまたげる者が　ふたたび
+やって来たのか……。
+われこそは　この地の　真の救世主
+ヘルジャスティス。
+
+そなたが　いかに　小さな存在であるか
+ここで　わたしが　教えてやろう……。
+"	"...Has someone come to disturb my meditation once more...?
+I am Hell Justice, the true saviour of this land.
+Now I shall teach you how insignificant you really are..."		enemy_hell_justice	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a43c4	"……　おろかな　人間よ
+なぜ　身のほどを　知らぬのか……。
+
+ふたたび　わたしの前に　その
+みにくい姿を　あらわすとは……。"	"...Foolish mortal. Why do you not know your place...?
+To show your wretched face before me once again..."			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4440	"われこそは　真の正義を　語る者
+ヘルジャスティス。
+
+そなたは……　ほほう　そうか。
+わたしの　ヨロイをうばった者の
+血を引く　息子だな。
+よろしい。　そなたも
+父と共に　飾ってやろう……。
+"	"I am Hell Justice, the voice of true justice.
+You are... Ah, I see. The son of the man who stole my armour.
+Very well. I shall put you on display beside your father..."		enemy_hell_justice	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a44fc	"……　おろかな　人間よ
+なぜ　身のほどを　知らぬのか……。
+
+ふたたび　わたしの前に　その
+みにくい姿を　あらわすとは……。
+
+われこそは　真の正義を　語る者
+ヘルジャスティス。
+
+そなたも　ここで　わたしの
+コレクションとなることを
+よろこぶがいい……。"	"...Foolish mortal. Why do you not know your place...?
+To show your wretched face before me once again...
+I am Hell Justice, the voice of true justice.
+Rejoice, for you too shall become part of my collection..."		enemy_hell_justice	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a45f4	"$tは　封印のバリアをとく
+ボタンを　押した！"	$t pressed the button to release the sealing barrier!			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4620	"＊「ひょひょ～い！
+$xとけたぞ！　バリアが　とけた！
+
+＊「母ちゃん！　帰れるぞ！
+$x村に　帰れるぞ！"	"""Whoopee! It is gone! The barrier is gone!""
+""Mum! We can go home! Back to the village!"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4684	"＊「まあまあ　こんなことが
+$x本当に　あるとはねえ。"	"""My, my! To think this would really happen!"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a46b8	"＊「どなたか　存じませんが
+$x本当に　ありがとうございます。"	"""I do not know who you are, but thank you so very much."""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a46f4	"＊「これで　私たちは　村へ　帰れますが
+$xあなたも　いったん　私たちと一緒に
+$x村へ　もどって　休みますか？"	"""Now we can return to the village. Would you like to come back with us and rest for a while?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4760	"＊「では　村へ　お連れいたします。
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""Then we shall take you to the village.""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a47c4	"＊「そうですか　では　私たちだけ　お先に
+$x村へ　帰らせていただきます。
+$xよろしいですね？"	"""I see. Then we shall return to the village ahead of you. Is that all right?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4820	"＊「本当に　ありがとうございました。
+$xでは　お先に……。
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""Thank you so much. We shall be on our way...""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a489c	"＊「では　やはり　私たちと　いっしょに
+$x村へ　もどって　休まれますか？"	"""Then would you rather return to the village with us and rest?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a48e4	"＊「おおう！　こりゃ
+$xおったまげた！
+
+＊「おい！　ジョーのアニキ！
+$xどうやら　村に　帰れるようだぜ。"	"""Whoa! Now that is a surprise!""
+""Hey, Joe, boss! Looks like we can head back to the village!"""		character.conklave_joe	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a494c	"ジョー「うむ……。
+$xどうやら　そのようだな　タロスよ。"	"Joe: ""Hmm... So it seems, Talos."""		character.conklave_joe,character.conklave_talos	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4984	"ジョー「どこの　先生か　存じませんが
+$xありがとうござんす。"	"Joe: ""I do not know who you are, friend, but you have my thanks."""		character.conklave_joe	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a49c0	"ジョー「この奥にも　閉じ込められた仲間は
+$xおりやすが　とりあえず
+$xあっしらと　いっしょに　もどられますかい？"	"Joe: ""Some of our folk are still trapped deeper in. Would you like to head back with us for now?"""		character.conklave_joe	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4a30	"ジョー「では　村へ　お連れしやす。
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"Joe: ""Then let us take you back to the village.""
+The freed Conklave folk chanted a spell!"		character.conklave_joe,place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a4a94	"ジョー「そうですかい？　では
+$xあっしらだけ　帰らせてもらいますが
+$x本当に　いいんですね？"	"Joe: ""Is that so? Then we will head back on our own. Are you sure that is all right?"""		character.conklave_joe	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4af0	"ジョー「では　これにて　失礼！
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"Joe: ""Then we will be on our way!""
+The freed Conklave folk chanted a spell!"		character.conklave_joe,place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a4b50	"ジョー「では　やはり　あっしらと
+$x村へ　もどって　休みますかい？"	"Joe: ""Then would you rather head back to the village with us and rest?"""		character.conklave_joe	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4b94	"＊「ありゃ～！
+$xこれ　ビックリね～！
+
+＊「もう一生　このままかと　思ってたよ。
+$xさっそく　村に　もどって
+$x店の様子を　みなきゃなあ。"	"""Well, now! What a surprise!""
+""I thought we would be stuck here forever. I had better get back to the village and check on my shop!"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4c1c	"＊「いや　ありがとう！
+$xわしらと　いっしょに
+$xあんたも　村へ　もどるかね？"	"""Thank you! Are you coming back to the village with us?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4c6c	"＊「では　さっそく　帰るとするよ～！
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""Then let us head straight home!""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a4cd4	"＊「そうかい？　では
+$xわしらだけ　帰らせてもらうが
+$xそれで　いいんだね？"	"""I see. We will head back on our own, then. Is that all right?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4d20	"＊「では　お先に～！
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""See you back there!""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a4d78	"＊「じゃあ　やっぱり　わしらと帰って
+$x休んでくるかい？"	"""Then would you rather come back with us and rest?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4db0	"＊「わっ！　ふ　封印のバリアが！
+$x奥さん！　われわれの　バリアが
+$xとけましたよ！"	"""Ah! The s-sealing barrier! My dear! Our barrier is gone!"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4e04	"＊「そんなに　さわぐんじゃないよ。
+$x魔物に　気づかれるじゃないか。"	"""Keep your voice down! You will draw the monsters here."""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4e48	"＊「あの長老のことだ。　いつかは
+$x助けを　よこしてくれると　思ったよ。
+$x本当に　ありがとうね。"	"""Knowing the elder, I thought he would send help sooner or later. Thank you ever so much."""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4eac	"＊「ここまで　来てくれたってことは
+$xほかの連中も　全員　助かったんだね。
+$xさあ　いっしょに　村へもどるだろう？"	"""If you have come this far, you must have rescued all the others. Now, you are coming back to the village with us, yes?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4f20	"＊「じゃあ　しっかり　つかまっておくれ。
+
+
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""Then hold on tight.""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a4f8c	"＊「これ以上　進んでも　封印された者は
+$xもういないけど　それでも　行くのかい？"	"""There is no one left trapped beyond here. Are you going on anyway?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a4fdc	"＊「そうかい。　あんたにも　何か
+$x考えがあってのことだろう。
+$xでは　お先に　帰らせてもらうよ。
+封印されていた　プチット族の民は
+なにやら　呪文を　となえた！"	"""I see. You must have your reasons. We will head back ahead of you, then.""
+The freed Conklave folk chanted a spell!"		place.journey.00873134	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. Conklave folk extends the existing project village stem to its inhabitants; no official tribal-name claim.
+dungeon-event.000a507c	"＊「じゃあ　やっぱり
+$x私たちと　いっしょに　村へ
+$x帰るんだね？"	"""Then you are coming back to the village with us after all?"""			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a50c0	"ロサ「なあ　$tさん。
+$xもうすぐ　このダンジョンも
+$x終わりが近い気がするぜ……。"	"Rosa: ""Hey, $t. I reckon we are getting close to the end of this dungeon..."""		enemy_rosa	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5114	"イネス「あら？　今までとは違う
+$x空気の流れを感じますわ。
+
+イネス「もうすぐ　このダンジョンから
+$x出られるのかしら……。"	"Ines: ""Oh? The air feels different here.""
+Ines: ""I wonder if we are nearly out of this dungeon..."""		enemy_ines	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5190	"ロサ「おいおい　$tさん。
+$xちょっと　イヤな予感がするぜ。
+
+ロサ「どうやら　今までのヤツより
+$x手ごたえのあるモンスターが
+$xいるようだな。
+ロサ「そろそろ　ダンジョンの出口も
+$x近いみたいだから　親玉の
+$xお出ましってわけか……？"	"Rosa: ""Hey, $t. I have a bad feeling about this.""
+Rosa: ""Looks like there is a monster here tougher than the rest.""
+Rosa: ""We must be near the exit by now. Is it time for the boss to show up...?"""		enemy_rosa	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5274	"イネス「なんだか　イヤな
+$x感じがするわ……。
+$x$tさん　気をつけて。
+イネス「今度の　モンスターは
+$x今までいたのより　邪悪な
+$xオーラが　強い気がするの。
+イネス「そろそろ　このダンジョンの
+$x出口も　近いように思うんですけど
+$xゆだんできませんわ。"	"Ines: ""Something feels wrong... Be careful, $t.""
+Ines: ""I sense a more sinister aura from this monster than the ones we have faced so far.""
+Ines: ""I think we are nearly out of this dungeon, but we must stay alert."""		enemy_ines	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a546c	"たからものを使ってしまったら
+冒険中ずっと 怒ったままになってしまうぞ！
+
+うっかりつかってしまうとたいへんなめに
+あうので注意が必要だぞ！"	"If you use one of his treasures, he will stay angry for the rest of the adventure!
+Be careful. Using one by mistake will get you into serious trouble!"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5500	"たからものを落としてしまった場合は
+拾いあつめれば 怒りはおさまるぞ！
+
+いそいでひろってあげよう！"	"If you drop his treasures, pick them all up and he will calm down!
+Hurry and gather them up!"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5570	"ロサには
+たからものを１０個持たされてしまうぞ！
+
+ロサのたからものを
+手ばなすとカンカンに怒っておそってくるぞ！"	"Rosa will make you carry ten of his treasures!
+Let go of any of them and he will fly into a rage and attack you!"		enemy_rosa	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a55ec	"話しかけるとロサのようすがわかるぞ。
+HPが減っていそうな時は回復してあげよう。
+
+ＳＴＡＲＴボタンでロサの方向を向いてから
+Ａボタンで話しかけてみよう！"	"Talk to Rosa to see how he is doing. If his HP seems low, help him recover.
+Face Rosa with START, then press A to talk to him!"		hp,enemy_rosa	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5690	"イネスは部屋中のモンスターを
+攻撃できる　イオを唱えることができるぞ。
+
+モンスターに囲まれてしまったときは
+迷わず唱えてもらおう！"	"Ines can cast Bang to attack the monsters throughout the room.
+If monsters surround you, do not hesitate to ask her to cast it!"		enemy_ines,series_bang	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5724	"イネスは毒を回復できる
+キアリーを唱えることができるぞ！
+
+毒をうけてちからが減ってしまった時は
+回復してもらおう！"	"Ines can cast Squelch to cure poison!
+If poison has lowered your strength, ask her to heal you!"		enemy_ines,spell.squelch	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a57a8	"イネスは ホイミを唱えることができるぞ！
+HPがピンチな時は回復してもらおう！
+
+この魔法で　イネス自身も回復することが
+できるぞ！
+
+イネスがピンチのときも話しかけて
+唱えてもらおう！"	"Ines can cast Heal! Ask her for help when your HP is low!
+This spell can heal Ines herself, too!
+If she is in trouble, talk to her and ask her to cast it!"		hp,spell.heal,enemy_ines	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a586c	"話しかけるとイネスのようすがわかったり
+魔法を唱えてもらうことができるぞ。
+
+ＳＴＡＲＴボタンでイネスの方向を向いてから
+Ａボタンで話しかけてみよう！"	"Talk to Ines to see how she is doing or ask her to cast a spell.
+Face Ines with START, then press A to talk to her!"		enemy_ines	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5aa0	"HPが減ったら　ＢとＡボタンを
+いっしょに押して　HPを回復しよう！"	When your HP is low, hold B and A together to recover!		hp	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5af0	"Ｒボタンを押しながら十字ボタンで
+ナナメだけに動けるぞ！"	Hold R while using the +Control Pad to move only diagonally!			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5b38	"階段をめざして進んでいこう！
+
+
+モンスターにであったら
+そちらを向いてＡボタンで攻撃だ！
+
+Ｂボタンを押しながら十字ボタンで
+すばやく動けることも覚えておこう！"	"Make your way towards the stairs!
+When you meet a monster, face it and press A to attack!
+Remember, holding B while using the +Control Pad lets you move quickly!"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5be4	"ぐっ　ぐぬう……
+わたしの　ヨロイが……！
+
+お　おのれ！
+無能な　人間ごときが
+思い上がりおって……！
+わたしは　この世の正義を　語る者。
+あのヨロイは　お前のような反逆者への
+怒りを　静めるためのものだった……。
+うむ……　感じるぞ。
+久しく　おさえていた　心地よい怒り。
+わたしの身体に　チカラがみなぎる……！
+もはや　そなたに　生きる道はない……
+そのまま　石となり　永遠の闇を
+さまようがいい！！"	"Ggh... Grrr... My armour...!
+Curse you! An incompetent mortal dares to defy me...!
+I am the voice of justice in this world. That armour held back my wrath against rebels like you...
+Ah... I feel it. The sweet rage I have held in check for so long. Power surges through my body...!
+You have no hope of survival now... Turn to stone and wander eternal darkness!"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5d70	"フフフ……　なかなか　よい
+コレクションが　できたわ。
+ぐわっはっはっはっは……！"	Heh heh... A fine addition to my collection. Gwah ha ha ha ha...!			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5dc4	"ぐっ　ぐおおおおお～！
+ばかな……　わたしが　ほろびるなど……
+
+ぐぬう……　しかし　おろかな人間よ
+わたしが　ほろびても　そなたの父にかけた
+呪文は　とけぬぞ……
+わたしに　さからったことを
+死ぬまで　後悔するがいい……
+ぐわっはっはっは……　ぐわあ～っ！！"	"Ggh... Gwoooargh! Impossible... I cannot perish...
+But know this, foolish mortal... Even if I perish, the spell I cast on your father will never break...
+You will regret defying me for the rest of your life...
+Gwah ha ha ha... Gwaaagh!!"			Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5ec4	"ポポロは　ヘルジャスティスを
+やっつけた！"	Tipper defeated Hell Justice!		enemy_hell_justice,enemy_tipper	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5ef0	"ポポロ…　ポポロ……
+私の声が　聞こえますか？"	Tipper... Tipper... Can you hear my voice?		enemy_tipper	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved.
+dungeon-event.000a5f20	"……本当によく　がんばりましたね。
+あなたと　トルネコの　チカラで
+この地の　人びとは　すくわれました。
+私は　大地の神。
+かつて　バリナボの地へ
+民を　みちびいた者です。
+あなた方の努力で　邪悪な意志は
+ほろび　この世界を見守るという
+バリナボの民の　役目も終わりました。
+これは　私からのお礼です。
+神のチカラを　受けつぐ
+大地の民を　つかわしましょう。"	"...You have done very well. Together, you and Torneko have saved the people of this land.
+I am the Earth God, who once led the people to the land of Barinabo.
+Through your efforts, the evil will has been destroyed. The people of Barinabo have fulfilled their duty to watch over this world.
+Accept this token of my gratitude. I shall send you the people of the earth, heirs to divine power."		torneko,place.barinabo,lore.earth_god,lore.people_of_the_earth	Independently translated from this Japanese source. Dialogue punctuation/continuation markers are reflowed for English; branch and formatter inputs are preserved. People of the earth retains the existing glossary term and renders the collective people/folk expression without naming them early. The Japanese Ines reference identifies the arriving pair as Ines and Rosa: https://wikiwiki.jp/dqdic3rd/%E3%80%90%E3%82%A4%E3%83%8D%E3%82%B9%E3%80%91 (secondary story-context corroboration only).

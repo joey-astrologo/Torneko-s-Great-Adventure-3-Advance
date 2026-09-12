@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "scope": "Corrections found in normal gameplay, applied with explicit prior-patch ownership. No new source-count claim.",
+  "entries": [
+    {
+      "id": "text-polish.001b492f",
+      "family": "tutorial",
+      "offset": "0x001B492F",
+      "japanese": "「押す」とHPを回復できるぞ。<CR>$wHPが減ってしまったら<CR>Ｂボタンでメニューを開き<CR>「道具」コマンドで使っておこう！",
+      "source_hex": "f895f9eabdf896c44850a6fa26fd4ef8f0b7d9f8e7f8820d24774850f8d5fac2f8ecc3bccff8ecc0d70df8b1f975f958f989f8f0f97af964f97ef88ba6fa30b70df895fccdfa99f896f94cf977f989f962f8f0fb41f8ecc3b5bab3f88700",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f895f9ea",
+          "text": "「押",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bd",
+          "text": "す",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f896",
+          "text": "」",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c44850a6",
+          "text": "とHPを",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa26fd4ef8f0",
+          "text": "回復で",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b7d9",
+          "text": "きる",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8e7f882",
+          "text": "ぞ。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0d",
+          "text": "<CR>"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2477",
+          "text": "$w",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4850",
+          "text": "HP",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8d5fac2f8ec",
+          "text": "が減っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c3bccf",
+          "text": "てしま",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8ec",
+          "text": "っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c0d7",
+          "text": "たら",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0d",
+          "text": "<CR>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f8b1f975f958f989f8f0f97af964f97ef88b",
+          "text": "Ｂボタンでメニュー",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "a6",
+          "text": "を",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fa30",
+          "text": "開",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b7",
+          "text": "き",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0d",
+          "text": "<CR>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f895fccdfa99f896f94cf977f989f962f8f0fb41f8ec",
+          "text": "「道具」コマンドで使っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c3b5bab3",
+          "text": "ておこう",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f887",
+          "text": "！",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "pointer_owners": [
+        {
+          "offset": "0x001B4B08",
+          "evidence": "typed_pointer_table",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "master_id": "jp_001b492f",
+      "english": "Choose Push to restore HP!$wWhen HP is low, press B to open the menu and use it from Items.",
+      "display": null,
+      "notes": "Normal cave-floor-two pickup exposed a command-label mismatch: the live native menu uses Push. Match that label while preserving the original pause and independently translated instructions. Explicitly supersedes the earlier tutorial pointer; old payload remains protected.",
+      "supersedes": "tutorial.001b492f"
+    }
+  ]
+}

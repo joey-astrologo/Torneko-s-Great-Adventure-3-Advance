@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "source_encoding": "one-byte indexes into 27 original 16x16 graphic cells; zero terminator",
+  "entries": [
+    {
+      "id": "arena-graphics.000dc838",
+      "family": "indexed_graphic",
+      "offset": "0xdc838",
+      "source_end_exclusive": "0xdc843",
+      "source_hex": "010203060708090a0b0c00",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "今回の勝利モンスター",
+      "pointer_owners": [
+        {
+          "offset": "0x5cb78",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 10,
+      "english": "Winning monsters",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": []
+    },
+    {
+      "id": "arena-graphics.000dc843",
+      "family": "indexed_graphic",
+      "offset": "0xdc843",
+      "source_end_exclusive": "0xdc84b",
+      "source_hex": "01020304050d0e00",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "今回の対戦結果",
+      "pointer_owners": [
+        {
+          "offset": "0x5cf0c",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 7,
+      "english": "Battle results",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": []
+    },
+    {
+      "id": "arena-graphics.000dc84b",
+      "family": "indexed_graphic",
+      "offset": "0xdc84b",
+      "source_end_exclusive": "0xdc852",
+      "source_hex": "0f0f1003111200",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "ポポロの仲間",
+      "pointer_owners": [
+        {
+          "offset": "0x5cf4c",
+          "evidence": "native_5d070_indexed_tile_reader"
+        },
+        {
+          "offset": "0x5cf8c",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 6,
+      "english": "Tipper's allies",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "arena-graphics.000dc852",
+      "family": "indexed_graphic",
+      "offset": "0xdc852",
+      "source_end_exclusive": "0xdc85b",
+      "source_hex": "131313060714141400",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "<<<勝利>>>",
+      "pointer_owners": [
+        {
+          "offset": "0x5cf90",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 8,
+      "english": "<<< Victory >>>",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": []
+    },
+    {
+      "id": "arena-graphics.000dc85b",
+      "family": "indexed_graphic",
+      "offset": "0xdc85b",
+      "source_end_exclusive": "0xdc864",
+      "source_hex": "171717151618181800",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "<<<敗北>>>",
+      "pointer_owners": [
+        {
+          "offset": "0x5cf50",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 8,
+      "english": "<<< Defeat >>>",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": []
+    },
+    {
+      "id": "arena-graphics.000dc864",
+      "family": "indexed_graphic",
+      "offset": "0xdc864",
+      "source_end_exclusive": "0xdc86e",
+      "source_hex": "131313191a1b14141400",
+      "source_tokens": [],
+      "master_id": null,
+      "japanese": "<<<引分け>>>",
+      "pointer_owners": [
+        {
+          "offset": "0x5cf28",
+          "evidence": "native_5d070_indexed_tile_reader"
+        }
+      ],
+      "cells": 9,
+      "english": "<<< Draw >>>",
+      "display": null,
+      "notes": "Transcribed from original indexed graphics and independently translated. Latin glyphs come from original font 0; preserve native cell count, positions and palette.",
+      "references": []
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+offset	english	display
+00C4D5C0	Reached floor $d0	 $d0F
+00C4D5D8	 dungeon cleared	 cleared
+00C4D5FC	Monster nest{hex:03088c}Not cleared	
+00C4D628	Monster nest{hex:03088c}Reached $d0F	
+00C4D650	Barinabo mode	Barinabo: 
+00C4D668	Obtained a staff with 99 charges	Got a staff with 99 charges
+00C4D694	Most damage in one attack: $d0	Max damage in one hit: $d0
+00C4D6C4	Ate bread that was a Cannibox at 0 fullness	Ate a Cannibox at 0 fullness
+00C4D6F8	Total play time: $d0 hours $d1 minutes	Play time: $d0h $d1m
+00C4D728	Read a Poof scroll	
+00C4D74C	Torneko won $d0 consecutive arena bets	Torneko's winning bet streak: $d0
+00C4D77C	Stored a Magic jewel box in the warehouse	Stored a Magic jewel box
+00C4D7A0	Performed every mixed-item synthesis	Tried every mixed-item synthesis
+00C4D7C0	Otherworld labyrinth{hex:03088c}Not cleared	
+00C4D7E4	Illusion cavern{hex:03088c}Not cleared	
+00C4D80C	Mysterious treasury{hex:03088c}Not cleared	
+00C4D834	Sealed cavern{hex:03088c}Not cleared	
+00C4D858	Recruited every monster species	
+00C4D884	Fastest defeat: $d0 turns	
+00C4D8A4	Obtained a shield strengthened to +99	Got a +99 shield
+00C4D8CC	Obtained a weapon strengthened to +99	Got a +99 weapon
+00C4D8F4	Raised an allied monster to Lv99	Raised a monster ally to Lv99
+00C4D91C	Recruited a Gargoyle	
+00C4D940	Defeated a Gargoyle	
+00C4D960	Recruited $d0 monster species	
+00C4D98C	Recruited Justice's elder brother	
+00C4D9B4	Defeated Justice's elder brother	
+00C4D9D8	Defeated Hell Justice	
+00C4DA00	Fastest defeat: $d0 seconds	
+00C4DA1C	Defeated by being turned into an item	Defeated by turning into an item
+00C4DA40	Burned to death by a Flame statue	Defeated by a Flame statue's fire
+00C4DA68	Crushed to death by a Big Moai statue	Crushed by a Big Moai statue
+00C4DA98	A cursed Yggdrasil leaf failed to revive you	Cursed Yggdrasil leaf failed to revive
+00C4DACC	Defeated by a powered-up Berserker	
+00C4DAF8	Defeated by an explosion	
+00C4DB1C	Hit by Magic Burst	
+00C4DB38	Blown out of a dungeon by the wind	Blown out of a dungeon by wind
+00C4DB64	Defeated by hunger	Starved to death
+00C4DB80	Threw a Synthesis pot with a long throw	Long throw: Synthesis pot
+00C4DB9C	Used a Pickaxe in synthesis	
+00C4DBC0	Hit a burrowing monster with a Poof scroll	Poof scroll hit a burrowing monster
+00C4DBF0	Thrown into a Monster House	
+00C4DC18	Trapped inside a Trapping pot	
+00C4DC48	Defeated by an ally while transformed	
+00C4DC74	Defeated while transformed	
+00C4DC90	Defeated while berserk	
+00C4DCBC	Defeated while confused	
+00C4DCE4	Defeated while dancing	
+00C4DD08	Defeated while asleep	
+00C4DD2C	Defeated by an iron ball	
+00C4DD4C	Defeated by a falling boulder	
+00C4DD6C	Defeated by an Arrow trap	
+00C4DD88	Defeated by a Pitfall	
+00C4DDA4	Total dungeon floors reached: $d0	Total floors reached: $d0
+00C4DDD0	Failed $d0 dungeon attempts	
+00C4DDFC	Cleared dungeons $d0 times	
+00C4DE20	Escaped after stealing $d0 times	Escaped with stolen goods: $d0 times
+00C4DE3C	Stole from shops $d0 times	
+00C4DE54	Bought a Cannibox in disguise	Bought a disguised Cannibox
+00C4DE78	Filled the bank with gold	
+00C4DE9C	Defeated $d0 monsters	
+00C4DEC0	Obtained the Metal king sword and shield	Got the Metal king sword and shield
+00C4DEEC	Obtained Erdrick's sword and shield	Got Erdrick's sword and shield
+00C4DF10	Tipper's arena defeats: $d0	
+00C4DF34	Tipper's arena victories: $d0	
+00C4DF58	Arena bets lost: $d0	
+00C4DF78	Arena bets won: $d0	
+00C4DF98	Obtained every arena prize	Won every arena prize
+00C4DFC0	Obtained a Jewelled shield	Got a Jewelled shield
+00C4DFE0	Most tokens won at once: $d0	
+00C4E008	Read a scroll that had been blank	
+00C4E028	Obtained a Godspark staff	Got a Godspark staff
+00C4E050	Gave $d0 Mini medals to the Medal King	Medal King: $d0 Mini medals given
+00C4E080	Obtained every item in the golden series	Got every golden-series item
+00C4E0A8	Obtained a Multiarrow	Got a Multiarrow
+00C4E0CC	Obtained a Shadow breaker	Got a Shadow breaker
+00C4E0F4	Read a Hocus Pocus scroll	
+00C4E118	Read a Monster scroll	
+00C4E13C	Defeated helplessly by a column of wind	Defeated by a column of wind
+00C4E16C	Otherworld labyrinth{hex:03088c}Reached $d0F	
+00C4E1A4	Illusion cavern{hex:03088c}Reached $d0F	
+00C4E1E0	Mysterious treasury{hex:03088c}Reached $d0F	
+00C4E20C	{hex:030840}Cleared in $d0 turns / $i0	{hex:030840}$d0 turns/$i0
+00C4E234	Sealed cavern{hex:03088c}Reached $d0F	
+00C4E260	Solved every puzzle in Hermit's cave	Solved all Hermit's cave puzzles
+00C4E28C	Solved every puzzle in Sage's cave	Solved all Sage's cave puzzles
+00C4E2B8	Rescued every member of the Conklave	Rescued the entire Conklave
+00C4E2D8	Torneko was turned to stone	
+00C4E2F8	Torneko's house was built in Costa Libera	Built Torneko's Costa Libera house
+00C4E324	Reached Great Baleina Isle as Tipper	Tipper reached Great Baleina Isle
+00C4E358	Tipper woke up	
+00C4E374	Reached Great Baleina Isle	
+00C4E39C	Lit the sacred flame at Sea Dragon Lighthouse	Lit Sea Dragon Lighthouse's flame
+00C4E3DC	Barinabo Challenge clear level{hex:0308a6}$v07	Barinabo clear level{hex:0308a6}$v07
+00C4E40C	Most monsters defeated on one floor{hex:03}{hex:0308a6}$v07	Most kills on one floor{hex:03}{hex:0308a6}$v07
+00C4E43C	$t's highest strength{hex:03}{hex:0308a6}$v07	$t's max strength{hex:03}{hex:0308a6}$v07
+00C4E45C	$t's highest experience{hex:03}{hex:0308a6}$v07	$t's max experience{hex:03}{hex:0308a6}$v07
+00C4E47C	$t's highest HP{hex:03}{hex:0308a6}$v07	$t's max HP{hex:03}{hex:0308a6}$v07
+00C4E49C	$t's highest level{hex:03}{hex:0308a6}$v07	$t's max level{hex:03}{hex:0308a6}$v07
+00C4E4BC	$t's adventure count{hex:03}{hex:03089b}$v07	$t's adventures{hex:03}{hex:03089b}$v07

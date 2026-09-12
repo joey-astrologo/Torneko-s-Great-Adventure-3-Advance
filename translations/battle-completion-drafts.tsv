@@ -1,0 +1,309 @@
+id	japanese	english	display	references	notes
+battle.001b4ff0	$m0「$tさんのバカヤロー！<CR>$xオレの荷物をどうしたんだよー！	"$m0: ""$t, you idiot! What have you done with my luggage?!"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7dc6	$tは アイテムが拾えなくなった！	$t can no longer pick up items!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7de0	$i0は<CR>呪われていたので 外せない！	$i0 is cursed! You can't remove it!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/core-gameplay.json / gameplay.001b459d.
+battle.001b7df8	壁の中ではアイテムを交換できない！	You cannot swap items inside a wall!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e15	$i0と<CR>$i1を交換した。	Swapped $i0 for $i1.		interface.action.031	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e27	持ち物の呪いが解けた。	The curses on your belongings were lifted.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e39	フロア中に ワナが増えてしまった！	More traps appeared throughout the floor!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e55	$tは アイテムの位置が分かった！	$t can now locate items!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e71	$tは 敵の場所が分かるようになった！	$t can now locate enemies!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e8c	$i0は<CR>$i1に変わった。	$i0 became $i1.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7e9e	$i0を パンに<CR>変化させることができなかった！	$i0 could not be turned into Bread!		bread	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7ebf	フロアの水が すっかり かれてしまった！	All the water on this floor dried up!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7edc	$i0の回数が １増えた。	$i0 gained one charge.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7ef0	$i0は 少し大きくなった。	$i0 grew a little bigger.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7f03	突然 モンスターが あらわれた！	A monster suddenly appeared!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7f1d	モンスターが呼ばれたが<CR>来る事ができなかった！	A monster was summoned, but could not appear!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7f44	召喚スイッチが作動した！	The summoning switch activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7f5b	召喚スイッチが作動した！<CR>しかし 発生できなかった。	"The summoning switch activated!
+But nothing could appear."			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7f85	$tは トゲトゲ床をふんでも<CR>ダメージを受けなくなった！	$t no longer takes damage from spiked floors!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7faf	この床は　イタイ！	This floor hurts!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7fbf	$m1は 移動できなくなった！	$m1 can no longer move!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7fd4	$m1は 気持ちが<CR>ちぢこまってしまった！	$m1 became timid!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b7ff1	$m1は すでに空振り状態だ！	$m1 is already whiffing!		core.whiffing	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8008	$m1は 効果をダメージに変えた。	$m1 converted the effect into damage.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8022	このフロアにある すべてのワナが消えた！	Every trap on this floor vanished!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8040	$m1は うしろが気になって<CR>たまらなくなった！	$m1 cannot stop worrying about what is behind!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b805e	$m1は すごくうしろが<CR>気になっている！	$m1 is very worried about what is behind!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8079	技は 指輪によって封じられた！	The ring blocked the ability!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/gameplay-help.json / help.001b5feb.
+battle.001b8090	$m0はパワーアップした！	$m0 powered up!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b80a5	$m1の最大HPが$d0減った！	$m1's maximum HP fell by $d0!		hp	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b80bc	アイテムの位置が分かるようになった！	You can now locate items!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b80d9	$m1は目が治った！	$m1's vision returned to normal!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b80e9	$m1は $/200見えないものが見えるようになった！	$m1 can now see invisible things!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Source $/NNN inflection metadata is unnecessary for the independently phrased English; actor-slot identities are unchanged.
+battle.001b810a	$m1は トルネコの姿になった。	$m1 took the form of Torneko.		torneko	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8122	$m0はトルネコの姿から戻った。	$m0 stopped looking like Torneko.		torneko	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b813b	$m1は 敵味方かまわず<CR>攻撃するようになった！	$m1 began attacking friend and foe alike!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b815c	$m1はバーサーカー状態だ。	$m1 is berserk.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8175	$m1は 草やたねが<CR>効きやすくなった！	Herbs and seeds now have a stronger effect on $m1!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b818f	まわりが見渡せるようになった。	You can see your surroundings again.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b81a4	$m0は<CR>$i0を 飲み込んで<CR>攻撃力が強くなった！	$m0 swallowed $i0 and gained attack power!		attack_power	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b81c9	$m0は<CR>$i0を 飲み込んだ！	$m0 swallowed $i0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b81de	$m0は 仲間を吐こうとした！	$m0 tried to spit out an ally!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b81f2	$tの装備が全部外れてしまった！	All of $t's equipment came off!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b820b	$m1は 装備品が<CR>傷んで弱くなった！	$m1's equipment was damaged and weakened!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8228	$m1は これ以上弱くならない。	$m1 cannot get any weaker.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b823d	パンがくさってしまった！	The Bread went rotten!		bread	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8250	$m1は くさったパンになった。	$m1 turned into Rotten bread.		combined_item_306	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8266	しかし 不発だった。	But it failed to go off.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8276	$i0は ワープした。	$i0 warped away.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8286	$i0は ワープして<CR>なくなった。	$i0 warped away and was lost.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b829d	$i0の＋値が<CR>一時的に ０になってしまった！	$i0's plus value temporarily fell to 0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b82bf	$i0の強さが１下がった！	$i0's strength fell by 1!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b82d4	$i0の＋値が<CR>一時的に ０になってしまった！	$i0's plus value temporarily fell to 0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b82f6	$i0の＋値が<CR>一時的に ０になってしまった！	$i0's plus value temporarily fell to 0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8318	$i0の強さが１下がった！	$i0's strength fell by 1!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b832d	$i0には効果がなかった。	It had no effect on $i0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b6813.
+battle.001b8340	お墓は効果がなかった。	The Grave had no effect.		combined_item_349	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8352	強さを０にされるアイテムを持っていない。	You have no items whose strength can be reduced to 0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8370	持っているアイテムは強さを０にされなかった。	Your items' strength was not reduced to 0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8391	アイテムがモンスターに変化した！	Items turned into monsters!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b83af	お墓がモンスターに変化した！	Graves turned into monsters!		combined_item_349	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b83c8	お墓やアイテムがモンスターに変化した！	Graves and items turned into monsters!		combined_item_349	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b83ea	指輪の効果で爆発した！	The ring caused an explosion!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b83fe	指輪の効果で爆発したが不発だった！	The ring tried to cause an explosion, but it fizzled!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b841d	$m0は 爆発への秒読みを開始！	$m0 began a countdown to an explosion!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8435	$m0は 自爆した！	$m0 self-destructed!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8443	$m0は 自爆せず不発だった。	$m0's self-destruct failed to go off.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b845b	$m0は 強い光を出した！	$m0 emitted a bright light!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b846d	$m0は 強い光を出した！	$m0 emitted a bright light!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b847f	$m1は まわりしか見えなくなった！	$m1 can only see the immediate surroundings!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8495	$m0は思いっきり斧を振った！	$m0 swung an axe with all its might!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b84ab	$m0は はげしく攻撃した！	$m0 attacked fiercely!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b84be	$m2は メガザルを唱えた！	$m2 cast Kerplunk!		spell.kerplunk	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b84d3	⑪世界樹の葉は祝福されていたので<CR>雑草にならなかった！	The Yggdrasil leaf was blessed, so it did not turn into Weed!		combined_item_276,combined_item_290	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Original leading F9 AC glyph is retained separately; Unicode viewing label ⑪ is not English prose.
+battle.001b84fb	⑪世界樹の葉は しんぴの草の効果で<CR>雑草にならなかった！	The Mystic herb prevented the Yggdrasil leaf from turning into Weed!		combined_item_276,combined_item_290,combined_item_301	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Original leading F9 AC glyph is retained separately; Unicode viewing label ⑪ is not English prose.
+battle.001b8526	$m0は 回復しようとしたが<CR>壁があって 回復できなかった！	$m0 tried to recover, but a wall blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8550	$m0は 回復しようとしたが<CR>生物が邪魔して 回復できなかった！	$m0 tried to recover, but a creature blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b857e	$m0は 回復しようとしたが<CR>水晶が邪魔して 回復できなかった！	$m0 tried to recover, but a crystal blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b85ac	$tは 復活しようとしたが<CR>壁が邪魔して 復活できなかった！	$t tried to revive, but a wall blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b85d7	$tは 復活しようとしたが<CR>生物が邪魔して 復活できなかった！	$t tried to revive, but a creature blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8604	$tは 復活しようとしたが<CR>壁が邪魔して 復活できなかった！	$t tried to revive, but a wall blocked the way!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Original third revival-obstruction source repeats wall, unlike the healing table crystal message. Preserve the source discrepancy; no gameplay bug fix.
+battle.001b862f	$i0によって回復した！	$i0 restored health!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8640	$m0は 回復した！	$m0 recovered!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b864e	なんと！$i0は<CR>ひとくいばこだった！	$i0 was a Cannibox!		enemy.cannibox	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/core-gameplay.json / gameplay.001b55b7.
+battle.001b8667	$i0は呪われていた！	$i0 was cursed!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8675	$tは $i0を使って<CR>復活した！	$t used $i0 and revived!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b868c	$i0は<CR>炎のダメージを受けた！	$i0 took fire damage!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b86a4	$m0は マダンテを唱えた！	$m0 cast Magic Burst!		spell.magic_burst	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b86b9	$m0は ベホマラーを唱えた！	$m0 cast Multiheal!		spell.multiheal	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b86d0	$m0は $tの<CR>$i0を切り刻んだ！	$m0 shredded $t's $i0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b86e8	$m0は アイテムを<CR>切り刻もうとしたが 封じられた！	$m0 tried to shred an item, but the ability was blocked!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b870e	$m0は 切り刻めるアイテムが<CR>なかった！	$m0 had no items to shred!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b872d	$m0は 様子を見ている…。	$m0 waits and watches...			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b50b1.
+battle.001b8741	$m0は カマをのばした。	$m0 extended its scythe.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8753	$m0は アイテムを切り刻んだ。	$m0 shredded an item.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b876c	しかしアイテムはそこになかった。	But there was no item there.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8783	攻撃をうけた反動であまい匂いを出した！	The blow triggered a sweet scent!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b879f	攻撃をうけた反動でキツイ匂いを出した！	The blow triggered a pungent odour!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b87be	しかし 指輪によって封じられた！	But the ring blocked it!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b87d5	$m0が 生まれた。	$m0 was born.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b87e3	$m0が 生まれそうだったが<CR>生まれなかった。	$m0 was about to be born, but could not appear.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8803	$m0は ベホマズンを唱えた！	$m0 cast Omniheal!		spell.omniheal	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b881a	$m0は 真空斬りをはなった！	$m0 used Gust Slash!		series_gust_slash	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b882f	$m0は バイキルトを唱えた！	$m0 cast Oomphle!		series_oomphle	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8846	$m0は ルカナンを唱えた！	$m0 cast Kasap!		series_kasap	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b885b	$m1は 攻撃力が上がった！	$m1's attack power rose!		attack_power	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8872	攻撃力はこれ以上は上がらなかった。	Attack power could not rise any further.		interface.action.005	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b888d	$m0は思いっきり剣を振った！	$m0 swung a sword with all its might!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b88a3	$m0は 封印をかけてきた！	$m0 cast a seal on you!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b88b5	$m0は 封印をかけた！	$m0 cast a seal!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b88c5	$m0は スカラを唱えた！	$m0 cast Buff!		series_buff	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b88d8	$m0の防御力が上がった。	$m0's defence rose.		defence	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b88ee	$m0の なぎはらい攻撃！	$m0 made a sweeping attack!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8900	$m0は 足をすくわれた！	$m0's feet were swept away!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8910	$m0は ギガデインを唱えた！	$m0 cast Kazap!		spell.kazap	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8927	$m0は アルテマソードをはなった！	$m0 used Blade of Ultimate Power!		ability.blade_of_ultimate_power	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8943	$m0は スクルトを唱えた！	$m0 cast Kabuff!		spell.kabuff	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8958	$m0は ピオリムを唱えた！	$m0 cast Acceleratle!		series_acceleratle	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b896d	$m0は イオナズンを唱えた！	$m0 cast Kaboom!		series_kaboom	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8984	$m0は ザラキーマを唱えた！	$m0 cast Kathwack!		spell.kathwack	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b899b	$m0は 失敗した！	$m0 failed!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b89a9	$m1は 防御力が上がった！	$m1's defence rose!		defence	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b89c0	$tは 攻撃力が上がらなかった。	$t's attack power did not rise.		attack_power	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b89d9	$tは 防御力が上がらなかった。	$t's defence did not rise.		defence	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b89f2	$tは 速度変化しなかった。	$t's speed did not change.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/gameplay-help.json / help.001b5d8b.
+battle.001b8a07	しかし 失敗した。	But it failed.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8a14	なんと 壁がくずれた！	The wall collapsed!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8a24	$tのまわりの壁がくずれた！	The walls around $t collapsed!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8a37	しかし 何も起こらなかった。	But nothing happened.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b68f5.
+battle.001b8a64	$m1は 壺に吸い込まれた！	$m1 was sucked into the pot!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8a77	$m1の気配が消えた！	$m1's presence vanished!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8a88	化けていた$m1は薬草に変化した！	The disguised $m1 turned into a Medicinal herb!		medicinal_herb	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8aa0	$m1は 壺にとじこめられた！	$m1 was trapped in the pot!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ab3	$m1は 消えた！	$m1 vanished!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8abf	$m1は 風に巻かれた！	$m1 was caught in the wind!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8acf	$tのまわりのワナが作動した！	The traps around $t activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ae5	$tのまわりが燃えた！	Flames flared up around $t!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8af4	$tのまわりが 凍りついた！	The area around $t froze!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b06	$tのまわりに砂柱が立ち上がった！	Pillars of sand rose around $t!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b20	$m0は 角を大きく<CR>ふりまわした！！	$m0 swung its horns in a great arc!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b38	$m1は 弾きとばされた。	$m1 was knocked away.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b49	$i0に 水をいっぱいにくんだ。	Filled $i0 with water.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b5f	$tは ためた水をかけた！	$t splashed the stored water!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b6f	$i0には<CR>もういっぱいに水が入っている。	$i0 is already full of water.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b8c	ここでは水はくめない。	You cannot draw water here.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8b9b	$m1は 水をかけられて弱った。	The splash of water weakened $m1.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8bb0	しかし 何も起こらなかった。	But nothing happened.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b68f5.
+battle.001b8bc3	火柱は消えた。	The pillar of flame went out.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8bcf	おや 風が …。	Oh? A breeze...			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8bdc	また風だ。さっきより強い。	The wind is back. Stronger this time.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8bf0	また風が… かなりの強風だ！	The wind again... A fierce gale!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c06	強風で $tは遠くまで飛ばされた！	The gale blew $t far away!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c20	$m1は バッチリ目が覚めた！	$m1 is wide awake!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c38	$m1はすでに目がさえている！	$m1 is already wide awake!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c4c	$i0を吸い込んだ！	Sucked up $i0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c5b	$i0は吸い込めなかった。	$i0 could not be sucked up.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c6d	仕掛けた巻物に 点火だっ！	The planted scroll ignited!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8c84	仕掛けた巻物に点火だ！<CR>しかし 不発だった。	"The planted scroll ignited!
+But it failed to go off."			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ca8	トビラの封印を解き放った！	The door's seal was broken!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8cbf	$tの持っているアイテムが ＋３された！	$t's items gained +3!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8cde	$tのHPと ちからが＋３された！	$t gained 3 HP and 3 strength!		hp	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8cf4	モンスターが$i0になった。	A monster became $i0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d0b	$m0は 消滅した！	$m0 disappeared!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d19	$tの体の異常が回復した！	$t's status ailments were cured!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d2e	この位置では 凍らない！	It will not freeze in this position!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d40	$m0は 凍える息を吐いた！	$m0 breathed an icy blast!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d53	しかし　モンスターは現れなかった。	But no monster appeared.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d6e	$m0は<CR>$i0をとって投げた！	$m0 picked up $i0 and threw it!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d83	$m0は<CR>$i0を投げようとした！	$m0 tried to throw $i0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8d98	しかし 投げるものがなかった。	But there was nothing to throw.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8dad	しかし 指輪の効果で盗めなかった。	But the ring prevented the theft.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8dc7	$m0につかまれて 歩けない！	$m0 is holding you! You cannot walk!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8dd9	$m1は ひきよせられた！	$m1 was pulled closer!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8de8	しかし ひきよせられなかった。	But it could not be pulled closer.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8dfa	$m0は 手まねきをした！	$m0 beckoned!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e0a	$m0は飛んでいった！	$m0 flew away!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e1a	$i0を近くにひきよせた！	Pulled $i0 closer!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e2a	壺に入れた$i0の<CR>効果が あたりにまきちらされた！	The effect of $i0 inside the pot spread around the area!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e4b	$i0はアイテムの<CR>効果を部屋中にまきちらした！	$i0 spread an item effect throughout the room!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e6e	$m0は<CR>$m1に変身した！	$m0 transformed into $m1!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e80	$m0は<CR>$m1に変わった。	$m0 changed into $m1.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8e92	$m0は $/168$m1の姿になった。	$m0 took the form of $m1.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Source $/NNN inflection metadata is unnecessary for the independently phrased English; actor-slot identities are unchanged.
+battle.001b8eaa	$m0は メガザルを唱えた！	$m0 cast Kerplunk!		spell.kerplunk	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ebf	マップ表示をONにします。	Turn the map display ON.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ed3	マップ表示をOFFにします。	Turn the map display OFF.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8ee8	$tは $d0ダメージ受けた。	$t took $d0 damage.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/core-gameplay.json / gameplay.001b587d.
+battle.001b8efe	店主「おや　私の店に<CR>$xなにか　ご用ですか？<CR><CR>店主「すみませんが　今<CR>$x休けい中なんで　またの機会に<CR>$xお願いします。<CR>店主「あ　そうそう。　私が<CR>$x見てないからって　勝手に<CR>$x商品を　持ち出さないで下さいね。<CR>	"Shopkeeper: ""Oh, did you need something from my shop?""
+Shopkeeper: ""Sorry, but I am taking a break. Please come back another time.""
+Shopkeeper: ""Oh, and one more thing. Just because I am not watching, do not think you can walk off with the goods!"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8f9d	店主「ありがとうございました。	"Shopkeeper: ""Thank you very much."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8fb4	店主「ありがとうございました。	"Shopkeeper: ""Thank you very much."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8fcb	店主「……。	"Shopkeeper: ""..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8fd8	店主「いらっしゃいませ。	"Shopkeeper: ""Welcome!"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b8feb	店主「お客さん　すみませんが<CR>$xもう売り切れです。	"Shopkeeper: ""Sorry, but everything is sold out."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9010	店主「お客さんが　お持ち帰りになる品と<CR>$xお使いになった品と　合わせて<CR>$x[$d2]Ｇいただきます。	"Shopkeeper: ""The goods you are taking and the ones you have used come to [$d2]G."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9056	店主「お客さんが　お持ち帰りになる品は<CR>$x全部で　[$d2]Ｇになります。<CR>$xよろしいですか？	"Shopkeeper: ""The goods you are taking come to [$d2]G altogether. Is that all right?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9099	店主「お客さんが　お使いになった品の<CR>$x料金として　[$d2]Ｇ<CR>$xいただきます。	"Shopkeeper: ""That will be [$d2]G for the goods you have used."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b90d4	店主「う～む　そうですか。<CR>$xでは [$d2]Ｇで<CR>$xいかがでしょう？	"Shopkeeper: ""Hmm, I see. Then how about [$d2]G?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9108	店主「う～む　そうですか。<CR>$xでは　[$d2]Ｇで<CR>$xいかがでしょう？	"Shopkeeper: ""Hmm, I see. Then how about [$d2]G?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b913d	店主「う～む　そうですか。<CR>$xでは　[$d2]Ｇで<CR>$xいかがでしょう。	"Shopkeeper: ""Hmm, I see. Then how about [$d2]G?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9172	店主「お客さんが　置かれた品は<CR>$x合計　[$d0]Ｇで<CR>$x引き取ります。よろしいですか？	"Shopkeeper: ""I will pay [$d0]G for the goods you have left here. Is that all right?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b91b3	店主「残念ですが<CR>$xお金が　たりないようです。	"Shopkeeper: ""Sorry, but you do not seem to have enough money."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b91d8	ドロボー！！　ドロボー！！<CR>すさまじい声が　フロア中にひびいた！	"""Thief! Thief!""
+A thunderous shout echoed across the floor!"			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9210	$tは　お金をはらっていない！！！	$t has not paid!!!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9228	お金をはらっていないのに　商品が<CR>店の部屋より外に出てしまった！	Unpaid goods have left the shop room!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9256	$m0は 剣にちからをこめた！	$m0 charged its sword with power!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9268	$m0は <CR>$i0を盗んだ。	$m0 stole $i0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b927a	$m0はアイテムを盗もうとした！<CR>しかし盗むことができなかった！	"$m0 tried to steal an item!
+But could not steal anything!"			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b92a6	$m0はアイテムを盗もうとした！<CR>しかし盗むものがなかった。	"$m0 tried to steal an item!
+But there was nothing to steal."			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b92cf	$m0は $m1から<CR>$d0Ｇ盗んだ。	$m0 stole $d0 G from $m1.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b92e7	$m0はお金を盗もうとしたが<CR>盗めなかった。	$m0 tried to steal money, but could not.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9304	$m0はお金を盗もうとしたが <CR>$m1は お金を持っていなかった。	$m0 tried to steal money, but $m1 had none.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b932e	$m0はお金を盗もうとした！<CR>しかし盗めなかった。	"$m0 tried to steal money!
+But could not steal any."			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b934e	$m0は 転んだ！	$m0 tripped!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b6d12.
+battle.001b935b	$i0が作動した！	$i0 activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9369	$i0が作動した！	$i0 activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9377	$i0が火をふいた！	$i0 spouted flames!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9385	石像から 岩が飛んできた！	A rock flew out of the statue!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b939a	$i0が作動した！	$i0 activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b93a8	$i0が 踊りをいざなう！	$i0 invites you to dance!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b93ba	$i0は 睡眠ガスをまきちらした！	$i0 released sleeping gas!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b93d1	$i0が作動した！	$i0 activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b93df	$i0が作動した！	$i0 activated!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b93ff	石像が$m0に飛んできた！	A statue flew at $m0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9413	装備を石像に吸い取られた！	The statue sucked away your equipment!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9428	石像の効果で 自爆した！	The statue caused self-destruction!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b943d	石像の効果で 自爆したが不発だった！	The statue caused self-destruction, but it fizzled!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b945d	石像が爆発した！	The statue exploded!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b946c	石像が爆発したが不発だった！	The statue tried to explode, but it fizzled!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9486	$i1から<CR>$i0を発射した！	Fired $i0 from $i1!		interface.action.026	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9499	$tは $i0を転がした。	$t rolled $i0.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b94aa	$i0は不発だった！	$i0 failed to go off!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b94ba	$i0はなくなった。	$i0 vanished.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/core-gameplay.json / gameplay.001b5492.
+battle.001b94c7	イネス「・・・？	"Ines: ""...?"""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b94d8	イネス「私に ご用？ $tさん。	"Ines: ""Did you need me, $t?"""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b94f2	イネス「トルネコさん ごめんなさい……。<CR>$xいったん 休まないと これ以上は<CR>$x呪文は 唱えられませんわ。	"Ines: ""I am sorry, Torneko... I cannot cast any more spells until I have rested."""		torneko,enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b953e	イネス「どの 呪文を 唱えましょう？	"Ines: ""Which spell shall I cast?"""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b955b	イネス「あら やめるのですね。<CR>$x私の チカラでも お役に立てるなら<CR>$xいつでも おっしゃって下さいな。	"Ines: ""Oh, you have changed your mind? If my magic can help, please ask me any time."""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b95a5	イネス「あら？　でも　私たち<CR>$x体力は　満タンのようですわ。	"Ines: ""Oh? But we seem to be at full health already."""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b95d6	イネスは ホイミを唱えた！	Ines cast Heal!		spell.heal,enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b95ec	イネス「いけない！<CR>$x呪文を唱えても ダメだったのね。<CR>$x１回分 ムダにしてしまいましたわ。	"Ines: ""Oh no! The spell did not work. I have wasted one cast."""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9630	しかし $m0には何も効果がなかった！	But it had no effect on $m0!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b964a	イネス「ふう……　$tさん。<CR>$x悪いけど　ホイミの呪文は<CR>$xあと　１回しか　唱えられませんわ。	"Ines: ""Phew... $t. I am sorry, but I can only cast Heal once more."""		spell.heal,enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9692	イネスは イオを唱えた！	Ines cast Bang!		enemy_ines,series_bang	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b96a6	イネス「ふう……　$tさん。<CR>$x悪いけど　イオの呪文は<CR>$xあと　１回しか　唱えられませんわ。	"Ines: ""Phew... $t. I am sorry, but I can only cast Bang once more."""		enemy_ines,series_bang	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b96ec	イネス「あら？ でも 私たちは<CR>$x毒に おかされていないようですわ。	"Ines: ""Oh? But neither of us seems to be poisoned."""		enemy_ines	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b971a	イネスは キアリーを唱えた！	Ines cast Squelch!		enemy_ines,spell.squelch	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9732	イネス「ふう……　$tさん。<CR>$x悪いけど　キアリーの呪文は<CR>$xあと　１回しか　唱えられませんわ。	"Ines: ""Phew... $t. I am sorry, but I can only cast Squelch once more."""		enemy_ines,spell.squelch	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b977c	なんと $m0が<CR>起き上がり 仲間に なりたそうに<CR>こちらを 見ている！<CR>しかし これ以上 仲間を<CR>連れて行くことは できない！	"$m0 got up and looks at you, eager to join you!
+But you cannot take any more allies along!"			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b97cd	なんと $m0が<CR>起き上がり 仲間に なりたそうに<CR>こちらを 見ている！<CR>仲間に してあげますか？	"$m0 got up and looks at you, eager to join you!
+Will you let it join?"			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b980b	では このモンスターに<CR>名前を つけてあげて下さい。	Please give this monster a name.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9831	しかし $m0は<CR>名前を つけてもらえるのを<CR>待っているようだ……。	$m0 seems to be waiting for you to give it a name...			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b985c	「$m1」<CR>でよろしいですか？	"Is ""$m1"" all right?"			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9871	$m0は<CR>$m1として $tに<CR>ついてゆく 決意をした！	$m0 has decided to follow $t under the name $m1!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9891	$m0が<CR>仲間に くわわった！	$m0 joined your allies!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b98a6	$m0は<CR>さみしそうに 去っていった……。	$m0 left, looking lonely...			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b98c2	アイテムを持っていない。	You are not carrying any items.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/ally-services.json / service.00c3ee68.
+battle.001b997c	$m0「は～い。<CR>$xオイラに なにか用？	"$m0: ""Hello! Did you need something?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b999a	$m0「よかった。<CR>$x仲間が 来てくれたよっ。	"$m0: ""Great! My friends came!"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b99bc	$m0「あっ<CR>$xやめるの？ な～んだ。	"$m0: ""Oh, you changed your mind? Aww."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b99d7	$m0「仲間を呼んでみたけど<CR>$x誰も 来てくれなかったよ……。	"$m0: ""I called my friends, but nobody came..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9a04	$m0「仲間を呼んでみたけど<CR>$x誰も 来てくれなかったよ……。	"$m0: ""I called my friends, but nobody came..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9a31	$m0「仲間を呼んでみたけど<CR>$x誰も 来てくれなかったよ……。	"$m0: ""I called my friends, but nobody came..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9a5e	$m0「にぎにぎ。<CR>$xなんの用だい？	"$m0: ""Squeeze, squeeze. What do you need?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9a79	$m0「な～んだ。<CR>$xにぎにぎ。	"$m0: ""Oh, never mind, then. Squeeze, squeeze."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9a92	$m0「それじゃ<CR>$x今から もぐるので よろしく。	"$m0: ""Right, I am going underground now. Here goes!"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ab4	$m0「わたしに<CR>$xなにか 用なのか……？	"$m0: ""Do you need something from me...?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ad0	$m0「そうか<CR>$xやめるのか……。	"$m0: ""I see. You have changed your mind..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ae7	$m0「もぐる……。<CR>$xもっと 血のあるところへ……。	"$m0: ""Underground... To where there is more blood..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9b0e	$m0「オレに<CR>$xなにか 用か……？	"$m0: ""Do you need me...?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9b29	$m0「なんだ<CR>$xやめるのか……。	"$m0: ""What? You have changed your mind...?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9b41	$m0「地面の中を<CR>$x移動するのは とくいだ。<CR>$xまかせろ……。	"$m0: ""Moving underground is my speciality. Leave it to me..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9b6f	$m0「オレに<CR>$xなにか 用か……？	"$m0: ""Do you need me...?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9b8a	$m0「なんだ<CR>$xおかしなヤツ……。	"$m0: ""What? You are an odd one..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ba5	$m0「もぐるぞ……。<CR>$xどこに 現れるかは オレにも<CR>$xわからないからな……。	"$m0: ""I am going underground... Even I do not know where I will come up..."""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9bdd	$m0「ボクに<CR>$xなにか　用かい？	"$m0: ""Did you need something from me?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9bf6	$m0「なんだ<CR>$xやめるのかい？	"$m0: ""Oh, you changed your mind?"""			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9c0b	$m0は持っている武器を<CR>おもいきり投げつけた！	$m0 hurled its weapon with all its might!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9c2b	$m0は 邪悪な霧をあびせた！	$m0 unleashed an evil mist!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9c40	$m1は あやつられて<CR>仲間を攻撃するようになった！	$m1 was controlled and began attacking allies!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9c61	しかし 何も起こらなかった。	But nothing happened.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/tutorial-gameplay.json / tutorial.001b68f5.
+battle.001b9c74	水が石像をぬらしたが 何もおこらなかった。	The water soaked the statue, but nothing happened.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9c92	効果は 打ち消された！	The effect was cancelled!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ca3	$m0は 炎の中でも平気だ！	$m0 is unharmed by the flames!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9cb9	たれ流したアイテムはなくなった。	The leaked item was lost.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9cd1	この位置では凍らない。	It will not freeze in this position.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9ce2	よくきき状態だ！	Herbs and seeds have a stronger effect!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9cef	アイテムを近くにひきよせた！	Pulled items closer!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d04	ひきよせられたアイテムは無かった。	No items were pulled closer.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d1d	$i0は 止まった。	$i0 stopped.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d2b	しかし 落ちずにすんだ。	But the fall was avoided.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d3c	しかしちからが出ず できなかった。	But there was not enough strength to do it.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d54	$m0は入れ替わらなかった。	$m0 did not swap places.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d67	$m0は 固まって動かない。	$m0 is motionless.			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d7a	$i0は 凍りついた！	$i0 froze solid!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d88	炎の攻撃は 効果がない！	Fire attacks have no effect!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9d9c	氷の攻撃は 効果がない！	Ice attacks have no effect!			Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9db0	$m0は 水上でHPが回復した！	$m0 recovered HP on the water!		hp	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.
+battle.001b9dc8	なんと！$i0は<CR>ひとくいばこだった！	$i0 was a Cannibox!		enemy.cannibox	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/core-gameplay.json / gameplay.001b55b7.
+battle.001b9de1	$m1は 封印されない！	$m1 cannot be sealed!		mechanic.sealed	Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained.

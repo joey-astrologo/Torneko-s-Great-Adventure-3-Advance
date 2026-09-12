@@ -1,0 +1,4786 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "scope": "All 78 ordinary shared-event sources in the 0091 region with proved text operands: object searching, monster elder/synthesis, transitions and bonus-cave events. Two original fallback diagnostics included explicitly; unrelated debug labels and binary leads remain separate.",
+  "entries": [
+    {
+      "id": "completion.00916ba0",
+      "master_id": "jp_00916ba0",
+      "chapter": "shared_services",
+      "offset": "0x00916BA0",
+      "end_exclusive": "0x916bb1",
+      "source_hex": "83818362835a815b835796a2936f985e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "83818362835a815b835796a2936f985e",
+          "text": "メッセージ未登録",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "メッセージ未登録",
+      "events": [
+        {
+          "command_offset": "0x916b90",
+          "pointer_offset": "0x00916B94",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "Message not registered.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Original fallback diagnostic; translating it does not claim a naturally reachable unfinished script.",
+      "references": []
+    },
+    {
+      "id": "completion.009177f4",
+      "master_id": "jp_009177f4",
+      "chapter": "shared_services",
+      "offset": "0x009177F4",
+      "end_exclusive": "0x917815",
+      "source_hex": "89ef98628358834e838a8376836796a28aae936f985e816996a28dec90ac816a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89ef98628358834e838a8376836796a28aae936f985e816996a28dec90ac816a",
+          "text": "会話スクリプト未完登録（未作成）",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "会話スクリプト未完登録（未作成）",
+      "events": [
+        {
+          "command_offset": "0x9177e4",
+          "pointer_offset": "0x009177E8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "Conversation script incomplete (not created).",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Original fallback diagnostic; translating it does not claim a naturally reachable unfinished script.",
+      "references": []
+    },
+    {
+      "id": "completion.009185c0",
+      "master_id": "jp_009185c0",
+      "chapter": "shared_services",
+      "offset": "0x009185C0",
+      "end_exclusive": "0x9185e5",
+      "source_hex": "82b582a982b5814082c882c982e081408ca982c282a982e782c882a982c182bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b582a982b5814082c882c982e081408ca982c282a982e782c882a982c182bd81638142",
+          "text": "しかし　なにも　見つからなかった…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "しかし　なにも　見つからなかった…。",
+      "events": [
+        {
+          "command_offset": "0x9185a0",
+          "pointer_offset": "0x009185A4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x918610",
+          "pointer_offset": "0x00918614",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x918658",
+          "pointer_offset": "0x0091865C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91869c",
+          "pointer_offset": "0x009186A0",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "But nothing was found...",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored dungeon-interface.json entry interface.search.005; that wording is reused.",
+      "references": []
+    },
+    {
+      "id": "completion.009185e8",
+      "master_id": "jp_009185e8",
+      "chapter": "shared_services",
+      "offset": "0x009185E8",
+      "end_exclusive": "0x918605",
+      "source_hex": "247482cd8140835e838b82f0814082cc82bc82ab82b182f182be814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140835e838b82f0814082cc82bc82ab82b182f182be8149",
+          "text": "は　タルを　のぞきこんだ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　タルを　のぞきこんだ！",
+      "events": [
+        {
+          "command_offset": "0x918598",
+          "pointer_offset": "0x0091859C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t peers into the barrel!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored dungeon-interface.json entry interface.search.003; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00918630",
+      "master_id": "jp_00918630",
+      "chapter": "shared_services",
+      "offset": "0x00918630",
+      "end_exclusive": "0x91864d",
+      "source_hex": "247482cd81408363837b82f0814082cc82bc82ab82b182f182be814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd81408363837b82f0814082cc82bc82ab82b182f182be8149",
+          "text": "は　ツボを　のぞきこんだ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　ツボを　のぞきこんだ！",
+      "events": [
+        {
+          "command_offset": "0x918608",
+          "pointer_offset": "0x0091860C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t peers into the pot!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored dungeon-interface.json entry interface.search.006; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00918678",
+      "master_id": "jp_00918678",
+      "chapter": "shared_services",
+      "offset": "0x00918678",
+      "end_exclusive": "0x918691",
+      "source_hex": "247482cd8140835e8393835882f0814092b282d782bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140835e8393835882f0814092b282d782bd8149",
+          "text": "は　タンスを　調べた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　タンスを　調べた！",
+      "events": [
+        {
+          "command_offset": "0x918650",
+          "pointer_offset": "0x00918654",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t searches the dresser!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored dungeon-interface.json entry interface.search.009; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.009186bc",
+      "master_id": "jp_009186bc",
+      "chapter": "shared_services",
+      "offset": "0x009186BC",
+      "end_exclusive": "0x9186d5",
+      "source_hex": "247482cd81408ccb82be82c882f0814092b282d782bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd81408ccb82be82c882f0814092b282d782bd8142",
+          "text": "は　戸だなを　調べた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　戸だなを　調べた。",
+      "events": [
+        {
+          "command_offset": "0x918694",
+          "pointer_offset": "0x00918698",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t examined the cupboard.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored story-completion.json entry completion.00b5f3f0; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00918700",
+      "master_id": "jp_00918700",
+      "chapter": "shared_services",
+      "offset": "0x00918700",
+      "end_exclusive": "0x918723",
+      "source_hex": "82c682ad82c9814095cf82ed82c182bd967b82cd814082c882a282e682a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c682ad82c9814095cf82ed82c182bd967b82cd814082c882a282e682a482be8142",
+          "text": "とくに　変わった本は　ないようだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "とくに　変わった本は　ないようだ。",
+      "events": [
+        {
+          "command_offset": "0x9186e0",
+          "pointer_offset": "0x009186E4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "None of the books seem unusual.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918724",
+      "master_id": "jp_00918724",
+      "chapter": "shared_services",
+      "offset": "0x00918724",
+      "end_exclusive": "0x91873d",
+      "source_hex": "247482cd8140967b82be82c882f0814092b282d782bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd8140967b82be82c882f0814092b282d782bd8142",
+          "text": "は　本だなを　調べた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　本だなを　調べた。",
+      "events": [
+        {
+          "command_offset": "0x9186d8",
+          "pointer_offset": "0x009186DC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t searched the bookshelf.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.00918768",
+      "master_id": "jp_00918768",
+      "chapter": "shared_services",
+      "offset": "0x00918768",
+      "end_exclusive": "0x91879a",
+      "source_hex": "82c882f182c682c882ad814097f08e6a82f08ab482b682b382b982e90a82e882c182cf82c881408388838d834382be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c682c882ad814097f08e6a82f08ab482b682b382b982e9",
+          "text": "なんとなく　歴史を感じさせる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e882c182cf82c881408388838d834382be8142",
+          "text": "りっぱな　ヨロイだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんとなく　歴史を感じさせる\nりっぱな　ヨロイだ。",
+      "events": [
+        {
+          "command_offset": "0x918748",
+          "pointer_offset": "0x0091874C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "It is an impressive suit of armor, with a certain sense of history about it.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored story-completion.json entry completion.0096436c; that wording is reused.",
+      "references": []
+    },
+    {
+      "id": "completion.0091879c",
+      "master_id": "jp_0091879c",
+      "chapter": "shared_services",
+      "offset": "0x0091879C",
+      "end_exclusive": "0x9187c4",
+      "source_hex": "247482cd814096da82cc914f82c982a082e90a8388838d834382f0814082c882aa82df82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814096da82cc914f82c982a082e9",
+          "text": "は　目の前にある",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8388838d834382f0814082c882aa82df82bd8142",
+          "text": "ヨロイを　ながめた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　目の前にある\nヨロイを　ながめた。",
+      "events": [
+        {
+          "command_offset": "0x918740",
+          "pointer_offset": "0x00918744",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t gazed at the armor in front of him.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored story-completion.json entry completion.009643a0; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.009189dc",
+      "master_id": "jp_009189dc",
+      "chapter": "shared_services",
+      "offset": "0x009189DC",
+      "end_exclusive": "0x918a23",
+      "source_hex": "8196817582b582a982b5814082a082f182bd82cd814082ed82b582c982cd0a09977082aa814082c882a282e682a482b682e182c881420a0982ae82a482ae82a481638163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b582a982b5814082a082f182bd82cd814082ed82b582c982cd",
+          "text": "＊「しかし　あんたは　わしには",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "977082aa814082c882a282e682a482b682e182c88142",
+          "text": "用が　ないようじゃな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ae82a482ae82a4816381638142",
+          "text": "ぐうぐう……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「しかし　あんたは　わしには\n<TAB>用が　ないようじゃな。\n<TAB>ぐうぐう……。",
+      "events": [
+        {
+          "command_offset": "0x91899c",
+          "pointer_offset": "0x009189A0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"But it seems you have no need of me. Snore, snore...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918a24",
+      "master_id": "jp_00918a24",
+      "chapter": "shared_services",
+      "offset": "0x00918A24",
+      "end_exclusive": "0x918a87",
+      "source_hex": "8196817582b182f182c882c682b182eb82c9814082b182f182c891ba82aa82a082e982c682cd0a0982a882c782eb82a282bd82cc82a48142814082ed82b582e18140974c96bc82c80a09838283938358835e815b82b682a282b382f182b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182f182c882c682b182eb82c9814082b182f182c891ba82aa82a082e982c682cd",
+          "text": "＊「こんなところに　こんな村があるとは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882c782eb82a282bd82cc82a48142814082ed82b582e18140974c96bc82c8",
+          "text": "おどろいたのう。　わしゃ　有名な",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82b682a282b382f182b682e18142",
+          "text": "モンスターじいさんじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「こんなところに　こんな村があるとは\n<TAB>おどろいたのう。　わしゃ　有名な\n<TAB>モンスターじいさんじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918994",
+          "pointer_offset": "0x00918998",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        },
+        {
+          "command_offset": "0x9189bc",
+          "pointer_offset": "0x009189C0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Fancy finding a village out here! I'm the famous monster elder.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.monster_elder"
+      ]
+    },
+    {
+      "id": "completion.00918a88",
+      "master_id": "jp_00918a88",
+      "chapter": "shared_services",
+      "offset": "0x00918A88",
+      "end_exclusive": "0x918ac7",
+      "source_hex": "8196817582c882f182b682e1814082e282df82e982cc82a981420a09977082aa82a082c182bd82e7814082dc82bd0a09978882e982aa82a682a682bc814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c882f182b682e1814082e282df82e982cc82a98142",
+          "text": "＊「なんじゃ　やめるのか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "977082aa82a082c182bd82e7814082dc82bd",
+          "text": "用があったら　また",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "978882e982aa82a682a682bc8142",
+          "text": "来るがええぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「なんじゃ　やめるのか。\n<TAB>用があったら　また\n<TAB>来るがええぞ。",
+      "events": [
+        {
+          "command_offset": "0x918954",
+          "pointer_offset": "0x00918958",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Oh, you're done? Come back if you need me.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918ac8",
+      "master_id": "jp_00918ac8",
+      "chapter": "shared_services",
+      "offset": "0x00918AC8",
+      "end_exclusive": "0x918b17",
+      "source_hex": "8196817582ed82b582e18140838283938358835e815b82b682a282b382f182b682e181420a0992878ad4838283938358835e815b82cc8140976c8e7182f00a098ca982c482a282ad82a982cb814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582ed82b582e18140838283938358835e815b82b682a282b382f182b682e18142",
+          "text": "＊「わしゃ　モンスターじいさんじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "92878ad4838283938358835e815b82cc8140976c8e7182f0",
+          "text": "仲間モンスターの　様子を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ca982c482a282ad82a982cb8148",
+          "text": "見ていくかね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「わしゃ　モンスターじいさんじゃ。\n<TAB>仲間モンスターの　様子を\n<TAB>見ていくかね？",
+      "events": [
+        {
+          "command_offset": "0x91894c",
+          "pointer_offset": "0x00918950",
+          "command_word": "0x0001012C",
+          "opcode": 44,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"I'm the monster elder. Would you like to see how your monster allies are doing?\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.monster_elder"
+      ]
+    },
+    {
+      "id": "completion.00918b18",
+      "master_id": "jp_00918b18",
+      "chapter": "shared_services",
+      "offset": "0x00918B18",
+      "end_exclusive": "0x918b71",
+      "source_hex": "8196817582d382de81638163814082b782dc82f182aa0a0982a882ca82b582cd814082a082dc82e88140838283938358835e815b82c90a098d4482a982ea82bb82a482c88ae782f0814082b582c682e782f182cc82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d382de81638163814082b782dc82f182aa",
+          "text": "＊「ふむ……　すまんが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882ca82b582cd814082a082dc82e88140838283938358835e815b82c9",
+          "text": "おぬしは　あまり　モンスターに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d4482a982ea82bb82a482c88ae782f0814082b582c682e782f182cc82a48142",
+          "text": "好かれそうな顔を　しとらんのう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ふむ……　すまんが\n<TAB>おぬしは　あまり　モンスターに\n<TAB>好かれそうな顔を　しとらんのう。",
+      "events": [
+        {
+          "command_offset": "0x91892c",
+          "pointer_offset": "0x00918930",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Hmm... Sorry, but you don't look like someone monsters would take to.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918b74",
+      "master_id": "jp_00918b74",
+      "chapter": "shared_services",
+      "offset": "0x00918B74",
+      "end_exclusive": "0x918ba1",
+      "source_hex": "8196817582ed82b582e18140974c96bc82c80a09838283938358835e815b82b682a282b382f182b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582ed82b582e18140974c96bc82c8",
+          "text": "＊「わしゃ　有名な",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838283938358835e815b82b682a282b382f182b682e18142",
+          "text": "モンスターじいさんじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「わしゃ　有名な\n<TAB>モンスターじいさんじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918924",
+          "pointer_offset": "0x00918928",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"I'm the famous monster elder.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.monster_elder"
+      ]
+    },
+    {
+      "id": "completion.00918cfc",
+      "master_id": "jp_00918cfc",
+      "chapter": "shared_services",
+      "offset": "0x00918CFC",
+      "end_exclusive": "0x918d3d",
+      "source_hex": "8196817582ed82b582cc81408b4382aa95cf82ed82e782f182a482bf82cd0a098d8790ac82b582c482e282e982a982e7814082bd82dc82c982cd978882c8814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582ed82b582cc81408b4382aa95cf82ed82e782f182a482bf82cd",
+          "text": "＊「わしの　気が変わらんうちは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82b582c482e282e982a982e7814082bd82dc82c982cd978882c88142",
+          "text": "合成してやるから　たまには来な。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「わしの　気が変わらんうちは\n<TAB>合成してやるから　たまには来な。",
+      "events": [
+        {
+          "command_offset": "0x918cd4",
+          "pointer_offset": "0x00918CD8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"I'll perform synthesis for you until I change my mind. Drop by now and then.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00918d40",
+      "master_id": "jp_00918d40",
+      "chapter": "shared_services",
+      "offset": "0x00918D40",
+      "end_exclusive": "0x918d57",
+      "source_hex": "8196817590e096be82cd8f4982ed82e882b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817590e096be82cd8f4982ed82e882b682e18142",
+          "text": "＊「説明は終わりじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「説明は終わりじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918cb4",
+          "pointer_offset": "0x00918CB8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"That's all for my explanation.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918d58",
+      "master_id": "jp_00918d58",
+      "chapter": "shared_services",
+      "offset": "0x00918D58",
+      "end_exclusive": "0x918db3",
+      "source_hex": "8196817588f382cc909488c88fe382c98d8790ac82b582c482e00a0993c18eea82c8945c97cd82cd81408ef382af82c282ae82b182c682aa0a0982c582ab82c882a282cc82c581408b4382f0957482af82e982cc82b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817588f382cc909488c88fe382c98d8790ac82b582c482e0",
+          "text": "＊「印の数以上に合成しても",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93c18eea82c8945c97cd82cd81408ef382af82c282ae82b182c682aa",
+          "text": "特殊な能力は　受けつぐことが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c582ab82c882a282cc82c581408b4382f0957482af82e982cc82b682e18142",
+          "text": "できないので　気を付けるのじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「印の数以上に合成しても\n<TAB>特殊な能力は　受けつぐことが\n<TAB>できないので　気を付けるのじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918cac",
+          "pointer_offset": "0x00918CB0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Be careful. Synthesis can't pass on more special abilities than the item has room for marks.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis",
+        "effect.001b728e"
+      ]
+    },
+    {
+      "id": "completion.00918db4",
+      "master_id": "jp_00918db4",
+      "chapter": "shared_services",
+      "offset": "0x00918DB4",
+      "end_exclusive": "0x918e13",
+      "source_hex": "8196817588f382cd8140919594f582b782e9834183438365838082c982bb82ea82bc82ea0a09909482aa8c8882dc82c182c482a282c4814090e096be82cc928682c982e00a0988f3909482c682b582c482a982a982ea82c482a882e9814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817588f382cd8140919594f582b782e9834183438365838082c982bb82ea82bc82ea",
+          "text": "＊「印は　装備するアイテムにそれぞれ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "909482aa8c8882dc82c182c482a282c4814090e096be82cc928682c982e0",
+          "text": "数が決まっていて　説明の中にも",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "88f3909482c682b582c482a982a982ea82c482a882e98142",
+          "text": "印数としてかかれておる。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「印は　装備するアイテムにそれぞれ\n<TAB>数が決まっていて　説明の中にも\n<TAB>印数としてかかれておる。",
+      "events": [
+        {
+          "command_offset": "0x918ca4",
+          "pointer_offset": "0x00918CA8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Each piece of equipment has a fixed number of mark slots. You can find that number in its description.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "effect.001b728e"
+      ]
+    },
+    {
+      "id": "completion.00918e14",
+      "master_id": "jp_00918e14",
+      "chapter": "shared_services",
+      "offset": "0x00918E14",
+      "end_exclusive": "0x918e75",
+      "source_hex": "8196817582b182a482a282c182bd93c18eea82c8945c97cd82cc82b182c682f00a0988f3814082c68cc482d181408d8790ac82b382ea82bd834183438365838082cc0a0990e096be82f08ca982e982c681408a6d944682c582ab82e982bc814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182a482a282c182bd93c18eea82c8945c97cd82cc82b182c682f0",
+          "text": "＊「こういった特殊な能力のことを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "88f3814082c68cc482d181408d8790ac82b382ea82bd834183438365838082cc",
+          "text": "印　と呼び　合成されたアイテムの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e096be82f08ca982e982c681408a6d944682c582ab82e982bc8142",
+          "text": "説明を見ると　確認できるぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「こういった特殊な能力のことを\n<TAB>印　と呼び　合成されたアイテムの\n<TAB>説明を見ると　確認できるぞ。",
+      "events": [
+        {
+          "command_offset": "0x918c9c",
+          "pointer_offset": "0x00918CA0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"We call these special abilities marks. You can check them in the synthesized item's description.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis",
+        "effect.001b728e"
+      ]
+    },
+    {
+      "id": "completion.00918e78",
+      "master_id": "jp_00918e78",
+      "chapter": "shared_services",
+      "offset": "0x00918E78",
+      "end_exclusive": "0x918ebd",
+      "source_hex": "8196817591bc82cc95908aed82c98140835d8393837282c98bad82a28140945c97cd82f00a098ef382af82c282ae82b182c682aa814082c582ab82e982cc82b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817591bc82cc95908aed82c98140835d8393837282c98bad82a28140945c97cd82f0",
+          "text": "＊「他の武器に　ゾンビに強い　能力を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef382af82c282ae82b182c682aa814082c582ab82e982cc82b682e18142",
+          "text": "受けつぐことが　できるのじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「他の武器に　ゾンビに強い　能力を\n<TAB>受けつぐことが　できるのじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918c94",
+          "pointer_offset": "0x00918C98",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"...you can pass its strength against the undead on to another weapon.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918ec0",
+      "master_id": "jp_00918ec0",
+      "chapter": "shared_services",
+      "offset": "0x00918EC0",
+      "end_exclusive": "0x918ef7",
+      "source_hex": "8196817582b182cc93c18eea82c8945c97cd82f0814091bc82cc95908aed82c90a098d8790ac82b782e982b182c682c982e682c182c400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182cc93c18eea82c8945c97cd82f0814091bc82cc95908aed82c9",
+          "text": "＊「この特殊な能力を　他の武器に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82b782e982b182c682c982e682c182c4",
+          "text": "合成することによって",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「この特殊な能力を　他の武器に\n<TAB>合成することによって",
+      "events": [
+        {
+          "command_offset": "0x918c8c",
+          "pointer_offset": "0x00918C90",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"By passing this special ability to another weapon through synthesis...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00918ef8",
+      "master_id": "jp_00918ef8",
+      "chapter": "shared_services",
+      "offset": "0x00918EF8",
+      "end_exclusive": "0x918f53",
+      "source_hex": "8196817582bd82c682a682ce835c83938372834c8389815b81420a0982b182cc95908aed82c982cd8140835d8393837282c98bad82a2814082c682a282a40a0993c18eea82c8945c97cd82aa82a082e982cc82b682e182aa816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582bd82c682a682ce835c83938372834c8389815b8142",
+          "text": "＊「たとえばソンビキラー。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc95908aed82c982cd8140835d8393837282c98bad82a2814082c682a282a4",
+          "text": "この武器には　ゾンビに強い　という",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93c18eea82c8945c97cd82aa82a082e982cc82b682e182aa8163",
+          "text": "特殊な能力があるのじゃが…",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「たとえばソンビキラー。\n<TAB>この武器には　ゾンビに強い　という\n<TAB>特殊な能力があるのじゃが…",
+      "events": [
+        {
+          "command_offset": "0x918c84",
+          "pointer_offset": "0x00918C88",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Take Zombiesbane. Its special ability makes it strong against the undead...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. The Japanese source spells ソンビキラー without dakuten. Its undead-effective weapon example identifies ゾンビキラー / Zombiesbane; retain the original source bytes and record the typo without creating a new item identity.",
+      "references": [
+        "combined_item_012"
+      ]
+    },
+    {
+      "id": "completion.00918f54",
+      "master_id": "jp_00918f54",
+      "chapter": "shared_services",
+      "offset": "0x00918F54",
+      "end_exclusive": "0x918f8b",
+      "source_hex": "819681758cb382c982c882e9834183438365838082c90a098ef382af82c282ae82b182c682aa814082c582ab82e982cc82b682e1814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758cb382c982c882e9834183438365838082c9",
+          "text": "＊「元になるアイテムに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8ef382af82c282ae82b182c682aa814082c582ab82e982cc82b682e18142",
+          "text": "受けつぐことが　できるのじゃ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「元になるアイテムに\n<TAB>受けつぐことが　できるのじゃ。",
+      "events": [
+        {
+          "command_offset": "0x918c7c",
+          "pointer_offset": "0x00918C80",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"...can be passed on to the base item.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918f8c",
+      "master_id": "jp_00918f8c",
+      "chapter": "shared_services",
+      "offset": "0x00918F8C",
+      "end_exclusive": "0x918fbb",
+      "source_hex": "81968175834183438365838082bb82ea82bc82ea82c991b68ddd82b782e90a0993c18eea82c8945c97cd82f0816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "81968175834183438365838082bb82ea82bc82ea82c991b68ddd82b782e9",
+          "text": "＊「アイテムそれぞれに存在する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93c18eea82c8945c97cd82f08163",
+          "text": "特殊な能力を…",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「アイテムそれぞれに存在する\n<TAB>特殊な能力を…",
+      "events": [
+        {
+          "command_offset": "0x918c74",
+          "pointer_offset": "0x00918C78",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"...and the special abilities that each item possesses...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00918fbc",
+      "master_id": "jp_00918fbc",
+      "chapter": "shared_services",
+      "offset": "0x00918FBC",
+      "end_exclusive": "0x918fff",
+      "source_hex": "819681758d8790ac82f08d7382a482c6814095908aed82e28f8282c982a082e90a09817b825282c882c782cc8bad82b382f0814082a082e782ed82b790948e9a82c600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758d8790ac82f08d7382a482c6814095908aed82e28f8282c982a082e9",
+          "text": "＊「合成を行うと　武器や盾にある",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817b825282c882c782cc8bad82b382f0814082a082e782ed82b790948e9a82c6",
+          "text": "＋３などの強さを　あらわす数字と",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「合成を行うと　武器や盾にある\n<TAB>＋３などの強さを　あらわす数字と",
+      "events": [
+        {
+          "command_offset": "0x918c6c",
+          "pointer_offset": "0x00918C70",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"When you perform synthesis, the numbers that show a weapon or shield's strength, such as +3...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00919000",
+      "master_id": "jp_00919000",
+      "chapter": "shared_services",
+      "offset": "0x00919000",
+      "end_exclusive": "0x919041",
+      "source_hex": "8196817582a482bf82c582cd81408c9582c68c9581408f8282c68f820a098e7797d682c68e7797d682f08d8790ac82b782e982b182c682aa82c582ab82e9814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582a482bf82c582cd81408c9582c68c9581408f8282c68f82",
+          "text": "＊「うちでは　剣と剣　盾と盾",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8e7797d682c68e7797d682f08d8790ac82b782e982b182c682aa82c582ab82e98142",
+          "text": "指輪と指輪を合成することができる。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「うちでは　剣と剣　盾と盾\n<TAB>指輪と指輪を合成することができる。",
+      "events": [
+        {
+          "command_offset": "0x918c64",
+          "pointer_offset": "0x00918C68",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Here, you can synthesize a sword with a sword, a shield with a shield, or a ring with a ring.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00919044",
+      "master_id": "jp_00919044",
+      "chapter": "shared_services",
+      "offset": "0x00919044",
+      "end_exclusive": "0x919087",
+      "source_hex": "819681758d8790ac82c982c282a282c482cc90e096be82f00a0995b782ab82bd82a282cc82b682e182c881420a0982dc82a0814082a282a282b682e182eb82a4814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758d8790ac82c982c282a282c482cc90e096be82f0",
+          "text": "＊「合成についての説明を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95b782ab82bd82a282cc82b682e182c88142",
+          "text": "聞きたいのじゃな。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82a0814082a282a282b682e182eb82a48142",
+          "text": "まあ　いいじゃろう。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「合成についての説明を\n<TAB>聞きたいのじゃな。\n<TAB>まあ　いいじゃろう。",
+      "events": [
+        {
+          "command_offset": "0x918c5c",
+          "pointer_offset": "0x00918C60",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"You want to hear about synthesis? Very well.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00919088",
+      "master_id": "jp_00919088",
+      "chapter": "shared_services",
+      "offset": "0x00919088",
+      "end_exclusive": "0x9190ad",
+      "source_hex": "8196817582d982a982c982e0814082c882c982a90a098d8790ac82b782e982cc82a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582d982a982c982e0814082c882c982a9",
+          "text": "＊「ほかにも　なにか",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82b782e982cc82a98148",
+          "text": "合成するのか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「ほかにも　なにか\n<TAB>合成するのか？",
+      "events": [
+        {
+          "command_offset": "0x918c44",
+          "pointer_offset": "0x00918C48",
+          "command_word": "0x0000012C",
+          "opcode": 44,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Will you synthesize anything else?\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.009190b0",
+      "master_id": "jp_009190b0",
+      "chapter": "shared_services",
+      "offset": "0x009190B0",
+      "end_exclusive": "0x9190f9",
+      "source_hex": "8196817582dc82bf82aa82c182bd82cc82a981420a0982d082c682c982cd82be82ea82c582e082dc82bf82aa82a282cd82a082e981420a0982dc82a082a682a682b682e182eb814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582dc82bf82aa82c182bd82cc82a98142",
+          "text": "＊「まちがったのか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d082c682c982cd82be82ea82c582e082dc82bf82aa82a282cd82a082e98142",
+          "text": "ひとにはだれでもまちがいはある。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82dc82a082a682a682b682e182eb8142",
+          "text": "まあええじゃろ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「まちがったのか。\n<TAB>ひとにはだれでもまちがいはある。\n<TAB>まあええじゃろ。",
+      "events": [
+        {
+          "command_offset": "0x918c2c",
+          "pointer_offset": "0x00918C30",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Made a mistake? Everyone makes mistakes. Never mind.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.009190fc",
+      "master_id": "jp_009190fc",
+      "chapter": "shared_services",
+      "offset": "0x009190FC",
+      "end_exclusive": "0x91911d",
+      "source_hex": "8196817582e682c182b182e782b982c181420a0982cd829f829f829f8160814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e682c182b182e782b982c18142",
+          "text": "＊「よっこらせっ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd829f829f829f81608142",
+          "text": "はぁぁぁ～。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「よっこらせっ。\n<TAB>はぁぁぁ～。",
+      "events": [
+        {
+          "command_offset": "0x918bfc",
+          "pointer_offset": "0x00918C00",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Heave-ho! Haaaah...\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00919120",
+      "master_id": "jp_00919120",
+      "chapter": "shared_services",
+      "offset": "0x00919120",
+      "end_exclusive": "0x919127",
+      "source_hex": "82e282df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e282df82e9",
+          "text": "やめる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "やめる",
+      "events": [
+        {
+          "command_offset": "0x918bcc",
+          "pointer_offset": "0x00918BD0",
+          "command_word": "0x00050098",
+          "opcode": 152,
+          "prompt_command_offset": "0x918bb4",
+          "choice_index": 2,
+          "choice_count": 3
+        }
+      ],
+      "reuse": null,
+      "layout": "choice",
+      "english": "Cancel",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.00919128",
+      "master_id": "jp_00919128",
+      "chapter": "shared_services",
+      "offset": "0x00919128",
+      "end_exclusive": "0x919133",
+      "source_hex": "8d8790ac82cc90e096be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82cc90e096be",
+          "text": "合成の説明",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "合成の説明",
+      "events": [
+        {
+          "command_offset": "0x918bc4",
+          "pointer_offset": "0x00918BC8",
+          "command_word": "0x00040098",
+          "opcode": 152,
+          "prompt_command_offset": "0x918bb4",
+          "choice_index": 1,
+          "choice_count": 3
+        }
+      ],
+      "reuse": null,
+      "layout": "choice",
+      "english": "About synthesis",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00919134",
+      "master_id": "jp_00919134",
+      "chapter": "shared_services",
+      "offset": "0x00919134",
+      "end_exclusive": "0x91913d",
+      "source_hex": "8d8790ac82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac82b782e9",
+          "text": "合成する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "合成する",
+      "events": [
+        {
+          "command_offset": "0x918bbc",
+          "pointer_offset": "0x00918BC0",
+          "command_word": "0x00010098",
+          "opcode": 152,
+          "prompt_command_offset": "0x918bb4",
+          "choice_index": 0,
+          "choice_count": 3
+        }
+      ],
+      "reuse": null,
+      "layout": "choice",
+      "english": "Synthesize",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "synthesis"
+      ]
+    },
+    {
+      "id": "completion.00919140",
+      "master_id": "jp_00919140",
+      "chapter": "shared_services",
+      "offset": "0x00919140",
+      "end_exclusive": "0x919155",
+      "source_hex": "8196817582c782a482b782e982f182b682e1814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c782a482b782e982f182b682e18148",
+          "text": "＊「どうするんじゃ？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「どうするんじゃ？",
+      "events": [
+        {
+          "command_offset": "0x918bb4",
+          "pointer_offset": "0x00918BB8",
+          "command_word": "0x00000197",
+          "opcode": 151,
+          "wrapper": "0x080612D4",
+          "choice_count": 3
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"What will you do?\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091b4d8",
+      "master_id": "jp_0091b4d8",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B4D8",
+      "end_exclusive": "0x91b516",
+      "source_hex": "8f6a935482c9814082b382bb82ed82ea82c482a282e982cc82c50a8f9f8ee882c98f6f82a982af82e982ed82af82c982cd814082a282a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8f6a935482c9814082b382bb82ed82ea82c482a282e982cc82c5",
+          "text": "祝典に　さそわれているので",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f8ee882c98f6f82a982af82e982ed82af82c982cd814082a282a982c882a28149",
+          "text": "勝手に出かけるわけには　いかない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "祝典に　さそわれているので\n勝手に出かけるわけには　いかない！",
+      "events": [
+        {
+          "command_offset": "0x91b4c0",
+          "pointer_offset": "0x0091B4C4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "You've been invited to the celebration. You can't just leave!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091b518",
+      "master_id": "jp_0091b518",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B518",
+      "end_exclusive": "0x91b546",
+      "source_hex": "90e882a2836f836f82c68140986282b782dc82c582cd0a8b4182e982ed82af82c982cd82a282a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82c68140986282b782dc82c582cd",
+          "text": "占いババと　話すまでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4182e982ed82af82c982cd82a282a982c882a28149",
+          "text": "帰るわけにはいかない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "占いババと　話すまでは\n帰るわけにはいかない！",
+      "events": [
+        {
+          "command_offset": "0x91b4a0",
+          "pointer_offset": "0x0091B4A4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "You can't leave until you've spoken to the Fortune-teller!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "completion.0091b548",
+      "master_id": "jp_0091b548",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B548",
+      "end_exclusive": "0x91b59f",
+      "source_hex": "90e882a2836f836f817582dc82b382a98140835f839383578387839382c90a0993fc82e98b4382b682e182c882a282be82eb82a482cb81480a098d6092ac82c58140914482aa91d282c182c482e982f182be82e6814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f817582dc82b382a98140835f839383578387839382c9",
+          "text": "占いババ「まさか　ダンジョンに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93fc82e98b4382b682e182c882a282be82eb82a482cb8148",
+          "text": "入る気じゃないだろうね？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d6092ac82c58140914482aa91d282c182c482e982f182be82e68142",
+          "text": "港町で　船が待ってるんだよ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "占いババ「まさか　ダンジョンに\n<TAB>入る気じゃないだろうね？\n<TAB>港町で　船が待ってるんだよ。",
+      "events": [
+        {
+          "command_offset": "0x91b480",
+          "pointer_offset": "0x0091B484",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Fortune-teller: \"You're not going into the dungeon, are you? A ship is waiting at the port town.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.fortune_teller",
+        "character.castle_john"
+      ]
+    },
+    {
+      "id": "completion.0091b5a0",
+      "master_id": "jp_0091b5a0",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B5A0",
+      "end_exclusive": "0x91b5da",
+      "source_hex": "90e882a2836f836f82c9814096f282f08dec82c182c482e082e782a482dc82c582cd0a8b4182e982ed82af82c982cd8d7382a982c882a2814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82c9814096f282f08dec82c182c482e082e782a482dc82c582cd",
+          "text": "占いババに　薬を作ってもらうまでは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4182e982ed82af82c982cd8d7382a982c882a28149",
+          "text": "帰るわけには行かない！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "占いババに　薬を作ってもらうまでは\n帰るわけには行かない！",
+      "events": [
+        {
+          "command_offset": "0x91b460",
+          "pointer_offset": "0x0091B464",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "You can't leave until the Fortune-teller makes the medicine!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "completion.0091b5dc",
+      "master_id": "jp_0091b5dc",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B5DC",
+      "end_exclusive": "0x91b633",
+      "source_hex": "8da182cd814091bc82cc8fea8f8a82d68d7382ad82e682e80a82a282c182b182ad82e0918182ad81408a4397b382cc90b989ce82f00a939491e482d693cd82af82bd82d982a482aa814082e682b382bb82a482be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8da182cd814091bc82cc8fea8f8a82d68d7382ad82e682e8",
+          "text": "今は　他の場所へ行くより",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182b182ad82e0918182ad81408a4397b382cc90b989ce82f0",
+          "text": "いっこくも早く　海竜の聖火を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "939491e482d693cd82af82bd82d982a482aa814082e682b382bb82a482be8142",
+          "text": "灯台へ届けたほうが　よさそうだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "今は　他の場所へ行くより\nいっこくも早く　海竜の聖火を\n灯台へ届けたほうが　よさそうだ。",
+      "events": [
+        {
+          "command_offset": "0x91b440",
+          "pointer_offset": "0x0091B444",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "You'd better hurry the Sea Dragon's sacred flame to the lighthouse before going anywhere else.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "lore.sea_dragon_flame"
+      ]
+    },
+    {
+      "id": "completion.0091b634",
+      "master_id": "jp_0091b634",
+      "chapter": "shared_transitions",
+      "offset": "0x0091B634",
+      "end_exclusive": "0x91b687",
+      "source_hex": "91b092b7817582a882e2814881408367838b836c835282c782cc0a0982c782b182d681408d7382a982ea82dc82b78148814082b382b30a0982c782bf82e782a9814082a88c8882df82ad82be82b382ea814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91b092b7817582a882e2814881408367838b836c835282c782cc",
+          "text": "族長「おや？　トルネコどの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782b182d681408d7382a982ea82dc82b78148814082b382b3",
+          "text": "どこへ　行かれます？　ささ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782bf82e782a9814082a88c8882df82ad82be82b382ea8142",
+          "text": "どちらか　お決めくだされ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "族長「おや？　トルネコどの\n<TAB>どこへ　行かれます？　ささ\n<TAB>どちらか　お決めくだされ。",
+      "events": [
+        {
+          "command_offset": "0x91b420",
+          "pointer_offset": "0x0091B424",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "Chief: \"Oh? Where are you going, Torneko? Please choose one of them.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.0091c0fc",
+      "master_id": "jp_0091c0fc",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C0FC",
+      "end_exclusive": "0x91c137",
+      "source_hex": "8196817582c782a482a9814082a88b4382f082c282af82c481420a0982ad82ea82ae82ea82e0814096b3979d82cd8bd695a882c582b782bc814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582c782a482a9814082a88b4382f082c282af82c48142",
+          "text": "＊「どうか　お気をつけて。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82ad82ea82ae82ea82e0814096b3979d82cd8bd695a882c582b782bc8142",
+          "text": "くれぐれも　無理は禁物ですぞ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「どうか　お気をつけて。\n<TAB>くれぐれも　無理は禁物ですぞ。",
+      "events": [
+        {
+          "command_offset": "0x91c0bc",
+          "pointer_offset": "0x0091C0C0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Do take care. Whatever you do, do not push yourself too hard.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored first-village.json entry village.00b6f750; that wording is reused.",
+      "references": []
+    },
+    {
+      "id": "completion.0091c138",
+      "master_id": "jp_0091c138",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C138",
+      "end_exclusive": "0x91c1a9",
+      "source_hex": "8196817582b182cc905f815882cc82d982b182e782e682e88140814082b382e782c9926e89ba82d682c60a0991ab82f082d382dd93fc82ea82bd8ed282cd81408c8882b582c482e082c782c182c482cd0a09978882e782ea82ca82c682cc81408cbe82a2936082a682e082a082e9814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182cc905f815882cc82d982b182e782e682e88140814082b382e782c9926e89ba82d682c6",
+          "text": "＊「この神々のほこらより　　さらに地下へと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ab82f082d382dd93fc82ea82bd8ed282cd81408c8882b582c482e082c782c182c482cd",
+          "text": "足をふみ入れた者は　決してもどっては",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "978882e782ea82ca82c682cc81408cbe82a2936082a682e082a082e98142",
+          "text": "来られぬとの　言い伝えもある。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「この神々のほこらより　　さらに地下へと\n<TAB>足をふみ入れた者は　決してもどっては\n<TAB>来られぬとの　言い伝えもある。",
+      "events": [
+        {
+          "command_offset": "0x91c0b4",
+          "pointer_offset": "0x0091C0B8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Legend says that those who venture below the Shrine of the Gods never return.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "place.shrine_of_the_gods"
+      ]
+    },
+    {
+      "id": "completion.0091c1ac",
+      "master_id": "jp_0091c1ac",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C1AC",
+      "end_exclusive": "0x91c1ff",
+      "source_hex": "8196817582b182ea82cd8140247482c782cc81490a0991b092b7834b83808389839382b382dc82e682e8814097b797a782bf82cc0a0982a8986282cd814082a482a982aa82c182c482a882e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582b182ea82cd8140",
+          "text": "＊「これは　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782cc8149",
+          "text": "どの！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91b092b7834b83808389839382b382dc82e682e8814097b797a782bf82cc",
+          "text": "族長ガムランさまより　旅立ちの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a8986282cd814082a482a982aa82c182c482a882e882dc82b78142",
+          "text": "お話は　うかがっております。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「これは　$tどの！\n<TAB>族長ガムランさまより　旅立ちの\n<TAB>お話は　うかがっております。",
+      "events": [
+        {
+          "command_offset": "0x91c0ac",
+          "pointer_offset": "0x0091C0B0",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Ah, $t! Chief Gamlan told me of your departure.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091c6f8",
+      "master_id": "jp_0091c6f8",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C6F8",
+      "end_exclusive": "0x91c742",
+      "source_hex": "246390e882a2836f836f82cd81408df096e982c282ad82c182bd834e8358838a82f00a246389a494dc82c988f982dc82b9814082bb82b582c4814096e982aa96be82af82bd8163816300",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e882a2836f836f82cd81408df096e982c282ad82c182bd834e8358838a82f0",
+          "text": "占いババは　昨夜つくったクスリを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89a494dc82c988f982dc82b9814082bb82b582c4814096e982aa96be82af82bd81638163",
+          "text": "王妃に飲ませ　そして　夜が明けた……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c占いババは　昨夜つくったクスリを\n$c王妃に飲ませ　そして　夜が明けた……",
+      "events": [
+        {
+          "command_offset": "0x91c6b0",
+          "pointer_offset": "0x0091C6B4",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "The Fortune-teller gave the Queen the medicine she'd made that night. Then dawn broke...",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "role.queen",
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "completion.0091c744",
+      "master_id": "jp_0091c744",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C744",
+      "end_exclusive": "0x91c790",
+      "source_hex": "246382b182a482b582c481408367838b836c835282cd814089a482c9814082e682eb82b182ce82ea0a246382a082bd82bd82a982a283788362836882d6814088c493e082b382ea82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182a482b582c481408367838b836c835282cd814089a482c9814082e682eb82b182ce82ea",
+          "text": "こうして　トルネコは　王に　よろこばれ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082bd82bd82a982a283788362836882d6814088c493e082b382ea82bd8142",
+          "text": "あたたかいベッドへ　案内された。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cこうして　トルネコは　王に　よろこばれ\n$cあたたかいベッドへ　案内された。",
+      "events": [
+        {
+          "command_offset": "0x91c690",
+          "pointer_offset": "0x0091C694",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Having earned the King's gratitude, Torneko was shown to a warm bed.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.0091c9f8",
+      "master_id": "jp_0091c9f8",
+      "chapter": "shared_transitions",
+      "offset": "0x0091C9F8",
+      "end_exclusive": "0x91ca63",
+      "source_hex": "246391e582b382ed82ac82cc91ba906c82bd82bf82f0814082b582e882df82c90a24638367838b836c835282cd81408b7d82a282c5814090e882a2836f836f82f00a2463837c837c838d82cc82e082c682d68140984182ea82c48d7382c182bd82cc82c582b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91e582b382ed82ac82cc91ba906c82bd82bf82f0814082b582e882df82c9",
+          "text": "大さわぎの村人たちを　しりめに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282cd81408b7d82a282c5814090e882a2836f836f82f0",
+          "text": "トルネコは　急いで　占いババを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82cc82e082c682d68140984182ea82c48d7382c182bd82cc82c582b582bd8142",
+          "text": "ポポロのもとへ　連れて行ったのでした。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c大さわぎの村人たちを　しりめに\n$cトルネコは　急いで　占いババを\n$cポポロのもとへ　連れて行ったのでした。",
+      "events": [
+        {
+          "command_offset": "0x91c9b0",
+          "pointer_offset": "0x0091C9B4",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Leaving the excited villagers behind, Torneko hurried the Fortune-teller to Tipper's side.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "enemy_tipper",
+        "role.fortune_teller"
+      ]
+    },
+    {
+      "id": "completion.0091ca64",
+      "master_id": "jp_0091ca64",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CA64",
+      "end_exclusive": "0x91caa4",
+      "source_hex": "246392b782a2914497b782cc8ce3814082e282c182c60a2463836f838a8369837b82cc91ba82c9939e928582b582bd81408367838b836c835282bd82bf814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "92b782a2914497b782cc8ce3814082e282c182c6",
+          "text": "長い船旅の後　やっと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b82cc91ba82c9939e928582b582bd81408367838b836c835282bd82bf8142",
+          "text": "バリナボの村に到着した　トルネコたち。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c長い船旅の後　やっと\n$cバリナボの村に到着した　トルネコたち。",
+      "events": [
+        {
+          "command_offset": "0x91c990",
+          "pointer_offset": "0x0091C994",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "After a long voyage, Torneko and his companions finally arrived in Barinabo Village.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "place.barinabo"
+      ]
+    },
+    {
+      "id": "completion.0091cb84",
+      "master_id": "jp_0091cb84",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CB84",
+      "end_exclusive": "0x91cbb2",
+      "source_hex": "2463819681758163816381408b4e82ab82c40a246382cb82a681408b4e82ab82c482e68140837083708163816300",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "819681758163816381408b4e82ab82c4",
+          "text": "＊「……　起きて",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cb82a681408b4e82ab82c482e681408370837081638163",
+          "text": "ねえ　起きてよ　パパ……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c＊「……　起きて\n$cねえ　起きてよ　パパ……",
+      "events": [
+        {
+          "command_offset": "0x91cb1c",
+          "pointer_offset": "0x0091CB20",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "???: '... Wake up. Please wake up, Dad...'",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": []
+    },
+    {
+      "id": "completion.0091cd34",
+      "master_id": "jp_0091cd34",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CD34",
+      "end_exclusive": "0x91cdb3",
+      "source_hex": "246382bb82b582c4814082e682ad92a98142814091b092b782bd82bf8140836f838a8369837b82cc96af82cd0a246391ba82cc956c95d382a982e781408367838b836c835282c6836c836c82f08fe682b982bd914482f00a246382a282c282dc82c582e081408ca9919782e882c282c382af82c482a282bd81638163814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bb82b582c4814082e682ad92a98142814091b092b782bd82bf8140836f838a8369837b82cc96af82cd",
+          "text": "そして　よく朝。　族長たち　バリナボの民は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91ba82cc956c95d382a982e781408367838b836c835282c6836c836c82f08fe682b982bd914482f0",
+          "text": "村の浜辺から　トルネコとネネを乗せた船を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282c282dc82c582e081408ca9919782e882c282c382af82c482a282bd816381638142",
+          "text": "いつまでも　見送りつづけていた……。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cそして　よく朝。　族長たち　バリナボの民は\n$c村の浜辺から　トルネコとネネを乗せた船を\n$cいつまでも　見送りつづけていた……。",
+      "events": [
+        {
+          "command_offset": "0x91cc7c",
+          "pointer_offset": "0x0091CC80",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "The next morning, the Chief and his people watched from the beach as Torneko and Tessie's ship sailed away...",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "place.barinabo"
+      ]
+    },
+    {
+      "id": "completion.0091cdb4",
+      "master_id": "jp_0091cdb4",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CDB4",
+      "end_exclusive": "0x91ce15",
+      "source_hex": "2463837c837c838d82cc814097b797a782bf82cc8c8888d382f00a246395b782a282bd836c836c82cd8140957388c082c882aa82e782e0814091a78e7182cc0a246390ac92b782f0814082d982b182e882c98e7682a482cc82be82c182bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82cc814097b797a782bf82cc8c8888d382f0",
+          "text": "ポポロの　旅立ちの決意を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95b782a282bd836c836c82cd8140957388c082c882aa82e782e0814091a78e7182cc",
+          "text": "聞いたネネは　不安ながらも　息子の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90ac92b782f0814082d982b182e882c98e7682a482cc82be82c182bd8142",
+          "text": "成長を　ほこりに思うのだった。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cポポロの　旅立ちの決意を\n$c聞いたネネは　不安ながらも　息子の\n$c成長を　ほこりに思うのだった。",
+      "events": [
+        {
+          "command_offset": "0x91cc5c",
+          "pointer_offset": "0x0091CC60",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Hearing Tipper's resolve to set out, Tessie felt anxious, but proud of how her son had grown.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091ce18",
+      "master_id": "jp_0091ce18",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CE18",
+      "end_exclusive": "0x91ce69",
+      "source_hex": "246382b182a482b582c48140837c837c838d82e0814096b38e9682c996da8a6f82df0a246382a082bd82bd82a982a283788362836882c5814096b082c182bd0a24638367838b836c835282bd82bf814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182a482b582c48140837c837c838d82e0814096b38e9682c996da8a6f82df",
+          "text": "こうして　ポポロも　無事に目覚め",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a082bd82bd82a982a283788362836882c5814096b082c182bd",
+          "text": "あたたかいベッドで　眠った",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282bd82bf8142",
+          "text": "トルネコたち。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cこうして　ポポロも　無事に目覚め\n$cあたたかいベッドで　眠った\n$cトルネコたち。",
+      "events": [
+        {
+          "command_offset": "0x91cc3c",
+          "pointer_offset": "0x0091CC40",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "With Tipper safely awake again, Torneko and his family slept in warm beds.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091cf1c",
+      "master_id": "jp_0091cf1c",
+      "chapter": "shared_transitions",
+      "offset": "0x0091CF1C",
+      "end_exclusive": "0x91cf52",
+      "source_hex": "246381968175837c837c838d82bf82e182f181408b4e82ab82c882b382a2816381630a2463837c837c838d82bf82e182f18163816300",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175837c837c838d82bf82e182f181408b4e82ab82c882b382a281638163",
+          "text": "＊「ポポロちゃん　起きなさい……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82bf82e182f181638163",
+          "text": "ポポロちゃん……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c＊「ポポロちゃん　起きなさい……\n$cポポロちゃん……",
+      "events": [
+        {
+          "command_offset": "0x91ce84",
+          "pointer_offset": "0x0091CE88",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "???: 'Tipper, wake up... Tipper...'",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091d03c",
+      "master_id": "jp_0091d03c",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D03C",
+      "end_exclusive": "0x91d059",
+      "source_hex": "819681758b4382f082c282af82c481408d7382ad82f182be82bc814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758b4382f082c282af82c481408d7382ad82f182be82bc8149",
+          "text": "＊「気をつけて　行くんだぞ！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「気をつけて　行くんだぞ！",
+      "events": [
+        {
+          "command_offset": "0x91cffc",
+          "pointer_offset": "0x0091D000",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Take care out there!\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091d05c",
+      "master_id": "jp_0091d05c",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D05C",
+      "end_exclusive": "0x91d0b1",
+      "source_hex": "819681758367838b836c835282b382f182cc814082a082c682f0814092c782c182c40a0997b782b782e982c682cd814082dc82be81408e7182c782e082c882cc82c90a0982bd82a282b582bd82e082f182be814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "819681758367838b836c835282b382f182cc814082a082c682f0814092c782c182c4",
+          "text": "＊「トルネコさんの　あとを　追って",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "97b782b782e982c682cd814082dc82be81408e7182c782e082c882cc82c9",
+          "text": "旅するとは　まだ　子どもなのに",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82bd82a282b582bd82e082f182be8142",
+          "text": "たいしたもんだ。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「トルネコさんの　あとを　追って\n<TAB>旅するとは　まだ　子どもなのに\n<TAB>たいしたもんだ。",
+      "events": [
+        {
+          "command_offset": "0x91cff4",
+          "pointer_offset": "0x0091CFF8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Traveling in Torneko's footsteps, at your age? You're quite a kid.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "completion.0091d0b4",
+      "master_id": "jp_0091d0b4",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D0B4",
+      "end_exclusive": "0x91d0f7",
+      "source_hex": "8196817582e282a08140247482b682e182c882a282a981420a0991b092b782b382dc82cc814082e482e982b582f00a0982e082e782c182bd82f182be82c182c4814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8196817582e282a08140",
+          "text": "＊「やあ　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b682e182c882a282a98142",
+          "text": "じゃないか。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91b092b782b382dc82cc814082e482e982b582f0",
+          "text": "族長さまの　ゆるしを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "09",
+          "text": "<TAB>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082e782c182bd82f182be82c182c48148",
+          "text": "もらったんだって？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "＊「やあ　$tじゃないか。\n<TAB>族長さまの　ゆるしを\n<TAB>もらったんだって？",
+      "events": [
+        {
+          "command_offset": "0x91cfd4",
+          "pointer_offset": "0x0091CFD8",
+          "command_word": "0x00000025",
+          "opcode": 37,
+          "wrapper": "0x080612D4"
+        }
+      ],
+      "reuse": null,
+      "layout": "speech",
+      "english": "???: \"Hello, $t! I hear you've received the Chief's permission.\"",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091d398",
+      "master_id": "jp_0091d398",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D398",
+      "end_exclusive": "0x91d3d5",
+      "source_hex": "2463819681758163816381408163816383708370816381630a24638370837082aa814082a082d482c882a2816381630a24638370837081638163814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81968175816381638140816381638370837081638163",
+          "text": "＊「……　……パパ……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8370837082aa814082a082d482c882a281638163",
+          "text": "パパが　あぶない……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83708370816381638149",
+          "text": "パパ……！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c＊「……　……パパ……\n$cパパが　あぶない……\n$cパパ……！",
+      "events": [
+        {
+          "command_offset": "0x91d2f0",
+          "pointer_offset": "0x0091D2F4",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "???: '... Dad... Dad's in danger... Dad...!'",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": []
+    },
+    {
+      "id": "completion.0091d4f8",
+      "master_id": "jp_0091d4f8",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D4F8",
+      "end_exclusive": "0x91d565",
+      "source_hex": "246392ac82e08fe982e081408a888b4382f0814082c682e882e082c782b50a24638fe982c582cd81408367838b836c835282c68140837c837c838d82f0814082bd82bd82a682e90a24638f6a935482aa81408a4a82a982ea82e682a482c682b582c482a282dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "92ac82e08fe982e081408a888b4382f0814082c682e882e082c782b5",
+          "text": "町も城も　活気を　とりもどし",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8fe982c582cd81408367838b836c835282c68140837c837c838d82f0814082bd82bd82a682e9",
+          "text": "城では　トルネコと　ポポロを　たたえる",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f6a935482aa81408a4a82a982ea82e682a482c682b582c482a282dc82b582bd8142",
+          "text": "祝典が　開かれようとしていました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$c町も城も　活気を　とりもどし\n$c城では　トルネコと　ポポロを　たたえる\n$c祝典が　開かれようとしていました。",
+      "events": [
+        {
+          "command_offset": "0x91d4b0",
+          "pointer_offset": "0x0091D4B4",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Life returned to the town and castle. A celebration in honor of Torneko and Tipper was about to begin.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091d568",
+      "master_id": "jp_0091d568",
+      "chapter": "shared_transitions",
+      "offset": "0x0091D568",
+      "end_exclusive": "0x91d5c7",
+      "source_hex": "246382b182a482b582c481408367838b836c835282c68140837c837c838d82cd0a24638360834a838982f08d8782ed82b98140906c82d182c682f081408ed788ab82c888c582a982e70a246382b782ad82c182bd82cc82c582b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182a482b582c481408367838b836c835282c68140837c837c838d82cd",
+          "text": "こうして　トルネコと　ポポロは",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8360834a838982f08d8782ed82b98140906c82d182c682f081408ed788ab82c888c582a982e7",
+          "text": "チカラを合わせ　人びとを　邪悪な闇から",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2463",
+          "text": "$c",
+          "grammar": "story"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b782ad82c182bd82cc82c582b582bd8142",
+          "text": "すくったのでした。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$cこうして　トルネコと　ポポロは\n$cチカラを合わせ　人びとを　邪悪な闇から\n$cすくったのでした。",
+      "events": [
+        {
+          "command_offset": "0x91d490",
+          "pointer_offset": "0x0091D494",
+          "command_word": "0x00000027",
+          "opcode": 39,
+          "wrapper": "0x08061200"
+        }
+      ],
+      "reuse": null,
+      "layout": "centered",
+      "english": "Together, Torneko and Tipper had saved the people from the evil darkness.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Native centering retained on every displayed line; quoted dream speech retains its anonymous source speaker.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091e8cc",
+      "master_id": "jp_0091e8cc",
+      "chapter": "bonus_caves",
+      "offset": "0x0091E8CC",
+      "end_exclusive": "0x91e8fe",
+      "source_hex": "247482cd814091ab82e082c682cc8c8a82c90a96b3979d82e282e8814088f882ab8d9e82dc82ea82c482a282c182bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814091ab82e082c682cc8c8a82c9",
+          "text": "は　足もとの穴に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96b3979d82e282e8814088f882ab8d9e82dc82ea82c482a282c182bd8149",
+          "text": "無理やり　引き込まれていった！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　足もとの穴に\n無理やり　引き込まれていった！",
+      "events": [
+        {
+          "command_offset": "0x91e824",
+          "pointer_offset": "0x0091E828",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91e894",
+          "pointer_offset": "0x0091E898",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t was dragged into the hole below!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091e900",
+      "master_id": "jp_0091e900",
+      "chapter": "bonus_caves",
+      "offset": "0x0091E900",
+      "end_exclusive": "0x91e93a",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a95738b4396a182c893b482ad82c282aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "95738b4396a182c893b482ad82c282aa81408cbb82ea82bd8149",
+          "text": "不気味な洞くつが　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n不気味な洞くつが　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91e81c",
+          "pointer_offset": "0x0091E820",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91e88c",
+          "pointer_offset": "0x0091E890",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "A creepy cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091eb4c",
+      "master_id": "jp_0091eb4c",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EB4C",
+      "end_exclusive": "0x91eb84",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a8cc7938782cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cc7938782cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "孤島のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n孤島のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91eac4",
+          "pointer_offset": "0x0091EAC8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Distant Isle cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.024",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091eb84",
+      "master_id": "jp_0091eb84",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EB84",
+      "end_exclusive": "0x91ebbc",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a968295a882cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "968295a882cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "魔物のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n魔物のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91ea34",
+          "pointer_offset": "0x0091EA38",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Monster cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.012",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091ebbc",
+      "master_id": "jp_0091ebbc",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EBBC",
+      "end_exclusive": "0x91ebe4",
+      "source_hex": "247482cd814096da82cc914f82cc814082d982e78c8a82c90a93fc82c182c482a282c182bd814900",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814096da82cc914f82cc814082d982e78c8a82c9",
+          "text": "は　目の前の　ほら穴に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93fc82c182c482a282c182bd8149",
+          "text": "入っていった！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　目の前の　ほら穴に\n入っていった！",
+      "events": [
+        {
+          "command_offset": "0x91e9f4",
+          "pointer_offset": "0x0091E9F8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ea84",
+          "pointer_offset": "0x0091EA88",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91eb14",
+          "pointer_offset": "0x0091EB18",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ecfc",
+          "pointer_offset": "0x0091ED00",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ed8c",
+          "pointer_offset": "0x0091ED90",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91eeb4",
+          "pointer_offset": "0x0091EEB8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91efc8",
+          "pointer_offset": "0x0091EFCC",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f0c0",
+          "pointer_offset": "0x0091F0C4",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f2cc",
+          "pointer_offset": "0x0091F2D0",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t went into the cave ahead!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091ebe4",
+      "master_id": "jp_0091ebe4",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EBE4",
+      "end_exclusive": "0x91ebfd",
+      "source_hex": "82c882a982c9814093fc82c182c482dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882a982c9814093fc82c182c482dd82dc82b782a98148",
+          "text": "なかに　入ってみますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なかに　入ってみますか？",
+      "events": [
+        {
+          "command_offset": "0x91e9ac",
+          "pointer_offset": "0x0091E9B0",
+          "command_word": "0x0003002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ea3c",
+          "pointer_offset": "0x0091EA40",
+          "command_word": "0x0006002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91eacc",
+          "pointer_offset": "0x0091EAD0",
+          "command_word": "0x0009002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ecb4",
+          "pointer_offset": "0x0091ECB8",
+          "command_word": "0x0003012A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ed44",
+          "pointer_offset": "0x0091ED48",
+          "command_word": "0x0006002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ee3c",
+          "pointer_offset": "0x0091EE40",
+          "command_word": "0x0002002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ef58",
+          "pointer_offset": "0x0091EF5C",
+          "command_word": "0x0003012A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f050",
+          "pointer_offset": "0x0091F054",
+          "command_word": "0x0002002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f25c",
+          "pointer_offset": "0x0091F260",
+          "command_word": "0x0002002A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "Would you like to go inside?",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091ec00",
+      "master_id": "jp_0091ec00",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EC00",
+      "end_exclusive": "0x91ec36",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a93e482cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93e482cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "謎のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n謎のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91e9a4",
+          "pointer_offset": "0x0091E9A8",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Mysterious cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.000",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091ec38",
+      "master_id": "jp_0091ec38",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EC38",
+      "end_exclusive": "0x91ec51",
+      "source_hex": "247482cd814093fc82e982cc82f0814082e282df82bd814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814093fc82e982cc82f0814082e282df82bd8142",
+          "text": "は　入るのを　やめた。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "$tは　入るのを　やめた。",
+      "events": [
+        {
+          "command_offset": "0x91e974",
+          "pointer_offset": "0x0091E978",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ec7c",
+          "pointer_offset": "0x0091EC80",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ee4c",
+          "pointer_offset": "0x0091EE50",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91ef68",
+          "pointer_offset": "0x0091EF6C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f060",
+          "pointer_offset": "0x0091F064",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        },
+        {
+          "command_offset": "0x91f26c",
+          "pointer_offset": "0x0091F270",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "$t decided not to enter.",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions. Exact Japanese matches our earlier independently authored story-completion.json entry completion.00afd1fc; that wording is reused.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091edc4",
+      "master_id": "jp_0091edc4",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EDC4",
+      "end_exclusive": "0x91edfc",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a89bb90ce82cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89bb90ce82cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "化石のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n化石のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91ed3c",
+          "pointer_offset": "0x0091ED40",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Fossil cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.007",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091edfc",
+      "master_id": "jp_0091edfc",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EDFC",
+      "end_exclusive": "0x91ee34",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a8cab8ed282cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8cab8ed282cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "賢者のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n賢者のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91ecac",
+          "pointer_offset": "0x0091ECB0",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Sage's cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.027",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091eeec",
+      "master_id": "jp_0091eeec",
+      "chapter": "bonus_caves",
+      "offset": "0x0091EEEC",
+      "end_exclusive": "0x91ef28",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a836f838c8343836982cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838c8343836982cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "バレイナのほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\nバレイナのほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91ee34",
+          "pointer_offset": "0x0091EE38",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Baleina cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.029",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091f010",
+      "master_id": "jp_0091f010",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F010",
+      "end_exclusive": "0x91f048",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a90e5906c82cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90e5906c82cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "仙人のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n仙人のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91ef50",
+          "pointer_offset": "0x0091EF54",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Hermit's cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.025",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091f0f8",
+      "master_id": "jp_0091f0f8",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F0F8",
+      "end_exclusive": "0x91f134",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a82a282af82c982a682cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282af82c982a682cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "いけにえのほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\nいけにえのほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91f048",
+          "pointer_offset": "0x0091F04C",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Sacrificial cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.028",
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091f1ec",
+      "master_id": "jp_0091f1ec",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F1EC",
+      "end_exclusive": "0x91f209",
+      "source_hex": "93e482cc8fa4906c82cd82c782b182a982d68fc182a682bd8163814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "93e482cc8fa4906c82cd82c782b182a982d68fc182a682bd81638142",
+          "text": "謎の商人はどこかへ消えた…。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "謎の商人はどこかへ消えた…。",
+      "events": [
+        {
+          "command_offset": "0x91f174",
+          "pointer_offset": "0x0091F178",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The mysterious merchant vanished...",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091f20c",
+      "master_id": "jp_0091f20c",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F20C",
+      "end_exclusive": "0x91f21f",
+      "source_hex": "986282f082b582c482dd82dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "986282f082b582c482dd82dc82b782a98148",
+          "text": "話をしてみますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "話をしてみますか？",
+      "events": [
+        {
+          "command_offset": "0x91f154",
+          "pointer_offset": "0x0091F158",
+          "command_word": "0x0002012A",
+          "opcode": 42,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "Would you like to talk?",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": []
+    },
+    {
+      "id": "completion.0091f220",
+      "master_id": "jp_0091f220",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F220",
+      "end_exclusive": "0x91f254",
+      "source_hex": "82c882f182c68140247482cc82c682c882e882c9814082a282ab82c882e80a93e482cc8fa4906c82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc82c682c882e882c9814082a282ab82c882e8",
+          "text": "のとなりに　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93e482cc8fa4906c82aa81408cbb82ea82bd8149",
+          "text": "謎の商人が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tのとなりに　いきなり\n謎の商人が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91f14c",
+          "pointer_offset": "0x0091F150",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "A mysterious merchant suddenly appeared beside $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "torneko",
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "completion.0091f304",
+      "master_id": "jp_0091f304",
+      "chapter": "bonus_caves",
+      "offset": "0x0091F304",
+      "end_exclusive": "0x91f33e",
+      "source_hex": "82c882f182c68140247482cc96da82cc914f82c9814082a282ab82c882e80a96a797d1938782cc82d982e78c8a82aa81408cbb82ea82bd814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882f182c68140",
+          "text": "なんと　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "2474",
+          "text": "$t",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc96da82cc914f82c9814082a282ab82c882e8",
+          "text": "の目の前に　いきなり",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96a797d1938782cc82d982e78c8a82aa81408cbb82ea82bd8149",
+          "text": "密林島のほら穴が　現れた！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "なんと　$tの目の前に　いきなり\n密林島のほら穴が　現れた！",
+      "events": [
+        {
+          "command_offset": "0x91f254",
+          "pointer_offset": "0x0091F258",
+          "command_word": "0x00000023",
+          "opcode": 35,
+          "wrapper": "0x08061244"
+        }
+      ],
+      "reuse": null,
+      "layout": "observation",
+      "english": "The Jungle Island cave suddenly appeared before $t!",
+      "display": null,
+      "notes": "Independent translation of the pinned Japanese GBA shared-event source. Preserve exact source operand, command parameters, conditional branch metadata and protagonist substitutions.",
+      "references": [
+        "interface.dungeon.015",
+        "place.journey.008730f0",
+        "torneko",
+        "enemy_tipper"
+      ]
+    }
+  ]
+}

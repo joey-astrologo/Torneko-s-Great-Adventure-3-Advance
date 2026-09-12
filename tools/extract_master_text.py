@@ -381,7 +381,7 @@ def make_report(data, entries, tables, review, reference_targets):
 def extract(rom=ORIGINAL_ROM, master=MASTER, output=OUTPUT):
     rom, master, output = Path(rom).resolve(), Path(master).resolve(), Path(output).resolve()
     check(master.suffix == ".json", "Master output must be JSON")
-    family_paths = [ROOT / "translations" / name for name in ("items.json", "item-contexts.json", "enemies.json", "dungeon-interface.json", "core-gameplay.json", "gameplay-help.json", "ally-services.json", "tutorial-gameplay.json", "ally-dialogue.json", "companion-dialogue.json", "ally-nicknames.json", "opening-story.json", "first-village.json", "early-journey.json")]
+    family_paths = [ROOT / "translations" / name for name in ("items.json", "item-contexts.json", "enemies.json", "dungeon-interface.json", "core-gameplay.json", "gameplay-help.json", "ally-services.json", "tutorial-gameplay.json", "ally-dialogue.json", "companion-dialogue.json", "ally-nicknames.json", "opening-story.json", "first-village.json", "early-journey.json", "story-completion.json", "story-special.json", "shared-story.json", "arena-services.json", "adventure-history.json", "adventure-results.json", "church-services.json", "frontend-completion.json", "code-owned-text.json", "item-display.json", "dungeon-events.json", "battle-completion.json", "merchants.json", "keyboard-completion.json", "inscriptions.json", "world-completion.json", "system-labels.json", "encounter-ui.json", "arena-final.json", "arena-graphics.json", "remaining-display.json", "text-polish.json")]
     protected = {rom, ANCHORS.resolve(), CATALOG.resolve(), ORIGINAL_ROM.resolve(), *(p.resolve() for p in family_paths)}
     check(master not in protected, "Master output would overwrite a source input")
     data = rom.read_bytes()
@@ -394,7 +394,7 @@ def extract(rom=ORIGINAL_ROM, master=MASTER, output=OUTPUT):
     entries, tables, review, count = collect(data, anchors, curated)
     document = {"schema": 1, "base_sha256": digest(data), "decoding_font": 0,
                 "purpose": "Japanese source inventory and translation drafts; not direct input to the ROM builder",
-                "english_authority": "Insertion uses translations/catalog.json, items.json, item-contexts.json, enemies.json, dungeon-interface.json, core-gameplay.json, gameplay-help.json, ally-services.json, tutorial-gameplay.json, ally-dialogue.json, companion-dialogue.json, ally-nicknames.json, opening-story.json, first-village.json and early-journey.json. Master english/notes retain independent full drafts; the browser overlays insertion catalogs without overwriting them.",
+                "english_authority": "Insertion uses translations/catalog.json, items.json, item-contexts.json, enemies.json, dungeon-interface.json, core-gameplay.json, gameplay-help.json, ally-services.json, tutorial-gameplay.json, ally-dialogue.json, companion-dialogue.json, ally-nicknames.json, opening-story.json, first-village.json, early-journey.json, story-completion.json, story-special.json, shared-story.json, arena-services.json, adventure-history.json, adventure-results.json, church-services.json, frontend-completion.json, item-display.json, dungeon-events.json, battle-completion.json, merchants.json, keyboard-completion.json, inscriptions.json, world-completion.json, system-labels.json, encounter-ui.json, arena-final.json, arena-graphics.json, remaining-display.json and text-polish.json. Later text-polish entries explicitly supersede earlier wording without shifting prior allocations. A catalog English draft does not by itself establish native or full-game acceptance; see docs/COMPLETION.md for current evidence. code-owned-text.json links already-authored code assets to inventory entries and does not grant insertion ownership. Master english/notes retain independent full drafts; the browser overlays insertion catalogs without overwriting them.",
                 "entries": entries}
     document = merge_drafts(document, load_json(master) if master.exists() else None)
     report = make_report(data, document["entries"], tables, review, count)
@@ -416,12 +416,19 @@ def extract(rom=ORIGINAL_ROM, master=MASTER, output=OUTPUT):
         entry["curated_english"] = english.get(entry["curated_id"])
         entry["insertion_sources"] = []
     browser_by_id = {e["id"]: e for e in browser_entries}
+    browser_offsets = {int(e["offset"], 0) for e in browser_entries}
     for path in family_paths:
         if not path.exists():
             continue
         family = load_json(path)
         check(family["base_sha256"] == digest(data), "Insertion overlay has a different source ROM")
         for entry in family["entries"]:
+            if not entry.get("master_id"):
+                at = int(entry["offset"], 0)
+                raw = bytes.fromhex(entry["source_hex"])
+                check(at not in browser_offsets and data[at:at + len(raw)] == raw,
+                      "Outside-inventory overlay is not a distinct checked source")
+                continue
             target = browser_by_id[entry["master_id"]]
             check(target["source_hex"] == entry["source_hex"], "Insertion overlay source bytes differ")
             target["insertion_sources"].append({"catalog": path.name, "id": entry["id"],

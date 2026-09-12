@@ -1,0 +1,3661 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "frontend.00c4cd30",
+      "family": "label",
+      "offset": "0x00C4CD30",
+      "source_end_exclusive": "0xc4cd38",
+      "japanese": "*いいえ",
+      "source_hex": "2a82a282a282a600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a282a282a6",
+          "text": "いいえ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cd30",
+      "pointer_owners": [
+        {
+          "offset": "0x00C4CD18",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "*No",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cd38",
+      "family": "label",
+      "offset": "0x00C4CD38",
+      "source_end_exclusive": "0xc4cd3d",
+      "japanese": "はい",
+      "source_hex": "82cd82a200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82cd82a2",
+          "text": "はい",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cd38",
+      "pointer_owners": [
+        {
+          "offset": "0x00C4CD0C",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Yes",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cd98",
+      "family": "label",
+      "offset": "0x00C4CD98",
+      "source_end_exclusive": "0xc4cdb1",
+      "japanese": "バリナボチャレンジモード",
+      "source_hex": "836f838a8369837b83608383838c839383578382815b836800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b83608383838c839383578382815b8368",
+          "text": "バリナボチャレンジモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cd98",
+      "pointer_owners": [
+        {
+          "offset": "0x00C4CD58",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Barinabo Challenge mode",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4ce90",
+      "family": "trip",
+      "offset": "0x00C4CE90",
+      "source_end_exclusive": "0xc4ce97",
+      "japanese": "%d回目",
+      "source_hex": "256489f196da00",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f196da",
+          "text": "回目",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4ce90",
+      "pointer_owners": [
+        {
+          "offset": "0x000855DC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80855d4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure %d",
+      "display": "Trip %d",
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Full summary wording is retained beside its compact display; original argument order/types and native field bounds are preserved.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cea4",
+      "family": "message",
+      "offset": "0x00C4CEA4",
+      "source_end_exclusive": "0xc4cef7",
+      "japanese": "このカートリッジのバックアップデータを\n完全に消去してしまいます。\nよろしいですか？",
+      "source_hex": "82b182cc834a815b8367838a8362835782cc836f8362834e8341836283768366815b835e82f00a8aae915382c98fc18b8e82b582c482b582dc82a282dc82b781420a82e682eb82b582a282c582b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc834a815b8367838a8362835782cc836f8362834e8341836283768366815b835e82f0",
+          "text": "このカートリッジのバックアップデータを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8aae915382c98fc18b8e82b582c482b582dc82a282dc82b78142",
+          "text": "完全に消去してしまいます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e682eb82b582a282c582b782a98148",
+          "text": "よろしいですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cea4",
+      "pointer_owners": [
+        {
+          "offset": "0x00085980",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085956"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "This will completely erase all backup data on this cartridge.\nAre you sure?",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cef8",
+      "family": "message",
+      "offset": "0x00C4CEF8",
+      "source_end_exclusive": "0xc4cf15",
+      "japanese": "バックアップデータ消去中……",
+      "source_hex": "836f8362834e8341836283768366815b835e8fc18b8e92868163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836f8362834e8341836283768366815b835e8fc18b8e928681638163",
+          "text": "バックアップデータ消去中……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cef8",
+      "pointer_owners": [
+        {
+          "offset": "0x00085988",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085964"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Erasing backup data...",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cf18",
+      "family": "message",
+      "offset": "0x00C4CF18",
+      "source_end_exclusive": "0xc4cf2b",
+      "japanese": "消去がおわりました",
+      "source_hex": "8fc18b8e82aa82a882ed82e882dc82b582bd00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8fc18b8e82aa82a882ed82e882dc82b582bd",
+          "text": "消去がおわりました",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cf18",
+      "pointer_owners": [
+        {
+          "offset": "0x0008598C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085974"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Erasure complete.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c4cf2c",
+      "family": "message",
+      "offset": "0x00C4CF2C",
+      "source_end_exclusive": "0xc4cf67",
+      "japanese": "冒険の書$j0を更新しています……\n電源を切らないでください。",
+      "source_hex": "96608caf82cc8f91246a3082f08d58905682b582c482a282dc82b7816381630a93648cb982f090d882e782c882a282c582ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08d58905682b582c482a282dc82b781638163",
+          "text": "を更新しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93648cb982f090d882e782c882a282c582ad82be82b382a28142",
+          "text": "電源を切らないでください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c4cf2c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085D98",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085d78"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Updating Adventure Log $j0...\nDo not turn off the power.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78298",
+      "family": "label",
+      "offset": "0x00C78298",
+      "source_end_exclusive": "0xc782a2",
+      "japanese": "*デバッグ",
+      "source_hex": "2a8366836f8362834f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2a",
+          "text": "*",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8366836f8362834f",
+          "text": "デバッグ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78298",
+      "pointer_owners": [
+        {
+          "offset": "0x00C78294",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "*Debug",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c782b0",
+      "family": "label",
+      "offset": "0x00C782B0",
+      "source_end_exclusive": "0xc782bb",
+      "japanese": "冒険の記録",
+      "source_hex": "96608caf82cc8b4c985e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e",
+          "text": "冒険の記録",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c782b0",
+      "pointer_owners": [
+        {
+          "offset": "0x00C7828C",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure records",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78358",
+      "family": "message",
+      "offset": "0x00C78358",
+      "source_end_exclusive": "0xc783ac",
+      "japanese": "冒険の書$j0を使って\n「トルネコの大冒険３アドバンス」\n[エクストラモード]を始めます。",
+      "source_hex": "96608caf82cc8f91246a3082f08e6782c182c40a81758367838b836c835282cc91e596608caf825283418368836f8393835881760a5b8347834e8358836783898382815b83685d82f08e6e82df82dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08e6782c182c4",
+          "text": "を使って",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "81758367838b836c835282cc91e596608caf825283418368836f839383588176",
+          "text": "「トルネコの大冒険３アドバンス」",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08e6e82df82dc82b78142",
+          "text": "を始めます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78358",
+      "pointer_owners": [
+        {
+          "offset": "0x00084EC4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8084ea2"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Begin Torneko's Great Adventure 3 Advance in [Extra mode] using Adventure Log $j0.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c783cc",
+      "family": "stats",
+      "offset": "0x00C783CC",
+      "source_end_exclusive": "0xc783e1",
+      "japanese": "HP %d/%d レベル%d %s",
+      "source_hex": "48502025642f256420838c8378838b256420257300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "485020",
+          "text": "HP ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2f",
+          "text": "/",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838c8378838b",
+          "text": "レベル",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c783cc",
+      "pointer_owners": [
+        {
+          "offset": "0x00085628",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085604"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "HP %d/%d Level %d %s",
+      "display": "HP %d/%d Lv%d %s",
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Full summary wording is retained beside its compact display; original argument order/types and native field bounds are preserved.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c783e4",
+      "family": "label",
+      "offset": "0x00C783E4",
+      "source_end_exclusive": "0xc78405",
+      "japanese": "中断が正しく行われていないデータ",
+      "source_hex": "9286926682aa90b382b582ad8d7382ed82ea82c482a282c882a28366815b835e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9286926682aa90b382b582ad8d7382ed82ea82c482a282c882a28366815b835e",
+          "text": "中断が正しく行われていないデータ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c783e4",
+      "pointer_owners": [
+        {
+          "offset": "0x000855B4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x808558c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Not suspended correctly",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78408",
+      "family": "label",
+      "offset": "0x00C78408",
+      "source_end_exclusive": "0xc7841b",
+      "japanese": "[エクストラモード]",
+      "source_hex": "5b8347834e8358836783898382815b83685d00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78408",
+      "pointer_owners": [
+        {
+          "offset": "0x000856A8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x808569a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "[Extra mode]",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78494",
+      "family": "message",
+      "offset": "0x00C78494",
+      "source_end_exclusive": "0xc784eb",
+      "japanese": "名前を付けないと　冒険の書を\n作成することができません。\nなにか　名前を付けてください。",
+      "source_hex": "96bc914f82f0957482af82c882a282c6814096608caf82cc8f9182f00a8dec90ac82b782e982b182c682aa82c582ab82dc82b982f181420a82c882c982a9814096bc914f82f0957482af82c482ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96bc914f82f0957482af82c882a282c6814096608caf82cc8f9182f0",
+          "text": "名前を付けないと　冒険の書を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8dec90ac82b782e982b182c682aa82c582ab82dc82b982f18142",
+          "text": "作成することができません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c982a9814096bc914f82f0957482af82c482ad82be82b382a28142",
+          "text": "なにか　名前を付けてください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78494",
+      "pointer_owners": [
+        {
+          "offset": "0x00085918",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x808590c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "You must enter a name to create an Adventure Log. Please choose a name.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78540",
+      "family": "message",
+      "offset": "0x00C78540",
+      "source_end_exclusive": "0xc78575",
+      "japanese": "冒険の書$j0を\n[エクストラモード]に設定しています……",
+      "source_hex": "96608caf82cc8f91246a3082f00a5b8347834e8358836783898382815b83685d82c990dd92e882b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0",
+          "text": "を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c990dd92e882b582c482a282dc82b781638163",
+          "text": "に設定しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78540",
+      "pointer_owners": [
+        {
+          "offset": "0x000859F0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80859b6"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Setting Adventure Log $j0 to [Extra mode]...",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78578",
+      "family": "message",
+      "offset": "0x00C78578",
+      "source_end_exclusive": "0xc785c7",
+      "japanese": "冒険の書$j0の　設定に失敗しました。\nもう一度　はじめから　やり直してください。",
+      "source_hex": "96608caf82cc8f91246a3082cc814090dd92e882c98eb8947382b582dc82b582bd81420a82e082a488ea9378814082cd82b682df82a982e7814082e282e892bc82b582c482ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc814090dd92e882c98eb8947382b582dc82b582bd8142",
+          "text": "の　設定に失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a488ea9378814082cd82b682df82a982e7814082e282e892bc82b582c482ad82be82b382a28142",
+          "text": "もう一度　はじめから　やり直してください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78578",
+      "pointer_owners": [
+        {
+          "offset": "0x000859F4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80859d2"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not set up Adventure Log $j0. Please start over and try again.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c785c8",
+      "family": "message",
+      "offset": "0x00C785C8",
+      "source_end_exclusive": "0xc785e6",
+      "japanese": "冒険の書$j0を初期化しますか？",
+      "source_hex": "96608caf82cc8f91246a3082f08f898afa89bb82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582dc82b782a98148",
+          "text": "を初期化しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c785c8",
+      "pointer_owners": [
+        {
+          "offset": "0x00085A44",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085a08"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Initialize Adventure Log $j0?",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c785e8",
+      "family": "message",
+      "offset": "0x00C785E8",
+      "source_end_exclusive": "0xc7860a",
+      "japanese": "冒険の書$j0を初期化しています……",
+      "source_hex": "96608caf82cc8f91246a3082f08f898afa89bb82b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582c482a282dc82b781638163",
+          "text": "を初期化しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c785e8",
+      "pointer_owners": [
+        {
+          "offset": "0x00085A50",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085a22"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Initializing Adventure Log $j0...",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7860c",
+      "family": "message",
+      "offset": "0x00C7860C",
+      "source_end_exclusive": "0xc7862a",
+      "japanese": "冒険の書$j0を初期化しました。",
+      "source_hex": "96608caf82cc8f91246a3082f08f898afa89bb82b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582dc82b582bd8142",
+          "text": "を初期化しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7860c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085A54",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085a40"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure Log $j0 initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7862c",
+      "family": "message",
+      "offset": "0x00C7862C",
+      "source_end_exclusive": "0xc78651",
+      "japanese": "冒険の書$j0の初期化に\n失敗しました。",
+      "source_hex": "96608caf82cc8f91246a3082cc8f898afa89bb82c90a8eb8947382b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8f898afa89bb82c9",
+          "text": "の初期化に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8eb8947382b582dc82b582bd8142",
+          "text": "失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7862c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085A64",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085a58"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0x00CE2364",
+          "reason": "Unreviewed high data-table context; no write authorized"
+        }
+      ],
+      "english": "Could not initialize Adventure Log $j0.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78654",
+      "family": "message",
+      "offset": "0x00C78654",
+      "source_end_exclusive": "0xc786ab",
+      "japanese": "ダンジョンへ　入った後に\n正しく中断せずに　電源を切ると\n冒険を失敗したことになります。",
+      "source_hex": "835f839383578387839382d6814093fc82c182bd8ce382c90a90b382b582ad9286926682b982b882c9814093648cb982f090d882e982c60a96608caf82f08eb8947382b582bd82b182c682c982c882e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839382d6814093fc82c182bd8ce382c9",
+          "text": "ダンジョンへ　入った後に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90b382b582ad9286926682b982b882c9814093648cb982f090d882e982c6",
+          "text": "正しく中断せずに　電源を切ると",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82f08eb8947382b582bd82b182c682c982c882e882dc82b78142",
+          "text": "冒険を失敗したことになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78654",
+      "pointer_owners": [
+        {
+          "offset": "0x0007AAFC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x807aaea"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0x00CE233C",
+          "reason": "Unreviewed high data-table context; no write authorized"
+        }
+      ],
+      "english": "Once you enter a dungeon, turning off the power without suspending properly will end your adventure in failure.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c786ac",
+      "family": "message",
+      "offset": "0x00C786AC",
+      "source_end_exclusive": "0xc786e7",
+      "japanese": "冒険の書$j0を記録しています……\n電源を切らないでください。",
+      "source_hex": "96608caf82cc8f91246a3082f08b4c985e82b582c482a282dc82b7816381630a93648cb982f090d882e782c882a282c582ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08b4c985e82b582c482a282dc82b781638163",
+          "text": "を記録しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93648cb982f090d882e782c882a282c582ad82be82b382a28142",
+          "text": "電源を切らないでください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c786ac",
+      "pointer_owners": [
+        {
+          "offset": "0x0007AB9C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x807ab6c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Saving Adventure Log $j0...\nDo not turn off the power.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c786e8",
+      "family": "message",
+      "offset": "0x00C786E8",
+      "source_end_exclusive": "0xc78728",
+      "japanese": "ハイスコアデータを記録しています……\n電源を切らないでください。",
+      "source_hex": "836e83438358835283418366815b835e82f08b4c985e82b582c482a282dc82b7816381630a93648cb982f090d882e782c882a282c582ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "836e83438358835283418366815b835e82f08b4c985e82b582c482a282dc82b781638163",
+          "text": "ハイスコアデータを記録しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93648cb982f090d882e782c882a282c582ad82be82b382a28142",
+          "text": "電源を切らないでください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c786e8",
+      "pointer_owners": [
+        {
+          "offset": "0x0007ABF4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x807abb4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Saving high scores...\nDo not turn off the power.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78728",
+      "family": "message",
+      "offset": "0x00C78728",
+      "source_end_exclusive": "0xc7876a",
+      "japanese": "[ダンジョン突入]の記録に　失敗しました。\nもう一度　記録しますか？",
+      "source_hex": "5b835f839383578387839393cb93fc5d82cc8b4c985e82c981408eb8947382b582dc82b582bd81420a82e082a488ea937881408b4c985e82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839393cb93fc",
+          "text": "ダンジョン突入",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8b4c985e82c981408eb8947382b582dc82b582bd8142",
+          "text": "の記録に　失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e082a488ea937881408b4c985e82b582dc82b782a98148",
+          "text": "もう一度　記録しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78728",
+      "pointer_owners": [
+        {
+          "offset": "0x0007ABEC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x807aba0",
+            "0x807abca"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not save the dungeon-entry record. Try saving again?",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78834",
+      "family": "message",
+      "offset": "0x00C78834",
+      "source_end_exclusive": "0xc7889b",
+      "japanese": "冒険の書$j0のロードに　失敗しました。\nカートリッジが　壊れているようです。\n冒険の書$j0を初期化します。",
+      "source_hex": "96608caf82cc8f91246a3082cc838d815b836882c981408eb8947382b582dc82b582bd81420a834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b781420a96608caf82cc8f91246a3082f08f898afa89bb82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc838d815b836882c981408eb8947382b582dc82b582bd8142",
+          "text": "のロードに　失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b78142",
+          "text": "カートリッジが　壊れているようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582dc82b78142",
+          "text": "を初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78834",
+      "pointer_owners": [
+        {
+          "offset": "0x00085CAC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085c9a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not load Adventure Log $j0. The cartridge appears to be damaged.\nAdventure Log $j0 will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7889c",
+      "family": "message",
+      "offset": "0x00C7889C",
+      "source_end_exclusive": "0xc78905",
+      "japanese": "残念ながら　あなたの冒険の書$j0は\n壊れてしまったようです。\n\n壊れてしまった冒険の書$j0を\n初期化します。\n\n",
+      "source_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8f91246a3082cd0a89f382ea82c482b582dc82c182bd82e682a482c582b781420a0a89f382ea82c482b582dc82c182bd96608caf82cc8f91246a3082f00a8f898afa89bb82b582dc82b781420a0a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8f91",
+          "text": "残念ながら　あなたの冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd",
+          "text": "は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd82e682a482c582b78142",
+          "text": "壊れてしまったようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd96608caf82cc8f91",
+          "text": "壊れてしまった冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0",
+          "text": "を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f898afa89bb82b582dc82b78142",
+          "text": "初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7889c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085CD0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085cbe"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Unfortunately, Adventure Log $j0 appears to be corrupted.\n\nThe corrupted Adventure Log $j0 will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78908",
+      "family": "message",
+      "offset": "0x00C78908",
+      "source_end_exclusive": "0xc78989",
+      "japanese": "この冒険の書$j0を　ロードした後に\n正しく中断せずに　電源を切ると\n冒険を失敗したことになります。\nロードしても　よろしいですか？\n\n",
+      "source_hex": "82b182cc96608caf82cc8f91246a3082f08140838d815b836882b582bd8ce382c90a90b382b582ad9286926682b982b882c9814093648cb982f090d882e982c60a96608caf82f08eb8947382b582bd82b182c682c982c882e882dc82b781420a838d815b836882b582c482e0814082e682eb82b582a282c582b782a981480a0a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc96608caf82cc8f91",
+          "text": "この冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08140838d815b836882b582bd8ce382c9",
+          "text": "を　ロードした後に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90b382b582ad9286926682b982b882c9814093648cb982f090d882e982c6",
+          "text": "正しく中断せずに　電源を切ると",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82f08eb8947382b582bd82b182c682c982c882e882dc82b78142",
+          "text": "冒険を失敗したことになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d815b836882b582c482e0814082e682eb82b582a282c582b782a98148",
+          "text": "ロードしても　よろしいですか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78908",
+      "pointer_owners": [
+        {
+          "offset": "0x00085D90",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085d44"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "After loading Adventure Log $j0, turning off the power without suspending properly will end your adventure in failure.\nLoad this Adventure Log anyway?",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7898c",
+      "family": "message",
+      "offset": "0x00C7898C",
+      "source_end_exclusive": "0xc789f5",
+      "japanese": "この冒険の書は　正しく中断されていません。\n冒険に失敗したものとして\nアイテムを全て失い　地上に戻ります。",
+      "source_hex": "82b182cc96608caf82cc8f9182cd814090b382b582ad9286926682b382ea82c482a282dc82b982f181420a96608caf82c98eb8947382b582bd82e082cc82c682b582c40a834183438365838082f0915382c48eb882a28140926e8fe382c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc96608caf82cc8f9182cd814090b382b582ad9286926682b382ea82c482a282dc82b982f18142",
+          "text": "この冒険の書は　正しく中断されていません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82c98eb8947382b582bd82e082cc82c682b582c4",
+          "text": "冒険に失敗したものとして",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834183438365838082f0915382c48eb882a28140926e8fe382c996df82e882dc82b78142",
+          "text": "アイテムを全て失い　地上に戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7898c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085D1C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085d0a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "This adventure was not suspended properly. It will be treated as a failed adventure.\nYou will lose all your items and return to the surface.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c789f8",
+      "family": "message",
+      "offset": "0x00C789F8",
+      "source_end_exclusive": "0xc78a21",
+      "japanese": "[エクストラモード]のメニューに戻ります。",
+      "source_hex": "5b8347834e8358836783898382815b83685d82cc8381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8381836a8385815b82c996df82e882dc82b78142",
+          "text": "のメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c789f8",
+      "pointer_owners": [
+        {
+          "offset": "0x00085D38",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085d20"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Returning to the [Extra mode] menu.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c78a44",
+      "family": "message",
+      "offset": "0x00C78A44",
+      "source_end_exclusive": "0xc78a6e",
+      "japanese": "冒険の書$j0の中断データをロードしました。",
+      "source_hex": "96608caf82cc8f91246a3082cc928692668366815b835e82f0838d815b836882b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc928692668366815b835e82f0838d815b836882b582dc82b582bd8142",
+          "text": "の中断データをロードしました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78a44",
+      "pointer_owners": [
+        {
+          "offset": "0x00085D9C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085d84"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Suspended data for Adventure Log $j0 loaded.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78a70",
+      "family": "message",
+      "offset": "0x00C78A70",
+      "source_end_exclusive": "0xc78ad0",
+      "japanese": "$+おつかれさまでした。\n$+冒険の書$j0を正しく記録しました。\n$+このまま　電源を　お切りください。",
+      "source_hex": "242b82a882c282a982ea82b382dc82c582b582bd81420a242b96608caf82cc8f91246a3082f090b382b582ad8b4c985e82b582dc82b582bd81420a242b82b182cc82dc82dc814093648cb982f0814082a890d882e882ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82a882c282a982ea82b382dc82c582b582bd8142",
+          "text": "おつかれさまでした。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f090b382b582ad8b4c985e82b582dc82b582bd8142",
+          "text": "を正しく記録しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc82dc82dc814093648cb982f0814082a890d882e882ad82be82b382a28142",
+          "text": "このまま　電源を　お切りください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78a70",
+      "pointer_owners": [
+        {
+          "offset": "0x0005FB70",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x805fb40"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "$+Thank you for playing.\n$+Adventure Log $j0 saved successfully.\n$+You may now turn off the power.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c78ad0",
+      "family": "message",
+      "offset": "0x00C78AD0",
+      "source_end_exclusive": "0xc78b02",
+      "japanese": "$+Ａボタンを押すと\n$+スタートメニューに戻ります。",
+      "source_hex": "242b8260837b835e839382f0899f82b782c60a242b8358835e815b83678381836a8385815b82c996df82e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8260837b835e839382f0899f82b782c6",
+          "text": "Ａボタンを押すと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "242b",
+          "text": "$+",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8358835e815b83678381836a8385815b82c996df82e882dc82b78142",
+          "text": "スタートメニューに戻ります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c78ad0",
+      "pointer_owners": [
+        {
+          "offset": "0x0005FB74",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x805fb4a"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "$+Press the A Button\n$+to return to the start menu.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c7a2e4",
+      "family": "message",
+      "offset": "0x00C7A2E4",
+      "source_end_exclusive": "0xc7a553",
+      "japanese": "[エクストラモード]は　シナリオの\n進行などとは関係なく　ダンジョンを\n遊ぶことのできる　モードです。\nダンジョンに入るときに　トルネコとポポロの\nどちらで冒険するか　ロサやイネスと一緒に\n冒険するかなどを　選ぶことができます。\nロサやイネスと一緒に　冒険した場合\nロサやイネスが　倒れても\n冒険に失敗したことになります。\n[エクストラモード]での冒険は\n[冒険の履歴]や[ハイスコア]などの\n記録は　いっさい残りません。\nアイテムを持ち帰って　次の\n冒険に　使うこともできません。\n\n「まぼろしの試練」では　\n特別なルールがあり　モンスターを\n倒しても　レベルはあがらず\nポポロが　モンスターを\n仲間にすることも　できませんので\n注意してください。",
+      "source_hex": "5b8347834e8358836783898382815b83685d82cd814083568369838a834982cc0a90698d7382c882c782c682cd8ad68c5782c882ad8140835f839383578387839382f00a975682d482b182c682cc82c582ab82e981408382815b836882c582b781420a835f839383578387839382c993fc82e982c682ab82c981408367838b836c835282c6837c837c838d82cc0a82c782bf82e782c596608caf82b782e982a98140838d835482e28343836c835882c688ea8f8f82c90a96608caf82b782e982a982c882c782f08140914982d482b182c682aa82c582ab82dc82b781420a838d835482e28343836c835882c688ea8f8f82c9814096608caf82b582bd8fea8d870a838d835482e28343836c835882aa8140937c82ea82c482e00a96608caf82c98eb8947382b582bd82b182c682c982c882e882dc82b781420a5b8347834e8358836783898382815b83685d82c582cc96608caf82cd0a5b96608caf82cc979a97f05d82e25b836e83438358835283415d82c882c782cc0a8b4c985e82cd814082a282c182b382a28e6382e882dc82b982f181420a834183438365838082f08e9d82bf8b4182c182c481408e9f82cc0a96608caf82c981408e6782a482b182c682e082c582ab82dc82b982f181420a0a817582dc82da82eb82b582cc8e8e97fb817682c582cd81400a93c195ca82c8838b815b838b82aa82a082e88140838283938358835e815b82f00a937c82b582c482e08140838c8378838b82cd82a082aa82e782b80a837c837c838d82aa8140838283938358835e815b82f00a92878ad482c982b782e982b182c682e0814082c582ab82dc82b982f182cc82c50a928d88d382b582c482ad82be82b382a2814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd814083568369838a834982cc",
+          "text": "は　シナリオの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90698d7382c882c782c682cd8ad68c5782c882ad8140835f839383578387839382f0",
+          "text": "進行などとは関係なく　ダンジョンを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "975682d482b182c682cc82c582ab82e981408382815b836882c582b78142",
+          "text": "遊ぶことのできる　モードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839382c993fc82e982c682ab82c981408367838b836c835282c6837c837c838d82cc",
+          "text": "ダンジョンに入るときに　トルネコとポポロの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c782bf82e782c596608caf82b782e982a98140838d835482e28343836c835882c688ea8f8f82c9",
+          "text": "どちらで冒険するか　ロサやイネスと一緒に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82b782e982a982c882c782f08140914982d482b182c682aa82c582ab82dc82b78142",
+          "text": "冒険するかなどを　選ぶことができます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d835482e28343836c835882c688ea8f8f82c9814096608caf82b582bd8fea8d87",
+          "text": "ロサやイネスと一緒に　冒険した場合",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "838d835482e28343836c835882aa8140937c82ea82c482e0",
+          "text": "ロサやイネスが　倒れても",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82c98eb8947382b582bd82b182c682c982c882e882dc82b78142",
+          "text": "冒険に失敗したことになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c582cc96608caf82cd",
+          "text": "での冒険は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc979a97f0",
+          "text": "冒険の履歴",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e2",
+          "text": "や",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836e8343835883528341",
+          "text": "ハイスコア",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c882c782cc",
+          "text": "などの",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8b4c985e82cd814082a282c182b382a28e6382e882dc82b982f18142",
+          "text": "記録は　いっさい残りません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834183438365838082f08e9d82bf8b4182c182c481408e9f82cc",
+          "text": "アイテムを持ち帰って　次の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82c981408e6782a482b182c682e082c582ab82dc82b982f18142",
+          "text": "冒険に　使うこともできません。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "817582dc82da82eb82b582cc8e8e97fb817682c582cd8140",
+          "text": "「まぼろしの試練」では　",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93c195ca82c8838b815b838b82aa82a082e88140838283938358835e815b82f0",
+          "text": "特別なルールがあり　モンスターを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "937c82b582c482e08140838c8378838b82cd82a082aa82e782b8",
+          "text": "倒しても　レベルはあがらず",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82aa8140838283938358835e815b82f0",
+          "text": "ポポロが　モンスターを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "92878ad482c982b782e982b182c682e0814082c582ab82dc82b982f182cc82c5",
+          "text": "仲間にすることも　できませんので",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "928d88d382b582c482ad82be82b382a28142",
+          "text": "注意してください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a2e4",
+      "pointer_owners": [
+        {
+          "offset": "0x000038F0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80038e2"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "[Extra mode] lets you explore dungeons independently of story progress.\nWhen entering a dungeon, you can choose to play as Torneko or Tipper, take Rosa or Ines with you, and more.\nIf you take Rosa or Ines along, your adventure also ends in failure if your companion falls.\nAdventures in [Extra mode] leave no records in Adventure history or High scores.\nYou cannot bring items back to use on your next adventure.\n\nThe Trial of illusion has special rules: defeating monsters will not raise your level, and Tipper cannot recruit monsters. Bear this in mind.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Dungeon rules are translated from this game's Japanese, without importing mechanics from another game.",
+      "references": [
+        "enemy_rosa",
+        "enemy_ines",
+        "enemy_tipper",
+        "interface.dungeon.063"
+      ]
+    },
+    {
+      "id": "frontend.00c7a554",
+      "family": "message",
+      "offset": "0x00C7A554",
+      "source_end_exclusive": "0xc7a73c",
+      "japanese": "ゲームを始めるためには　冒険の書の\nモードを設定してください。\n\nモードを設定すると　その冒険の書では\n選択したモードでのみ　遊べるようになります。\n\n初めてプレイする場合には\n[シナリオモード]を選択することを\n強く　おすすめします。\n[シナリオモード]\nトルネコの冒険をプレイする\nこのゲームの　基本的なモードです。\n[エクストラモード]\nダンジョンのみをプレイするモードです。\n４種類のダンジョンを　遊ぶことができます。\n[？？？]\n[シナリオモード]をクリアすることで\n選択することができるようになります。",
+      "source_hex": "8351815b838082f08e6e82df82e982bd82df82c982cd814096608caf82cc8f9182cc0a8382815b836882f090dd92e882b582c482ad82be82b382a281420a0a8382815b836882f090dd92e882b782e982c6814082bb82cc96608caf82cc8f9182c582cd0a914991f082b582bd8382815b836882c582cc82dd8140975682d782e982e682a482c982c882e882dc82b781420a0a8f8982df82c48376838c834382b782e98fea8d8782c982cd0a5b83568369838a83498382815b83685d82f0914991f082b782e982b182c682f00a8bad82ad814082a882b782b782df82b582dc82b781420a5b83568369838a83498382815b83685d0a8367838b836c835282cc96608caf82f08376838c834382b782e90a82b182cc8351815b838082cc81408aee967b934982c88382815b836882c582b781420a5b8347834e8358836783898382815b83685d0a835f839383578387839382cc82dd82f08376838c834382b782e98382815b836882c582b781420a82538eed97de82cc835f839383578387839382f08140975682d482b182c682aa82c582ab82dc82b781420a5b8148814881485d0a5b83568369838a83498382815b83685d82f0834e838a834182b782e982b182c682c50a914991f082b782e982b182c682aa82c582ab82e982e682a482c982c882e882dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8351815b838082f08e6e82df82e982bd82df82c982cd814096608caf82cc8f9182cc",
+          "text": "ゲームを始めるためには　冒険の書の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8382815b836882f090dd92e882b582c482ad82be82b382a28142",
+          "text": "モードを設定してください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8382815b836882f090dd92e882b782e982c6814082bb82cc96608caf82cc8f9182c582cd",
+          "text": "モードを設定すると　その冒険の書では",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "914991f082b582bd8382815b836882c582cc82dd8140975682d782e982e682a482c982c882e882dc82b78142",
+          "text": "選択したモードでのみ　遊べるようになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f8982df82c48376838c834382b782e98fea8d8782c982cd",
+          "text": "初めてプレイする場合には",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0914991f082b782e982b182c682f0",
+          "text": "を選択することを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8bad82ad814082a882b782b782df82b582dc82b78142",
+          "text": "強く　おすすめします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282cc96608caf82f08376838c834382b782e9",
+          "text": "トルネコの冒険をプレイする",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8351815b838082cc81408aee967b934982c88382815b836882c582b78142",
+          "text": "このゲームの　基本的なモードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839382cc82dd82f08376838c834382b782e98382815b836882c582b78142",
+          "text": "ダンジョンのみをプレイするモードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82538eed97de82cc835f839383578387839382f08140975682d482b182c682aa82c582ab82dc82b78142",
+          "text": "４種類のダンジョンを　遊ぶことができます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "814881488148",
+          "text": "？？？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0834e838a834182b782e982b182c682c5",
+          "text": "をクリアすることで",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "914991f082b782e982b182c682aa82c582ab82e982e682a482c982c882e882dc82b78142",
+          "text": "選択することができるようになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a554",
+      "pointer_owners": [
+        {
+          "offset": "0x00085C28",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085c20"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Choose a mode for your Adventure Log before starting the game.\n\nOnce you set a mode, that Adventure Log can only be used to play the chosen mode.\n\nIf this is your first time playing, we strongly recommend [Story mode].\n[Story mode]\nThe main game mode, in which you follow Torneko's adventure.\n[Extra mode]\nA mode devoted to dungeon exploration. You can explore four different dungeons.\n[???]\nAvailable after you complete [Story mode].",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7a73c",
+      "family": "message",
+      "offset": "0x00C7A73C",
+      "source_end_exclusive": "0xc7a98f",
+      "japanese": "ゲームを始めるためには　冒険の書の\nモードを設定してください。\n\nモードを設定すると　その冒険の書では\n選択したモードでのみ　遊べるようになります。\n\n初めてプレイする場合には\n[シナリオモード]を選択することを\n強く　おすすめします。\n[シナリオモード]\nトルネコの冒険をプレイする\nこのゲームの　基本的なモードです。\n[エクストラモード]\nダンジョンのみをプレイするモードです。\n４種類のダンジョンを　遊ぶことができます。\n[バリナボチャレンジモード]\n基本的な部分は[シナリオモード]と同じですが\nトルネコが倒れてしまうと\nバリナボの村で目覚めたところから\nやり直さなくてはいけないという\nとても　きびしいモードです。",
+      "source_hex": "8351815b838082f08e6e82df82e982bd82df82c982cd814096608caf82cc8f9182cc0a8382815b836882f090dd92e882b582c482ad82be82b382a281420a0a8382815b836882f090dd92e882b782e982c6814082bb82cc96608caf82cc8f9182c582cd0a914991f082b582bd8382815b836882c582cc82dd8140975682d782e982e682a482c982c882e882dc82b781420a0a8f8982df82c48376838c834382b782e98fea8d8782c982cd0a5b83568369838a83498382815b83685d82f0914991f082b782e982b182c682f00a8bad82ad814082a882b782b782df82b582dc82b781420a5b83568369838a83498382815b83685d0a8367838b836c835282cc96608caf82f08376838c834382b782e90a82b182cc8351815b838082cc81408aee967b934982c88382815b836882c582b781420a5b8347834e8358836783898382815b83685d0a835f839383578387839382cc82dd82f08376838c834382b782e98382815b836882c582b781420a82538eed97de82cc835f839383578387839382f08140975682d482b182c682aa82c582ab82dc82b781420a5b836f838a8369837b83608383838c839383578382815b83685d0a8aee967b934982c8959495aa82cd5b83568369838a83498382815b83685d82c693af82b682c582b782aa0a8367838b836c835282aa937c82ea82c482b582dc82a482c60a836f838a8369837b82cc91ba82c596da8a6f82df82bd82c682b182eb82a982e70a82e282e892bc82b382c882ad82c482cd82a282af82c882a282c682a282a40a82c682c482e0814082ab82d182b582a28382815b836882c582b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8351815b838082f08e6e82df82e982bd82df82c982cd814096608caf82cc8f9182cc",
+          "text": "ゲームを始めるためには　冒険の書の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8382815b836882f090dd92e882b582c482ad82be82b382a28142",
+          "text": "モードを設定してください。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8382815b836882f090dd92e882b782e982c6814082bb82cc96608caf82cc8f9182c582cd",
+          "text": "モードを設定すると　その冒険の書では",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "914991f082b582bd8382815b836882c582cc82dd8140975682d782e982e682a482c982c882e882dc82b78142",
+          "text": "選択したモードでのみ　遊べるようになります。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f8982df82c48376838c834382b782e98fea8d8782c982cd",
+          "text": "初めてプレイする場合には",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0914991f082b782e982b182c682f0",
+          "text": "を選択することを",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8bad82ad814082a882b782b782df82b582dc82b78142",
+          "text": "強く　おすすめします。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282cc96608caf82f08376838c834382b782e9",
+          "text": "トルネコの冒険をプレイする",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc8351815b838082cc81408aee967b934982c88382815b836882c582b78142",
+          "text": "このゲームの　基本的なモードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "835f839383578387839382cc82dd82f08376838c834382b782e98382815b836882c582b78142",
+          "text": "ダンジョンのみをプレイするモードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82538eed97de82cc835f839383578387839382f08140975682d482b182c682aa82c582ab82dc82b78142",
+          "text": "４種類のダンジョンを　遊ぶことができます。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b83608383838c839383578382815b8368",
+          "text": "バリナボチャレンジモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8aee967b934982c8959495aa82cd",
+          "text": "基本的な部分は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "83568369838a83498382815b8368",
+          "text": "シナリオモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c693af82b682c582b782aa",
+          "text": "と同じですが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282aa937c82ea82c482b582dc82a482c6",
+          "text": "トルネコが倒れてしまうと",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b82cc91ba82c596da8a6f82df82bd82c682b182eb82a982e7",
+          "text": "バリナボの村で目覚めたところから",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82e282e892bc82b382c882ad82c482cd82a282af82c882a282c682a282a4",
+          "text": "やり直さなくてはいけないという",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c682c482e0814082ab82d182b582a28382815b836882c582b78142",
+          "text": "とても　きびしいモードです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a73c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085C38",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085c2c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Choose a mode for your Adventure Log before starting the game.\n\nOnce you set a mode, that Adventure Log can only be used to play the chosen mode.\n\nIf this is your first time playing, we strongly recommend [Story mode].\n[Story mode]\nThe main game mode, in which you follow Torneko's adventure.\n[Extra mode]\nA mode devoted to dungeon exploration. You can explore four different dungeons.\n[Barinabo Challenge mode]\nSimilar to [Story mode], but if Torneko falls, you must start over from when he wakes up in Barinabo Village. This is a very demanding mode.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7a9c0",
+      "family": "message",
+      "offset": "0x00C7A9C0",
+      "source_end_exclusive": "0xc7a9ef",
+      "japanese": "冒険の書$j0を[エクストラモード]に\n設定します。",
+      "source_hex": "96608caf82cc8f91246a3082f05b8347834e8358836783898382815b83685d82c90a90dd92e882b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0",
+          "text": "を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b8368",
+          "text": "エクストラモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c9",
+          "text": "に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90dd92e882b582dc82b78142",
+          "text": "設定します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a9c0",
+      "pointer_owners": [
+        {
+          "offset": "0x00085BF4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085bdc"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Set Adventure Log $j0 to [Extra mode].",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7a9f0",
+      "family": "message",
+      "offset": "0x00C7A9F0",
+      "source_end_exclusive": "0xc7aa27",
+      "japanese": "冒険の書$j0を[バリナボチャレンジモード]に\n設定します。",
+      "source_hex": "96608caf82cc8f91246a3082f05b836f838a8369837b83608383838c839383578382815b83685d82c90a90dd92e882b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246a30",
+          "text": "$j0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0",
+          "text": "を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "836f838a8369837b83608383838c839383578382815b8368",
+          "text": "バリナボチャレンジモード",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82c9",
+          "text": "に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "90dd92e882b582dc82b78142",
+          "text": "設定します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7a9f0",
+      "pointer_owners": [
+        {
+          "offset": "0x00085C14",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085bf8"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Set Adventure Log $j0 to [Barinabo Challenge mode].",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7aa28",
+      "family": "message",
+      "offset": "0x00C7AA28",
+      "source_end_exclusive": "0xc7aa8f",
+      "japanese": "冒険の書$d0のロードに　失敗しました。\nカートリッジが　壊れているようです。\n冒険の書$d0を初期化します。",
+      "source_hex": "96608caf82cc8f9124643082cc838d815b836882c981408eb8947382b582dc82b582bd81420a834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b781420a96608caf82cc8f9124643082f08f898afa89bb82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc838d815b836882c981408eb8947382b582dc82b582bd8142",
+          "text": "のロードに　失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b78142",
+          "text": "カートリッジが　壊れているようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582dc82b78142",
+          "text": "を初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7aa28",
+      "pointer_owners": [
+        {
+          "offset": "0x00084B6C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8084b34"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not load Adventure Log $d0. The cartridge appears to be damaged.\nAdventure Log $d0 will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7aa90",
+      "family": "message",
+      "offset": "0x00C7AA90",
+      "source_end_exclusive": "0xc7aaf9",
+      "japanese": "残念ながら　あなたの冒険の書$d0は\n壊れてしまったようです。\n\n壊れてしまった冒険の書$d0を\n初期化します。\n\n",
+      "source_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8f9124643082cd0a89f382ea82c482b582dc82c182bd82e682a482c582b781420a0a89f382ea82c482b582dc82c182bd96608caf82cc8f9124643082f00a8f898afa89bb82b582dc82b781420a0a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8f91",
+          "text": "残念ながら　あなたの冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cd",
+          "text": "は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd82e682a482c582b78142",
+          "text": "壊れてしまったようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd96608caf82cc8f91",
+          "text": "壊れてしまった冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f0",
+          "text": "を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f898afa89bb82b582dc82b78142",
+          "text": "初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7aa90",
+      "pointer_owners": [
+        {
+          "offset": "0x00084BA8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8084b74"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Unfortunately, Adventure Log $d0 appears to be corrupted.\n\nThe corrupted Adventure Log $d0 will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7aafc",
+      "family": "message",
+      "offset": "0x00C7AAFC",
+      "source_end_exclusive": "0xc7ab61",
+      "japanese": "冒険の記録のロードに　失敗しました。\nカートリッジが　壊れているようです。\n冒険の記録を初期化します。",
+      "source_hex": "96608caf82cc8b4c985e82cc838d815b836882c981408eb8947382b582dc82b582bd81420a834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b781420a96608caf82cc8b4c985e82f08f898afa89bb82b582dc82b7814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e82cc838d815b836882c981408eb8947382b582dc82b582bd8142",
+          "text": "冒険の記録のロードに　失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834a815b8367838a8362835782aa814089f382ea82c482a282e982e682a482c582b78142",
+          "text": "カートリッジが　壊れているようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e82f08f898afa89bb82b582dc82b78142",
+          "text": "冒険の記録を初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7aafc",
+      "pointer_owners": [
+        {
+          "offset": "0x00084BAC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8084b98"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not load your adventure records. The cartridge appears to be damaged.\nYour adventure records will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c7ab64",
+      "family": "message",
+      "offset": "0x00C7AB64",
+      "source_end_exclusive": "0xc7abcb",
+      "japanese": "残念ながら　あなたの冒険の記録は\n壊れてしまったようです。\n\n壊れてしまった冒険の記録を\n初期化します。\n\n",
+      "source_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8b4c985e82cd0a89f382ea82c482b582dc82c182bd82e682a482c582b781420a0a89f382ea82c482b582dc82c182bd96608caf82cc8b4c985e82f00a8f898afa89bb82b582dc82b781420a0a00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8e63944f82c882aa82e7814082a082c882bd82cc96608caf82cc8b4c985e82cd",
+          "text": "残念ながら　あなたの冒険の記録は",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd82e682a482c582b78142",
+          "text": "壊れてしまったようです。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "89f382ea82c482b582dc82c182bd96608caf82cc8b4c985e82f0",
+          "text": "壊れてしまった冒険の記録を",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f898afa89bb82b582dc82b78142",
+          "text": "初期化します。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7ab64",
+      "pointer_owners": [
+        {
+          "offset": "0x00084C20",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8084bb4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Unfortunately, your adventure records appear to be corrupted.\n\nThe corrupted records will be initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c7abcc",
+      "family": "message",
+      "offset": "0x00C7ABCC",
+      "source_end_exclusive": "0xc7abea",
+      "japanese": "冒険の書$d0を初期化しました。",
+      "source_hex": "96608caf82cc8f9124643082f08f898afa89bb82b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582dc82b582bd8142",
+          "text": "を初期化しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7abcc",
+      "pointer_owners": [
+        {
+          "offset": "0x00085AEC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085ad4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure Log $d0 initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7abec",
+      "family": "message",
+      "offset": "0x00C7ABEC",
+      "source_end_exclusive": "0xc7ac11",
+      "japanese": "冒険の書$d0の初期化に\n失敗しました。",
+      "source_hex": "96608caf82cc8f9124643082cc8f898afa89bb82c90a8eb8947382b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82cc8f898afa89bb82c9",
+          "text": "の初期化に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8eb8947382b582dc82b582bd8142",
+          "text": "失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7abec",
+      "pointer_owners": [
+        {
+          "offset": "0x00085AD0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085ab8"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not initialize Adventure Log $d0.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7ac14",
+      "family": "message",
+      "offset": "0x00C7AC14",
+      "source_end_exclusive": "0xc7ac36",
+      "japanese": "冒険の書$d0を初期化しています……",
+      "source_hex": "96608caf82cc8f9124643082f08f898afa89bb82b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8f91",
+          "text": "冒険の書",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "dollar_command",
+          "raw_hex": "246430",
+          "text": "$d0",
+          "grammar": "shared_formatter"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82f08f898afa89bb82b582c482a282dc82b781638163",
+          "text": "を初期化しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7ac14",
+      "pointer_owners": [
+        {
+          "offset": "0x00085ACC",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085a98"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Initializing Adventure Log $d0...",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "frontend.00c7ac38",
+      "family": "message",
+      "offset": "0x00C7AC38",
+      "source_end_exclusive": "0xc7ac55",
+      "japanese": "冒険の記録を初期化しました。",
+      "source_hex": "96608caf82cc8b4c985e82f08f898afa89bb82b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e82f08f898afa89bb82b582dc82b582bd8142",
+          "text": "冒険の記録を初期化しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7ac38",
+      "pointer_owners": [
+        {
+          "offset": "0x00085B44",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085b30"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure records initialized.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c7ac58",
+      "family": "message",
+      "offset": "0x00C7AC58",
+      "source_end_exclusive": "0xc7ac7c",
+      "japanese": "冒険の記録の初期化に\n失敗しました。",
+      "source_hex": "96608caf82cc8b4c985e82cc8f898afa89bb82c90a8eb8947382b582dc82b582bd814200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e82cc8f898afa89bb82c9",
+          "text": "冒険の記録の初期化に",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8eb8947382b582dc82b582bd8142",
+          "text": "失敗しました。",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7ac58",
+      "pointer_owners": [
+        {
+          "offset": "0x00085B2C",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085b1c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Could not initialize adventure records.",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    },
+    {
+      "id": "frontend.00c7ac7c",
+      "family": "message",
+      "offset": "0x00C7AC7C",
+      "source_end_exclusive": "0xc7ac9d",
+      "japanese": "冒険の記録を初期化しています……",
+      "source_hex": "96608caf82cc8b4c985e82f08f898afa89bb82b582c482a282dc82b78163816300",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e82f08f898afa89bb82b582c482a282dc82b781638163",
+          "text": "冒険の記録を初期化しています……",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c7ac7c",
+      "pointer_owners": [
+        {
+          "offset": "0x00085B28",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8085b00"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Initializing adventure records...",
+      "display": null,
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged.",
+      "references": []
+    }
+  ]
+}

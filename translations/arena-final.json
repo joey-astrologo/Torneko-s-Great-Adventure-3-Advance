@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "arena-final.000dc870",
+      "family": "label",
+      "offset": "0xdc870",
+      "source_end_exclusive": "0xdc883",
+      "source_hex": "3c3c3c20208f9f8ed282c882b520203e3e3e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "3c3c3c2020",
+          "text": "<<<  ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8f9f8ed282c882b5",
+          "text": "勝者なし",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20203e3e3e",
+          "text": "  >>>",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "<<<  勝者なし  >>>",
+      "master_id": "jp_000dc870",
+      "pointer_owners": [
+        {
+          "offset": "0x5cb7c",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x805cb58"
+          ]
+        }
+      ],
+      "english": "<<< No winner >>>",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve dynamic colour, original name/odds columns, row order, 200-byte printf buffer and odds generator. Native winner presentation required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "arena-final.000dc884",
+      "family": "row",
+      "offset": "0xdc884",
+      "source_end_exclusive": "0xdc89d",
+      "source_hex": "030525634e6f2e256403082c25730308a425642e2564947b00",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "03052563",
+          "text": "<03 05 25 63>",
+          "argument_template_candidate": "%c"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "4e6f2e",
+          "text": "No.",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "03082c",
+          "text": "<03 08 2C>"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "0308a4",
+          "text": "<03 08 A4>"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2e",
+          "text": ".",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "947b",
+          "text": "倍",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "<03 05 25 63>No.%d<03 08 2C>%s<03 08 A4>%d.%d倍",
+      "master_id": "jp_000dc884",
+      "pointer_owners": [
+        {
+          "offset": "0x5cc8c",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x805cc38"
+          ]
+        }
+      ],
+      "english": "{hex:0305}%cNo.%d{hex:03082c}%s{hex:0308a4}%d.%dx",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve dynamic colour, original name/odds columns, row order, 200-byte printf buffer and odds generator. Native winner presentation required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "arena-final.000dc8a0",
+      "family": "label",
+      "offset": "0xdc8a0",
+      "source_end_exclusive": "0xdc8a9",
+      "source_hex": "2e2e2e2082d982a900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "2e2e2e20",
+          "text": "... ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82d982a9",
+          "text": "ほか",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "japanese": "... ほか",
+      "master_id": "jp_000dc8a0",
+      "pointer_owners": [
+        {
+          "offset": "0x5cb94",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x805cb86"
+          ]
+        }
+      ],
+      "english": "... others",
+      "display": null,
+      "notes": "Independent original-source translation. Preserve dynamic colour, original name/odds columns, row order, 200-byte printf buffer and odds generator. Native winner presentation required before acceptance.",
+      "references": []
+    }
+  ]
+}

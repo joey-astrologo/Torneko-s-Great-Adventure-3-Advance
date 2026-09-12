@@ -1,0 +1,1720 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "system-label.0009b4dc",
+      "family": "label",
+      "offset": "0x9b4dc",
+      "source_end_exclusive": "0x9b4f3",
+      "japanese": "ダンジョンメニュー画面",
+      "source_hex": "835f83938357838783938381836a8385815b89e696ca00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "835f83938357838783938381836a8385815b89e696ca",
+          "text": "ダンジョンメニュー画面",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b4dc",
+      "pointer_owners": [
+        {
+          "offset": "0x2948",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x800292c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 23,
+      "english": "Dungeon menu",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b4f4",
+      "family": "entry_summary",
+      "offset": "0x9b4f4",
+      "source_end_exclusive": "0x9b4fc",
+      "japanese": "%s 突入",
+      "source_hex": "25732093cb93fc00",
+      "source_tokens": [
+        {
+          "kind": "printf",
+          "raw_hex": "2573",
+          "text": "%s",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "93cb93fc",
+          "text": "突入",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b4f4",
+      "pointer_owners": [
+        {
+          "offset": "0x2974",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x800295c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Entering %s",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b51c",
+      "family": "extra_menu",
+      "offset": "0x9b51c",
+      "source_end_exclusive": "0x9b533",
+      "japanese": "スタートメニューに戻る",
+      "source_hex": "8358835e815b83678381836a8385815b82c996df82e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8358835e815b83678381836a8385815b82c996df82e9",
+          "text": "スタートメニューに戻る",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b51c",
+      "pointer_owners": [
+        {
+          "offset": "0x9b518",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Back to Start Menu",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b534",
+      "family": "extra_menu",
+      "offset": "0x9b534",
+      "source_end_exclusive": "0x9b54b",
+      "japanese": "エクストラモードの説明",
+      "source_hex": "8347834e8358836783898382815b836882cc90e096be00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8347834e8358836783898382815b836882cc90e096be",
+          "text": "エクストラモードの説明",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b534",
+      "pointer_owners": [
+        {
+          "offset": "0x9b514",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "About Extra Mode",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b54c",
+      "family": "extra_menu",
+      "offset": "0x9b54c",
+      "source_end_exclusive": "0x9b561",
+      "japanese": "「まぼろしの試練」へ",
+      "source_hex": "817582dc82da82eb82b582cc8e8e97fb817682d600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "817582dc82da82eb82b582cc8e8e97fb817682d6",
+          "text": "「まぼろしの試練」へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b54c",
+      "pointer_owners": [
+        {
+          "offset": "0x9b510",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Enter Trial of illusion",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "interface.dungeon.063"
+      ]
+    },
+    {
+      "id": "system-label.0009b564",
+      "family": "extra_menu",
+      "offset": "0x9b564",
+      "source_end_exclusive": "0x9b577",
+      "japanese": "「異世界の試練」へ",
+      "source_hex": "817588d990a28a4582cc8e8e97fb817682d600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "817588d990a28a4582cc8e8e97fb817682d6",
+          "text": "「異世界の試練」へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b564",
+      "pointer_owners": [
+        {
+          "offset": "0x9b50c",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Enter Otherworld trial",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "interface.dungeon.050"
+      ]
+    },
+    {
+      "id": "system-label.0009b578",
+      "family": "extra_menu",
+      "offset": "0x9b578",
+      "source_end_exclusive": "0x9b589",
+      "japanese": "「封印の試練」へ",
+      "source_hex": "8175959588f382cc8e8e97fb817682d600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8175959588f382cc8e8e97fb817682d6",
+          "text": "「封印の試練」へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b578",
+      "pointer_owners": [
+        {
+          "offset": "0x9b508",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Enter Trial of sealing",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "interface.dungeon.052"
+      ]
+    },
+    {
+      "id": "system-label.0009b58c",
+      "family": "extra_menu",
+      "offset": "0x9b58c",
+      "source_end_exclusive": "0x9b59d",
+      "japanese": "「新界の試練」へ",
+      "source_hex": "817590568a4582cc8e8e97fb817682d600",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "817590568a4582cc8e8e97fb817682d6",
+          "text": "「新界の試練」へ",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b58c",
+      "pointer_owners": [
+        {
+          "offset": "0x9b504",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Enter New World trial",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "interface.dungeon.053"
+      ]
+    },
+    {
+      "id": "system-label.0009b5f8",
+      "family": "party_menu",
+      "offset": "0x9b5f8",
+      "source_end_exclusive": "0x9b60b",
+      "japanese": "トルネコで冒険する",
+      "source_hex": "8367838b836c835282c596608caf82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8367838b836c835282c596608caf82b782e9",
+          "text": "トルネコで冒険する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b5f8",
+      "pointer_owners": [
+        {
+          "offset": "0x3c40",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8003a88"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Play as Torneko",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "system-label.0009b60c",
+      "family": "party_menu",
+      "offset": "0x9b60c",
+      "source_end_exclusive": "0x9b61d",
+      "japanese": "ポポロで冒険する",
+      "source_hex": "837c837c838d82c596608caf82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "837c837c838d82c596608caf82b782e9",
+          "text": "ポポロで冒険する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b60c",
+      "pointer_owners": [
+        {
+          "offset": "0x3c44",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8003a9e"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Play as Tipper",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "system-label.0009b620",
+      "family": "party_menu",
+      "offset": "0x9b620",
+      "source_end_exclusive": "0x9b631",
+      "japanese": "イネスと冒険する",
+      "source_hex": "8343836c835882c696608caf82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8343836c835882c696608caf82b782e9",
+          "text": "イネスと冒険する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b620",
+      "pointer_owners": [
+        {
+          "offset": "0x3c48",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8003ab4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Travel with Ines",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "system-label.0009b634",
+      "family": "party_menu",
+      "offset": "0x9b634",
+      "source_end_exclusive": "0x9b643",
+      "japanese": "ロサと冒険する",
+      "source_hex": "838d835482c696608caf82b782e900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "838d835482c696608caf82b782e9",
+          "text": "ロサと冒険する",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b634",
+      "pointer_owners": [
+        {
+          "offset": "0x3c4c",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8003aca"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Travel with Rosa",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b66c",
+      "family": "message",
+      "offset": "0x9b66c",
+      "source_end_exclusive": "0x9b69e",
+      "japanese": "いっしょに冒険にでる仲間モンスターが\n多すぎます！",
+      "source_hex": "82a282c182b582e582c996608caf82c982c582e992878ad4838283938358835e815b82aa0a91bd82b782ac82dc82b7814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182b582e582c996608caf82c982c582e992878ad4838283938358835e815b82aa",
+          "text": "いっしょに冒険にでる仲間モンスターが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91bd82b782ac82dc82b78149",
+          "text": "多すぎます！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b66c",
+      "pointer_owners": [
+        {
+          "offset": "0x4a38",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8004670",
+            "0x8004892"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Too many monster allies are coming along!",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b6a0",
+      "family": "label",
+      "offset": "0x9b6a0",
+      "source_end_exclusive": "0x9b6a5",
+      "japanese": "冒険",
+      "source_hex": "96608caf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf",
+          "text": "冒険",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b6a0",
+      "pointer_owners": [
+        {
+          "offset": "0x4a3c",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8004896"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Adventure",
+      "display": "Trip",
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Actual companion $j2 context has four bytes; use the already accepted Adventure → Trip display convention from ally-services, preserving the full catalog word.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b6ac",
+      "family": "message",
+      "offset": "0x9b6ac",
+      "source_end_exclusive": "0x9b6c4",
+      "japanese": "もう一度 挑戦しますか？",
+      "source_hex": "82e082a488ea93782092a790ed82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82e082a488ea9378",
+          "text": "もう一度",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "92a790ed82b582dc82b782a98148",
+          "text": "挑戦しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b6ac",
+      "pointer_owners": [
+        {
+          "offset": "0x50cc",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80050c4"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Try again?",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.0009b6c4",
+      "family": "message",
+      "offset": "0x9b6c4",
+      "source_end_exclusive": "0x9b6fc",
+      "japanese": "大きなパンを１つ持って\nこのダンジョンをやり直しますか？",
+      "source_hex": "91e582ab82c88370839382f0825082c28e9d82c182c40a82b182cc835f839383578387839382f082e282e892bc82b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "91e582ab82c88370839382f0825082c28e9d82c182c4",
+          "text": "大きなパンを１つ持って",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182cc835f839383578387839382f082e282e892bc82b582dc82b782a98148",
+          "text": "このダンジョンをやり直しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_0009b6c4",
+      "pointer_owners": [
+        {
+          "offset": "0x50c0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80050ba"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Restart this dungeon with one Big bread?",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "big_bread"
+      ]
+    },
+    {
+      "id": "system-label.000a6900",
+      "family": "label",
+      "offset": "0xa6900",
+      "source_end_exclusive": "0xa6905",
+      "japanese": "冒険",
+      "source_hex": "96608caf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf",
+          "text": "冒険",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6900",
+      "pointer_owners": [
+        {
+          "offset": "0x1f204",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x801f0d4"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0xce16dc",
+          "reason": "Unreviewed high data-array reference"
+        }
+      ],
+      "allocation_min_bytes": 0,
+      "english": "Adventure",
+      "display": "Trip",
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Actual companion $j2 context has four bytes; use the already accepted Adventure → Trip display convention from ally-services, preserving the full catalog word.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a690c",
+      "family": "message",
+      "offset": "0xa690c",
+      "source_end_exclusive": "0xa693e",
+      "japanese": "いっしょに冒険にでる仲間モンスターが\n多すぎます！",
+      "source_hex": "82a282c182b582e582c996608caf82c982c582e992878ad4838283938358835e815b82aa0a91bd82b782ac82dc82b7814900",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82a282c182b582e582c996608caf82c982c582e992878ad4838283938358835e815b82aa",
+          "text": "いっしょに冒険にでる仲間モンスターが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "91bd82b782ac82dc82b78149",
+          "text": "多すぎます！",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a690c",
+      "pointer_owners": [
+        {
+          "offset": "0x1ff64",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x801ff4a"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0xce16d8",
+          "reason": "Unreviewed high data-array reference"
+        }
+      ],
+      "allocation_min_bytes": 0,
+      "english": "Too many monster allies are coming along!",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6940",
+      "family": "label",
+      "offset": "0xa6940",
+      "source_end_exclusive": "0xa6945",
+      "japanese": "冒険",
+      "source_hex": "96608caf00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf",
+          "text": "冒険",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6940",
+      "pointer_owners": [
+        {
+          "offset": "0x1ff68",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x801ff4e"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Adventure",
+      "display": "Trip",
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Actual companion $j2 context has four bytes; use the already accepted Adventure → Trip display convention from ally-services, preserving the full catalog word.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6948",
+      "family": "message",
+      "offset": "0xa6948",
+      "source_end_exclusive": "0xa6980",
+      "japanese": "現在の冒険を　冒険の書に記録して\nゲームを中断しますか？",
+      "source_hex": "8cbb8ddd82cc96608caf82f0814096608caf82cc8f9182c98b4c985e82b582c40a8351815b838082f09286926682b582dc82b782a9814800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8cbb8ddd82cc96608caf82f0814096608caf82cc8f9182c98b4c985e82b582c4",
+          "text": "現在の冒険を　冒険の書に記録して",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "control",
+          "raw_hex": "0a",
+          "text": "\n"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8351815b838082f09286926682b582dc82b782a98148",
+          "text": "ゲームを中断しますか？",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6948",
+      "pointer_owners": [
+        {
+          "offset": "0x200dc",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x80200ac"
+          ]
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0xce16c8",
+          "reason": "Unreviewed high data-array reference"
+        }
+      ],
+      "allocation_min_bytes": 0,
+      "english": "Save this adventure to an Adventure Log and quit for now?",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "adventure_log"
+      ]
+    },
+    {
+      "id": "system-label.000a6700",
+      "family": "object",
+      "offset": "0xa6700",
+      "source_end_exclusive": "0xa6705",
+      "japanese": "風柱",
+      "source_hex": "9597928c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9597928c",
+          "text": "風柱",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6700",
+      "pointer_owners": [
+        {
+          "offset": "0xa66fc",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [
+        {
+          "offset": "0xce176c",
+          "reason": "Unreviewed high data-array reference"
+        }
+      ],
+      "allocation_min_bytes": 0,
+      "english": "Wind pillar",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6708",
+      "family": "object",
+      "offset": "0xa6708",
+      "source_end_exclusive": "0xa670d",
+      "japanese": "砂柱",
+      "source_hex": "8dbb928c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "8dbb928c",
+          "text": "砂柱",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6708",
+      "pointer_owners": [
+        {
+          "offset": "0xa66f8",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Sand pillar",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6710",
+      "family": "object",
+      "offset": "0xa6710",
+      "source_end_exclusive": "0xa6713",
+      "japanese": "氷",
+      "source_hex": "955800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "9558",
+          "text": "氷",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6710",
+      "pointer_owners": [
+        {
+          "offset": "0xa66f4",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Ice",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6714",
+      "family": "object",
+      "offset": "0xa6714",
+      "source_end_exclusive": "0xa6719",
+      "japanese": "火柱",
+      "source_hex": "89ce928c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "89ce928c",
+          "text": "火柱",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6714",
+      "pointer_owners": [
+        {
+          "offset": "0xa66f0",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Fire pillar",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.000a6720",
+      "family": "object",
+      "offset": "0xa6720",
+      "source_end_exclusive": "0xa6729",
+      "japanese": "なぞの物",
+      "source_hex": "82c882bc82cc95a800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "82c882bc82cc95a8",
+          "text": "なぞの物",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_000a6720",
+      "pointer_owners": [
+        {
+          "offset": "0x1b4a8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x801b498"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Unknown object",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b446d",
+      "family": "equipment_cap",
+      "offset": "0x1b446d",
+      "source_end_exclusive": "0x1b4475",
+      "japanese": "上限+%d",
+      "source_hex": "fbb7fac62b256400",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fbb7fac6",
+          "text": "上限",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "2b",
+          "text": "+",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b446d",
+      "pointer_owners": [
+        {
+          "offset": "0x6de40",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x806de02"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Max +%d",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b447e",
+      "family": "visibility",
+      "offset": "0x1b447e",
+      "source_end_exclusive": "0x1b4484",
+      "japanese": "見えない",
+      "source_hex": "fabcb4c5b200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fabc",
+          "text": "見",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "b4c5b2",
+          "text": "えない",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b447e",
+      "pointer_owners": [
+        {
+          "offset": "0x6ddf8",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x806dddc"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Can't see it.",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Native 0806E2CC draws directly at y=26 in the existing equipment window; this is not a paged-message consumer.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b4484",
+      "family": "equipment_stat",
+      "offset": "0x1b4484",
+      "source_end_exclusive": "0x1b448d",
+      "japanese": "印数[%d]",
+      "source_hex": "f9d1fbdc5b25645d00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f9d1fbdc",
+          "text": "印数",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5b",
+          "text": "[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b4484",
+      "pointer_owners": [
+        {
+          "offset": "0x6e2c0",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x806e21e"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Marks[%d]",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": [
+        "effect.001b728e"
+      ]
+    },
+    {
+      "id": "system-label.001b448d",
+      "family": "equipment_stat",
+      "offset": "0x1b448d",
+      "source_end_exclusive": "0x1b4495",
+      "japanese": "強さ[%d]",
+      "source_hex": "fa86bb5b25645d00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fa86",
+          "text": "強",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "bb5b",
+          "text": "さ[",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "printf",
+          "raw_hex": "2564",
+          "text": "%d",
+          "grammar": "lexical_only"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "5d",
+          "text": "]",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b448d",
+      "pointer_owners": [
+        {
+          "offset": "0x6e2c4",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x806e25c"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Power[%d]",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.00c3da2c",
+      "family": "synthesis_heading",
+      "offset": "0xc3da2c",
+      "source_end_exclusive": "0xc3da4e",
+      "japanese": "<03 12><03 05 04>これが 合成後の アイテムです",
+      "source_hex": "031203050482b182ea82aa208d8790ac8ce382cc20834183438365838082c582b700",
+      "source_tokens": [
+        {
+          "kind": "binary_control",
+          "raw_hex": "0312",
+          "text": "<03 12>"
+        },
+        {
+          "kind": "binary_control",
+          "raw_hex": "030504",
+          "text": "<03 05 04>"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "82b182ea82aa",
+          "text": "これが",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "8d8790ac8ce382cc",
+          "text": "合成後の",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "20",
+          "text": " ",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "834183438365838082c582b7",
+          "text": "アイテムです",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c3da2c",
+      "pointer_owners": [
+        {
+          "offset": "0x6dd5c",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x806dd2e"
+          ]
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "{hex:0312}{hex:030504}Item after synthesis",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b98d6",
+      "family": "growth",
+      "offset": "0x1b98d6",
+      "source_end_exclusive": "0x1b98df",
+      "japanese": "トルネコ",
+      "source_hex": "f961f984f966f94c00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f961f984f966f94c",
+          "text": "トルネコ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98d6",
+      "pointer_owners": [
+        {
+          "offset": "0x1b994c",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Torneko",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": [
+        "torneko"
+      ]
+    },
+    {
+      "id": "system-label.001b98df",
+      "family": "growth",
+      "offset": "0x1b98df",
+      "source_end_exclusive": "0x1b98e6",
+      "japanese": "ポポ口",
+      "source_hex": "f976f976fade00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f976f976fade",
+          "text": "ポポ口",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98df",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9950",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Tipper",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": [
+        "enemy_tipper"
+      ]
+    },
+    {
+      "id": "system-label.001b98e6",
+      "family": "growth",
+      "offset": "0x1b98e6",
+      "source_end_exclusive": "0x1b98eb",
+      "japanese": "ロサ",
+      "source_hex": "f986f94e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f986f94e",
+          "text": "ロサ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98e6",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9954",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Rosa",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b98eb",
+      "family": "growth",
+      "offset": "0x1b98eb",
+      "source_end_exclusive": "0x1b98f2",
+      "japanese": "イネス",
+      "source_hex": "f93df966f95200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f93df966f952",
+          "text": "イネス",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98eb",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9958",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Ines",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": [
+        "enemy_ines"
+      ]
+    },
+    {
+      "id": "system-label.001b98f2",
+      "family": "growth",
+      "offset": "0x1b98f2",
+      "source_end_exclusive": "0x1b98fd",
+      "japanese": "万能・晩成",
+      "source_hex": "fd8cfce8f884fd25fbe000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd8cfce8f884fd25fbe0",
+          "text": "万能・晩成",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98f2",
+      "pointer_owners": [
+        {
+          "offset": "0x1b995c",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Versatile / late",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b98fd",
+      "family": "growth",
+      "offset": "0x1b98fd",
+      "source_end_exclusive": "0x1b9908",
+      "japanese": "攻撃・特殊",
+      "source_hex": "fae4faacf884fcd0fb7800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fae4faacf884fcd0fb78",
+          "text": "攻撃・特殊",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b98fd",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9960",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Attack / special",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b9908",
+      "family": "growth",
+      "offset": "0x1b9908",
+      "source_end_exclusive": "0x1b9913",
+      "japanese": "防御・晩成",
+      "source_hex": "fd83fad4f884fd25fbe000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd83fad4f884fd25fbe0",
+          "text": "防御・晩成",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b9908",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9964",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Defence / late",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b9913",
+      "family": "growth",
+      "offset": "0x1b9913",
+      "source_end_exclusive": "0x1b991e",
+      "japanese": "防御・早熟",
+      "source_hex": "fd83fad4f884fc38fb8f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd83fad4f884fc38fb8f",
+          "text": "防御・早熟",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b9913",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9968",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Defence / early",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b991e",
+      "family": "growth",
+      "offset": "0x1b991e",
+      "source_end_exclusive": "0x1b9929",
+      "japanese": "攻撃・晩成",
+      "source_hex": "fae4faacf884fd25fbe000",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fae4faacf884fd25fbe0",
+          "text": "攻撃・晩成",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b991e",
+      "pointer_owners": [
+        {
+          "offset": "0x1b996c",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Attack / late",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b9929",
+      "family": "growth",
+      "offset": "0x1b9929",
+      "source_end_exclusive": "0x1b9934",
+      "japanese": "攻撃・早熟",
+      "source_hex": "fae4faacf884fc38fb8f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fae4faacf884fc38fb8f",
+          "text": "攻撃・早熟",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b9929",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9970",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Attack / early",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b9934",
+      "family": "growth",
+      "offset": "0x1b9934",
+      "source_end_exclusive": "0x1b993f",
+      "japanese": "守備・特殊",
+      "source_hex": "fb76fd32f884fcd0fb7800",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fb76fd32f884fcd0fb78",
+          "text": "守備・特殊",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b9934",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9974",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Guard / special",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    },
+    {
+      "id": "system-label.001b993f",
+      "family": "growth",
+      "offset": "0x1b993f",
+      "source_end_exclusive": "0x1b994a",
+      "japanese": "普通・早熟",
+      "source_hex": "fd46fc93f884fc38fb8f00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "fd46fc93f884fc38fb8f",
+          "text": "普通・早熟",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_001b993f",
+      "pointer_owners": [
+        {
+          "offset": "0x1b9978",
+          "evidence": "typed_pointer_word",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "allocation_min_bytes": 0,
+      "english": "Normal / early",
+      "display": null,
+      "notes": "Independent original-source label; original table identities, pointer owners and reader capacities are retained. Native layout/copy checks required before acceptance. Growth categories are project labels; Tipper retains the row-1 character identity despite the original glyph-decoder display ポポ口.",
+      "references": []
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Project rules
 
+## Continue through completion
+
+The user authorized completing the remaining translation work continuously on
+2026-09-11. Do not stop after a section to ask for another "ready" message.
+Continue through source review, independent translation, terminology research,
+insertion, emulator checks and documentation. Keep useful progress updates and
+reviewable intermediate builds. Stop for user input only when a concrete issue
+requires their judgment or evidence that cannot be obtained independently.
+Deferred personal playtesting is not such a blocker. Keep uncertainty and
+unverified extraction candidates explicit; do not declare the game complete
+merely because the current inventory has been processed.
+
 ## Record discoveries and prevent insertion collisions
 
 The user requires location/range discoveries to be documented as they are made,
