@@ -1,5 +1,28 @@
 # Torneko 3 Advance documentation
 
+Latest accepted build: [empty-inventory popup correction](INVENTORY_NOTICE.md),
+including the menu and results-screen corrections. The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md)
+verifies a naturally earned defeat record, priest save, cold records display
+and both seven-letter Adventure Logs. Inventory accounting is
+8,422 authored sources, 822 retained resources and 74 unresolved candidates.
+The [resource-boundary audit](RESOURCE_BOUNDARIES.md) identifies five further
+false prose decodes through native animation and palette readers.
+The [gameplay candidate review](GAMEPLAY_CANDIDATES.md) adds paired native
+reader evidence for seventeen leads, which remain unresolved and uninserted.
+An [initial Japanese-guide check](JAPANESE_GUIDE_LEADS.md) adds sourced mechanic
+leads for the weight labels, shell emergence and destination-pot failure.
+The [successful cave-clear roundtrip](CAVE_CLEAR.md) now also passes: three
+floors, the following shrine/party story, priest saving, cold records and both
+Logs, with no further ROM changes.
+The [arrival-card review](ARRIVAL_CARDS.md) now exports all 36 distinct original
+dungeon cards from the 64-entry table to PNG sheets for English auditions.
+Separate town cards are not yet confirmed. Ending/credit graphics remain
+deferred; the original Japanese title logo stays.
+The [offline lettering studio](ARRIVAL_AUDITION.md) now provides a recovered
+Shiren bitmap alphabet, marked supplements, three starting styles and
+interactive previews/exports for all 36 cards. These are artwork auditions;
+the accepted ROM is unchanged.
+
 Current build: [continuous completion](COMPLETION.md), through the ordinary story,
 pet/password scenes, shared narration, arena services, adventure history/results, church services, remaining frontend text, composed item labels, direct dungeon events and remaining
 battle feedback, world merchants, the shared keyboard, scroll inscriptions, remaining world messages, system labels, encounter menus, arena outcome text and indexed arena graphics, sound-test help and the live-floor summary. It contains
@@ -21,8 +44,11 @@ in the playtest backlog.
 - [Enemy-name research](ENEMY_NAMES.md): historical naming batches; all 200 table rows are now in the combined build.
 - [Enemy-trait research](ENEMY_TRAITS.md): historical effect reviews; all 200 rows now have measured native displays.
 - [Deferred gameplay checks](PLAYTEST_BACKLOG.md): coverage to revisit while translation work continues.
-- [Natural first-cave regression](NATURAL_CAVE.md): normal village/rest, equipment, combat and stairs route to floor two on the current combined ROM.
-- [Gameplay wording corrections](TEXT_POLISH.md): latest combined ROM, Recovery pot tutorial/menu consistency and normal pot-use verification.
+- [Arrival-card PNGs](ARRIVAL_CARDS.md): indexed Japanese originals, separate floor glyphs, native comparison and town-coverage limits.
+- [Arrival lettering studio](ARRIVAL_AUDITION.md): reconstructed alphabet, live controls, all-card comparisons, PNG exports and saved auditions.
+- [Natural save roundtrip](NATIVE_SAVE_ROUNDTRIP.md): fresh names, first-floor defeat, priest save, cold earned records and both Adventure Logs.
+- [Natural first-cave regression](NATURAL_CAVE.md): separately pinned village/rest, equipment, combat and stairs route to floor two.
+- [Gameplay wording corrections](TEXT_POLISH.md): Recovery pot tutorial/menu consistency and normal pot-use verification.
 - [Installation on macOS](INSTALL.md): local prerequisites and installation/build instructions.
 - [First working label](FIRST_LABEL.md): reproduce the Begin proof patch, inspect the rendering trace, and run its tests.
 - [ROM storage and expansion](STORAGE.md): storage budget, 32 MiB relocation proof, and real save/load checks.

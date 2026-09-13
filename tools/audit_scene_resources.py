@@ -12,7 +12,7 @@ from tools.translation_pipeline import check, load_json, atomic_write
 from tools.verify_expansion import Session
 
 OUTPUT = ROOT / 'build/completion/scene-resource-audit'
-BASELINE = ROOT / 'build/completion/text-polish/torneko3-text-polish-english.gba'
+BASELINE = ROOT / 'build/completion/inventory-notice/torneko3-inventory-notice-english.gba'
 CACHE = (0xCB02F4, 0xCB048C, 0x0200046C)
 CONTROLLER = 0x0203F000
 CONTROLLER_BYTES = 0xA8

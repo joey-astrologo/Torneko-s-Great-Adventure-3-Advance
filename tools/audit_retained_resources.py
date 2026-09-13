@@ -8,7 +8,7 @@ from tools.audit_text_coverage import translated_ids
 from tools.translation_pipeline import check,load_json,atomic_write
 
 OUTPUT=ROOT/'build/completion/retained-resources.json'
-BASELINE=ROOT/'build/completion/text-polish/torneko3-text-polish-english.gba'
+BASELINE=ROOT/'build/completion/inventory-notice/torneko3-inventory-notice-english.gba'
 
 
 def audit():
@@ -143,13 +143,30 @@ def audit():
             add(at,e['kind'],'retained_reviewed_resource',str(path.relative_to(ROOT)),
                 e.get('reason','Bounded native reader identifies numeric program data or an original character/name asset. Preserve original bytes; no prose translation or free-space claim.'),
                 native_evidence=e)
+    from tools import audit_resource_boundaries as boundaries
+    path=boundaries.OUT/'native-verification.json';p=load_json(path)
+    check(p['status']=='resource_boundaries_native_verified' and p['source_sha256']==digest(original)
+          and p['verified_rom_sha256']==digest(data),'Resource boundary proof ROM differs')
+    check(p['harness_sha256']==digest(Path(boundaries.__file__).read_bytes())==
+          digest((boundaries.OUT/'audit_resource_boundaries.py').read_bytes()),'Resource boundary harness changed')
+    check(p['fixture_sha256']==digest(boundaries.system.STATE.read_bytes()) and p['helper_sha256']==
+          {Path(m.__file__).name:digest(Path(m.__file__).read_bytes()) for m in (boundaries.ui,boundaries.queue,boundaries.system)},
+          'Resource boundary fixture/helpers changed')
+    check(all(digest((ROOT/name).read_bytes())==value for name,value in p['listing_sha256'].items()),
+          'Resource boundary listings changed')
+    check({e['master_id'] for e in p['entries']}=={'jp_0092c610','jp_00aa6678','jp_00a00bf8','jp_00a00bfc','jp_00a00c00'},
+          'Resource boundary coverage differs')
+    for e in p['entries']:
+        at=int(e['offset'],0)
+        check(data[at:int(e['end_exclusive'],0)]==bytes.fromhex(e['source_hex']),'Resource boundary source differs')
+        add(at,e['kind'],'retained_graphic_resource',str(path.relative_to(ROOT)),e['reason'],native_evidence=e)
     check(len({e['offset'] for e in entries})==len(entries),'Retained sources repeated')
     done,_=translated_ids(list(master.values()));retained={e['master_id'] for e in entries if e['master_id']};check(not done & retained,'Retained data already counted as authored English')
     result={'schema':1,'source_sha256':digest(original),'verified_rom':str(BASELINE.relative_to(ROOT)),'verified_rom_sha256':digest(data),'entries':entries,
         'evidence_sha256':{e['evidence']:digest((ROOT/e['evidence']).read_bytes()) for e in entries},
         'counts':{'retained_without_authored_english':len(retained),'reviewed_resources_outside_inventory':sum(e['master_id'] is None for e in entries),'typed_lookup_keys':sum(e['status']=='retained_program_lookup_key' for e in entries),'name_filter':165,'language_neutral_history_format':1,
         'church_ascii_placeholders':17,'character_input_assets':6,'numeric_record_fields':1,'native_scene_command_prefixes':205,'additional_natural_command_prefixes':1,
-        'native_command_operand_candidates':8,'background_graphic_candidates':71,'auxiliary_resources':22,'neutral_and_original_english_resources':64,'additional_typed_fields_and_ascii_values':17,
+        'native_command_operand_candidates':8,'background_graphic_candidates':71,'auxiliary_resources':22,'neutral_and_original_english_resources':64,'additional_typed_fields_and_ascii_values':17,'resource_boundary_candidates':5,
         'authored_english_sources':len(done),'still_unclassified_without_english':len(master)-len(done)-len(retained)},'scope':'Positive reader evidence only. These entries retain original bytes and are not counted as authored English. This report grants no insertion space, and unclassified inventory entries remain open.'};atomic_write(OUTPUT,(json.dumps(result,ensure_ascii=False,indent=2)+'\n').encode());print(len(entries),'reader-confirmed retained resources',flush=True)
 
 if __name__=='__main__':audit()

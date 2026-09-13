@@ -64,7 +64,7 @@ def audit():
                     check(p.name=='enemies.json' and e['id']=='enemy.trait.198' and e['source_hex']=='706f706f6c6f0d4e6f2e31333700' and text in ('popolo\nNo.137','popolo No.137'),'Unreviewed legacy-name/staff wording')
                     internal.append({'catalog':p.name,'id':e['id'],'field':field,'reason':'Explicitly retained original internal diagnostic; species name uses Tipper.'})
     counts={role:sum(e['role']==role for e in rows) for role in ('japanese_draft_awaiting_reader_context','original_ascii_awaiting_reader_context','other_unclassified_resource')}
-    check(counts=={'japanese_draft_awaiting_reader_context':31,'original_ascii_awaiting_reader_context':42,'other_unclassified_resource':6},'Open review categories differ')
+    check(counts=={'japanese_draft_awaiting_reader_context':31,'original_ascii_awaiting_reader_context':42,'other_unclassified_resource':1},'Open review categories differ')
     result={'status':'current_text_review_pinned','source_sha256':digest(original),'verified_rom_sha256':digest(current),
         'harness_sha256':digest(Path(__file__).read_bytes()),'master_sha256':digest((ROOT/'translations/master.json').read_bytes()),
         'retained_report_sha256':digest((ROOT/'build/completion/retained-resources.json').read_bytes()),
@@ -74,7 +74,7 @@ def audit():
         'unclassified_sources':len(rows),'unclassified_categories':counts,'entries':rows,
         'terminology':{'catalog_sha256':hashes,'english_display_fields_checked':scanned,'retired_project_terms_checked':retired,
             'documented_original_diagnostic_exceptions':internal,'scope':'Consistency with recorded retired drafts and selected legacy protagonist/staff spellings. This is not a fresh verification of every external terminology reference.'},
-        'scope':'All unclassified source/candidate-pointer bytes remain intact. Thirty Japanese drafts and one unresolved line are separate from build catalogs. Forty-two original ASCII strings need no newly authored English, but their runtime ownership remains unverified. Six other resources remain technically unclassified. Exact duplicate text does not establish shared pointers, reachability or free space. Graphics work is deferred by user.'}
+        'scope':'All unclassified source/candidate-pointer bytes remain intact. Thirty Japanese drafts and one unresolved line are separate from build catalogs. Forty-two original ASCII strings need no newly authored English, but their runtime ownership remains unverified. One other resource remains technically unclassified. Exact duplicate text does not establish shared pointers, reachability or free space. Graphics work is deferred by user.'}
     atomic_write(OUTPUT,(json.dumps(result,ensure_ascii=False,indent=2)+'\n').encode());print(counts,';',scanned,'English/display fields checked',flush=True)
 
 if __name__=='__main__':audit()

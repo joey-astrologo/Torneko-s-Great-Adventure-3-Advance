@@ -5,6 +5,18 @@ section-by-section confirmation on 2026-09-11. Work remains in progress.
 Only a concrete issue needing the user's judgment or unavailable evidence is
 a reason to pause for input. Deferred personal playtesting remains separate.
 
+Current checkpoint (2026-09-12): **8,422 authored sources + 822 retained
+resources + 74 technically unclassified candidates = 9,318 inventory entries**.
+The latest accepted [empty-inventory popup correction](INVENTORY_NOTICE.md)
+includes the [menu](UI_POLISH.md) and [results-screen](RESULT_RUNTIME.md) fixes.
+Its [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) verifies a naturally earned
+defeat record, priest saving, cold records and both seven-letter Adventure Logs.
+Graphics remain
+deferred, and the original Japanese title artwork is intentionally retained.
+These counts describe the current inventory, not full-game discovery or
+natural gameplay completion. Historical checkpoints below retain their own
+ROM hashes and coverage limits.
+
 The frozen starting point is the [early-journey build](EARLY_JOURNEY.md):
 4,828 translated source entries out of 9,318, with 4,490 inventory entries
 remaining. The [baseline hashes](../build/completion/before/hashes.json)
@@ -401,3 +413,45 @@ the final result is identical and only the intended message wording changes.
 All earlier allocations and unrelated patches remain byte-identical.
 The retained-resource audits pass on this ROM. Counts remain 8,422 authored,
 817 retained and 79 unclassified; graphics work remains deferred.
+
+The later [results animation correction](RESULT_RUNTIME.md) and [Records menu
+label](UI_POLISH.md) retain their own paired native evidence. The current ROM
+also fixes the 128px [empty-inventory popup](INVENTORY_NOTICE.md), using the
+display form “No items.” while preserving full English in the catalog and the
+larger paged message. Cumulative ROM:
+[torneko3-inventory-notice-english.gba](../build/completion/inventory-notice/torneko3-inventory-notice-english.gba),
+SHA256 `8757bf5cd89e6b935c8f99c431600eb6b5367ad9e9078158a84c047cf6d6e960`.
+
+The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) starts with fresh seven-letter
+logs and follows the normal opening, first-floor defeat, village return and
+priest save. A fresh core reads the earned ranking/history and loads Log 1
+in the village; an independent cold load confirms Log 2 remains intact.
+The native saved profile and complete save file match. This is a defeat/save
+route, not a cave clear or dungeon-suspend test. No new inventory source is
+added by the popup display override; unclassified-source research continues.
+
+The [resource-boundary audit](RESOURCE_BOUNDARIES.md) confirms five more
+candidates as native metatile/animated-tile data or RGB color fields, including
+one apparent string that crosses an asset boundary. The ROM stays unchanged.
+Current accounting is 8,422 authored + 822 retained + 74 open; the remaining
+queue has 31 Japanese review sources, 42 original ASCII sources and one combined
+character-map candidate. None of those unverified sources is treated as free
+space or granted insertion ownership.
+
+The [seventeen-candidate gameplay pass](GAMEPLAY_CANDIDATES.md) checks adjacent
+landing, dungeon-name, item-footer, frontend and status-prefix readers in the
+Japanese and current English ROMs. All controlled cases pass; no new reader
+ownership follows. The literal-star loss sentence remains unresolved, with
+the user's plating lead preserved. Accounting and the accepted ROM are
+unchanged. A separate normal-button route is being extended beyond floor two
+toward a successful clear and subsequent native save/reload.
+
+That [successful cave-clear roundtrip](CAVE_CLEAR.md) now passes on the same
+ROM: 435 uninterrupted inputs from the accepted opening through all three
+Mysterious cave floors, the Shrine of the Gods meeting, Ines joining, the map
+handover and priest save. It verifies 83 story messages, 11 paged messages,
+220 whole-string draws and all 17 result-animation steps. A fresh core checks
+40 further draws, all 2,205 white result pixels, the earned 4,002-point clear
+record, the progressed Log 1 and unchanged Log 2. All native name copies retain
+Torneko. No new source or patch is added; the 74 technical candidates, later
+gameplay, suspend/resume and deferred graphics remain separate work.

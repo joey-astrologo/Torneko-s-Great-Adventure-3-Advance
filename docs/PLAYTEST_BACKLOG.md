@@ -1,9 +1,22 @@
 # Deferred gameplay checks
 
-Updated 2026-09-11. The user wants to continue translation and playtest when
+Updated 2026-09-12. The user wants to continue translation and playtest when
 time permits. **No user playtesting is required today or before the next
 translation batch.** Codex can develop automated routes independently; later
 personal playtesting can supplement that coverage.
+
+The [normal defeat regression](RESULT_RUNTIME.md) now covers the complete
+floor-two results animation and return to town. It found and corrected the
+26-versus-27-tile display mismatch missed by the earlier isolated ending
+fixture. All 17 animation steps, 459 cells per step and 2,509 final text pixels
+pass. This route leaves the cartridge save unchanged; later save timing,
+natural record persistence and other dungeon outcomes remain pending.
+
+[Cold-boot records-menu checks](UI_POLISH.md) additionally cover empty,
+single-log and native-created test score-profile saves. The Records label
+fits, and normal category/list/detail/back navigation passes with all detail
+text pixels present. Earning those controlled score records through normal
+gameplay remains separate.
 
 The current [early-journey milestone](EARLY_JOURNEY.md),
 [first-village milestone](FIRST_VILLAGE.md), the earlier
@@ -94,12 +107,15 @@ Cold boot through the initial title now has separate natural automated coverage
 in [BOOT_GRAPHICS.md](BOOT_GRAPHICS.md). Its nine pixel comparisons preserve the
 original logo; the user explicitly chose to keep the Japanese title artwork.
 
-User scope update: graphics work is deferred to a later phase. The user
-reports dungeon-floor/arrival title cards and possible town/ending/credit
-graphics; these require a separate discovery and translation pass. Do not
-infer that the eleven boot/menu assets cover those families. Continue
-ordinary text-source research and insertion checks now. The original Japanese
-title artwork remains intentionally preserved.
+User scope update (2026-09-12): the user will check dungeon saving/resuming
+during personal playtesting; it is not a blocker for graphics work. The user
+requested Japanese dungeon/town arrival-card PNGs before English auditions.
+[ARRIVAL_CARDS.md](ARRIVAL_CARDS.md) exports all 36 distinct graphics in the
+64-selector dungeon table. Normal shrine entry and inn-to-village captures
+show no separate title card; a town-specific family is not yet confirmed.
+Watch for first-visit and later-town cards during play. Ending/credit graphics
+remain deferred, and the original Japanese title artwork stays. The eleven
+boot/menu assets do not establish coverage of those other families.
 
 The [latest combined-build regression](../build/completion/current-text-regression/verification.json)
 passes the normal opening/escort/first-chief route with 46 messages and zero
@@ -119,3 +135,23 @@ The [text-polish route](TEXT_POLISH.md) additionally covers normal floor-two
 Recovery pot pickup, tutorial scrolling, Look/Push menus and actual HP
 restoration on the latest corrected ROM. The tutorial now matches the Push
 action label. This does not establish cartridge save persistence.
+
+The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) now provides separate
+persistence evidence on ROM `8757bf5c...e960`: fresh Torneko names in both logs,
+normal opening and first-floor She-slime defeat, priest save, cold earned score
+and history display, Log 1 village reload and independent Log 2 opening reload.
+The naturally earned score/profile and all eight name bytes survive. The
+defeat animation and cold detail screen have exact map/pixel checks. This also
+verifies the corrected empty-inventory popup in its real caller. Fresh logs
+changed the generated dungeon layout, so this route is explicitly a floor-one
+defeat; it does not replace the older floor-two evidence. Successful dungeon
+completion, suspend/resume, other outcomes and later progression remain open.
+
+The newer [successful clear route](CAVE_CLEAR.md) closes the first-dungeon-clear
+gap: three floors, native successful result, shrine conversation, Ines joining,
+map handover, priest save and cold records/progressed Log 1 load. Its 435 inputs
+pass 83 story, 11 paged and 220 whole-string checks; all 17 animation steps and
+2,205 cold result pixels match. The unchanged second Log also loads. The
+earlier paragraph records the defeat route's limits; successful first-cave
+completion and its save persistence are now covered. Later dungeons and
+suspend/resume are still pending.

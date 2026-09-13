@@ -1,12 +1,13 @@
 # Memory map and insertion ownership
 
 Latest combined component build: [continuous completion](COMPLETION.md), occupied
-append `[01000000,01069FE5)`; 434,149 bytes,
-8,426 allocations and 10,105 checked original patch records.
+append `[01000000,01069FFA)`; 434,170 bytes,
+8,428 allocations and 10,110 checked original patch records.
 Exact owners and explicit shared ownership are in
-[its ledger](../build/completion/text-polish/english-build.json).
+[its ledger](../build/completion/inventory-notice/english-build.json).
 The combined text components have passed their documented native checks.
-The opening and first-cave routes also pass normal-button regression checks.
+The opening, first-cave and native defeat/save/cold-reload routes also pass
+their separately pinned normal-button regression checks.
 Full-game translation and discovery
 remain in progress. Historical ranges describe their own ROM hashes.
 
@@ -3110,3 +3111,340 @@ three allocator-owned alignment bytes. The superseding pointer targets
 comparison uses the earlier English ROM unchanged. Native pot pickup,
 tutorial scrolling, action selection and HP recovery pass on both ROMs.
 See [TEXT_POLISH.md](TEXT_POLISH.md) and its complete image reconstruction.
+
+### Natural results-screen tilemap correction (2026-09-12)
+
+Normal floor-two defeat on text-polish ROM SHA256
+`09bb26e91250a7a958783f12fed53ca3e687cab1387c93448deea48afc8c1a2b`
+exposes a layout defect. The 27-by-17-tile bitmap is intact in the existing
+`[02035E1C,0203977C)` buffer and matches `[06000040,060039A0)` in VRAM.
+The native ending animation nevertheless reveals it at x=2 with 26 tiles
+per row. All 459 cells differ from the constructor's x=1 / width=27 layout.
+[The read-only diagnosis](../build/completion/result-runtime/research/tilemap-diagnosis.json)
+pins the ROM and RAM/VRAM snapshots. This is a tilemap defect, not damaged
+translation payloads or a new RAM allocation.
+
+The existing BG0 tilemap is `[02034DDC,020355DC)`, copied to
+`[06006000,06006800)` in this result context. Rows have 32 halfword entries.
+Literals `0005C790` and `0008BBCC` identify its RAM base. The live ending
+animation `[0805C692,0805C6F8)` clears and reveals 17 rows at y=2; its
+hardcoded x/width operands are independent of the descriptor. Owner
+`result-runtime` may patch only the following checked Thumb halfwords:
+
+| ROM file range, exclusive end | Original → corrected instruction / bytes |
+| --- | --- |
+| `[0005C6A8,0005C6AA)` | Clear-row base: `add r5,r0,#4` → `#2`; `051d` → `851c`. |
+| `[0005C6AE,0005C6B0)` | Clear count minus one: `mov r1,#25` → `#26`; `1921` → `1a21`. |
+| `[0005C6B4,0005C6B6)` | Clear rightmost offset: `add r0,#50` → `#52`; `3230` → `3430`. |
+| `[0005C6CE,0005C6D0)` | Reveal-row base: `add r4,r0,#4` → `#2`; `041d` → `841c`. |
+| `[0005C6D8,0005C6DA)` | Reveal count minus one: `mov r1,#25` → `#26`; `1921` → `1a21`. |
+
+These changes keep the original animation, frame pacing and input loop.
+They use the existing 216px panel and introduce no text, font, RAM or save
+changes. All prior allocation and patch ownership must remain byte-identical.
+The high-score detail path instead calls the descriptor-driven `0808BB14`
+at `08086A28`; its reveal loop reads x/width from the live window record.
+See [native reveal listings](../build/completion/result-runtime/research/reveal.txt)
+and [ending listing](../build/completion/results/research/ending-reader.txt).
+The earlier isolated ending fixture stopped at `0805C62A` and manually used
+`0808BB14`; it did not exercise the defective ending animation. New acceptance
+must follow normal buttons through that animation and compare the actual
+tilemap and displayed pixels, in addition to glyph bounds.
+
+### Compact title-menu records label (2026-09-12)
+
+Normal cold-boot menu exploration on result-runtime ROM `7693b1ee...8293aff`
+shows that the existing title window has x/y=3/2 and width/height=10/6 tiles
+in `[02034CD8,02034D18)`: 80px wide, with text beginning at local x=4.
+“Adventure records” measures 86px in font 0, exceeding the 76px label space.
+The [menu capture and window dump](../build/completion/result-runtime/research/score-menu/readers.json)
+record the live context; `window.bin` in that directory contains the record
+after returning to the title menu.
+
+Source `[00C782B0,00C782BB)` is Japanese 冒険の記録. Its owned pointer
+`[00C7828C,00C78290)` originally targets `08C782B0`; current patch
+`frontend.00c782b0.0x00C7828C`, owner `frontend-completion`, targets `09060388`.
+That full English allocation `[01060388,0106039A)` remains occupied.
+Owner `ui-polish` may append the 36px display form “Records” and explicitly
+supersede this one pointer via `RomBuild.supersede_patch`. Full wording
+“Adventure records” remains the English catalog authority; only this menu
+display uses the short form. Original source, all prior allocations, native
+menu layout, row actions/ordinals and save fields remain unchanged. The new
+payload and alignment must use the shared allocator and complete ledger.
+
+Accepted UI-polish ROM SHA256
+`e21304fe82c1875b228b5185099636467f1f84cfec02e1e2c9b71d5bec5c0272`
+appends `[01069FE8,01069FF0)` after three alignment bytes and points the
+owned title-menu word to `09069FE8`. Full-image reconstruction and prior-byte
+preservation pass. Three cold-boot save contexts establish that the Records
+row is conditional on a valid records profile; normal navigation on that
+profile passes categories/list/detail/back checks. See [UI_POLISH.md](UI_POLISH.md).
+
+Read-only computed-reference review on the pinned Japanese ROM scans halfword
+positions in `[080000C0,0809A800)` for nearby literal loads and selected
+straight-line constant operations. The [machine-readable report](../build/completion/computed-text-review.json)
+records the input source queue, harness hash and limitations. It found no
+new references to the 79 open starts; this is neither exhaustive code
+disassembly nor evidence of unused text. No ROM/RAM reservation or insertion
+permission follows from the scan.
+
+### Empty-inventory notice and natural save route (2026-09-12)
+
+The fresh two-Log Torneko route on UI-polish ROM `e21304fe...c0272` generates
+a different dungeon layout from the older Japanese-Log checkpoint. Its
+recorded normal buttons end in a **floor-one defeat**, not a cave clear or
+floor-two pickup. The village priest's Pray/save interaction then writes a
+native save; a fresh core displays the earned She-slime defeat, floor 1,
+score 1 record and reloads Log 1 in Barinabo Village. These exploratory
+artifacts live in `build/completion/roundtrip/`; the complete replay and popup
+correction subsequently passed as documented below.
+
+The same route reaches a 128px empty-inventory popup. Passive watchpoints
+confirm native load `08020484` reads the already owned word
+`[00020488,0002048C)`, targeting `09065030` in that build. Native printf
+then reads that exact string. See [reader trace](../build/completion/roundtrip/research/empty-probe/trace.json)
+and [getter/popup disassembly](../build/completion/roundtrip/research/inventory-error-reader.txt).
+Getter `08020400` selects source `[001B98C2,001B98D6)` for selector 3;
+its earlier catalog classified the resource with queue messages, but the
+observed reader uses the single-line popup `08020498`.
+
+| Address space / range, exclusive end | Owner, role and evidence |
+| --- | --- |
+| ROM `[001B98C2,001B98D6)` | Original Japanese empty-inventory source; stays protected. |
+| ROM `[00020488,0002048C)` | Existing patch `battle.001b98c2.0x00020488`, owner `battle-completion`, original pointer `081B98C2`, current `09065030`. |
+| Appended ROM `[01065030,01065050)` | Earlier full English allocation, retained intact. “You are not carrying any items.” measures 157px and clips in this 128px reader. |
+| ROM `[000A69C0,000A69E7)` | Original printf format: `%s`, 36 literal spaces, NUL. Literal `[00020520,00020524)` selects it at `080204E4`; `080204EA` formats the notice. Padding is native blank fill, not additional translated text. |
+| ROM `[000A6980,000A69C0)` | Existing custom 64-byte popup descriptor, 16 by 2 tiles at x/y 7/9, selected through literal `[000204B8,000204BC)`. |
+| ROM `[00CA29B4,00CA29F4)` | Original window-template 5. Its fourth 16-byte record at `[00CA29E4,00CA29F4)` supplies the observed same 128px popup. Other window records remain untouched. |
+| EWRAM `[02034D98,02034DD8)` | Existing window-3 runtime record in the observed inventory context: x/y 7/9, width/height 16/2 tiles. |
+| IWRAM `[03007C38,03007D38)` | Observed 256-byte transient printf destination at caller-frame SP+4; `08020498` reserves 0x104 stack bytes. This is not a permanent allocation. |
+
+Owner `inventory-notice` may append the short display “No items.” and explicitly
+supersede only the existing `00020488` pointer, retaining full English and the
+earlier allocation. The independently translated, larger paged-message source
+`00C3EE68` and its pointer `00076144` remain unchanged. The new reader-specific
+catalog must identify the popup role and preserve Japanese/source metadata.
+Other getter outputs already measure at most 104px. No code, window, font,
+RAM or save expansion is proposed.
+
+Popup verification must observe `080204EA`/`080204FA` and validate the native
+text plus exactly 36 trailing spaces. Check all visible text ink inside 128px
+and all glyphs against the source. The original padding advances beyond the
+window with transparent space glyphs; this narrowly verified behavior must
+not relax overflow checks for other text. Natural save tests may passively
+observe existing name-copy points `080027D0`/`0800230A`, record creation
+`080011F0` and profile write `080016DC`, using the name/profile ranges already
+documented above. No name, record, HP or scenario values may be injected.
+
+Accepted inventory-notice ROM SHA256
+`8757bf5cd89e6b935c8f99c431600eb6b5367ad9e9078158a84c047cf6d6e960`
+appends `[01069FF0,01069FFA)` and changes the owned word to `09069FF0`.
+Complete image reconstruction, prior-allocation preservation and paired native
+popup checks pass; see [INVENTORY_NOTICE.md](INVENTORY_NOTICE.md).
+The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) also passes on this ROM,
+including fresh creation of both seven-letter logs, native priest saving,
+earned records and independent cold loads of both logs. Profile RAM
+`[02002FD4,02004F80)` matches native save-file bytes `[0000E000,0000FFAC)`;
+the 48-byte first score is at profile-relative `[00000014,00000044)`.
+The existing eight-byte name remains at `[0203BB38,0203BB40)` and native Log
+record-relative `[00000010,00000018)`. These are observations of existing
+fields, not new reservations or a physical Log-sector mapping. No save layout
+changes were required for the observed route.
+
+### Remaining resource boundaries: read-only investigation (2026-09-12)
+
+Owner `resource-boundaries` investigates five extraction candidates through
+existing scene asset readers. This is classification/preservation work; no
+artwork changes, source reuse or insertion ownership follows. The pinned
+Japanese original and inventory-notice ROM are the comparison contexts.
+Listings are in `build/completion/resource-boundaries/research/` and the earlier
+`build/completion/remaining-ui/research/scene-readers.txt`.
+
+| Address space / exclusive range | Evidence and current interpretation |
+| --- | --- |
+| ROM `[00941018,0094103C)`, `[0093FE3C,0093FE54)` | Scene 0 descriptor and graphic header, selected through the existing scene cache and reader `0806C5F0`; header format `0202`. |
+| ROM `[0092C238,0092C630)` | Header +16 selects 127 stored four-halfword metatiles (count 128 includes implicit zero entry). Candidate `[0092C610,0092C631)` spans the last four records and the first byte of the following asset, rather than one NUL-terminated resource. Native copy verification pending. |
+| ROM `[0093FCB0,0093FE30)` | Thirty-two 12-byte animation records selected by scene-0 header +20. First record +4 points to tile bytes `[0092C630,0092CF50)`, 73 tiles ×32 bytes. Its first byte supplies the apparent candidate's terminator. |
+| ROM `[00A016CC,00A016F0)`, `[00A01664,00A016CC)` | Scene 30 descriptor and thirteen 8-byte palette-animation records. Row 2 at `[00A01674,00A0167C)` contains period 4, count 17 and pointer `08A00A70`; native initialization/update confirmation pending. |
+| ROM `[00A00A70,00A00E6C)` | Proposed 17 frames ×15 four-byte RGB values. Three apparent strings `[00A00BF8,00A00C04)` lie in frame 6 at color indexes 8–10. These are structurally color values; native palette consumer verification is still required. |
+| ROM `[00AA7638,00AA765C)`, `[00AA760C,00AA7624)` | Scene 54 descriptor and header; format `0303`, 48 animated tiles and 64 animation records. |
+| ROM `[00AA7300,00AA7600)`, `[00AA75E8,00AA75F4)` | Animation table and its row 62. Row +4 selects `[00AA6640,00AA6C40)`, 48 tiles ×32 bytes, enclosing candidate `[00AA6678,00AA6681)`. Native frame selection/copy confirmation pending. |
+| EWRAM `[02008BF8,02008C70)` | Existing fifteen 8-byte palette-animation states, populated by `0806752C..08067588` from the selected scene descriptor. Adjacent earlier keyboard buffer `[02008BF0,02008BF8)` has a separate context/lifetime. |
+| EWRAM `[02008C70,02008C88)` | Existing animated-tile state: flags +0/+1, countdown +2, map pointer/count +4/+8, current 12-byte frame pointer +12, tile destination +16, tile byte count +20. Native initializer `08067588`, updater `08067F20`. |
+| EWRAM `[02008C90,02008CB4)` | Existing copied 36-byte scene descriptor. Native copy `08067022..08067030`. Scene ID is the adjacent halfword `[02008C88,02008C8A)`; format state is separately indexed above at `02008CB8`. |
+| IWRAM `[030032A0,03003AA0)`, `[03003AA0,03003D20)` | Existing 512 four-byte palette values and 32 twenty-byte bank states. Native `08089D0C` writes one color and marks the selected bank plus global flag `[03000044,03000045)` dirty. No permanent scratch reservation is added. |
+
+Bounded fixtures may execute native descriptor/state initialization and selected
+copy/update paths in disposable cores. Reuse the already mapped guarded copy
+scratch `0203F200` and temporary stack `03007800`; compare adjacent fields,
+source bytes and the exact native outputs. These are controlled reader tests,
+not natural scene or animation reachability claims.
+
+Native upload `08068118` reads the current frame's +4 tile pointer, destination
+and byte count from the animated-tile state, then calls `08088F44`. Initialization
+`08067588..080675B6` derives destination `06008000 + header.tile_count*32` and
+length `header.animated_tile_count*32`: scene 0 uses VRAM
+`[06009B80,0600A4A0)`, scene 54 `[0600E2A0,0600E8A0)`. The proposed fixtures
+compare these native writes and surrounding bytes without adding guards in
+VRAM. Frame selection uses the native 12-byte advance/wrap slice
+`08067FDA..08067FEE`; timer pacing remains outside that bounded slice.
+
+The [completed native audit](RESOURCE_BOUNDARIES.md) confirms all five candidates:
+four guarded metatile copies, 2,336/1,536-byte exact tile uploads with unchanged
+adjacent VRAM, and 28 palette-update calls with all fifteen selected RGB writes
+matching the source. Earlier “pending” rows above record the pre-verification
+interpretation; the report now supplies its positive native evidence. No ROM
+or artwork changed. Accounting is now 8,422 authored + 822 retained + 74 open.
+
+### Gameplay candidate readers and status markers (2026-09-12)
+
+Owner `gameplay-candidates` is investigating seventeen unowned gameplay/frontend
+sources on the pinned Japanese original and the unchanged inventory-notice ROM
+(`8757bf5c…e960`). This adds evidence, not insertion ownership or free space.
+The complete candidate bytes remain authoritative in
+`translations/unowned-text-review.json`. Disassembly is under
+`build/completion/gameplay-candidates/research/`; switch-entry listings are
+provisional code slices, not claims of independent callable functions.
+
+| Address space / exclusive range | Role, evidence and permitted investigation |
+| --- | --- |
+| ROM `[000190A0,000190D8)` | Item-landing selector and its literals. Instructions read existing flags at `020060F9` then `020060F8`, returning the owned ground, water, or ground/water message at `001B550B`, `001B5532`, or `001B5544`. The literal-star candidate `001B551C` is absent from these branches. A paired native four-boolean-case check is permitted; it cannot prove global non-use. |
+| EWRAM `[020060F8,020060FA)` | Two existing one-byte landing-selector flags. Exact gameplay producers/semantics remain under investigation. Disposable fixtures may set each to 0/1 and restore the state between cases; adjacent bytes must remain intact. No new reservation. |
+| ROM `[0006E1C0,0006E2CC)` | Native item footer formatter and literals. Two transient 64-byte stack strings form strength and synthesis-count text in a caller-supplied 1,024-byte output. Code indexes item properties by signed item ID at record +14. Six adjacent weight-label candidates are not named in this function. |
+| ROM `[000E07F4,000E306C)` | Existing 370 ×28-byte item properties, already consumed by item-name/display paths. Footer uses byte +0 as type. This range is preserved; no new callback-table interpretation is asserted. |
+| EWRAM `[0203F000,0203F018)`, `[0203F100,0203F102)`, `[0203F200,0203F600)` | Reuse of previously documented disposable item record, formatter options and 1,024-byte output scratch. Eight-byte output guards precede/follow the output. Footer/status fixtures restore the native state between cases, retain input record/options and check output guards. Temporary native stack remains the existing `03007E00` harness stack. These are fixture lifetimes, not game reservations. |
+| ROM `[00080C0C,00080C44)` | Fourteen native item-format branch pointers selected inside `08080A5C`. Equipment enhancement formatting begins at `08080C44`. New switch-entry listings complement the earlier item-display function listing. |
+| ROM `[00CB06BC,00CB0728)` → EWRAM `[02000834,020008A0)` | Existing 27-pointer item-icon cache. Formatter may choose rows 25/26 for particular status flags. Icon meanings require independent evidence; CP932 character names do not identify these custom bitmap symbols. |
+| ROM `[00C4C944,00C4C954)`, `[00C4C954,00C4C964)` | Existing four-pointer status-prefix table and four short glyph strings, selected near `080811FC` using equipment/status flags and options. Encoded glyphs `8750..8753` have bitmaps `[00C82910,00C82A30)` (four ×72 bytes). The E-shaped equipped marker and accompanying small symbol are distinct assets from the prose star; the small symbol's mechanic is not yet established. |
+| ROM `[001B5521,001B5523)`, `[00C9414C,00C94158)`, `[00C7E500,00C7E548)` | Literal indexed star `F8A0` in candidate `001B551C`, its font-0 descriptor and 72-byte bitmap. Descriptor code `819A`, advance 12. Original bitmap confirms a star. This occurrence is after the item substitution and Japanese topic particle, inside `★間`. No mechanical interpretation or insertion is approved. |
+| ROM `[00085B48,00085C50)` | Existing frontend mode-choice routine and literals. Its three confirmation branches select `00C7A990`, `00C7A9C0`, `00C7A9F0`; help selects `00C7A554` or `00C7A73C`. The adjacent candidate `00C7876C` does not appear in those literals. Bounded pointer-selection tests do not exercise confirmation consequences. |
+| EWRAM player-relative `[+002C,+0030)` | Observed two existing little-endian 16-bit tile coordinates during normal first-cave inputs. On the recorded fresh two-Log route, player is `0202DA6C` (root `02013B18`, pointer at root +`19EE4`). Movement changed X/Y consistently with the native screen. Observation only; no coordinate writes or permanent absolute-player allocation. |
+
+The normal-button cave exploration records input frames, screenshots, state and
+native save snapshots under `build/completion/cave-clear/`. It is exploratory
+until independently replayed and checked. An initial explorer mistakenly
+treated the A-button enum value zero as false; that fixture-only attempt was
+rejected, and the continuation restarted at its native first-floor checkpoint
+with corrected enum-vararg key handling. No ROM fix or gameplay-state injection
+was involved.
+
+The paired native audit now passes the four landing cases, 64 dungeon-name
+rows, 370 zero-enhancement/no-synthesis footers, three confirmation selections
+and six status-prefix cases per ROM. Source records, options, output guards
+and selected flag neighbours remain intact. See
+[GAMEPLAY_CANDIDATES.md](GAMEPLAY_CANDIDATES.md); all seventeen remain open.
+Additional preserved code evidence: projectile dispatch `[00015744,000184BC)`
+and its nine-pointer tail switch `[00018220,00018244)`; branch `08018384`
+loads the already owned item-vanished source through `[000183E0,000183E4)`.
+These are protected existing code/literals, not new patch ownership. Native
+item-icon getter `[0007E88C,0007E8C0)` normally returns item-property byte +1,
+with a special item-342 branch. No plating-effect meaning follows from it.
+
+### Natural successful clear and native save (2026-09-12)
+
+The [accepted cave-clear roundtrip](CAVE_CLEAR.md) adds runtime evidence on the
+unchanged inventory-notice ROM. No new allocation, source reuse or patch is
+introduced. Native creator `080011F0` runs at frame 86724, profile writer
+`080016DC` at 123356, and Adventure Log name copy `080027D0` at 123440 in the
+435-input uninterrupted replay.
+
+The existing first 48-byte score at EWRAM `[02002FE8,02003018)` / profile-relative
+`[00000014,00000044)` now has cause 91 (clear), zero actor/item relation fields,
+score 4002 in its three-byte +10 field, floor 3 at byte +25,
+and dungeon/protagonist byte +26 equal to zero (these three offsets are
+decimal). Existing cause key `result_91`
+selects original source `[000DB8D4,000DB8E5)` through owned word
+`[000DB67C,000DB680)`. These are observations of native fields, not changes.
+The complete record agrees at native ending, saved profile and cold load.
+
+The previously established save layout has two seven-sector Adventure Log
+blocks `[00000000,00007000)` and `[00007000,0000E000)` followed by the shared
+profile sectors. Log 2's entire second block remains byte-identical to the
+fresh two-Log input; both Logs cold-load. Profile payload `[0000E000,0000FFAC)`
+matches final native RAM `[02002FD4,02004F80)`. The compact eight-byte name
+at `0203BB38` and Log-record-relative +16 (decimal) retain `Torneko`; this does not put
+a new name field in the 48-byte score record. See earlier name/save notes
+for record-versus-physical-address distinctions.
+
+All 17 result reveal steps keep the existing 27×17 panel mapping correct;
+the cold result has 2,205 exact white foreground pixels. Native save SHA256:
+`ed02ce9c53d13f7f3055db319d6633aab5f48afb32c4d3da0327a08e0572f971`.
+The natural Shrine of the Gods meeting, Ines joining and map handover add
+story coverage, without claiming ownership of any deferred arrival/map art.
+
+### Original dungeon arrival cards (2026-09-12)
+
+The user requested original Japanese review PNGs before English artwork
+auditions. These discoveries protect existing resources; they authorize no
+ROM patch, source reuse, RAM reservation or save change. Source is the pinned
+Japanese ROM `35bfff00…4d02`. The unchanged English ROM `8757bf5c…e960`
+provides the normal-button cave/shrine comparison route.
+
+| Address space / exclusive range | Purpose / owner / evidence |
+| --- | --- |
+| ROM `[003903D0,00390410)` | Sixteen original arrival palette words, packed `AABBGGRR`; native reader `080051F2` feeds palette entries E0–EF. Confirmed by native source watch and displayed colours. |
+| ROM `[00390410,003BFFD0)` | 36 distinct original arrival assets. Each contains a 0x800-byte 32×32 halfword tilemap, followed by its counted 8×8 4bpp tiles. Exact individual protected spans, counts, hashes and all selector aliases are in the generated manifest below. All adjacent asset ends join exactly; the envelope is not free space. |
+| ROM `[003BFFD0,003C13D0)` | Original 160-tile / 0x1400-byte atlas for digits 0–9, F and Q. Renderer copies it after the title's 160-tile slot; exact native VRAM comparison confirms the copy. |
+| ROM `[003C13D0,003C1450)` | 64 signed halfword title tile counts, paired with the pointer table. Counts exclude the preceding 0x800-byte tilemap. |
+| ROM `[003C1450,003C1550)` | 64 original arrival pointers; native `080051A6` selects `dungeon_id + 32 * bank`. 64 selectors resolve to 36 unique assets. This is the complete table, not proof of every selector's natural reachability. |
+| ROM `[0009B6FC,0009B72C)` | Twelve word-sized atlas starting tile indexes, used by `0800511C`. Digits use 2×5 tiles; F/Q use 3×5. |
+| ROM `[0000511C,0000518C)` | Original five-row floor-glyph writer and three literals. Occupied code, with map pointer at `00005184`. |
+| ROM `[0000518C,0000539E)` | Original card constructor, including embedded literals. Copies 29 columns ×9 rows of the title map, adds the floor line, or suppresses it for arena ID 26. |
+| ROM `[00004B6C,00004B8E)` | Existing puzzle classifier, including embedded literal: dungeon ID 27 returns 1, ID 25 returns 2, other IDs return zero. Constructor suppresses the entire card at puzzle number 100. |
+| EWRAM `[02004F8C,02004F90)`, `[02004FF0,02004FF2)` | Existing bank word and adjacent dungeon-ID/floor-number bytes. Read by the original constructor; bank's broader game semantics are not inferred here. Observation only, no writes/reservation in this PNG export. |
+| EWRAM `[02000034,02000035)`, `[02005E48,02005E49)` | Existing suppression flag and card-upload flag. Constructor reads the former and sets the latter. No new owner or permanent reservation. |
+| EWRAM `[02035DDC,020385DC)` | Existing 0x2800-byte arrival tile buffer: title slot `[02035DDC,020371DC)`, floor atlas `[020371DC,020385DC)`. Lifetime is native arrival display; this is not an additional project allocation. |
+| EWRAM `[02034DDC,020355DC)` | Existing BG0 tilemap. The constructor's clear loop additionally touches columns 1–31 of the following row, through `0203561C`; this observed native overlap is not permission to reserve or overwrite that following region. Title occupies screen rows 1–9, floor line rows 12–16. |
+| BG VRAM `[06000000,06002800)` | Native arrival upload of the combined title/floor tile buffer. Existing transient display ownership; source bytes matched the captured cave-floor transition. |
+
+[ARRIVAL_CARDS.md](ARRIVAL_CARDS.md) records the review sheets and coverage.
+[The manifest](../build/arrival-cards/manifest.json) is authoritative for the
+36 per-asset ranges and 64 mappings;
+[the range ledger](../build/arrival-cards/resource-ranges.json) also includes
+palette, counts, pointer table and glyph indexes. Both identify the source
+ROM and explicitly have no output ROM. Native instruction listings are
+`build/arrival-cards/research/arrival-readers.txt` and
+`arrival-conditions.txt`. Unidentified town/ending artwork remains unowned.
+
+### External Shiren arrival-lettering reference (2026-09-12)
+
+The user identified `../Shiren/shiren-revamp-fixes` as a lettering reference.
+Its `gfx/fonts/area_title_font.2bpp` file range `[00000000,00009000)` contains
+occupied SNES 2bpp bitmap data. **These are external file offsets, not Torneko
+ROM offsets.** Owner is the existing Shiren area-title renderer. Source
+`data/demos/demos.asm` indexes 194 nine-tile chunks; thirty records in
+`code/bank_05.asm` assemble 28 nonblank English names and two blank rows.
+
+The [reference manifest](../build/arrival-cards/references/shiren-source.json)
+records source hashes and exact 144-byte bitmap spans for every used chunk.
+The decoded strips establish a visual reference, not a reusable alphabet,
+confirmed font identity or native GBA rendering. No external file was edited,
+and no Torneko ROM/RAM/save range is allocated or approved for reuse.
+See [the reference notes](ARRIVAL_CARDS.md#shiren-lettering-reference-2026-09-12).
+
+### Arrival font reconstruction and offline audition (2026-09-12)
+
+Owner `arrival-audition` has no GBA ROM, RAM, VRAM or save allocation. The new
+`assets/fonts/arrival-candidates.json` is an external authoring asset: 43
+characters cropped from the recorded Shiren strips, 51 explicitly marked
+Papyrus Condensed supplements, and a space advance. Three complete installed
+font comparisons are stored as raster glyphs alongside the recovered face.
+
+Each recovered glyph records a source-PNG hash and `[left,top,right,bottom)`
+crop in **bitmap pixel coordinates**, not a ROM address. Its source strip's
+`references/shiren-source.json` entry links back to the exact external SNES
+bitmap file spans documented above. New spacing and supplemental shapes are
+draft authoring decisions; no native font table or source-space reuse follows.
+
+The [audition build manifest](../build/arrival-cards/audition/build.json)
+pins the generated HTML, font asset, renderer and gameplay backdrop images.
+It identifies the pinned Japanese source and has `output_rom: null`.
+[Browser validation](../build/arrival-cards/audition/verification.json) records
+the exact generated artifact hashes and export checks. These sheets use the
+existing title area and report tile-pattern counts for review, but do not
+grant insertion ownership. Custom floor positions and glyph dimensions remain
+unimplemented on the GBA. A later insertion must use the shared allocator and
+the existing original-byte/overlap checks across all components.
+
+See [ARRIVAL_AUDITION.md](ARRIVAL_AUDITION.md) for source provenance, marked
+supplements, review/export instructions and the retained Japanese logo scope.

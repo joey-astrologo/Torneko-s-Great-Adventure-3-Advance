@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "ui-polish.00c782b0",
+      "family": "label",
+      "offset": "0x00C782B0",
+      "source_end_exclusive": "0xc782bb",
+      "japanese": "冒険の記録",
+      "source_hex": "96608caf82cc8b4c985e00",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "96608caf82cc8b4c985e",
+          "text": "冒険の記録",
+          "encoding": "cp932"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "master_id": "jp_00c782b0",
+      "pointer_owners": [
+        {
+          "offset": "0x00C7828C",
+          "evidence": "typed_frontend_menu",
+          "loads": []
+        }
+      ],
+      "excluded_owners": [],
+      "english": "Adventure records",
+      "display": "Records",
+      "notes": "Independent translation from the pinned Japanese. Existing Adventure Log, mode, character and dungeon identities are reused. Adventure records refers to the separate history/high-score profile. Earlier pointer owners and unreviewed high data-table references remain unchanged. Native cold-boot title menu is 80px wide with x4 label origin: full Adventure records is 86px and clips. Records is the independently authored 36px display form for this menu; full wording and prior allocation remain preserved.",
+      "references": [],
+      "supersedes": "frontend.00c782b0"
+    }
+  ]
+}

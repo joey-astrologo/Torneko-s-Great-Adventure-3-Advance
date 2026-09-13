@@ -6,7 +6,7 @@ This review remains distinct from both translation progress and uncertain
 extraction candidates.
 
 The [retained-resource report](../build/completion/retained-resources.json)
-currently records 818 resources (817 within the master inventory) with positive
+currently records 823 resources (822 within the master inventory) with positive
 reader evidence:
 
 - 165 original compact-name filter terms, read by `0807D1A0`. They are compared
@@ -41,13 +41,16 @@ reader evidence:
   with reviewed native consumers and literal-resolution checks.
 - 71 [background graphics candidates](SCENE_GRAPHICS_AUDIT.md), confirmed
   through native scene/header selection and guarded tile/index copies.
+- Five [animation-resource candidates](RESOURCE_BOUNDARIES.md): three RGB
+  values, one tile-pixel fragment and one decode crossing from metatiles into
+  the following animated tile asset, all checked through native consumers.
 
 All source bytes and the filter's pointer words match the original in the
-accepted text-polish ROM. Exact source spans, reader evidence and the tested
+accepted inventory-notice ROM. Exact source spans, reader evidence and the tested
 ROM hash are recorded in the report and [memory map](MEMORY_MAP.md).
 
 At this checkpoint, the 9,318-entry inventory has 8,422 authored English
-entries, 817 confirmed retained entries and 79 entries still requiring
+entries, 822 confirmed retained entries and 74 entries still requiring
 classification or translation. The final category includes more internal keys
 and binary candidates; this report does not yet resolve them. Resources beyond
 the extracted inventory and natural gameplay coverage remain separate.

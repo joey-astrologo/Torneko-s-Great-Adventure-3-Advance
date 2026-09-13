@@ -472,7 +472,7 @@
       "insertion_status": "not_inserted_reader_unconfirmed",
       "verified_pointer_owners": [],
       "unverified_pointer_candidates": [],
-      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Original font bitmap confirms an actual star, not a mislabeled kanji. Adjacent item-landing messages do not determine the missing meaning.",
+      "notes": "Independent draft from the pinned Japanese original. Text use, buffer/wrapping contract and insertion ownership remain unconfirmed. This review does not authorize patches or assert that the source is unused. Original font bitmap confirms an actual star, not a mislabeled kanji. Adjacent item-landing messages do not determine the missing meaning. User-provided research lead: a star in Mystery Dungeon games can mark plated equipment protected against rust-related degradation. This interpretation is not yet verified for this Torneko 3 source. Here the star bytes are literal within the phrase ★間 after the $i0 item substitution and は, so they are separate from any marker generated inside the item name. Trace the item-landing/loss reader and equipment marker formatter before assigning a meaning.",
       "references": [],
       "partial_english": "$i0 fell into [★間: unresolved] and was lost."
     },

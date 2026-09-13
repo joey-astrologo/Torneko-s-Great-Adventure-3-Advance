@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "base_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font": 0,
+  "entries": [
+    {
+      "id": "inventory-notice.001b98c2",
+      "family": "popup",
+      "offset": "0x001B98C2",
+      "source_end_exclusive": "0x1b98d6",
+      "japanese": "アイテムを持っていない。",
+      "source_hex": "f93bf93df95ff979a6fb5cf8ecc3b2c5b2f88200",
+      "source_tokens": [
+        {
+          "kind": "text",
+          "raw_hex": "f93bf93df95ff979",
+          "text": "アイテム",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "a6",
+          "text": "を",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "fb5cf8ec",
+          "text": "持っ",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "c3b2c5b2",
+          "text": "ていない",
+          "encoding": "single_byte_map"
+        },
+        {
+          "kind": "text",
+          "raw_hex": "f882",
+          "text": "。",
+          "encoding": "font_index"
+        },
+        {
+          "kind": "terminator",
+          "raw_hex": "00",
+          "text": ""
+        }
+      ],
+      "leading_glyph_hex": "",
+      "master_id": "jp_001b98c2",
+      "pointer_owners": [
+        {
+          "offset": "0x00020488",
+          "evidence": "thumb_literal",
+          "loads": [
+            "0x8020484"
+          ]
+        }
+      ],
+      "english": "You are not carrying any items.",
+      "display": "No items.",
+      "notes": "Independently translated from the pinned Japanese source. Original substitutions and gameplay effects are retained. Reuses our matching prior draft: translations/ally-services.json / service.00c3ee68. Natural native getter 08020400 selector 3 and popup 08020498 establish a 128px single-line display. The earlier queue-family assumption did not cover this consumer. Full wording remains in English; No items. is the short display here. The separate paged ally-services copy stays unchanged.",
+      "references": [],
+      "supersedes": "battle.001b98c2"
+    }
+  ]
+}
