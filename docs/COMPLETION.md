@@ -11,7 +11,12 @@ in `./build.sh`, with native title/fade/blink/menu checks. The authorized
 pairs and 425 compact displays reviewed, with 410 revisions. Revised native
 readers, title/rendering regressions and a natural defeat/return route pass.
 `./build.sh` publishes ROM `407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`
-and its verified BPS patch. Deferred personal playtesting remains separate.
+and its verified BPS patch at that checkpoint. The subsequent
+[arrival layout](ARRIVAL_LAYOUT.md) brings the name and floor together near the
+vertical centre, using the same artwork. It passes 1,259 native constructor
+cases and a natural floor transition/fade/movement comparison. The latest ROM
+is `421b353440e6d277109f8bddb852e7fc967eb44291c5c0d6cb7bb07af7029ade`.
+Deferred personal playtesting remains separate.
 
 Current checkpoint (2026-09-13): **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 inventory entries**.

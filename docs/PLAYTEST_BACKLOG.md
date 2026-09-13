@@ -1,5 +1,13 @@
 # Deferred gameplay checks
 
+The [compact arrival layout](ARRIVAL_LAYOUT.md) now centres the approved name
+and floor lettering with a 7–8px visible gap. It passes all 1,259 controlled
+constructor cases and a normal cave arrival/fade/movement comparison on ROM
+`421b353440e6d277109f8bddb852e7fc967eb44291c5c0d6cb7bb07af7029ade`.
+Natural visits to other card identities remain additional coverage. Separate
+town-card families remain unconfirmed. This changes only presentation, with
+all previously inserted text/assets and user saves preserved.
+
 Updated 2026-09-13. The user wants to continue translation and playtest when
 time permits. **No user playtesting is required today or before the next
 translation batch.** Codex can develop automated routes independently; later

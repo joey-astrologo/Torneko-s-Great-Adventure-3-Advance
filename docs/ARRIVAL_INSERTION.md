@@ -1,5 +1,10 @@
 # Credits-adapted arrival cards
 
+The later [compact layout](ARRIVAL_LAYOUT.md) now centres the name/floor group
+and reduces their visible gap to 7–8px. It preserves every approved raster and
+passes fresh native constructor/transition checks. Positions and ROM hashes
+below describe the original insertion checkpoint.
+
 On 2026-09-13 the user approved **Credits adapted** and requested insertion.
 The frozen [approval](../assets/arrival-cards/approved.json) pins the audition
 renderer/font revisions, all 36 English titles and their 64 selectors, cream

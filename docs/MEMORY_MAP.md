@@ -1,5 +1,36 @@
 # Memory map and insertion ownership
 
+## Compact arrival layout: verified ownership (2026-09-13)
+
+Owner `arrival-layout`, following prose ROM
+`407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`.
+The user requested closer name/floor spacing and improved vertical centring.
+These ranges were documented before insertion. The shared allocator assigns
+`[0112242F,011224D4)` (165 bytes including one alignment byte); the 164-byte
+Thumb routine starts at `01122430`. The
+[plan](../build/arrival-layout/allocation-plan.json) pins code, source/output
+ROMs, existing artwork plan and the exact previous patch owner.
+
+| Space / exclusive-ended range | Owner, evidence and lifetime |
+| --- | --- |
+| ROM `[00005298,000052A0)` | Supersede the entire existing `arrival-credits.map` hook, preserving its original-byte check and previous ownership. Return remains `08005395`. No other original patch changes. |
+| Existing EWRAM BG0 map `[02034DDC,0203561C)` | Native constructor `0800518C` clears/prepares this region. After its title copy, move only the 29 cells in columns 1–29 of rows 1–9 to rows 5–13; arena selector 26 uses rows 7–15. Copy backwards and clear vacated cells. Columns 0/30/31 retain native behavior. This is transient arrival-map content, not a RAM reservation. |
+| Existing EWRAM map `[02034E1E,02035058)` | Bounding envelope of original title rows; each row owns only its first 29 halfwords starting at column 1, with a 64-byte stride. New routine starts at row 9/column 1 (`0203501E`) for overlap-safe movement. |
+| Existing EWRAM map `[0203505C,02035158)` | Floor rows 10–13, 30 halfwords per row with 64-byte stride, replacing the previous placement at rows 12–15. Actual floor ink starts at screen y=84. These writes follow the moved title; raster checks establish that the overwritten title-map cells are blank. |
+| Existing title/floor tile buffers `[02035DDC,020385DC)` | Byte-identical uploads through the existing `arrival-credits` upload hook. All 36 title assets, 512 floor variants, palette, pointer/count tables and previous code allocations retain their bytes and ownership. |
+
+No asset, font, save-field or permanent RAM changes. Existing stack save of
+r4–r7/LR uses 20 transient bytes; the floor selector temporarily saves another
+LR word. The native suppression and arena/puzzle conditions remain in force.
+See [arrival layout](ARRIVAL_LAYOUT.md) for the placement and verification.
+
+Verified ROM `421b353440e6d277109f8bddb852e7fc967eb44291c5c0d6cb7bb07af7029ade`
+passes 1,259 native constructor cases and the natural cave arrival/fade/movement
+comparison. The whole ROM matches exactly the new code allocation and one
+owned hook supersession. Prior allocations, other patches and permanent RAM
+ownership remain unchanged; the cumulative ledger now contains 8,892
+allocations and 10,122 original-ROM patch records.
+
 ## Prose second pass: verified insertion ownership (2026-09-13)
 
 Owner `prose-review`, following the accepted title ROM
