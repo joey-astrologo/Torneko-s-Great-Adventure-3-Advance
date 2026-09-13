@@ -5,6 +5,24 @@ Verified and selected by the owner on 2026-09-09. **Font 0, the original small
 descenders, and works in the tested menu, message, and story renderers.
 Use its existing glyphs and advances for translation builds and width checks.
 
+## Use in the original Japanese game
+
+Font 0 is an active general text font containing Japanese glyphs as well as
+Latin letters, digits and punctuation. “Latin font 0” refers to the Latin
+portion we reused, not a separate unused English-only font.
+
+The unmodified Japanese ROM's
+[opening/load-route trace](../build/text-inventory/relocation/original/story/readers.json)
+records the Adventure Log summary `HP 15/15 レベル1 ` and actual font-0 draws
+for `H`, `P`, the ASCII digits and slash. Its source-ROM hash is
+`35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02`.
+This is original-game usage, distinct from the forced-font English specimens
+below. The source format is already documented in [TEXT_SYSTEMS.md](TEXT_SYSTEMS.md).
+
+This confirms real use of the Latin/numeric portion, but not use of every
+Latin letter. The complete printable alphabet is present; the developer's
+reason for including every character has not been established.
+
 Open the interactive comparison in a browser:
 
 ```bash
