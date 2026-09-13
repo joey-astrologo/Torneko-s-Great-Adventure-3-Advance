@@ -3,14 +3,19 @@
 The user authorized continuing through the remaining translation without
 section-by-section confirmation on 2026-09-11. On 2026-09-13 they requested
 confirmation between the build-convenience, screenshot-fix, title-audition and
-prose-review steps. Build convenience is complete; the four screenshot fixes
-are now complete with automated verification. Stop here for their review
-before starting the title audition or prose pass. Work remains in progress;
+prose-review steps. Build convenience and the four screenshot fixes are complete
+and accepted by the user. The [title audition](TITLE_AUDITION.md) was also
+approved; [title insertion](TITLE_INSERTION.md) is now complete and included
+in `./build.sh`, with native title/fade/blink/menu checks. Stop here for the
+user's next confirmation before the prose pass. Work remains in progress;
 deferred personal playtesting remains separate.
 
 Current checkpoint (2026-09-13): **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 inventory entries**.
-The latest accepted [rendering corrections](RENDERING_FIXES.md) fix clipped
+The latest accepted [title insertion](TITLE_INSERTION.md) localizes the title
+through its original graphics loader. Four paired boot routes, 484 prompt
+frames, exact packed pixels/palette and 22 unchanged boot/menu image pairs pass.
+It includes the accepted [rendering corrections](RENDERING_FIXES.md), which fix clipped
 keyboard hints, the Records border, overlapping status panels and unnecessary
 numeric line breaks in XP/level messages. It passes 166 paired formatter cases,
 140 paired queue/history cases, 94 location cases and normal menu/input checks
@@ -24,7 +29,8 @@ and natural cave transition/fade/movement comparison pass.
 The earlier [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) verifies a naturally earned
 defeat record, priest saving, cold records and both seven-letter Adventure Logs.
 Other undiscovered graphics remain open; the already-English ending credits
-and original Japanese title logo are intentionally retained.
+are intentionally retained. The approved English title remains outside the
+ordinary text-source count.
 These counts describe the current inventory, not full-game discovery or
 natural gameplay completion. Historical checkpoints below retain their own
 ROM hashes and coverage limits.

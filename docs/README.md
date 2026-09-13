@@ -6,7 +6,19 @@ Run `./build.sh` to produce the easy-to-find
 [build receipt](../build/torneko-3-english.json) directly in `build/`.
 See [building and patching](BUILD.md) for instructions and validation details.
 
-Latest accepted build: [screenshot rendering corrections](RENDERING_FIXES.md).
+Latest accepted build: [English title insertion](TITLE_INSERTION.md).
+The approved **Stone & gold** logo is included by `./build.sh`; native pixels,
+fade, original prompt timing and subsequent menu transitions pass in both
+empty-save and existing-save profiles. The title adds 29,120 bytes through
+the shared allocator, with no code hook or save-format change.
+
+The [title-screen audition](TITLE_AUDITION.md) remains available. The offline studio
+compares the Japanese logo with the approved English **Stone & gold** design,
+including actual-size previews, a comparison slider, PNG exports and saved
+notes/artwork imports. All 29 browser checks pass. Audition edits remain
+separate from the frozen build artwork. The prose second pass awaits confirmation.
+
+Included [screenshot rendering corrections](RENDERING_FIXES.md):
 Keyboard hints and the Records border fit, town/dungeon status panels no
 longer overlap, and XP/level messages use one line when their actual text fits.
 Paired native formatter/queue/history checks and 94 location cases pass;
@@ -32,7 +44,8 @@ floors, the following shrine/party story, priest saving, cold records and both
 Logs, on the earlier inventory-notice ROM.
 The [arrival-card review](ARRIVAL_CARDS.md) now exports all 36 distinct original
 dungeon cards from the 64-entry table to PNG sheets for English auditions.
-Separate town cards are not yet confirmed; the original Japanese title logo stays.
+Separate town cards are not yet confirmed; the main title is now localized
+through its separately approved insertion.
 The [offline lettering studio](ARRIVAL_AUDITION.md) now provides a recovered
 Shiren bitmap alphabet, marked supplements, four starting styles and
 interactive previews/exports for all 36 cards. Its settings remain separate

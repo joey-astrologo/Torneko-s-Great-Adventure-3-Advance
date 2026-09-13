@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "checks": [
+    "Native original pixels preserved",
+    "Original prompt strip preserved",
+    "area/concept controls",
+    "area/rgb555 controls",
+    "area: five-bit channels",
+    "area/original controls",
+    "area: original palette membership",
+    "nearest/concept controls",
+    "nearest/rgb555 controls",
+    "nearest: five-bit channels",
+    "nearest/original controls",
+    "nearest: original palette membership",
+    "Settings and notes roundtrip",
+    "Invalid settings rejected 0",
+    "Invalid settings rejected 1",
+    "Invalid settings rejected 2",
+    "Invalid settings rejected 3",
+    "Invalid settings rejected 4",
+    "Invalid settings rejected 5",
+    "Wrong aspect ratio rejected atomically",
+    "Transparent full-screen image rejected",
+    "Native PNG import keeps exact pixels",
+    "Imported artwork survives settings roundtrip",
+    "Reset preserves notes and imported artwork",
+    "Slider zero shows proposal",
+    "Slider hundred shows original",
+    "title-english-native.png dimensions",
+    "title-english-4x.png dimensions",
+    "title-comparison.png dimensions"
+  ],
+  "source_rom": "Dragon Quest Characters - Torneko no Daibouken 3 Advance - Fushigi no Dungeon (Japan).gba",
+  "source_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "current_rom": "build/torneko-3-english.gba",
+  "current_sha256": "fd0c0dd97ffd205bcc4ba71711c76edcc6f33dad912731d7d9d629188414ace8",
+  "output_rom": null,
+  "html_sha256": "26251c34ac636f7ccabc205972745eafffb4aaf2cc60daa386967ecbad6d8092",
+  "candidate_sha256": "0cf08be24c49afad572dd687e25f80877b205a737bc8ca1ddb6f35167896c008",
+  "renderer_sha256": "c077c3a5c291cf9fd0f8c29f15f713eda3435b07131da720dbccacda28601ebd",
+  "harness_sha256": "04ab454aefaa8a3e4980611bced5f9328f334b030d71952e790d1e86f3def1f1",
+  "png_exports": [
+    {
+      "path": "build/title-audition/title-english-native.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "46315067cee5af93ba4b13a68855c8edfa6e92b3fd287c34671dc3540db24502"
+    },
+    {
+      "path": "build/title-audition/title-english-4x.png",
+      "size": [
+        960,
+        640
+      ],
+      "sha256": "9f4809a3928b0a947a20b14de6224d66dbf19c49e1f76c10d48659e11f589876"
+    },
+    {
+      "path": "build/title-audition/title-comparison.png",
+      "size": [
+        960,
+        382
+      ],
+      "sha256": "d85732312fe7654906236b860b996caa0b0e42a5fb4e632785b61311df47b28c"
+    }
+  ],
+  "roms_and_user_saves_unchanged": true,
+  "scope": "Offline browser comparison, native-size reduction, colour controls, PNG/settings roundtrip, imported art and invalid-input rejection. No English title insertion proof."
+}

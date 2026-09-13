@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "status": "approved-for-insertion",
+  "id": "stone-gold-v1",
+  "name": "Stone & gold",
+  "source_rom_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "english_title": "Dragon Quest Characters: Torneko's Great Adventure 3 Advance — Mystery Dungeon",
+  "japanese_title": "ドラゴンクエスト キャラクターズ トルネコの大冒険3 アドバンス 不思議のダンジョン",
+  "generation": {
+    "mode": "built-in image_gen",
+    "asset": "assets/title-screen/stone-gold-v1.png",
+    "asset_sha256": "0cf08be24c49afad572dd687e25f80877b205a737bc8ca1ddb6f35167896c008",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "prompt": "assets/title-screen/stone-gold-v1-prompt.txt",
+    "prompt_sha256": "81f652ee79bba6dc1fe1fd36a96813d28a8b2a3389800f4ce1140ef925019abb",
+    "reference": "build/completion/boot-graphics/research/english/boot-0600.png",
+    "reference_sha256": "81cf9f5ee33488d84edca7fd25ebb8d603cd96b91b5ff2a1dbfafdfb6a4b0a95"
+  },
+  "default_preview": {
+    "sampling": "area",
+    "colours": "rgb555",
+    "original_prompt_strip": true,
+    "original_prompt_rectangle": [
+      0,
+      142,
+      240,
+      160
+    ]
+  },
+  "scope": "Generated title-screen art proposal. The scroll and ocean are redrawn. The optional original prompt strip is composed in browser canvas. No fan-patch art, title insertion, memory allocation or final approval.",
+  "approval": "assets/title-screen/approved.json"
+}

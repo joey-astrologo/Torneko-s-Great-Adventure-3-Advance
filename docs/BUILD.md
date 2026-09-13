@@ -21,10 +21,11 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_rendering_fixes`. The existing build uses
+The current component is `tools.build_title_art`. The existing build uses
 pinned prepared resources and previous component checkpoints under `build/`;
 this convenience command does not yet bootstrap a completely deleted build
-directory. See [rendering corrections](RENDERING_FIXES.md) and
+directory. See [title insertion](TITLE_INSERTION.md),
+[rendering corrections](RENDERING_FIXES.md) and
 [arrival insertion](ARRIVAL_INSERTION.md) for their resource preparation and
 emulator checks. Future cumulative components should
 update the `current` import in `tools/build_english.py`.
@@ -91,14 +92,23 @@ library without downloading the large optional profiling archives. Compilation
 does not require GTK or a system-wide installation. Executable hashes can
 differ with the compiler/toolchain; each build receipt records the actual one.
 
-## Current rendering-fix acceptance (2026-09-13)
+## Current title-build acceptance (2026-09-13)
 
-The current component's accepted ROM is SHA256
+`./build.sh` reproduces the accepted English title ROM, SHA256
+`b80feb1177c9111f44edb1b0ffc8a63c89d94b7d4eccc9f383bc9b372d7b14a9`.
+Its 905,830-byte BPS passes the complete apply/rebuild comparison. The
+[title insertion report](TITLE_INSERTION.md) records native pixels, palette,
+fade, prompt blink and following-menu checks. All earlier components remain
+included in the same cumulative build.
+
+## Earlier rendering-fix acceptance (2026-09-13)
+
+The preceding component's accepted ROM is SHA256
 `fd0c0dd97ffd205bcc4ba71711c76edcc6f33dad912731d7d9d629188414ace8`.
 It corrects keyboard hint clipping, Records menu geometry, town/dungeon status
 panel overlap and unnecessary numeric line breaks in XP/level messages.
 See [the paired screenshots and runtime coverage](RENDERING_FIXES.md).
-`./build.sh` reproduces those accepted ROM bytes. Its 882,167-byte BPS passes
+At that checkpoint `./build.sh` reproduced those ROM bytes. Its 882,167-byte BPS passed
 the complete apply/rebuild comparison, and all published receipt hashes match.
 
 ## Initial convenience-build acceptance (2026-09-13)

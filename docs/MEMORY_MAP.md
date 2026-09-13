@@ -1,5 +1,68 @@
 # Memory map and insertion ownership
 
+## Approved title insertion: accepted ownership (2026-09-13)
+
+Owner `title-art`. The user approved the Stone & gold draft and requested
+integration into the build. The [frozen approval](../assets/title-screen/approved.json)
+pins the demonstrated 240×160 raster and audition settings. All ranges below
+were recorded before insertion; this is separate from the earlier audition.
+
+The shared allocator owns `[011142D0,0111B490)` (29,120 bytes): two 2048-byte
+maps followed by 752 native 32-byte tile patterns, then 960 bytes of original
+loader-format palette words. Exact aligned owners, source hashes and prepared
+payloads are in [allocation-plan.json](../build/title-insertion/allocation-plan.json).
+
+| Space / range (exclusive end) | Ownership and evidence |
+|---|---|
+| ROM `[00C77BDC,00C77BE8)` | One checked 12-byte patch: title record's map/tile pointer, palette pointer and tile count. Source is `(08C5151C,08C5737C,627)`; retain the following four bytes, including original two-map mode. Original reader `0808508C` and copy loop `080851EE–08085212` are documented in the boot audit. No code hook. |
+| ROM `[00C5151C,00C5251C)`, `[00C5251C,00C5737C)`, `[00C5737C,00C5773C)` | Original maps, 627 tile patterns and palette remain protected. Repacking retains every referenced ocean/prompt pattern; these source bytes are never reused as free space. |
+| ROM `[00C576BC,00C5773C)` | Existing palette banks 13/14: ocean and start prompt. Their exact loader-format words are copied into the new private palette. The first 13 banks supply up to 15 opaque colours each for the new artwork; zero indices remain transparent. Bank 15 is the native separately loaded font palette. Map inspection confirms ocean uses bank 13 and prompt uses bank 14, with blank cells in bank 0. |
+| Title VRAM `[06008000,0600DE00)` | New 752-pattern upload through the unchanged native loader, replacing the old title's upload ending `0600CE60`. BG2/BG3 use character base 2; their available character area ends at OBJ VRAM `06010000`. Existing BG control registers are `0E0A` and `0F0B`. This title-specific lifetime ends when later native graphics loads reuse the area; no permanent allocation or font/code relocation. |
+| Existing VRAM `[06007000,06007800)`, `[06007800,06008000)` | BG2/BG3 map blocks 14/15, below the tile upload. Their size and native upload behavior remain unchanged. |
+| Existing EWRAM maps / prompt cache | Retain the two 2048-byte heap maps addressed by `020105D4/020105D8` and 128-byte prompt cache `[0201054C,020105CC)`. Foreground map rows 18/19 (offset `480`, 128 bytes) preserve the original prompt cells with repacked tile IDs. The native `080877C8` blink reader remains unchanged. These existing ranges/lifetimes are detailed in the boot section. |
+
+[Packing evidence](../build/title-insertion/packing.json) reconstructs the
+original native screen exactly, including its observed black leftmost column.
+The approved raster's top 144 rows compile to 540 opaque foreground cells;
+the original ocean map remains behind them and under the retained prompt rows.
+The bottom 16 visible rows decode pixel-identically to the original. All
+per-tile palette choices are explicit in the packed maps, with no global
+256-colour approximation. Quantization adds no letters or wording changes.
+No RAM/save layout change, extra palette bank or original-byte reuse occurs.
+[Native acceptance](../build/title-insertion/acceptance.json) now pins ROM
+`b80feb1177c9111f44edb1b0ffc8a63c89d94b7d4eccc9f383bc9b372d7b14a9`:
+exact packed pixels and palette, guarded uploads, native fade, 484 blink frames
+and 22 unchanged boot/menu image pairs pass across two paired save profiles.
+`./build.sh` reproduces the accepted image and verifies its BPS roundtrip.
+See [title insertion](TITLE_INSERTION.md) for the coverage and quantization limits.
+
+## Title-screen artwork audition (2026-09-13)
+
+Owner `title-audition`, historical read-only ROM reference plus project-local
+generated artwork and browser tooling. This stage proposed an English title
+without ROM allocations/patches, permanent RAM reservations or save changes.
+Approval and insertion now belong to the separate `title-art` section above.
+
+The existing occupied title record is ROM `[00C77BDC,00C77BEC)`, maps
+`[00C5151C,00C5251C)`, 627 tile patterns `[00C5251C,00C5737C)` and palette
+`[00C5737C,00C5773C)`. Exact source hashes and earlier native-reader evidence
+remain in the [boot resource manifest](../build/completion/boot-graphics/research/resource-ranges.json).
+Fresh [reference provenance](../build/title-audition/reference/provenance.json)
+checks those resources against the Japanese original and preserved pre-title English ROM,
+SHA256 `fd0c0dd97ffd205bcc4ba71711c76edcc6f33dad912731d7d9d629188414ace8`.
+Both naturally boot to identical title pixels at frame 600; native map/tile
+copies pass. Existing engine RAM/VRAM roles remain as documented in the
+[boot section](#cold-boot-and-title-graphics-new-coverage).
+
+The source PNG, generated draft, prompt and manifest live in the title-audition
+build/assets folders. The default browser preview copies screen rectangle
+`[0,240) × [142,160)` from the original capture for the start prompt; these are
+**image coordinates**, not a memory reservation or a direct ROM write range.
+Native-size resampling and colour previews do not establish a valid 4bpp tile
+or palette-bank allocation. See [the audition report](TITLE_AUDITION.md) and
+[29 browser checks](../build/title-audition/verification.json). The accepted
+insertion has its own documented ranges and shared-allocator build above.
+
 ## Screenshot rendering corrections: accepted ownership (2026-09-13)
 
 Owner `rendering-fixes`, based on accepted arrival ROM SHA256
@@ -46,11 +109,11 @@ names, with seven status-only forms that fit the new 112px field. These are
 display abbreviations, not glossary/name changes. All original and translated
 shared place-table bytes remain protected by their earlier component owners.
 
-Latest combined component build: [rendering fixes](RENDERING_FIXES.md), occupied
-append `[01000000,011142D0)`; 1,131,216 bytes,
-8,481 allocations and 10,121 checked original patch records.
+Latest combined component build: [title insertion](TITLE_INSERTION.md), occupied
+append `[01000000,0111B490)`; 1,160,336 bytes,
+8,483 allocations and 10,122 checked original patch records.
 Exact owners and explicit shared ownership are in
-[its ledger](../build/rendering-fixes/english-build.json).
+[its ledger](../build/title-insertion/english-build.json).
 The [convenient latest build](BUILD.md) also writes its cumulative ledger to
 [build/latest/english-build.json](../build/latest/english-build.json), identifying
 the source and output hashes. The shortcut builds this component; packaging

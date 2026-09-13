@@ -17,8 +17,13 @@ remain pending. The XP examples use controlled substitution slots and do not
 claim to earn XP naturally. Existing history records retain their old line
 breaks; close/reopen menus after loading an older state to redraw geometry.
 All four supplied save/state files were hash-checked unchanged.
-Per the user's current workflow, stop after these fixes for confirmation
-before title audition or the prose second pass.
+The user accepted these fixes, then approved the [title audition](TITLE_AUDITION.md)
+and requested [insertion](TITLE_INSERTION.md), now complete. Four native boot
+routes cover old/new ROMs with empty/existing saves, exact title pixels and
+palette, fade, 484 prompt frames with unchanged timing and 22 unchanged
+boot/menu image pairs. Native Settings/Records navigation returns to the
+illustrated menu. Personal review can supplement these checks. The current
+workflow pauses after title insertion for confirmation before the prose pass.
 
 The approved [Credits-adapted arrivals](ARRIVAL_INSERTION.md) are now inserted
 for all 36 card identities / 64 selectors, with matching floor lettering.

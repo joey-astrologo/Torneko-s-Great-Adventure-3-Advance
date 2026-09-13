@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "approved_on": "2026-09-13",
+  "user_instruction": "It looks excellent, can you insert it into the build process?",
+  "source_rom_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "candidate": "assets/title-screen/candidate.json",
+  "candidate_sha256": "1fe28f31aedbef9eac0e259ff571e25846df91186988c5c2fb3bc640ee120aeb",
+  "raster": "assets/title-screen/approved.png",
+  "raster_sha256": "46315067cee5af93ba4b13a68855c8edfa6e92b3fd287c34671dc3540db24502",
+  "dimensions": [
+    240,
+    160
+  ],
+  "audition_settings": {
+    "schema": 1,
+    "source_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+    "reference_sha256": "81cf9f5ee33488d84edca7fd25ebb8d603cd96b91b5ff2a1dbfafdfb6a4b0a95",
+    "renderer_sha256": "c077c3a5c291cf9fd0f8c29f15f713eda3435b07131da720dbccacda28601ebd",
+    "candidate_sha256": "0cf08be24c49afad572dd687e25f80877b205a737bc8ca1ddb6f35167896c008",
+    "settings": {
+      "candidate": "stone-gold-v1",
+      "sampling": "area",
+      "colours": "rgb555",
+      "prompt": true,
+      "notes": ""
+    },
+    "custom": null
+  },
+  "audition_verification_sha256": "c2bef17948901c64147772e7c352dca7323b7604fecac2ced8747a9293d7d513",
+  "scope": "Approved displayed Stone & gold draft and default native preview. Technical tile/palette conversion may introduce quantization; preserve the original prompt and native title/menu flow."
+}

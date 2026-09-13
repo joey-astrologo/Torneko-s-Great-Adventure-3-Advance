@@ -1,0 +1,15 @@
+Use case: text-localization
+Asset type: English title-screen artwork audition for Torneko 3 Advance, a Game Boy Advance game.
+Edit target: the attached original Japanese 240x160 title screenshot. Preserve its full 3:2 composition.
+Primary request: Produce one polished English localization of the illustrated stone-scroll logo. Preserve the carved pale stone scroll, its curled left edge, chipped right edge, gold/orange dimensional title, large orange numeral 3, saturated blue ADVANCE accent, ocean/sky setting and the existing PUSH START BUTTON line. Match the original cheerful Japanese adventure-game logo; avoid modern flat typography or generic medieval blackletter.
+Text, exactly:
+small upper stone band: "DRAGON QUEST CHARACTERS"
+large main word: "TORNEKO'S"
+second main line: "GREAT ADVENTURE"
+large integrated orange number: "3"
+blue accent: "ADVANCE"
+small lower subtitle band: "MYSTERY DUNGEON"
+bottom prompt: "PUSH START BUTTON"
+The English wording must be spelled correctly, especially the apostrophe in TORNEKO'S. Do not repeat any word or add text.
+Composition: TORNEKO'S should be the dominant broad gold line. GREAT ADVENTURE is a smaller but clearly readable gold line below. Place the large 3 to the lower right. ADVANCE can sit across a narrow gap in blue, without covering the readable gold letters. Fit the logo into approximately the same screen footprint as the original. Preserve the ocean and start prompt location. Keep the tiny original Dragon Quest crest at top if possible.
+Style/medium: carefully designed low-resolution game logo; crisp pixel shapes and deliberate high-contrast edges, not blurry or painterly. Design for legibility when reduced to the actual GBA 240x160 screen. Keep small text simple. Output a single full title screen, no border, no comparison panels, no labels, no explanatory text, no mock device. This is an artwork proposal, not a claim of an official localization.

@@ -1,10 +1,12 @@
 # Boot graphics and title-logo coverage
 
-The current English build still displays the Japanese illustrated title logo.
-The user explicitly chose to preserve that original artwork. It is an
-intentional retained graphic outside the ordinary text inventory, not an
-authored English translation. Its lettering is embedded in the stone-scroll
-artwork. No title-art replacement is planned.
+The current English build now includes the approved
+[Stone & gold title localization](TITLE_INSERTION.md). The user initially
+chose to retain the Japanese artwork, then requested and approved the
+[title audition](TITLE_AUDITION.md) on 2026-09-13. This document preserves the
+original resource findings and historical cold-boot proof. The title remains
+a graphic outside the ordinary text inventory; its original lettering was
+embedded in the stone-scroll artwork.
 
 [Original title, captured from the English build](../build/completion/boot-graphics/research/english/boot-0600.png)
 and [decoded foreground tiles](../build/completion/boot-graphics/research/asset-02-map-0.png)
@@ -59,9 +61,11 @@ The exported asset PNGs are structural decodes of original tile indices and RGB
 palette words. The emulator captures are the authority for actual display
 colours, timing and composition.
 
-User scope update: graphics work is deferred to a later phase. The user
+Historical scope update: graphics work was deferred to a later phase. The user
 reports dungeon-floor/arrival title cards and possible town/ending/credit
 graphics; these require a separate discovery and translation pass. Do not
 infer that the eleven boot/menu assets cover those families. Continue
 ordinary text-source research and insertion checks now. The original Japanese
-title artwork remains intentionally preserved.
+title's original ROM resources remain protected after the separately approved
+insertion; that component selects new appended resources without changing
+these original resource findings.
