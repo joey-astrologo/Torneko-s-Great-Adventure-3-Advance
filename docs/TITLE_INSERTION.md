@@ -122,5 +122,7 @@ checkpoint so regeneration still works after the latest title becomes English.
 Its renderer/settings revision is unchanged. Audition edits do not modify the
 frozen build artwork.
 
-This completes the approved title insertion. The prose second pass awaits the
-user's next confirmation under the agreed staged workflow.
+This completes the approved title insertion. The subsequent
+[prose second pass](PROSE_REVIEW.md) is also complete and included in
+`./build.sh`. It preserves every title byte and passes fresh cold-boot,
+palette, fade, blink and menu checks on the revised ROM.

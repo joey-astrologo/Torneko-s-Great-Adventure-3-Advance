@@ -1,0 +1,94 @@
+{
+  "rom_sha256": "407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34",
+  "initial_state": "build/completion/text-polish/verification/english/final.state",
+  "initial_state_sha256": "520ca28f27838e438417149ea97ac77fb2f6c54d761c2185a2c1bafbc5c8451e",
+  "initial_frame": 68538,
+  "inputs": [
+    {
+      "key": "LEFT",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 68661
+    },
+    {
+      "key": "LEFT",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 68784
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 68907
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69030
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69153
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69276
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69399
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69522
+    },
+    {
+      "key": "UP",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69645
+    },
+    {
+      "key": "A",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69768
+    },
+    {
+      "key": "A",
+      "hold": 3,
+      "released": 120,
+      "end_frame": 69891
+    },
+    {
+      "key": "A",
+      "hold": 3,
+      "released": 180,
+      "end_frame": 70074
+    },
+    {
+      "key": "A",
+      "hold": 3,
+      "released": 180,
+      "end_frame": 70257
+    },
+    {
+      "key": "A",
+      "hold": 3,
+      "released": 180,
+      "end_frame": 70440
+    }
+  ],
+  "expected_final_frame": 70440,
+  "scope": "Normal buttons from the existing naturally reached floor-two checkpoint: approach Slime, attack until defeated, then display the adventure result. No gameplay RAM or CPU injection."
+}

@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "changes": [
+    {
+      "before": {
+        "id": "effect.001b712d",
+        "japanese": [
+          "人形系ダメージ大"
+        ],
+        "english": "Material damage up",
+        "status": "project_effect_label",
+        "sources": [],
+        "notes": "Short equipment-effect label independently translated from Torneko 3 Japanese. Project wording, not an official localized label or a claim about another game's mechanics. Independently translated from the pinned Japanese. Existing glossary identities reused; gameplay/effect prose is project wording. Native queue/history limits checked separately from natural scenario coverage.",
+        "references": [],
+        "batch": "tutorial-gameplay",
+        "occurrences": [
+          {
+            "catalog": "translations/tutorial-gameplay.json",
+            "id": "tutorial.001b712d"
+          }
+        ],
+        "insertion_status": "inserted_controlled_native_verified",
+        "insertion_evidence": {
+          "rom_sha256": "66c53aa470d31c73e093f5c053ea38e525ea8c47d8070266be4595626c270f24",
+          "report": "build/tutorial-gameplay/acceptance.json",
+          "scope": "Original effect-table copies, removal-feedback queue/history and isolated display fixtures; natural effect-removal scenarios remain separate."
+        }
+      },
+      "after": {
+        "id": "effect.001b712d",
+        "japanese": [
+          "人形系ダメージ大"
+        ],
+        "english": "Doll-type damage up",
+        "status": "project_effect_label",
+        "sources": [],
+        "notes": "Short equipment-effect label independently translated from Torneko 3 Japanese. Project wording, not an official localized label or a claim about another game's mechanics. Independently translated from the pinned Japanese. Existing glossary identities reused; gameplay/effect prose is project wording. Native queue/history limits checked separately from natural scenario coverage. Prose review 2026-09-13: use Doll-type consistently with item and synthesis descriptions. Do not equate Torneko 人形系 with a broader Material family. Independent Japanese identity corroboration: https://wikiwiki.jp/dqdic3rd/【ドールクラッシャー】 (fan-maintained mechanics reference, not official English evidence).",
+        "references": [],
+        "batch": "tutorial-gameplay",
+        "occurrences": [
+          {
+            "catalog": "translations/tutorial-gameplay.json",
+            "id": "tutorial.001b712d"
+          }
+        ],
+        "insertion_status": "inserted_controlled_native_verified",
+        "insertion_evidence": {
+          "rom_sha256": "407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34",
+          "report": "build/prose-review/verification/messages/native-label-copies.json",
+          "scope": "Original indexed effect-table copies, bounded guards and effect-removal feedback. Native revised queue/history and display also checked; natural effect-removal outcomes remain separate."
+        },
+        "previous_insertion_evidence": {
+          "rom_sha256": "66c53aa470d31c73e093f5c053ea38e525ea8c47d8070266be4595626c270f24",
+          "report": "build/tutorial-gameplay/acceptance.json",
+          "scope": "Original effect-table copies, removal-feedback queue/history and isolated display fixtures; natural effect-removal scenarios remain separate."
+        }
+      }
+    },
+    {
+      "before": {
+        "id": "effect.001b73bb",
+        "japanese": [
+          "人形系特殊攻撃無効"
+        ],
+        "english": "Material ability immunity",
+        "status": "project_effect_label",
+        "sources": [],
+        "notes": "Short equipment-effect label independently translated from Torneko 3 Japanese. Project wording, not an official localized label or a claim about another game's mechanics. Independently translated from the pinned Japanese. Existing glossary identities reused; gameplay/effect prose is project wording. Native queue/history limits checked separately from natural scenario coverage.",
+        "references": [],
+        "batch": "tutorial-gameplay",
+        "occurrences": [
+          {
+            "catalog": "translations/tutorial-gameplay.json",
+            "id": "tutorial.001b73bb"
+          }
+        ],
+        "insertion_status": "inserted_controlled_native_verified",
+        "insertion_evidence": {
+          "rom_sha256": "66c53aa470d31c73e093f5c053ea38e525ea8c47d8070266be4595626c270f24",
+          "report": "build/tutorial-gameplay/acceptance.json",
+          "scope": "Original effect-table copies, removal-feedback queue/history and isolated display fixtures; natural effect-removal scenarios remain separate."
+        }
+      },
+      "after": {
+        "id": "effect.001b73bb",
+        "japanese": [
+          "人形系特殊攻撃無効"
+        ],
+        "english": "Doll-type ability immunity",
+        "status": "project_effect_label",
+        "sources": [],
+        "notes": "Short equipment-effect label independently translated from Torneko 3 Japanese. Project wording, not an official localized label or a claim about another game's mechanics. Independently translated from the pinned Japanese. Existing glossary identities reused; gameplay/effect prose is project wording. Native queue/history limits checked separately from natural scenario coverage. Prose review 2026-09-13: use Doll-type consistently with item and synthesis descriptions. Do not equate Torneko 人形系 with a broader Material family. Independent Japanese identity corroboration: https://wikiwiki.jp/dqdic3rd/【ドールクラッシャー】 (fan-maintained mechanics reference, not official English evidence).",
+        "references": [],
+        "batch": "tutorial-gameplay",
+        "occurrences": [
+          {
+            "catalog": "translations/tutorial-gameplay.json",
+            "id": "tutorial.001b73bb"
+          }
+        ],
+        "insertion_status": "inserted_controlled_native_verified",
+        "insertion_evidence": {
+          "rom_sha256": "407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34",
+          "report": "build/prose-review/verification/messages/native-label-copies.json",
+          "scope": "Original indexed effect-table copies, bounded guards and effect-removal feedback. Native revised queue/history and display also checked; natural effect-removal outcomes remain separate."
+        },
+        "previous_insertion_evidence": {
+          "rom_sha256": "66c53aa470d31c73e093f5c053ea38e525ea8c47d8070266be4595626c270f24",
+          "report": "build/tutorial-gameplay/acceptance.json",
+          "scope": "Original effect-table copies, removal-feedback queue/history and isolated display fixtures; natural effect-removal scenarios remain separate."
+        }
+      }
+    }
+  ]
+}

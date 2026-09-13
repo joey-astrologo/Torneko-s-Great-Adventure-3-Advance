@@ -1,5 +1,14 @@
 # Translation terminology
 
+The [2026-09-13 prose review](PROSE_REVIEW.md) changes two independently authored
+effect labels from `Material` to `Doll-type`: `effect.001b712d` and
+`effect.001b73bb`. This matches the Japanese 人形系 and the existing Doll crusher,
+Doll ward ring and synthesis descriptions. `Material` had no official-localization
+evidence for these Torneko-specific effects. The glossary retains their project
+status; [terminology-revisions.json](../translations/prose-review/terminology-revisions.json)
+preserves the previous records and the correction. No official item, species
+or spell identity changes in this pass.
+
 The [2026-09-13 rendering corrections](RENDERING_FIXES.md#status-only-place-names)
 add seven measured town-name display forms solely for the 112px status panel.
 The full place names, Japanese identities, glossary, dialogue and destination

@@ -23,7 +23,20 @@ routes cover old/new ROMs with empty/existing saves, exact title pixels and
 palette, fade, 484 prompt frames with unchanged timing and 22 unchanged
 boot/menu image pairs. Native Settings/Records navigation returns to the
 illustrated menu. Personal review can supplement these checks. The current
-workflow pauses after title insertion for confirmation before the prose pass.
+workflow has completed the authorized prose second pass; see
+[PROSE_REVIEW.md](PROSE_REVIEW.md). Its ROM
+`407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`
+passes revised-reader checks plus fresh title, rendering and natural
+combat-defeat/result/return regressions. No user playtest was needed to finish
+the pass. Review dialogue in its natural scenes when convenient, particularly
+Douglas's profit question and its yes/no consequences, connected dream/prophecy
+speeches, transformed spell restrictions and stone/lava-stone throw distances.
+The last two have Japanese-source/guide review and native text display checks,
+not dedicated mechanic-outcome tests. Confirm the Doll-type effects through
+normal use; their original indexed copies/removal feedback already pass.
+Suspend/resume, full ending playback and the 74 technical candidates remain
+separate. The source inventory count does not increase merely because prose
+was revised.
 
 The approved [Credits-adapted arrivals](ARRIVAL_INSERTION.md) are now inserted
 for all 36 card identities / 64 selectors, with matching floor lettering.

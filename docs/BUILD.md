@@ -21,10 +21,12 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_title_art`. The existing build uses
+The current component is `tools.build_prose_review`. It includes the completed
+[prose second pass](PROSE_REVIEW.md), with 410 editorial revisions, after the
+accepted title and rendering work. The existing build uses
 pinned prepared resources and previous component checkpoints under `build/`;
 this convenience command does not yet bootstrap a completely deleted build
-directory. See [title insertion](TITLE_INSERTION.md),
+directory. See [prose review](PROSE_REVIEW.md), [title insertion](TITLE_INSERTION.md),
 [rendering corrections](RENDERING_FIXES.md) and
 [arrival insertion](ARRIVAL_INSERTION.md) for their resource preparation and
 emulator checks. Future cumulative components should

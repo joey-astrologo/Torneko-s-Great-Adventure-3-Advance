@@ -1,5 +1,46 @@
 # Memory map and insertion ownership
 
+## Prose second pass: verified insertion ownership (2026-09-13)
+
+Owner `prose-review`, following the accepted title ROM
+`b80feb1177c9111f44edb1b0ffc8a63c89d94b7d4eccc9f383bc9b372d7b14a9`.
+These ranges were recorded before insertion. The shared append allocator owns
+`[0111B490,0112242F)` (28,575 bytes including alignment) for 408 revised text
+payloads. The [allocation plan](../build/prose-review/allocation-plan.json)
+is the machine-readable authority for every aligned allocation and the **491
+exact four-byte original-ROM pointer supersessions**, with their previous
+owner, source bytes and target bytes. It also records every immutable Japanese
+source range; those bytes and the old English allocations remain occupied.
+
+All 410 editorial revisions are pinned in
+[revisions.json](../translations/prose-review/revisions.json). Two full-wording
+changes already have suitable accepted compact displays and require no ROM
+change. The remaining 408 use their existing readers and formatting contracts.
+The plan checks each typed pointer against both the original Japanese source
+and the exact encoded English allocation in the accepted baseline. It grants
+no ownership of neighbouring event words, pointer-table gaps or source pools.
+
+No code, graphics, font, RAM reservation or save-record layout changes occur.
+In particular the four XP/level templates and the full location-name
+pointers used by the accepted rendering hooks retain their existing addresses.
+All title/arrival assets and earlier allocations retain their bytes and owners.
+The cumulative ledger has 8,891 allocations and 10,122 original-ROM patch
+records, including the complete prior-owner history for every supersession.
+Used appended space including alignment is 1,188,911 bytes. The
+[acceptance report](../build/prose-review/acceptance.json) pins ROM
+`407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`
+and verifies exact whole-image reconstruction, every prior allocation and all
+unrelated patches, immutable Japanese sources and unchanged RAM ownership.
+See [prose review](PROSE_REVIEW.md) for language and native coverage.
+
+Additional read-only event-context evidence: original ROM
+`[00954758,009547A0)` contains Douglas's interview question and adjacent
+responses/branch commands; `[009D7EF4,009D7F0C)` contains the chief's connected
+dream speeches in reader order. These are occupied event data, not free space.
+Only the already catalogued four-byte text operands receive the planned prose
+supersessions; every surrounding command and branch parameter stays unchanged.
+No new code or RAM reservation follows from this contextual reading.
+
 ## Approved title insertion: accepted ownership (2026-09-13)
 
 Owner `title-art`. The user approved the Stone & gold draft and requested

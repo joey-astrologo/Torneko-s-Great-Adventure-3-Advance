@@ -6,9 +6,12 @@ confirmation between the build-convenience, screenshot-fix, title-audition and
 prose-review steps. Build convenience and the four screenshot fixes are complete
 and accepted by the user. The [title audition](TITLE_AUDITION.md) was also
 approved; [title insertion](TITLE_INSERTION.md) is now complete and included
-in `./build.sh`, with native title/fade/blink/menu checks. Stop here for the
-user's next confirmation before the prose pass. Work remains in progress;
-deferred personal playtesting remains separate.
+in `./build.sh`, with native title/fade/blink/menu checks. The authorized
+[prose second pass](PROSE_REVIEW.md) is now complete: 7,324 bilingual catalog
+pairs and 425 compact displays reviewed, with 410 revisions. Revised native
+readers, title/rendering regressions and a natural defeat/return route pass.
+`./build.sh` publishes ROM `407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`
+and its verified BPS patch. Deferred personal playtesting remains separate.
 
 Current checkpoint (2026-09-13): **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 inventory entries**.

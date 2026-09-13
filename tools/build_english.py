@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_title_art as current
+from tools import build_prose_review as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
