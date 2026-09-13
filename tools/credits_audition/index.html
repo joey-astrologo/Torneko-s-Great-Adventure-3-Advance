@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Torneko 3 · Credits lettering studio</title>
+<style>__STYLE__
+.proof canvas{width:480px;max-width:100%}.transcript{white-space:pre-wrap;color:var(--muted);font:13px/1.6 ui-monospace,monospace}.proofs{grid-template-columns:repeat(2,minmax(0,1fr))}.card canvas{width:240px;max-width:100%}.gallery{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}@media(max-width:650px){.proofs{grid-template-columns:1fr}}
+</style>
+<header><div><div class="tag">Torneko 3 Advance · Artwork audition</div><h1>Credits lettering studio</h1><p>The Japanese original already uses English credits. Compare its styling at game size.</p></div><div class="actions"><button id="load">Load settings</button><button id="save">Save settings</button><button id="sheet" class="primary">Export all 31 · PNG</button><input id="importFile" type="file" accept=".json,application/json" class="hidden"></div></header>
+<main><aside><div class="aside-heading"><h2>Lettering &amp; layout</h2><p class="mini">Rounded is the starting candidate. Font choices remain open.</p></div>
+<div class="presets"><button data-preset="rounded">Rounded</button><button data-preset="mixed">Rounded + small</button><button data-preset="papyrus">Papyrus</button><button data-preset="shiren">Shiren</button><button id="reset">Reset</button></div>
+<label class="control"><span>Role &amp; title font</span><select id="headingFace"></select></label>
+<label class="control"><span>Staff name font</span><select id="nameFace"></select></label>
+<div class="split"><label class="control"><span>Role height · px</span><input type="number" id="headingHeight" min="7" max="16"></label><label class="control"><span>Name height · px</span><input type="number" id="nameHeight" min="7" max="16"></label></div>
+<label class="control"><span>Intro title height · px</span><input type="range" id="titleHeight" min="8" max="17"><output id="titleValue"></output></label>
+<label class="control"><span>Extra letter spacing · px</span><input type="range" id="tracking" min="0" max="2"><output id="trackingValue"></output></label>
+<label class="control"><span>Roles</span><select id="roleCase"><option value="upper">Small capitals, like the original</option><option value="source">Lowercase source spelling</option></select></label>
+<label class="control"><span>Alignment</span><select id="align"><option value="original">Original positions</option><option value="center">Centre every line</option></select></label>
+<label class="control"><span>Pixel edges</span><select id="edges"><option value="soft">Soft · four shades</option><option value="crisp">Crisp</option></select></label>
+<div class="split"><label class="control"><span>Role colour</span><input type="color" id="headingColour"></label><label class="control"><span>Name &amp; title colour</span><input type="color" id="nameColour"></label></div>
+<label class="control"><span>Extra vertical spacing · px</span><input type="range" id="leading" min="0" max="4"><output id="leadingValue"></output></label>
+<label class="control"><input type="checkbox" id="guides"> Show the original text area</label>
+<p class="note">Names and copyright are preserved. These are text cards on black; ending scenes and their timing are outside this preview.</p></aside>
+<section class="workspace"><div class="workspace-top"><div><h2 id="pageName"></h2><p class="mini" id="pageInfo"></p></div><div class="actions"><button id="previous" aria-label="Previous card">← Previous</button><button id="next" aria-label="Next card">Next →</button></div></div>
+<div class="proofs"><div class="proof"><div class="proof-label"><strong>Japanese-ROM original</strong><span>Original font &amp; colours</span></div><canvas id="original" width="240" height="160"></canvas></div><div class="proof"><div class="proof-label"><strong>Candidate</strong><span>Enlarged view</span></div><canvas id="preview" width="240" height="160"></canvas></div></div>
+<div class="native-row"><div class="native-frame"><div class="proof-label">Native size · 240 × 160</div><canvas id="native" width="240" height="160"></canvas></div><div class="status"><p id="fit"></p><p class="mini" id="supplements"></p><div class="actions"><button id="png">Export card · 1× PNG</button><button id="png3">3× PNG</button><button id="compare">Export comparisons</button></div><details><summary>Original credit wording</summary><div id="transcript" class="transcript"></div></details></div></div>
+<hr class="divider"><div class="gallery-head"><h2>All 31 text cards</h2><span id="galleryStatus" class="mini"></span></div><div id="gallery" class="gallery"></div></section></main>
+<footer>Offline audition. Original text layer checked against mGBA’s native renderer for every card. Keep the settings JSON with your preferred PNGs; changes are not saved automatically. Main Japanese title-screen logo remains as chosen.</footer><div id="toast" role="status" class="toast hidden"></div>
+<script>const DATA=__DATA__;</script><script>__SCRIPT__</script></html>

@@ -1,9 +1,52 @@
 # Deferred gameplay checks
 
-Updated 2026-09-12. The user wants to continue translation and playtest when
+Updated 2026-09-13. The user wants to continue translation and playtest when
 time permits. **No user playtesting is required today or before the next
 translation batch.** Codex can develop automated routes independently; later
 personal playtesting can supplement that coverage.
+
+The four user-reported [rendering issues](RENDERING_FIXES.md) are corrected in
+ROM `fd0c0dd97ffd205bcc4ba71711c76edcc6f33dad912731d7d9d629188414ace8`.
+Cold name entry checks both Erase and Cancel, including character and page
+redraws. Normal navigation from the supplied Records/status states and 94
+controlled dungeon/town headings pass. XP and level messages pass 166 paired
+formatter cases and 140 paired native queue/history cases; the new entries
+also render through the user's history screen in a disposable session.
+Personal review of the fixes and naturally awarded combat XP/level messages
+remain pending. The XP examples use controlled substitution slots and do not
+claim to earn XP naturally. Existing history records retain their old line
+breaks; close/reopen menus after loading an older state to redraw geometry.
+All four supplied save/state files were hash-checked unchanged.
+Per the user's current workflow, stop after these fixes for confirmation
+before title audition or the prose second pass.
+
+The approved [Credits-adapted arrivals](ARRIVAL_INSERTION.md) are now inserted
+for all 36 card identities / 64 selectors, with matching floor lettering.
+All 1,259 controlled constructor cases pass, including both puzzle classifiers,
+arena title-only behavior, suppression, all byte floor values and buffer/ABI
+guards. The natural cave floor-2 card matches 1,567 artwork pixels and the
+complete VRAM upload; its fade, tutorial dismissal and subsequent movement
+leave the same final screen/position/frame/save as the previous build.
+Natural visits to other dungeons, puzzle cards, arena and alternate trial
+cards remain useful playtest coverage. Separate town-card families remain
+unconfirmed. No personal test is needed before using this build.
+
+The [scene-graphics sweep](GRAPHICS_REVIEW.md) now checks all 102 background
+maps and all 194 tile-animation frames against native code. The END artwork
+and examined INN signs are already English. Six small source-art details have
+PNG crops and exact tile provenance; several are too small to transcribe and
+are not confirmed Japanese. No extra town-name card is identified in this
+family. Other sprite/object overlays, natural first-visit transitions and full
+ending playback remain open. This read-only pass leaves the English ROM and
+the 74-candidate ordinary-text queue unchanged.
+
+The [credit audition](CREDITS_AUDITION.md) now verifies all 31 original credit
+text cards through controlled native queue/setup/draw instructions (140
+references, 1,971 glyphs, exact text-buffer pixels and packed palette staging).
+Their text is already English in the Japanese original. Natural ending
+playback, scene illustrations, palette uploads/fades and transitions remain
+pending; the isolated PNG sheets do not cover these. Font auditions introduce
+no ROM change and do not require personal playtesting before review.
 
 The [normal defeat regression](RESULT_RUNTIME.md) now covers the complete
 floor-two results animation and return to town. It found and corrected the
@@ -57,7 +100,7 @@ not be described as already tested.
 | Original speed-summary discrepancy | Trace the second double-speed condition and decide whether its repeated two-attack Japanese summary should be corrected to one attack. | Both source rows currently say two attacks; translated as written. The help page correctly preserves the separate one-attack and two-attack explanations. No game-logic or source-bug fix is included. |
 | Core gameplay effects and message history | Naturally trigger hunger warnings, status onset/recovery, curses, throwing/using items, full inventories, item losses and ordinary combat. Check scrolling/history and message timing together. | All 205 selected templates pass native message display and guarded substitutions, including width stress. Fixtures suppress per-glyph delay and do not execute every effect/caller. |
 | Full command/settings contexts | Check transformed Abilities/Skills commands, allies, dungeon/arena variants and all settings/help routes in play. Confirm trap/stair choices perform the selected action; check empty-container prompts and conditional actor reveal labels in their actual callers. | All 262 core catalog rows have controlled display coverage, four computed command variants and three stair offsets retain native strides, and natural world settings left/right changes and restores the option. The ten help bodies now have separate coverage in the help milestone. |
-| Dungeon transitions and result headers | Visit ordinary and puzzle dungeons, check full/display names, transitions and result/ranking contexts. | All 64 name pointers render in the native 120-pixel header, including a `#99` puzzle-number stress case. This is not a natural dungeon traversal. |
+| Dungeon transitions and result headers | Visit ordinary and puzzle dungeons, check full/display names, transitions and result/ranking contexts. | The rendering-fix build checks all 64 selectors in the native 112px status header using the actual puzzle classifier and floor 99, plus 30 town headers with measured status-only forms. These controlled cases do not traverse the destinations naturally. Earlier 120px proofs retain their historical ROM context. |
 | Object search branches | Open/search chests, barrels, pots, dressers, cupboards and shelves in both unopened/opened states, with and without items. | All 14 message sources have native story display checks for both protagonists; actual ground-search event pointer reads also pass. Object triples have static reader evidence, not every natural branch. |
 | Secondary item actions | Use, discard, rename, fill/pour, transfer into/out of containers and navigate warehouse service menus during ordinary play. | All 41 fixed action records fit; 14 secondary popup fixtures cover seven item categories. Shared service labels now have their own catalog and bounded fixtures; natural transfer/transaction contexts remain pending. |
 | Protagonist-name contexts | Check Torneko/Tipper in later story, arena and status/reveal contexts. | `$t`, both fixed-name copies, 400 enemy-copy regressions and four detail screens pass. Entered Adventure Log names remain separate. |

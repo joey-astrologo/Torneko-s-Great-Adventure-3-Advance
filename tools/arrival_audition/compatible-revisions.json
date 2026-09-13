@@ -1,0 +1,8 @@
+[
+  {
+    "source_rom_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+    "font_asset_sha256": "888f2ca9051b232e70bdabdeee331d5674af40c684cd61ca6f66dccba6d90b7b",
+    "renderer_sha256": "08afabacfcb68f807e10397802e8d73c4cb747091c294afcc392a9cbcde69e0c",
+    "scope": "Original three-preset studio; its existing face data and bitmap composition remain unchanged when adding Credits."
+  }
+]

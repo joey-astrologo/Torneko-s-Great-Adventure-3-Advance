@@ -1,18 +1,30 @@
 # Continuous translation completion
 
 The user authorized continuing through the remaining translation without
-section-by-section confirmation on 2026-09-11. Work remains in progress.
-Only a concrete issue needing the user's judgment or unavailable evidence is
-a reason to pause for input. Deferred personal playtesting remains separate.
+section-by-section confirmation on 2026-09-11. On 2026-09-13 they requested
+confirmation between the build-convenience, screenshot-fix, title-audition and
+prose-review steps. Build convenience is complete; the four screenshot fixes
+are now complete with automated verification. Stop here for their review
+before starting the title audition or prose pass. Work remains in progress;
+deferred personal playtesting remains separate.
 
-Current checkpoint (2026-09-12): **8,422 authored sources + 822 retained
+Current checkpoint (2026-09-13): **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 inventory entries**.
-The latest accepted [empty-inventory popup correction](INVENTORY_NOTICE.md)
-includes the [menu](UI_POLISH.md) and [results-screen](RESULT_RUNTIME.md) fixes.
-Its [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) verifies a naturally earned
+The latest accepted [rendering corrections](RENDERING_FIXES.md) fix clipped
+keyboard hints, the Records border, overlapping status panels and unnecessary
+numeric line breaks in XP/level messages. It passes 166 paired formatter cases,
+140 paired queue/history cases, 94 location cases and normal menu/input checks
+using disposable copies of the user's saves. Natural combat awards remain
+separate from the controlled message fixtures.
+The included [Credits-adapted arrival insertion](ARRIVAL_INSERTION.md)
+has all 36 arrival titles and matching floor lettering, along with the
+[inventory](INVENTORY_NOTICE.md), [menu](UI_POLISH.md) and
+[results-screen](RESULT_RUNTIME.md) fixes. Its 1,259 controlled arrival cases
+and natural cave transition/fade/movement comparison pass.
+The earlier [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md) verifies a naturally earned
 defeat record, priest saving, cold records and both seven-letter Adventure Logs.
-Graphics remain
-deferred, and the original Japanese title artwork is intentionally retained.
+Other undiscovered graphics remain open; the already-English ending credits
+and original Japanese title logo are intentionally retained.
 These counts describe the current inventory, not full-game discovery or
 natural gameplay completion. Historical checkpoints below retain their own
 ROM hashes and coverage limits.

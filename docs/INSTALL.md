@@ -9,6 +9,10 @@ for exact versions and results.
 
 ## Use the installed tools
 
+To rebuild the current English ROM and BPS patch directly in `build/`, run
+`./build.sh`. See [BUILD.md](BUILD.md) for the output paths, build receipt and
+project-local patch tool.
+
 From the project root:
 
 ```bash

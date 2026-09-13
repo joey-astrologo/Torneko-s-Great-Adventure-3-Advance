@@ -1,7 +1,23 @@
 # Torneko 3 Advance documentation
 
-Latest accepted build: [empty-inventory popup correction](INVENTORY_NOTICE.md),
-including the menu and results-screen corrections. The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md)
+Run `./build.sh` to produce the easy-to-find
+[English ROM](../build/torneko-3-english.gba),
+[BPS patch](../build/torneko-3-english.bps) and
+[build receipt](../build/torneko-3-english.json) directly in `build/`.
+See [building and patching](BUILD.md) for instructions and validation details.
+
+Latest accepted build: [screenshot rendering corrections](RENDERING_FIXES.md).
+Keyboard hints and the Records border fit, town/dungeon status panels no
+longer overlap, and XP/level messages use one line when their actual text fits.
+Paired native formatter/queue/history checks and 94 location cases pass;
+the supplied save/state files remain unchanged. The linked report includes
+before/after PNGs and explains why old history entries retain their wrapping.
+
+This includes the approved [Credits-adapted arrival cards](ARRIVAL_INSERTION.md)
+and all previous text, inventory, menu and results-screen corrections.
+All 36 arrival titles and matching floor lettering are inserted; 1,259
+controlled cases and the natural cave arrival/fade/movement route pass.
+The [native save roundtrip](NATIVE_SAVE_ROUNDTRIP.md)
 verifies a naturally earned defeat record, priest save, cold records display
 and both seven-letter Adventure Logs. Inventory accounting is
 8,422 authored sources, 822 retained resources and 74 unresolved candidates.
@@ -13,15 +29,27 @@ An [initial Japanese-guide check](JAPANESE_GUIDE_LEADS.md) adds sourced mechanic
 leads for the weight labels, shell emergence and destination-pot failure.
 The [successful cave-clear roundtrip](CAVE_CLEAR.md) now also passes: three
 floors, the following shrine/party story, priest saving, cold records and both
-Logs, with no further ROM changes.
+Logs, on the earlier inventory-notice ROM.
 The [arrival-card review](ARRIVAL_CARDS.md) now exports all 36 distinct original
 dungeon cards from the 64-entry table to PNG sheets for English auditions.
-Separate town cards are not yet confirmed. Ending/credit graphics remain
-deferred; the original Japanese title logo stays.
+Separate town cards are not yet confirmed; the original Japanese title logo stays.
 The [offline lettering studio](ARRIVAL_AUDITION.md) now provides a recovered
-Shiren bitmap alphabet, marked supplements, three starting styles and
-interactive previews/exports for all 36 cards. These are artwork auditions;
-the accepted ROM is unchanged.
+Shiren bitmap alphabet, marked supplements, four starting styles and
+interactive previews/exports for all 36 cards. Its settings remain separate
+from the frozen approved artwork used by the insertion build.
+The fourth arrival candidate adapts the original credits lettering into
+capitals and small capitals, with matching digits and no external supplements.
+The [remaining scene-graphics review](GRAPHICS_REVIEW.md) now exports all 102
+scene-table backgrounds and 194 tile-animation frames, with exact native
+decoder checks. The separate END graphic and inspected INN signs are already
+English. Six small ambiguous/decorative details are preserved for review;
+no additional Japanese town-name card is confirmed in this family.
+The [ending-credit studio](CREDITS_AUDITION.md) now adds 31 original text cards
+and font auditions. Their title, staff and copyright text is already English
+in the Japanese ROM. All 140 references and 1,971 glyphs pass controlled native
+text-layer checks. Credits adapted is now approved and inserted for arrival
+cards; ending-credit text/rendering remains unchanged. Ending scenes/illustrations
+and natural credit playback remain outside this text-layer preview.
 
 Current build: [continuous completion](COMPLETION.md), through the ordinary story,
 pet/password scenes, shared narration, arena services, adventure history/results, church services, remaining frontend text, composed item labels, direct dungeon events and remaining
@@ -46,6 +74,7 @@ in the playtest backlog.
 - [Deferred gameplay checks](PLAYTEST_BACKLOG.md): coverage to revisit while translation work continues.
 - [Arrival-card PNGs](ARRIVAL_CARDS.md): indexed Japanese originals, separate floor glyphs, native comparison and town-coverage limits.
 - [Arrival lettering studio](ARRIVAL_AUDITION.md): reconstructed alphabet, live controls, all-card comparisons, PNG exports and saved auditions.
+- [Ending-credit lettering studio](CREDITS_AUDITION.md): 31 original credit text cards, font comparisons and native-size review.
 - [Natural save roundtrip](NATIVE_SAVE_ROUNDTRIP.md): fresh names, first-floor defeat, priest save, cold earned records and both Adventure Logs.
 - [Natural first-cave regression](NATURAL_CAVE.md): separately pinned village/rest, equipment, combat and stairs route to floor two.
 - [Gameplay wording corrections](TEXT_POLISH.md): Recovery pot tutorial/menu consistency and normal pot-use verification.

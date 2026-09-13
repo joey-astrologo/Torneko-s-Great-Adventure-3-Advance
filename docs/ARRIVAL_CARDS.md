@@ -4,7 +4,9 @@ The original dungeon arrival table has **64 selectors pointing to 36 distinct
 Japanese graphics**. All 36 are exported for review, including the four
 alternate trial titles. [An English lettering audition](ARRIVAL_AUDITION.md)
 now includes a reusable reconstructed Shiren face and interactive comparisons.
-No English arrival artwork has been inserted.
+The user subsequently approved Credits adapted; the
+[English insertion](ARRIVAL_INSERTION.md) now covers all 36 cards and their
+matching floor lettering. This page retains the original Japanese source review.
 
 - [All 36 cards, 2× PNG](../build/arrival-cards/arrival-cards-japanese.png)
 - Larger pages: [1](../build/arrival-cards/arrival-cards-japanese-page-1.png),
@@ -44,6 +46,12 @@ lack such cards. Any further town artwork discovered during gameplay should
 be added to the manifest and memory map before audition/insertion. Ending and
 credit graphics remain outside this extraction; the original Japanese title
 logo remains intentionally preserved.
+
+The subsequent [scene-background sweep](GRAPHICS_REVIEW.md) exports all 102
+scene-table backgrounds and their tile-animation frames. It confirms no
+additional town-name card in that family, while preserving small sign/detail
+PNGs for review. This narrows the search but leaves sprite/object overlays,
+other loaders and natural first-visit coverage separate.
 
 ## Source and validation
 

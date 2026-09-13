@@ -13,6 +13,7 @@ builds, scripted emulator routes, memory assertions, and screenshot comparisons.
 | Emulator test automation | Upstream mGBA Python bindings with a small project adapter | Control inputs and frames, inspect memory, restore fixtures, and capture rendered output. |
 | Assembly patches | armips | Assemble ARM/Thumb hooks and enforce space limits on inserted code/data. |
 | Extraction, builds, and tests | Python, Pillow, and standard-library unittest | Extract and encode text, process graphics, assemble reproducible ROM changes, and verify results. |
+| Distributable translation patches | Floating IPS command-line tool | Create BPS patches for the expanded 32 MiB ROM and verify that applying them reproduces the build exactly; see [BUILD.md](BUILD.md). |
 
 [Ghidra](https://github.com/NationalSecurityAgency/ghidra) provides disassembly and
 decompilation for analysis. The [GBA loader](https://github.com/pudii/gba-ghidra-loader)

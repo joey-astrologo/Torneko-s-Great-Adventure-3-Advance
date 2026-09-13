@@ -1,5 +1,11 @@
 # Translation terminology
 
+The [2026-09-13 rendering corrections](RENDERING_FIXES.md#status-only-place-names)
+add seven measured town-name display forms solely for the 112px status panel.
+The full place names, Japanese identities, glossary, dialogue and destination
+lists remain unchanged. This is a layout correction, not a terminology review
+or the planned prose second pass.
+
 Current working review: [continuous completion](COMPLETION.md), with **2,258
 translated story sources** in the
 [cumulative review](../translations/story-completion-terminology-review.tsv).

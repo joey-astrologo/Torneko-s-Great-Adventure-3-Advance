@@ -1,10 +1,60 @@
 # Memory map and insertion ownership
 
-Latest combined component build: [continuous completion](COMPLETION.md), occupied
-append `[01000000,01069FFA)`; 434,170 bytes,
-8,428 allocations and 10,110 checked original patch records.
+## Screenshot rendering corrections: accepted ownership (2026-09-13)
+
+Owner `rendering-fixes`, based on accepted arrival ROM SHA256
+`08239b255025e6e2627ec0184eb829cb453dc30b0aa7a518e7e8714fc678f2c6`.
+Exact prepared allocations, original/cumulative preconditions, superseded
+owners and four selected message pointers are in
+[allocation-plan.json](../build/rendering-fixes/allocation-plan.json).
+The shared allocator owns `[01113FB8,011142D0)` (792 bytes including alignment):
+64-byte private town descriptor, 128 font-0 ASCII width bytes, seven private
+town display strings, a terminated original/display pointer map and wrapper
+code. No original or previously appended data is treated as free space.
+
+| Address space / range | Purpose and evidence |
+|---|---|
+| ROM `[0007BD94,0007BD9A)`, `[0007BDA0,0007BDA2)`, `[0007BE4A,0007BE4C)` | Both shared keyboard hint draw paths move X170 to X156. The per-character redraw's clear rectangle moves to X156/Y101 and widens from 38 to 52px so switching Cancel/Erase leaves no stale pixels. Native listing in `build/completion/remaining-ui/research/keyboard-readers.txt`; both Cancel (45px) and Erase (42px) fit inside the 208px field, following the separate 134px hint. Natural input tracing exposed the second redraw path in addition to the initial page render. |
+| ROM `[00085FCC,00085FCE)` | Existing `result.categories.width` patch superseded from 26 to 20 tiles (160px). Native category descriptor is assembled by `08085FB0`, X=3; all 11 source labels measure at most 144px plus the native cursor/inset. Listing in `build/completion/results/research/categories-and-driver.txt`. |
+| ROM `[00CA28C4,00CA28CA)` | Stock dungeon status window 1: X/Y/width `(13,3,15)` to `(14,3,14)` tiles. Content becomes X112/width112; the outer left border begins X104, after the command window's outer right edge. Native constructor `0806C8C8`; listing in `build/dungeon-interface/research/dungeon-header.txt`. |
+| ROM `[00076234,00076238)` | Existing `gameplay.window.00076234` pointer superseded to the new private town descriptor. The prior relocated descriptor is `[0100F62C,0100F66C)`; original source is `[00C3EE90,00C3EED0)`. Preserve every field except location X/width, including the already widened command panel. |
+| ROM `[00076254,0007625C)` | Town status renderer's private call to `0806040C`, followed by moving its result into printf argument 2 and forming the stack destination. The new wrapper calls the same getter, substitutes only seven measured display aliases, replays those setup instructions and resumes at `0807625C`. Other place getters, shared names, dialogue, Zoom list and records are untouched. Native listing in `build/core-gameplay/research/menus.txt`; 16 transient stack bytes during this wrapper. |
+| ROM `[0007D8CC,0007D8D8)` | Checked 12-byte native formatter prologue redirected to a wrapper. The wrapper replays the displaced instructions and resumes at `0807D8D8`. Full-message mode retains the native source return; line mode advances past the second source line only when that line was successfully included. Original formatter listing in `build/dungeon-interface/research/story-formatter.txt`. |
+| Runtime stack, transient | Wrapper adds 112 bytes while the original formatter runs, including an 80-byte bounded lookahead buffer. Its later join helper uses another 24 bytes after the native formatter frame has returned. No permanent RAM reservation. Full-message mode changes at most one existing LF byte to space; line mode copies the joined text only after pixel, byte and caller-capacity checks. |
+
+Only the existing relocated `gameplay.001b4e23`, `001b4e38`, `001b4e7b`
+and `001b4e91` templates are eligible. The final numeric line joins its preceding
+line only when ASCII font-0 extents fit 208 pixels and the history payload is
+at most 59 bytes. Long substitutions, non-ASCII names, controls or an unexpected
+last-line form retain the original wrapping. No text meaning, name encoding,
+save records, message/history record sizes or original message pointers change.
+The native combat queue calls `0807D8CC` separately for each source line
+(`line_mode=1`), so checking only full-message mode was insufficient. The plan
+also pins the prefix address preceding each final numeric line. A bounded
+lookahead formats that pair using the original formatter; success consumes
+both lines, and failure preserves the original one-line result and source return.
+This section recorded evidence and ownership before insertion. The
+[acceptance report](../build/rendering-fixes/acceptance.json) now pins the
+accepted ROM `fd0c0dd97ffd205bcc4ba71711c76edcc6f33dad912731d7d9d629188414ace8`,
+complete image comparison, 166 paired formatter cases, 140 paired native
+queue/history cases and 94 location cases. See [rendering fixes](RENDERING_FIXES.md)
+for coverage limits and screenshots.
+
+The town review found full place names up to 128px, already too wide for the old
+120px status field. The plan records all 30 Japanese identities/full English
+names, with seven status-only forms that fit the new 112px field. These are
+display abbreviations, not glossary/name changes. All original and translated
+shared place-table bytes remain protected by their earlier component owners.
+
+Latest combined component build: [rendering fixes](RENDERING_FIXES.md), occupied
+append `[01000000,011142D0)`; 1,131,216 bytes,
+8,481 allocations and 10,121 checked original patch records.
 Exact owners and explicit shared ownership are in
-[its ledger](../build/completion/inventory-notice/english-build.json).
+[its ledger](../build/rendering-fixes/english-build.json).
+The [convenient latest build](BUILD.md) also writes its cumulative ledger to
+[build/latest/english-build.json](../build/latest/english-build.json), identifying
+the source and output hashes. The shortcut builds this component; packaging
+adds no ROM patches, allocations or RAM/save reservations.
 The combined text components have passed their documented native checks.
 The opening, first-cave and native defeat/save/cold-reload routes also pass
 their separately pinned normal-button regression checks.
@@ -434,6 +484,42 @@ They contain non-text too and are **search boundaries, not allocation regions**.
 See [extraction notes](TEXT_EXTRACTION.md) for their limitations.
 
 ## Font assets and inspected code
+
+Ending-credit audition discovery (2026-09-12), owner `credits-audition`,
+read-only Japanese-original research; no insertion ownership or ROM output:
+
+- ROM `[0091D688,0091D6C0)` adds five positioned title/introduction sources
+  to the previously reviewed staff-credit span. Their original strings occupy
+  `[0091E668,0091E6A8)` including intervening alignment gaps, which remain
+  protected. They read `DRAGON QUEST`, `CHARACTERS`, `TORNEKO'S ADVENTURE 3`,
+  `FOR GBA`, and `STAFF`; these too are already English in the Japanese ROM.
+- Original credit setup at `[00062928,00062990)` selects font 2, supplies
+  palette `[00CA178C,00CA17CC)` (16 packed colour words), and copies the
+  existing 16-byte window descriptor `[0086F44C,0086F45C)` to UI root+10.
+  Descriptor geometry: origin (16,16), 208 by 136 pixels. The setup and
+  positioned draw listing is `build/credits/research/credits-draw.txt`.
+  Exact source/command/glyph ranges are indexed in
+  [the credits manifest](../build/credits/manifest.json): 31 cards, 140 references,
+  139 distinct sources. Source byte `@` selects the copyright-symbol glyph
+  in font 2; human-readable credits use `©` without changing source bytes.
+- The controlled reader uses existing window geometry fields
+  `[02034CD8,02034CE2)`, tile-buffer pointer `[02034CEC,02034CF0)`, and
+  tile buffer `[02035E1C,0203955C)` (26×17×32 bytes),
+  reused from the ordinary UI allocator, not a new credits reservation.
+  Original palette setter `08089D0C` stages the 16 packed words at
+  `[03003660,030036A0)` within the existing palette array based at `030032A0`.
+  It marks bank-15 state at `03003BCC` and pending byte `03000044`;
+  `08089EA0` updates the existing request flags `[03000048,0300004C)`.
+  Exact routines are exported in `build/credits/research/palette-state.txt`.
+  The fixture checks this packed staging; previews reconstruct the fully
+  visible colours, without claiming capture of the ending's fade/upload.
+- Controlled credit-render probes reuse the previously documented disposable
+  story fixture, controller `[0203F000,0203F080)`, and temporary stack
+  `[03007800,03007E40)`. They seed only the existing 16-slot queue, then run
+  original setup and draw instructions with the original strings. Each page
+  restores its snapshot. No permanent RAM reservation or save change is made.
+  This establishes the isolated credit text layer, not natural ending playback
+  or the absence of separate ending illustrations.
 
 | File range | Role and evidence |
 |---|---|
@@ -3448,3 +3534,119 @@ the existing original-byte/overlap checks across all components.
 
 See [ARRIVAL_AUDITION.md](ARRIVAL_AUDITION.md) for source provenance, marked
 supplements, review/export instructions and the retained Japanese logo scope.
+
+### Credits-derived arrival font candidate (2026-09-12)
+
+Owner `arrival-audition-credits`, offline authoring only. No new GBA ROM, RAM,
+VRAM or save reservation. [credits-arrival-candidate.json](../assets/fonts/credits-arrival-candidate.json)
+records all 52 original glyph sources with exact 12-byte descriptor and 72-byte
+bitmap ranges, source bytes, and single-byte-map offsets. They belong to
+the protected font-2 descriptor table `[00CA1300,00CA178C)` and its bitmap
+pool; the relevant single-byte map remains `[00CA2674,00CA2874)`.
+
+The candidate has 78 input characters: capitals, derived small capitals,
+digits, space, reviewed punctuation and copyright. Lowercase input uses a
+smaller derivative of the original uppercase design, not the different upright
+small-cap glyphs stored in the original lowercase slots. The blue/dark fringe
+is removed, alpha reduced to four levels, widths scaled by 82%, and new spacing
+recorded. The mapping of `©` to source slot `@` is explicit; literal `@` and
+the box-shaped `_` slot are not exposed as misleading ASCII glyphs. These
+are draft modified pixels, not byte-identical source glyphs or an insertion
+approval. Original ROM bytes and the original shared audition font JSON remain
+unchanged. The arrival builder combines both external font assets and records
+their file hashes and combined font hash.
+
+### Approved Credits-adapted arrival insertion (2026-09-13)
+
+The user approved Credits adapted and requested insertion. Owner
+`arrival-credits` uses the existing cumulative shared allocator after the
+inventory-notice build (`8757bf5c…e960`), rebuilt from pinned Japanese source
+`35bfff00…4d02`. This supersedes the authoring-only status above for this
+approved preset. The main Japanese logo and ending-credit renderer are retained.
+
+The pre-insertion [allocation plan](../build/completion/arrival-credits/allocation-plan.json)
+records all 42 exact exclusive-ended file spans and alignment padding in ROM
+`[01069FFA,01113FB8)`: 696,254 bytes including two leading alignment bytes.
+It owns 36 title-map/tile resources, 64 pointers, 64 signed-halfword counts,
+one 16-word palette, 512 floor-map/tile resources within one protected allocation,
+their 12-byte records, and the two-entry Thumb extension. Nested floor spans
+are explicitly contained in the single `arrival-credits.floor-art` owner;
+they are not independently allocated or writable overlapping resources.
+The plan is evidence of intended placement; the insertion's complete ledger
+and final ROM hash are recorded separately in
+[english-build.json](../build/completion/arrival-credits/english-build.json).
+
+| Address space / exclusive range | Purpose, evidence, build context |
+| --- | --- |
+| ROM `[00005210,00005218)` | Checked 8-byte Thumb jump replaces the original floor-atlas loading setup. New helper clears the existing floor slot, copies only its selected pre-rendered floor tiles, returns with `r1=02035DDC` to the unchanged 0x2800-byte upload at `08005228`. |
+| ROM `[00005298,000052A0)` | Checked 8-byte Thumb jump after native title copying. New helper preserves arena ID 26's title-only rule and copies floor map rows 12–15, returning to the original constructor epilogue `08005394`. Earlier native puzzle-100 and suppression-flag branches remain active. |
+| ROM `[000052A4,000052A8)`, `[000052B0,000052B4)`, `[000052B8,000052BC)` | Three checked constructor literals: arrival pointers, title counts, palette. Original expected addresses are `083C1450`, `083C13D0`, `083903D0`. These 12 literal bytes plus the hooks are the only new original-ROM patch ownership. |
+| EWRAM `[020371DC,020385DC)` | Existing native arrival floor-tile slot, fully cleared then filled with up to 160 indexed tiles. No new reservation or lifetime; old title/floor buffer bounds are preserved. |
+| EWRAM `[020350DC,020351DC)` | Existing BG0 rows 12–15 envelope, 30 halfwords per 64-byte row written; columns 30–31 untouched. New floor art is centered at x=120, y=100; native title copy remains rows 1–9. Existing native clear-loop extent remains as documented above. |
+| IWRAM `[03003620,03003660)` | Existing packed palette staging for entries E0–EF. Native `08089D0C` uses base literal `030032A0`; controlled constructor calls stage all 16 words exactly. No new reservation; the native palette/fade engine still owns the upload. |
+| IWRAM stack, caller-relative `[SP-28,SP)` | Maximum transient extension depth below the constructor's current SP: saved r4–r7/LR (20 bytes), nested selection LR (4 bytes), plus the original classifier's additional 4-byte push while it executes. No fixed address or persistent reservation. Callee-saved registers and r8 title pointer survive all 1,259 controlled cases. |
+
+The full byte-valued floor input has 256 ordinary and 256 puzzle records;
+the native classifier treats both nonzero puzzle results as puzzle style.
+These defensive records do not claim gameplay floors above 99 are reachable.
+Source art/table envelope `[003903D0,003C1550)` and floor index table
+`[0009B6FC,0009B72C)` remain protected and unchanged. Twelve RGB555 colours
+(including transparent black) preserve the approved raster colours after
+normal hardware conversion. No old source art, zero runs or RAM gaps are reused.
+The source-font provenance remains the existing credits candidate manifest.
+
+The accepted cumulative output is `08239b25…f2c6`; the linked complete ledger
+accounts for all 8,470 allocations and 10,115 original-region patches. The
+[native report](../build/completion/arrival-credits/verification/verification.json)
+checks all 64 selectors, all byte floor values on ordinary and both puzzle
+classifiers, suppression branches, existing buffer neighbours, profile/save
+bytes and helper ABI. The constructor queues its upload; actual VRAM and
+1,567 artwork pixels match during the normal floor-2 transition. After fading,
+dismissing the tutorial and movement, the previous/new builds have identical
+screen pixels, position, frame counter and native save bytes. See
+[ARRIVAL_INSERTION.md](ARRIVAL_INSERTION.md) for exact coverage and outputs.
+
+### Complete scene-background review (2026-09-13)
+
+Owner `graphics-review` is read-only source research and PNG export. Source
+is pinned Japanese `35bfff00…4d02`; output ROM is null. The accepted English
+arrival build `08239b25…f2c6` remains unchanged and preserves all reviewed art
+bytes. This establishes no new patch, free space, allocator claim or permanent
+RAM reservation. Existing nested/shared source descriptions are not competing
+writable owners.
+
+The [scene manifest](../build/graphics-review/scene-manifest.json) is the exact
+authority for all 102 scene entries / 73 graphics headers, both compressed map
+planes, palette/tile/metatile resources, and 194 frames in nine tile-animation
+sets. The [consolidated source ranges](../build/graphics-review/resource-ranges.json)
+contain 1,104 occupied spans with purpose, hashes and selecting scenes; they
+also map six bitmap-coordinate detail crops back to contributing ROM tile
+spans, definition words and palette banks. Do not interpret gaps or duplicate
+references as available space.
+
+| Space / exclusive range | Existing purpose, evidence and context |
+| --- | --- |
+| ROM `[00CB02F4,00CB048C)` | Existing 102-pointer scene table, cached at EWRAM `[0200046C,02000604)`. Every selected 36-byte descriptor is now followed into its 24-byte graphics header and 20-byte map header. Individual spans remain in the manifest. |
+| ROM `[00066FE4,0006766E)` | Native scene background loader, including embedded literals. Full instruction evidence in `build/graphics-review/research/scene-loaders.txt`; the next two words through `00067678` are tail literals. No code changes. |
+| ROM `[000672A2,0006752C)` | Contained map-decoder slice of the loader above. Two layers share one compressed stream, stored interleaved in RAM. Byte packet: 0–127 repeats zero pairs, 128–191 repeats one packed pair, 192–255 supplies literal pairs. Each pair contains two 12-bit indexes. Rows after the first XOR against the previous row; odd widths retain their padded partner. Exact consumed stream ends are recorded without claiming the following alignment bytes. All 102 native decodes match. |
+| ROM `[00065152,000651CA)` | Existing event opcode-03 scene-selection branch; native background-loader call at `000651A8`. Five exact eight-byte commands near the credits are recorded in the range report: `0091D628`, `0091D7C0`, `0091D9A8`, `0091DD08`, `0091DD78`. They select scenes 9, 56, 83, 31 and 101. Static script association; no complete ending playback claim. |
+| ROM `[00C3D7FC,00C3D814)`, `[00C3D814,00C3D828)`, `[00C3D828,00C3D84C)` | Scene 101 graphics header, map header and descriptor: the separate original English END background. Palette `[00C3BC50,00C3BC8C)`, static tiles `[00C3BC8C,00C3D4AC)`, metatiles `[00C3D4AC,00C3D722)`, and map stream `[00C3D724,00C3D77D)` are confirmed source art. Intervening padding is not reusable space. |
+| IWRAM `[03000020,03000024)`, `[0300001C,03000020)` | Existing pointers to map and metatile buffers. The restored world fixture gives EWRAM `[02023160,0202ED60)` for 128×94 interleaved two-plane cells and `[0202ED60,02032E10)` for 920 nine-halfword metatile slots. These absolute buffer addresses are fixture observations, not new permanent reservations. Loader capacities and full contents/padding are checked; neighbouring bytes remain intact. |
+| BG VRAM `[06008000,06010000)` | Existing 1,024-tile scene slot. Native static loader creates blank tile zero, copies `(static_count−1)` tiles and fills unused space with FF. Tile animation overwrites only its counted subspan beginning at `06008000 + static_count*32`; all 194 frame uploads and adjacent VRAM pass. |
+| IWRAM `[030032A0,03003660)` | Existing packed palette staging for scene banks 0–14. Each bank inserts transparent index zero and reads 15 original RGB words. Used banks match native staging, including the native green-channel adjustment when selected. Camera, fades and palette cycles remain separate. |
+
+Tile-animation records have three words: period, tile source and attribute
+source, followed by a null-source sentinel. Frame attributes are indexed by
+animated tile number; native `[08067FEE,08068048)` retains entry bits 0–11 and
+ORs in the selected attribute word. The nine sets' exact frame/attribute and
+sentinel spans are in the manifest. Controlled initialization reuses existing
+state `[02008C70,02008C88)` and transient stack fixture `03007800`, restoring
+the game state between scenes; it is not a runtime patch or new reservation.
+
+[Native verification](../build/graphics-review/native-verification.json)
+checks all 102 map loaders and 194 animation frames, with profile/save and
+buffer-neighbour guards. [GRAPHICS_REVIEW.md](GRAPHICS_REVIEW.md) records the
+visual result: END and INN are already English, six small details are retained
+for review, and no additional readable Japanese text or town-name card is
+confirmed in this family. Sprite/object overlays and other loaders remain
+outside this source-table coverage; no universal graphics-completion claim.

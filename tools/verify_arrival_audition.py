@@ -87,6 +87,7 @@ def verify():
             outputs.append({'png': str(path.relative_to(ROOT)), 'size': list(im.size),
                             'sha256': digest(path.read_bytes())})
     save_json(OUT/'default-settings.json', report.pop('settings'))
+    save_json(OUT/'credits-settings.json', report.pop('credits_settings'))
     report.update(source_sha256=build['source_sha256'], output_rom=None,
                   html_sha256=build['html_sha256'], font_asset_sha256=build['font_asset_sha256'],
                   harness_sha256=digest(Path(__file__).read_bytes()), png_exports=outputs,
@@ -96,7 +97,10 @@ def verify():
     (OUT/'studio-preview.png').unlink(missing_ok=True)
     chrome(['--virtual-time-budget=5000', '--window-size=1440,1300',
             '--screenshot='+str(OUT/'studio-preview.png'), html.as_uri()], OUT/'screenshot-log.txt')
-    print(f"Passed {len(report['checks'])} browser checks; three review PNGs and default settings exported.")
+    (OUT/'credits-studio-preview.png').unlink(missing_ok=True)
+    chrome(['--virtual-time-budget=5000', '--window-size=1440,1300',
+            '--screenshot='+str(OUT/'credits-studio-preview.png'), html.as_uri()+'?preset=credits'], OUT/'credits-screenshot-log.txt')
+    print(f"Passed {len(report['checks'])} browser checks; {len(outputs)} review PNGs and both settings files exported.")
 
 
 if __name__ == '__main__':

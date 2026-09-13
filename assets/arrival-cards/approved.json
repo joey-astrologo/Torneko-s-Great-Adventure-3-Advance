@@ -1,0 +1,529 @@
+{
+  "schema": 1,
+  "kind": "torneko3-approved-arrival-art",
+  "source_rom_sha256": "35bfff00dccd8de1a916b316298219c8c16a8adb0162ffe5056c481e0a8a4d02",
+  "font_asset_sha256": "5f8aa02efbf4e6cb0d569008a0d6b0560c17c68fd0232a9e0cdbb17472c3c4ad",
+  "renderer_sha256": "ecaf44818143879f12bc7977f7f143840132c698942da9a4234025157a3c51e9",
+  "settings": {
+    "face": "credits",
+    "presentation": "arrival",
+    "height": 17,
+    "tracking": 0,
+    "wrap": "auto",
+    "titleY": 27,
+    "colour": "#fff7e5",
+    "outline": 0,
+    "shadow": 1,
+    "edges": "soft",
+    "floorStyle": "matching",
+    "floor": 1,
+    "floorHeight": 22,
+    "floorAlign": "center",
+    "floorY": 100,
+    "background": "black",
+    "dim": 70,
+    "guides": false
+  },
+  "wording_overrides": {},
+  "scope": "User-approved Credits adapted arrival titles and matching floor lettering. Main Japanese logo and ending credits retained.",
+  "cards": [
+    {
+      "id": "dungeon-00",
+      "selectors": [
+        0,
+        32
+      ],
+      "text": "Mysterious cave",
+      "rendered_lines": [
+        "Mysterious cave"
+      ],
+      "fit": true,
+      "title_tiles": 49,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-01",
+      "selectors": [
+        1,
+        33
+      ],
+      "text": "Beckoning cavern",
+      "rendered_lines": [
+        "Beckoning cavern"
+      ],
+      "fit": true,
+      "title_tiles": 37,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-02",
+      "selectors": [
+        2,
+        34
+      ],
+      "text": "South Sea tunnel",
+      "rendered_lines": [
+        "South Sea tunnel"
+      ],
+      "fit": true,
+      "title_tiles": 45,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-03",
+      "selectors": [
+        3,
+        35
+      ],
+      "text": "Coral temple - Hall",
+      "rendered_lines": [
+        "Coral temple - Hall"
+      ],
+      "fit": true,
+      "title_tiles": 45,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-04",
+      "selectors": [
+        4,
+        36
+      ],
+      "text": "Coral temple - Corridors",
+      "rendered_lines": [
+        "Coral temple - Corridors"
+      ],
+      "fit": true,
+      "title_tiles": 52,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-05",
+      "selectors": [
+        5,
+        37
+      ],
+      "text": "Seabed mountain - Foothills",
+      "rendered_lines": [
+        "Seabed mountain - Foothills"
+      ],
+      "fit": true,
+      "title_tiles": 78,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-06",
+      "selectors": [
+        6,
+        38
+      ],
+      "text": "Sea Dragon Isle ruins",
+      "rendered_lines": [
+        "Sea Dragon Isle ruins"
+      ],
+      "fit": true,
+      "title_tiles": 59,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-07",
+      "selectors": [
+        7,
+        39
+      ],
+      "text": "Fossil cave",
+      "rendered_lines": [
+        "Fossil cave"
+      ],
+      "fit": true,
+      "title_tiles": 34,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-08",
+      "selectors": [
+        8,
+        40
+      ],
+      "text": "Lighthouse basement",
+      "rendered_lines": [
+        "Lighthouse basement"
+      ],
+      "fit": true,
+      "title_tiles": 61,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-09",
+      "selectors": [
+        9,
+        41
+      ],
+      "text": "Great Ruins cavern - South",
+      "rendered_lines": [
+        "Great Ruins cavern - South"
+      ],
+      "fit": true,
+      "title_tiles": 74,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-10",
+      "selectors": [
+        10,
+        42
+      ],
+      "text": "Great Ruins cavern - North",
+      "rendered_lines": [
+        "Great Ruins cavern - North"
+      ],
+      "fit": true,
+      "title_tiles": 74,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-11",
+      "selectors": [
+        11,
+        43
+      ],
+      "text": "Mountain ridge",
+      "rendered_lines": [
+        "Mountain ridge"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-12",
+      "selectors": [
+        12,
+        44
+      ],
+      "text": "Monster cave",
+      "rendered_lines": [
+        "Monster cave"
+      ],
+      "fit": true,
+      "title_tiles": 42,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-13",
+      "selectors": [
+        13,
+        45
+      ],
+      "text": "Path of the gods",
+      "rendered_lines": [
+        "Path of the gods"
+      ],
+      "fit": true,
+      "title_tiles": 49,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-14",
+      "selectors": [
+        14,
+        46
+      ],
+      "text": "Jungle graveyard",
+      "rendered_lines": [
+        "Jungle graveyard"
+      ],
+      "fit": true,
+      "title_tiles": 53,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-15",
+      "selectors": [
+        15,
+        47
+      ],
+      "text": "Jungle Island cave",
+      "rendered_lines": [
+        "Jungle Island cave"
+      ],
+      "fit": true,
+      "title_tiles": 51,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-16",
+      "selectors": [
+        16,
+        48
+      ],
+      "text": "Jungle Island dig site",
+      "rendered_lines": [
+        "Jungle Island dig site"
+      ],
+      "fit": true,
+      "title_tiles": 60,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-17",
+      "selectors": [
+        17,
+        49
+      ],
+      "text": "Evil wind cave",
+      "rendered_lines": [
+        "Evil wind cave"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-18",
+      "selectors": [
+        18
+      ],
+      "text": "Otherworld labyrinth",
+      "rendered_lines": [
+        "Otherworld labyrinth"
+      ],
+      "fit": true,
+      "title_tiles": 63,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-19",
+      "selectors": [
+        19,
+        51
+      ],
+      "text": "Dark chamber",
+      "rendered_lines": [
+        "Dark chamber"
+      ],
+      "fit": true,
+      "title_tiles": 39,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-20",
+      "selectors": [
+        20
+      ],
+      "text": "Sealed cavern",
+      "rendered_lines": [
+        "Sealed cavern"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-21",
+      "selectors": [
+        21
+      ],
+      "text": "Mysterious treasury",
+      "rendered_lines": [
+        "Mysterious treasury"
+      ],
+      "fit": true,
+      "title_tiles": 60,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-22",
+      "selectors": [
+        22,
+        54
+      ],
+      "text": "Path of trials",
+      "rendered_lines": [
+        "Path of trials"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-23",
+      "selectors": [
+        23,
+        55
+      ],
+      "text": "Seabed mountain - Summit",
+      "rendered_lines": [
+        "Seabed mountain - Summit"
+      ],
+      "fit": true,
+      "title_tiles": 71,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-24",
+      "selectors": [
+        24,
+        56
+      ],
+      "text": "Distant Isle cave",
+      "rendered_lines": [
+        "Distant Isle cave"
+      ],
+      "fit": true,
+      "title_tiles": 49,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-25",
+      "selectors": [
+        25,
+        57
+      ],
+      "text": "Hermit's cave",
+      "rendered_lines": [
+        "Hermit's cave"
+      ],
+      "fit": true,
+      "title_tiles": 41,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-26",
+      "selectors": [
+        26,
+        58
+      ],
+      "text": "Monster arena",
+      "rendered_lines": [
+        "Monster arena"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-27",
+      "selectors": [
+        27,
+        59
+      ],
+      "text": "Sage's cave",
+      "rendered_lines": [
+        "Sage's cave"
+      ],
+      "fit": true,
+      "title_tiles": 37,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-28",
+      "selectors": [
+        28,
+        60
+      ],
+      "text": "Sacrificial cave",
+      "rendered_lines": [
+        "Sacrificial cave"
+      ],
+      "fit": true,
+      "title_tiles": 46,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-29",
+      "selectors": [
+        29,
+        61
+      ],
+      "text": "Baleina cave",
+      "rendered_lines": [
+        "Baleina cave"
+      ],
+      "fit": true,
+      "title_tiles": 31,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-30",
+      "selectors": [
+        30,
+        62
+      ],
+      "text": "Monster nest",
+      "rendered_lines": [
+        "Monster nest"
+      ],
+      "fit": true,
+      "title_tiles": 37,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-31",
+      "selectors": [
+        31
+      ],
+      "text": "Illusion cavern",
+      "rendered_lines": [
+        "Illusion cavern"
+      ],
+      "fit": true,
+      "title_tiles": 43,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-50",
+      "selectors": [
+        50
+      ],
+      "text": "Otherworld trial",
+      "rendered_lines": [
+        "Otherworld trial"
+      ],
+      "fit": true,
+      "title_tiles": 49,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-52",
+      "selectors": [
+        52
+      ],
+      "text": "Trial of sealing",
+      "rendered_lines": [
+        "Trial of sealing"
+      ],
+      "fit": true,
+      "title_tiles": 47,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-53",
+      "selectors": [
+        53
+      ],
+      "text": "New World trial",
+      "rendered_lines": [
+        "New World trial"
+      ],
+      "fit": true,
+      "title_tiles": 40,
+      "supplements": []
+    },
+    {
+      "id": "dungeon-63",
+      "selectors": [
+        63
+      ],
+      "text": "Trial of illusion",
+      "rendered_lines": [
+        "Trial of illusion"
+      ],
+      "fit": true,
+      "title_tiles": 48,
+      "supplements": []
+    }
+  ],
+  "approved_on": "2026-09-13",
+  "audition_html_sha256": "a423d9a665448a8e9f81ac423880c6bdbcc28260f47c71d487cfec519714fbdd"
+}

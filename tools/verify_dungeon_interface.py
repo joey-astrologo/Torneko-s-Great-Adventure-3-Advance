@@ -87,7 +87,7 @@ def native_step(session, trace, function, args, stop=0x08000000, overrides=None)
             break
         if overrides and pc in overrides:
             registers(core, overrides[pc])
-        if pc in BREAKS:
+        if pc in BREAKS or pc in getattr(trace, "extra_breaks", ()):
             info.address = pc
             trace.entered(trace.debugger, lib.DEBUGGER_ENTER_BREAKPOINT, info)
         if pc in (0x0805F35A, 0x0801B47A, 0x0802066E):
