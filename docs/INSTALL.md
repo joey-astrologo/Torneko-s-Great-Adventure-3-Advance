@@ -26,8 +26,9 @@ open /Applications/mGBA.app
 
 The remaining sections describe recreating this installation. Python 3.11 is
 already configured for the project; no further Python setup is needed on this Mac.
-For the first actual ROM change and its emulator checks, follow
-[First working label](FIRST_LABEL.md).
+For current editing and validation, follow [TRANSLATING.md](TRANSLATING.md)
+and [TESTING.md](TESTING.md). [First working label](FIRST_LABEL.md) records the
+historical initial insertion proof.
 The later [storage and expansion proof](STORAGE.md) uses the same installed tools.
 
 ## 1. Use the native toolchain

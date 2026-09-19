@@ -71,3 +71,12 @@ strongest leads in the pinned Japanese ROM and trace their readers before
 promoting drafts for insertion. Debug labels, duplicate linked resources and
 the combined character map will usually need code/data investigation even
 when their text is understandable.
+
+## User follow-up: occupied Warp-pot destination (2026-09-19)
+
+Using the test pots, the user placed an enemy on the destination and reported
+a generic English no-effect message rather than draft `001B8A4A`. No exact
+transcript, ROM hash or execution trace was supplied for this action. The
+occupied-destination hypothesis therefore did not reproduce the draft; other
+failure paths and whether the source is unused remain unproven. See
+[WARP_POT_TEST.md](WARP_POT_TEST.md) for the helper and its scope.

@@ -1,24 +1,20 @@
-# Continuous translation completion
+# Translation milestones and historical evidence
 
-The user authorized continuing through the remaining translation without
-section-by-section confirmation on 2026-09-11. On 2026-09-13 they requested
-confirmation between the build-convenience, screenshot-fix, title-audition and
-prose-review steps. Build convenience and the four screenshot fixes are complete
-and accepted by the user. The [title audition](TITLE_AUDITION.md) was also
-approved; [title insertion](TITLE_INSERTION.md) is now complete and included
-in `./build.sh`, with native title/fade/blink/menu checks. The authorized
-[prose second pass](PROSE_REVIEW.md) is now complete: 7,324 bilingual catalog
-pairs and 425 compact displays reviewed, with 410 revisions. Revised native
-readers, title/rendering regressions and a natural defeat/return route pass.
-`./build.sh` publishes ROM `407050b263dcd3d5ad40dadd9eb70f4831085612f533288b73522e7ae0d9cc34`
-and its verified BPS patch at that checkpoint. The subsequent
-[arrival layout](ARRIVAL_LAYOUT.md) brings the name and floor together near the
-vertical centre, using the same artwork. It passes 1,259 native constructor
-cases and a natural floor transition/fade/movement comparison. The latest ROM
-is `421b353440e6d277109f8bddb852e7fc967eb44291c5c0d6cb7bb07af7029ade`.
-Deferred personal playtesting remains separate.
+For the current build and remaining work, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
+`./build.sh` now publishes through `tools.build_combat_lines`, including the
+completed prose review, English title, compact arrival cards, menu fixes and
+approved conditional combat joining. [BUILD.md](BUILD.md) describes the mandatory
+publication gates and output receipt.
 
-Current checkpoint (2026-09-13): **8,422 authored sources + 822 retained
+The sections below preserve earlier milestones and their exact ROM hashes.
+References to “latest”, deferred graphics or pending prose within those dated
+checkpoints describe that stage, not the current project state. The original
+decision to preserve Japanese title artwork was later superseded by the approved
+[English title insertion](TITLE_INSERTION.md).
+
+## Historical checkpoint: 2026-09-13
+
+Inventory at this checkpoint:  **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 inventory entries**.
 The latest accepted [title insertion](TITLE_INSERTION.md) localizes the title
 through its original graphics loader. Four paired boot routes, 484 prompt

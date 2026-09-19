@@ -3785,3 +3785,146 @@ visual result: END and INN are already English, six small details are retained
 for review, and no additional readable Japanese text or town-name card is
 confirmed in this family. Sprite/object overlays and other loaders remain
 outside this source-table coverage; no universal graphics-completion claim.
+
+### Received/outgoing damage line joining (2026-09-19)
+
+- ROM `[011224D4,01122678)`: `damage-lines` appended formatter wrapper,
+  allocated after arrival-layout. Exact bytes, source/output hashes and ten
+  source addresses are in `build/damage-lines/allocation-plan.json`; the combined
+  ledger remains the authority. Confirmed from the current English allocations.
+- Original ROM `[0007D8CC,0007D8D8)`: exact 12-byte supersession of
+  `rendering-fixes.numeric-line`, resuming native code at `0807D8D8`.
+  Preserves the four XP/level sources and adds only ordinary received/outgoing damage
+  sources, including the leading-`!` continuation entry and its stripped address.
+- Reuses the immutable `rendering-fixes.font-zero-widths` allocation identified
+  in the plan. No text/pointer, window, font, save-field or permanent RAM changes.
+  Wrapper uses the existing 112-byte transient stack frame, including an 80-byte
+  lookahead buffer; join helper additionally uses 24 bytes while called. These
+  are call-lifetime stack storage, not permanent reservations. Native formatter
+  retains its original stack frame. Source strings and original ownership remain
+  preserved; no gaps are reused.
+
+The outgoing extension rebuilds this component from arrival-layout; it replaces
+the earlier standalone received-only span `[011224D4,01122668)` rather than
+stacking overlapping components. Its existing source `gameplay.001b4d95` is at
+ROM `[0100E660,0100E679)` (`Dealt $d0 damage to\n$m1.` plus NUL), owned by
+core-gameplay; confirmed from that allocation and its checked pointer patches.
+No source text or pointer is rewritten.
+
+### Menu transition and clipping corrections (2026-09-19)
+
+Confirmed by native constructor traces in `build/menu-fixes/research/` on the
+`77638d8ccad9` English build and disassembly of the pinned Japanese source:
+
+- Original ROM `[00CA2874,00CA2DB4)` is the existing 21 × 64-byte stock window
+  profile table. Profiles 5–10 still use the Japanese command width 9 tiles;
+  full variants 5/7/9 also restore location x13/width15. Their preserved-content
+  flag (0x80) reinterprets already drawn English pixels with the wrong stride
+  and offsets. Owned halfword patches will match profiles 1/4: command width10,
+  location x14/width14. Exact changed fields are in the menu-fixes plan.
+- Original ROM `[00CA2DB4,00CA481E)` is the 21 × 322-byte stock scanline clipping
+  table (161 halfwords per profile), indexed independently at `0808D228..0808D23A`
+  via literal `0008D250`. Its `[left,right)` intervals are used by the HBlank
+  window DMA. Profiles 1/4/5/6/7/8/9/10 retain right edges 94/95 on command-only
+  rows17–54. Extend those edges by8, preserving all other scanlines and corner
+  insets. No whole-table replacement or new hardware-window behavior.
+- EWRAM `[02034CD8,02034DD8)` holds four native 64-byte live window records;
+  `[02034DD8,02034DDC)` is the current profile ID. Constructor `0808B6FC` sets
+  bitmap stride and buffer positions. Existing scratch ownership, no reservation.
+- EWRAM `[02039948,02039E50)` is the native pair of 644-byte scanline DMA buffers;
+  `[02039938,02039940)` contains active/pending buffer pointers. Native lifetime
+  and capacity retained, verified from `0808D1F8`/`0808DAF4`; not new storage.
+- Original ROM pointer `[00075750,00075754)` currently owns the relocated
+  warehouse 64-byte descriptor `interface.window.00075750`. Replace its pointer
+  with a checked copy retaining the lower counter width5, matching the base
+  inventory screen; action width6 remains. Current source descriptor ranges and
+  exact previous ownership are recorded in the generated plan.
+- Original ROM pointers `[000201FC,00020200)` and `[00077AD8,00077ADC)` own the
+  empty-ground popup and casino action label respectively. Supersede only these
+  checked owners with compact display text; retain all original Japanese bytes
+  and previous text allocations. The catalog identities remain
+  `gameplay.001b3c06` and `service.00c3f9ec`.
+
+No new permanent RAM or save fields. The new component follows damage-lines;
+all appended resources and individual original-ROM patches are checked by the
+shared allocator/ledger before publication.
+
+Appended ROM `[01122678,011226D6)` is allocated to `menu-fixes`: a64-byte
+warehouse descriptor, a21-byte ground label, alignment padding, and a6-byte
+casino label. Exact allocation/padding and220 patch records are in
+`build/menu-fixes/allocation-plan.json`. The prior warehouse descriptor is
+`[0100D5AC,0100D5EC)`; its lower panel's default y14/height5 is adjusted by the
+native caller to y16/height3 in the supplied state, while width must remain5.
+The upper action panel remains width6. Both geometries are now traced.
+
+The subsequently supplied Slowing trap state confirms stock profile7 is used by
+that natural Trap submenu. Its command/location/status bitmap geometry changes
+in the baseline and stays byte-identical in the fixed open/cancel/reopen route.
+This uses the already mapped fields above; no additional insertion or range is
+needed. Evidence: `build/menu-fixes/verification/{baseline,english}/report.json`
+and `tools/menu_fixtures.json` (pinned state hash).
+
+## Approved combat sentence joining (2026-09-19)
+
+Planned/checked owner: `combat-lines`, composed after `menu-fixes`. Source and
+output ROM identities, aligned allocations, exact bytes and the complete source
+key table are authoritative in `build/combat-lines/allocation-plan.json`;
+approved immutable source spans are in `translations/combat-line-joins.json`.
+
+| Space | Start | Exclusive end | Purpose/evidence | Context/certainty |
+|---|---:|---:|---|---|
+| ROM file | `011226D6` | `01123960` | Combined appended allocation `[011226D6,01123960)`, including 2 alignment bytes; shared allocator | New combat component, planned and source-checked |
+| ROM file | `011226D8` | `011237F8` | 274 sorted 16-byte records: exact source, source continuation, preceding-LF count, span-LF count/continuation flag | Owned source pointers from approved audit; aliases explicitly modeled |
+| ROM file | `011237F8` | `01123960` | Thumb formatter wrapper and span measuring helper | Assembled code, allocation-plan bytes/hash |
+| ROM file | `0007D8CC` | `0007D8D8` | Exact 12-byte hook supersedes `damage-lines.formatter-hook` through the ledger | Previous hook bytes checked; calls previous appended wrapper for existing XP/damage behavior |
+| IWRAM stack, relative | entry SP−128 | entry SP | New wrapper frame: saved registers, locals and 80-byte lookahead scratch | Transient formatter lifetime; not permanent RAM/save reservation |
+| IWRAM stack, relative | entry SP−160 | entry SP−128 | Span helper frame while called by new wrapper | Transient; previous-wrapper calls instead use their existing frame below entry SP−128 |
+
+No original text bytes, entity names, item labels, fixed RAM reservations or save
+fields change. Only approved internal LFs become spaces after ASCII width and
+history-capacity checks. Earlier event/sentence breaks remain. The existing
+source ranges and all earlier allocations remain owned; none are reused as free
+space. Runtime acceptance is recorded separately from this allocation evidence.
+
+Acceptance: the complete range above is inserted and natively checked in ROM
+`0c21286fadcb59776b7a6639ce082a7a3180faa01621a8afc74c6d6601ebfc13`.
+The final shared ledger and publication receipt are
+`build/latest/english-build.json` and `build/torneko-3-english.json`; the latter
+pins the combat, legacy damage/XP and menu regression reports. See
+[COMBAT_LINES.md](COMBAT_LINES.md) for exact coverage and remaining natural-play
+limits. No range changed between preparation and accepted insertion.
+
+## Mesen Warp-pot playtest helper (2026-09-19)
+
+No ROM insertion or save-layout change. `tools/mesen/warp_pots.lua` is a manual
+RAM-only test helper. It restricts the active inventory base to `0200A480`.
+The active-base word is `[0200C640,0200C644)` (not an array of item pointers).
+`08000EA8..08000EBE` selects the inventory bank with a `10E0` byte stride;
+listing: `build/warp-pot-test/pool-readers.txt`, original JP ROM project.
+
+Existing parent records used by this helper are `[0200A480,0200A498)` and
+`[0200A558,0200A570)`: the first two carried slots are **D8 bytes apart**, not
+18. Intervening storage is preserved. The supplied warehouse state has sword
+ID23 at the former and shield ID47 at the latter, matching its inventory;
+the dungeon fixture has bread ID305 at the former and an empty second slot.
+Only these two 24-byte parent records may be replaced, after both pass checks
+for empty slots or expendable bread/scroll IDs. No equipment/pot is replaced.
+Lifetime: current adventure until restoring the test state; a normal game save
+can persist the test inventory. These are occupied game fields, not reservations.
+
+Parent fields: flags `[+00,+04)`, item ID `[+0E,+10)`, count `[+10,+12)`.
+Warp pot is item 267. Native `08080A5C` on the accepted English ROM formats
+ID267 with +10=5 as `Warp pot[5]`; independently varying bytes +12..+17 leaves
+the count unchanged, and setting +11=5 yields 1280, confirming the halfword.
+The helper uses the existing `verify_items.install_item` canonical identified
+flags `81800000`, zeros other parent fields and gives five uses per pot.
+Existing scratch `[0203F000,0203F018)` and formatter scratch were reused only
+in disposable native verification sessions. No permanent scratch is added.
+
+The dungeon fixture additionally establishes that parent flags alone do not
+identify a pot type: its native name remains `Crescent pot[5]`. The helper also
+sets only the Warp-pot identification mapping halfword `[0200C938,0200C93A)`
+(`0200C722 + 2*267`) to the existing `0FFF` identified sentinel documented in
+ITEM_CONTEXTS.md. This identifies that type for the current adventure; all
+other item identification mappings remain unchanged. Restore the test state
+to undo this along with the two parent records.

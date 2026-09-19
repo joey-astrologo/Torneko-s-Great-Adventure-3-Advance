@@ -1,4 +1,11 @@
-# Deferred gameplay checks
+# Gameplay coverage and remaining checks
+
+The 2026-09-19 [damage-message fix](DAMAGE_LINES.md) passes controlled native
+formatter, combat queue/history and rendering checks. Natural battle replay
+remains pending. The six supplied menu cases are now covered by [menu fixes](MENU_FIXES.md) and
+a mandatory native build gate, including shading, Ground/Stairs/Trap transitions,
+casino Trade and the warehouse counter. The later Slowing trap fixture also passes and is now the seventh required
+build check; the earlier status checks did not establish correct alpha edges.
 
 The [compact arrival layout](ARRIVAL_LAYOUT.md) now centres the approved name
 and floor lettering with a 7–8px visible gap. It passes all 1,259 controlled
@@ -8,7 +15,11 @@ Natural visits to other card identities remain additional coverage. Separate
 town-card families remain unconfirmed. This changes only presentation, with
 all previously inserted text/assets and user saves preserved.
 
-Updated 2026-09-13. The user wants to continue translation and playtest when
+See [PROJECT_STATUS.md](PROJECT_STATUS.md) for the current summary and
+[TESTING.md](TESTING.md) for reporting instructions. This log retains historical
+component evidence; later entries supersede earlier coverage gaps.
+
+The user wants to continue translation and playtest when
 time permits. **No user playtesting is required today or before the next
 translation batch.** Codex can develop automated routes independently; later
 personal playtesting can supplement that coverage.
@@ -113,9 +124,9 @@ not be described as already tested.
 | Pet adoption, naming and the tree password | Adopt both pets in each applicable house state, rename them, revisit them after saving, and use the English hint to pass the tree gate naturally. | The 32-source pet/password component passes 123 native story cases and Japanese pixel pairs, 15 real-keyboard/native commit/comparison cases, and both Adventure Logs' pet-variable FLASH saves/cold loads. Seven-slot names, short-name zero fill, cancel and legacy Japanese names are covered. The exact uppercase keyword is LETMEIN. Natural adoption, gate traversal and dungeon suspend saves remain separate. |
 | Place names, Zoom and map markers | Unlock destinations through normal play, navigate the complete Zoom list, confirm/cancel travel, and check location headings and map markers. | All thirty place records pass native getter/coordinate/copy/list checks, every copied name passes native confirmation display, and all coordinates remain unchanged. Administrative rows 28/29 are not claimed reachable. No natural travel or map-marker placement proof. |
 | Village departure, shrine and later return outcomes | Follow the sleep/rest transitions, messenger and shrine events naturally; choose Ines/Rosa, receive the map/bread, try full inventory, repeat advice, switch companions and trigger return conditions. | FIRST_VILLAGE.md translates 281 messages and checks all 367 operands (368 English cases and Japanese pixel pairs, including both protagonists for one shared observation). The fresh natural route covers only the opening, escort and first chief meeting: 46 messages / 3,838 attributed reads, ten new village sources. Both Adventure Logs preserve Torneko through native save/cold load. Remaining scene triggers and branch outcomes are controlled-display coverage only. |
-| Global place labels and later village arcs | Map the shared place-label table/consumers, then translate map/menu labels consistently with dialogue; complete later Tipper, celebration and ending conversations as coherent sections. | Barinabo and Shrine of the Gods are now documented project names in village dialogue. Their separate original location labels have not been inserted by this event-text pass. First-village source envelopes explicitly exclude the later main story arcs. |
+| Place labels and later village arcs | Check inserted place names against the surrounding dialogue and follow later Tipper/celebration scenes naturally. | Subsequent world/story components supersede the first-village milestone’s untranslated-label gap. Natural branch and pacing coverage remains separate. |
 | Later bedroom/rest triggers and first-village progression | Return to Tessie naturally, choose both rest responses, examine sleeping Tipper in later states, and continue the village story. | OPENING_STORY.md translates 44 story sources plus shared English Yes/No labels. Both natural opening routes reach the first bedroom (36/37 messages), including the dream refusal; complete glyphs and source provenance pass. All 52 story operands also pass controlled native display and Japanese pixel checks. Seven further rest/return/observation sources and extra shared observation operands have controlled coverage only. Both fresh Adventure Logs preserve seven-character Torneko through native save/cold load. |
-| Extraction coverage beyond the opening | Extend story/event provenance to later areas/results/endings and other RAM producers; inspect selection-list operands, compressed resources and graphics lettering. | TEXT_COVERAGE.md scans all pointer alignments/windows and unaligned NUL starts. STORY_PROVENANCE.md additionally traces 36 original opening-story sources from event operand through RAM to 1,803 character reads, with zero unattributed story reads. Thirteen controlled dispatch branches, 135 credit pointer/position cases and one omitted punctuation line pass. The ending/credits playback, other event families and the first 600 boot frames remain outside that proof. |
+| Extraction coverage beyond the opening | Extend story/event provenance to later areas/results/endings and other RAM producers; inspect selection-list operands, compressed resources and graphics lettering. | TEXT_COVERAGE.md scans all pointer alignments/windows and unaligned NUL starts. STORY_PROVENANCE.md additionally traces 36 original opening-story sources from event operand through RAM to 1,803 character reads, with zero unattributed story reads. Thirteen controlled dispatch branches, 135 credit pointer/position cases and one omitted punctuation line pass. The first 600 boot frames were subsequently covered by BOOT_GRAPHICS.md; full ending playback and other natural event paths remain outside the opening provenance proof. |
 | Tutorials, combat/trap feedback and effect removal | Naturally acquire each tutorial item, check pause/scroll timing and joined damage, trigger cancellation/trap variants, remove an equipment effect and review the message history. | All 285 new entries pass native queue/history formatting; two display profiles, 294 Japanese control pairs, cold initialized pointers and 108 guarded label copies are checked. Test entry, history backing, scheduler and waits are controlled; natural scenarios and history navigation remain. |
 | Ally conversations and level-up dialogue | Recruit allies and trigger health/level-up responses naturally, including special ability interceptions for Malevolamp/Peeper; inspect nickname substitutions and normal text timing. | All 1,624 non-null main-table sources are translated across the two dialogue catalogs. The latest build adds 1,227 sources including three Rosa alternatives: 3,707 English profiles and 1,253 Japanese pixel pairs pass. All 200 rows have native HP choices and both level-up selector slices checked. Actor/name slots, PRNG returns and waits are controlled; full wrapper/nickname-copy and natural event coverage remain. |
 | Rosa/Ines conversation conditions | Reach their conversations naturally, check the inventory-dependent Rosa condition, all HP bands, four level-up responses, repeated-talk silence and when the talk counter resets. | Native checks cover five responses per HP band, counter values 0/3/4, silence field 19, and level-up fields 15–18. Rosa's three alternatives and index clamp pass with a controlled flag and +C4 field; the inventory scan and natural counter progression are not exercised. Reserved/test-style rows have no natural-reachability claim. |
@@ -224,3 +235,23 @@ pass 83 story, 11 paged and 220 whole-string checks; all 17 animation steps and
 earlier paragraph records the defeat route's limits; successful first-cave
 completion and its save persistence are now covered. Later dungeons and
 suspend/resume are still pending.
+
+## Combat sentence joining (2026-09-19)
+
+The approved 268 sentence candidates and two critical/brutal continuations now
+have [native formatter, queue/history and rendering coverage](COMBAT_LINES.md),
+including fallback and exact size boundaries. Natural battles with assorted
+monster names, equipment suffixes, healing/status effects and critical/brutal
+attacks remain useful player coverage. Generate fresh messages: old rows already
+stored in a save state's history retain their old breaks. This does not block
+publication after the automated gates pass. The 35 marginal candidates remain
+wrapped as approved.
+
+## User-reported item tests (2026-09-19)
+
+The user tested an enemy standing on a Warp pot’s destination and observed an
+already-English generic no-effect message, not draft `001B8A4A`. This is reported
+playtest evidence without an attached trace/build ID for that action; it does
+not prove the draft unused. The user also confirmed that entering an unlearned
+Plating scroll name fails and chose to retain the learned-list/manual-input
+behavior. Neither report establishes item-effect/save persistence in general.

@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_arrival_layout as current
+from tools import build_combat_lines as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
@@ -49,6 +49,24 @@ def build():
             # Use the exact source bytes that passed the cumulative build checks.
             source.write_bytes(original)
             target.write_bytes(data)
+            print("Running native menu regression checks before publication...", flush=True)
+            from tools import verify_menu_fixes as menu_checks
+            suite_id = digest(Path(menu_checks.__file__).read_bytes() + menu_checks.FIXTURES.read_bytes())[:16]
+            regression_dir = OUTPUT / "menu-fixes/publication-checks" / target_hash / suite_id
+            regressions = menu_checks.run(data, regression_dir)
+            check(regressions["rom_sha256"] == target_hash, "Emulator tested a different ROM")
+            regression_path = regression_dir / "report.json"
+            print("Running native combat and existing damage/XP regression checks...", flush=True)
+            from tools import verify_combat_lines as combat_checks, verify_damage_lines as damage_checks
+            combat_suite = digest(Path(combat_checks.__file__).read_bytes() +
+                                  Path(damage_checks.__file__).read_bytes() + current.SELECTION.read_bytes())[:16]
+            combat_dir = OUTPUT / "combat-lines/publication-checks" / target_hash / combat_suite
+            combat = combat_checks.run(data, combat_dir)
+            damage = damage_checks.run(data, combat_dir / "legacy-damage")
+            check(combat["rom_sha256"] == damage["rom_sha256"] == target_hash,
+                  "Combat checks tested a different ROM")
+            combat_path = combat_dir / "report.json"
+            damage_path = combat_dir / "legacy-damage/acceptance.json"
             print("Creating BPS and checking the complete patched ROM...", flush=True)
             run_flips("--create", "--bps-linear", source, target, patch)
             run_flips("--apply", patch, source, roundtrip)
@@ -80,7 +98,17 @@ def build():
                 "validation": {
                     "cumulative_source_and_allocation_checks": True,
                     "bps_roundtrip_byte_identical": True,
-                    "emulator_checks_run_by_this_command": False,
+                    "emulator_checks_run_by_this_command": True,
+                    "menu_regression_cases": len(regressions["cases"]),
+                    "menu_regression_report": str(regression_path.relative_to(ROOT)),
+                    "menu_regression_report_sha256": digest(regression_path.read_bytes()),
+                    "trap_coverage": regressions["trap"],
+                    "combat_regression_counts": combat["counts"],
+                    "combat_regression_report": str(combat_path.relative_to(ROOT)),
+                    "combat_regression_report_sha256": digest(combat_path.read_bytes()),
+                    "legacy_damage_cases_per_rom": damage["cases_per_rom"],
+                    "legacy_damage_report": str(damage_path.relative_to(ROOT)),
+                    "legacy_damage_report_sha256": digest(damage_path.read_bytes()),
                 },
             }
             # Validate everything before replacing the convenient output paths.

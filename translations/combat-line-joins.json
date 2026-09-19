@@ -1,0 +1,3168 @@
+{
+  "schema": 1,
+  "baseline_sha256": "84cc6f736f3eff1e24fbd1a9cb99f11e517298c8da831eecb7c169cb636a7344",
+  "audit_sha256": "49ebeec5896613947008f231efa0eca263879c938a810a051a6f66a17f02f8ce",
+  "approval": "2026-09-19: 268 fitting example candidates plus two critical/brutal continuations subject to native validation",
+  "messages": [
+    {
+      "id": "gameplay.001b40c2",
+      "address": 151051876,
+      "raw_hex": "4e6f7468696e672068617070656e656420746f0a246d322e00",
+      "span": "Nothing happened to\n$m2.",
+      "pointer_owners": [
+        "0x0005D8D4",
+        "0x0005D910",
+        "0x0005D94C"
+      ]
+    },
+    {
+      "id": "gameplay.001b45d0",
+      "address": 151052248,
+      "raw_hex": "556e65717569707065640a2469302e00",
+      "span": "Unequipped\n$i0.",
+      "pointer_owners": [
+        "0x000140C0"
+      ]
+    },
+    {
+      "id": "gameplay.001b45e0",
+      "address": 151052264,
+      "raw_hex": "24693120776f6e2774206669740a696e73696465206120706f742e00",
+      "span": "$i1 won't fit\ninside a pot.",
+      "pointer_owners": [
+        "0x0002215C"
+      ]
+    },
+    {
+      "id": "gameplay.001b45f4",
+      "address": 151052292,
+      "raw_hex": "24693120776f6e2774206669740a696e736964652061206a6577656c20626f782e00",
+      "span": "$i1 won't fit\ninside a jewel box.",
+      "pointer_owners": [
+        "0x0002214C"
+      ]
+    },
+    {
+      "id": "gameplay.001b460c",
+      "address": 151052328,
+      "raw_hex": "24693120697320696e207468650a77617465722e00",
+      "span": "$i1 is in the\nwater.",
+      "pointer_owners": [
+        "0x000221A4"
+      ]
+    },
+    {
+      "id": "gameplay.001b461b",
+      "address": 151052352,
+      "raw_hex": "596f752063616e2774207069636b2075700a2469312100",
+      "span": "You can't pick up\n$i1!",
+      "pointer_owners": [
+        "0x000221BC"
+      ]
+    },
+    {
+      "id": "gameplay.001b4628",
+      "address": 151052376,
+      "raw_hex": "24693120697320737475636b0a746f207468652067726f756e642e00",
+      "span": "$i1 is stuck\nto the ground.",
+      "pointer_owners": [
+        "0x000221DC"
+      ]
+    },
+    {
+      "id": "gameplay.001b465f",
+      "address": 151052456,
+      "raw_hex": "24693120636f756c646e27740a62652070757420696e2074686520706f742e00",
+      "span": "$i1 couldn't\nbe put in the pot.",
+      "pointer_owners": [
+        "0x000224F4"
+      ]
+    },
+    {
+      "id": "gameplay.001b4677",
+      "address": 151052488,
+      "raw_hex": "24693120636f756c646e27740a62652070757420696e20746865206a6577656c20626f782e00",
+      "span": "$i1 couldn't\nbe put in the jewel box.",
+      "pointer_owners": [
+        "0x000224C8"
+      ]
+    },
+    {
+      "id": "gameplay.001b468f",
+      "address": 151052528,
+      "raw_hex": "5468652077617265686f7573652069732066756c6c2e0a24693120636f756c646e27740a62652073746f7265642e00",
+      "span": "$i1 couldn't\nbe stored.",
+      "pointer_owners": [
+        "0x00022460"
+      ]
+    },
+    {
+      "id": "gameplay.001b46ad",
+      "address": 151052576,
+      "raw_hex": "416c736f2070757420696e0a2469312e00",
+      "span": "Also put in\n$i1.",
+      "pointer_owners": [
+        "0x000224A0"
+      ]
+    },
+    {
+      "id": "gameplay.001b46bc",
+      "address": 151052596,
+      "raw_hex": "5075742024693120696e746f0a2469302e00",
+      "span": "Put $i1 into\n$i0.",
+      "pointer_owners": [
+        "0x00022484"
+      ]
+    },
+    {
+      "id": "gameplay.001b4721",
+      "address": 151052768,
+      "raw_hex": "416c736f20746f6f6b206f75740a2469312e00",
+      "span": "Also took out\n$i1.",
+      "pointer_owners": [
+        "0x000226D8"
+      ]
+    },
+    {
+      "id": "gameplay.001b4730",
+      "address": 151052788,
+      "raw_hex": "546f6f6b20246931206f75740a6f66202469302e00",
+      "span": "Took $i1 out\nof $i0.",
+      "pointer_owners": [
+        "0x00022698"
+      ]
+    },
+    {
+      "id": "gameplay.001b4779",
+      "address": 151052896,
+      "raw_hex": "54686572652773202469300a686572652e00",
+      "span": "There's $i0\nhere.",
+      "pointer_owners": [
+        "0x000208A8",
+        "0x00021064",
+        "0x00021560"
+      ]
+    },
+    {
+      "id": "gameplay.001b4783",
+      "address": 151052916,
+      "raw_hex": "596f752063616e2774207069636b2075700a2469302e00",
+      "span": "You can't pick up\n$i0.",
+      "pointer_owners": [
+        "0x000208D4",
+        "0x00020FFC"
+      ]
+    },
+    {
+      "id": "gameplay.001b4790",
+      "address": 151052940,
+      "raw_hex": "596f752063616e2774207069636b2075700a2469302e00",
+      "span": "You can't pick up\n$i0.",
+      "pointer_owners": [
+        "0x000208FC"
+      ]
+    },
+    {
+      "id": "gameplay.001b479d",
+      "address": 151052964,
+      "raw_hex": "596f752063616e2774207069636b2075700a2469302e00",
+      "span": "You can't pick up\n$i0.",
+      "pointer_owners": [
+        "0x00020924"
+      ]
+    },
+    {
+      "id": "gameplay.001b4b65",
+      "address": 151053132,
+      "raw_hex": "246d3120627572726f7765640a756e64657267726f756e6420616e6420666c65642e00",
+      "span": "$m1 burrowed\nunderground and fled.",
+      "pointer_owners": [
+        "0x0003B668"
+      ]
+    },
+    {
+      "id": "gameplay.001b4b7d",
+      "address": 151053168,
+      "raw_hex": "53746570706564206f6e746f0a2469302e00",
+      "span": "Stepped onto\n$i0.",
+      "pointer_owners": [
+        "0x00020E98"
+      ]
+    },
+    {
+      "id": "gameplay.001b4bb0",
+      "address": 151053248,
+      "raw_hex": "507574202469302061740a796f757220666565742e00",
+      "span": "Put $i0 at\nyour feet.",
+      "pointer_owners": [
+        "0x00020F64"
+      ]
+    },
+    {
+      "id": "gameplay.001b4be0",
+      "address": 151053328,
+      "raw_hex": "2469302066696c6c65640a7769746820706f7765722100",
+      "span": "$i0 filled\nwith power!",
+      "pointer_owners": [
+        "0x0001CEC4"
+      ]
+    },
+    {
+      "id": "gameplay.001b4d33",
+      "address": 151053796,
+      "raw_hex": "246930207761730a64616d616765642100",
+      "span": "$i0 was\ndamaged!",
+      "pointer_owners": [
+        "0x0000B96C"
+      ]
+    },
+    {
+      "id": "gameplay.001b4df1",
+      "address": 151054040,
+      "raw_hex": "4120637269746963616c2068697421204465616c74202464302064616d6167650a746f20246d312e00",
+      "span": "A critical hit! Dealt $d0 damage\nto $m1.",
+      "pointer_owners": [
+        "0x00029DA0",
+        "0x0002A1E4"
+      ]
+    },
+    {
+      "id": "gameplay.001b5292",
+      "address": 151054596,
+      "raw_hex": "246d302773206c65616b792062656c6c79207761730a63757265642100",
+      "span": "$m0's leaky belly was\ncured!",
+      "pointer_owners": [
+        "0x0001E708"
+      ]
+    },
+    {
+      "id": "gameplay.001b54ed",
+      "address": 151055360,
+      "raw_hex": "24742074687265770a2469302e00",
+      "span": "$t threw\n$i0.",
+      "pointer_owners": [
+        "0x000215AC"
+      ]
+    },
+    {
+      "id": "gameplay.001b54fc",
+      "address": 151055376,
+      "raw_hex": "24742066697265640a2469302e00",
+      "span": "$t fired\n$i0.",
+      "pointer_owners": [
+        "0x00021700"
+      ]
+    },
+    {
+      "id": "gameplay.001b550b",
+      "address": 151055392,
+      "raw_hex": "2469302066656c6c20746f0a7468652067726f756e642e00",
+      "span": "$i0 fell to\nthe ground.",
+      "pointer_owners": [
+        "0x000190B4"
+      ]
+    },
+    {
+      "id": "gameplay.001b5532",
+      "address": 151055416,
+      "raw_hex": "2469302066656c6c20696e746f0a7468652077617465722e00",
+      "span": "$i0 fell into\nthe water.",
+      "pointer_owners": [
+        "0x000190D4"
+      ]
+    },
+    {
+      "id": "gameplay.001b55b7",
+      "address": 151055576,
+      "raw_hex": "2469302077617320610a43616e6e69626f782100",
+      "span": "$i0 was a\nCannibox!",
+      "pointer_owners": [
+        "0x0005BB90"
+      ]
+    },
+    {
+      "id": "gameplay.001b561c",
+      "address": 151055688,
+      "raw_hex": "24742077617665640a2469302100",
+      "span": "$t waved\n$i0!",
+      "pointer_owners": [
+        "0x00021AB4"
+      ]
+    },
+    {
+      "id": "gameplay.001b564d",
+      "address": 151055756,
+      "raw_hex": "2469302076616e69736865640a696e746f207468652064697374616e63652e00",
+      "span": "$i0 vanished\ninto the distance.",
+      "pointer_owners": [
+        "0x000183E0"
+      ]
+    },
+    {
+      "id": "gameplay.001b566f",
+      "address": 151055788,
+      "raw_hex": "246930206869740a246d302e00",
+      "span": "$i0 hit\n$m0.",
+      "pointer_owners": [
+        "0x0001A4E0"
+      ]
+    },
+    {
+      "id": "gameplay.001b5686",
+      "address": 151055804,
+      "raw_hex": "246930206869740a24742e00",
+      "span": "$i0 hit\n$t.",
+      "pointer_owners": [
+        "0x0001A4B4"
+      ]
+    },
+    {
+      "id": "gameplay.001b56b9",
+      "address": 151055848,
+      "raw_hex": "2469303a20736f6d650a6275726e65642075702e00",
+      "span": "$i0: some\nburned up.",
+      "pointer_owners": [
+        "0x000A6540"
+      ]
+    },
+    {
+      "id": "gameplay.001b56d9",
+      "address": 151055884,
+      "raw_hex": "2469303a20736f6d650a66726f7a652e00",
+      "span": "$i0: some\nfroze.",
+      "pointer_owners": [
+        "0x000A6548"
+      ]
+    },
+    {
+      "id": "gameplay.001b56ed",
+      "address": 151055904,
+      "raw_hex": "24693020776173206275726965640a696e2073616e642e00",
+      "span": "$i0 was buried\nin sand.",
+      "pointer_owners": [
+        "0x000A654C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5712",
+      "address": 151055964,
+      "raw_hex": "24693020776173206c6f73740a746f207468652077696e642e00",
+      "span": "$i0 was lost\nto the wind.",
+      "pointer_owners": [
+        "0x000A6554"
+      ]
+    },
+    {
+      "id": "gameplay.001b574f",
+      "address": 151056068,
+      "raw_hex": "246930207761730a64616d616765642e00",
+      "span": "$i0 was\ndamaged.",
+      "pointer_owners": [
+        "0x0004841C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5774",
+      "address": 151056100,
+      "raw_hex": "246d31206469646e27742066616c6c0a61736c6565702e00",
+      "span": "$m1 didn't fall\nasleep.",
+      "pointer_owners": [
+        "0x0003651C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5796",
+      "address": 151056144,
+      "raw_hex": "246d3120697320616c72656164790a61736c6565702100",
+      "span": "$m1 is already\nasleep!",
+      "pointer_owners": [
+        "0x000365D8"
+      ]
+    },
+    {
+      "id": "gameplay.001b57a9",
+      "address": 151056168,
+      "raw_hex": "2474206472616e6b0a2469302e00",
+      "span": "$t drank\n$i0.",
+      "pointer_owners": [
+        "0x00022EB0"
+      ]
+    },
+    {
+      "id": "gameplay.001b57b9",
+      "address": 151056184,
+      "raw_hex": "247420747269656420746f206472696e6b0a2469302100",
+      "span": "$t tried to drink\n$i0!",
+      "pointer_owners": [
+        "0x00022EB4"
+      ]
+    },
+    {
+      "id": "gameplay.001b57ca",
+      "address": 151056208,
+      "raw_hex": "2474206174650a2469302e00",
+      "span": "$t ate\n$i0.",
+      "pointer_owners": [
+        "0x00022E68"
+      ]
+    },
+    {
+      "id": "gameplay.001b57da",
+      "address": 151056220,
+      "raw_hex": "247420747269656420746f206561740a2469302e00",
+      "span": "$t tried to eat\n$i0.",
+      "pointer_owners": [
+        "0x00022E6C"
+      ]
+    },
+    {
+      "id": "gameplay.001b57ee",
+      "address": 151056244,
+      "raw_hex": "247420757365640a2469302100",
+      "span": "$t used\n$i0!",
+      "pointer_owners": [
+        "0x00022ED4",
+        "0x00022F00"
+      ]
+    },
+    {
+      "id": "gameplay.001b57fe",
+      "address": 151056260,
+      "raw_hex": "247420757365640a2469302100",
+      "span": "$t used\n$i0!",
+      "pointer_owners": [
+        "0x00022ED8",
+        "0x00022F04"
+      ]
+    },
+    {
+      "id": "gameplay.001b580e",
+      "address": 151056276,
+      "raw_hex": "247420726561640a2469302e00",
+      "span": "$t read\n$i0.",
+      "pointer_owners": [
+        "0x000230C8"
+      ]
+    },
+    {
+      "id": "gameplay.001b581e",
+      "address": 151056292,
+      "raw_hex": "247420747269656420746f20726561640a2469302100",
+      "span": "$t tried to read\n$i0!",
+      "pointer_owners": [
+        "0x000230CC"
+      ]
+    },
+    {
+      "id": "gameplay.001b5831",
+      "address": 151056316,
+      "raw_hex": "2474207472696564207573696e670a2469302e00",
+      "span": "$t tried using\n$i0.",
+      "pointer_owners": [
+        "0x00023058"
+      ]
+    },
+    {
+      "id": "gameplay.001b5843",
+      "address": 151056336,
+      "raw_hex": "247420617474656d7074656420746f207573650a2469302e00",
+      "span": "$t attempted to use\n$i0.",
+      "pointer_owners": [
+        "0x0002305C"
+      ]
+    },
+    {
+      "id": "gameplay.001b58b9",
+      "address": 151056472,
+      "raw_hex": "246d302063616e206e6f206c6f6e6765720a6d6f76652e00",
+      "span": "$m0 can no longer\nmove.",
+      "pointer_owners": [
+        "0x000D90A4"
+      ]
+    },
+    {
+      "id": "gameplay.001b58ca",
+      "address": 151056496,
+      "raw_hex": "246d3020776173207365766572656c790a706172616c797365642100",
+      "span": "$m0 was severely\nparalysed!",
+      "pointer_owners": [
+        "0x000D90A8",
+        "0x000D90AC"
+      ]
+    },
+    {
+      "id": "gameplay.001b58e2",
+      "address": 151056524,
+      "raw_hex": "246d31206973207374696c6c207365766572656c790a706172616c797365642e00",
+      "span": "$m1 is still severely\nparalysed.",
+      "pointer_owners": [
+        "0x00036660",
+        "0x00036670"
+      ]
+    },
+    {
+      "id": "gameplay.001b58fa",
+      "address": 152171484,
+      "raw_hex": "246d30206973206e6f7720756e6465720a6f7264696e61727920706172616c797369732e00",
+      "span": "$m0 is now under\nordinary paralysis.",
+      "pointer_owners": [
+        "0x0003BAE4"
+      ]
+    },
+    {
+      "id": "gameplay.001b5913",
+      "address": 151056604,
+      "raw_hex": "246d30206973206e6f206c6f6e6765720a636f6e66757365642e00",
+      "span": "$m0 is no longer\nconfused.",
+      "pointer_owners": [
+        "0x0003BAE8"
+      ]
+    },
+    {
+      "id": "gameplay.001b595a",
+      "address": 151056692,
+      "raw_hex": "246d30206973206e6f206c6f6e6765720a667269676874656e65642e00",
+      "span": "$m0 is no longer\nfrightened.",
+      "pointer_owners": [
+        "0x0003BAF4"
+      ]
+    },
+    {
+      "id": "gameplay.001b596d",
+      "address": 151056724,
+      "raw_hex": "246d3020697320667265652066726f6d207468650a64616e63652e00",
+      "span": "$m0 is free from the\ndance.",
+      "pointer_owners": [
+        "0x0003BAF8"
+      ]
+    },
+    {
+      "id": "gameplay.001b5982",
+      "address": 151056752,
+      "raw_hex": "246d30206973206e6f206c6f6e6765720a616e6772792e00",
+      "span": "$m0 is no longer\nangry.",
+      "pointer_owners": [
+        "0x0003BAFC"
+      ]
+    },
+    {
+      "id": "gameplay.001b59a8",
+      "address": 152171524,
+      "raw_hex": "246d302063616d6520746f2074686569720a73656e7365732e00",
+      "span": "$m0 came to their\nsenses.",
+      "pointer_owners": [
+        "0x0003BB08"
+      ]
+    },
+    {
+      "id": "gameplay.001b59b8",
+      "address": 151056820,
+      "raw_hex": "246d3027732077616b6566756c6e6573730a776f7265206f66662e00",
+      "span": "$m0's wakefulness\nwore off.",
+      "pointer_owners": [
+        "0x0003BB0C"
+      ]
+    },
+    {
+      "id": "gameplay.001b59d3",
+      "address": 151056848,
+      "raw_hex": "246d30206973206e6f206c6f6e6765720a6265727365726b2e00",
+      "span": "$m0 is no longer\nberserk.",
+      "pointer_owners": [
+        "0x0003BB10"
+      ]
+    },
+    {
+      "id": "gameplay.001b59f2",
+      "address": 151056876,
+      "raw_hex": "246d30206973206e6f206c6f6e6765720a6d616465206f662069726f6e2e00",
+      "span": "$m0 is no longer\nmade of iron.",
+      "pointer_owners": [
+        "0x0003BB14"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a09",
+      "address": 151056908,
+      "raw_hex": "246d302773207768696666696e6720776f72650a6f66662e00",
+      "span": "$m0's whiffing wore\noff.",
+      "pointer_owners": [
+        "0x0003BB18"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a20",
+      "address": 151056936,
+      "raw_hex": "48657262732061666665637420246d300a6e6f726d616c6c7920616761696e2e00",
+      "span": "Herbs affect $m0\nnormally again.",
+      "pointer_owners": [
+        "0x0003BB1C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a34",
+      "address": 151056972,
+      "raw_hex": "246d302066697265640a2469302e00",
+      "span": "$m0 fired\n$i0.",
+      "pointer_owners": [
+        "0x000A6D40",
+        "0x000A6D64",
+        "0x000A6D88",
+        "0x000A6DAC"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a4a",
+      "address": 151056988,
+      "raw_hex": "246d302074687265770a2469302e00",
+      "span": "$m0 threw\n$i0.",
+      "pointer_owners": [
+        "0x0003A1DC"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a60",
+      "address": 151057004,
+      "raw_hex": "246d302073706174206f75740a2469302e00",
+      "span": "$m0 spat out\n$i0.",
+      "pointer_owners": [
+        "0x000A7C28"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a75",
+      "address": 151057024,
+      "raw_hex": "246d31206469646e2774206265636f6d650a636f6e66757365642e00",
+      "span": "$m1 didn't become\nconfused.",
+      "pointer_owners": [
+        "0x000367A4"
+      ]
+    },
+    {
+      "id": "gameplay.001b5a95",
+      "address": 151057076,
+      "raw_hex": "246d3120697320616c72656164790a636f6e66757365642100",
+      "span": "$m1 is already\nconfused!",
+      "pointer_owners": [
+        "0x00036818"
+      ]
+    },
+    {
+      "id": "gameplay.001b5aa9",
+      "address": 151057104,
+      "raw_hex": "246d3120626563616d650a667269676874656e65642100",
+      "span": "$m1 became\nfrightened!",
+      "pointer_owners": [
+        "0x00036898"
+      ]
+    },
+    {
+      "id": "gameplay.001b5ab9",
+      "address": 151057128,
+      "raw_hex": "246d3120697320616c72656164790a667269676874656e65642100",
+      "span": "$m1 is already\nfrightened!",
+      "pointer_owners": [
+        "0x000368CC"
+      ]
+    },
+    {
+      "id": "gameplay.001b5acc",
+      "address": 151057156,
+      "raw_hex": "246d31207265636f76657265640a2464302048502e00",
+      "span": "$m1 recovered\n$d0 HP.",
+      "pointer_owners": [
+        "0x00039D3C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5ae1",
+      "address": 151057180,
+      "raw_hex": "246d312773206d6178696d756d2048500a726f7365206279202464302e00",
+      "span": "$m1's maximum HP\nrose by $d0.",
+      "pointer_owners": [
+        "0x00039CB4"
+      ]
+    },
+    {
+      "id": "gameplay.001b5af8",
+      "address": 151057212,
+      "raw_hex": "246d312773204850207761732066756c6c790a726573746f7265642e00",
+      "span": "$m1's HP was fully\nrestored.",
+      "pointer_owners": [
+        "0x00011F44",
+        "0x00039D1C"
+      ]
+    },
+    {
+      "id": "gameplay.001b5b0f",
+      "address": 151057244,
+      "raw_hex": "2474207075736865640a2469302100",
+      "span": "$t pushed\n$i0!",
+      "pointer_owners": [
+        "0x00022F88"
+      ]
+    },
+    {
+      "id": "tutorial.001b5038",
+      "address": 152171076,
+      "raw_hex": "21437269746963616c206869742120246d310a746f6f6b202464302064616d6167652e00",
+      "span": "Critical hit! $m1\ntook $d0 damage.",
+      "pointer_owners": [
+        "0x000289D8"
+      ]
+    },
+    {
+      "id": "tutorial.001b505b",
+      "address": 152171112,
+      "raw_hex": "2142727574616c20626c6f772120246d310a746f6f6b202464302064616d6167652e00",
+      "span": "Brutal blow! $m1\ntook $d0 damage.",
+      "pointer_owners": [
+        "0x000289E4"
+      ]
+    },
+    {
+      "id": "tutorial.001b50b1",
+      "address": 151071712,
+      "raw_hex": "246d3020776169747320616e640a776174636865732e2e2e00",
+      "span": "$m0 waits and\nwatches...",
+      "pointer_owners": [
+        "0x00022D74",
+        "0x00030584",
+        "0x000A7178"
+      ]
+    },
+    {
+      "id": "tutorial.001b516f",
+      "address": 151071968,
+      "raw_hex": "246930206973206e6f0a6c6f6e67657220626c65737365642e00",
+      "span": "$i0 is no\nlonger blessed.",
+      "pointer_owners": [
+        "0x0000AB68"
+      ]
+    },
+    {
+      "id": "tutorial.001b5b85",
+      "address": 151072032,
+      "raw_hex": "246d30277320737472656e677468207761730a68616c7665642e00",
+      "span": "$m0's strength was\nhalved.",
+      "pointer_owners": [
+        "0x00CAFF80"
+      ]
+    },
+    {
+      "id": "tutorial.001b5bab",
+      "address": 151072084,
+      "raw_hex": "246d30277320737472656e6774682066656c6c0a67726561746c792100",
+      "span": "$m0's strength fell\ngreatly!",
+      "pointer_owners": [
+        "0x00CAFF88"
+      ]
+    },
+    {
+      "id": "tutorial.001b5ebf",
+      "address": 151072116,
+      "raw_hex": "246932206661696c656420746f0a776f726b2e00",
+      "span": "$i2 failed to\nwork.",
+      "pointer_owners": [
+        "0x00017FD4",
+        "0x0001941C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6002",
+      "address": 151072136,
+      "raw_hex": "2469332063616e63656c6c65640a246d302773206d616769632100",
+      "span": "$i3 cancelled\n$m0's magic!",
+      "pointer_owners": [
+        "0x00CAFF8C",
+        "0x00CAFFDC"
+      ]
+    },
+    {
+      "id": "tutorial.001b6674",
+      "address": 151072672,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB002C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6683",
+      "address": 151072692,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB0030"
+      ]
+    },
+    {
+      "id": "tutorial.001b6704",
+      "address": 151072920,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB0054"
+      ]
+    },
+    {
+      "id": "tutorial.001b6713",
+      "address": 151072940,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB0058"
+      ]
+    },
+    {
+      "id": "tutorial.001b67a3",
+      "address": 151073168,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB007C",
+        "0x00CB0080"
+      ]
+    },
+    {
+      "id": "tutorial.001b67b2",
+      "address": 151073188,
+      "raw_hex": "2469302063616d650a666c79696e672100",
+      "span": "$i0 came\nflying!",
+      "pointer_owners": [
+        "0x00CB0084",
+        "0x00CB0088"
+      ]
+    },
+    {
+      "id": "tutorial.001b6813",
+      "address": 151073320,
+      "raw_hex": "497420686164206e6f20656666656374206f6e0a2469302e00",
+      "span": "It had no effect on\n$i0.",
+      "pointer_owners": [
+        "0x000469E0"
+      ]
+    },
+    {
+      "id": "tutorial.001b68c6",
+      "address": 152171172,
+      "raw_hex": "246d3020706572666f726d65642057656972640a44616e63652100",
+      "span": "$m0 performed Weird\nDance!",
+      "pointer_owners": [
+        "0x000A7424",
+        "0x000A74B4",
+        "0x000A74D8",
+        "0x000A74FC",
+        "0x000A7520"
+      ]
+    },
+    {
+      "id": "tutorial.001b6965",
+      "address": 151073740,
+      "raw_hex": "246d312773206d6178696d756d0a737472656e6774682066656c6c206279202464302e00",
+      "span": "$m1's maximum\nstrength fell by $d0.",
+      "pointer_owners": [
+        "0x00038CDC"
+      ]
+    },
+    {
+      "id": "tutorial.001b6982",
+      "address": 151073776,
+      "raw_hex": "246d31277320737472656e677468207761730a68616c7665642e00",
+      "span": "$m1's strength was\nhalved.",
+      "pointer_owners": [
+        "0x00038D48"
+      ]
+    },
+    {
+      "id": "tutorial.001b6995",
+      "address": 151073804,
+      "raw_hex": "246d31277320737472656e6774680a63616e6e6f742066616c6c20616e7920667572746865722100",
+      "span": "$m1's strength\ncannot fall any further!",
+      "pointer_owners": [
+        "0x00038CE4",
+        "0x00038D60"
+      ]
+    },
+    {
+      "id": "tutorial.001b6a10",
+      "address": 151073988,
+      "raw_hex": "246d312773206d6178696d756d2048500a66656c6c206279202464302e00",
+      "span": "$m1's maximum HP\nfell by $d0.",
+      "pointer_owners": [
+        "0x00038E34"
+      ]
+    },
+    {
+      "id": "tutorial.001b6a4c",
+      "address": 151074064,
+      "raw_hex": "246d3127732048502063616e6e6f742066616c6c0a616e7920667572746865722100",
+      "span": "$m1's HP cannot fall\nany further!",
+      "pointer_owners": [
+        "0x00038E44",
+        "0x00038EDC"
+      ]
+    },
+    {
+      "id": "tutorial.001b6a85",
+      "address": 151074148,
+      "raw_hex": "246d3020666972656420616e0a6162736f727074696f6e206265616d2e00",
+      "span": "$m0 fired an\nabsorption beam.",
+      "pointer_owners": [
+        "0x000A746C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6a9a",
+      "address": 151074180,
+      "raw_hex": "246d3020666972656420616e0a6162736f727074696f6e206265616d2e00",
+      "span": "$m0 fired an\nabsorption beam.",
+      "pointer_owners": [
+        "0x000A7490"
+      ]
+    },
+    {
+      "id": "tutorial.001b6b06",
+      "address": 152171200,
+      "raw_hex": "246d30207573656420486172766573740a4d6f6f6e2100",
+      "span": "$m0 used Harvest\nMoon!",
+      "pointer_owners": [
+        "0x000A7838"
+      ]
+    },
+    {
+      "id": "tutorial.001b6b42",
+      "address": 151074376,
+      "raw_hex": "246d302063616c6c656420666f720a6d6f6e73746572732100",
+      "span": "$m0 called for\nmonsters!",
+      "pointer_owners": [
+        "0x000A6D1C",
+        "0x000A722C",
+        "0x000A73DC",
+        "0x000A758C",
+        "0x000A7A78"
+      ]
+    },
+    {
+      "id": "tutorial.001b6b84",
+      "address": 151074424,
+      "raw_hex": "246930206c6f77657265640a446566656e63652100",
+      "span": "$i0 lowered\nDefence!",
+      "pointer_owners": [
+        "0x0002A46C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6b98",
+      "address": 151074448,
+      "raw_hex": "246930207761730a6b6e6f636b656420617761792e00",
+      "span": "$i0 was\nknocked away.",
+      "pointer_owners": [
+        "0x0003E084"
+      ]
+    },
+    {
+      "id": "tutorial.001b6baa",
+      "address": 151074472,
+      "raw_hex": "4b6e6f636b656420617761790a2469302e00",
+      "span": "Knocked away\n$i0.",
+      "pointer_owners": [
+        "0x0003E090"
+      ]
+    },
+    {
+      "id": "tutorial.001b6c19",
+      "address": 152171244,
+      "raw_hex": "246d3020747269656420746f206b6e6f636b0a65717569706d656e7420617761792100",
+      "span": "$m0 tried to knock\nequipment away!",
+      "pointer_owners": [
+        "0x000A7A0C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6c2b",
+      "address": 152171280,
+      "raw_hex": "246d3020747269656420746f206b6e6f636b0a6974656d7320617761792100",
+      "span": "$m0 tried to knock\nitems away!",
+      "pointer_owners": [
+        "0x000A7A10"
+      ]
+    },
+    {
+      "id": "tutorial.001b6c41",
+      "address": 152171312,
+      "raw_hex": "246d3020747269656420746f206b6e6f636b0a6974656d7320617761792100",
+      "span": "$m0 tried to knock\nitems away!",
+      "pointer_owners": [
+        "0x000A7A30"
+      ]
+    },
+    {
+      "id": "tutorial.001b6ca1",
+      "address": 151074860,
+      "raw_hex": "246d3120697320616c72656164790a696e76697369626c652e00",
+      "span": "$m1 is already\ninvisible.",
+      "pointer_owners": [
+        "0x00037678"
+      ]
+    },
+    {
+      "id": "tutorial.001b6cd6",
+      "address": 151074936,
+      "raw_hex": "246d3020616e640a246d31207377617070656420706c616365732e00",
+      "span": "$m0 and\n$m1 swapped places.",
+      "pointer_owners": [
+        "0x000585E4"
+      ]
+    },
+    {
+      "id": "tutorial.001b6cec",
+      "address": 151074964,
+      "raw_hex": "246d302063616e6e6f742062650a737761707065642100",
+      "span": "$m0 cannot be\nswapped!",
+      "pointer_owners": [
+        "0x000584A8"
+      ]
+    },
+    {
+      "id": "tutorial.001b6cff",
+      "address": 151074988,
+      "raw_hex": "246d302063616e6e6f742062650a737761707065642100",
+      "span": "$m0 cannot be\nswapped!",
+      "pointer_owners": [
+        "0x00058488"
+      ]
+    },
+    {
+      "id": "tutorial.001b6d2b",
+      "address": 151075044,
+      "raw_hex": "246d302069732061736c65657020616e640a63616e6e6f7420747269702100",
+      "span": "$m0 is asleep and\ncannot trip!",
+      "pointer_owners": [
+        "0x0005865C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6d50",
+      "address": 151075096,
+      "raw_hex": "546865207374616666206b6570740a246d302066726f6d207472697070696e672100",
+      "span": "The staff kept\n$m0 from tripping!",
+      "pointer_owners": [
+        "0x00041878",
+        "0x000586F0"
+      ]
+    },
+    {
+      "id": "tutorial.001b6da9",
+      "address": 151075204,
+      "raw_hex": "246d3127732048502066656c6c20746f20610a717561727465722100",
+      "span": "$m1's HP fell to a\nquarter!",
+      "pointer_owners": [
+        "0x0000CB68"
+      ]
+    },
+    {
+      "id": "tutorial.001b6dbd",
+      "address": 151075232,
+      "raw_hex": "246d31206c6f737420612067726561740a6465616c206f662048502100",
+      "span": "$m1 lost a great\ndeal of HP!",
+      "pointer_owners": [
+        "0x0000CBA8"
+      ]
+    },
+    {
+      "id": "tutorial.001b6dff",
+      "address": 151075324,
+      "raw_hex": "246d302077617665642061205368616d616e0a73746166662100",
+      "span": "$m0 waved a Shaman\nstaff!",
+      "pointer_owners": [
+        "0x000A70A0"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e15",
+      "address": 151075352,
+      "raw_hex": "246d3020776176656420616e0a416363656c657261746c652073746166662100",
+      "span": "$m0 waved an\nAcceleratle staff!",
+      "pointer_owners": [
+        "0x000A70C4"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e2f",
+      "address": 151075384,
+      "raw_hex": "246d3020776176656420610a536f7263657265722073746166662100",
+      "span": "$m0 waved a\nSorcerer staff!",
+      "pointer_owners": [
+        "0x000A70E8"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e49",
+      "address": 151075412,
+      "raw_hex": "246d3020776176656420616e0a416363656c657261746c652073746166662100",
+      "span": "$m0 waved an\nAcceleratle staff!",
+      "pointer_owners": [
+        "0x000A710C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e63",
+      "address": 151075444,
+      "raw_hex": "246d30207761766564206120526167650a73746166662100",
+      "span": "$m0 waved a Rage\nstaff!",
+      "pointer_owners": [
+        "0x000A7130"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e7b",
+      "address": 151075468,
+      "raw_hex": "246d3120666c657720696e746f20610a726167652e00",
+      "span": "$m1 flew into a\nrage.",
+      "pointer_owners": [
+        "0x000377A0"
+      ]
+    },
+    {
+      "id": "tutorial.001b6e8b",
+      "address": 151075492,
+      "raw_hex": "246d31206973207365616c656420616e640a63616e6e6f74206665656c20726167652e00",
+      "span": "$m1 is sealed and\ncannot feel rage.",
+      "pointer_owners": [
+        "0x0003771C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6ea9",
+      "address": 151075528,
+      "raw_hex": "246d3120697320616c72656164790a656e72616765642100",
+      "span": "$m1 is already\nenraged!",
+      "pointer_owners": [
+        "0x000377C4"
+      ]
+    },
+    {
+      "id": "tutorial.001b6ef8",
+      "address": 151075644,
+      "raw_hex": "246d31206e6f77207368617265730a24742773207061696e2100",
+      "span": "$m1 now shares\n$t's pain!",
+      "pointer_owners": [
+        "0x00039124"
+      ]
+    },
+    {
+      "id": "tutorial.001b6f3c",
+      "address": 151075720,
+      "raw_hex": "246d302063616c6c656420666f720a6d6f6e73746572732100",
+      "span": "$m0 called for\nmonsters!",
+      "pointer_owners": [
+        "0x000A72BC"
+      ]
+    },
+    {
+      "id": "tutorial.001b6f54",
+      "address": 151075748,
+      "raw_hex": "246930207761730a6375727365642100",
+      "span": "$i0 was\ncursed!",
+      "pointer_owners": [
+        "0x0003FDCC"
+      ]
+    },
+    {
+      "id": "tutorial.001b6f60",
+      "address": 151075764,
+      "raw_hex": "246d312061766f69646564207468650a63757273652e00",
+      "span": "$m1 avoided the\ncurse.",
+      "pointer_owners": [
+        "0x0003FDE8"
+      ]
+    },
+    {
+      "id": "tutorial.001b6fa2",
+      "address": 151075860,
+      "raw_hex": "2469302063616e6e6f742062650a6375727365642e00",
+      "span": "$i0 cannot be\ncursed.",
+      "pointer_owners": [
+        "0x0003FD8C"
+      ]
+    },
+    {
+      "id": "tutorial.001b6fb0",
+      "address": 151075884,
+      "raw_hex": "246d30207574746572656420737472616e67650a776f7264732100",
+      "span": "$m0 uttered strange\nwords!",
+      "pointer_owners": [
+        "0x000A72E0"
+      ]
+    },
+    {
+      "id": "tutorial.001b6fc8",
+      "address": 151075912,
+      "raw_hex": "246930277320757365730a66656c6c20746f20302e00",
+      "span": "$i0's uses\nfell to 0.",
+      "pointer_owners": [
+        "0x0003FF24"
+      ]
+    },
+    {
+      "id": "tutorial.001b7016",
+      "address": 151076016,
+      "raw_hex": "246d30207370617420726f7474656e0a666c7569642100",
+      "span": "$m0 spat rotten\nfluid!",
+      "pointer_owners": [
+        "0x000A7394",
+        "0x000A7400"
+      ]
+    },
+    {
+      "id": "tutorial.001b702a",
+      "address": 151076040,
+      "raw_hex": "24693020646964206e6f740a6465746572696f726174652e00",
+      "span": "$i0 did not\ndeteriorate.",
+      "pointer_owners": [
+        "0x0003968C"
+      ]
+    },
+    {
+      "id": "tutorial.001b7062",
+      "address": 151076116,
+      "raw_hex": "2469300a6465746572696f72617465642e00",
+      "span": "$i0\ndeteriorated.",
+      "pointer_owners": [
+        "0x000396B8",
+        "0x00046CB4"
+      ]
+    },
+    {
+      "id": "tutorial.001b7074",
+      "address": 151076136,
+      "raw_hex": "2469302063616e6e6f740a6465746572696f7261746520667572746865722e00",
+      "span": "$i0 cannot\ndeteriorate further.",
+      "pointer_owners": [
+        "0x000396C0",
+        "0x00046CC8"
+      ]
+    },
+    {
+      "id": "tutorial.001b7083",
+      "address": 151076168,
+      "raw_hex": "2469302063616e6e6f740a6465746572696f726174652e00",
+      "span": "$i0 cannot\ndeteriorate.",
+      "pointer_owners": [
+        "0x00046C90"
+      ]
+    },
+    {
+      "id": "tutorial.001b7720",
+      "address": 151078068,
+      "raw_hex": "246930206c6f7374206974730a5b2469315d206566666563742100",
+      "span": "$i0 lost its\n[$i1] effect!",
+      "pointer_owners": [
+        "0x00039824"
+      ]
+    },
+    {
+      "id": "tutorial.001b773f",
+      "address": 151078096,
+      "raw_hex": "24693020686173206e6f0a72656d6f7661626c65207365616c732e00",
+      "span": "$i0 has no\nremovable seals.",
+      "pointer_owners": [
+        "0x00039850"
+      ]
+    },
+    {
+      "id": "tutorial.001b7761",
+      "address": 151078144,
+      "raw_hex": "246d31207374617274656420616374696e670a737472616e67656c792e00",
+      "span": "$m1 started acting\nstrangely.",
+      "pointer_owners": [
+        "0x00039194"
+      ]
+    },
+    {
+      "id": "tutorial.001b7771",
+      "address": 151078176,
+      "raw_hex": "246d3020636c616d706564207468650a7461726765742773206d6f75746820736875742100",
+      "span": "$m0 clamped the\ntarget's mouth shut!",
+      "pointer_owners": [
+        "0x000A6FA4"
+      ]
+    },
+    {
+      "id": "tutorial.001b7783",
+      "address": 151078216,
+      "raw_hex": "246d3020636c616d706564207468650a7461726765742773206d6f75746820736875742100",
+      "span": "$m0 clamped the\ntarget's mouth shut!",
+      "pointer_owners": [
+        "0x000A6FA8"
+      ]
+    },
+    {
+      "id": "tutorial.001b7793",
+      "address": 152171364,
+      "raw_hex": "246d302073747275636b207769746820610a6b6e6f636b6261636b20626c6f772100",
+      "span": "$m0 struck with a\nknockback blow!",
+      "pointer_owners": [
+        "0x000A7544"
+      ]
+    },
+    {
+      "id": "tutorial.001b77a9",
+      "address": 151078292,
+      "raw_hex": "24742773206d6178696d756d2066756c6c6e65737320726f73652062790a2464302e00",
+      "span": "$t's maximum fullness rose by\n$d0.",
+      "pointer_owners": [
+        "0x0000B628"
+      ]
+    },
+    {
+      "id": "tutorial.001b77c3",
+      "address": 151078328,
+      "raw_hex": "24742773206d6178696d756d2066756c6c6e6573732066656c6c2062790a2464302e00",
+      "span": "$t's maximum fullness fell by\n$d0.",
+      "pointer_owners": [
+        "0x0000B754"
+      ]
+    },
+    {
+      "id": "tutorial.001b77de",
+      "address": 151078364,
+      "raw_hex": "246d3020646576656c6f7065642061206c65616b790a62656c6c792100",
+      "span": "$m0 developed a leaky\nbelly!",
+      "pointer_owners": [
+        "0x00039218"
+      ]
+    },
+    {
+      "id": "tutorial.001b77f6",
+      "address": 151078396,
+      "raw_hex": "246d312072657475726e656420746f0a6e6f726d616c2e00",
+      "span": "$m1 returned to\nnormal.",
+      "pointer_owners": [
+        "0x00037B6C"
+      ]
+    },
+    {
+      "id": "help.001b5b1d",
+      "address": 151060160,
+      "raw_hex": "246d302061766f69646564207468650a706f69736f6e2e00",
+      "span": "$m0 avoided the\npoison.",
+      "pointer_owners": [
+        "0x0003694C"
+      ]
+    },
+    {
+      "id": "help.001b5b32",
+      "address": 151060184,
+      "raw_hex": "246d3020697320696d6d756e6520746f0a706f69736f6e0a6f6e207468697320666c6f6f722e00",
+      "span": "$m0 is immune to\npoison\non this floor.",
+      "pointer_owners": [
+        "0x00036968"
+      ]
+    },
+    {
+      "id": "help.001b5b70",
+      "address": 151060264,
+      "raw_hex": "54686520706f69736f6e20686164206e6f20656666656374206f6e0a246d312e00",
+      "span": "The poison had no effect on\n$m1.",
+      "pointer_owners": [
+        "0x00036AA0",
+        "0x00036B84"
+      ]
+    },
+    {
+      "id": "help.001b5c20",
+      "address": 152171552,
+      "raw_hex": "246d302072656c65617365640a706f69736f6e6f75732073706f7265732100",
+      "span": "$m0 released\npoisonous spores!",
+      "pointer_owners": [
+        "0x000A6ECC"
+      ]
+    },
+    {
+      "id": "help.001b5c78",
+      "address": 152171584,
+      "raw_hex": "246d302063617374206120737472616e67650a7370656c6c2100",
+      "span": "$m0 cast a strange\nspell!",
+      "pointer_owners": [
+        "0x000A6C8C"
+      ]
+    },
+    {
+      "id": "help.001b5c8c",
+      "address": 151060592,
+      "raw_hex": "246d312063616e206e6f206c6f6e6765720a7265636f7665722048502e00",
+      "span": "$m1 can no longer\nrecover HP.",
+      "pointer_owners": [
+        "0x00036DE0"
+      ]
+    },
+    {
+      "id": "help.001b5cf9",
+      "address": 152171632,
+      "raw_hex": "246d302077617665642061204c756d700a6d6167652073746166662100",
+      "span": "$m0 waved a Lump\nmage staff!",
+      "pointer_owners": [
+        "0x000A7058"
+      ]
+    },
+    {
+      "id": "help.001b5d1a",
+      "address": 152171664,
+      "raw_hex": "246d302077617665642061204c756d700a77697a6172642073746166662100",
+      "span": "$m0 waved a Lump\nwizard staff!",
+      "pointer_owners": [
+        "0x000A707C"
+      ]
+    },
+    {
+      "id": "help.001b5d3a",
+      "address": 151060776,
+      "raw_hex": "2469302077617320626c6f776e0a617761792e00",
+      "span": "$i0 was blown\naway.",
+      "pointer_owners": [
+        "0x00016F3C"
+      ]
+    },
+    {
+      "id": "help.001b5d5f",
+      "address": 151060816,
+      "raw_hex": "246d31277320737065656420646964206e6f740a6368616e67652e00",
+      "span": "$m1's speed did not\nchange.",
+      "pointer_owners": [
+        "0x000370F0"
+      ]
+    },
+    {
+      "id": "help.001b5d75",
+      "address": 151060844,
+      "raw_hex": "246d31277320737065656420646964206e6f740a6368616e67652e00",
+      "span": "$m1's speed did not\nchange.",
+      "pointer_owners": [
+        "0x00037260"
+      ]
+    },
+    {
+      "id": "help.001b5db5",
+      "address": 151060928,
+      "raw_hex": "246d3020736c6f77656420746f2068616c660a73706565642e00",
+      "span": "$m0 slowed to half\nspeed.",
+      "pointer_owners": [
+        "0x000A67E4",
+        "0x000D9304"
+      ]
+    },
+    {
+      "id": "help.001b5dc5",
+      "address": 151060956,
+      "raw_hex": "246d302072657475726e656420746f0a6e6f726d616c2073706565642e00",
+      "span": "$m0 returned to\nnormal speed.",
+      "pointer_owners": [
+        "0x000A67E8",
+        "0x000D9308"
+      ]
+    },
+    {
+      "id": "help.001b5e5c",
+      "address": 151061212,
+      "raw_hex": "246d312076616e697368656420696e207468650a6578706c6f73696f6e2e00",
+      "span": "$m1 vanished in the\nexplosion.",
+      "pointer_owners": [
+        "0x00056D6C"
+      ]
+    },
+    {
+      "id": "help.001b5eb1",
+      "address": 151061328,
+      "raw_hex": "246930206661696c656420746f0a6578706c6f64652e00",
+      "span": "$i0 failed to\nexplode.",
+      "pointer_owners": [
+        "0x00011498",
+        "0x00015294",
+        "0x000179D4",
+        "0x0001A13C"
+      ]
+    },
+    {
+      "id": "help.001b5f65",
+      "address": 151061552,
+      "raw_hex": "4e6f7468696e672068617070656e656420746f0a246d312e00",
+      "span": "Nothing happened to\n$m1.",
+      "pointer_owners": [
+        "0x000383D4"
+      ]
+    },
+    {
+      "id": "help.001b5fdc",
+      "address": 152171752,
+      "raw_hex": "246d30207573656420610a706172616c7973696e672061747461636b2100",
+      "span": "$m0 used a\nparalysing attack!",
+      "pointer_owners": [
+        "0x000A7010"
+      ]
+    },
+    {
+      "id": "help.001b6127",
+      "address": 151061816,
+      "raw_hex": "246d312063616e206e6f206c6f6e6765720a7265636f676e697365206974656d732100",
+      "span": "$m1 can no longer\nrecognise items!",
+      "pointer_owners": [
+        "0x0003852C"
+      ]
+    },
+    {
+      "id": "help.001b6142",
+      "address": 152171784,
+      "raw_hex": "246d30206761766520612074686f726f7567680a6c69636b696e672e00",
+      "span": "$m0 gave a thorough\nlicking.",
+      "pointer_owners": [
+        "0x000A7154"
+      ]
+    },
+    {
+      "id": "help.001b6167",
+      "address": 151061904,
+      "raw_hex": "246d312773206d61676963207761730a7365616c65642100",
+      "span": "$m1's magic was\nsealed!",
+      "pointer_owners": [
+        "0x000385D0"
+      ]
+    },
+    {
+      "id": "help.001b617c",
+      "address": 151061928,
+      "raw_hex": "246d312773206d616769632069730a616c7265616479207365616c65642e00",
+      "span": "$m1's magic is\nalready sealed.",
+      "pointer_owners": [
+        "0x000385F8"
+      ]
+    },
+    {
+      "id": "help.001b61a6",
+      "address": 151061976,
+      "raw_hex": "246d3120697320616c72656164790a7365616c65642100",
+      "span": "$m1 is already\nsealed!",
+      "pointer_owners": [
+        "0x00038820"
+      ]
+    },
+    {
+      "id": "help.001b61ba",
+      "address": 151062000,
+      "raw_hex": "246d3120616c72656164792063616e6e6f740a75736520697473206d6f7574682e00",
+      "span": "$m1 already cannot\nuse its mouth.",
+      "pointer_owners": [
+        "0x00038708"
+      ]
+    },
+    {
+      "id": "help.001b61cf",
+      "address": 151062036,
+      "raw_hex": "246d312063616e206e6f206c6f6e6765720a75736520697473206d6f7574682e00",
+      "span": "$m1 can no longer\nuse its mouth.",
+      "pointer_owners": [
+        "0x0003873C"
+      ]
+    },
+    {
+      "id": "help.001b61f3",
+      "address": 151062088,
+      "raw_hex": "4e6f7468696e67206368616e67656420666f720a246d312100",
+      "span": "Nothing changed for\n$m1!",
+      "pointer_owners": [
+        "0x0003875C"
+      ]
+    },
+    {
+      "id": "help.001b6256",
+      "address": 151062212,
+      "raw_hex": "24742773206d6178696d756d2046756c6c6e657373206973206e6f770a2464302e00",
+      "span": "$t's maximum Fullness is now\n$d0.",
+      "pointer_owners": [
+        "0x00011AFC",
+        "0x00011C48"
+      ]
+    },
+    {
+      "id": "help.001b6382",
+      "address": 151062592,
+      "raw_hex": "246d31207265636f76657265640a24643020537472656e6774682100",
+      "span": "$m1 recovered\n$d0 Strength!",
+      "pointer_owners": [
+        "0x00037414"
+      ]
+    },
+    {
+      "id": "help.001b6398",
+      "address": 151062620,
+      "raw_hex": "246d31277320537472656e677468207761730a66756c6c7920726573746f7265642100",
+      "span": "$m1's Strength was\nfully restored!",
+      "pointer_owners": [
+        "0x00037418"
+      ]
+    },
+    {
+      "id": "help.001b63ab",
+      "address": 151062656,
+      "raw_hex": "246d31277320537472656e677468207761730a66756c6c7920726573746f726564210a4d6178696d756d20537472656e67746820726f7365206279202464302100",
+      "span": "$m1's Strength was\nfully restored!",
+      "pointer_owners": [
+        "0x0003741C"
+      ]
+    },
+    {
+      "id": "help.001b63d8",
+      "address": 151062724,
+      "raw_hex": "246d312773206d6178696d756d0a537472656e6774680a726f7365206279202464302100",
+      "span": "$m1's maximum\nStrength\nrose by $d0!",
+      "pointer_owners": [
+        "0x00037420"
+      ]
+    },
+    {
+      "id": "help.001b63f6",
+      "address": 151062760,
+      "raw_hex": "246d3127732041747461636b20726f73652062790a2464302100",
+      "span": "$m1's Attack rose by\n$d0!",
+      "pointer_owners": [
+        "0x000374B8"
+      ]
+    },
+    {
+      "id": "help.001b6410",
+      "address": 152171880,
+      "raw_hex": "246d3020706572666f726d656420610a53756c7472792044616e63652100",
+      "span": "$m0 performed a\nSultry Dance!",
+      "pointer_owners": [
+        "0x000A719C",
+        "0x000A79E8"
+      ]
+    },
+    {
+      "id": "help.001b6424",
+      "address": 152171912,
+      "raw_hex": "246d30207573656420612068756e6765720a61747461636b2100",
+      "span": "$m0 used a hunger\nattack!",
+      "pointer_owners": [
+        "0x000A71C0"
+      ]
+    },
+    {
+      "id": "help.001b6438",
+      "address": 151062848,
+      "raw_hex": "246d312063616e6e6f742073746f700a64616e63696e672100",
+      "span": "$m1 cannot stop\ndancing!",
+      "pointer_owners": [
+        "0x00038954"
+      ]
+    },
+    {
+      "id": "help.001b6455",
+      "address": 151062876,
+      "raw_hex": "246d3120697320616c72656164790a64616e63696e672100",
+      "span": "$m1 is already\ndancing!",
+      "pointer_owners": [
+        "0x00038970"
+      ]
+    },
+    {
+      "id": "help.001b64ac",
+      "address": 151062984,
+      "raw_hex": "246d30206973206275696c64696e672075700a706f7765722e2e2e00",
+      "span": "$m0 is building up\npower...",
+      "pointer_owners": [
+        "0x00037534"
+      ]
+    },
+    {
+      "id": "help.001b64d6",
+      "address": 152171940,
+      "raw_hex": "246d302068696420696e20697473207368656c6c0a746f20646566656e6420697473656c662100",
+      "span": "$m0 hid in its shell\nto defend itself!",
+      "pointer_owners": [
+        "0x00037588"
+      ]
+    },
+    {
+      "id": "help.001b6535",
+      "address": 151063156,
+      "raw_hex": "576861742061207375727072697365210a24693020776173207265616c6c790a2469312100",
+      "span": "$i0 was really\n$i1!",
+      "pointer_owners": [
+        "0x0000D8C0",
+        "0x00024168"
+      ]
+    },
+    {
+      "id": "help.001b654a",
+      "address": 151063196,
+      "raw_hex": "5468697320697320646566696e6974656c790a2469302100",
+      "span": "This is definitely\n$i0!",
+      "pointer_owners": [
+        "0x0000D890"
+      ]
+    },
+    {
+      "id": "help.001b6593",
+      "address": 151063308,
+      "raw_hex": "246930207761730a706c617465642e00",
+      "span": "$i0 was\nplated.",
+      "pointer_owners": [
+        "0x0000DB70"
+      ]
+    },
+    {
+      "id": "help.001b65be",
+      "address": 151063360,
+      "raw_hex": "2469302063616e206e6f0a6c6f6e67657220627265616b2100",
+      "span": "$i0 can no\nlonger break!",
+      "pointer_owners": [
+        "0x0000DC3C"
+      ]
+    },
+    {
+      "id": "battle.001b7e15",
+      "address": 151399956,
+      "raw_hex": "53776170706564202469300a666f72202469312e00",
+      "span": "Swapped $i0\nfor $i1.",
+      "pointer_owners": [
+        "0x00021458"
+      ]
+    },
+    {
+      "id": "battle.001b7e8c",
+      "address": 151400124,
+      "raw_hex": "24693020626563616d650a2469312e00",
+      "span": "$i0 became\n$i1.",
+      "pointer_owners": [
+        "0x0000ED00"
+      ]
+    },
+    {
+      "id": "battle.001b7edc",
+      "address": 151400216,
+      "raw_hex": "246930206761696e6564206f6e650a6368617267652e00",
+      "span": "$i0 gained one\ncharge.",
+      "pointer_owners": [
+        "0x0000EF28"
+      ]
+    },
+    {
+      "id": "battle.001b7ef0",
+      "address": 151400240,
+      "raw_hex": "246930206772657720610a6c6974746c65206269676765722e00",
+      "span": "$i0 grew a\nlittle bigger.",
+      "pointer_owners": [
+        "0x0000EF1C"
+      ]
+    },
+    {
+      "id": "battle.001b7fbf",
+      "address": 151400508,
+      "raw_hex": "246d312063616e206e6f206c6f6e6765720a6d6f76652100",
+      "span": "$m1 can no longer\nmove!",
+      "pointer_owners": [
+        "0x0003927C"
+      ]
+    },
+    {
+      "id": "battle.001b7ff1",
+      "address": 151400552,
+      "raw_hex": "246d3120697320616c72656164790a7768696666696e672100",
+      "span": "$m1 is already\nwhiffing!",
+      "pointer_owners": [
+        "0x000392B8"
+      ]
+    },
+    {
+      "id": "battle.001b8008",
+      "address": 151400580,
+      "raw_hex": "246d3120636f6e766572746564207468650a65666665637420696e746f2064616d6167652e00",
+      "span": "$m1 converted the\neffect into damage.",
+      "pointer_owners": [
+        "0x0001AF08",
+        "0x00040678"
+      ]
+    },
+    {
+      "id": "battle.001b80a5",
+      "address": 151400796,
+      "raw_hex": "246d312773206d6178696d756d2048500a66656c6c206279202464302100",
+      "span": "$m1's maximum HP\nfell by $d0!",
+      "pointer_owners": [
+        "0x00039DFC"
+      ]
+    },
+    {
+      "id": "battle.001b80d9",
+      "address": 151400856,
+      "raw_hex": "246d31277320766973696f6e2072657475726e65640a746f206e6f726d616c2100",
+      "span": "$m1's vision returned\nto normal!",
+      "pointer_owners": [
+        "0x000380BC"
+      ]
+    },
+    {
+      "id": "battle.001b80e9",
+      "address": 151400892,
+      "raw_hex": "246d312063616e206e6f77207365650a696e76697369626c65207468696e67732100",
+      "span": "$m1 can now see\ninvisible things!",
+      "pointer_owners": [
+        "0x000380A0"
+      ]
+    },
+    {
+      "id": "battle.001b810a",
+      "address": 151400928,
+      "raw_hex": "246d3120746f6f6b2074686520666f726d206f660a546f726e656b6f2e00",
+      "span": "$m1 took the form of\nTorneko.",
+      "pointer_owners": [
+        "0x0003417C"
+      ]
+    },
+    {
+      "id": "battle.001b8122",
+      "address": 151400960,
+      "raw_hex": "246d302073746f70706564206c6f6f6b696e670a6c696b6520546f726e656b6f2e00",
+      "span": "$m0 stopped looking\nlike Torneko.",
+      "pointer_owners": [
+        "0x0003C5C4"
+      ]
+    },
+    {
+      "id": "battle.001b81c9",
+      "address": 151401192,
+      "raw_hex": "246d30207377616c6c6f7765640a2469302100",
+      "span": "$m0 swallowed\n$i0!",
+      "pointer_owners": [
+        "0x0003E1D4"
+      ]
+    },
+    {
+      "id": "battle.001b81de",
+      "address": 151401212,
+      "raw_hex": "246d3020747269656420746f2073706974206f75740a616e20616c6c792100",
+      "span": "$m0 tried to spit out\nan ally!",
+      "pointer_owners": [
+        "0x000A761C",
+        "0x000A7620"
+      ]
+    },
+    {
+      "id": "battle.001b8228",
+      "address": 151401320,
+      "raw_hex": "246d312063616e6e6f742067657420616e790a7765616b65722e00",
+      "span": "$m1 cannot get any\nweaker.",
+      "pointer_owners": [
+        "0x00039960"
+      ]
+    },
+    {
+      "id": "battle.001b8250",
+      "address": 151401372,
+      "raw_hex": "246d31207475726e656420696e746f0a526f7474656e2062726561642e00",
+      "span": "$m1 turned into\nRotten bread.",
+      "pointer_owners": [
+        "0x00039B68",
+        "0x00046DD4"
+      ]
+    },
+    {
+      "id": "battle.001b8276",
+      "address": 151401432,
+      "raw_hex": "246930207761727065640a617761792e00",
+      "span": "$i0 warped\naway.",
+      "pointer_owners": [
+        "0x00047270"
+      ]
+    },
+    {
+      "id": "battle.001b8286",
+      "address": 151401452,
+      "raw_hex": "246930207761727065640a6177617920616e6420776173206c6f73742e00",
+      "span": "$i0 warped\naway and was lost.",
+      "pointer_owners": [
+        "0x000472A4"
+      ]
+    },
+    {
+      "id": "battle.001b82bf",
+      "address": 151401524,
+      "raw_hex": "246930277320737472656e6774680a66656c6c20627920312100",
+      "span": "$i0's strength\nfell by 1!",
+      "pointer_owners": [
+        "0x00047610"
+      ]
+    },
+    {
+      "id": "battle.001b8318",
+      "address": 151401632,
+      "raw_hex": "246930277320737472656e6774680a66656c6c20627920312100",
+      "span": "$i0's strength\nfell by 1!",
+      "pointer_owners": [
+        "0x00047540"
+      ]
+    },
+    {
+      "id": "battle.001b832d",
+      "address": 151401660,
+      "raw_hex": "497420686164206e6f20656666656374206f6e0a2469302e00",
+      "span": "It had no effect on\n$i0.",
+      "pointer_owners": [
+        "0x00047584"
+      ]
+    },
+    {
+      "id": "battle.001b8443",
+      "address": 151402068,
+      "raw_hex": "246d3027732073656c662d64657374727563740a6661696c656420746f20676f206f66662e00",
+      "span": "$m0's self-destruct\nfailed to go off.",
+      "pointer_owners": [
+        "0x0001E384",
+        "0x0004071C",
+        "0x00040938",
+        "0x0004098C"
+      ]
+    },
+    {
+      "id": "battle.001b845b",
+      "address": 151402108,
+      "raw_hex": "246d3020656d69747465642061206272696768740a6c696768742100",
+      "span": "$m0 emitted a bright\nlight!",
+      "pointer_owners": [
+        "0x000A7760",
+        "0x000A7764"
+      ]
+    },
+    {
+      "id": "battle.001b846d",
+      "address": 151402136,
+      "raw_hex": "246d3020656d69747465642061206272696768740a6c696768742100",
+      "span": "$m0 emitted a bright\nlight!",
+      "pointer_owners": [
+        "0x000A7784",
+        "0x000A7788"
+      ]
+    },
+    {
+      "id": "battle.001b8495",
+      "address": 151402212,
+      "raw_hex": "246d30207377756e6720616e206178650a7769746820616c6c20697473206d696768742100",
+      "span": "$m0 swung an axe\nwith all its might!",
+      "pointer_owners": [
+        "0x0004036C"
+      ]
+    },
+    {
+      "id": "battle.001b84ab",
+      "address": 151402252,
+      "raw_hex": "246d302061747461636b65640a6669657263656c792100",
+      "span": "$m0 attacked\nfiercely!",
+      "pointer_owners": [
+        "0x00040368"
+      ]
+    },
+    {
+      "id": "battle.001b862f",
+      "address": 151402744,
+      "raw_hex": "24693020726573746f7265640a6865616c74682100",
+      "span": "$i0 restored\nhealth!",
+      "pointer_owners": [
+        "0x00059A50",
+        "0x00059AB0"
+      ]
+    },
+    {
+      "id": "battle.001b864e",
+      "address": 151402784,
+      "raw_hex": "2469302077617320610a43616e6e69626f782100",
+      "span": "$i0 was a\nCannibox!",
+      "pointer_owners": [
+        "0x0002505C"
+      ]
+    },
+    {
+      "id": "battle.001b8667",
+      "address": 151402804,
+      "raw_hex": "246930207761730a6375727365642100",
+      "span": "$i0 was\ncursed!",
+      "pointer_owners": [
+        "0x000250A0"
+      ]
+    },
+    {
+      "id": "battle.001b8675",
+      "address": 151402820,
+      "raw_hex": "247420757365640a24693020616e640a726576697665642100",
+      "span": "$t used\n$i0 and\nrevived!",
+      "pointer_owners": [
+        "0x00004468",
+        "0x000044DC"
+      ]
+    },
+    {
+      "id": "battle.001b868c",
+      "address": 151402848,
+      "raw_hex": "24693020746f6f6b20666972650a64616d6167652100",
+      "span": "$i0 took fire\ndamage!",
+      "pointer_owners": [
+        "0x0000BA8C"
+      ]
+    },
+    {
+      "id": "battle.001b86a4",
+      "address": 151402872,
+      "raw_hex": "246d302063617374204d616769630a42757273742100",
+      "span": "$m0 cast Magic\nBurst!",
+      "pointer_owners": [
+        "0x000A7934",
+        "0x000A7938"
+      ]
+    },
+    {
+      "id": "battle.001b86d0",
+      "address": 151402916,
+      "raw_hex": "246d302073687265646465640a24742773202469302100",
+      "span": "$m0 shredded\n$t's $i0!",
+      "pointer_owners": [
+        "0x00041258"
+      ]
+    },
+    {
+      "id": "battle.001b870e",
+      "address": 152172200,
+      "raw_hex": "246d3020666f756e64206e6f206974656d730a746f2073687265642100",
+      "span": "$m0 found no items\nto shred!",
+      "pointer_owners": [
+        "0x00041178",
+        "0x00041288"
+      ]
+    },
+    {
+      "id": "battle.001b872d",
+      "address": 151403028,
+      "raw_hex": "246d3020776169747320616e640a776174636865732e2e2e00",
+      "span": "$m0 waits and\nwatches...",
+      "pointer_owners": [
+        "0x0004114C"
+      ]
+    },
+    {
+      "id": "battle.001b8741",
+      "address": 151403056,
+      "raw_hex": "246d3020657874656e646564206974730a7363797468652e00",
+      "span": "$m0 extended its\nscythe.",
+      "pointer_owners": [
+        "0x000A76D0"
+      ]
+    },
+    {
+      "id": "battle.001b8753",
+      "address": 151403084,
+      "raw_hex": "246d3020736872656464656420616e0a6974656d2e00",
+      "span": "$m0 shredded an\nitem.",
+      "pointer_owners": [
+        "0x000A76F4",
+        "0x000A76F8"
+      ]
+    },
+    {
+      "id": "battle.001b885b",
+      "address": 151403384,
+      "raw_hex": "246d3127732061747461636b20706f7765720a726f73652100",
+      "span": "$m1's attack power\nrose!",
+      "pointer_owners": [
+        "0x000414C8",
+        "0x00041B6C"
+      ]
+    },
+    {
+      "id": "battle.001b888d",
+      "address": 151403456,
+      "raw_hex": "246d30207377756e6720612073776f72640a7769746820616c6c20697473206d696768742100",
+      "span": "$m0 swung a sword\nwith all its might!",
+      "pointer_owners": [
+        "0x000403FC"
+      ]
+    },
+    {
+      "id": "battle.001b88a3",
+      "address": 151403496,
+      "raw_hex": "246d3020636173742061207365616c206f6e0a796f752100",
+      "span": "$m0 cast a seal on\nyou!",
+      "pointer_owners": [
+        "0x000A78EC"
+      ]
+    },
+    {
+      "id": "battle.001b88ee",
+      "address": 151403576,
+      "raw_hex": "246d30206d6164652061207377656570696e670a61747461636b2100",
+      "span": "$m0 made a sweeping\nattack!",
+      "pointer_owners": [
+        "0x000A7AC0",
+        "0x000A7AC4"
+      ]
+    },
+    {
+      "id": "battle.001b8900",
+      "address": 152172232,
+      "raw_hex": "246d3020776173207377657074206f66660a69747320666565742100",
+      "span": "$m0 was swept off\nits feet!",
+      "pointer_owners": [
+        "0x000418F0"
+      ]
+    },
+    {
+      "id": "battle.001b8927",
+      "address": 151403648,
+      "raw_hex": "246d30207573656420426c616465206f660a556c74696d61746520506f7765722100",
+      "span": "$m0 used Blade of\nUltimate Power!",
+      "pointer_owners": [
+        "0x000A7B08",
+        "0x000A7B0C"
+      ]
+    },
+    {
+      "id": "battle.001b8a64",
+      "address": 151403980,
+      "raw_hex": "246d3120776173207375636b656420696e746f0a74686520706f742100",
+      "span": "$m1 was sucked into\nthe pot!",
+      "pointer_owners": [
+        "0x000112EC"
+      ]
+    },
+    {
+      "id": "battle.001b8a77",
+      "address": 151404012,
+      "raw_hex": "246d3127732070726573656e63650a76616e69736865642100",
+      "span": "$m1's presence\nvanished!",
+      "pointer_owners": [
+        "0x000107DC"
+      ]
+    },
+    {
+      "id": "battle.001b8aa0",
+      "address": 151404088,
+      "raw_hex": "246d3120776173207472617070656420696e0a74686520706f742100",
+      "span": "$m1 was trapped in\nthe pot!",
+      "pointer_owners": [
+        "0x000113D0"
+      ]
+    },
+    {
+      "id": "battle.001b8abf",
+      "address": 151404132,
+      "raw_hex": "246d31207761732063617567687420696e0a7468652077696e642100",
+      "span": "$m1 was caught in\nthe wind!",
+      "pointer_owners": [
+        "0x00054EE0"
+      ]
+    },
+    {
+      "id": "battle.001b8b20",
+      "address": 151404280,
+      "raw_hex": "246d30207377756e672069747320686f726e730a696e2061206772656174206172632100",
+      "span": "$m0 swung its horns\nin a great arc!",
+      "pointer_owners": [
+        "0x000A77A8",
+        "0x000A77AC",
+        "0x000A77CC",
+        "0x000A77D0",
+        "0x000A77F0",
+        "0x000A77F4",
+        "0x000A7814",
+        "0x000A7818"
+      ]
+    },
+    {
+      "id": "battle.001b8b38",
+      "address": 151404316,
+      "raw_hex": "246d3120776173206b6e6f636b65640a617761792e00",
+      "span": "$m1 was knocked\naway.",
+      "pointer_owners": [
+        "0x0005A4B8"
+      ]
+    },
+    {
+      "id": "battle.001b8b49",
+      "address": 151404340,
+      "raw_hex": "46696c6c6564202469300a776974682077617465722e00",
+      "span": "Filled $i0\nwith water.",
+      "pointer_owners": [
+        "0x00022864"
+      ]
+    },
+    {
+      "id": "battle.001b8b6f",
+      "address": 151404396,
+      "raw_hex": "24693020697320616c72656164790a66756c6c206f662077617465722e00",
+      "span": "$i0 is already\nfull of water.",
+      "pointer_owners": [
+        "0x0002281C"
+      ]
+    },
+    {
+      "id": "battle.001b8b9b",
+      "address": 151404456,
+      "raw_hex": "5468652073706c617368206f66207761746572207765616b656e65640a246d312e00",
+      "span": "The splash of water weakened\n$m1.",
+      "pointer_owners": [
+        "0x00012224"
+      ]
+    },
+    {
+      "id": "battle.001b8c38",
+      "address": 151404688,
+      "raw_hex": "246d3120697320616c726561647920776964650a6177616b652100",
+      "span": "$m1 is already wide\nawake!",
+      "pointer_owners": [
+        "0x00038228"
+      ]
+    },
+    {
+      "id": "battle.001b8c5b",
+      "address": 151404732,
+      "raw_hex": "24693020636f756c64206e6f740a6265207375636b65642075702e00",
+      "span": "$i0 could not\nbe sucked up.",
+      "pointer_owners": [
+        "0x00011668"
+      ]
+    },
+    {
+      "id": "battle.001b8cf4",
+      "address": 151404928,
+      "raw_hex": "41206d6f6e7374657220626563616d650a2469302e00",
+      "span": "A monster became\n$i0.",
+      "pointer_owners": [
+        "0x0000E5F4"
+      ]
+    },
+    {
+      "id": "battle.001b8d40",
+      "address": 151405048,
+      "raw_hex": "246d3020627265617468656420616e206963790a626c6173742100",
+      "span": "$m0 breathed an icy\nblast!",
+      "pointer_owners": [
+        "0x000A7274"
+      ]
+    },
+    {
+      "id": "battle.001b8d83",
+      "address": 151405136,
+      "raw_hex": "246d3020747269656420746f207468726f770a2469302100",
+      "span": "$m0 tried to throw\n$i0!",
+      "pointer_owners": [
+        "0x0004342C"
+      ]
+    },
+    {
+      "id": "battle.001b8dd9",
+      "address": 151405268,
+      "raw_hex": "246d31207761732070756c6c65640a636c6f7365722100",
+      "span": "$m1 was pulled\ncloser!",
+      "pointer_owners": [
+        "0x0000D028",
+        "0x00043B1C"
+      ]
+    },
+    {
+      "id": "battle.001b8e1a",
+      "address": 151405360,
+      "raw_hex": "50756c6c6564202469300a636c6f7365722100",
+      "span": "Pulled $i0\ncloser!",
+      "pointer_owners": [
+        "0x000193C8"
+      ]
+    },
+    {
+      "id": "battle.001b8e6e",
+      "address": 151405488,
+      "raw_hex": "246d30207472616e73666f726d656420696e746f0a246d312100",
+      "span": "$m0 transformed into\n$m1!",
+      "pointer_owners": [
+        "0x00043FE0"
+      ]
+    },
+    {
+      "id": "battle.001b8e80",
+      "address": 151405516,
+      "raw_hex": "246d30206368616e67656420696e746f0a246d312e00",
+      "span": "$m0 changed into\n$m1.",
+      "pointer_owners": [
+        "0x000345F4"
+      ]
+    },
+    {
+      "id": "battle.001b8e92",
+      "address": 151405540,
+      "raw_hex": "246d3020746f6f6b2074686520666f726d206f660a246d312e00",
+      "span": "$m0 took the form of\n$m1.",
+      "pointer_owners": [
+        "0x0003452C"
+      ]
+    },
+    {
+      "id": "battle.001b9256",
+      "address": 151406744,
+      "raw_hex": "246d302063686172676564206974730a73776f7264207769746820706f7765722100",
+      "span": "$m0 charged its\nsword with power!",
+      "pointer_owners": [
+        "0x000A797C"
+      ]
+    },
+    {
+      "id": "battle.001b9268",
+      "address": 151406780,
+      "raw_hex": "246d302073746f6c650a2469302e00",
+      "span": "$m0 stole\n$i0.",
+      "pointer_owners": [
+        "0x00044730",
+        "0x000447D0"
+      ]
+    },
+    {
+      "id": "battle.001b927a",
+      "address": 151406796,
+      "raw_hex": "246d3020747269656420746f20737465616c20616e0a6974656d210a42757420636f756c64206e6f7420737465616c20616e797468696e672100",
+      "span": "$m0 tried to steal an\nitem!",
+      "pointer_owners": [
+        "0x00044538",
+        "0x00044568"
+      ]
+    },
+    {
+      "id": "battle.001b92a6",
+      "address": 151406856,
+      "raw_hex": "246d3020747269656420746f20737465616c20616e0a6974656d210a42757420746865726520776173206e6f7468696e6720746f20737465616c2e00",
+      "span": "$m0 tried to steal an\nitem!",
+      "pointer_owners": [
+        "0x00044778"
+      ]
+    },
+    {
+      "id": "battle.001b92cf",
+      "address": 151406916,
+      "raw_hex": "246d302073746f6c650a24643020472066726f6d0a246d312e00",
+      "span": "$m0 stole\n$d0 G from\n$m1.",
+      "pointer_owners": [
+        "0x00044D18",
+        "0x00044E78"
+      ]
+    },
+    {
+      "id": "battle.001b932e",
+      "address": 151407032,
+      "raw_hex": "246d3020747269656420746f20737465616c0a6d6f6e6579210a42757420636f756c64206e6f7420737465616c20616e792e00",
+      "span": "$m0 tried to steal\nmoney!",
+      "pointer_owners": [
+        "0x00044C60",
+        "0x00044DCC"
+      ]
+    },
+    {
+      "id": "battle.001b9377",
+      "address": 151407132,
+      "raw_hex": "2469302073706f757465640a666c616d65732100",
+      "span": "$i0 spouted\nflames!",
+      "pointer_owners": [
+        "0x00049438"
+      ]
+    },
+    {
+      "id": "battle.001b93a8",
+      "address": 151407200,
+      "raw_hex": "24693020696e76697465730a796f7520746f2064616e63652100",
+      "span": "$i0 invites\nyou to dance!",
+      "pointer_owners": [
+        "0x000495DC"
+      ]
+    },
+    {
+      "id": "battle.001b93ba",
+      "address": 151407228,
+      "raw_hex": "2469302072656c65617365640a736c656570696e67206761732100",
+      "span": "$i0 released\nsleeping gas!",
+      "pointer_owners": [
+        "0x00049668"
+      ]
+    },
+    {
+      "id": "battle.001b93ff",
+      "address": 151407288,
+      "raw_hex": "412073746174756520666c65772061740a246d302100",
+      "span": "A statue flew at\n$m0!",
+      "pointer_owners": [
+        "0x00049BE8"
+      ]
+    },
+    {
+      "id": "battle.001b9486",
+      "address": 151407512,
+      "raw_hex": "4669726564202469302066726f6d0a2469312100",
+      "span": "Fired $i0 from\n$i1!",
+      "pointer_owners": [
+        "0x00012B80"
+      ]
+    },
+    {
+      "id": "battle.001b9499",
+      "address": 151407532,
+      "raw_hex": "247420726f6c6c65640a2469302e00",
+      "span": "$t rolled\n$i0.",
+      "pointer_owners": [
+        "0x0001301C"
+      ]
+    },
+    {
+      "id": "battle.001b94aa",
+      "address": 151407548,
+      "raw_hex": "246930206661696c656420746f0a676f206f66662100",
+      "span": "$i0 failed to\ngo off!",
+      "pointer_owners": [
+        "0x00013424",
+        "0x000135AC",
+        "0x00013650",
+        "0x00048A1C"
+      ]
+    },
+    {
+      "id": "battle.001b9630",
+      "address": 151407980,
+      "raw_hex": "42757420697420686164206e6f20656666656374206f6e0a246d302100",
+      "span": "But it had no effect on\n$m0!",
+      "pointer_owners": [
+        "0x00045410"
+      ]
+    },
+    {
+      "id": "battle.001b9891",
+      "address": 151408636,
+      "raw_hex": "246d30206a6f696e656420796f75720a616c6c6965732100",
+      "span": "$m0 joined your\nallies!",
+      "pointer_owners": [
+        "0x000293A4"
+      ]
+    },
+    {
+      "id": "battle.001b98a6",
+      "address": 151408660,
+      "raw_hex": "246d30206c6566742c206c6f6f6b696e670a6c6f6e656c792e2e2e00",
+      "span": "$m0 left, looking\nlonely...",
+      "pointer_owners": [
+        "0x000293E4"
+      ]
+    },
+    {
+      "id": "battle.001b9c2b",
+      "address": 151409664,
+      "raw_hex": "246d3020756e6c65617368656420616e206576696c0a6d6973742100",
+      "span": "$m0 unleashed an evil\nmist!",
+      "pointer_owners": [
+        "0x000A7C70"
+      ]
+    },
+    {
+      "id": "battle.001b9ca3",
+      "address": 151409844,
+      "raw_hex": "246d3020697320756e6861726d65642062790a74686520666c616d65732100",
+      "span": "$m0 is unharmed by\nthe flames!",
+      "pointer_owners": [
+        "0x00054E00"
+      ]
+    },
+    {
+      "id": "battle.001b9d54",
+      "address": 151410128,
+      "raw_hex": "246d3020646964206e6f7420737761700a706c616365732e00",
+      "span": "$m0 did not swap\nplaces.",
+      "pointer_owners": [
+        "0x00058470"
+      ]
+    },
+    {
+      "id": "battle.001b9d7a",
+      "address": 151410176,
+      "raw_hex": "2469302066726f7a650a736f6c69642100",
+      "span": "$i0 froze\nsolid!",
+      "pointer_owners": [
+        "0x000182A4"
+      ]
+    },
+    {
+      "id": "battle.001b9db0",
+      "address": 151410256,
+      "raw_hex": "246d30207265636f7665726564204850206f6e0a7468652077617465722100",
+      "span": "$m0 recovered HP on\nthe water!",
+      "pointer_owners": [
+        "0x00039F44"
+      ]
+    },
+    {
+      "id": "battle.001b9dc8",
+      "address": 151410288,
+      "raw_hex": "2469302077617320610a43616e6e69626f782100",
+      "span": "$i0 was a\nCannibox!",
+      "pointer_owners": [
+        "0x00048A14"
+      ]
+    }
+  ],
+  "unchanged_messages": [
+    {
+      "id": "gameplay.001b459d",
+      "address": 151052180,
+      "raw_hex": "24693020697320637572736564210a596f752063616e27742072656d6f76652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4637",
+      "address": 151052404,
+      "raw_hex": "24693120697320637572736564210a596f752063616e27742072656d6f76652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b46cf",
+      "address": 151052616,
+      "raw_hex": "24742063616e2774207069636b207570206974656d732c20736f2063616e27740a74616b6520616e797468696e67206f7574206f662074686520706f74206f6e207468650a67726f756e642100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4703",
+      "address": 151052696,
+      "raw_hex": "596f757220696e76656e746f72792069732066756c6c2e20596f752063616e27742074616b650a616e797468696e6720656c7365206f7574206f662074686520706f742e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4741",
+      "address": 151052812,
+      "raw_hex": "246930206973206669726d6c790a737475636b20746f207468652067726f756e642e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b475d",
+      "address": 152171400,
+      "raw_hex": "246930206973206669726d6c790a737475636b20746f207468652067726f756e6420756e64657277617465722e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b47ce",
+      "address": 151053044,
+      "raw_hex": "596f757220696e76656e746f72792069732066756c6c2e20596f752063616e2774207069636b2075700a2469302e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4b8c",
+      "address": 151053188,
+      "raw_hex": "24693020697320637572736564210a596f752063616e27742072656d6f76652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4c89",
+      "address": 151053564,
+      "raw_hex": "2469302062726f6b6520616e640a63616e206e6f206c6f6e67657220626520757365642e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b4ca5",
+      "address": 151053604,
+      "raw_hex": "2469302773207365616c65640a65666665637473207765726520726573746f7265642e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b4cc5",
+      "address": 151053640,
+      "raw_hex": "546865207365616c65642065666665637473206f66207365766572616c206974656d7320776572650a726573746f7265642e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4cef",
+      "address": 151053692,
+      "raw_hex": "546865205765616b656e696e672074726170277320656666656374206f6e0a24693020776f7265206f66662e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4d0c",
+      "address": 151053740,
+      "raw_hex": "546865205765616b656e696e672074726170277320656666656374206f6e207365766572616c0a6974656d7320776f7265206f66662e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b4d95",
+      "address": 151053920,
+      "raw_hex": "4465616c74202464302064616d61676520746f0a246d312e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "gameplay.001b4dac",
+      "address": 151053948,
+      "raw_hex": "246d3120746f6f6b202464300a64616d6167652e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "gameplay.001b4e23",
+      "address": 151054104,
+      "raw_hex": "246d30206761696e65640a2464302058502e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "gameplay.001b4e38",
+      "address": 151054124,
+      "raw_hex": "246d31207761732064656665617465642e0a246d30206761696e65640a2464302058502e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "gameplay.001b4e7b",
+      "address": 151054204,
+      "raw_hex": "246d302072656163686564206c6576656c0a2464302e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "gameplay.001b52bb",
+      "address": 151054656,
+      "raw_hex": "24742773206669656c64206f6620766973696f6e2072657475726e656420746f0a6e6f726d616c2e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b5385",
+      "address": 151054908,
+      "raw_hex": "24742063616e20736565207468696e67732061732074686579207265616c6c790a6172652e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b54b6",
+      "address": 151055288,
+      "raw_hex": "24693020697320637572736564210a596f752063616e277420666972652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b54d5",
+      "address": 151055324,
+      "raw_hex": "24693020697320637572736564210a596f752063616e27742072656d6f76652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b5544",
+      "address": 151055444,
+      "raw_hex": "2469302066656c6c20746f0a7468652067726f756e64206f7220696e746f207468652077617465722e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b5560",
+      "address": 151055488,
+      "raw_hex": "546865206974656d207761732061204d696d6963212042757420666f7220736f6d650a726561736f6e2c20697420636f756c646e2774206170706561722e00",
+      "category": "keep"
+    },
+    {
+      "id": "gameplay.001b55ea",
+      "address": 151055624,
+      "raw_hex": "24693020636f756c646e27740a74616b65206f6e20697473206d6f6e7374657220666f726d2e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b56fd",
+      "address": 151055928,
+      "raw_hex": "2469303a20736f6d650a76616e697368656420696e746f207468652073616e642e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b5723",
+      "address": 151055992,
+      "raw_hex": "2469303a20736f6d6520776572650a6c6f737420746f207468652077696e642e00",
+      "category": "candidate"
+    },
+    {
+      "id": "gameplay.001b593e",
+      "address": 151056652,
+      "raw_hex": "246d302063616e20736565207468696e67730a61732074686579207265616c6c79206172652e00",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b507e",
+      "address": 152171148,
+      "raw_hex": "21246d3120746f6f6b0a2464302064616d6167652e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "tutorial.001b601c",
+      "address": 151072164,
+      "raw_hex": "2469332063616e63656c6c65640a746865206d6167696320616666656374696e670a246d302100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b607e",
+      "address": 151072280,
+      "raw_hex": "2469332063616e63656c6c65640a74686520656666656374206f6620246d3027730a7468726f776e206974656d2100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b60a6",
+      "address": 151072328,
+      "raw_hex": "2469332063616e63656c6c65640a746865206974656d20656666656374206f6e0a246d302100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b60cf",
+      "address": 151072368,
+      "raw_hex": "2469332063616e63656c6c65640a74686520656666656374206f6620246d3027730a6669726564206974656d2100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b6875",
+      "address": 151073448,
+      "raw_hex": "536f6d65207370656369616c2065666665637473206f660a24693020776572650a7365616c65642100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b6896",
+      "address": 151073492,
+      "raw_hex": "546865207370656369616c2065666665637473206f660a24693020776572650a7365616c65642100",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b6908",
+      "address": 151073628,
+      "raw_hex": "5468652072696e672073746f707065640a246d312773206c6576656c2066726f6d0a66616c6c696e672e00",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b69a9",
+      "address": 151073844,
+      "raw_hex": "5468652072696e672073746f707065640a246d31277320737472656e6774682066726f6d0a66616c6c696e672e00",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b69cc",
+      "address": 151073892,
+      "raw_hex": "5468652062726561642073746f707065640a246d31277320737472656e6774682066726f6d0a66616c6c696e672e00",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b69ef",
+      "address": 151073940,
+      "raw_hex": "54686520686572622073746f707065640a246d31277320737472656e6774682066726f6d0a66616c6c696e672e00",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b6a5f",
+      "address": 151074100,
+      "raw_hex": "5468652072696e672073746f707065640a246d312773206d6178696d756d2048500a66726f6d2066616c6c696e672e00",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b6bba",
+      "address": 151074492,
+      "raw_hex": "5468652061747461636b206d69737365642e204e6f7468696e6720776173206b6e6f636b65640a617761792e00",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b6bd5",
+      "address": 151074540,
+      "raw_hex": "5468652061747461636b206d69737365642e204e6f7468696e6720776173206b6e6f636b65640a617761792e00",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b6cb3",
+      "address": 151074888,
+      "raw_hex": "246d31207475726e656420696e76697369626c652c0a6275742024742063616e207374696c6c207365652069742e00",
+      "category": "candidate"
+    },
+    {
+      "id": "tutorial.001b6d7d",
+      "address": 151075156,
+      "raw_hex": "246d3020746f6f6b202464300a64616d6167652e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "tutorial.001b6d93",
+      "address": 151075180,
+      "raw_hex": "246d3120746f6f6b202464300a64616d6167652e00",
+      "category": "already-handled"
+    },
+    {
+      "id": "tutorial.001b6ebe",
+      "address": 151075552,
+      "raw_hex": "546865206d6f6e737465722073686172696e6720746865207061696e20746f6f6b2064616d6167650a746f6f2100",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b6ede",
+      "address": 151075600,
+      "raw_hex": "54686520616c6c792073686172696e6720746865207061696e20746f6f6b2064616d6167650a746f6f2100",
+      "category": "keep"
+    },
+    {
+      "id": "tutorial.001b703c",
+      "address": 151076068,
+      "raw_hex": "5468652065717569707065642072696e67206b6570740a2469302066726f6d0a6465746572696f726174696e672e00",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5b4d",
+      "address": 151060224,
+      "raw_hex": "246d302077617320706f69736f6e6564210a537472656e6774682066656c6c206279202464302e00",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5bd5",
+      "address": 151060324,
+      "raw_hex": "2474277320706f69736f6e20636c65617265642075702c0a616e6420537472656e6774682077617320726573746f7265642e00",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5bf5",
+      "address": 151060376,
+      "raw_hex": "246d31277320706f69736f6e20636c65617265640a75702c0a616e642041747461636b2077617320726573746f7265642100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5dd9",
+      "address": 151060988,
+      "raw_hex": "246d30206e6f77206d6f7665732061740a646f75626c652073706565642c0a77697468206f6e652061747461636b20706572207475726e2100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5df1",
+      "address": 151061048,
+      "raw_hex": "246d30206e6f77206d6f7665732061740a646f75626c652073706565642c0a776974682074776f2061747461636b7320706572207475726e2100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5ef1",
+      "address": 151061404,
+      "raw_hex": "546865206578706c6f736976657320626563616d652064616d700a616e642063616e206e6f206c6f6e676572206578706c6f64652100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b5f47",
+      "address": 151061500,
+      "raw_hex": "246d312063616e206e6f206c6f6e6765720a736565207468696e67730a61732074686579207265616c6c79206172652100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b629f",
+      "address": 151062296,
+      "raw_hex": "4f6e207468697320666c6f6f722c2024742063616e206964656e746966790a6974656d73206a757374206279207069636b696e67207468656d2075702100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b62d2",
+      "address": 151062360,
+      "raw_hex": "4f6e207468697320666c6f6f722c20247420697320736f2077696465206177616b650a74686174206e6f7468696e672063616e207075742068696d20746f20736c6565702100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b62fc",
+      "address": 151062432,
+      "raw_hex": "4f6e207468697320666c6f6f722c202474277320537472656e6774680a63616e6e6f74206265206c6f77657265642100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b6322",
+      "address": 151062480,
+      "raw_hex": "4f6e207468697320666c6f6f722c2024742063616e206d6f76652071756965746c790a776974686f75742077616b696e67206d6f6e73746572732100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b6359",
+      "address": 151062540,
+      "raw_hex": "4f6e207468697320666c6f6f722c2024742063616e206d6f76650a776974686f75742067657474696e672068756e6772792100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b64ed",
+      "address": 151063064,
+      "raw_hex": "4c75636b792120546865207363726f6c6c206964656e7469666965640a6576657279206974656d20796f7520617265206361727279696e672100",
+      "category": "keep"
+    },
+    {
+      "id": "help.001b655f",
+      "address": 151063220,
+      "raw_hex": "2474277320657175697070656420776561706f6e0a77617320696d70726f766564206279202b2464302100",
+      "category": "candidate"
+    },
+    {
+      "id": "help.001b657a",
+      "address": 151063264,
+      "raw_hex": "2474277320657175697070656420736869656c640a77617320696d70726f766564206279202b2464302100",
+      "category": "candidate"
+    },
+    {
+      "id": "help.001b65a3",
+      "address": 152171980,
+      "raw_hex": "24693027730a5765617270726f6f66207365616c20776f726b7320616761696e2e00",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b4ff0",
+      "address": 151399788,
+      "raw_hex": "246d303a202224742c20796f750a6964696f74212057686174206861766520796f7520646f6e652077697468206d790a6c7567676167653f212200",
+      "category": "keep-dialogue"
+    },
+    {
+      "id": "battle.001b7de0",
+      "address": 151399880,
+      "raw_hex": "24693020697320637572736564210a596f752063616e27742072656d6f76652069742100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b7e9e",
+      "address": 151400140,
+      "raw_hex": "24693020636f756c64206e6f740a6265207475726e656420696e746f2042726561642100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b7f1d",
+      "address": 151400300,
+      "raw_hex": "41206d6f6e73746572207761732073756d6d6f6e65642c2062757420636f756c64206e6f740a6170706561722100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b7f5b",
+      "address": 151400380,
+      "raw_hex": "5468652073756d6d6f6e696e672073776974636820616374697661746564210a427574206e6f7468696e6720636f756c64206170706561722e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b7f85",
+      "address": 151400440,
+      "raw_hex": "2474206e6f206c6f6e6765722074616b65732064616d6167652066726f6d0a7370696b656420666c6f6f72732100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8040",
+      "address": 152172068,
+      "raw_hex": "246d312063616e6e6f742073746f700a776f727279696e672061626f75742077686174277320626568696e64207468656d2100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b805e",
+      "address": 152172120,
+      "raw_hex": "246d31206973207665727920776f72726965640a61626f75742077686174277320626568696e64207468656d2100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b813b",
+      "address": 151400996,
+      "raw_hex": "246d3120626567616e2061747461636b696e670a667269656e6420616e6420666f6520616c696b652100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b8175",
+      "address": 151401056,
+      "raw_hex": "486572627320616e64207365656473206e6f7720686176652061207374726f6e6765720a656666656374206f6e20246d312100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b81a4",
+      "address": 151401148,
+      "raw_hex": "246d30207377616c6c6f7765640a24693020616e64206761696e65640a61747461636b20706f7765722100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b820b",
+      "address": 151401276,
+      "raw_hex": "246d3127732065717569706d656e74207761730a64616d6167656420616e64207765616b656e65642100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b829d",
+      "address": 151401484,
+      "raw_hex": "246930277320706c75730a76616c75652074656d706f726172696c792066656c6c20746f20302100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b82d4",
+      "address": 151401552,
+      "raw_hex": "246930277320706c75730a76616c75652074656d706f726172696c792066656c6c20746f20302100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b82f6",
+      "address": 151401592,
+      "raw_hex": "246930277320706c75730a76616c75652074656d706f726172696c792066656c6c20746f20302100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b8352",
+      "address": 151401716,
+      "raw_hex": "596f752068617665206e6f206974656d732077686f736520737472656e6774682063616e2062650a7265647563656420746f20302e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8370",
+      "address": 151401772,
+      "raw_hex": "596f7572206974656d732720737472656e67746820776173206e6f74207265647563656420746f0a302e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b83fe",
+      "address": 151401948,
+      "raw_hex": "5468652072696e6720747269656420746f20636175736520616e206578706c6f73696f6e2c206275740a69742066697a7a6c65642100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b841d",
+      "address": 151402004,
+      "raw_hex": "246d3020626567616e20610a636f756e74646f776e20746f20616e206578706c6f73696f6e2100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b847f",
+      "address": 151402164,
+      "raw_hex": "246d312063616e206f6e6c7920736565207468650a696d6d65646961746520737572726f756e64696e67732100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b84d3",
+      "address": 151402296,
+      "raw_hex": "f9ac5468652059676764726173696c206c6561662077617320626c65737365642c20736f2069740a646964206e6f74207475726e20696e746f20576565642100",
+      "category": "keep-controls"
+    },
+    {
+      "id": "battle.001b84fb",
+      "address": 151402360,
+      "raw_hex": "f9ac546865204d797374696320686572622070726576656e746564207468652059676764726173696c0a6c6561662066726f6d207475726e696e6720696e746f20576565642100",
+      "category": "keep-controls"
+    },
+    {
+      "id": "battle.001b8526",
+      "address": 151402432,
+      "raw_hex": "246d3020747269656420746f207265636f7665722c0a62757420612077616c6c20626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8550",
+      "address": 151402484,
+      "raw_hex": "246d3020747269656420746f207265636f7665722c0a627574206120637265617475726520626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b857e",
+      "address": 151402540,
+      "raw_hex": "246d3020747269656420746f207265636f7665722c0a6275742061206372797374616c20626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b85ac",
+      "address": 151402596,
+      "raw_hex": "247420747269656420746f207265766976652c2062757420612077616c6c0a626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b85d7",
+      "address": 151402644,
+      "raw_hex": "247420747269656420746f207265766976652c2062757420612063726561747572650a626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8604",
+      "address": 151402696,
+      "raw_hex": "247420747269656420746f207265766976652c2062757420612077616c6c0a626c6f636b656420746865207761792100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b86e8",
+      "address": 151402940,
+      "raw_hex": "246d3020747269656420746f2073687265640a616e206974656d2c2062757420746865206162696c6974792077617320626c6f636b65642100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b87e3",
+      "address": 151403256,
+      "raw_hex": "246d30207761732061626f757420746f2062650a626f726e2c2062757420636f756c64206e6f74206170706561722e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8a88",
+      "address": 151404040,
+      "raw_hex": "5468652064697367756973656420246d310a7475726e656420696e746f2061204d65646963696e616c20686572622100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8c84",
+      "address": 151404788,
+      "raw_hex": "54686520706c616e746564207363726f6c6c2069676e69746564210a427574206974206661696c656420746f20676f206f66662e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8d6e",
+      "address": 151405104,
+      "raw_hex": "246d30207069636b65642075700a24693020616e642074687265770a69742100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b8dc7",
+      "address": 151405228,
+      "raw_hex": "246d3020697320686f6c64696e6720796f75210a596f752063616e6e6f742077616c6b2100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8e2a",
+      "address": 151405380,
+      "raw_hex": "54686520656666656374206f660a24693020696e73696465207468650a706f74207370726561642061726f756e642074686520617265612100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b8e4b",
+      "address": 151405440,
+      "raw_hex": "2469302073707265616420616e0a6974656d20656666656374207468726f7567686f75742074686520726f6f6d2100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b91d8",
+      "address": 151406624,
+      "raw_hex": "2254686965662120546869656621220a41207468756e6465726f75732073686f7574206563686f6564206163726f7373207468650a666c6f6f722100",
+      "category": "keep-dialogue"
+    },
+    {
+      "id": "battle.001b92e7",
+      "address": 151406944,
+      "raw_hex": "246d3020747269656420746f20737465616c0a6d6f6e65792c2062757420636f756c64206e6f742e00",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b9304",
+      "address": 151406988,
+      "raw_hex": "246d3020747269656420746f20737465616c0a6d6f6e65792c2062757420246d31206861640a6e6f6e652e00",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b943d",
+      "address": 151407388,
+      "raw_hex": "54686520737461747565206361757365642073656c662d6465737472756374696f6e2c206275740a69742066697a7a6c65642100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b946c",
+      "address": 151407464,
+      "raw_hex": "5468652073746174756520747269656420746f206578706c6f64652c206275742069740a66697a7a6c65642100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b9c0b",
+      "address": 151409620,
+      "raw_hex": "246d30206875726c6564206974730a776561706f6e207769746820616c6c20697473206d696768742100",
+      "category": "candidate"
+    },
+    {
+      "id": "battle.001b9c40",
+      "address": 151409692,
+      "raw_hex": "246d312077617320636f6e74726f6c6c65640a616e6420626567616e2061747461636b696e6720616c6c6965732100",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b9c74",
+      "address": 151409764,
+      "raw_hex": "54686520776174657220736f616b656420746865207374617475652c20627574206e6f7468696e670a68617070656e65642e00",
+      "category": "keep"
+    },
+    {
+      "id": "battle.001b9d3c",
+      "address": 151410084,
+      "raw_hex": "42757420746865726520776173206e6f7420656e6f75676820737472656e67746820746f20646f0a69742e00",
+      "category": "keep"
+    }
+  ]
+}

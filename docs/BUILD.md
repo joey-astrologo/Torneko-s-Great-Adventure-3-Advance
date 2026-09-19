@@ -21,8 +21,10 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_arrival_layout`. It includes the
-[compact arrival layout](ARRIVAL_LAYOUT.md) after the completed
+The current component is `tools.build_combat_lines`. It adds
+[approved combat sentence joining](COMBAT_LINES.md) after
+[menu regression fixes](MENU_FIXES.md) and [damage-message line joining](DAMAGE_LINES.md),
+[compact arrival layout](ARRIVAL_LAYOUT.md) and the completed
 [prose second pass](PROSE_REVIEW.md), title and rendering work. The existing build uses
 pinned prepared resources and previous component checkpoints under `build/`;
 this convenience command does not yet bootstrap a completely deleted build
@@ -41,7 +43,7 @@ the entire result to match the new English ROM byte for byte before updating
 the convenient outputs. Builds are serialized with a lock; each output is
 replaced atomically and the hash receipt is written last. A validation failure
 leaves the previous convenient outputs in place. Cartridge saves are not opened
-or modified by this command.
+or modified in place; emulator checks use disposable cartridge/save copies.
 
 The ROM is 32 MiB and uses appended data beyond the ordinary IPS address range,
 so its complete patch is **BPS**, with the correct `.bps` extension. BPS includes
@@ -49,10 +51,29 @@ source, target and patch checksums. [Floating IPS](https://github.com/Sir-Walrus
 creates and applies the patch using its linear BPS encoder. Its executable hash
 and reported version are included in the build receipt.
 
-This command does not run emulator routes. Its receipt distinguishes build and
-patch checks from gameplay verification. When the output hash matches an
-existing verified component ROM, that component's documented runtime evidence
-applies to the same bytes; changes still require appropriate runtime checks.
+Every build runs the seven native mGBA menu regression routes against the exact
+candidate ROM **before publication**. Missing/changed fixtures or failed checks
+stop the build and preserve the previous latest ROM/patch/receipt. Required
+local states and their hashes are listed in `tools/menu_fixtures.json`; keep
+those files in `saves/`. Emulator bindings must be available in `.venv`.
+
+Checks cover the real idle timeout, status shading, Ground/Stairs/Trap cached-panel
+integrity and popup text, casino Trade clipping, warehouse counter preservation,
+repeat open/cancel behavior, and unchanged cartridge/user saves. The receipt
+links the hash-specific report and screenshots under
+`build/menu-fixes/publication-checks/`. The supplied Slowing trap route is included.
+This gate covers these regressions, not every previously tested game system;
+other runtime checks remain appropriate when their components change.
+
+Every build also runs the native [combat sentence suite](COMBAT_LINES.md) for all
+270 approved sources and the existing 376-case damage/XP suite against the exact
+candidate ROM. The combat checks cover substitutions, fallback, small buffers,
+208/209px and 59/60-byte boundaries, live queue/history ring wrap, preserved
+sentences, and critical/brutal continuation flags. Reports under
+`build/combat-lines/publication-checks/` are linked and hashed in the receipt.
+`tools.verify_combat_publication_gate` verifies that the actual pre-join ROM is
+rejected without replacing the latest outputs. The existing menu rejection test
+remains available as `tools.verify_menu_publication_gate`.
 
 To apply the patch locally to the Japanese original:
 
@@ -94,11 +115,11 @@ library without downloading the large optional profiling archives. Compilation
 does not require GTK or a system-wide installation. Executable hashes can
 differ with the compiler/toolchain; each build receipt records the actual one.
 
-## Current title-build acceptance (2026-09-13)
+## Historical title-build acceptance (2026-09-13)
 
-`./build.sh` reproduces the accepted English title ROM, SHA256
+At this checkpoint, `./build.sh` reproduced the accepted English title ROM, SHA256
 `b80feb1177c9111f44edb1b0ffc8a63c89d94b7d4eccc9f383bc9b372d7b14a9`.
-Its 905,830-byte BPS passes the complete apply/rebuild comparison. The
+Its 905,830-byte BPS passed the complete apply/rebuild comparison. The
 [title insertion report](TITLE_INSERTION.md) records native pixels, palette,
 fade, prompt blink and following-menu checks. All earlier components remain
 included in the same cumulative build.

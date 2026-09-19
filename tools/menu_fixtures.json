@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "fixtures": [
+    {
+      "id": "idle",
+      "path": "saves/alpha missing on idle menu pop up.ss0",
+      "sha256": "f9afb064b06c74d762951c9310cb0c100423100b766352bcb48263970375589d"
+    },
+    {
+      "id": "status",
+      "path": "saves/status menu alpha missing in corners.ss0",
+      "sha256": "c82422b83b5c46c9c2f288e722bd63f5070fc5f6c0e9cfe660d84a9e66bc6fc6"
+    },
+    {
+      "id": "ground",
+      "path": "saves/clicking ground in status menu, center text doesn't fix and menu is messed up.ss0",
+      "sha256": "15f9b3d0a74326f0fd795e68912af961d228408547511d0fa6150a010869503a"
+    },
+    {
+      "id": "stairs",
+      "path": "saves/status menu broken when selecting stairs.ss0",
+      "sha256": "613572a1c79cd2ca0a23988542e6520ce2e4547a1fff9423f8d6c5e7394db7a3"
+    },
+    {
+      "id": "casino",
+      "path": "saves/On casino trade exchange is cutoff.ss0",
+      "sha256": "5c09b5e341df99bc4ba15e37c8a67452407e0c3934c77eb103006940734a9c6f"
+    },
+    {
+      "id": "warehouse",
+      "path": "saves/warehouse click on item to deposit and text messaged up on bottom right.ss0",
+      "sha256": "0ee95abfa61b5801c52c634b1abf4840561bff2c95d11024d039edc04b80d929"
+    },
+    {
+      "id": "trap",
+      "path": "saves/stand on trap and selecting trap in status menu messes up text.ss0",
+      "sha256": "7d82f0b957f3d8dbb17fb912e04a3f7176bf0cb97a7739b7ef183cd6f81d52aa"
+    }
+  ],
+  "trap": "Verified natural Slowing trap submenu from supplied state; open/cancel/reopen preserves all three background panels."
+}
