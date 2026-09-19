@@ -4,6 +4,14 @@
 *Dragon Quest Characters: Torneko no Daibouken 3 Advance — Fushigi no Dungeon*
 for Game Boy Advance.
 
+## Screenshots
+
+| English title | Inventory |
+|---|---|
+| <img src="docs/images/title-screen.png" alt="Localized Torneko 3 title screen" width="360"> | <img src="docs/images/inventory.png" alt="English item names in the inventory" width="360"> |
+| **Dialogue** | **Dungeon arrival** |
+| <img src="docs/images/dialogue.png" alt="English fortune-teller dialogue" width="360"> | <img src="docs/images/dungeon-arrival.png" alt="Mysterious Cave, floor 2, arrival card" width="360"> |
+
 ## Project status
 
 The verified text inventory, prose review, approved English title and known
