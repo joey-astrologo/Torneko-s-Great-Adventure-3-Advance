@@ -21,8 +21,9 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_combat_lines`. It adds
-[approved combat sentence joining](COMBAT_LINES.md) after
+The current component is `tools.build_medal_trade`. It adds the
+[medal Trade label](MEDAL_TRADE.md) after
+[approved combat sentence joining](COMBAT_LINES.md), retaining
 [menu regression fixes](MENU_FIXES.md) and [damage-message line joining](DAMAGE_LINES.md),
 [compact arrival layout](ARRIVAL_LAYOUT.md) and the completed
 [prose second pass](PROSE_REVIEW.md), title and rendering work. The existing build uses
@@ -50,6 +51,9 @@ so its complete patch is **BPS**, with the correct `.bps` extension. BPS include
 source, target and patch checksums. [Floating IPS](https://github.com/Sir-Walrus/Flips)
 creates and applies the patch using its linear BPS encoder. Its executable hash
 and reported version are included in the build receipt.
+
+Every build also runs four [medal/casino and narrow-action checks](MEDAL_TRADE.md),
+recorded as `trade_regression_cases` and `trade_regression_report` in the receipt.
 
 Every build runs the seven native mGBA menu regression routes against the exact
 candidate ROM **before publication**. Missing/changed fixtures or failed checks

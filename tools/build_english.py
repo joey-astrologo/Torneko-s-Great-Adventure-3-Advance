@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_combat_lines as current
+from tools import build_medal_trade as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
@@ -59,7 +59,7 @@ def build():
             print("Running native combat and existing damage/XP regression checks...", flush=True)
             from tools import verify_combat_lines as combat_checks, verify_damage_lines as damage_checks
             combat_suite = digest(Path(combat_checks.__file__).read_bytes() +
-                                  Path(damage_checks.__file__).read_bytes() + current.SELECTION.read_bytes())[:16]
+                                  Path(damage_checks.__file__).read_bytes() + combat_checks.b.SELECTION.read_bytes())[:16]
             combat_dir = OUTPUT / "combat-lines/publication-checks" / target_hash / combat_suite
             combat = combat_checks.run(data, combat_dir)
             damage = damage_checks.run(data, combat_dir / "legacy-damage")
@@ -67,6 +67,13 @@ def build():
                   "Combat checks tested a different ROM")
             combat_path = combat_dir / "report.json"
             damage_path = combat_dir / "legacy-damage/acceptance.json"
+            from tools import verify_medal_trade as trade_checks
+            trade_suite = digest(Path(trade_checks.__file__).read_bytes() +
+                                 b''.join(p.read_bytes() for p in trade_checks.FIXTURES))[:16]
+            trade_dir = OUTPUT / "medal-trade/publication-checks" / target_hash / trade_suite
+            trade = trade_checks.run(data, trade_dir)
+            check(trade["rom_sha256"] == target_hash, "Trade checks tested a different ROM")
+            trade_path = trade_dir / "report.json"
             print("Creating BPS and checking the complete patched ROM...", flush=True)
             run_flips("--create", "--bps-linear", source, target, patch)
             run_flips("--apply", patch, source, roundtrip)
@@ -103,6 +110,9 @@ def build():
                     "menu_regression_report": str(regression_path.relative_to(ROOT)),
                     "menu_regression_report_sha256": digest(regression_path.read_bytes()),
                     "trap_coverage": regressions["trap"],
+                    "trade_regression_cases": len(trade["cases"]),
+                    "trade_regression_report": str(trade_path.relative_to(ROOT)),
+                    "trade_regression_report_sha256": digest(trade_path.read_bytes()),
                     "combat_regression_counts": combat["counts"],
                     "combat_regression_report": str(combat_path.relative_to(ROOT)),
                     "combat_regression_report_sha256": digest(combat_path.read_bytes()),

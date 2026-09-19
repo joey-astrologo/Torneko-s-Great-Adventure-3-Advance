@@ -20,7 +20,7 @@ and generate fresh messages when checking a rendering fix.
 ## Automated checks
 
 `./build.sh` runs the mandatory native menu, combat and legacy damage/XP gates
-against the candidate, then verifies the BPS roundtrip before publication.
+against the candidate, plus four medal/casino and narrow-action checks, then verifies the BPS roundtrip before publication.
 It does not run every historical component suite. Reports and hashes are linked
 in `build/torneko-3-english.json`; see [BUILD.md](BUILD.md).
 

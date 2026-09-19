@@ -17,10 +17,10 @@ retain the hashes and evidence for their historical checkpoints.
   fallback when actual substitutions exceed 208px or 59 history bytes.
 - Convenient ROM/BPS outputs and mandatory native menu/combat publication gates.
 
-The current accepted build is `0c21286fadcb`, full SHA-256
-`0c21286fadcb59776b7a6639ce082a7a3180faa01621a8afc74c6d6601ebfc13`.
+The current accepted build is `e1f2babeb6b0`, full SHA-256
+`e1f2babeb6b06ffdc9f52c4c190859a1f8e6712688dc7d3465736fbb55cc032e`.
 For subsequent builds, [the receipt](../build/torneko-3-english.json) is the
-artifact authority. The current component is `tools.build_combat_lines`.
+artifact authority. The current component is `tools.build_medal_trade`.
 
 ## Remaining text and research
 
@@ -47,6 +47,10 @@ leave the manual-input aliases unchanged, using the learned list in normal play.
 
 ## Remaining verification
 
+The [menu action audit](MENU_ACTION_AUDIT.md) led to the approved
+[medal Trade fix](MEDAL_TRADE.md). The other tested action labels fit and
+remain unchanged, including Take out and Withdraw.
+
 1. Later story, postgame, uncommon interactions and long contextual names during
    ordinary play. Controlled text displays do not prove every event outcome.
 2. Dungeon suspend/resume and broader item/ally/progression save persistence.
@@ -66,7 +70,7 @@ records detailed route coverage and limitations.
 
 ## Build coverage and reproducibility
 
-The current publication gate checks seven menu routes, every approved combat
+The current publication gate checks seven menu routes, four trading/narrow-action cases, every approved combat
 source across six substitution profiles, queue/history behavior, size boundaries,
 critical/brutal continuations, and 376 existing damage/XP cases per ROM. It then
 requires a byte-identical BPS roundtrip. Reports are pinned in the build receipt.

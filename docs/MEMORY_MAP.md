@@ -3928,3 +3928,47 @@ sets only the Warp-pot identification mapping halfword `[0200C938,0200C93A)`
 ITEM_CONTEXTS.md. This identifies that type for the current adventure; all
 other item identification mappings remain unchanged. Restore the test state
 to undo this along with the two parent records.
+
+## Menu action width audit (2026-09-19)
+
+Read-only findings for published ROM SHA-256
+`0c21286fadcb59776b7a6639ce082a7a3180faa01621a8afc74c6d6601ebfc13`.
+No new insertion allocations or permanent RAM reservations. See
+[MENU_ACTION_AUDIT.md](MENU_ACTION_AUDIT.md) and its native report for coverage.
+
+| Address space / range (exclusive end) | Purpose and evidence | Certainty / ownership |
+|---|---|---|
+| Original ROM `[00872A0C,00872A11)` | Japanese medal action 交換, `merchant.00872a0c` | Verified source; remains occupied |
+| ROM `[00063A3C,00063A40)` | Medal caller's label pointer, loaded at `08063998`, passed to shared trader at `080639B2` | Existing merchants-owned pointer; current target `090675CC` contains Exchange |
+| ROM `[00077AD8,00077ADC)` | Casino-specific action pointer | Existing menu-fixes owner; current target `091226D0` contains Trade; separate from medal caller |
+| CPU ROM `[08076844,08076B40)` | Inspected prefix of shared trading reader; not its whole function extent | Original occupied code, no patch proposed |
+| CPU ROM `[08076AA2,08076ADC)` | Bounded popup construction/drawing block used by audit | Loads descriptor via literal `08076C64`, draws supplied action at x=4 in window 1, then Info at y=13 |
+| ROM `[00C3F070,00C3F0B0)` | Shared trading popup descriptor, selected by ROM word `[00076C64,00076C68)` | Verified 64-byte descriptor: window 1 x=24 tiles, width=5 tiles (40px); no free space |
+| IWRAM `[030076E8,030076EC)` | Audit-only caller-label slot at fixture SP `03007000` + `6E8` | Disposable bounded-reader fixture; calls use temporary stack below SP; state restored between cases, no runtime reservation |
+
+The full reader prefix is recorded in
+[shop-readers.txt](../build/menu-action-audit/shop-readers.txt), disassembled
+from the pinned Japanese original with `InspectThumbRange.java`. The medal
+caller was already recorded in the merchants research listing. Native draws
+on the current English ROM confirm x=4, width=40px and a 42px Exchange advance:
+6px outside the region (visible ink extends 5px outside).
+
+The audit also reuses existing disposable item/context/settings fixtures and
+their previously documented RAM fields. It does not write original ROM bytes,
+change ownership, modify user saves or reserve any of those fixture fields for
+the translation. Any later insertion must model the medal pointer's existing
+owner explicitly and use the shared allocator.
+
+## Medal Trade insertion (2026-09-19)
+
+Approved after the menu action audit. The shared allocator reserves ROM
+`[01123960,01123966)` for `medal-trade.label`, ASCII `Trade\0`; 4-byte aligned,
+no padding needed at this checkpoint. The
+[allocation plan](../build/medal-trade/allocation-plan.json) records the source,
+previous ROM hash and exact previous patch owner.
+
+ROM `[00063A3C,00063A40)` intentionally supersedes the existing merchants
+pointer patch, targeting CPU address `09123960`. The source Japanese string,
+previous Exchange allocation and casino pointer remain occupied and unchanged.
+No code, window geometry, RAM or save fields change. This component composes
+after combat-lines, preserving its exact message addresses and allocations.

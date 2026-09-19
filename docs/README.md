@@ -15,11 +15,13 @@ are historical unless they match the current build receipt.
 | Test and report bugs | [TESTING.md](TESTING.md), [PLAYTEST_BACKLOG.md](PLAYTEST_BACKLOG.md) |
 | Test Warp pots in Mesen | [WARP_POT_TEST.md](WARP_POT_TEST.md) |
 | Understand Blank scrolls | [INSCRIPTIONS.md](INSCRIPTIONS.md) |
+| Review menu labels that may clip | [MENU_ACTION_AUDIT.md](MENU_ACTION_AUDIT.md) |
 
 ## Current implementation
 
 - [Prose review](PROSE_REVIEW.md): completed bilingual second pass.
 - [Combat sentence joining](COMBAT_LINES.md): approved spans, guarded fallback and build gates.
+- [Medal Trade action](MEDAL_TRADE.md): compact label and native publication checks.
 - [Damage/XP joining](DAMAGE_LINES.md) and [menu fixes](MENU_FIXES.md).
 - [Earlier rendering fixes](RENDERING_FIXES.md), [results](RESULT_RUNTIME.md),
   [empty-inventory popup](INVENTORY_NOTICE.md).
