@@ -16,10 +16,12 @@ are historical unless they match the current build receipt.
 | Test Warp pots in Mesen | [WARP_POT_TEST.md](WARP_POT_TEST.md) |
 | Understand Blank scrolls | [INSCRIPTIONS.md](INSCRIPTIONS.md) |
 | Review menu labels that may clip | [MENU_ACTION_AUDIT.md](MENU_ACTION_AUDIT.md) |
+| Review companion combat wrapping | [COMPANION_COMBAT_AUDIT.md](COMPANION_COMBAT_AUDIT.md) |
 
 ## Current implementation
 
 - [Prose review](PROSE_REVIEW.md): completed bilingual second pass.
+- [Companion combat joining](COMPANION_COMBAT.md): native coloured names and regression coverage.
 - [Combat sentence joining](COMBAT_LINES.md): approved spans, guarded fallback and build gates.
 - [Medal Trade action](MEDAL_TRADE.md): compact label and native publication checks.
 - [Damage/XP joining](DAMAGE_LINES.md) and [menu fixes](MENU_FIXES.md).

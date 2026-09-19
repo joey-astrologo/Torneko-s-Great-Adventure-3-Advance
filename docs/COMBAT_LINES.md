@@ -1,5 +1,9 @@
 # Conditional combat sentence joining
 
+The later [companion combat fix](COMPANION_COMBAT.md) extends these same approved
+spans to native ally-name colour/reset controls, while retaining both limits.
+The implementation and evidence below describe the earlier ASCII-only component.
+
 The approved [line-break audit](COMBAT_LINE_BREAK_AUDIT.md) is implemented for
 **268 candidate sentence spans plus two critical/brutal-hit continuations**.
 Newly generated messages use one line when their actual substituted ASCII text

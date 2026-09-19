@@ -1,9 +1,9 @@
 # Translation milestones and historical evidence
 
 For the current build and remaining work, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
-`./build.sh` now publishes through `tools.build_medal_trade`, including the
+`./build.sh` now publishes through `tools.build_companion_combat`, including the
 completed prose review, English title, compact arrival cards, menu fixes and
-approved conditional combat joining and medal Trade label. [BUILD.md](BUILD.md) describes the mandatory
+approved conditional combat joining, companion-name styles and medal Trade label. [BUILD.md](BUILD.md) describes the mandatory
 publication gates and output receipt.
 
 The sections below preserve earlier milestones and their exact ROM hashes.

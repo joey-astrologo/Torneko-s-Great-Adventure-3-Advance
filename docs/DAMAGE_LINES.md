@@ -1,5 +1,9 @@
 # Damage-message line joining
 
+This records the earlier ASCII-only component. The cumulative
+[companion combat fix](COMPANION_COMBAT.md) now also handles native ally-name
+colour controls and rejects joining truncated output buffers.
+
 The 2026-09-19 fix joins ordinary `<actor> took <amount> damage.` and
 `Dealt <amount> damage to <enemy>.` messages
 only when their actual substituted text fits 208 pixels and the 59-byte history

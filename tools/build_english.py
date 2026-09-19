@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_medal_trade as current
+from tools import build_companion_combat as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
@@ -74,6 +74,13 @@ def build():
             trade = trade_checks.run(data, trade_dir)
             check(trade["rom_sha256"] == target_hash, "Trade checks tested a different ROM")
             trade_path = trade_dir / "report.json"
+            from tools import verify_companion_combat as companion_checks
+            companion_suite = digest(Path(companion_checks.__file__).read_bytes() +
+                                     b''.join(p.read_bytes() for p in companion_checks.FIXTURES))[:16]
+            companion_dir = OUTPUT / "companion-combat/publication-checks" / target_hash / companion_suite
+            companion = companion_checks.run(data, companion_dir)
+            check(companion["rom_sha256"] == target_hash, "Companion checks tested a different ROM")
+            companion_path = companion_dir / "report.json"
             print("Creating BPS and checking the complete patched ROM...", flush=True)
             run_flips("--create", "--bps-linear", source, target, patch)
             run_flips("--apply", patch, source, roundtrip)
@@ -113,6 +120,9 @@ def build():
                     "trade_regression_cases": len(trade["cases"]),
                     "trade_regression_report": str(trade_path.relative_to(ROOT)),
                     "trade_regression_report_sha256": digest(trade_path.read_bytes()),
+                    "companion_regression_counts": companion["counts"],
+                    "companion_regression_report": str(companion_path.relative_to(ROOT)),
+                    "companion_regression_report_sha256": digest(companion_path.read_bytes()),
                     "combat_regression_counts": combat["counts"],
                     "combat_regression_report": str(combat_path.relative_to(ROOT)),
                     "combat_regression_report_sha256": digest(combat_path.read_bytes()),

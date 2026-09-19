@@ -3972,3 +3972,43 @@ pointer patch, targeting CPU address `09123960`. The source Japanese string,
 previous Exchange allocation and casino pointer remain occupied and unchanged.
 No code, window geometry, RAM or save fields change. This component composes
 after combat-lines, preserving its exact message addresses and allocations.
+
+## Companion-name joining contract (2026-09-19)
+
+Read-only audit of ROM
+`e1f2babeb6b06ffdc9f52c4c190859a1f8e6712688dc7d3465736fbb55cc032e`;
+no new allocation or permanent RAM/save reservation.
+[COMPANION_COMBAT_AUDIT.md](COMPANION_COMBAT_AUDIT.md) links the native evidence
+and exact already-owned source addresses for 177 affected joining keys.
+
+The previously documented actor-name entry points `080329EC`, `08032B4C` and
+`08032CA4` produce `03 05 05` + ASCII nickname (optionally level suffix) +
+`03 06` + terminator for the controlled recruited-Slime fixture. These style
+bytes survive `$m0`/`$m1` substitution into the existing message buffers. Both
+joining helpers reject the leading `03` as non-ASCII and preserve line breaks;
+the queue/history reproduction confirms this is not merely a catalog display.
+
+The audit reuses nickname generation's documented disposable actor/name/record
+scratch and formatter/queue fixtures. Five style bytes per substituted name
+consume real buffer capacity despite occupying no visible width. Any later fix
+must preserve those bytes and enforce the existing 59-byte history payload
+bound as well as pixel width. No evidence here authorizes removal of controls,
+reuse of old payloads, or expansion of nickname/save fields.
+
+## Companion combat insertion (2026-09-19)
+
+Approved control-aware joining composes after medal-trade. Shared allocator
+ROM reservation `[01123966,01123CD8)` includes the two-byte alignment gap and
+new damage/XP and broader combat wrapper copies. The
+[allocation plan](../build/companion-combat/allocation-plan.json) owns exact
+subranges, padding, source/assembler hashes and previous hook bytes. No old
+text, joining table or wrapper allocation is reused or moved.
+
+The new `companion-combat.formatter-hook` intentionally supersedes the
+combat-lines hook at ROM `[0007D8CC,0007D8D8)`. The broader wrapper calls the
+new damage wrapper, which resumes the original formatter at `0807D8D8`.
+The existing exact-source tables and allowlists are unchanged. Only verified
+`03 05 05` (ally colour) and `03 06` (reset) gain zero-width recognition;
+all five bytes still count toward the history limit. Unsupported controls
+continue to fall back. Wrapper scratch/stack frame sizes are unchanged from
+the prior damage/combat chain, with no permanent RAM or save-field changes.
