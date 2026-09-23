@@ -4012,3 +4012,49 @@ The existing exact-source tables and allowlists are unchanged. Only verified
 all five bytes still count toward the history limit. Unsupported controls
 continue to fall back. Wrapper scratch/stack frame sizes are unchanged from
 the prior damage/combat chain, with no permanent RAM or save-field changes.
+
+### Item message joins (2026-09-23)
+
+Approved item-aware wrapper reservation: ROM `[01123CD8,01123F44)` through
+shared allocator, owner `item-lines`, exact code/table layout and hashes in
+`build/item-lines/allocation-plan.json`. It reuses the existing combat source
+allowlist and font widths by reference, without reclaiming any old allocation.
+The formatter hook intentionally supersedes `companion-combat.formatter-hook`
+at ROM `[0007D8CC,0007D8D8)`; the previous wrapper remains its fallback.
+
+New checked original-code patch ROM `[00062294,0006229C)` owns the world
+observation entry prologue (push r4/lr, mov r4/r0, call 08062250). The appended
+trampoline replays it. Joining is restricted to return address 08062D65 and
+r8 equal to the currently owned world-completion.0086fb1c template. Evidence:
+`build/item-lines/research/acquisition.txt`, source Japanese ROM; its caller
+at 08062D60 passes the mutable printf buffer at its current SP. That original
+function reserves 0x23C stack bytes: printf destination [SP,SP+0x100), item
+name [SP+0x100,SP+0x164), copied item record from SP+0x164. No absolute RAM
+reservation is implied. The new world wrapper saves 36 bytes and reserves
+84 bytes (80-byte bounded formatting scratch plus padding) only during the
+call; it releases them before replaying the original prologue. The new combat
+wrapper adds its 128-byte frame above the existing wrapper chain. No save
+fields, permanent RAM, or original strings change.
+
+Native item name evidence: `build/item-lines/research/native-names.json` pins
+the baseline ROM and 380 native formatter results. Font-zero descriptors
+establish widths for icons 8740–874F (8 or 9 pixels including ink). Recognized
+colour controls 030502–030507 and reset 0306 occupy zero pixels but
+retain their full encoded byte cost. Unknown controls/glyphs fall back.
+
+Native unidentified/custom-name evidence is additionally recorded in
+`build/item-lines/research/contexts/native-names.json` (258 cases, colours
+6/7/4). Flag fixtures confirm cursed colour 2 and unidentified colour 6;
+these reuse established item record fields in disposable test RAM.
+
+### Dungeon voice save prompt (2026-09-23)
+
+Owner `dungeon-save-prompt`: appended ROM `[01123F44,01123F9E)` contains the
+approved three-line replacement for `church.00c79370`, including NUL. The
+shared allocator and `build/dungeon-save-prompt/allocation-plan.json` record
+alignment and exact bytes. Original-ROM pointer `[00C78C08,00C78C0C)` is church
+type 3, service slot 2, established by the church table selector; its existing
+church-services patch is explicitly superseded. Other priest/book pointers and
+all original/previous text storage remain untouched. No code, RAM or save
+record changes. Source: pinned Japanese church catalog and current item-lines
+baseline ledger. See [DUNGEON_SAVE_PROMPT.md](DUNGEON_SAVE_PROMPT.md).

@@ -1,6 +1,6 @@
 # Current project status
 
-Updated 2026-09-19. This page summarizes the current state; component reports
+Updated 2026-09-23. This page summarizes the current state; component reports
 retain the hashes and evidence for their historical checkpoints.
 
 ## Implemented
@@ -12,15 +12,16 @@ retain the hashes and evidence for their historical checkpoints.
 - Approved English title, Credits-adapted arrival cards for 36 identities / 64
   selectors, and the more compact vertical arrival layout.
 - Reported menu, keyboard, Records, warehouse and casino rendering fixes.
+- [Dungeon voice save prompt](DUNGEON_SAVE_PROMPT.md) fits one three-line page.
 - Conditional joining for 268 additional combat sentence spans and two
   critical/brutal continuations, retaining existing damage/XP joining and
   fallback when actual substitutions exceed 208px or 59 history bytes.
 - Convenient ROM/BPS outputs and mandatory native menu/combat publication gates.
 
-The current accepted build is `67a15ab8f3bc`, full SHA-256
-`67a15ab8f3bc6d1d56526383278c304b382c271b6f7997468010df7b800e9582`.
+The current accepted build is `d1a1c0fde279`, full SHA-256
+`d1a1c0fde27919fc3b3ab484d6c6b7cc4995cebc51166df8489b98136da90c80`.
 For subsequent builds, [the receipt](../build/torneko-3-english.json) is the
-artifact authority. The current component is `tools.build_companion_combat`.
+artifact authority. The current component is `tools.build_dungeon_save_prompt`.
 
 ## Remaining text and research
 
@@ -46,6 +47,10 @@ The user also tested the Blank scroll's learned-name restriction and chose to
 leave the manual-input aliases unchanged, using the learned list in normal play.
 
 ## Remaining verification
+
+The [item message fix](ITEM_LINES.md) extends conditional joining to native
+item icons/colours and the separate world acquisition message, with a mandatory
+native regression suite.
 
 The approved [companion combat fix](COMPANION_COMBAT.md) handles native
 monster-name colour controls in both joining paths, with dedicated native
@@ -75,7 +80,8 @@ records detailed route coverage and limitations.
 
 ## Build coverage and reproducibility
 
-The current publication gate includes the companion combat suite, seven menu routes, four trading/narrow-action cases, every approved combat
+The current publication gate includes native item/acquisition and companion
+combat suites, seven menu routes, four trading/narrow-action cases, every approved combat
 source across six substitution profiles, queue/history behavior, size boundaries,
 critical/brutal continuations, and 376 existing damage/XP cases per ROM. It then
 requires a byte-identical BPS roundtrip. Reports are pinned in the build receipt.

@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_companion_combat as current
+from tools import build_dungeon_save_prompt as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
@@ -81,6 +81,21 @@ def build():
             companion = companion_checks.run(data, companion_dir)
             check(companion["rom_sha256"] == target_hash, "Companion checks tested a different ROM")
             companion_path = companion_dir / "report.json"
+            print("Running native item-message and acquisition regression checks...", flush=True)
+            from tools import verify_item_lines as item_checks
+            item_suite = digest(Path(item_checks.__file__).read_bytes() +
+                                b''.join(p.read_bytes() for p in item_checks.FIXTURES))[:16]
+            item_dir = OUTPUT / "item-lines/publication-checks" / target_hash / item_suite
+            item = item_checks.run(data, item_dir)
+            check(item["rom_sha256"] == target_hash, "Item checks tested a different ROM")
+            item_path = item_dir / "report.json"
+            from tools import verify_dungeon_save_prompt as save_checks
+            save_suite = digest(Path(save_checks.__file__).read_bytes() +
+                                b''.join(p.read_bytes() for p in save_checks.FIXTURES))[:16]
+            save_dir = OUTPUT / "dungeon-save-prompt/publication-checks" / target_hash / save_suite
+            save_prompt = save_checks.run(data, save_dir)
+            check(save_prompt["rom_sha256"] == target_hash, "Save prompt checks tested a different ROM")
+            save_path = save_dir / "report.json"
             print("Creating BPS and checking the complete patched ROM...", flush=True)
             run_flips("--create", "--bps-linear", source, target, patch)
             run_flips("--apply", patch, source, roundtrip)
@@ -121,6 +136,11 @@ def build():
                     "trade_regression_report": str(trade_path.relative_to(ROOT)),
                     "trade_regression_report_sha256": digest(trade_path.read_bytes()),
                     "companion_regression_counts": companion["counts"],
+                    "save_prompt_regression_report": str(save_path.relative_to(ROOT)),
+                    "save_prompt_regression_report_sha256": digest(save_path.read_bytes()),
+                    "item_regression_counts": item["counts"],
+                    "item_regression_report": str(item_path.relative_to(ROOT)),
+                    "item_regression_report_sha256": digest(item_path.read_bytes()),
                     "companion_regression_report": str(companion_path.relative_to(ROOT)),
                     "companion_regression_report_sha256": digest(companion_path.read_bytes()),
                     "combat_regression_counts": combat["counts"],

@@ -50,7 +50,7 @@ def run(data=None,output=None):
         check(set(names)=={b'\x03\x05\x05Goot1\x03\x06',b'\x03\x05\x05Goot1Lv99\x03\x06'},'Native names changed')
         profiles=[('native-'+str(i),[name]*3,6) for i,name in enumerate(names)]
         profiles += [('mixed',[names[-1],names[0],b'Slime'],9999),('styled-wide',[b'\x03\x05\x05'+b'W'*23+b'\x03\x06']*3,2147483647),
-            ('unknown-control',[b'\x03\x05\x04Goot1\x03\x06']*3,6),('incomplete-control',[b'Goot1\x03\x05']*3,6)]
+            ('unknown-control',[b'\x03\x05\x7fGoot1\x03\x06']*3,6),('incomplete-control',[b'Goot1\x03\x05']*3,6)]
         def setup(s,actors,num):
             check(s.core.load_raw_state(state),'Restore failed');v.old.slots(s.core,font,'normal')
             for i,name in enumerate(actors):

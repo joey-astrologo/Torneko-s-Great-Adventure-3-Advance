@@ -21,6 +21,8 @@ are historical unless they match the current build receipt.
 ## Current implementation
 
 - [Prose review](PROSE_REVIEW.md): completed bilingual second pass.
+- [Dungeon save prompt](DUNGEON_SAVE_PROMPT.md): compact three-line voice prompt.
+- [Item message joining](ITEM_LINES.md): native icons/colours and acquired gold/items.
 - [Companion combat joining](COMPANION_COMBAT.md): native coloured names and regression coverage.
 - [Combat sentence joining](COMBAT_LINES.md): approved spans, guarded fallback and build gates.
 - [Medal Trade action](MEDAL_TRADE.md): compact label and native publication checks.

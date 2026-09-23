@@ -21,8 +21,9 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_companion_combat`. It adds the
-[companion-name combat joining](COMPANION_COMBAT.md) after the
+The current component is `tools.build_dungeon_save_prompt`. It adds the [compact dungeon save prompt](DUNGEON_SAVE_PROMPT.md) after
+[item-aware combat and acquisition joining](ITEM_LINES.md) after the
+[companion-name combat joining](COMPANION_COMBAT.md),
 [medal Trade label](MEDAL_TRADE.md) and
 [approved combat sentence joining](COMBAT_LINES.md), retaining
 [menu regression fixes](MENU_FIXES.md) and [damage-message line joining](DAMAGE_LINES.md),
@@ -52,6 +53,9 @@ so its complete patch is **BPS**, with the correct `.bps` extension. BPS include
 source, target and patch checksums. [Floating IPS](https://github.com/Sir-Walrus/Flips)
 creates and applies the patch using its linear BPS encoder. Its executable hash
 and reported version are included in the build receipt.
+
+Every build also runs the [native item/acquisition suite](ITEM_LINES.md);
+its report and counts are recorded under `item_regression_*` in the receipt.
 
 Every build runs the [companion combat suite](COMPANION_COMBAT.md) with native
 coloured names, queue/history and boundary checks. Its counts and report hash
