@@ -4058,3 +4058,62 @@ church-services patch is explicitly superseded. Other priest/book pointers and
 all original/previous text storage remain untouched. No code, RAM or save
 record changes. Source: pinned Japanese church catalog and current item-lines
 baseline ledger. See [DUNGEON_SAVE_PROMPT.md](DUNGEON_SAVE_PROMPT.md).
+
+### Post-game mode menu: missing owners (2026-09-23 audit)
+
+ROM `[00C4CD40,00C4CD88)` is a five-row, 12-byte-stride typed menu plus
+terminator. Existing native frontend reader tests and a cold-boot post-game
+replay confirm its use. Four pointer words `[00C4CD40,00C4CD44)`,
+`[00C4CD4C,00C4CD50)`, `[00C4CD64,00C4CD68)` and `[00C4CD70,00C4CD74)`
+still reference Japanese labels despite translated aliases in the other mode
+table. These are confirmed missing insertion owners, not free storage.
+[POSTGAME_MODE_MENU_AUDIT.md](POSTGAME_MODE_MENU_AUDIT.md) records the exact
+source ranges, existing English targets, pinned ROM/save and native evidence.
+No patch or allocation is made by this audit. The third label at 00C4CD58
+remains owned by frontend-completion; all flags/return words remain game data.
+
+### Duplicate-reference repair (2026-09-23)
+
+Owner `reference-coverage` patches only the following original-ROM pointer
+words. Each shares the existing allocation reached by its already translated
+alias, with source identity and expected English checked by
+`tools/build_reference_coverage.py:REFERENCES`. Exact targets, allocation owners,
+source/output hashes and the combined patch ledger are generated in
+`build/reference-coverage/english-build.json`. No allocation, source reuse,
+code modification, RAM reservation or save-format change is involved.
+
+| Original ROM range (exclusive end) | Existing English alias word | Native context |
+| --- | --- | --- |
+| `[00C4CD40,00C4CD44)` | 00C4CDD8 | Post-game Story mode |
+| `[00C4CD4C,00C4CD50)` | 00C4CDE4 | Post-game Extra mode |
+| `[00C4CD64,00C4CD68)` | 00C4CDFC | Post-game Help |
+| `[00C4CD70,00C4CD74)` | 00C4CE08 | Post-game Cancel |
+| `[00CAFEC0,00CAFEC4)` | 00011548 | Single-item no effect |
+| `[00CAFEC4,00CAFEC8)` | 000A653C | Single-item burning |
+| `[00CAFEC8,00CAFECC)` | 000A6544 | Single-item freezing |
+| `[00CAFECC,00CAFED0)` | 000A654C | Single-item sand |
+| `[00CAFED0,00CAFED4)` | 000A6554 | Single-item wind |
+| `[00CAFED4,00CAFED8)` | 00011548 | Plural-item no effect |
+| `[00CAFED8,00CAFEDC)` | 000A6540 | Plural-item burning |
+| `[00CAFEDC,00CAFEE0)` | 000A6548 | Plural-item freezing |
+| `[00CAFEE0,00CAFEE4)` | 000A6550 | Plural-item sand |
+| `[00CAFEE4,00CAFEE8)` | 000A6558 | Plural-item wind |
+| `[00CB0094,00CB0098)` | 00011548 | Additional no-effect reader |
+
+The established startup image begins at ROM 00CAFE88 and initializes EWRAM
+02000000. The two five-pointer arrays at `[00CAFEC0,00CAFEE8)` initialize
+RAM `[02000038,02000060)`. Native selectors 0800AC50 and 0800AC7C load from
+these arrays using the existing signed selector field `[02005F32,02005F34)`;
+the resulting string reaches queue function 0805D3D4. ROM
+`[00CB0094,00CB0098)` initializes RAM `[0200020C,02000210)`, read by
+08047898 (index r10), also reaching that queue. These are existing initialized
+RAM fields with unchanged sizes/lifetimes, not new reservations. Adjacent
+startup-image data remains untouched.
+
+Evidence: original-ROM disassembly in
+`build/reference-coverage-audit/cache-readers.txt`; cold-boot RAM capture and
+controlled native selector/queue execution in
+`build/reference-coverage-audit/cache-runtime/report.json`. The latter pins the
+pre-fix ROM and proves Japanese output. Natural gameplay triggers for the nine
+messages remain additional playtesting coverage; the actual native readers and
+queue are verified independently. See [REFERENCE_COVERAGE.md](REFERENCE_COVERAGE.md).

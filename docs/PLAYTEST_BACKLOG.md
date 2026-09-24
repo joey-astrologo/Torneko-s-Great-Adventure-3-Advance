@@ -255,3 +255,22 @@ playtest evidence without an attached trace/build ID for that action; it does
 not prove the draft unused. The user also confirmed that entering an unlearned
 Plating scroll name fails and chose to retain the learned-list/manual-input
 behavior. Neither report establishes item-effect/save persistence in general.
+
+2026-09-23: **Confirmed post-game mode-menu insertion gap.** A cold-boot replay
+of the supplied post-game save reaches four Japanese labels after name entry.
+See [POSTGAME_MODE_MENU_AUDIT.md](POSTGAME_MODE_MENU_AUDIT.md). This is now a
+reproduced defect requiring four duplicate pointer owners and explicit English
+label assertions, not merely pending natural-mode coverage.
+
+
+2026-09-23 follow-up: **Post-game reference gap repaired.** Build
+`d9fcb4b0ce9219679c22e40cc377ad64f26bd896feecb80ce18d6f28932fd82c`
+passes an exact-English cold-boot replay from a disposable copy of the supplied
+post-game save, plus 21 controlled typed-menu cases. The same audit found and
+repaired eleven RAM-cache references to nine already-translated gameplay
+messages (burning/freezing/sand/wind, single/plural, and no effect). Cold-start
+cache initialization, native selection and queue/history are verified; naturally
+triggering all these item events remains useful additional coverage. The
+original save is unchanged. [REFERENCE_COVERAGE.md](REFERENCE_COVERAGE.md)
+records the audit scope and remaining unverified candidates. Neither these
+tests nor authored-source counts establish whole-game 100% coverage.

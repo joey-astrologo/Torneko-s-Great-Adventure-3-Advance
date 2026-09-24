@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from tools import build_dungeon_save_prompt as current
+from tools import build_reference_coverage as current
 from tools.build_first_label import ORIGINAL_ROM, ROOT, digest
 from tools.translation_pipeline import atomic_write, check
 
@@ -96,6 +96,15 @@ def build():
             save_prompt = save_checks.run(data, save_dir)
             check(save_prompt["rom_sha256"] == target_hash, "Save prompt checks tested a different ROM")
             save_path = save_dir / "report.json"
+            print("Checking expected English in menus, startup caches and post-game replay...", flush=True)
+            from tools import verify_reference_coverage as reference_checks
+            reference_suite = digest(Path(reference_checks.__file__).read_bytes() +
+                                     Path(current.__file__).read_bytes() +
+                                     b''.join(p.read_bytes() for p in reference_checks.FIXTURES))[:16]
+            reference_dir = OUTPUT / "reference-coverage/publication-checks" / target_hash / reference_suite
+            references = reference_checks.run(data, reference_dir)
+            check(references["rom_sha256"] == target_hash, "Reference checks tested a different ROM")
+            reference_path = reference_dir / "report.json"
             print("Creating BPS and checking the complete patched ROM...", flush=True)
             run_flips("--create", "--bps-linear", source, target, patch)
             run_flips("--apply", patch, source, roundtrip)
@@ -138,6 +147,8 @@ def build():
                     "companion_regression_counts": companion["counts"],
                     "save_prompt_regression_report": str(save_path.relative_to(ROOT)),
                     "save_prompt_regression_report_sha256": digest(save_path.read_bytes()),
+                    "reference_coverage_report": str(reference_path.relative_to(ROOT)),
+                    "reference_coverage_report_sha256": digest(reference_path.read_bytes()),
                     "item_regression_counts": item["counts"],
                     "item_regression_report": str(item_path.relative_to(ROOT)),
                     "item_regression_report_sha256": digest(item_path.read_bytes()),

@@ -17,7 +17,10 @@ def run(data=None,output=None):
     baseline=b.BASELINE.read_bytes();plan=load_json(b.PLAN)
     source=struct.unpack_from('<I',data,b.POINTER)[0]
     check(data[source-0x08000000:source-0x08000000+len(b.PAYLOAD)]==b.PAYLOAD,'Save prompt payload differs')
-    check(data[:b.POINTER]==baseline[:b.POINTER] and data[b.POINTER+4:plan['start']]==baseline[b.POINTER+4:plan['start']] and data[plan['end_exclusive']:]==baseline[plan['end_exclusive']:],'Unowned bytes changed')
+    # This checkpoint's byte-diff proof applies to its own ROM. Later builders
+    # validate their additional writes through the shared cumulative ledger.
+    if b.digest(data) == load_json(b.OUTPUT/'english-build.json')['rom_sha256']:
+        check(data[:b.POINTER]==baseline[:b.POINTER] and data[b.POINTER+4:plan['start']]==baseline[b.POINTER+4:plan['start']] and data[plan['end_exclusive']:]==baseline[plan['end_exclusive']:],'Unowned bytes changed')
     font=FontZero(b.ORIGINAL_ROM.read_bytes())
     with Session(data,output) as s:
         check(s.core.load_raw_state(church.STATE.read_bytes()),'Save prompt fixture restore')

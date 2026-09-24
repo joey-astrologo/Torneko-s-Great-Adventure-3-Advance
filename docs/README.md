@@ -20,6 +20,8 @@ are historical unless they match the current build receipt.
 
 ## Current implementation
 
+- [Reference coverage](REFERENCE_COVERAGE.md): duplicate-reader fixes, expected English checks and audit limits.
+
 - [Prose review](PROSE_REVIEW.md): completed bilingual second pass.
 - [Dungeon save prompt](DUNGEON_SAVE_PROMPT.md): compact three-line voice prompt.
 - [Item message joining](ITEM_LINES.md): native icons/colours and acquired gold/items.

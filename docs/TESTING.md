@@ -60,3 +60,20 @@ Start with [PROJECT_STATUS.md](PROJECT_STATUS.md) for current priorities and
 postgame, dungeon suspend/resume and full ending playback remain valuable
 coverage. Report discoveries with the exact build and context; successful
 controlled displays do not establish every natural trigger or save outcome.
+
+
+## Language-reference coverage
+
+`./build.sh` now requires the [reference-coverage suite](REFERENCE_COVERAGE.md),
+including exact expected English in both mode menus, startup-cache message
+readers, and a cold-boot post-game replay. To rerun its component checkpoint:
+
+```sh
+.venv/bin/python -m tools.verify_reference_coverage
+.venv/bin/python -m tools.audit_reference_coverage
+```
+
+The first command fails if an expected label/message returns to Japanese. The
+second writes a read-only diagnostic report against the latest published ROM;
+its raw pointer candidates are not all proven text readers. Full-game coverage
+is not inferred from a zero count of confirmed failures in these fixtures.

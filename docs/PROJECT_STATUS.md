@@ -5,6 +5,8 @@ retain the hashes and evidence for their historical checkpoints.
 
 ## Implemented
 
+- [Reference-coverage repair](REFERENCE_COVERAGE.md): four post-game labels and
+  nine item-effect/no-effect messages, with exact-English publication checks.
 - Verified text catalogs: story, gameplay feedback, menus, items, enemies,
   services, results, name entry and other documented text families.
 - Prose second pass: 7,324 bilingual pairs and 425 compact displays reviewed,
@@ -18,16 +20,19 @@ retain the hashes and evidence for their historical checkpoints.
   fallback when actual substitutions exceed 208px or 59 history bytes.
 - Convenient ROM/BPS outputs and mandatory native menu/combat publication gates.
 
-The current accepted build is `d1a1c0fde279`, full SHA-256
-`d1a1c0fde27919fc3b3ab484d6c6b7cc4995cebc51166df8489b98136da90c80`.
+The current accepted build is `d9fcb4b0ce92`, full SHA-256
+`d9fcb4b0ce9219679c22e40cc377ad64f26bd896feecb80ce18d6f28932fd82c`.
 For subsequent builds, [the receipt](../build/torneko-3-english.json) is the
-artifact authority. The current component is `tools.build_dungeon_save_prompt`.
+artifact authority. The current component is `tools.build_reference_coverage`.
 
 ## Remaining text and research
 
 Ordinary inventory accounting remains **8,422 authored sources + 822 retained
 resources + 74 technically unclassified candidates = 9,318 entries**. This is
-inventory accounting, not a percentage of the game proven complete.
+inventory accounting, not a percentage of the game proven complete. Authored
+English does not prove that every reader was redirected; the
+[reference audit](REFERENCE_COVERAGE.md) records the repaired gaps and remaining
+unverified reference candidates.
 
 The 74 candidates consist of:
 

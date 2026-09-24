@@ -21,7 +21,9 @@ their existing subfolders. The shortcut rebuilds the cumulative English image
 from the Japanese original through the current component builder; it does not
 select a ROM by its modification time or stack proof patches.
 
-The current component is `tools.build_dungeon_save_prompt`. It adds the [compact dungeon save prompt](DUNGEON_SAVE_PROMPT.md) after
+The current component is `tools.build_reference_coverage`. It repairs
+[missing post-game and startup-cache references](REFERENCE_COVERAGE.md), retaining
+the [compact dungeon save prompt](DUNGEON_SAVE_PROMPT.md) and
 [item-aware combat and acquisition joining](ITEM_LINES.md) after the
 [companion-name combat joining](COMPANION_COMBAT.md),
 [medal Trade label](MEDAL_TRADE.md) and
@@ -53,6 +55,12 @@ so its complete patch is **BPS**, with the correct `.bps` extension. BPS include
 source, target and patch checksums. [Floating IPS](https://github.com/Sir-Walrus/Flips)
 creates and applies the patch using its linear BPS encoder. Its executable hash
 and reported version are included in the build receipt.
+
+Every build checks [expected English reference coverage](REFERENCE_COVERAGE.md):
+21 cases across 19 enumerated menu tables, 11 native startup-cache readers, and a
+cold-boot post-game replay. Keep the pinned
+`saves/torneko-3-english-post-game.sav` fixture available; it is used only through
+a disposable copy. The receipt records `reference_coverage_report` and its hash.
 
 Every build also runs the [native item/acquisition suite](ITEM_LINES.md);
 its report and counts are recorded under `item_regression_*` in the receipt.
